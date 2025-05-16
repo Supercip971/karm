@@ -1,0 +1,40 @@
+var namespaceKarm_1_1Async =
+[
+    [ "Tests", "namespaceKarm_1_1Async_1_1Tests.html", [
+      [ "taskOuter", "namespaceKarm_1_1Async_1_1Tests.html#aea908c44ad80e6af9bfd5eb00c045659", null ],
+      [ "taskValue", "namespaceKarm_1_1Async_1_1Tests.html#a28a7e1b1a39284e05d62d9479dbb8816", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a88daa7f79f4969107247aae85b653543", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a35ae17807001b67472510fd7d555da4a", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a98111133c94e895bca237ca8efe76e25", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a4ed5c2797d032792cfb5b787fa957b21", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a03ee340f20b2bd9a2063fb2a3114b1d2", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a1f608aa429891fde67bfe058c148a329", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a04a303f56cb75fb185d3f129edc8653c", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a2373d4164b45231493462fc75e729fb3", null ]
+    ] ],
+    [ "Awaiter", "structKarm_1_1Async_1_1Awaiter.html", "structKarm_1_1Async_1_1Awaiter" ],
+    [ "Cancelation", "structKarm_1_1Async_1_1Cancelation.html", "structKarm_1_1Async_1_1Cancelation" ],
+    [ "Continuation", "structKarm_1_1Async_1_1Continuation.html", "structKarm_1_1Async_1_1Continuation" ],
+    [ "Inline", "structKarm_1_1Async_1_1Inline.html", null ],
+    [ "InlineOrLater", "structKarm_1_1Async_1_1InlineOrLater.html", "structKarm_1_1Async_1_1InlineOrLater" ],
+    [ "Later", "structKarm_1_1Async_1_1Later.html", null ],
+    [ "Null", "structKarm_1_1Async_1_1Null.html", "structKarm_1_1Async_1_1Null" ],
+    [ "One", "structKarm_1_1Async_1_1One.html", "structKarm_1_1Async_1_1One" ],
+    [ "Queue", "structKarm_1_1Async_1_1Queue.html", "structKarm_1_1Async_1_1Queue" ],
+    [ "State", "structKarm_1_1Async_1_1State.html", "structKarm_1_1Async_1_1State" ],
+    [ "Operation", "conceptKarm_1_1Async_1_1Operation.html", null ],
+    [ "Receiver", "conceptKarm_1_1Async_1_1Receiver.html", null ],
+    [ "Sender", "conceptKarm_1_1Async_1_1Sender.html", null ],
+    [ "Ct", "namespaceKarm_1_1Async.html#a84a28fe2198a7d4592c7b8d9ae7edc2d", null ],
+    [ "Future", "namespaceKarm_1_1Async.html#ac982df6cc775113df6d9844c5408dffd", null ],
+    [ "OperationOf", "namespaceKarm_1_1Async.html#abf731c3505af4c13e4b44e5771681048", null ],
+    [ "Promise", "namespaceKarm_1_1Async.html#ae1cd9687a512559d20397a39ddd6ef50", null ],
+    [ "Task", "namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c", null ],
+    [ "Cfp", "namespaceKarm_1_1Async.html#a979dbfb9df43c8f4b720c43338696a40", [
+      [ "INDETERMINATE", "namespaceKarm_1_1Async.html#a979dbfb9df43c8f4b720c43338696a40a717bb676b27571e4f5392a911194842a", null ],
+      [ "PAST_START", "namespaceKarm_1_1Async.html#a979dbfb9df43c8f4b720c43338696a40a69e29e951a6108ff1df10069c790dc52", null ],
+      [ "PAST_SUSPEND", "namespaceKarm_1_1Async.html#a979dbfb9df43c8f4b720c43338696a40a0ebe1fc8e46860bab41eff4806f6764e", null ]
+    ] ],
+    [ "makeTask", "namespaceKarm_1_1Async.html#a4d1cb0dae76fe4666e74b4a1dd98045e", null ],
+    [ "operator co_await", "namespaceKarm_1_1Async.html#ab537230c734bf29b70a8badd67e1744e", null ]
+];

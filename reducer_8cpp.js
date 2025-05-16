@@ -1,0 +1,13 @@
+var reducer_8cpp =
+[
+    [ "Karm::Ui::Model< S, A, R >", "structKarm_1_1Ui_1_1Model.html", "structKarm_1_1Ui_1_1Model" ],
+    [ "Karm::Ui::Reducer< Model >", "structKarm_1_1Ui_1_1Reducer.html", "structKarm_1_1Ui_1_1Reducer" ],
+    [ "Action", "reducer_8cpp.html#ae33e84d87edde37e4a2f159f690aae80", null ],
+    [ "Task", "reducer_8cpp.html#a4d3fe2e4ccaf58c9f01e28bfb8e95633", null ],
+    [ "reducer", "reducer_8cpp.html#a83db936473cbc0d2c4efd8030e33410a", null ],
+    [ "reducer", "reducer_8cpp.html#a17205ad9f8cef05300a94f1dae510c50", null ],
+    [ "state", "reducer_8cpp.html#a9ccd3d7b40bcea96875ce8e31c6bf9ea", null ],
+    [ "state", "reducer_8cpp.html#a893df23917c29e244dc35e7980da977a", null ],
+    [ "module", "reducer_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
+    [ "Ui", "reducer_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c", null ]
+];

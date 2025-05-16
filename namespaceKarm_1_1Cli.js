@@ -1,0 +1,55 @@
+var namespaceKarm_1_1Cli =
+[
+    [ "Tests", "namespaceKarm_1_1Cli_1_1Tests.html", [
+      [ "test$", "namespaceKarm_1_1Cli_1_1Tests.html#a2692c5d27966b10ed08eac89012860fc", null ],
+      [ "testAsync$", "namespaceKarm_1_1Cli_1_1Tests.html#a1337e520e6bdb89686a948554418e24b", null ],
+      [ "testAsync$", "namespaceKarm_1_1Cli_1_1Tests.html#a101a8333e966e97166b757000025afb9", null ]
+    ] ],
+    [ "Cmd", "structKarm_1_1Cli_1_1Cmd.html", "structKarm_1_1Cli_1_1Cmd" ],
+    [ "Command", "structKarm_1_1Cli_1_1Command.html", "structKarm_1_1Cli_1_1Command" ],
+    [ "Option", "structKarm_1_1Cli_1_1Option.html", "structKarm_1_1Cli_1_1Option" ],
+    [ "OptionImpl", "structKarm_1_1Cli_1_1OptionImpl.html", "structKarm_1_1Cli_1_1OptionImpl" ],
+    [ "Style", "structKarm_1_1Cli_1_1Style.html", "structKarm_1_1Cli_1_1Style" ],
+    [ "Styled", "structKarm_1_1Cli_1_1Styled.html", null ],
+    [ "Token", "structKarm_1_1Cli_1_1Token.html", "structKarm_1_1Cli_1_1Token" ],
+    [ "ValueParser", "structKarm_1_1Cli_1_1ValueParser.html", null ],
+    [ "ValueParser< bool >", "structKarm_1_1Cli_1_1ValueParser_3_01bool_01_4.html", null ],
+    [ "ValueParser< isize >", "structKarm_1_1Cli_1_1ValueParser_3_01isize_01_4.html", null ],
+    [ "ValueParser< Opt< T > >", "structKarm_1_1Cli_1_1ValueParser_3_01Opt_3_01T_01_4_01_4.html", null ],
+    [ "ValueParser< Str >", "structKarm_1_1Cli_1_1ValueParser_3_01Str_01_4.html", null ],
+    [ "ValueParser< Vec< T > >", "structKarm_1_1Cli_1_1ValueParser_3_01Vec_3_01T_01_4_01_4.html", null ],
+    [ "Flag", "namespaceKarm_1_1Cli.html#a62dfccd12407e397cab6854be10e96f5", null ],
+    [ "Color", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754f", [
+      [ "_COLOR_UNDEF", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754f", null ],
+      [ "BLACK", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa4b9e613c3f4b8271d8eecd6f5c4a2adf", null ],
+      [ "RED", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa59b03d9254ad9bfcf7fe953585935e68", null ],
+      [ "GREEN", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa78f69d15cceba3dd59c2ad7ac7ef2850", null ],
+      [ "YELLOW", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa376f038848753006e2977f46d9611209", null ],
+      [ "BLUE", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fad6c63ca0c776f753171f464f73a759ae", null ],
+      [ "MAGENTA", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa8f02fe42cf7583245e8902e8c3657219", null ],
+      [ "CYAN", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa3c1f2693ae63916ab2ac3f098c845e03", null ],
+      [ "GRAY_LIGHT", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa8c925a054bf8da9695887fe87d2edae0", null ],
+      [ "GRAY_DARK", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754faac96730613224deb1c3dc663a3dcd346", null ],
+      [ "RED_LIGHT", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa917f068fa72801895f4fa5dcda2f7ef7", null ],
+      [ "GREEN_LIGHT", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa465757cad114db209d25d3ff8755f26d", null ],
+      [ "YELLOW_LIGHT", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa4e51d2c91076ec82d3cceda9b0a44367", null ],
+      [ "BLUE_LIGHT", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa9c5a3c5d50b4f9b9d49831df6d9f0e74", null ],
+      [ "MAGENTA_LIGHT", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754faf5cfb97345e3f20c25cfeb43458b3f16", null ],
+      [ "CYAN_LIGHT", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa20a83d720c8bf505d4d6867d81168bf2", null ],
+      [ "WHITE", "namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa98fa024db329831af2149e2d0c6e87aa", null ]
+    ] ],
+    [ "OptionKind", "namespaceKarm_1_1Cli.html#adad269924e06d6f9a5c912b24b17bf93", [
+      [ "OPTION", "namespaceKarm_1_1Cli.html#adad269924e06d6f9a5c912b24b17bf93ae1c4a02aed2e485ae96bc5a5b1d01ee5", null ],
+      [ "OPERAND", "namespaceKarm_1_1Cli.html#adad269924e06d6f9a5c912b24b17bf93a11f3de9b2b548c31805cf34d512ee177", null ],
+      [ "EXTRA", "namespaceKarm_1_1Cli.html#adad269924e06d6f9a5c912b24b17bf93aa21f6af4d39dbd2643527651dd4e694b", null ]
+    ] ],
+    [ "reset", "namespaceKarm_1_1Cli.html#a5b31775ab0bd690392da40e6cc560201", null ],
+    [ "style", "namespaceKarm_1_1Cli.html#a679f58ee86a33a5179beaecdef2178c3", null ],
+    [ "styled", "namespaceKarm_1_1Cli.html#ad68601bc89164bcdfa3c10f428351625", null ],
+    [ "tokenize", "namespaceKarm_1_1Cli.html#af40750f397b4b64c5139872dbd1e2bd3", null ],
+    [ "tokenize", "namespaceKarm_1_1Cli.html#a5532d1866567a9adfd9970a33c27c5de", null ],
+    [ "tokenize", "namespaceKarm_1_1Cli.html#ab0e47e6d18bb1c7aff5f56ef05b64907", null ],
+    [ "COLORS", "namespaceKarm_1_1Cli.html#aa988137c32719edff89dc5df7c1184ef", null ],
+    [ "DARK_COLORS", "namespaceKarm_1_1Cli.html#abd79801907c243aaa4c02d5be51b1f3e", null ],
+    [ "LIGHT_COLORS", "namespaceKarm_1_1Cli.html#a94dc39c2c02d560a2006858686731913", null ]
+];

@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['o_0',['o',['../unionKarm_1_1Math_1_1Trans2.html#a9b7cb2da0ce7c60606ea908a609817fe',1,'Karm::Math::Trans2::o()'],['../namespaceKarm.html#a036724bd08905e4572a1545aed2adf19',1,'Karm::o()']]],
+  ['o_1',['O',['../namespaceKarm.html#a812f017b8cc13df6dada1cb5773c00fe',1,'Karm']]],
+  ['o_2',['o',['../structKarm_1_1Math_1_1Ray.html#ad97c4fc4439a7a6863eb175f9798e71e',1,'Karm::Math::Ray']]],
+  ['objects_3',['objects',['../structKarm_1_1Sys_1_1Intent.html#ae700b094aed044233a387495b8a16929',1,'Karm::Sys::Intent']]],
+  ['offs_4',['offs',['../structJpeg_1_1Huff.html#a316be6c2c24b784fc758e636c5edd397',1,'Jpeg::Huff']]],
+  ['offset_5',['offset',['../structKarm_1_1Gfx_1_1Outline.html#a67f6120bd56c83fb000a7d29a95b8dbf',1,'Karm::Gfx::Outline::offset()'],['../structTtf_1_1Name_1_1Record.html#ab9f36019fa8260d21f4a95b2172db6b4',1,'Ttf::Name::Record::offset()'],['../structKarm_1_1Sys_1_1MmapOptions.html#a676b05f2677db941fd801426707afada',1,'Karm::Sys::MmapOptions::offset()'],['../structKarm_1_1Io_1_1Seek.html#afb108ff405e0509c6af50ed077bf5cb9',1,'Karm::Io::Seek::offset()'],['../structKarm_1_1Gfx_1_1BoxShadow.html#aa54cefc5569f37143835c41373d470a4',1,'Karm::Gfx::BoxShadow::offset()'],['../structKarm_1_1Io_1_1BField.html#a4378da38115ad9fb50f96e31d05bd0aa',1,'Karm::Io::BField::offset()'],['../structKarm_1_1Pdf_1_1XRef_1_1Entry.html#a85fb7465d44a1ea7907ccdbfdbe6dda7',1,'Karm::Pdf::XRef::Entry::offset()']]],
+  ['on_5fcurve_5fpoint_6',['ON_CURVE_POINT',['../structTtf_1_1Glyf.html#afc09819ff3674de286d21b241c91c6f9',1,'Ttf::Glyf']]],
+  ['one_7',['ONE',['../unionKarm_1_1Math_1_1Vec2.html#a97f89edeec0a77e045c4ae9e8d19295a',1,'Karm::Math::Vec2::ONE()'],['../unionKarm_1_1Math_1_1Rect.html#a6b111c890fb3ffcd1a40d08ea9f9709a',1,'Karm::Math::Rect::ONE()']]],
+  ['op_8',['op',['../structKarm_1_1Text_1_1Action.html#a838c42a7ccb0268ef04fe1a56aa09416',1,'Karm::Text::Action::op()'],['../structKarm_1_1Text_1_1Model_1_1Record.html#af5d09a5ed6dcab6dd5c151360d0f28e5',1,'Karm::Text::Model::Record::op()'],['../structKarm_1_1Jit_1_1Inst.html#a7ad3709cec44c12a4cea80921ad39a16',1,'Karm::Jit::Inst::op()']]],
+  ['options_9',['options',['../structKarm_1_1Cli_1_1Command.html#a4f05fe362d986733a905131551d0812d',1,'Karm::Cli::Command']]],
+  ['order_10',['order',['../structKarm_1_1Base_1_1Foo.html#af50d304c5e3753380a1afdfa379942d2',1,'Karm::Base::Foo']]],
+  ['ordering_11',['ordering',['../structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a64e32ac1c373b66a88b2e4337761b1da',1,'Karm::Print::TrueTypeFontAdapter']]],
+  ['orientation_12',['orientation',['../structKarm_1_1Print_1_1Settings.html#aa04c4a9de0fb9fee3cf9321ae8eecdc4',1,'Karm::Print::Settings']]],
+  ['originx_13',['originX',['../structTga_1_1Header.html#af641d406be0a1a0ee2930d36d5f8c6e7',1,'Tga::Header']]],
+  ['originy_14',['originY',['../structTga_1_1Header.html#a41c7f8e4f16f068f00b16ab034cbe3c5',1,'Tga::Header']]],
+  ['out_15',['out',['../structKarm_1_1Jit_1_1Inst.html#a79c5a7dd443db0d9b6209ef4359c0953',1,'Karm::Jit::Inst::out()'],['../structKarm_1_1Sys_1_1Pipe.html#af2f7facabe244f3893c3bdb21b590961',1,'Karm::Sys::Pipe::out()']]],
+  ['overlay_5fsimple_16',['OVERLAY_SIMPLE',['../structTtf_1_1Glyf.html#a08f9ddb56fd2ab024939e957fba352be',1,'Ttf::Glyf']]],
+  ['ox_17',['ox',['../unionKarm_1_1Math_1_1Trans2.html#ac8755f70f27226fdb339d03807868027',1,'Karm::Math::Trans2']]],
+  ['oy_18',['oy',['../unionKarm_1_1Math_1_1Trans2.html#a349ef2986f56b64a7efcdeac93b61ba3',1,'Karm::Math::Trans2']]]
+];

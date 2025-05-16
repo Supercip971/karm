@@ -1,0 +1,939 @@
+var hierarchy =
+[
+    [ "Karm::Io::_Args", null, [
+      [ "Karm::Io::Args< Ts >", "structKarm_1_1Io_1_1Args.html", null ]
+    ] ],
+    [ "Karm::_Cell< L >", null, [
+      [ "Karm::Cell< L, T >", "structKarm_1_1Cell.html", null ]
+    ] ],
+    [ "Sys::_Connection", null, [
+      [ "Tls::TlsConnection", "structTls_1_1TlsConnection.html", null ]
+    ] ],
+    [ "Karm::Cli::_OptionImpl", null, [
+      [ "Karm::Cli::OptionImpl< T >", "structKarm_1_1Cli_1_1OptionImpl.html", null ]
+    ] ],
+    [ "Karm::_String< Utf8 >", null, [
+      [ "Karm::Pdf::Name", "structKarm_1_1Pdf_1_1Name.html", null ]
+    ] ],
+    [ "Karm::_Vec< S, T >", null, [
+      [ "Karm::Pdf::Array", "structKarm_1_1Pdf_1_1Array.html", null ]
+    ] ],
+    [ "Karm::Func< Out(In...)>::_Wrap", null, [
+      [ "Karm::Func< Out(In...)>::Wrap< F >", "structKarm_1_1Func_3_01Out_07In_8_8_8_08_4_1_1Wrap.html", null ]
+    ] ],
+    [ "Karm::SharedFunc< Out(In...)>::_Wrap", null, [
+      [ "Karm::SharedFunc< Out(In...)>::Wrap< F >", "structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4_1_1Wrap.html", null ]
+    ] ],
+    [ "Karm::Text::Action", "structKarm_1_1Text_1_1Action.html", null ],
+    [ "Karm::Gfx::CpuRast::Active", "structKarm_1_1Gfx_1_1CpuRast_1_1Active.html", null ],
+    [ "Karm::Math::Align", "structKarm_1_1Math_1_1Align.html", null ],
+    [ "Karm::Io::Aligned< T >", "structKarm_1_1Io_1_1Aligned.html", null ],
+    [ "Karm::Ui::Node::AnimateEvent", "structKarm_1_1Ui_1_1Node_1_1AnimateEvent.html", null ],
+    [ "Karm::Net::Dns::Answer", "structKarm_1_1Net_1_1Dns_1_1Answer.html", null ],
+    [ "Karm::Math::Arc< T >", "unionKarm_1_1Math_1_1Arc.html", null ],
+    [ "Karm::Array< T, N >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< BorderStyle, 4 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< Karm::Gfx::Fill, 4 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< Karm::Math::Vec2< T >, 2 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< Karm::Math::Vec3< T >, 3 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< Karm::Math::Vec4< T >, 4 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< T, 8 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< u16, 8 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< u8, 1024 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< u8, 4 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Array< u8, 8 >", "structKarm_1_1Array.html", null ],
+    [ "Karm::Ascii", "structKarm_1_1Ascii.html", null ],
+    [ "Karm::Atomic< T >", "structKarm_1_1Atomic.html", null ],
+    [ "Karm::Io::AtoxOptions", "structKarm_1_1Io_1_1AtoxOptions.html", null ],
+    [ "Karm::Text::BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", null ],
+    [ "Io::BChunk", null, [
+      [ "Png::Idat", "structPng_1_1Idat.html", null ],
+      [ "Png::Iend", "structPng_1_1Iend.html", null ],
+      [ "Png::Ihdr", "structPng_1_1Ihdr.html", null ],
+      [ "Png::Plte", "structPng_1_1Plte.html", null ],
+      [ "Qoi::Decoder", "structQoi_1_1Decoder.html", null ],
+      [ "Ttf::ClassDef", "structTtf_1_1ClassDef.html", null ],
+      [ "Ttf::Cmap", "structTtf_1_1Cmap.html", null ],
+      [ "Ttf::CoverageTable", "structTtf_1_1CoverageTable.html", null ],
+      [ "Ttf::FeatureList", "structTtf_1_1FeatureList.html", null ],
+      [ "Ttf::FeatureTable", "structTtf_1_1FeatureTable.html", null ],
+      [ "Ttf::Glyf", "structTtf_1_1Glyf.html", null ],
+      [ "Ttf::Gpos", "structTtf_1_1Gpos.html", null ],
+      [ "Ttf::Gsub", "structTtf_1_1Gsub.html", null ],
+      [ "Ttf::Head", "structTtf_1_1Head.html", null ],
+      [ "Ttf::Hhea", "structTtf_1_1Hhea.html", null ],
+      [ "Ttf::Hmtx", "structTtf_1_1Hmtx.html", null ],
+      [ "Ttf::LangSys", "structTtf_1_1LangSys.html", null ],
+      [ "Ttf::Loca", "structTtf_1_1Loca.html", null ],
+      [ "Ttf::LookupList", "structTtf_1_1LookupList.html", null ],
+      [ "Ttf::LookupSubtableBase", "structTtf_1_1LookupSubtableBase.html", [
+        [ "Ttf::ClassPairAdjustment", "structTtf_1_1ClassPairAdjustment.html", null ],
+        [ "Ttf::GlyphPairAdjustment", "structTtf_1_1GlyphPairAdjustment.html", null ]
+      ] ],
+      [ "Ttf::LookupTable", "structTtf_1_1LookupTable.html", null ],
+      [ "Ttf::Maxp", "structTtf_1_1Maxp.html", null ],
+      [ "Ttf::Name", "structTtf_1_1Name.html", null ],
+      [ "Ttf::Os2", "structTtf_1_1Os2.html", null ],
+      [ "Ttf::Post", "structTtf_1_1Post.html", null ],
+      [ "Ttf::ScriptList", "structTtf_1_1ScriptList.html", null ],
+      [ "Ttf::ScriptTable", "structTtf_1_1ScriptTable.html", null ]
+    ] ],
+    [ "Karm::Io::BChunk", "structKarm_1_1Io_1_1BChunk.html", null ],
+    [ "Karm::Be< T >", "structKarm_1_1Be.html", null ],
+    [ "Karm::Be< u16 >", "structKarm_1_1Be.html", null ],
+    [ "Karm::Io::BEmit", "structKarm_1_1Io_1_1BEmit.html", [
+      [ "Karm::Io::PackEmit", "structKarm_1_1Io_1_1PackEmit.html", null ]
+    ] ],
+    [ "Karm::Io::BField< T, Offset >", "structKarm_1_1Io_1_1BField.html", null ],
+    [ "Karm::Gfx::Bgra8888", "structKarm_1_1Gfx_1_1Bgra8888.html", null ],
+    [ "Karm::Icu::Bidi", "structKarm_1_1Icu_1_1Bidi.html", null ],
+    [ "Karm::Math::BigFrac", "structKarm_1_1Math_1_1BigFrac.html", null ],
+    [ "Karm::Math::BinaryExpr", "structKarm_1_1Math_1_1BinaryExpr.html", null ],
+    [ "Jpeg::BitReader", "structJpeg_1_1BitReader.html", null ],
+    [ "Karm::Io::BitReader", "structKarm_1_1Io_1_1BitReader.html", null ],
+    [ "Karm::Bits", "structKarm_1_1Bits.html", null ],
+    [ "Jpeg::BitWriter", "structJpeg_1_1BitWriter.html", null ],
+    [ "Karm::Kv::Blob", "structKarm_1_1Kv_1_1Blob.html", null ],
+    [ "Karm::Jit::Block", "structKarm_1_1Jit_1_1Block.html", null ],
+    [ "Karm::Text::Prose::Block", "structKarm_1_1Text_1_1Prose_1_1Block.html", null ],
+    [ "Karm::Gfx::BlurFilter", "structKarm_1_1Gfx_1_1BlurFilter.html", null ],
+    [ "Karm::Gfx::Borders", "structKarm_1_1Gfx_1_1Borders.html", null ],
+    [ "Karm::Box< T >", "structKarm_1_1Box.html", null ],
+    [ "Karm::Gfx::BoxShadow", "structKarm_1_1Gfx_1_1BoxShadow.html", null ],
+    [ "Karm::Ui::BoxStyle", "structKarm_1_1Ui_1_1BoxStyle.html", null ],
+    [ "Karm::Gfx::BrightnessFilter", "structKarm_1_1Gfx_1_1BrightnessFilter.html", null ],
+    [ "Karm::Io::BScan", "structKarm_1_1Io_1_1BScan.html", [
+      [ "Karm::Io::PackScan", "structKarm_1_1Io_1_1PackScan.html", null ]
+    ] ],
+    [ "Karm::Buf< T >", "structKarm_1_1Buf.html", null ],
+    [ "Karm::Buf< u8 >", "structKarm_1_1Buf.html", null ],
+    [ "Karm::Gpu::Buffer", "structKarm_1_1Gpu_1_1Buffer.html", null ],
+    [ "Karm::Gfx::Gradient::Builder", "structKarm_1_1Gfx_1_1Gradient_1_1Builder.html", null ],
+    [ "Karm::Pkg::BundleInfo", "structKarm_1_1Pkg_1_1BundleInfo.html", null ],
+    [ "Karm::Ui::ButtonStyle", "structKarm_1_1Ui_1_1ButtonStyle.html", null ],
+    [ "Karm::Gfx::Cap", "structKarm_1_1Gfx_1_1Cap.html", null ],
+    [ "Karm::Io::Cased< T >", "structKarm_1_1Io_1_1Cased.html", null ],
+    [ "Karm::Gc::Cell", "structKarm_1_1Gc_1_1Cell.html", null ],
+    [ "Karm::Text::Prose::Cell", "structKarm_1_1Text_1_1Prose_1_1Cell.html", null ],
+    [ "Karm::Net::Dns::Client", "structKarm_1_1Net_1_1Dns_1_1Client.html", null ],
+    [ "Karm::Ui::CloseDialogEvent", "structKarm_1_1Ui_1_1CloseDialogEvent.html", null ],
+    [ "Karm::Ui::ClosePopoverEvent", "structKarm_1_1Ui_1_1ClosePopoverEvent.html", null ],
+    [ "Karm::Cli::Cmd", "structKarm_1_1Cli_1_1Cmd.html", null ],
+    [ "Karm::Gfx::Color", "structKarm_1_1Gfx_1_1Color.html", null ],
+    [ "Karm::Gpu::CommandBuffer", "structKarm_1_1Gpu_1_1CommandBuffer.html", null ],
+    [ "Jpeg::Decoder::Component", "structJpeg_1_1Decoder_1_1Component.html", null ],
+    [ "Karm::Sys::CondVar", "structKarm_1_1Sys_1_1CondVar.html", null ],
+    [ "Karm::Av::AudioStream::Configs", "structKarm_1_1Av_1_1AudioStream_1_1Configs.html", null ],
+    [ "Karm::Niche< bool >::Content", "structKarm_1_1Niche_3_01bool_01_4_1_1Content.html", null ],
+    [ "Karm::Niche< Box< T > >::Content", "structKarm_1_1Niche_3_01Box_3_01T_01_4_01_4_1_1Content.html", null ],
+    [ "Karm::Niche< Buf< T > >::Content", "structKarm_1_1Niche_3_01Buf_3_01T_01_4_01_4_1_1Content.html", [
+      [ "Karm::Niche< ViewBuf< T > >::Content", "structKarm_1_1Niche_3_01ViewBuf_3_01T_01_4_01_4_1_1Content.html", null ]
+    ] ],
+    [ "Karm::Niche< Slice< T > >::Content", "structKarm_1_1Niche_3_01Slice_3_01T_01_4_01_4_1_1Content.html", [
+      [ "Karm::Niche< MutSlice< T > >::Content", "structKarm_1_1Niche_3_01MutSlice_3_01T_01_4_01_4_1_1Content.html", null ]
+    ] ],
+    [ "Karm::Niche< T >::Content", "structKarm_1_1Niche_3_01T_01_4_1_1Content.html", [
+      [ "Karm::Niche< Array< T, N > >::Content", "structKarm_1_1Niche_3_01Array_3_01T_00_01N_01_4_01_4_1_1Content.html", null ]
+    ] ],
+    [ "Karm::Niche< Union< Ts... > >::Content", "structKarm_1_1Niche_3_01Union_3_01Ts_8_8_8_01_4_01_4_1_1Content.html", null ],
+    [ "Karm::Async::Continuation< T >", "structKarm_1_1Async_1_1Continuation.html", null ],
+    [ "Karm::Async::Continuation< S::Inner >", "structKarm_1_1Async_1_1Continuation.html", [
+      [ "Karm::Async::Awaiter< S >", "structKarm_1_1Async_1_1Awaiter.html", null ]
+    ] ],
+    [ "Karm::Math::Path::Contour", "structKarm_1_1Math_1_1Path_1_1Contour.html", null ],
+    [ "Karm::Gfx::ContrastFilter", "structKarm_1_1Gfx_1_1ContrastFilter.html", null ],
+    [ "Karm::Copy", "structKarm_1_1Copy.html", null ],
+    [ "Karm::Cow< T >", "structKarm_1_1Cow.html", null ],
+    [ "Karm::Sys::CpuInfo", "structKarm_1_1Sys_1_1CpuInfo.html", null ],
+    [ "Karm::Gfx::CpuRast", "structKarm_1_1Gfx_1_1CpuRast.html", null ],
+    [ "Karm::Crypto::Crc32", "structKarm_1_1Crypto_1_1Crc32.html", null ],
+    [ "Karm::Text::Model::Cur", "structKarm_1_1Text_1_1Model_1_1Cur.html", null ],
+    [ "Karm::Cursor< T >", "structKarm_1_1Cursor.html", null ],
+    [ "Karm::Math::Curve< T >", "unionKarm_1_1Math_1_1Curve.html", null ],
+    [ "Karm::Date", "structKarm_1_1Date.html", null ],
+    [ "Karm::DateTime", "structKarm_1_1DateTime.html", null ],
+    [ "Karm::Day", "structKarm_1_1Day.html", null ],
+    [ "Karm::DayOfWeek", "structKarm_1_1DayOfWeek.html", null ],
+    [ "Bmp::Decoder", "structBmp_1_1Decoder.html", null ],
+    [ "Gif::Decoder", "structGif_1_1Decoder.html", null ],
+    [ "Jpeg::Decoder", "structJpeg_1_1Decoder.html", null ],
+    [ "Png::Decoder", "structPng_1_1Decoder.html", null ],
+    [ "Tga::Decoder", "structTga_1_1Decoder.html", null ],
+    [ "Karm::Gpu::Device", "structKarm_1_1Gpu_1_1Device.html", null ],
+    [ "Karm::Sys::Dir", "structKarm_1_1Sys_1_1Dir.html", null ],
+    [ "Karm::Sys::DirEntry", "structKarm_1_1Sys_1_1DirEntry.html", null ],
+    [ "Karm::App::Dispatch", "structKarm_1_1App_1_1Dispatch.html", [
+      [ "Karm::Ui::Node", "structKarm_1_1Ui_1_1Node.html", [
+        [ "Karm::Ui::LeafNode< Checkbox >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Clock >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< ContextMenu >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< HsvSquare >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Progress >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Radio >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Resizable >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Separator >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Toggle >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Align >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< AspectRatio >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< BackgroundFilter >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Bound >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Box >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Button >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Canvas >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Carousel >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Cell >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Clip >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< DialogLayer >", "structKarm_1_1Ui_1_1LeafNode.html", [
+          [ "Karm::Ui::DialogLayer", "structKarm_1_1Ui_1_1DialogLayer.html", null ]
+        ] ],
+        [ "Karm::Ui::LeafNode< Dismisable >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< DragRegion >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Empty >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< FlowLayout >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Focusable >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< ForegroundFilter >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< GridLayout >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Grow >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Icon >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Image >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Input >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Insets >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Intent >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Placed >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< PopoverLayer >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Reducer< Model > >", "structKarm_1_1Ui_1_1LeafNode.html", [
+          [ "Karm::Ui::Reducer< Model >", "structKarm_1_1Ui_1_1Reducer.html", null ]
+        ] ],
+        [ "Karm::Ui::LeafNode< ScaleIn >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< SceneCanvas >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Scroll >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< SimpleInput >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Sizing >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< SlideIn >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Slider >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< StackLayout >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Text >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::Host", "structKarm_1_1Ui_1_1Host.html", null ],
+        [ "Karm::Ui::LeafNode< Crtp >", "structKarm_1_1Ui_1_1LeafNode.html", [
+          [ "Karm::Ui::GroupNode< Carousel >", "structKarm_1_1Ui_1_1GroupNode.html", [
+            [ "Karm::Ui::Carousel", "structKarm_1_1Ui_1_1Carousel.html", null ]
+          ] ],
+          [ "Karm::Ui::GroupNode< FlowLayout >", "structKarm_1_1Ui_1_1GroupNode.html", [
+            [ "Karm::Ui::FlowLayout", "structKarm_1_1Ui_1_1FlowLayout.html", null ]
+          ] ],
+          [ "Karm::Ui::GroupNode< GridLayout >", "structKarm_1_1Ui_1_1GroupNode.html", [
+            [ "Karm::Ui::GridLayout", "structKarm_1_1Ui_1_1GridLayout.html", null ]
+          ] ],
+          [ "Karm::Ui::GroupNode< StackLayout >", "structKarm_1_1Ui_1_1GroupNode.html", [
+            [ "Karm::Ui::StackLayout", "structKarm_1_1Ui_1_1StackLayout.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< ContextMenu >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Kira::ContextMenu", "structKarm_1_1Kira_1_1ContextMenu.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Resizable >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Kira::Resizable", "structKarm_1_1Kira_1_1Resizable.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Align >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Align", "structKarm_1_1Ui_1_1Align.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< AspectRatio >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::AspectRatio", "structKarm_1_1Ui_1_1AspectRatio.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< BackgroundFilter >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::BackgroundFilter", "structKarm_1_1Ui_1_1BackgroundFilter.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Bound >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Bound", "structKarm_1_1Ui_1_1Bound.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Box >", "structKarm_1_1Ui_1_1ProxyNode.html", null ],
+          [ "Karm::Ui::ProxyNode< Button >", "structKarm_1_1Ui_1_1ProxyNode.html", null ],
+          [ "Karm::Ui::ProxyNode< Cell >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Cell", "structKarm_1_1Ui_1_1Cell.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Clip >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Clip", "structKarm_1_1Ui_1_1Clip.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Dismisable >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Dismisable", "structKarm_1_1Ui_1_1Dismisable.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< DragRegion >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::DragRegion", "structKarm_1_1Ui_1_1DragRegion.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Focusable >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Focusable", "structKarm_1_1Ui_1_1Focusable.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< ForegroundFilter >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::ForegroundFilter", "structKarm_1_1Ui_1_1ForegroundFilter.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Grow >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Grow", "structKarm_1_1Ui_1_1Grow.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Insets >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Insets", "structKarm_1_1Ui_1_1Insets.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Intent >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Intent", "structKarm_1_1Ui_1_1Intent.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Placed >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Placed", "structKarm_1_1Ui_1_1Placed.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< PopoverLayer >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::PopoverLayer", "structKarm_1_1Ui_1_1PopoverLayer.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< ScaleIn >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::ScaleIn", "structKarm_1_1Ui_1_1ScaleIn.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Scroll >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Scroll", "structKarm_1_1Ui_1_1Scroll.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Sizing >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Sizing", "structKarm_1_1Ui_1_1Sizing.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< SlideIn >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::SlideIn", "structKarm_1_1Ui_1_1SlideIn.html", null ]
+          ] ],
+          [ "Karm::Ui::ProxyNode< Slider >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::Slider", "structKarm_1_1Ui_1_1Slider.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Checkbox >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::Checkbox", "structKarm_1_1Kira_1_1Checkbox.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Clock >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::Clock", "structKarm_1_1Kira_1_1Clock.html", null ]
+          ] ],
+          [ "Karm::Ui::View< HsvSquare >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::HsvSquare", "structKarm_1_1Kira_1_1HsvSquare.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Progress >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::Progress", "structKarm_1_1Kira_1_1Progress.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Radio >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::Radio", "structKarm_1_1Kira_1_1Radio.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Separator >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::Separator", "structKarm_1_1Kira_1_1Separator.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Toggle >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::Toggle", "structKarm_1_1Kira_1_1Toggle.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Canvas >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::Canvas", "structKarm_1_1Ui_1_1Canvas.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Empty >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::Empty", "structKarm_1_1Ui_1_1Empty.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Icon >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::Icon", "structKarm_1_1Ui_1_1Icon.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Image >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::Image", "structKarm_1_1Ui_1_1Image.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Input >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::Input", "structKarm_1_1Ui_1_1Input.html", null ]
+          ] ],
+          [ "Karm::Ui::View< SceneCanvas >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::SceneCanvas", "structKarm_1_1Ui_1_1SceneCanvas.html", null ]
+          ] ],
+          [ "Karm::Ui::View< SimpleInput >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::SimpleInput", "structKarm_1_1Ui_1_1SimpleInput.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Text >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Ui::Text", "structKarm_1_1Ui_1_1Text.html", null ]
+          ] ],
+          [ "Karm::Ui::GroupNode< Crtp >", "structKarm_1_1Ui_1_1GroupNode.html", null ],
+          [ "Karm::Ui::ProxyNode< Crtp >", "structKarm_1_1Ui_1_1ProxyNode.html", [
+            [ "Karm::Ui::_Box< Box >", null, [
+              [ "Karm::Ui::Box", "structKarm_1_1Ui_1_1Box.html", null ]
+            ] ],
+            [ "Karm::Ui::_Box< Button >", null, [
+              [ "Karm::Ui::Button", "structKarm_1_1Ui_1_1Button.html", null ]
+            ] ]
+          ] ],
+          [ "Karm::Ui::View< Crtp >", "structKarm_1_1Ui_1_1View.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "Distinct", null, [
+      [ "Tls::CipherSuite", "structTls_1_1CipherSuite.html", null ]
+    ] ],
+    [ "Karm::Distinct< T, Tag >", "structKarm_1_1Distinct.html", null ],
+    [ "Karm::Distinct< u16, struct _FontStretchTag >", "structKarm_1_1Distinct.html", [
+      [ "Karm::Text::FontStretch", "structKarm_1_1Text_1_1FontStretch.html", null ]
+    ] ],
+    [ "Karm::Distinct< u16, struct _FontWeightTag >", "structKarm_1_1Distinct.html", [
+      [ "Karm::Text::FontWeight", "structKarm_1_1Text_1_1FontWeight.html", null ]
+    ] ],
+    [ "Karm::Distinct< u64, struct _PortTag >", "structKarm_1_1Distinct.html", [
+      [ "Karm::Rpc::Port", "structKarm_1_1Rpc_1_1Port.html", null ]
+    ] ],
+    [ "Karm::Ui::DragEvent", "structKarm_1_1Ui_1_1DragEvent.html", null ],
+    [ "Karm::Test::Driver", "structKarm_1_1Test_1_1Driver.html", null ],
+    [ "Karm::Duration", "structKarm_1_1Duration.html", null ],
+    [ "Karm::EAscii< Mapper >", "structKarm_1_1EAscii.html", null ],
+    [ "Karm::Ui::Eased< T >", "structKarm_1_1Ui_1_1Eased.html", null ],
+    [ "Karm::Ui::Eased2< T >", "structKarm_1_1Ui_1_1Eased2.html", null ],
+    [ "Karm::Math::Easing", "structKarm_1_1Math_1_1Easing.html", null ],
+    [ "Karm::Math::Edge< T >", "unionKarm_1_1Math_1_1Edge.html", null ],
+    [ "Karm::Math::Ellipse< T >", "unionKarm_1_1Math_1_1Ellipse.html", null ],
+    [ "Karm::Pdf::XRef::Entry", "structKarm_1_1Pdf_1_1XRef_1_1Entry.html", null ],
+    [ "Karm::Error", "structKarm_1_1Error.html", null ],
+    [ "Karm::App::Event", "structKarm_1_1App_1_1Event.html", null ],
+    [ "Karm::Shader::Expr", "structKarm_1_1Shader_1_1Expr.html", null ],
+    [ "Sys::Fd", null, [
+      [ "Posix::Fd", "structPosix_1_1Fd.html", null ]
+    ] ],
+    [ "Karm::Pdf::File", "structKarm_1_1Pdf_1_1File.html", null ],
+    [ "Karm::Print::FilePrinterProps", "structKarm_1_1Print_1_1FilePrinterProps.html", null ],
+    [ "Karm::Gfx::FilterChain", "structKarm_1_1Gfx_1_1FilterChain.html", null ],
+    [ "Karm::Math::Fixed< T, _F >", "structKarm_1_1Math_1_1Fixed.html", null ],
+    [ "Ttf::Fixed", "structTtf_1_1Fixed.html", null ],
+    [ "Karm::Math::Fixed< T, F >", "structKarm_1_1Math_1_1Fixed.html", null ],
+    [ "Karm::Flags< E >", "structKarm_1_1Flags.html", null ],
+    [ "Karm::Math::FloatBits< T >", "unionKarm_1_1Math_1_1FloatBits.html", null ],
+    [ "Karm::Math::FloatBits< f32 >", "unionKarm_1_1Math_1_1FloatBits_3_01f32_01_4.html", null ],
+    [ "Karm::Math::FloatBits< f64 >", "unionKarm_1_1Math_1_1FloatBits_3_01f64_01_4.html", null ],
+    [ "Karm::Math::Flow", "structKarm_1_1Math_1_1Flow.html", null ],
+    [ "Karm::Ui::FlowStyle", "structKarm_1_1Ui_1_1FlowStyle.html", null ],
+    [ "Karm::Io::Flusher", "structKarm_1_1Io_1_1Flusher.html", [
+      [ "Karm::Io::BufferWriter", "structKarm_1_1Io_1_1BufferWriter.html", null ],
+      [ "Karm::Io::TextWriter", "structKarm_1_1Io_1_1TextWriter.html", [
+        [ "Karm::Io::TextEncoderBase< typename Sys::Encoding >", "structKarm_1_1Io_1_1TextEncoderBase.html", null ],
+        [ "Karm::Io::Emit", "structKarm_1_1Io_1_1Emit.html", null ],
+        [ "Karm::Io::TextEncoderBase< E >", "structKarm_1_1Io_1_1TextEncoderBase.html", [
+          [ "Karm::Io::TextEncoder< E >", "structKarm_1_1Io_1_1TextEncoder.html", null ],
+          [ "Karm::Sys::Err", "structKarm_1_1Sys_1_1Err.html", null ],
+          [ "Karm::Sys::Out", "structKarm_1_1Sys_1_1Out.html", null ]
+        ] ]
+      ] ],
+      [ "Karm::Sys::MutMmap", "structKarm_1_1Sys_1_1MutMmap.html", null ],
+      [ "Karm::Sys::_Connection", null, [
+        [ "Karm::Sys::Connection", "structKarm_1_1Sys_1_1Connection.html", [
+          [ "Karm::Sys::TcpConnection", "structKarm_1_1Sys_1_1TcpConnection.html", null ]
+        ] ]
+      ] ],
+      [ "Karm::Sys::_File", null, [
+        [ "Karm::Sys::FileReader", "structKarm_1_1Sys_1_1FileReader.html", [
+          [ "Karm::Sys::File", "structKarm_1_1Sys_1_1File.html", null ]
+        ] ],
+        [ "Karm::Sys::FileWriter", "structKarm_1_1Sys_1_1FileWriter.html", [
+          [ "Karm::Sys::File", "structKarm_1_1Sys_1_1File.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "Karm::Ui::FocusEvent", "structKarm_1_1Ui_1_1FocusEvent.html", null ],
+    [ "Karm::Ui::FocusListener", "structKarm_1_1Ui_1_1FocusListener.html", null ],
+    [ "Karm::Text::Font", "structKarm_1_1Text_1_1Font.html", null ],
+    [ "Karm::Text::FontAdjust", "structKarm_1_1Text_1_1FontAdjust.html", null ],
+    [ "Karm::Text::FontAttrs", "structKarm_1_1Text_1_1FontAttrs.html", null ],
+    [ "Karm::Text::FontBook", "structKarm_1_1Text_1_1FontBook.html", null ],
+    [ "Karm::Text::Fontface", "structKarm_1_1Text_1_1Fontface.html", [
+      [ "Karm::Text::FontFamily", "structKarm_1_1Text_1_1FontFamily.html", null ],
+      [ "Karm::Text::TtfFontface", "structKarm_1_1Text_1_1TtfFontface.html", null ],
+      [ "Karm::Text::VgaFontface", "structKarm_1_1Text_1_1VgaFontface.html", null ]
+    ] ],
+    [ "Karm::Text::FontInfo", "structKarm_1_1Text_1_1FontInfo.html", null ],
+    [ "Karm::Pdf::FontManager", "structKarm_1_1Pdf_1_1FontManager.html", null ],
+    [ "Karm::Text::FontMeasure", "structKarm_1_1Text_1_1FontMeasure.html", null ],
+    [ "Karm::Text::FontMetrics", "structKarm_1_1Text_1_1FontMetrics.html", null ],
+    [ "Karm::Text::FontQuery", "structKarm_1_1Text_1_1FontQuery.html", null ],
+    [ "Karm::Base::Foo", "structKarm_1_1Base_1_1Foo.html", null ],
+    [ "Karm::Gc::Tests::Foo", "structKarm_1_1Gc_1_1Tests_1_1Foo.html", null ],
+    [ "Karm::Format", "structKarm_1_1Format.html", null ],
+    [ "Karm::Io::Formatter< T >", "structKarm_1_1Io_1_1Formatter.html", null ],
+    [ "Karm::Io::Formatter< Aligned< T > >", "structKarm_1_1Io_1_1Formatter_3_01Aligned_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< bool >", "structKarm_1_1Io_1_1Formatter_3_01bool_01_4.html", null ],
+    [ "Karm::Io::Formatter< Box< T > >", "structKarm_1_1Io_1_1Formatter_3_01Box_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Cased< T > >", "structKarm_1_1Io_1_1Formatter_3_01Cased_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Cow< T > >", "structKarm_1_1Io_1_1Formatter_3_01Cow_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Date >", "structKarm_1_1Io_1_1Formatter_3_01Date_01_4.html", null ],
+    [ "Karm::Io::Formatter< DateTime >", "structKarm_1_1Io_1_1Formatter_3_01DateTime_01_4.html", null ],
+    [ "Karm::Io::Formatter< Duration >", "structKarm_1_1Io_1_1Formatter_3_01Duration_01_4.html", null ],
+    [ "Karm::Io::Formatter< Error >", "structKarm_1_1Io_1_1Formatter_3_01Error_01_4.html", null ],
+    [ "Karm::Io::Formatter< Instant >", "structKarm_1_1Io_1_1Formatter_3_01Instant_01_4.html", null ],
+    [ "Karm::Io::Formatter< K >", "structKarm_1_1Io_1_1Formatter.html", null ],
+    [ "Karm::Io::Formatter< Karm::Cli::Styled< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Cli_1_1Styled_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Http::Code >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Http::Method >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Http::Version >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Json::Value >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Json_1_1Value_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Mime::Path >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Path_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Mime::Url >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Url_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Sys::Ip >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Sys::Ip4 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Sys::Ip6 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Sys::SocketAddr >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1SocketAddr_01_4.html", null ],
+    [ "Karm::Io::Formatter< Map< K, V > >", "structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Math::Fixed< T, F > >", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Math::Frac< T > >", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Frac_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< None >", "structKarm_1_1Io_1_1Formatter_3_01None_01_4.html", null ],
+    [ "Karm::Io::Formatter< Ok< T > >", "structKarm_1_1Io_1_1Formatter_3_01Ok_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Opt< T > >", "structKarm_1_1Io_1_1Formatter_3_01Opt_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Pair< Car, Cdr > >", "structKarm_1_1Io_1_1Formatter_3_01Pair_3_01Car_00_01Cdr_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Range< T, Tag > >", "structKarm_1_1Io_1_1Formatter_3_01Range_3_01T_00_01Tag_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Rc< T > >", "structKarm_1_1Io_1_1Formatter_3_01Rc_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< Res< T, E > >", "structKarm_1_1Io_1_1Formatter_3_01Res_3_01T_00_01E_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< std::nullptr_t >", "structKarm_1_1Io_1_1Formatter_3_01std_1_1nullptr__t_01_4.html", null ],
+    [ "Karm::Io::Formatter< std::partial_ordering >", "structKarm_1_1Io_1_1Formatter_3_01std_1_1partial__ordering_01_4.html", null ],
+    [ "Karm::Io::Formatter< std::strong_ordering >", "structKarm_1_1Io_1_1Formatter_3_01std_1_1strong__ordering_01_4.html", null ],
+    [ "Karm::Io::Formatter< std::weak_ordering >", "structKarm_1_1Io_1_1Formatter_3_01std_1_1weak__ordering_01_4.html", null ],
+    [ "Karm::Io::Formatter< SystemTime >", "structKarm_1_1Io_1_1Formatter_3_01SystemTime_01_4.html", null ],
+    [ "Karm::Io::Formatter< T * >", "structKarm_1_1Io_1_1Formatter_3_01T_01_5_01_4.html", null ],
+    [ "Karm::Io::Formatter< Time >", "structKarm_1_1Io_1_1Formatter_3_01Time_01_4.html", null ],
+    [ "Karm::Io::Formatter< Tuple< Ts... > >", "structKarm_1_1Io_1_1Formatter_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< typename T::Inner >", "structKarm_1_1Io_1_1Formatter.html", null ],
+    [ "Karm::Io::Formatter< Union< Ts... > >", "structKarm_1_1Io_1_1Formatter_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Io::Formatter< V >", "structKarm_1_1Io_1_1Formatter.html", null ],
+    [ "Karm::Io::Formatter< Weak< T > >", "structKarm_1_1Io_1_1Formatter_3_01Weak_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Math::Frac< T >", "structKarm_1_1Math_1_1Frac.html", null ],
+    [ "Karm::Math::Frac< Karm::Math::Fixed >", "structKarm_1_1Math_1_1Frac.html", null ],
+    [ "Karm::Gfx::CpuRast::Frag", "structKarm_1_1Gfx_1_1CpuRast_1_1Frag.html", null ],
+    [ "Karm::Func< typename >", "structKarm_1_1Func.html", null ],
+    [ "Karm::Func< Child()>", "structKarm_1_1Func.html", null ],
+    [ "Karm::Func< Out(In...)>", "structKarm_1_1Func_3_01Out_07In_8_8_8_08_4.html", null ],
+    [ "Karm::Generator< T >", "structKarm_1_1Generator.html", null ],
+    [ "Karm::Text::Glyph", "structKarm_1_1Text_1_1Glyph.html", null ],
+    [ "Ttf::GlyphMetrics", "structTtf_1_1GlyphMetrics.html", null ],
+    [ "Karm::Gfx::Gradient", "structKarm_1_1Gfx_1_1Gradient.html", null ],
+    [ "Karm::Gfx::GrayscaleFilter", "structKarm_1_1Gfx_1_1GrayscaleFilter.html", null ],
+    [ "Karm::Gfx::Greyscale8", "structKarm_1_1Gfx_1_1Greyscale8.html", null ],
+    [ "Karm::Ui::GridStyle", "structKarm_1_1Ui_1_1GridStyle.html", null ],
+    [ "Karm::Ui::GridUnit", "structKarm_1_1Ui_1_1GridUnit.html", null ],
+    [ "Gif::Decoder::Header", "structGif_1_1Decoder_1_1Header.html", null ],
+    [ "Karm::Net::Dns::Header", "structKarm_1_1Net_1_1Dns_1_1Header.html", null ],
+    [ "Karm::Rpc::Header", "structKarm_1_1Rpc_1_1Header.html", null ],
+    [ "Tga::Header", "structTga_1_1Header.html", null ],
+    [ "Karm::Gfx::Hsl", "structKarm_1_1Gfx_1_1Hsl.html", null ],
+    [ "Karm::Gfx::Hsv", "structKarm_1_1Gfx_1_1Hsv.html", null ],
+    [ "Karm::Gfx::HueValueChroma", "structKarm_1_1Gfx_1_1HueValueChroma.html", null ],
+    [ "Jpeg::Huff", "structJpeg_1_1Huff.html", null ],
+    [ "Karm::Math::IBig", "structKarm_1_1Math_1_1IBig.html", null ],
+    [ "Karm::Gfx::Icon", "structKarm_1_1Gfx_1_1Icon.html", null ],
+    [ "Karm::Async::Inline", "structKarm_1_1Async_1_1Inline.html", null ],
+    [ "Karm::InlineBuf< T, N >", "structKarm_1_1InlineBuf.html", null ],
+    [ "Karm::Async::InlineOrLater", "structKarm_1_1Async_1_1InlineOrLater.html", null ],
+    [ "Karm::Math::Insets< T >", "structKarm_1_1Math_1_1Insets.html", null ],
+    [ "Karm::Ui::Insets< isize >", "structKarm_1_1Ui_1_1Insets.html", null ],
+    [ "Karm::Jit::Inst", "structKarm_1_1Jit_1_1Inst.html", null ],
+    [ "Karm::Sys::Intent", "structKarm_1_1Sys_1_1Intent.html", null ],
+    [ "Karm::Sys::Ip4", "unionKarm_1_1Sys_1_1Ip4.html", null ],
+    [ "Karm::Sys::Ip6", "unionKarm_1_1Sys_1_1Ip6.html", null ],
+    [ "Karm::Sys::IpcConnection", "structKarm_1_1Sys_1_1IpcConnection.html", null ],
+    [ "Karm::Sys::IpcListener", "structKarm_1_1Sys_1_1IpcListener.html", null ],
+    [ "Karm::It< I >", "structKarm_1_1It.html", null ],
+    [ "Karm::Iter< Next >::It", "structKarm_1_1Iter_1_1It.html", null ],
+    [ "Karm::List< T >::Item", "structKarm_1_1List_1_1Item.html", null ],
+    [ "Karm::Lru< K, V >::Item", "structKarm_1_1Lru_1_1Item.html", null ],
+    [ "Karm::Sieve< K, V >::Item", "structKarm_1_1Sieve_1_1Item.html", null ],
+    [ "Karm::Iter< Next >", "structKarm_1_1Iter.html", null ],
+    [ "Karm::App::Key", "structKarm_1_1App_1_1Key.html", null ],
+    [ "Karm::App::KeyboardEvent", "structKarm_1_1App_1_1KeyboardEvent.html", null ],
+    [ "Karm::Ui::KeyboardShortcutActivated", "structKarm_1_1Ui_1_1KeyboardShortcutActivated.html", null ],
+    [ "Karm::Async::Later", "structKarm_1_1Async_1_1Later.html", null ],
+    [ "Karm::Ui::Node::LayoutEvent", "structKarm_1_1Ui_1_1Node_1_1LayoutEvent.html", null ],
+    [ "Karm::Text::Prose::Lbc", "structKarm_1_1Text_1_1Prose_1_1Lbc.html", null ],
+    [ "Karm::Gfx::LcdLayout", "structKarm_1_1Gfx_1_1LcdLayout.html", null ],
+    [ "Karm::Le< T >", "structKarm_1_1Le.html", null ],
+    [ "Karm::Le< u32 >", "structKarm_1_1Le.html", null ],
+    [ "Karm::Le< u64 >", "structKarm_1_1Le.html", null ],
+    [ "Karm::Level", "structKarm_1_1Level.html", null ],
+    [ "Karm::Limits< T >", "structKarm_1_1Limits.html", null ],
+    [ "Karm::Limits< bool >", "structKarm_1_1Limits_3_01bool_01_4.html", null ],
+    [ "Karm::Limits< char >", "structKarm_1_1Limits_3_01char_01_4.html", null ],
+    [ "Karm::Limits< double >", "structKarm_1_1Limits_3_01double_01_4.html", null ],
+    [ "Karm::Limits< float >", "structKarm_1_1Limits_3_01float_01_4.html", null ],
+    [ "Karm::Limits< int >", "structKarm_1_1Limits_3_01int_01_4.html", null ],
+    [ "Karm::Limits< long >", "structKarm_1_1Limits_3_01long_01_4.html", null ],
+    [ "Karm::Limits< long double >", "structKarm_1_1Limits_3_01long_01double_01_4.html", null ],
+    [ "Karm::Limits< long long >", "structKarm_1_1Limits_3_01long_01long_01_4.html", null ],
+    [ "Karm::Limits< Math::Fixed< T, F > >", "structKarm_1_1Limits_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", null ],
+    [ "Karm::Limits< short >", "structKarm_1_1Limits_3_01short_01_4.html", null ],
+    [ "Karm::Limits< signed char >", "structKarm_1_1Limits_3_01signed_01char_01_4.html", null ],
+    [ "Karm::Limits< unsigned >", "structKarm_1_1Limits_3_01unsigned_01_4.html", null ],
+    [ "Karm::Limits< unsigned char >", "structKarm_1_1Limits_3_01unsigned_01char_01_4.html", null ],
+    [ "Karm::Limits< unsigned long >", "structKarm_1_1Limits_3_01unsigned_01long_01_4.html", null ],
+    [ "Karm::Limits< unsigned long long >", "structKarm_1_1Limits_3_01unsigned_01long_01long_01_4.html", null ],
+    [ "Karm::Limits< unsigned short >", "structKarm_1_1Limits_3_01unsigned_01short_01_4.html", null ],
+    [ "Karm::Text::Prose::Line", "structKarm_1_1Text_1_1Prose_1_1Line.html", null ],
+    [ "Karm::List< T >", "structKarm_1_1List.html", null ],
+    [ "Karm::Async::State< T >::Listener", "structKarm_1_1Async_1_1State_1_1Listener.html", null ],
+    [ "Karm::Ll< T, Item >", "structKarm_1_1Ll.html", null ],
+    [ "Karm::Loc", "structKarm_1_1Loc.html", null ],
+    [ "Karm::LockProtected< T, L >", "structKarm_1_1LockProtected.html", null ],
+    [ "Gif::Decoder::LogicalScreenDescriptor", "structGif_1_1Decoder_1_1LogicalScreenDescriptor.html", null ],
+    [ "Karm::Lru< K, V >", "structKarm_1_1Lru.html", null ],
+    [ "Karm::Manual< T >", "structKarm_1_1Manual.html", null ],
+    [ "Karm::Map< K, V >", "structKarm_1_1Map.html", null ],
+    [ "Karm::Map< Karm::Pdf::Ref, Karm::Pdf::Value >", "structKarm_1_1Map.html", null ],
+    [ "Karm::Map< Name, Value >", "structKarm_1_1Map.html", [
+      [ "Karm::Pdf::Dict", "structKarm_1_1Pdf_1_1Dict.html", null ]
+    ] ],
+    [ "Karm::Map< String, String >", "structKarm_1_1Map.html", [
+      [ "Karm::Http::Header", "structKarm_1_1Http_1_1Header.html", null ]
+    ] ],
+    [ "Karm::Map< u16, u16 >", "structKarm_1_1Map.html", null ],
+    [ "Karm::Print::Margins", "structKarm_1_1Print_1_1Margins.html", null ],
+    [ "Karm::Math::Mat2< T >", "unionKarm_1_1Math_1_1Mat2.html", null ],
+    [ "Karm::Math::Mat3< T >", "unionKarm_1_1Math_1_1Mat3.html", null ],
+    [ "Karm::Math::Mat4< T >", "unionKarm_1_1Math_1_1Mat4.html", null ],
+    [ "Karm::Text::FontFamily::Member", "structKarm_1_1Text_1_1FontFamily_1_1Member.html", null ],
+    [ "Karm::Sys::MemInfo", "structKarm_1_1Sys_1_1MemInfo.html", null ],
+    [ "Karm::Rpc::Message", "structKarm_1_1Rpc_1_1Message.html", null ],
+    [ "Ttf::Glyf::Metrics", "structTtf_1_1Glyf_1_1Metrics.html", null ],
+    [ "Ttf::Hmtx::Metrics", "structTtf_1_1Hmtx_1_1Metrics.html", null ],
+    [ "Ttf::Metrics", "structTtf_1_1Metrics.html", null ],
+    [ "Karm::Mime::Mime", "structKarm_1_1Mime_1_1Mime.html", null ],
+    [ "Karm::Sys::MmapOptions", "structKarm_1_1Sys_1_1MmapOptions.html", null ],
+    [ "Karm::Sys::MmapResult", "structKarm_1_1Sys_1_1MmapResult.html", null ],
+    [ "Karm::Text::Model", "structKarm_1_1Text_1_1Model.html", null ],
+    [ "Karm::Ui::Model< S, A, R >", "structKarm_1_1Ui_1_1Model.html", null ],
+    [ "Karm::MonotonicClock", "structKarm_1_1MonotonicClock.html", null ],
+    [ "Karm::Month", "structKarm_1_1Month.html", null ],
+    [ "Karm::App::MouseEnterEvent", "structKarm_1_1App_1_1MouseEnterEvent.html", null ],
+    [ "Karm::App::MouseEvent", "structKarm_1_1App_1_1MouseEvent.html", null ],
+    [ "Karm::App::MouseLeaveEvent", "structKarm_1_1App_1_1MouseLeaveEvent.html", null ],
+    [ "Karm::Ui::MouseListener", "structKarm_1_1Ui_1_1MouseListener.html", null ],
+    [ "Karm::Move", "structKarm_1_1Move.html", null ],
+    [ "Karm::Kv::MutBlob", "structKarm_1_1Kv_1_1MutBlob.html", null ],
+    [ "Karm::MutCursor< T >", "structKarm_1_1MutCursor.html", null ],
+    [ "Karm::MutCursor< Karm::Text::Prose >", "structKarm_1_1MutCursor.html", null ],
+    [ "Karm::Sys::Mutex", "structKarm_1_1Sys_1_1Mutex.html", null ],
+    [ "Karm::MutSlice< T >", "structKarm_1_1MutSlice.html", null ],
+    [ "Karm::Niche< T >", "structKarm_1_1Niche.html", null ],
+    [ "Karm::Niche< Array< T, N > >", "structKarm_1_1Niche_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
+    [ "Karm::Niche< bool >", "structKarm_1_1Niche_3_01bool_01_4.html", null ],
+    [ "Karm::Niche< Box< T > >", "structKarm_1_1Niche_3_01Box_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Niche< Buf< T > >", "structKarm_1_1Niche_3_01Buf_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Niche< MutSlice< T > >", "structKarm_1_1Niche_3_01MutSlice_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Niche< Slice< T > >", "structKarm_1_1Niche_3_01Slice_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Niche< T >", "structKarm_1_1Niche_3_01T_01_4.html", null ],
+    [ "Karm::Niche< Union< Ts... > >", "structKarm_1_1Niche_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Niche< ViewBuf< T > >", "structKarm_1_1Niche_3_01ViewBuf_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Meta::NoCopy", "structKarm_1_1Meta_1_1NoCopy.html", [
+      [ "Karm::Sys::_Listener< TcpConnection >", null, [
+        [ "Karm::Sys::TcpListener", "structKarm_1_1Sys_1_1TcpListener.html", null ]
+      ] ],
+      [ "Karm::ArmedDefer< F >", "structKarm_1_1ArmedDefer.html", null ],
+      [ "Karm::Async::Awaiter< S >", "structKarm_1_1Async_1_1Awaiter.html", null ],
+      [ "Karm::Gfx::Canvas", "structKarm_1_1Gfx_1_1Canvas.html", [
+        [ "Karm::Gfx::CpuCanvas", "structKarm_1_1Gfx_1_1CpuCanvas.html", null ],
+        [ "Karm::Pdf::Canvas", "structKarm_1_1Pdf_1_1Canvas.html", null ]
+      ] ],
+      [ "Karm::Kira::Scaffold", "structKarm_1_1Kira_1_1Scaffold.html", null ],
+      [ "Karm::Sys::Fd", "structKarm_1_1Sys_1_1Fd.html", [
+        [ "Karm::Sys::NullFd", "structKarm_1_1Sys_1_1NullFd.html", null ]
+      ] ],
+      [ "Karm::Sys::Mmap", "structKarm_1_1Sys_1_1Mmap.html", null ],
+      [ "Karm::Sys::MutMmap", "structKarm_1_1Sys_1_1MutMmap.html", null ],
+      [ "Karm::Sys::UdpConnection", "structKarm_1_1Sys_1_1UdpConnection.html", null ],
+      [ "Karm::Sys::_Connection", null, null ],
+      [ "Karm::Sys::_File", null, null ],
+      [ "Karm::Text::FontFamily::Builder", "structKarm_1_1Text_1_1FontFamily_1_1Builder.html", null ]
+    ] ],
+    [ "Karm::Scene::Node", "structKarm_1_1Scene_1_1Node.html", [
+      [ "Karm::Scene::Box", "structKarm_1_1Scene_1_1Box.html", null ],
+      [ "Karm::Scene::Image", "structKarm_1_1Scene_1_1Image.html", null ],
+      [ "Karm::Scene::Proxy", "structKarm_1_1Scene_1_1Proxy.html", [
+        [ "Karm::Scene::Clear", "structKarm_1_1Scene_1_1Clear.html", null ],
+        [ "Karm::Scene::Transform", "structKarm_1_1Scene_1_1Transform.html", null ]
+      ] ],
+      [ "Karm::Scene::Shape", "structKarm_1_1Scene_1_1Shape.html", null ],
+      [ "Karm::Scene::Stack", "structKarm_1_1Scene_1_1Stack.html", [
+        [ "Karm::Scene::Clip", "structKarm_1_1Scene_1_1Clip.html", null ],
+        [ "Karm::Scene::Screen", "structKarm_1_1Scene_1_1Screen.html", null ]
+      ] ],
+      [ "Karm::Scene::Text", "structKarm_1_1Scene_1_1Text.html", null ],
+      [ "Karm::Scene::Viewbox", "structKarm_1_1Scene_1_1Viewbox.html", null ]
+    ] ],
+    [ "Karm::Gfx::NoiseFilter", "structKarm_1_1Gfx_1_1NoiseFilter.html", null ],
+    [ "Karm::None", "structKarm_1_1None.html", null ],
+    [ "Karm::Async::Null< T >", "structKarm_1_1Async_1_1Null.html", null ],
+    [ "Karm::Io::NumberFormatter", "structKarm_1_1Io_1_1NumberFormatter.html", [
+      [ "Karm::Io::Formatter< T >", "structKarm_1_1Io_1_1Formatter_3_01T_01_4.html", [
+        [ "Karm::Io::Formatter< Be< T > >", "structKarm_1_1Io_1_1Formatter_3_01Be_3_01T_01_4_01_4.html", null ],
+        [ "Karm::Io::Formatter< Le< T > >", "structKarm_1_1Io_1_1Formatter_3_01Le_3_01T_01_4_01_4.html", null ]
+      ] ]
+    ] ],
+    [ "Karm::Sys::Object", "structKarm_1_1Sys_1_1Object.html", null ],
+    [ "Karm::Ok< T >", "structKarm_1_1Ok.html", null ],
+    [ "Karm::Async::One< T >", "structKarm_1_1Async_1_1One.html", null ],
+    [ "Karm::Math::Path::Op", "structKarm_1_1Math_1_1Path_1_1Op.html", null ],
+    [ "Karm::Opt< T >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< f64 >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Func >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Gfx::BoxShadow >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Gfx::Color >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Gfx::Fill >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Mime::Url >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Mime::Uti >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Ranges< Karm::Range< Rune > > >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Rc< Karm::Gfx::Surface > >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Rc< Karm::Http::Body > >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Rc< Karm::Text::Prose::Span > >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< S::Inner >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< T >", "structKarm_1_1Opt_3_01T_01_4.html", null ],
+    [ "Karm::Opt< usize >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Cli::Option< T >", "structKarm_1_1Cli_1_1Option.html", null ],
+    [ "Karm::Gfx::Outline", "structKarm_1_1Gfx_1_1Outline.html", null ],
+    [ "Karm::Gfx::OverlayFilter", "structKarm_1_1Gfx_1_1OverlayFilter.html", null ],
+    [ "Karm::Io::Packer< T >", "structKarm_1_1Io_1_1Packer.html", null ],
+    [ "Karm::Io::Packer< Error >", "structKarm_1_1Io_1_1Packer_3_01Error_01_4.html", null ],
+    [ "Karm::Io::Packer< Math::Vec2< T > >", "structKarm_1_1Io_1_1Packer_3_01Math_1_1Vec2_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Packer< None >", "structKarm_1_1Io_1_1Packer_3_01None_01_4.html", null ],
+    [ "Karm::Io::Packer< Opt< T > >", "structKarm_1_1Io_1_1Packer_3_01Opt_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Io::Packer< Pair< Car, Cdr > >", "structKarm_1_1Io_1_1Packer_3_01Pair_3_01Car_00_01Cdr_01_4_01_4.html", null ],
+    [ "Karm::Io::Packer< Res< T, E > >", "structKarm_1_1Io_1_1Packer_3_01Res_3_01T_00_01E_01_4_01_4.html", null ],
+    [ "Karm::Io::Packer< T >", "structKarm_1_1Io_1_1Packer_3_01T_01_4.html", null ],
+    [ "Karm::Io::Packer< Tuple< Ts... > >", "structKarm_1_1Io_1_1Packer_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Io::Packer< Union< Ts... > >", "structKarm_1_1Io_1_1Packer_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Io::Packer< Vec< T > >", "structKarm_1_1Io_1_1Packer_3_01Vec_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Net::Dns::Packet", "structKarm_1_1Net_1_1Dns_1_1Packet.html", null ],
+    [ "Karm::Print::Page", "structKarm_1_1Print_1_1Page.html", null ],
+    [ "Karm::Ui::Node::PaintEvent", "structKarm_1_1Ui_1_1Node_1_1PaintEvent.html", null ],
+    [ "Karm::Scene::PaintOptions", "structKarm_1_1Scene_1_1PaintOptions.html", null ],
+    [ "Karm::Print::PaperSeries", "structKarm_1_1Print_1_1PaperSeries.html", null ],
+    [ "Karm::Print::PaperStock", "structKarm_1_1Print_1_1PaperStock.html", null ],
+    [ "Ttf::Parser", "structTtf_1_1Parser.html", null ],
+    [ "Karm::Math::Path", "structKarm_1_1Math_1_1Path.html", null ],
+    [ "Karm::Mime::Path", "structKarm_1_1Mime_1_1Path.html", null ],
+    [ "Karm::Print::PdfPage", "structKarm_1_1Print_1_1PdfPage.html", null ],
+    [ "Karm::Image::Picture", "structKarm_1_1Image_1_1Picture.html", null ],
+    [ "Karm::Meta::Pinned", "structKarm_1_1Meta_1_1Pinned.html", [
+      [ "Karm::LlItem< Karm::Async::State::Listener >", "structKarm_1_1LlItem.html", null ],
+      [ "Karm::LlItem< Karm::List::Item >", "structKarm_1_1LlItem.html", null ],
+      [ "Karm::LlItem< Karm::Lru::Item >", "structKarm_1_1LlItem.html", null ],
+      [ "Karm::LlItem< Karm::Sieve::Item >", "structKarm_1_1LlItem.html", null ],
+      [ "Karm::Async::Awaiter< S >", "structKarm_1_1Async_1_1Awaiter.html", null ],
+      [ "Karm::Async::Cancelation", "structKarm_1_1Async_1_1Cancelation.html", null ],
+      [ "Karm::Av::AudioStream", "structKarm_1_1Av_1_1AudioStream.html", null ],
+      [ "Karm::Cli::Command", "structKarm_1_1Cli_1_1Command.html", null ],
+      [ "Karm::CriticalScope", "structKarm_1_1CriticalScope.html", null ],
+      [ "Karm::Defer< F >", "structKarm_1_1Defer.html", null ],
+      [ "Karm::Gc::Heap", "structKarm_1_1Gc_1_1Heap.html", null ],
+      [ "Karm::LlItem< T >", "structKarm_1_1LlItem.html", null ],
+      [ "Karm::Lock", "structKarm_1_1Lock.html", null ],
+      [ "Karm::LockScope< L >", "structKarm_1_1LockScope.html", null ],
+      [ "Karm::NoLock", "structKarm_1_1NoLock.html", null ],
+      [ "Karm::ReadLockScope", "structKarm_1_1ReadLockScope.html", null ],
+      [ "Karm::Rpc::Endpoint", "structKarm_1_1Rpc_1_1Endpoint.html", null ],
+      [ "Karm::RwLock", "structKarm_1_1RwLock.html", null ],
+      [ "Karm::Sys::Context", "structKarm_1_1Sys_1_1Context.html", null ],
+      [ "Karm::Sys::Sched", "structKarm_1_1Sys_1_1Sched.html", null ],
+      [ "Karm::Test::Test", "structKarm_1_1Test_1_1Test.html", null ],
+      [ "Karm::Text::Prose", "structKarm_1_1Text_1_1Prose.html", null ],
+      [ "Karm::WriteLockScope", "structKarm_1_1WriteLockScope.html", null ]
+    ] ],
+    [ "Karm::Aio::Pipe", "structKarm_1_1Aio_1_1Pipe.html", null ],
+    [ "Karm::Sys::Pipe", "structKarm_1_1Sys_1_1Pipe.html", null ],
+    [ "Karm::Gpu::Pipeline", "structKarm_1_1Gpu_1_1Pipeline.html", null ],
+    [ "Karm::Math::Poly< T >", "structKarm_1_1Math_1_1Poly.html", null ],
+    [ "Karm::App::Prefs", "structKarm_1_1App_1_1Prefs.html", [
+      [ "Karm::App::MockPrefs", "structKarm_1_1App_1_1MockPrefs.html", null ]
+    ] ],
+    [ "Karm::Print::Printer", "structKarm_1_1Print_1_1Printer.html", [
+      [ "Karm::Print::FilePrinter", "structKarm_1_1Print_1_1FilePrinter.html", [
+        [ "Karm::Print::ImagePrinter", "structKarm_1_1Print_1_1ImagePrinter.html", null ],
+        [ "Karm::Print::PdfPrinter", "structKarm_1_1Print_1_1PdfPrinter.html", null ]
+      ] ]
+    ] ],
+    [ "Karm::Generator< T >::promise_type", "structKarm_1_1Generator_1_1promise__type.html", null ],
+    [ "Karm::Cli::Command::Props", "structKarm_1_1Cli_1_1Command_1_1Props.html", null ],
+    [ "Karm::Text::ProseStyle", "structKarm_1_1Text_1_1ProseStyle.html", null ],
+    [ "Karm::Gc::Ptr< T >", "structKarm_1_1Gc_1_1Ptr.html", null ],
+    [ "Karm::Math::Quad< T >", "unionKarm_1_1Math_1_1Quad.html", null ],
+    [ "Karm::Net::Dns::Question", "structKarm_1_1Net_1_1Dns_1_1Question.html", null ],
+    [ "Karm::Async::Queue< T >", "structKarm_1_1Async_1_1Queue.html", null ],
+    [ "Karm::Math::Radii< T >", "structKarm_1_1Math_1_1Radii.html", null ],
+    [ "Karm::Math::Rand", "structKarm_1_1Math_1_1Rand.html", null ],
+    [ "Karm::Range< T, TAG >", "structKarm_1_1Range.html", null ],
+    [ "Karm::Range< usize >", "structKarm_1_1Range.html", null ],
+    [ "Karm::Ranges< R >", "structKarm_1_1Ranges.html", null ],
+    [ "Karm::RAu", "structKarm_1_1RAu.html", null ],
+    [ "Karm::Kv::Wal::RawHeader", "structKarm_1_1Kv_1_1Wal_1_1RawHeader.html", null ],
+    [ "Karm::Kv::Wal::RawRecord", "structKarm_1_1Kv_1_1Wal_1_1RawRecord.html", null ],
+    [ "Karm::Math::Ray< V, T >", "structKarm_1_1Math_1_1Ray.html", null ],
+    [ "Karm::Aio::Reader", "structKarm_1_1Aio_1_1Reader.html", [
+      [ "Karm::Aio::Adapter< T >", "structKarm_1_1Aio_1_1Adapter.html", null ],
+      [ "Karm::Aio::Pipe::Reader", "structKarm_1_1Aio_1_1Pipe_1_1Reader.html", null ],
+      [ "Karm::Http::Body", "structKarm_1_1Http_1_1Body.html", [
+        [ "Karm::Http::ChunkedBody", "structKarm_1_1Http_1_1ChunkedBody.html", null ],
+        [ "Karm::Http::ContentBody", "structKarm_1_1Http_1_1ContentBody.html", null ],
+        [ "Karm::Http::PipeBody", "structKarm_1_1Http_1_1PipeBody.html", null ]
+      ] ]
+    ] ],
+    [ "Karm::Io::Reader", "structKarm_1_1Io_1_1Reader.html", [
+      [ "Karm::Io::BufReader", "structKarm_1_1Io_1_1BufReader.html", null ],
+      [ "Karm::Io::Empty", "structKarm_1_1Io_1_1Empty.html", null ],
+      [ "Karm::Io::Limit< Readable >", "structKarm_1_1Io_1_1Limit.html", null ],
+      [ "Karm::Io::Repeat", "structKarm_1_1Io_1_1Repeat.html", null ],
+      [ "Karm::Io::Zero", "structKarm_1_1Io_1_1Zero.html", null ],
+      [ "Karm::Sys::FileReader", "structKarm_1_1Sys_1_1FileReader.html", null ],
+      [ "Karm::Sys::In", "structKarm_1_1Sys_1_1In.html", null ],
+      [ "Karm::Sys::_Connection", null, null ]
+    ] ],
+    [ "Karm::Kv::Wal::Record", "structKarm_1_1Kv_1_1Wal_1_1Record.html", null ],
+    [ "Karm::Text::Model::Record", "structKarm_1_1Text_1_1Model_1_1Record.html", null ],
+    [ "Ttf::Name::Record", "structTtf_1_1Name_1_1Record.html", null ],
+    [ "Karm::Math::Rect< T >", "unionKarm_1_1Math_1_1Rect.html", null ],
+    [ "Karm::Gc::Ref< T >", "structKarm_1_1Gc_1_1Ref.html", null ],
+    [ "Karm::Jit::Ref", "structKarm_1_1Jit_1_1Ref.html", null ],
+    [ "Karm::Pdf::Ref", "structKarm_1_1Pdf_1_1Ref.html", null ],
+    [ "Karm::Math::RelationalExpr", "structKarm_1_1Math_1_1RelationalExpr.html", null ],
+    [ "Karm::Gpu::RenderPass", "structKarm_1_1Gpu_1_1RenderPass.html", null ],
+    [ "Karm::Io::Repr< T >", "structKarm_1_1Io_1_1Repr.html", null ],
+    [ "Karm::Io::Repr< T >", "structKarm_1_1Io_1_1Repr_3_01T_01_4.html", null ],
+    [ "Karm::Http::Request", "structKarm_1_1Http_1_1Request.html", null ],
+    [ "Karm::App::RequestExitEvent", "structKarm_1_1App_1_1RequestExitEvent.html", null ],
+    [ "Karm::App::RequestMaximizeEvent", "structKarm_1_1App_1_1RequestMaximizeEvent.html", null ],
+    [ "Karm::App::RequestMinimizeEvent", "structKarm_1_1App_1_1RequestMinimizeEvent.html", null ],
+    [ "Karm::Res< V, E >", "structKarm_1_1Res.html", null ],
+    [ "Karm::Http::Response", "structKarm_1_1Http_1_1Response.html", null ],
+    [ "Karm::Gfx::Rgba8888", "structKarm_1_1Gfx_1_1Rgba8888.html", null ],
+    [ "Karm::Ring< T >", "structKarm_1_1Ring.html", null ],
+    [ "Karm::Test::RunOptions", "structKarm_1_1Test_1_1RunOptions.html", null ],
+    [ "Karm::Gfx::SaturationFilter", "structKarm_1_1Gfx_1_1SaturationFilter.html", null ],
+    [ "Karm::Image::Saver", "structKarm_1_1Image_1_1Saver.html", null ],
+    [ "Jpeg::Decoder::ScanComponent", "structJpeg_1_1Decoder_1_1ScanComponent.html", null ],
+    [ "Karm::Gfx::CpuCanvas::Scope", "structKarm_1_1Gfx_1_1CpuCanvas_1_1Scope.html", null ],
+    [ "Karm::Io::Seek", "structKarm_1_1Io_1_1Seek.html", null ],
+    [ "Karm::Io::Seeker", "structKarm_1_1Io_1_1Seeker.html", [
+      [ "Karm::Io::BufReader", "structKarm_1_1Io_1_1BufReader.html", null ],
+      [ "Karm::Io::BufWriter", "structKarm_1_1Io_1_1BufWriter.html", null ],
+      [ "Karm::Io::Count", "structKarm_1_1Io_1_1Count.html", null ],
+      [ "Karm::Io::WriterSlice< Writable >", "structKarm_1_1Io_1_1WriterSlice.html", null ],
+      [ "Karm::Sys::_File", null, null ]
+    ] ],
+    [ "Karm::Sys::Sema", "structKarm_1_1Sys_1_1Sema.html", null ],
+    [ "Karm::Gfx::SepiaFilter", "structKarm_1_1Gfx_1_1SepiaFilter.html", null ],
+    [ "Karm::Http::Server", "structKarm_1_1Http_1_1Server.html", null ],
+    [ "Karm::Http::Service", "structKarm_1_1Http_1_1Service.html", null ],
+    [ "Karm::Sys::Service", "structKarm_1_1Sys_1_1Service.html", [
+      [ "Karm::Sys::ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", null ]
+    ] ],
+    [ "Sys::Service", null, [
+      [ "ChannelHook", "structChannelHook.html", null ]
+    ] ],
+    [ "Karm::Set< T >", "structKarm_1_1Set.html", null ],
+    [ "Karm::Print::Settings", "structKarm_1_1Print_1_1Settings.html", null ],
+    [ "Karm::Gpu::Shader", "structKarm_1_1Gpu_1_1Shader.html", null ],
+    [ "Karm::SharedFunc< typename >", "structKarm_1_1SharedFunc.html", null ],
+    [ "Karm::SharedFunc< Out(In...)>", "structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html", null ],
+    [ "Karm::Ui::ShowDialogEvent", "structKarm_1_1Ui_1_1ShowDialogEvent.html", null ],
+    [ "Karm::Ui::ShowPopoverEvent", "structKarm_1_1Ui_1_1ShowPopoverEvent.html", null ],
+    [ "Karm::Sieve< K, V >", "structKarm_1_1Sieve.html", null ],
+    [ "Ttf::Glyf::SimpleContour", "structTtf_1_1Glyf_1_1SimpleContour.html", null ],
+    [ "Karm::Slice< T >", "structKarm_1_1Slice.html", null ],
+    [ "Karm::Slice< Karm::Print::PaperStock const >", "structKarm_1_1Slice.html", null ],
+    [ "Karm::Slice< typename E::Unit >", "structKarm_1_1Slice.html", null ],
+    [ "Karm::Set< T >::Slot", "structKarm_1_1Set_1_1Slot.html", null ],
+    [ "Karm::Sys::SocketAddr", "structKarm_1_1Sys_1_1SocketAddr.html", null ],
+    [ "Karm::Text::Prose::Span", "structKarm_1_1Text_1_1Prose_1_1Span.html", null ],
+    [ "Karm::Gfx::StackBlur", "structKarm_1_1Gfx_1_1StackBlur.html", null ],
+    [ "Karm::Sys::Stat", "structKarm_1_1Sys_1_1Stat.html", null ],
+    [ "Karm::Async::State< T >", "structKarm_1_1Async_1_1State.html", null ],
+    [ "Karm::Kira::Scaffold::State", "structKarm_1_1Kira_1_1Scaffold_1_1State.html", null ],
+    [ "Karm::Kira::State", "structKarm_1_1Kira_1_1State.html", null ],
+    [ "Karm::Kv::Store", "structKarm_1_1Kv_1_1Store.html", null ],
+    [ "Karm::Pdf::Stream", "structKarm_1_1Pdf_1_1Stream.html", null ],
+    [ "Karm::Io::StringFormatter< E >", "structKarm_1_1Io_1_1StringFormatter.html", null ],
+    [ "Karm::Io::StringFormatter< Utf8 >", "structKarm_1_1Io_1_1StringFormatter.html", [
+      [ "Karm::Io::Formatter< StrLit< N > >", "structKarm_1_1Io_1_1Formatter_3_01StrLit_3_01N_01_4_01_4.html", null ],
+      [ "Karm::Io::Formatter< Symbol >", "structKarm_1_1Io_1_1Formatter_3_01Symbol_01_4.html", null ],
+      [ "Karm::Io::Formatter< char const * >", "structKarm_1_1Io_1_1Formatter_3_01char_01const_01_5_01_4.html", null ]
+    ] ],
+    [ "Karm::StrLit< N >", "structKarm_1_1StrLit.html", null ],
+    [ "Karm::Gfx::Stroke", "structKarm_1_1Gfx_1_1Stroke.html", null ],
+    [ "Karm::Text::Prose::StrutCell", "structKarm_1_1Text_1_1Prose_1_1StrutCell.html", null ],
+    [ "Karm::Cli::Style", "structKarm_1_1Cli_1_1Style.html", null ],
+    [ "Karm::Cli::Styled< T >", "structKarm_1_1Cli_1_1Styled.html", null ],
+    [ "Karm::Mime::Suffix2Mime", "structKarm_1_1Mime_1_1Suffix2Mime.html", null ],
+    [ "Karm::Gfx::Surface", "structKarm_1_1Gfx_1_1Surface.html", null ],
+    [ "Karm::Symbol", "structKarm_1_1Symbol.html", null ],
+    [ "Karm::Sys::SysInfo", "structKarm_1_1Sys_1_1SysInfo.html", null ],
+    [ "Karm::SystemClock", "structKarm_1_1SystemClock.html", null ],
+    [ "Ttf::Cmap::Table", "structTtf_1_1Cmap_1_1Table.html", null ],
+    [ "Karm::Ui::TextStyles", "structKarm_1_1Ui_1_1TextStyles.html", null ],
+    [ "Karm::Gpu::Texture", "structKarm_1_1Gpu_1_1Texture.html", null ],
+    [ "Karm::Time", "structKarm_1_1Time.html", null ],
+    [ "Karm::Gfx::TintFilter", "structKarm_1_1Gfx_1_1TintFilter.html", null ],
+    [ "Karm::Kira::TitlebarContent", "structKarm_1_1Kira_1_1TitlebarContent.html", null ],
+    [ "Karm::Kira::Scaffold::ToggleSidebar", "structKarm_1_1Kira_1_1Scaffold_1_1ToggleSidebar.html", null ],
+    [ "Karm::Async::Cancelation::Token", "structKarm_1_1Async_1_1Cancelation_1_1Token.html", null ],
+    [ "Karm::Cli::Token", "structKarm_1_1Cli_1_1Token.html", null ],
+    [ "Karm::Math::Trans2< T >", "unionKarm_1_1Math_1_1Trans2.html", null ],
+    [ "Karm::Http::Transport", "structKarm_1_1Http_1_1Transport.html", [
+      [ "Karm::Http::Client", "structKarm_1_1Http_1_1Client.html", null ],
+      [ "Karm::Http::HttpTransport", "structKarm_1_1Http_1_1HttpTransport.html", null ],
+      [ "Karm::Http::LocalTransport", "structKarm_1_1Http_1_1LocalTransport.html", null ],
+      [ "Karm::Http::MultiplexTransport", "structKarm_1_1Http_1_1MultiplexTransport.html", null ],
+      [ "Karm::Http::PipeTransport", "structKarm_1_1Http_1_1PipeTransport.html", null ]
+    ] ],
+    [ "Karm::Math::Tri2< T >", "unionKarm_1_1Math_1_1Tri2.html", null ],
+    [ "Karm::Print::TrueTypeFontAdapter", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html", null ],
+    [ "Karm::Print::TtfGlyphInfoAdapter", "structKarm_1_1Print_1_1TtfGlyphInfoAdapter.html", null ],
+    [ "Karm::Tuple< Ts >", "structKarm_1_1Tuple.html", null ],
+    [ "Karm::Tuple< Karm::Box< Karm::Gfx::Filter > >", "structKarm_1_1Tuple.html", null ],
+    [ "Karm::Tuple<>", "structKarm_1_1Tuple_3_4.html", null ],
+    [ "Karm::App::TypeEvent", "structKarm_1_1App_1_1TypeEvent.html", null ],
+    [ "Karm::Math::UBig", "structKarm_1_1Math_1_1UBig.html", null ],
+    [ "Karm::Math::UnaryExpr", "structKarm_1_1Math_1_1UnaryExpr.html", null ],
+    [ "Karm::Gfx::Unfiltered", "structKarm_1_1Gfx_1_1Unfiltered.html", null ],
+    [ "Karm::Union< Ts >", "structKarm_1_1Union.html", [
+      [ "Karm::Gfx::Fill", "structKarm_1_1Gfx_1_1Fill.html", null ],
+      [ "Karm::Gfx::Filter", "structKarm_1_1Gfx_1_1Filter.html", null ],
+      [ "Karm::Gfx::Fmt", "structKarm_1_1Gfx_1_1Fmt.html", null ],
+      [ "Karm::Math::Expr", "structKarm_1_1Math_1_1Expr.html", null ],
+      [ "Karm::Pdf::Value", "structKarm_1_1Pdf_1_1Value.html", null ],
+      [ "Karm::Text::Family", "structKarm_1_1Text_1_1Family.html", null ]
+    ] ],
+    [ "Karm::Union< Ip4, Ip6 >", "structKarm_1_1Union.html", [
+      [ "Karm::Sys::Ip", "structKarm_1_1Sys_1_1Ip.html", null ]
+    ] ],
+    [ "Karm::Text::UnresolvedBaselineSet", "structKarm_1_1Text_1_1UnresolvedBaselineSet.html", null ],
+    [ "Karm::Kira::UpdateHsv", "structKarm_1_1Kira_1_1UpdateHsv.html", null ],
+    [ "Karm::Kira::UpdatePage", "structKarm_1_1Kira_1_1UpdatePage.html", null ],
+    [ "Karm::Mime::Url", "structKarm_1_1Mime_1_1Url.html", null ],
+    [ "Karm::Sys::UserInfo", "structKarm_1_1Sys_1_1UserInfo.html", null ],
+    [ "Karm::Utf16", "structKarm_1_1Utf16.html", null ],
+    [ "Karm::Utf32", "structKarm_1_1Utf32.html", null ],
+    [ "Karm::Utf8", "structKarm_1_1Utf8.html", null ],
+    [ "Karm::Mime::Uti", "structKarm_1_1Mime_1_1Uti.html", null ],
+    [ "Karm::Json::Value", "structKarm_1_1Json_1_1Value.html", null ],
+    [ "Karm::Cli::ValueParser< T >", "structKarm_1_1Cli_1_1ValueParser.html", null ],
+    [ "Karm::Cli::ValueParser< bool >", "structKarm_1_1Cli_1_1ValueParser_3_01bool_01_4.html", null ],
+    [ "Karm::Cli::ValueParser< isize >", "structKarm_1_1Cli_1_1ValueParser_3_01isize_01_4.html", null ],
+    [ "Karm::Cli::ValueParser< Opt< T > >", "structKarm_1_1Cli_1_1ValueParser_3_01Opt_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Cli::ValueParser< Str >", "structKarm_1_1Cli_1_1ValueParser_3_01Str_01_4.html", null ],
+    [ "Karm::Cli::ValueParser< Vec< T > >", "structKarm_1_1Cli_1_1ValueParser_3_01Vec_3_01T_01_4_01_4.html", null ],
+    [ "Ttf::ValueRecord", "structTtf_1_1ValueRecord.html", null ],
+    [ "Karm::Math::Vec2< T >", "unionKarm_1_1Math_1_1Vec2.html", null ],
+    [ "Karm::Math::Vec2< Au >", "unionKarm_1_1Math_1_1Vec2.html", null ],
+    [ "Karm::Math::Vec2< f64 >", "unionKarm_1_1Math_1_1Vec2.html", null ],
+    [ "Karm::Math::Vec3< T >", "unionKarm_1_1Math_1_1Vec3.html", null ],
+    [ "Karm::Math::Vec4< T >", "unionKarm_1_1Math_1_1Vec4.html", null ],
+    [ "Karm::Http::Version", "structKarm_1_1Http_1_1Version.html", null ],
+    [ "Ttf::Version", "structTtf_1_1Version.html", null ],
+    [ "Karm::ViewBuf< T >", "structKarm_1_1ViewBuf.html", null ],
+    [ "Karm::Kv::Wal", "structKarm_1_1Kv_1_1Wal.html", null ],
+    [ "Karm::Wrap", "structKarm_1_1Wrap.html", null ],
+    [ "Karm::Aio::Writer", "structKarm_1_1Aio_1_1Writer.html", [
+      [ "Karm::Aio::Adapter< T >", "structKarm_1_1Aio_1_1Adapter.html", null ],
+      [ "Karm::Aio::Pipe::Writer", "structKarm_1_1Aio_1_1Pipe_1_1Writer.html", null ]
+    ] ],
+    [ "Karm::Io::Writer", "structKarm_1_1Io_1_1Writer.html", [
+      [ "Karm::Http::Response::Writer", "structKarm_1_1Http_1_1Response_1_1Writer.html", null ],
+      [ "Karm::Io::BufWriter", "structKarm_1_1Io_1_1BufWriter.html", null ],
+      [ "Karm::Io::BufferWriter", "structKarm_1_1Io_1_1BufferWriter.html", null ],
+      [ "Karm::Io::Count", "structKarm_1_1Io_1_1Count.html", null ],
+      [ "Karm::Io::Sink", "structKarm_1_1Io_1_1Sink.html", null ],
+      [ "Karm::Io::TextWriter", "structKarm_1_1Io_1_1TextWriter.html", null ],
+      [ "Karm::Io::WriterSlice< Writable >", "structKarm_1_1Io_1_1WriterSlice.html", null ],
+      [ "Karm::Sys::FileWriter", "structKarm_1_1Sys_1_1FileWriter.html", null ],
+      [ "Karm::Sys::_Connection", null, null ]
+    ] ],
+    [ "Karm::Pdf::XRef", "structKarm_1_1Pdf_1_1XRef.html", null ],
+    [ "Karm::Gfx::YCbCr", "structKarm_1_1Gfx_1_1YCbCr.html", null ],
+    [ "Karm::Year", "structKarm_1_1Year.html", null ],
+    [ "Karm::Ts", null, [
+      [ "Karm::Visitor< Ts >", "structKarm_1_1Visitor.html", null ]
+    ] ]
+];

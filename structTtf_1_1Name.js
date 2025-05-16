@@ -1,0 +1,37 @@
+var structTtf_1_1Name =
+[
+    [ "Record", "structTtf_1_1Name_1_1Record.html", "structTtf_1_1Name_1_1Record" ],
+    [ "StorageOffset", "structTtf_1_1Name.html#a55ab87f40efcdf15a2b3ded2bf7ffd7d", null ],
+    [ "NameId", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31e", [
+      [ "COPYRIGHT", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eae0c6c21ae32e834a4872776d32a90a61", null ],
+      [ "FAMILY", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea770928ca729c40500e2365b0e32136d7", null ],
+      [ "SUBFAMILY", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eaa4cd3f11dca403c4a21597339fc25373", null ],
+      [ "UNIQUE", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea2a823a680759eaa18f6a006a989cb25b", null ],
+      [ "FULL_NAME", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea6dda501142245f3e1973a24a5ee7bc63", null ],
+      [ "VERSION", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eae70a565bfffd4043a5d34a9e048cc5eb", null ],
+      [ "POSTSCRIPT", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea75b683efbd830bc603854afc1ed27825", null ],
+      [ "TRADEMARK", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea6658c18e369e6eed4bf1ef759c47a7ab", null ],
+      [ "MANUFACTURER", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea8117ba9aef7ef5e602f2bc11b41799dd", null ],
+      [ "DESIGNER", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eaf6bc4b1fef2cb9e373c9ccc4013d8baa", null ],
+      [ "DESCRIPTION", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea1ce92340f146540cc10bcf6bb9e2fa14", null ],
+      [ "VENDOR_URL", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eaceb34f28dde4cee2d2f38782ea3f54eb", null ],
+      [ "DESIGNER_URL", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea98ae2b41df39e96d734112e83dfd7021", null ],
+      [ "LICENSE", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea260c11eed26cc0f904106cbc76341c43", null ],
+      [ "LICENSE_URL", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eadbaa932b0c120696193f9ed84d74f643", null ],
+      [ "RESERVED", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eab52ffc219544e0e8ae3cefc39023083e", null ],
+      [ "TYPOGRAPHIC_FAMILY", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea9915291bcb4a64576f01bdf838cfad91", null ],
+      [ "TYPOGRAPHIC_SUBFAMILY", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eaff5b0ceeab1dc44633e12a86a009487d", null ],
+      [ "COMPATIBLE_FULL_NAME", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ead72a0ac67a9e0dc99739b96276f7a945", null ],
+      [ "SAMPLE_TEXT", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea7354698e105200d43c4118e3a348715a", null ],
+      [ "POSTSCRIPT_CID", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eaa3032a136830be8225037c34a0cb83fa", null ],
+      [ "WWS_FAMILY", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea3dd0dc7e4c8a896f2487879b3c2b3e7f", null ],
+      [ "WWS_SUBFAMILY", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea6c1efdf00bb7483d09d405494892e7aa", null ],
+      [ "LIGHT_BACKGROUND_PALETTE", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea5b9697f7c0ccee1dad2c7db5cac853fc", null ],
+      [ "DARK_BACKGROUND_PALETTE", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eac9d612703e0c3cb364bf010f091dd79b", null ],
+      [ "VARIATIONS_POSTSCRIPT_PREFIX", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea2c67b682053d807c225356af24d3ce86", null ],
+      [ "_LEN", "structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31e", null ]
+    ] ],
+    [ "iterRecords", "structTtf_1_1Name.html#ae39d96fab82ed8cd6db9a9a55cbd447d", null ],
+    [ "lookupRecord", "structTtf_1_1Name.html#a700239e8ca92bfebc9782b350fc69198", null ],
+    [ "string", "structTtf_1_1Name.html#ad5a7297a54cd92b29d34c69ac5a5bd0e", null ]
+];
