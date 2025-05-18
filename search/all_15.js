@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['v_0',['V',['../namespaceKarm.html#a1e36aec4935b1b6b477c346b1d59df32',1,'Karm']]],
-  ['v_1',['v',['../namespaceKarm.html#a94b420e776fb22e6c93f13a21829b9ab',1,'Karm']]],
+  ['v_0',['v',['../namespaceKarm.html#a94b420e776fb22e6c93f13a21829b9ab',1,'Karm']]],
+  ['v_1',['V',['../namespaceKarm.html#a1e36aec4935b1b6b477c346b1d59df32',1,'Karm']]],
   ['vaddr_2',['vaddr',['../structKarm_1_1Sys_1_1MmapOptions.html#a770fee6a2df2ce49315f4373690f6ac6',1,'Karm::Sys::MmapOptions::vaddr()'],['../structKarm_1_1Sys_1_1MmapResult.html#ae8960a4f71afb67a77b0ca2b28952e02',1,'Karm::Sys::MmapResult::vaddr()'],['../structKarm_1_1Sys_1_1Mmap.html#a10174dadac0206eddfcb7d041de6b453',1,'Karm::Sys::Mmap::vaddr()'],['../structKarm_1_1Sys_1_1MutMmap.html#ac749e54d408d6b7b7c508900994dbf54',1,'Karm::Sys::MutMmap::vaddr()']]],
   ['val_3',['val',['../structKarm_1_1Flags.html#a214c7d8b76a3270190097b976ca73060',1,'Karm::Flags::val()'],['../structKarm_1_1Duration.html#a69ba48220f00d805a8dbb7ace0cb95b9',1,'Karm::Duration::val()'],['../structKarm_1_1Month.html#abe46a5a9a0b3037fdec47421fc526beb',1,'Karm::Month::val()'],['../structKarm_1_1Year.html#adf88df401b7424f91f2cf30a52771094',1,'Karm::Year::val()']]],
   ['valformatter_4',['valFormatter',['../structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html#ac3c8ec05d2449546a4d89ee81fb5862a',1,'Karm::Io::Formatter&lt; Map&lt; K, V &gt; &gt;']]],

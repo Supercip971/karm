@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['v_0',['v',['../namespaceKarm.html#a94b420e776fb22e6c93f13a21829b9ab',1,'Karm']]],
-  ['v_1',['V',['../namespaceKarm.html#a1e36aec4935b1b6b477c346b1d59df32',1,'Karm']]],
+  ['v_0',['V',['../namespaceKarm.html#a1e36aec4935b1b6b477c346b1d59df32',1,'Karm']]],
+  ['v_1',['v',['../namespaceKarm.html#a94b420e776fb22e6c93f13a21829b9ab',1,'Karm']]],
   ['vaddr_2',['vaddr',['../structKarm_1_1Sys_1_1MmapResult.html#ae8960a4f71afb67a77b0ca2b28952e02',1,'Karm::Sys::MmapResult::vaddr()'],['../structKarm_1_1Sys_1_1MmapOptions.html#a770fee6a2df2ce49315f4373690f6ac6',1,'Karm::Sys::MmapOptions::vaddr()']]],
   ['valformatter_3',['valFormatter',['../structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html#ac3c8ec05d2449546a4d89ee81fb5862a',1,'Karm::Io::Formatter&lt; Map&lt; K, V &gt; &gt;']]],
   ['vallen_4',['vallen',['../structKarm_1_1Kv_1_1Wal_1_1RawRecord.html#a062e567597bffc4197b4f4c90e6096d6',1,'Karm::Kv::Wal::RawRecord']]],

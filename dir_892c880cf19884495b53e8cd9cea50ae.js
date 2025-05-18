@@ -6,6 +6,7 @@ var dir_892c880cf19884495b53e8cd9cea50ae =
     [ "async.h", "karm-sys_2async_8h.html", "karm-sys_2async_8h" ],
     [ "chan.cpp", "chan_8cpp.html", "chan_8cpp" ],
     [ "chan.h", "chan_8h.html", "chan_8h" ],
+    [ "context.cpp", "context_8cpp.html", null ],
     [ "context.h", "context_8h.html", "context_8h" ],
     [ "defs.h", "defs_8h.html", null ],
     [ "dir.cpp", "dir_8cpp.html", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"fmt_8cpp.html#a8d5c349a2b69f350cff047051d0b0b41":[3,0,0,1,14,5,15],
 "fmt_8cpp.html#a90aa2de58ccfe76ef5f8bbf8a9934383":[3,0,0,1,14,5,6],
 "fmt_8cpp.html#ab1a76c02b1cfd2f65b34c36ebf2b3804":[3,0,0,1,14,5,3],
 "fmt_8cpp.html#ab2268bfd2eebd95af48157da3dd368fe":[3,0,0,1,14,5,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "impl-posix_2logger_2logger_8cpp.html":[3,0,0,0,0,4,0],
 "impl-posix_2sys_8cpp.html":[3,0,0,0,0,13],
 "impl-wasm_2base_2lock_8cpp.html":[3,0,0,0,2,0,0],
-"impl-wasm_2entry_8cpp.html":[3,0,0,0,2,5],
-"impl-wasm_2logger_8cpp.html":[3,0,0,0,2,9]
+"impl-wasm_2entry_8cpp.html":[3,0,0,0,2,5]
 };
