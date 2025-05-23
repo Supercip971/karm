@@ -37,6 +37,7 @@ var annotated_dup =
       [ "Async", "namespaceKarm_1_1Async.html", [
         [ "Awaiter", "structKarm_1_1Async_1_1Awaiter.html", "structKarm_1_1Async_1_1Awaiter" ],
         [ "Cancelation", "structKarm_1_1Async_1_1Cancelation.html", "structKarm_1_1Async_1_1Cancelation" ],
+        [ "Context", "structKarm_1_1Async_1_1Context.html", "structKarm_1_1Async_1_1Context" ],
         [ "Continuation", "structKarm_1_1Async_1_1Continuation.html", "structKarm_1_1Async_1_1Continuation" ],
         [ "Inline", "structKarm_1_1Async_1_1Inline.html", null ],
         [ "InlineOrLater", "structKarm_1_1Async_1_1InlineOrLater.html", "structKarm_1_1Async_1_1InlineOrLater" ],

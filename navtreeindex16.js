@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"namespaceKarm_1_1Ui.html#af77bf41a5b42008d3921f0f612c36f3c":[0,0,8,35,144],
+"namespaceKarm_1_1Ui.html#af84696bd30f4f062fc751398fc25bf2e":[0,0,8,35,170],
 "namespaceKarm_1_1Ui.html#af8cbe4fce6c16687dae21ecc95d113c1":[0,0,8,35,180],
 "namespaceKarm_1_1Ui.html#af967e271e5dddefed3ae7229b373a8c3":[0,0,8,35,132],
 "namespaceKarm_1_1Ui.html#af9f4e35d0fce370289c23c20df70e2b8":[0,0,8,35,281],
@@ -70,8 +72,8 @@ var NAVTREEINDEX16 =
 "namespaceTtf.html#a07614b023a12da1c75dfa78d4d57720f":[0,0,19,30],
 "namespaceWav.html":[0,0,20],
 "namespaceZlib.html":[0,0,21],
-"namespacemembers.html":[0,1,0,0],
 "namespacemembers.html":[0,1,0],
+"namespacemembers.html":[0,1,0,0],
 "namespacemembers_0xc2a1.html":[0,1,0,26],
 "namespacemembers_0xc2a2.html":[0,1,0,27],
 "namespacemembers_0xc2a3.html":[0,1,0,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "namespacemembers_type_l.html":[0,1,3,7],
 "namespacemembers_type_m.html":[0,1,3,8],
 "namespacemembers_type_n.html":[0,1,3,9],
-"namespacemembers_type_o.html":[0,1,3,10],
-"namespacemembers_type_p.html":[0,1,3,11],
-"namespacemembers_type_q.html":[0,1,3,12]
+"namespacemembers_type_o.html":[0,1,3,10]
 };

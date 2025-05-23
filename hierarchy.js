@@ -136,6 +136,7 @@ var hierarchy =
       [ "Karm::Niche< Array< T, N > >::Content", "structKarm_1_1Niche_3_01Array_3_01T_00_01N_01_4_01_4_1_1Content.html", null ]
     ] ],
     [ "Karm::Niche< Union< Ts... > >::Content", "structKarm_1_1Niche_3_01Union_3_01Ts_8_8_8_01_4_01_4_1_1Content.html", null ],
+    [ "Karm::Async::Context", "structKarm_1_1Async_1_1Context.html", null ],
     [ "Karm::Async::Continuation< T >", "structKarm_1_1Async_1_1Continuation.html", null ],
     [ "Karm::Async::Continuation< S::Inner >", "structKarm_1_1Async_1_1Continuation.html", [
       [ "Karm::Async::Awaiter< S >", "structKarm_1_1Async_1_1Awaiter.html", null ]

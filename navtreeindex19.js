@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"rune_8h.html#a559cc71d8bfd454957083f6b701483cd":[3,0,0,1,5,41,12],
+"rune_8h.html#a56fd194a9d96f98b881602287029a12e":[3,0,0,1,5,41,157],
 "rune_8h.html#a5792d99d6529c0be3f0d21aed2f2a8e2":[3,0,0,1,5,41,160],
 "rune_8h.html#a583ee66c9d6ef6e8ed6b72d16b7fdca4":[3,0,0,1,5,41,104],
 "rune_8h.html#a594b3c1ba4f166034aa133cab9723092":[3,0,0,1,5,41,99],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "simd_8h.html#a67e8046d13ebb687699aed8a1b71ae90":[3,0,0,1,5,44,24],
 "simd_8h.html#a6e410f8862658dad517b9e330a546bbe":[3,0,0,1,5,44,5],
 "simd_8h.html#a71e163d21ce1f8f1b5b9458eb69e9323":[3,0,0,1,5,44,22],
-"simd_8h.html#a7949935e3074b186a2fe656e7fd52dbd":[3,0,0,1,5,44,32],
-"simd_8h.html#a7a319e0dabbf7e979de3db3b2437d88f":[3,0,0,1,5,44,9],
-"simd_8h.html#a7f1a63abf3dc5aa377231d11687c0344":[3,0,0,1,5,44,6]
+"simd_8h.html#a7949935e3074b186a2fe656e7fd52dbd":[3,0,0,1,5,44,32]
 };

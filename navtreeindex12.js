@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"namespaceKarm_1_1Gfx.html#a06a73bd0d78227ce4f4dc8f840c55c70":[0,0,8,9,38],
+"namespaceKarm_1_1Gfx.html#a0dbeba231c2ec1d70fb9dc642e4c2bbb":[0,0,8,9,46],
 "namespaceKarm_1_1Gfx.html#a11b2b9b477b7c0df121abe78e38880fb":[0,0,8,9,55],
 "namespaceKarm_1_1Gfx.html#a28536cc55216863a6f3d6931be9071ec":[0,0,8,9,53],
 "namespaceKarm_1_1Gfx.html#a3746a89e6f5c74cf11a399b75569b27b":[0,0,8,9,39],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Json.html":[0,0,8,16],
 "namespaceKarm_1_1Json.html#a06d6670226b16306f30aa67d92a85600":[0,0,8,16,14],
 "namespaceKarm_1_1Json.html#a12faaa7317e6875b75a95727db6516aa":[0,0,8,16,12],
-"namespaceKarm_1_1Json.html#a168428540041c05193e59ccced4f38b9":[0,0,8,16,6],
-"namespaceKarm_1_1Json.html#a1915e053a6c83f247ccdd47b5c387b73":[0,0,8,16,16],
-"namespaceKarm_1_1Json.html#a192061844409b8d2f92b1a93103f6b02":[0,0,8,16,5]
+"namespaceKarm_1_1Json.html#a168428540041c05193e59ccced4f38b9":[0,0,8,16,6]
 };

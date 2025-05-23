@@ -1,10 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"fmt_8cpp.html#a8d5c349a2b69f350cff047051d0b0b41":[3,0,0,1,14,5,15],
-"fmt_8cpp.html#a90aa2de58ccfe76ef5f8bbf8a9934383":[3,0,0,1,14,5,6],
-"fmt_8cpp.html#ab1a76c02b1cfd2f65b34c36ebf2b3804":[3,0,0,1,14,5,3],
-"fmt_8cpp.html#ab2268bfd2eebd95af48157da3dd368fe":[3,0,0,1,14,5,8],
-"fmt_8cpp.html#ab34c08a074f8dd0236aba3bbab8175f9":[3,0,0,1,14,5,14],
 "fmt_8cpp.html#acf7cffc0b348d75a821d118541cb32bb":[3,0,0,1,14,5,17],
 "fmt_8cpp.html#ae3cb1413bfc3e212a8525f99dd715390":[3,0,0,1,14,5,11],
 "fmt_8cpp.html#ae67f3f3e83bd20a05e3b8b72e44467a8":[3,0,0,1,14,5,9],
@@ -169,8 +164,8 @@ var NAVTREEINDEX4 =
 "functions_~.html":[2,2,0,26],
 "fuzzy-match_8h.html":[3,0,0,1,32,12],
 "fuzzy-match_8h_source.html":[3,0,0,1,32,12],
-"generator_8h.html":[3,0,0,1,3,4],
-"generator_8h_source.html":[3,0,0,1,3,4],
+"generator_8h.html":[3,0,0,1,3,5],
+"generator_8h_source.html":[3,0,0,1,3,5],
 "gif_2decoder_8h.html":[3,0,0,1,13,1,0],
 "gif_2decoder_8h_source.html":[3,0,0,1,13,1,0],
 "glob_8cpp.html":[3,0,0,1,14,8],
@@ -249,5 +244,10 @@ var NAVTREEINDEX4 =
 "impl-posix_2logger_2logger_8cpp.html":[3,0,0,0,0,4,0],
 "impl-posix_2sys_8cpp.html":[3,0,0,0,0,13],
 "impl-wasm_2base_2lock_8cpp.html":[3,0,0,0,2,0,0],
-"impl-wasm_2entry_8cpp.html":[3,0,0,0,2,5]
+"impl-wasm_2entry_8cpp.html":[3,0,0,0,2,5],
+"impl-wasm_2logger_8cpp.html":[3,0,0,0,2,9],
+"impl-wasm_2sys_8cpp.html":[3,0,0,0,2,12],
+"impls_2impl-posix_2app_8cpp.html":[3,0,0,0,0,7],
+"impls_2impl-posix_2entry_8h.html":[3,0,0,0,0,9],
+"impls_2impl-posix_2entry_8h.html#a687984f47d8cce148d1b914d2b79612a":[3,0,0,0,0,9,1]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"karm-image_2jpeg_2base_8h.html#a76dce5f2f01efdd989595400e43aa697a05d5e14a75cb7d26d0c11bd1f3c6ff25":[3,0,0,1,13,2,1,5,31],
-"karm-image_2jpeg_2base_8h.html#a76dce5f2f01efdd989595400e43aa697a095d863b387ccf3405f160025cefcb9c":[3,0,0,1,13,2,1,5,54],
-"karm-image_2jpeg_2base_8h.html#a76dce5f2f01efdd989595400e43aa697a13c0e905b229bf195cae0f16dccdb934":[3,0,0,1,13,2,1,5,60],
 "karm-image_2jpeg_2base_8h.html#a76dce5f2f01efdd989595400e43aa697a157f0ad61fed1bcbdcebeab49029cd67":[3,0,0,1,13,2,1,5,29],
 "karm-image_2jpeg_2base_8h.html#a76dce5f2f01efdd989595400e43aa697a180e57413ddda9628d8678f7dd8d468d":[3,0,0,1,13,2,1,5,63],
 "karm-image_2jpeg_2base_8h.html#a76dce5f2f01efdd989595400e43aa697a19d1bd314f2f2c9bf16c1391109e0faa":[3,0,0,1,13,2,1,5,16],
@@ -202,9 +199,9 @@ var NAVTREEINDEX6 =
 "karm-math_2expr_8h.html#a27ae887c41766cf034721e9e4fc10aa7":[3,0,0,1,20,12,6],
 "karm-math_2expr_8h.html#a3d8a79ff6f05c57452e6e15cdaf320fd":[3,0,0,1,20,12,10],
 "karm-math_2expr_8h.html#a5fed1623760fd8b6477452c9c302607a":[3,0,0,1,20,12,4],
+"karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,20,12,9],
 "karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,20,12,8],
 "karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,20,12,7],
-"karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,20,12,9],
 "karm-math_2expr_8h.html#ab4926c4a2ede894f50482096453a94e5":[3,0,0,1,20,12,5],
 "karm-math_2expr_8h_source.html":[3,0,0,1,20,12],
 "karm-math_2funcs_8h.html":[3,0,0,1,20,16],
@@ -249,5 +246,8 @@ var NAVTREEINDEX6 =
 "karm-math_2vec_8h.html#a22f4c777167c6baae98a7081a4ce2f76":[3,0,0,1,20,30,8],
 "karm-math_2vec_8h.html#a23e34120cf934e1a4a1a926cbd336630":[3,0,0,1,20,30,26],
 "karm-math_2vec_8h.html#a3765677505ee1c61be9b82db7ea9dd0c":[3,0,0,1,20,30,6],
-"karm-math_2vec_8h.html#a526de289f18012e75813f9c83bec311b":[3,0,0,1,20,30,9]
+"karm-math_2vec_8h.html#a526de289f18012e75813f9c83bec311b":[3,0,0,1,20,30,9],
+"karm-math_2vec_8h.html#a56f2606c6b18dfbc707d97f5fa11bb67":[3,0,0,1,20,30,25],
+"karm-math_2vec_8h.html#a613db4fdffaade82aa2708cabea92fc5":[3,0,0,1,20,30,4],
+"karm-math_2vec_8h.html#a6dcb44f74c7047f88189680b24e4a22a":[3,0,0,1,20,30,17]
 };
