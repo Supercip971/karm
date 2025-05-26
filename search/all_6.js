@@ -3,8 +3,8 @@ var searchData=
   ['g_0',['g',['../namespaceKarm.html#a3d1d4b3edabb2ba12addf5d3fcaf8f78',1,'Karm::g()'],['../unionKarm_1_1Math_1_1Vec4.html#a480b335a203aebe2b9767b17c915e676',1,'Karm::Math::Vec4::g()'],['../unionKarm_1_1Sys_1_1Ip6.html#ac694b8e38d4ea1b33291c54920342e0b',1,'Karm::Sys::Ip6::g()']]],
   ['g_1',['G',['../namespaceKarm.html#afb5cbf4bbe55c6311dc7235d4e2c2aa7',1,'Karm']]],
   ['g_2',['g',['../unionKarm_1_1Math_1_1Vec3.html#a482ed773e4eeff78cf5a01ef7d07e777',1,'Karm::Math::Vec3::g()'],['../structKarm_1_1Math_1_1Radii.html#ae81d5c36f0d08a3817fb1c24f3d3c1fa',1,'Karm::Math::Radii::g()']]],
-  ['gaps_3',['GAPS',['../structKarm_1_1Print_1_1ImagePrinter.html#a0988e989899bdeffc53dea2101a73ce5',1,'Karm::Print::ImagePrinter']]],
-  ['gaps_4',['gaps',['../structKarm_1_1Ui_1_1GridStyle.html#a3d277e0e66c931c1450ac14240301694',1,'Karm::Ui::GridStyle::gaps()'],['../structKarm_1_1Ui_1_1FlowStyle.html#a6d817ca0973553dca4c528732b854149',1,'Karm::Ui::FlowStyle::gaps()']]],
+  ['gaps_3',['gaps',['../structKarm_1_1Ui_1_1GridStyle.html#a3d277e0e66c931c1450ac14240301694',1,'Karm::Ui::GridStyle::gaps()'],['../structKarm_1_1Ui_1_1FlowStyle.html#a6d817ca0973553dca4c528732b854149',1,'Karm::Ui::FlowStyle::gaps()']]],
+  ['gaps_4',['GAPS',['../structKarm_1_1Print_1_1ImagePrinter.html#a0988e989899bdeffc53dea2101a73ce5',1,'Karm::Print::ImagePrinter']]],
   ['gen_5',['gen',['../structKarm_1_1Pdf_1_1XRef_1_1Entry.html#ab90ca4f8bb318a545f146ea57000d1e0',1,'Karm::Pdf::XRef::Entry::gen()'],['../structKarm_1_1Pdf_1_1Ref.html#af9307e9730015e5b23f1bd0e82db988c',1,'Karm::Pdf::Ref::gen()']]],
   ['generator_6',['Generator',['../structKarm_1_1Generator.html#ab7621516a545c74654c9b1ab3951a3cb',1,'Karm::Generator::Generator(Generator &amp;&amp;other)'],['../structKarm_1_1Generator.html#ac81c692cb0cfdd2f7df8375d1c283353',1,'Karm::Generator::Generator(Generator const &amp;other)=delete'],['../structKarm_1_1Generator.html#a83b7d2b3cc53584c898dee128f09288b',1,'Karm::Generator::Generator(std::coroutine_handle&lt; promise_type &gt; coro)'],['../structKarm_1_1Generator.html',1,'Karm::Generator&lt; T &gt;']]],
   ['generator_2eh_7',['generator.h',['../generator_8h.html',1,'']]],
@@ -83,9 +83,12 @@ var searchData=
   ['groupnode_3c_20gridlayout_20_3e_80',['GroupNode&lt; GridLayout &gt;',['../structKarm_1_1Ui_1_1GroupNode.html',1,'Karm::Ui']]],
   ['groupnode_3c_20stacklayout_20_3e_81',['GroupNode&lt; StackLayout &gt;',['../structKarm_1_1Ui_1_1GroupNode.html',1,'Karm::Ui']]],
   ['grow_82',['grow',['../namespaceKarm_1_1Ui.html#a03139cd03b26f2de2c51ee6f817fdbf2',1,'Karm::Ui']]],
-  ['grow_83',['GROW',['../structKarm_1_1Ui_1_1GridUnit.html#a47d5a12625cc400f5c5e38c86b9e547e',1,'Karm::Ui::GridUnit']]],
-  ['grow_84',['grow',['../namespaceKarm_1_1Ui.html#afbac994b33c98748b8ce45c80b407213',1,'Karm::Ui::grow(isize grow, Opt&lt; Child &gt; child)'],['../namespaceKarm_1_1Ui.html#aea86d01337e069d917afe34ec125dd51',1,'Karm::Ui::grow()'],['../namespaceKarm_1_1Ui.html#aa5c4ffa2a9d9e3bb77792d2d3bc99d4f',1,'Karm::Ui::grow(Opt&lt; Child &gt; child)'],['../structKarm_1_1Ui_1_1GridUnit.html#a78803d9f248f579aa729038e1063fd93',1,'Karm::Ui::GridUnit::grow()'],['../structKarm_1_1Ui_1_1Grow.html#a49d75c301b8786cb15f163179b5dbb98',1,'Karm::Ui::Grow::grow()'],['../unionKarm_1_1Math_1_1Rect.html#aefe3ef017f09b3bb9e34ca670c3e4992',1,'Karm::Math::Rect::grow()'],['../structKarm_1_1Math_1_1Radii.html#a9726f2713c4d7709b99d36423c88cb7c',1,'Karm::Math::Radii::grow()']]],
-  ['grow_85',['Grow',['../structKarm_1_1Ui_1_1Grow.html#a1ad544db6e02b2c3ec3eb5bcfbdc88f4',1,'Karm::Ui::Grow::Grow(isize grow, Child child)'],['../structKarm_1_1Ui_1_1Grow.html#a8b41abcc03a03667c2ca2546a414a149',1,'Karm::Ui::Grow::Grow(Child child)'],['../structKarm_1_1Ui_1_1Grow.html',1,'Karm::Ui::Grow']]],
-  ['gsub_86',['Gsub',['../structTtf_1_1Gsub.html',1,'Ttf']]],
-  ['gzip_87',['Gzip',['../namespaceGzip.html',1,'']]]
+  ['grow_83',['Grow',['../structKarm_1_1Ui_1_1Grow.html#a1ad544db6e02b2c3ec3eb5bcfbdc88f4',1,'Karm::Ui::Grow']]],
+  ['grow_84',['grow',['../namespaceKarm_1_1Ui.html#afbac994b33c98748b8ce45c80b407213',1,'Karm::Ui::grow(isize grow, Opt&lt; Child &gt; child)'],['../namespaceKarm_1_1Ui.html#aea86d01337e069d917afe34ec125dd51',1,'Karm::Ui::grow()'],['../namespaceKarm_1_1Ui.html#aa5c4ffa2a9d9e3bb77792d2d3bc99d4f',1,'Karm::Ui::grow(Opt&lt; Child &gt; child)']]],
+  ['grow_85',['Grow',['../structKarm_1_1Ui_1_1Grow.html#a8b41abcc03a03667c2ca2546a414a149',1,'Karm::Ui::Grow']]],
+  ['grow_86',['GROW',['../structKarm_1_1Ui_1_1GridUnit.html#a47d5a12625cc400f5c5e38c86b9e547e',1,'Karm::Ui::GridUnit']]],
+  ['grow_87',['grow',['../structKarm_1_1Ui_1_1GridUnit.html#a78803d9f248f579aa729038e1063fd93',1,'Karm::Ui::GridUnit::grow()'],['../structKarm_1_1Ui_1_1Grow.html#a49d75c301b8786cb15f163179b5dbb98',1,'Karm::Ui::Grow::grow()'],['../unionKarm_1_1Math_1_1Rect.html#aefe3ef017f09b3bb9e34ca670c3e4992',1,'Karm::Math::Rect::grow()'],['../structKarm_1_1Math_1_1Radii.html#a9726f2713c4d7709b99d36423c88cb7c',1,'Karm::Math::Radii::grow()']]],
+  ['grow_88',['Grow',['../structKarm_1_1Ui_1_1Grow.html',1,'Karm::Ui']]],
+  ['gsub_89',['Gsub',['../structTtf_1_1Gsub.html',1,'Ttf']]],
+  ['gzip_90',['Gzip',['../namespaceGzip.html',1,'']]]
 ];

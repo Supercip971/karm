@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['i_0',['I',['../namespaceKarm.html#a6302f52d26c3bc54b65c25db48652563',1,'Karm']]],
-  ['i_1',['i',['../namespaceKarm.html#aeef377e10b4ddead557562442105f0bb',1,'Karm']]],
+  ['i_0',['i',['../namespaceKarm.html#aeef377e10b4ddead557562442105f0bb',1,'Karm']]],
+  ['i_1',['I',['../namespaceKarm.html#a6302f52d26c3bc54b65c25db48652563',1,'Karm']]],
   ['icon_2',['icon',['../structKarm_1_1Kira_1_1Scaffold.html#a0bb531ae03b7bdb0bb5c3d566318316f',1,'Karm::Kira::Scaffold']]],
   ['icu_3',['Icu',['../segment_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;segment.cpp'],['../punycode_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;punycode.cpp'],['../normal_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;normal.cpp'],['../karm-icu_2mod_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;mod.cpp'],['../emoji_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;emoji.cpp'],['../bidi_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;bidi.cpp'],['../karm-icu_2base_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;base.cpp'],['../test-bidi_8cpp.html#a2bf0e269c8a3619f9f392a25a696347d',1,'Icu():&#160;test-bidi.cpp'],['../ucd_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4',1,'Icu():&#160;ucd.cpp'],['../mod_8cpp.html#a519eb5c04c358a7eae73321f2348c116',1,'Icu():&#160;mod.cpp']]],
   ['id_4',['id',['../structKarm_1_1Net_1_1Dns_1_1Header.html#ab5c90355630e0b2183d0e46cec9e3716',1,'Karm::Net::Dns::Header::id()'],['../structKarm_1_1Pkg_1_1BundleInfo.html#aa4fbaefe93a158fd775a6af3c8db6d99',1,'Karm::Pkg::BundleInfo::id()'],['../structKarm_1_1Text_1_1Prose_1_1StrutCell.html#ab5d4166af92779db3627111e8fc33073',1,'Karm::Text::Prose::StrutCell::id()']]],
