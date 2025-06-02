@@ -21,7 +21,7 @@ var structKarm_1_1Math_1_1Fixed =
     [ "operator--", "structKarm_1_1Math_1_1Fixed.html#ade2150720f3bffb37b95efea252bf244", null ],
     [ "operator-=", "structKarm_1_1Math_1_1Fixed.html#a7aaa7320587b4eb3392bf582ee666330", null ],
     [ "operator/", "structKarm_1_1Math_1_1Fixed.html#af82d484e0cd62f53c8cff74fdd368ee4", null ],
-    [ "operator/", "structKarm_1_1Math_1_1Fixed.html#ad424bcbb4a2f34c190e808113c9603d5", null ],
+    [ "operator/", "structKarm_1_1Math_1_1Fixed.html#a087e04305c5c6505d9ac3d8cc1685c68", null ],
     [ "operator/=", "structKarm_1_1Math_1_1Fixed.html#a6678d9db9f63c1c98ee7fd34eb6e0f02", null ],
     [ "operator<=>", "structKarm_1_1Math_1_1Fixed.html#a1852e566904c87bd3797f08082ccdc17", null ],
     [ "operator==", "structKarm_1_1Math_1_1Fixed.html#af4e47886595cdc7fae783930e5a1e144", null ],

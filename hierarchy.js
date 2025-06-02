@@ -635,11 +635,11 @@ var hierarchy =
       [ "Karm::Scene::Image", "structKarm_1_1Scene_1_1Image.html", null ],
       [ "Karm::Scene::Proxy", "structKarm_1_1Scene_1_1Proxy.html", [
         [ "Karm::Scene::Clear", "structKarm_1_1Scene_1_1Clear.html", null ],
+        [ "Karm::Scene::Clip", "structKarm_1_1Scene_1_1Clip.html", null ],
         [ "Karm::Scene::Transform", "structKarm_1_1Scene_1_1Transform.html", null ]
       ] ],
       [ "Karm::Scene::Shape", "structKarm_1_1Scene_1_1Shape.html", null ],
       [ "Karm::Scene::Stack", "structKarm_1_1Scene_1_1Stack.html", [
-        [ "Karm::Scene::Clip", "structKarm_1_1Scene_1_1Clip.html", null ],
         [ "Karm::Scene::Screen", "structKarm_1_1Scene_1_1Screen.html", null ]
       ] ],
       [ "Karm::Scene::Text", "structKarm_1_1Scene_1_1Text.html", null ],
