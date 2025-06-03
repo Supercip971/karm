@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('opt_8h_source.html',''); initResizable
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="structKarm_1_1Opt.html#a13597a1adb8d637f22bb776e3a74c6c3">   89</a></span>    <a class="code hl_define" href="libs_2karm-base_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> <span class="keyword">constexpr</span> <a class="code hl_struct" href="structKarm_1_1Opt.html">Opt</a>&amp; <span class="keyword">operator</span>=(U&amp;&amp; value) {</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        clear();</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        _present = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        std::construct_at(&amp;_value, std::move(value));</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        std::construct_at(&amp;_value, std::forward&lt;U&gt;(value));</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    }</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
@@ -510,7 +510,7 @@ $(document).ready(function(){initNavTree('opt_8h_source.html',''); initResizable
 <div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>        <span class="keyword">requires</span>(not <a class="code hl_concept" href="conceptKarm_1_1Meta_1_1Same.html">Meta::Same&lt;Meta::RemoveConstVolatileRef&lt;U&gt;</a>, <a class="code hl_struct" href="structKarm_1_1Opt.html">Opt&lt;T&gt;</a>&gt; and <a class="code hl_concept" href="conceptKarm_1_1Meta_1_1MoveConstructible.html">Meta::MoveConstructible&lt;T, U&gt;</a>)</div>
 <div class="line"><a id="l00410" name="l00410"></a><span class="lineno"><a class="line" href="structKarm_1_1Opt_3_01T_01_4.html#a13597a1adb8d637f22bb776e3a74c6c3">  410</a></span>    <a class="code hl_define" href="libs_2karm-base_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> <span class="keyword">constexpr</span> <a class="code hl_struct" href="structKarm_1_1Opt.html">Opt</a>&amp; <span class="keyword">operator</span>=(U&amp;&amp; value) {</div>
 <div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>        clear();</div>
-<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>        std::construct_at(&amp;_value, std::move(value));</div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>        std::construct_at(&amp;_value, std::forward&lt;U&gt;(value));</div>
 <div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>    }</div>
 <div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span> </div>
