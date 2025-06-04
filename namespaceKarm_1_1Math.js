@@ -15,6 +15,9 @@ var namespaceKarm_1_1Math =
       [ "test$", "namespaceKarm_1_1Math_1_1Tests.html#a68c719208e5234666e9c688756dddd51", null ],
       [ "test$", "namespaceKarm_1_1Math_1_1Tests.html#ab007f32f33df4ef1d1f638930ff15946", null ],
       [ "test$", "namespaceKarm_1_1Math_1_1Tests.html#aa4f1f3b7d778dcf6ecacf99d7bf636e6", null ],
+      [ "test$", "namespaceKarm_1_1Math_1_1Tests.html#a96d673465d9927c289fdcd7e0b00b0ff", null ],
+      [ "test$", "namespaceKarm_1_1Math_1_1Tests.html#a55de3a45eb99e673a171095394e55e0a", null ],
+      [ "test$", "namespaceKarm_1_1Math_1_1Tests.html#a469d93cd49ebf8e9c49da7f898f38ee6", null ],
       [ "test$", "namespaceKarm_1_1Math_1_1Tests.html#af400ad7e16e41c2997abc49b1efb7e64", null ]
     ] ],
     [ "Align", "structKarm_1_1Math_1_1Align.html", "structKarm_1_1Math_1_1Align" ],

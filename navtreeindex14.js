@@ -28,7 +28,10 @@ var NAVTREEINDEX14 =
 "namespaceKarm_1_1Math_1_1Tests.html#a1d8f5195c7ea830f07c2c65ff67797fd":[0,0,8,20,0,5],
 "namespaceKarm_1_1Math_1_1Tests.html#a2b7f9fd20a290dbf3e03a9923ad9e08e":[0,0,8,20,0,2],
 "namespaceKarm_1_1Math_1_1Tests.html#a2fdb192658fd2056d7bcdd427e7bffcd":[0,0,8,20,0,8],
+"namespaceKarm_1_1Math_1_1Tests.html#a469d93cd49ebf8e9c49da7f898f38ee6":[0,0,8,20,0,16],
+"namespaceKarm_1_1Math_1_1Tests.html#a55de3a45eb99e673a171095394e55e0a":[0,0,8,20,0,15],
 "namespaceKarm_1_1Math_1_1Tests.html#a68c719208e5234666e9c688756dddd51":[0,0,8,20,0,11],
+"namespaceKarm_1_1Math_1_1Tests.html#a96d673465d9927c289fdcd7e0b00b0ff":[0,0,8,20,0,14],
 "namespaceKarm_1_1Math_1_1Tests.html#aa4f1f3b7d778dcf6ecacf99d7bf636e6":[0,0,8,20,0,13],
 "namespaceKarm_1_1Math_1_1Tests.html#aa5f1e1e3d6a8e044863c212d64d9af4f":[0,0,8,20,0,6],
 "namespaceKarm_1_1Math_1_1Tests.html#aa96c39f50eadc34c5030a8dab91386f8":[0,0,8,20,0,1],
@@ -37,7 +40,7 @@ var NAVTREEINDEX14 =
 "namespaceKarm_1_1Math_1_1Tests.html#ab19743b5086b2b6bc98bf4bb4cef1ddd":[0,0,8,20,0,0],
 "namespaceKarm_1_1Math_1_1Tests.html#ab82ffeed30312e55936af7227d45055e":[0,0,8,20,0,3],
 "namespaceKarm_1_1Math_1_1Tests.html#af05bb89936a1b16b3061bdbaa03da774":[0,0,8,20,0,9],
-"namespaceKarm_1_1Math_1_1Tests.html#af400ad7e16e41c2997abc49b1efb7e64":[0,0,8,20,0,14],
+"namespaceKarm_1_1Math_1_1Tests.html#af400ad7e16e41c2997abc49b1efb7e64":[0,0,8,20,0,17],
 "namespaceKarm_1_1Math_1_1Tests.html#affffc332c15a08617027ce25857d4e6a":[0,0,8,20,0,7],
 "namespaceKarm_1_1Meta.html":[0,0,8,21],
 "namespaceKarm_1_1Meta.html#a012c2d5cd0ba51b4a4bf42cf18bdd6cf":[0,0,8,21,61],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "namespaceKarm_1_1Text.html#a979015f1460368740d4a4fb75677ce53ae29d1d2ceca88985d2cf3bd5ba380301":[0,0,8,34,24,9],
 "namespaceKarm_1_1Text.html#a979015f1460368740d4a4fb75677ce53afa177138f94a7ea01f549b1aa7893d03":[0,0,8,34,24,5],
 "namespaceKarm_1_1Text.html#aa471ae3703b8a4fc1cdd0042fe6ab860":[0,0,8,34,27],
-"namespaceKarm_1_1Text.html#ad410850ae52f09e20330bc945572a9d3":[0,0,8,34,31],
-"namespaceKarm_1_1Text_1_1Tests.html":[0,0,8,34,0],
-"namespaceKarm_1_1Text_1_1Tests.html#a74281e3cf656cc5391fb993a9567b5ba":[0,0,8,34,0,0],
-"namespaceKarm_1_1Text_1_1Tests.html#aa26740b79491866bf93037d222dbd9d9":[0,0,8,34,0,1]
+"namespaceKarm_1_1Text.html#ad410850ae52f09e20330bc945572a9d3":[0,0,8,34,31]
 };

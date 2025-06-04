@@ -10,7 +10,7 @@ var unionKarm_1_1Math_1_1Ellipse =
     [ "Ellipse", "unionKarm_1_1Math_1_1Ellipse.html#aa71b293bb3be49a2092bd629656d2118", null ],
     [ "~Ellipse", "unionKarm_1_1Math_1_1Ellipse.html#a3dcdbfa3304f0c7da19ac938a45e3e17", null ],
     [ "bound", "unionKarm_1_1Math_1_1Ellipse.html#af261ce9c3c56393701054afcedca2309", null ],
-    [ "cast", "unionKarm_1_1Math_1_1Ellipse.html#af31eac14fe66b6bb5b14d48869b2363d", null ],
+    [ "cast", "unionKarm_1_1Math_1_1Ellipse.html#a1dfe90e0ae06079ead87cf4f103c02fe", null ],
     [ "hasNan", "unionKarm_1_1Math_1_1Ellipse.html#a89e5351ef3be553338491d52b55cd7fe", null ],
     [ "map", "unionKarm_1_1Math_1_1Ellipse.html#a12347d836005ea29e9b5d0c6368b522a", null ],
     [ "operator=", "unionKarm_1_1Math_1_1Ellipse.html#a1f8bc326e9f8fa8072b742548eca3d52", null ],
