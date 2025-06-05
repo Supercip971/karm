@@ -232,7 +232,7 @@ var searchData=
   ['transform_229',['transform',['../structKarm_1_1Pdf_1_1Canvas.html#afe0c0d8603ef2421b65ebb57bac71791',1,'Karm::Pdf::Canvas']]],
   ['transform_2eh_230',['transform.h',['../transform_8h.html',1,'']]],
   ['translate_231',['translate',['../structKarm_1_1Gfx_1_1Canvas.html#a7d84068fbd5a08aa82a427c979934898',1,'Karm::Gfx::Canvas::translate()'],['../unionKarm_1_1Math_1_1Trans2.html#aef8c54f45e04cf6d72dbf5b843dfc992',1,'Karm::Math::Trans2::translate(Vec2&lt; T &gt; v)']]],
-  ['translated_232',['translated',['../unionKarm_1_1Math_1_1Trans2.html#a461335a61e314dd6d8ca8cdac18f7dd3',1,'Karm::Math::Trans2::translated() const'],['../unionKarm_1_1Math_1_1Trans2.html#ab0a2d24fbc8d0c9e1290e508f9035b3f',1,'Karm::Math::Trans2::translated(Vec2&lt; T &gt; v)']]],
+  ['translated_232',['translated',['../unionKarm_1_1Math_1_1Trans2.html#a461335a61e314dd6d8ca8cdac18f7dd3',1,'Karm::Math::Trans2::translated() const'],['../unionKarm_1_1Math_1_1Trans2.html#a7e4a4404f766c7bb635a79f5aa7c4572',1,'Karm::Math::Trans2::translated(Vec2&lt; T &gt; v) const']]],
   ['translation_233',['translation',['../structKarm_1_1Ui_1_1Carousel.html#a7f756172001168747171c8946a2b70f6',1,'Karm::Ui::Carousel::translation()'],['../structKarm_1_1Ui_1_1SlideIn.html#a04262f1bc157c1f04958f3e3e540320c',1,'Karm::Ui::SlideIn::translation()']]],
   ['transport_234',['Transport',['../structKarm_1_1Http_1_1Transport.html',1,'Karm::Http']]],
   ['transport_2ecpp_235',['transport.cpp',['../transport_8cpp.html',1,'']]],
