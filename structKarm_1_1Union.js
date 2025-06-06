@@ -24,6 +24,6 @@ var structKarm_1_1Union =
     [ "unwrap", "structKarm_1_1Union.html#a7d3c51bee7dc24f37bc5e540f64fcf0b", null ],
     [ "unwrapOr", "structKarm_1_1Union.html#a6529d536612fa4dcddd58d69f0487ba0", null ],
     [ "valid", "structKarm_1_1Union.html#a8c3f60c1be19c1a05144e546e2dc09e4", null ],
-    [ "visit", "structKarm_1_1Union.html#aeab09d1750205cfb3c865a7bff2aa538", null ],
-    [ "visit", "structKarm_1_1Union.html#a55dd1f3984415a8de046836dda9530b0", null ]
+    [ "visit", "structKarm_1_1Union.html#a69a1efb6bd51a96ca60bfa41862b732b", null ],
+    [ "visit", "structKarm_1_1Union.html#a94475724608ab688b865ab5320e83fe4", null ]
 ];
