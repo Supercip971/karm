@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['q_0',['Q',['../namespaceKarm.html#acfc7dc9a835ebfbad7b980dbd295159c',1,'Karm']]],
-  ['q_1',['q',['../namespaceKarm.html#a4ac191aeeeb11ea5b66edabaedc2908c',1,'Karm']]],
+  ['q_0',['q',['../namespaceKarm.html#a4ac191aeeeb11ea5b66edabaedc2908c',1,'Karm']]],
+  ['q_1',['Q',['../namespaceKarm.html#acfc7dc9a835ebfbad7b980dbd295159c',1,'Karm']]],
   ['qdcount_2',['qdcount',['../structKarm_1_1Net_1_1Dns_1_1Header.html#afb0c9326795276b5c61f147c7473d799',1,'Karm::Net::Dns::Header']]],
   ['qoa_3',['Qoa',['../namespaceQoa.html',1,'']]],
   ['qoi_4',['Qoi',['../namespaceQoi.html',1,'']]],

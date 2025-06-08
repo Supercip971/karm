@@ -39,7 +39,7 @@ var searchData=
   ['printer_36',['Printer',['../structKarm_1_1Print_1_1Printer.html',1,'Karm::Print']]],
   ['progress_37',['Progress',['../structKarm_1_1Kira_1_1Progress.html',1,'Karm::Kira']]],
   ['promise_5ftype_38',['promise_type',['../structKarm_1_1Generator_1_1promise__type.html',1,'Karm::Generator']]],
-  ['props_39',['Props',['../structKarm_1_1Cli_1_1Command_1_1Props.html',1,'Karm::Cli::Command']]],
+  ['props_39',['Props',['../structKarm_1_1Cli_1_1Command_1_1Props.html',1,'Karm::Cli::Command::Props'],['../structKarm_1_1Shader_1_1Props.html',1,'Karm::Shader::Props']]],
   ['prose_40',['Prose',['../structKarm_1_1Text_1_1Prose.html',1,'Karm::Text']]],
   ['prosestyle_41',['ProseStyle',['../structKarm_1_1Text_1_1ProseStyle.html',1,'Karm::Text']]],
   ['proxy_42',['Proxy',['../structKarm_1_1Scene_1_1Proxy.html',1,'Karm::Scene']]],

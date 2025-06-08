@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['c_0',['c',['../unionKarm_1_1Math_1_1Quad.html#a9c57a15fa207eacf305949b1a5a2f0de',1,'Karm::Math::Quad']]],
+  ['c_0',['c',['../unionKarm_1_1Math_1_1Quad.html#a9c57a15fa207eacf305949b1a5a2f0de',1,'Karm::Math::Quad::c()'],['../namespaceKarm.html#aab55395ea53e0ab214d6e72cbbd93125',1,'Karm::c()'],['../namespaceKarm_1_1Io_1_1Tests.html#adec843c3675e697d9179d1e80882f44a',1,'Karm::Io::Tests::c()']]],
   ['c_1',['C',['../namespaceKarm.html#a76f68cd9539610d4d53c426d21f615ae',1,'Karm']]],
-  ['c_2',['c',['../namespaceKarm.html#aab55395ea53e0ab214d6e72cbbd93125',1,'Karm::c()'],['../namespaceKarm_1_1Io_1_1Tests.html#adec843c3675e697d9179d1e80882f44a',1,'Karm::Io::Tests::c()'],['../unionKarm_1_1Math_1_1Curve.html#aa9da8293354717ee3cf2e4022af891fc',1,'Karm::Math::Curve::c()'],['../unionKarm_1_1Sys_1_1Ip4.html#acedd4c3c487b4917b3790cddac498c6a',1,'Karm::Sys::Ip4::c()'],['../unionKarm_1_1Math_1_1Tri2.html#a625e336948f282d7730e797d7d4d9873',1,'Karm::Math::Tri2::c()'],['../structKarm_1_1Math_1_1Radii.html#a59410200265897be24ebdac365c9decd',1,'Karm::Math::Radii::c()'],['../unionKarm_1_1Sys_1_1Ip6.html#af7e26f228a025e8a98dd95b94e928796',1,'Karm::Sys::Ip6::c()']]],
+  ['c_2',['c',['../unionKarm_1_1Math_1_1Curve.html#aa9da8293354717ee3cf2e4022af891fc',1,'Karm::Math::Curve::c()'],['../unionKarm_1_1Sys_1_1Ip4.html#acedd4c3c487b4917b3790cddac498c6a',1,'Karm::Sys::Ip4::c()'],['../unionKarm_1_1Math_1_1Tri2.html#a625e336948f282d7730e797d7d4d9873',1,'Karm::Math::Tri2::c()'],['../structKarm_1_1Math_1_1Radii.html#a59410200265897be24ebdac365c9decd',1,'Karm::Math::Radii::c()'],['../unionKarm_1_1Sys_1_1Ip6.html#af7e26f228a025e8a98dd95b94e928796',1,'Karm::Sys::Ip6::c()']]],
   ['callback_3',['callback',['../structKarm_1_1Sys_1_1Intent.html#a32980cde12516175ab08d07de5f5d9e8',1,'Karm::Sys::Intent']]],
   ['callbackasync_4',['callbackAsync',['../structKarm_1_1Cli_1_1Command.html#a5d58cd162f76a26d81acdbde0f7ccecd',1,'Karm::Cli::Command']]],
   ['cap_5',['CAP',['../structKarm_1_1Rpc_1_1Message.html#a408d0d86e2e0fb07a02c3b2dd7ffd908',1,'Karm::Rpc::Message']]],

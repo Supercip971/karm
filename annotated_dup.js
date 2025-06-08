@@ -385,7 +385,9 @@ var annotated_dup =
         [ "Viewbox", "structKarm_1_1Scene_1_1Viewbox.html", "structKarm_1_1Scene_1_1Viewbox" ]
       ] ],
       [ "Shader", "namespaceKarm_1_1Shader.html", [
-        [ "Expr", "structKarm_1_1Shader_1_1Expr.html", null ]
+        [ "Expr", "structKarm_1_1Shader_1_1Expr.html", null ],
+        [ "Module", "structKarm_1_1Shader_1_1Module.html", null ],
+        [ "Props", "structKarm_1_1Shader_1_1Props.html", null ]
       ] ],
       [ "Sys", "namespaceKarm_1_1Sys.html", [
         [ "ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", "structKarm_1_1Sys_1_1ArgsHook" ],

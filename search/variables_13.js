@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['t_0',['t',['../namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a',1,'Karm']]],
-  ['t_1',['T',['../namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed',1,'Karm']]],
+  ['t_0',['T',['../namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed',1,'Karm']]],
+  ['t_1',['t',['../namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a',1,'Karm']]],
   ['tag_2',['tag',['../structTtf_1_1ScriptTable.html#a95b9878c2186eec3eb7c03e135daba07',1,'Ttf::ScriptTable::tag()'],['../structTtf_1_1FeatureTable.html#a1d3d3b67ee2e757cff1e53f713513bcc',1,'Ttf::FeatureTable::tag()'],['../structTtf_1_1LangSys.html#a03ee1a27a062ee699427e23fc9750d8d',1,'Ttf::LangSys::tag()']]],
   ['tail_3',['tail',['../structKarm_1_1Text_1_1Model_1_1Cur.html#ac4c80d1bc2fe4c7c9cddb3188438a898',1,'Karm::Text::Model::Cur']]],
   ['tau_4',['TAU',['../namespaceKarm_1_1Math.html#a604220479c74f9048f59cde85671fb09',1,'Karm::Math']]],

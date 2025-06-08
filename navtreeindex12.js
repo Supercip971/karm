@@ -1,5 +1,10 @@
 var NAVTREEINDEX12 =
 {
+"namespaceKarm_1_1Gc.html#a3e11a915dbdfafa714b1f8c1d3eb4ea5":[0,0,8,8,6],
+"namespaceKarm_1_1Gc.html#a9bf6a87a8b091e376d789530e43ba1e5":[0,0,8,8,5],
+"namespaceKarm_1_1Gc_1_1Tests.html":[0,0,8,8,0],
+"namespaceKarm_1_1Gc_1_1Tests.html#a50a02f5f842d32b5bc04e3b8e3260ba5":[0,0,8,8,0,1],
+"namespaceKarm_1_1Gfx.html":[0,0,8,9],
 "namespaceKarm_1_1Gfx.html#a06a73bd0d78227ce4f4dc8f840c55c70":[0,0,8,9,38],
 "namespaceKarm_1_1Gfx.html#a0dbeba231c2ec1d70fb9dc642e4c2bbb":[0,0,8,9,46],
 "namespaceKarm_1_1Gfx.html#a11b2b9b477b7c0df121abe78e38880fb":[0,0,8,9,55],
@@ -244,10 +249,5 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Jit_1_1Spirv.html":[0,0,8,15,5],
 "namespaceKarm_1_1Jit_1_1Sysv.html":[0,0,8,15,6],
 "namespaceKarm_1_1Jit_1_1Wasm.html":[0,0,8,15,7],
-"namespaceKarm_1_1Jit_1_1Win.html":[0,0,8,15,8],
-"namespaceKarm_1_1Jit_1_1x86.html":[0,0,8,15,9],
-"namespaceKarm_1_1Json.html":[0,0,8,16],
-"namespaceKarm_1_1Json.html#a06d6670226b16306f30aa67d92a85600":[0,0,8,16,14],
-"namespaceKarm_1_1Json.html#a12faaa7317e6875b75a95727db6516aa":[0,0,8,16,12],
-"namespaceKarm_1_1Json.html#a168428540041c05193e59ccced4f38b9":[0,0,8,16,6]
+"namespaceKarm_1_1Jit_1_1Win.html":[0,0,8,15,8]
 };
