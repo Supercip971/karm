@@ -21,6 +21,7 @@ var structKarm_1_1Pdf_1_1Canvas =
     [ "line", "structKarm_1_1Pdf_1_1Canvas.html#a8716a05771a9770249947167d42f3e24", null ],
     [ "lineTo", "structKarm_1_1Pdf_1_1Canvas.html#aa1690e6b6dc1de4eebe39a4ca7a604e7", null ],
     [ "moveTo", "structKarm_1_1Pdf_1_1Canvas.html#a11f6d296eb2cfe806a023d2bec6d8447", null ],
+    [ "opacity", "structKarm_1_1Pdf_1_1Canvas.html#a5b7aca63c08fe5b67d0adf8a8726daca", null ],
     [ "path", "structKarm_1_1Pdf_1_1Canvas.html#acb9f8669fff5a94ff227fb50380a7a96", null ],
     [ "plot", "structKarm_1_1Pdf_1_1Canvas.html#a149fef5bd0b4944a6f513ef872842b2e", null ],
     [ "plot", "structKarm_1_1Pdf_1_1Canvas.html#a0b141875a1256397dbe955d537cdff8f", null ],

@@ -5,6 +5,7 @@ var dir_041fe90bb727f1d866ba510ed950a9db =
     [ "clip.h", "clip_8h.html", "clip_8h" ],
     [ "image.h", "image_8h.html", "image_8h" ],
     [ "node.h", "node_8h.html", "node_8h" ],
+    [ "opacity.h", "opacity_8h.html", "opacity_8h" ],
     [ "proxy.h", "proxy_8h.html", "proxy_8h" ],
     [ "screen.h", "screen_8h.html", "screen_8h" ],
     [ "shape.h", "shape_8h.html", "shape_8h" ],

@@ -29,6 +29,7 @@ var structKarm_1_1Gfx_1_1CpuCanvas =
     [ "lineTo", "structKarm_1_1Gfx_1_1CpuCanvas.html#a4766b52f6183bf55a58a345e988b72b2", null ],
     [ "moveTo", "structKarm_1_1Gfx_1_1CpuCanvas.html#ae629f9bd31ef0f2e927d5ab52b15c829", null ],
     [ "mutPixels", "structKarm_1_1Gfx_1_1CpuCanvas.html#a627f5e6f391cdb4a2216f0d4a11e3bfc", null ],
+    [ "opacity", "structKarm_1_1Gfx_1_1CpuCanvas.html#ac4407ee9d6d124b44a582bc83d7a61fd", null ],
     [ "path", "structKarm_1_1Gfx_1_1CpuCanvas.html#ad4ef479dfba58740ebe0931d95a804e4", null ],
     [ "pixels", "structKarm_1_1Gfx_1_1CpuCanvas.html#a46c18dc68eca1f01705b50025a5673c0", null ],
     [ "plot", "structKarm_1_1Gfx_1_1CpuCanvas.html#a1a3c00e56ad3620f20a7d5848795b059", null ],

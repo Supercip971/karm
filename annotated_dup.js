@@ -375,6 +375,7 @@ var annotated_dup =
         [ "Clip", "structKarm_1_1Scene_1_1Clip.html", "structKarm_1_1Scene_1_1Clip" ],
         [ "Image", "structKarm_1_1Scene_1_1Image.html", "structKarm_1_1Scene_1_1Image" ],
         [ "Node", "structKarm_1_1Scene_1_1Node.html", "structKarm_1_1Scene_1_1Node" ],
+        [ "Opacity", "structKarm_1_1Scene_1_1Opacity.html", "structKarm_1_1Scene_1_1Opacity" ],
         [ "PaintOptions", "structKarm_1_1Scene_1_1PaintOptions.html", "structKarm_1_1Scene_1_1PaintOptions" ],
         [ "Proxy", "structKarm_1_1Scene_1_1Proxy.html", "structKarm_1_1Scene_1_1Proxy" ],
         [ "Screen", "structKarm_1_1Scene_1_1Screen.html", "structKarm_1_1Scene_1_1Screen" ],

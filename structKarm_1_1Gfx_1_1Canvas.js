@@ -35,6 +35,7 @@ var structKarm_1_1Gfx_1_1Canvas =
     [ "line", "structKarm_1_1Gfx_1_1Canvas.html#a860f716ed26c4946a5833dd92c3117a2", null ],
     [ "lineTo", "structKarm_1_1Gfx_1_1Canvas.html#affe66c8897648406d754fe287c901b84", null ],
     [ "moveTo", "structKarm_1_1Gfx_1_1Canvas.html#a57c51436ab459a1a487d511a95460f1e", null ],
+    [ "opacity", "structKarm_1_1Gfx_1_1Canvas.html#ad19e49847b249f9b17d21e4667cef1ab", null ],
     [ "operator=", "structKarm_1_1Gfx_1_1Canvas.html#a75cc29946fe3aed81a8846499ba4d7ee", null ],
     [ "origin", "structKarm_1_1Gfx_1_1Canvas.html#a10e12fdb421866e0daa2bbe26a25d636", null ],
     [ "path", "structKarm_1_1Gfx_1_1Canvas.html#abce3fcc92bee333b35d5a708e2a66eaa", null ],
