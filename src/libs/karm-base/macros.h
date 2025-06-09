@@ -52,6 +52,8 @@ namespace Karm {
         return (T&)((U&)a ^= (U)b);                \
     }
 
+#define ExportedFlagsEnum$
+
 // MARK: Try -------------------------------------------------------------------
 
 // Give us a symbole to break one when debbuging error handling.

@@ -1,8 +1,8 @@
-#pragma once
+export module Karm.App:_embed;
 
 namespace Karm::App {
 
-struct Prefs;
+export struct Prefs;
 
 } // namespace Karm::App
 

@@ -1,12 +1,12 @@
 module;
 
-#include <karm-app/event.h>
 #include <karm-gfx/canvas.h>
 #include <karm-gfx/icon.h>
 
 export module Karm.Kira:checkbox;
 
 import Karm.Ui;
+import Karm.App;
 import Mdi;
 
 namespace Karm::Kira {

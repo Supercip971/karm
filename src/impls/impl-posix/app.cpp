@@ -1,14 +1,14 @@
 #include <stdlib.h>
 
 //
-#include <karm-app/_embed.h>
-#include <karm-app/prefs.h>
 #include <karm-json/parse.h>
 #include <karm-logger/logger.h>
 #include <karm-mime/url.h>
 #include <karm-pkg/_embed.h>
 #include <karm-sys/dir.h>
 #include <karm-sys/file.h>
+
+import Karm.App;
 
 namespace Karm::App::_Ember {
 

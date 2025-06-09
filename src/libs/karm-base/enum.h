@@ -16,6 +16,11 @@ struct Flags {
     Flags(E value)
         : _value(value) {}
 
+    Flags(std::initializer_list<E> values) {
+        for (auto value : values) 
+            *this |= value;
+    }
+
     bool has(E value) const {
         return (_value & value) == value;
     }

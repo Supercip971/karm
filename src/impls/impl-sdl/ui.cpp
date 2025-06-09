@@ -1,8 +1,6 @@
 module;
 
 #include <SDL.h>
-#include <karm-app/host.h>
-#include <karm-app/inputs.h>
 #include <karm-gfx/canvas.h>
 #include <karm-image/loader.h>
 #include <karm-logger/logger.h>
@@ -11,6 +9,7 @@ module;
 
 module Karm.Ui:_embed;
 
+import Karm.App;
 import Karm.Ui;
 
 namespace Karm::Ui::_Embed {

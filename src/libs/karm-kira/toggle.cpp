@@ -1,11 +1,11 @@
 module;
 
-#include <karm-app/event.h>
 #include <karm-gfx/canvas.h>
 
 export module Karm.Kira:toggle;
 
 import Karm.Ui;
+import Karm.App;
 
 namespace Karm::Kira {
 
