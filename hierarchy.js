@@ -499,6 +499,7 @@ var hierarchy =
     [ "Karm::Text::Glyph", "structKarm_1_1Text_1_1Glyph.html", null ],
     [ "Ttf::GlyphMetrics", "structTtf_1_1GlyphMetrics.html", null ],
     [ "Karm::Gfx::Gradient", "structKarm_1_1Gfx_1_1Gradient.html", null ],
+    [ "Karm::Pdf::GraphicalStateDict", "structKarm_1_1Pdf_1_1GraphicalStateDict.html", null ],
     [ "Karm::Gfx::GrayscaleFilter", "structKarm_1_1Gfx_1_1GrayscaleFilter.html", null ],
     [ "Karm::Gfx::Greyscale8", "structKarm_1_1Gfx_1_1Greyscale8.html", null ],
     [ "Karm::Ui::GridStyle", "structKarm_1_1Ui_1_1GridStyle.html", null ],

@@ -339,6 +339,7 @@ var annotated_dup =
         [ "Dict", "structKarm_1_1Pdf_1_1Dict.html", "structKarm_1_1Pdf_1_1Dict" ],
         [ "File", "structKarm_1_1Pdf_1_1File.html", "structKarm_1_1Pdf_1_1File" ],
         [ "FontManager", "structKarm_1_1Pdf_1_1FontManager.html", "structKarm_1_1Pdf_1_1FontManager" ],
+        [ "GraphicalStateDict", "structKarm_1_1Pdf_1_1GraphicalStateDict.html", "structKarm_1_1Pdf_1_1GraphicalStateDict" ],
         [ "Name", "structKarm_1_1Pdf_1_1Name.html", "structKarm_1_1Pdf_1_1Name" ],
         [ "Ref", "structKarm_1_1Pdf_1_1Ref.html", "structKarm_1_1Pdf_1_1Ref" ],
         [ "Stream", "structKarm_1_1Pdf_1_1Stream.html", "structKarm_1_1Pdf_1_1Stream" ],

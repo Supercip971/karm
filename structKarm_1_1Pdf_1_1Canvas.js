@@ -1,6 +1,6 @@
 var structKarm_1_1Pdf_1_1Canvas =
 [
-    [ "Canvas", "structKarm_1_1Pdf_1_1Canvas.html#a9ead1ebc3036c2cf4410c650569380b9", null ],
+    [ "Canvas", "structKarm_1_1Pdf_1_1Canvas.html#aafc34ef845a4c2e05d25f8873a8befc0", null ],
     [ "apply", "structKarm_1_1Pdf_1_1Canvas.html#af1cc1aadca4b5ad753461fccc66481d7", null ],
     [ "arc", "structKarm_1_1Pdf_1_1Canvas.html#a748236abb028685aacae3e3041c99914", null ],
     [ "arcTo", "structKarm_1_1Pdf_1_1Canvas.html#a78b5a1a79b3ffe700c67306f3706556f", null ],
