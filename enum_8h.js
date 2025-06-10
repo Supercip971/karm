@@ -1,6 +1,5 @@
 var enum_8h =
 [
-    [ "Karm::Flags< E >", "structKarm_1_1Flags.html", "structKarm_1_1Flags" ],
     [ "Karm::BoundedEnum", "conceptKarm_1_1BoundedEnum.html", null ],
     [ "FOREACH_ENUM_LEN", "enum_8h.html#a67ea165a4ff40bd3222ee91fe61dee81", null ],
     [ "ITER", "enum_8h.html#a6b7f98f1feee43ef7fc8d90ce78bf5c5", null ],

@@ -323,6 +323,7 @@ var namespaceKarm =
     [ "fill", "namespaceKarm.html#a0830d7440a5e93761ffb2a2d2fdcdbbf", null ],
     [ "first", "namespaceKarm.html#aca6ac5d6d3638a00befdb3f3f24138cd", null ],
     [ "first", "namespaceKarm.html#a31f0ac9d2c5b9c0a66f3c3bae4f9516c", null ],
+    [ "Flags", "namespaceKarm.html#a077f3b28f6205f80d4edf927d2fe19ea", null ],
     [ "gib", "namespaceKarm.html#a72060319acb8c7e1cbe19501d2aff15d", null ],
     [ "goodEmoji", "namespaceKarm.html#a7ff68fd8fce35d343c695b82ba63b37a", null ],
     [ "indexOf", "namespaceKarm.html#a99938bf9eb2d7a9d7aaaa0e01b6583c9", null ],

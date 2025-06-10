@@ -18,7 +18,7 @@ var searchData=
   ['metrics_15',['Metrics',['../structTtf_1_1Glyf_1_1Metrics.html',1,'Ttf::Glyf::Metrics'],['../structTtf_1_1Hmtx_1_1Metrics.html',1,'Ttf::Hmtx::Metrics'],['../structTtf_1_1Metrics.html',1,'Ttf::Metrics']]],
   ['mime_16',['Mime',['../structKarm_1_1Mime_1_1Mime.html',1,'Karm::Mime']]],
   ['mmap_17',['Mmap',['../structKarm_1_1Sys_1_1Mmap.html',1,'Karm::Sys']]],
-  ['mmapoptions_18',['MmapOptions',['../structKarm_1_1Sys_1_1MmapOptions.html',1,'Karm::Sys']]],
+  ['mmapprops_18',['MmapProps',['../structKarm_1_1Sys_1_1MmapProps.html',1,'Karm::Sys']]],
   ['mmapresult_19',['MmapResult',['../structKarm_1_1Sys_1_1MmapResult.html',1,'Karm::Sys']]],
   ['mockprefs_20',['MockPrefs',['../structKarm_1_1App_1_1MockPrefs.html',1,'Karm::App']]],
   ['model_21',['Model',['../structKarm_1_1Text_1_1Model.html',1,'Karm::Text::Model'],['../structKarm_1_1Ui_1_1Model.html',1,'Karm::Ui::Model&lt; S, A, R &gt;']]],

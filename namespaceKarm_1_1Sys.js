@@ -26,7 +26,7 @@ var namespaceKarm_1_1Sys =
     [ "IpcListener", "structKarm_1_1Sys_1_1IpcListener.html", "structKarm_1_1Sys_1_1IpcListener" ],
     [ "MemInfo", "structKarm_1_1Sys_1_1MemInfo.html", "structKarm_1_1Sys_1_1MemInfo" ],
     [ "Mmap", "structKarm_1_1Sys_1_1Mmap.html", "structKarm_1_1Sys_1_1Mmap" ],
-    [ "MmapOptions", "structKarm_1_1Sys_1_1MmapOptions.html", "structKarm_1_1Sys_1_1MmapOptions" ],
+    [ "MmapProps", "structKarm_1_1Sys_1_1MmapProps.html", "structKarm_1_1Sys_1_1MmapProps" ],
     [ "MmapResult", "structKarm_1_1Sys_1_1MmapResult.html", "structKarm_1_1Sys_1_1MmapResult" ],
     [ "Mutex", "structKarm_1_1Sys_1_1Mutex.html", "structKarm_1_1Sys_1_1Mutex" ],
     [ "MutMmap", "structKarm_1_1Sys_1_1MutMmap.html", "structKarm_1_1Sys_1_1MutMmap" ],
@@ -46,16 +46,15 @@ var namespaceKarm_1_1Sys =
     [ "UserInfo", "structKarm_1_1Sys_1_1UserInfo.html", "structKarm_1_1Sys_1_1UserInfo" ],
     [ "AsFd", "conceptKarm_1_1Sys_1_1AsFd.html", null ],
     [ "EntryPointAsync", "namespaceKarm_1_1Sys.html#a23e5b651dde118d2489b9aa5eadd4a17", null ],
-    [ "MmapFlags", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46b", [
-      [ "NIL", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46bad12c293110abb92a236ac1311249ef5c", null ],
-      [ "READ", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46babba6a2806bf5fc09eeda21f31a21ab35", null ],
-      [ "WRITE", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46ba332b00c9993507b8ba965a541172fff0", null ],
-      [ "EXEC", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46ba2d965ff4dbfab4150badae4805c24974", null ],
-      [ "DMA", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46baf0a2b4b861dd76d9310032533fc13b0d", null ],
-      [ "STACK", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46ba71c5ab787600bd60e37036b3282ec56d", null ],
-      [ "LOWER", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46ba71da6f994da916a7eb17475dfc0eb0ce", null ],
-      [ "UPPER", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46ba88037417df9fded2805951629998c808", null ],
-      [ "PREFETCH", "namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46bac152f51e41023291c42a87f1aa8bbabe", null ]
+    [ "MmapOption", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4", [
+      [ "READ", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a3466fab4975481651940ed328aa990e4", null ],
+      [ "WRITE", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4ad4b9e47f65b6e79b010582f15785867e", null ],
+      [ "EXEC", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4af28b3aad7d43b371527fde69de8d93ff", null ],
+      [ "DMA", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a33fd5f6391f2f0cb4c91179d7f521949", null ],
+      [ "STACK", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a0fac686d86aba414411b58f6bce53a76", null ],
+      [ "LOWER", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4aa7c48ba367e019d004bfb0239b85f2b3", null ],
+      [ "UPPER", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a9e43f5291e6fcb2ad99c8e3f91acd179", null ],
+      [ "PREFETCH", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4aa78a8d492349aa1aeef53ce4c89033c8", null ]
     ] ],
     [ "Type", "namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cd", [
       [ "FILE", "namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cda9fc5887c030f7a3e19821ebec457e719", null ],
@@ -69,7 +68,6 @@ var namespaceKarm_1_1Sys =
     [ "err", "namespaceKarm_1_1Sys.html#af8015ef997c9e804cbf6e0a421371c95", null ],
     [ "err", "namespaceKarm_1_1Sys.html#ada7198e09280b0810c3910ea74feee0e", null ],
     [ "errln", "namespaceKarm_1_1Sys.html#af60efbd4b881bc36b0dfd8a1cefac205", null ],
-    [ "FlagsEnum$", "namespaceKarm_1_1Sys.html#a26d4a42a1a30c543afa871c85953dcfa", null ],
     [ "globalSched", "namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475", null ],
     [ "in", "namespaceKarm_1_1Sys.html#a747e4d8ffacfc5cfedc91c25ff78ba77", null ],
     [ "instant", "namespaceKarm_1_1Sys.html#aad0bfc9090f781887c485860cdfb1311", null ],

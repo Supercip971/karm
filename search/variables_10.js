@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['q_0',['Q',['../namespaceKarm.html#acfc7dc9a835ebfbad7b980dbd295159c',1,'Karm']]],
-  ['q_1',['q',['../namespaceKarm.html#a4ac191aeeeb11ea5b66edabaedc2908c',1,'Karm']]],
+  ['q_0',['q',['../namespaceKarm.html#a4ac191aeeeb11ea5b66edabaedc2908c',1,'Karm']]],
+  ['q_1',['Q',['../namespaceKarm.html#acfc7dc9a835ebfbad7b980dbd295159c',1,'Karm']]],
   ['qdcount_2',['qdcount',['../structKarm_1_1Net_1_1Dns_1_1Header.html#afb0c9326795276b5c61f147c7473d799',1,'Karm::Net::Dns::Header']]],
   ['quality_3',['quality',['../structKarm_1_1Image_1_1Saver.html#af5c3d0abc295b1470527d3ebacf49db9',1,'Karm::Image::Saver']]],
   ['quant100_4',['QUANT100',['../namespaceJpeg.html#afee63264da5876a9ba486e914bf0dead',1,'Jpeg']]],

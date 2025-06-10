@@ -9,7 +9,6 @@ var inputs_8h =
     [ "KEY", "inputs_8h.html#acc17c5bacfc45a19ad1136fcd974a0cf", null ],
     [ "KEY", "inputs_8h.html#acc17c5bacfc45a19ad1136fcd974a0cf", null ],
     [ "KeyMod", "inputs_8h.html#ad07c9914f5689fc3c0360845e694c5d1", [
-      [ "NONE", "inputs_8h.html#ad07c9914f5689fc3c0360845e694c5d1ab50339a10e1de285ac99d4c3990b8693", null ],
       [ "LSHIFT", "inputs_8h.html#ad07c9914f5689fc3c0360845e694c5d1adff23c74b1d8d80f33e8a894964c74d7", null ],
       [ "RSHIFT", "inputs_8h.html#ad07c9914f5689fc3c0360845e694c5d1ad13eccc8e378c60e2f9620ce4c77f963", null ],
       [ "LCTRL", "inputs_8h.html#ad07c9914f5689fc3c0360845e694c5d1aa0ff1131b5e3e765b0b5151de87cb6b2", null ],
@@ -38,7 +37,5 @@ var inputs_8h =
       [ "RIGHT", "inputs_8h.html#a6be91eb6569c46f6a8e9d7faee8e5b9aa21507b40c80068eda19865706fdc2403", null ],
       [ "X1", "inputs_8h.html#a6be91eb6569c46f6a8e9d7faee8e5b9aabb7f5ae6220c9828e5ec91faf054197c", null ],
       [ "X2", "inputs_8h.html#a6be91eb6569c46f6a8e9d7faee8e5b9aa54105bddbfe3f639d49cbe8f5182c958", null ]
-    ] ],
-    [ "FlagsEnum$", "inputs_8h.html#a09cd1cf363868394ed828ab78b971216", null ],
-    [ "FlagsEnum$", "inputs_8h.html#a41bb35f7cd709650b012ad1e33701665", null ]
+    ] ]
 ];

@@ -1,6 +1,11 @@
 var namespaceKarm_1_1Base =
 [
     [ "Tests", "namespaceKarm_1_1Base_1_1Tests.html", [
+      [ "Option", "namespaceKarm_1_1Base_1_1Tests.html#a4af3590bda072177cebe340c515c218e", [
+        [ "FOO", "namespaceKarm_1_1Base_1_1Tests.html#a4af3590bda072177cebe340c515c218ea901890a8e9c8cf6d5a1a542b229febff", null ],
+        [ "BAR", "namespaceKarm_1_1Base_1_1Tests.html#a4af3590bda072177cebe340c515c218ea3d75eec709b70a350e143492192a1736", null ],
+        [ "BAZ", "namespaceKarm_1_1Base_1_1Tests.html#a4af3590bda072177cebe340c515c218eaf5aedf92178e1396cd4181962c8a9979", null ]
+      ] ],
       [ "TestEnum", "namespaceKarm_1_1Base_1_1Tests.html#a4fa8d479be0630b5d811b6e9ea435a7d", [
         [ "A", "namespaceKarm_1_1Base_1_1Tests.html#a4fa8d479be0630b5d811b6e9ea435a7da7fc56270e7a70fa81a5935b72eacbe29", null ],
         [ "B", "namespaceKarm_1_1Base_1_1Tests.html#a4fa8d479be0630b5d811b6e9ea435a7da9d5ed678fe57bcca610140957afab571", null ],
@@ -10,6 +15,10 @@ var namespaceKarm_1_1Base =
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a9a877d174b0fab01c364c5b306061cd5", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#ab6ef030c2d20b7ac8ba25811d759c076", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a316f0513e69245a599fb51e3a061d6c5", null ],
+      [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#ad0d3a9d42f21363aa213a7e322a0e661", null ],
+      [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a901fbd21ce5014fd05edde6c79487363", null ],
+      [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a738fe6285779fd2d85aaddf82983d1da", null ],
+      [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a3b881b79ff696cc668e36b1a8fe4f6d7", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#af0c66322c55f3cbd6838b2ca7d2e7740", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#adf25c0acee63e76b9d1e3c1e08ca1bf7", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#adebfdd6467028d3374d0ab01b5ceede8", null ],

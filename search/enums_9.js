@@ -4,7 +4,7 @@ var searchData=
   ['match_1',['Match',['../namespaceKarm.html#afdc762aa1d829153c0f8804624ea8d2f',1,'Karm']]],
   ['memorder_2',['MemOrder',['../namespaceKarm.html#a2a9fb6c9880434e12f636949d7a2498f',1,'Karm']]],
   ['method_3',['Method',['../namespaceKarm_1_1Http.html#a04c0f4a44a817c0a1e0018359b7a38c2',1,'Karm::Http']]],
-  ['mmapflags_4',['MmapFlags',['../namespaceKarm_1_1Sys.html#a476545f8cd537a02353701767954c46b',1,'Karm::Sys']]],
+  ['mmapoption_4',['MmapOption',['../namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4',1,'Karm::Sys']]],
   ['monospace_5',['Monospace',['../namespaceKarm_1_1Text.html#a3de5a14a84181ef2171cfb29c2939602',1,'Karm::Text']]],
   ['mousebutton_6',['MouseButton',['../namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9a',1,'Karm::App']]],
   ['mousestate_7',['MouseState',['../structKarm_1_1Ui_1_1MouseListener.html#ae636970399ac6fdaff30b8fd22d94f2e',1,'Karm::Ui::MouseListener']]],

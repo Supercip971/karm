@@ -4,7 +4,6 @@ var libs_2karm_base_2macros_8h =
     [ "co_try", "libs_2karm-base_2macros_8h.html#a8f595bb9c8ce95155d8982c744d4cb32", null ],
     [ "co_trya", "libs_2karm-base_2macros_8h.html#aed296b2dce6a2f6d66600e671004a2bf", null ],
     [ "concat", "libs_2karm-base_2macros_8h.html#aa8cec9de05455b62fb70f0871ff58d12", null ],
-    [ "FlagsEnum", "libs_2karm-base_2macros_8h.html#a01726fb59e326edc32d23a09257ec187", null ],
     [ "lifetimebound", "libs_2karm-base_2macros_8h.html#a022a4ac48aa34e9cd055ac22154c3d55", null ],
     [ "no_unique_address", "libs_2karm-base_2macros_8h.html#a076bd9e518620131d6ecb66844c61f26", null ],
     [ "stringify", "libs_2karm-base_2macros_8h.html#adba53a1163e7e0864799479541265b44", null ],

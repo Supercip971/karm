@@ -4,6 +4,7 @@ var dir_51fd102c4c424eb43241db44c04dbf4f =
     [ "test-box.cpp", "test-box_8cpp.html", "test-box_8cpp" ],
     [ "test-buf.cpp", "test-buf_8cpp.html", "test-buf_8cpp" ],
     [ "test-checked.cpp", "test-checked_8cpp.html", "test-checked_8cpp" ],
+    [ "test-flags.cpp", "test-flags_8cpp.html", "test-flags_8cpp" ],
     [ "test-list.cpp", "test-list_8cpp.html", "test-list_8cpp" ],
     [ "test-lru.cpp", "test-lru_8cpp.html", "test-lru_8cpp" ],
     [ "test-opt.cpp", "test-opt_8cpp.html", "test-opt_8cpp" ],

@@ -5,7 +5,7 @@ var searchData=
   ['quadraticin_2',['quadraticIn',['../structKarm_1_1Math_1_1Easing.html#a61d0dd0343190f31795d349027aa2496',1,'Karm::Math::Easing']]],
   ['quadraticinout_3',['quadraticInOut',['../structKarm_1_1Math_1_1Easing.html#a68ffc1fb92835988fb36705b29fc2c4d',1,'Karm::Math::Easing']]],
   ['quadraticout_4',['quadraticOut',['../structKarm_1_1Math_1_1Easing.html#a2fd7b47084b1d540c206c1a5b11819ec',1,'Karm::Math::Easing']]],
-  ['quadto_5',['quadTo',['../structKarm_1_1Pdf_1_1Canvas.html#a2ee249bb392077cffed6637cc5471b28',1,'Karm::Pdf::Canvas::quadTo()'],['../structKarm_1_1Math_1_1Path.html#a476973b47726af81a8bb041a8848e80a',1,'Karm::Math::Path::quadTo()'],['../structKarm_1_1Gfx_1_1CpuCanvas.html#a743c492416c0d668e7f57a587a7d766d',1,'Karm::Gfx::CpuCanvas::quadTo()'],['../structKarm_1_1Gfx_1_1Canvas.html#a5c5dd7ca3b16e750f12de1ef97cad232',1,'Karm::Gfx::Canvas::quadTo()']]],
+  ['quadto_5',['quadTo',['../structKarm_1_1Pdf_1_1Canvas.html#ac03e49a27a87e1e984826379d986df58',1,'Karm::Pdf::Canvas::quadTo()'],['../structKarm_1_1Math_1_1Path.html#ab0739cd603c3bd14a7a72abd7b0b5f60',1,'Karm::Math::Path::quadTo()'],['../structKarm_1_1Gfx_1_1CpuCanvas.html#ad1994bb2dae30ca1ca77b2d4709a0ce7',1,'Karm::Gfx::CpuCanvas::quadTo()'],['../structKarm_1_1Gfx_1_1Canvas.html#af78ad9eb4019216587e48803dd9ede69',1,'Karm::Gfx::Canvas::quadTo()']]],
   ['quantize_6',['quantize',['../namespaceJpeg.html#a6ab4830ee3a6a88076066d65b3235fb4',1,'Jpeg']]],
   ['quarticin_7',['quarticIn',['../structKarm_1_1Math_1_1Easing.html#a8a5a2c501eeb16b7c8aba479559bd6fd',1,'Karm::Math::Easing']]],
   ['quarticinout_8',['quarticInOut',['../structKarm_1_1Math_1_1Easing.html#aac09ce1c53bc3f3dd63b29cb4cc297b9',1,'Karm::Math::Easing']]],

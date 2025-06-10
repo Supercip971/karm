@@ -100,12 +100,11 @@ $(document).ready(function(){initNavTree('inputs_8h.html',''); initResizable(); 
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">inputs.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="enum_8h_source.html">karm-base/enum.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="flags_8h_source.html">karm-base/flags.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="karm-math_2vec_8h_source.html">karm-math/vec.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="event_8h_source.html">event.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="keys_8inc.html">defs/keys.inc</a>&quot;</code><br />
@@ -144,27 +143,25 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ad07c9914f5689fc3c0360845e694c5d1"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1">Karm::App::KeyMod</a> : u16 { <br />
-&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1ab50339a10e1de285ac99d4c3990b8693">Karm::App::NONE</a> = 0
-, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1adff23c74b1d8d80f33e8a894964c74d7">Karm::App::LSHIFT</a> = 1 &lt;&lt; 0
+&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1adff23c74b1d8d80f33e8a894964c74d7">Karm::App::LSHIFT</a> = 1 &lt;&lt; 0
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1ad13eccc8e378c60e2f9620ce4c77f963">Karm::App::RSHIFT</a> = 1 &lt;&lt; 1
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1aa0ff1131b5e3e765b0b5151de87cb6b2">Karm::App::LCTRL</a> = 1 &lt;&lt; 2
+, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a15f63aec610b5a7fb7e4c461e14e6ad9">Karm::App::RCTRL</a> = 1 &lt;&lt; 3
 , <br />
-&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a15f63aec610b5a7fb7e4c461e14e6ad9">Karm::App::RCTRL</a> = 1 &lt;&lt; 3
-, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1ac71417d2a3afe1a18b66cfa57a662df9">Karm::App::LALT</a> = 1 &lt;&lt; 4
+&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1ac71417d2a3afe1a18b66cfa57a662df9">Karm::App::LALT</a> = 1 &lt;&lt; 4
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1adad2745b04899c2c1c0fdb404fce17d8">Karm::App::RALT</a> = 1 &lt;&lt; 5
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a462acf6fa42f3b2a720f95dba2468678">Karm::App::LSUPER</a> = 1 &lt;&lt; 6
+, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a930ff6c27254d99163715229f3315d75">Karm::App::RSUPER</a> = 1 &lt;&lt; 7
 , <br />
-&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a930ff6c27254d99163715229f3315d75">Karm::App::RSUPER</a> = 1 &lt;&lt; 7
-, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a44119bf3bae5d40a8d0766b91c304aac">Karm::App::NUM</a> = 1 &lt;&lt; 8
+&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a44119bf3bae5d40a8d0766b91c304aac">Karm::App::NUM</a> = 1 &lt;&lt; 8
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a93eaa03494843069e0657f9255f55b96">Karm::App::CAPS</a> = 1 &lt;&lt; 9
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1ab742db58b16f1d7de716d5e8a8afabbb">Karm::App::MODE</a> = 1 &lt;&lt; 10
+, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a71574275cadb387a5082e87e9dd60c25">Karm::App::SCROLL</a> = 1 &lt;&lt; 11
 , <br />
-&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a71574275cadb387a5082e87e9dd60c25">Karm::App::SCROLL</a> = 1 &lt;&lt; 11
-, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a46afff2b309b8b16a46d812172a9235c">Karm::App::SHIFT</a> = 1 &lt;&lt; 12
+&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a46afff2b309b8b16a46d812172a9235c">Karm::App::SHIFT</a> = 1 &lt;&lt; 12
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a32f7eee2581c72a5561c21df3013a89a">Karm::App::CTRL</a> = 1 &lt;&lt; 13
 , <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1adfbfc9cc7a235560f04cb1a5faf1ec3e">Karm::App::ALT</a> = 1 &lt;&lt; 14
-, <br />
-&#160;&#160;<a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1afc91b14eef9c58c4cad8fdf87b4c0bea">Karm::App::SUPER</a> = 1 &lt;&lt; 15
+, <a class="el" href="namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1afc91b14eef9c58c4cad8fdf87b4c0bea">Karm::App::SUPER</a> = 1 &lt;&lt; 15
 <br />
  }</td></tr>
 <tr class="separator:ad07c9914f5689fc3c0360845e694c5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,13 +180,6 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a6be91eb6569c46f6a8e9d7faee8e5b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a09cd1cf363868394ed828ab78b971216"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1App.html#a09cd1cf363868394ed828ab78b971216">Karm::App::FlagsEnum$</a> (KeyMod)</td></tr>
-<tr class="separator:a09cd1cf363868394ed828ab78b971216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41bb35f7cd709650b012ad1e33701665"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1App.html#a41bb35f7cd709650b012ad1e33701665">Karm::App::FlagsEnum$</a> (MouseButton)</td></tr>
-<tr class="separator:a41bb35f7cd709650b012ad1e33701665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="acc17c5bacfc45a19ad1136fcd974a0cf" name="acc17c5bacfc45a19ad1136fcd974a0cf"></a>

@@ -11,11 +11,10 @@ var drag_8cpp =
       [ "HORIZONTAL", "drag_8cpp.html#a9a6f71ee5d5e1182df9c535312fa6089a86e5d0d8407ce71f7e2004ef3949894e", null ],
       [ "VERTICAL", "drag_8cpp.html#a9a6f71ee5d5e1182df9c535312fa6089a3e1b74251c07310c5f1b968145bf00dc", null ]
     ] ],
-    [ "dismisable", "drag_8cpp.html#acebd2c685ff05612a41e3b2842dc23ae", null ],
-    [ "dismisable", "drag_8cpp.html#a15a9ba0ba594cb1104ec4beac089b70b", null ],
+    [ "dismisable", "drag_8cpp.html#a8c7b8f21889c6caba58c9a89f71d59a5", null ],
+    [ "dismisable", "drag_8cpp.html#a9914fce0ed5bce4705182ff639f0f664", null ],
     [ "dragRegion", "drag_8cpp.html#a739b309c8614f590c34d48b8679d091d", null ],
     [ "dragRegion", "drag_8cpp.html#a3c8d588712e2f17036373c180a29fa44", null ],
-    [ "FlagsEnum$", "drag_8cpp.html#af967e271e5dddefed3ae7229b373a8c3", null ],
     [ "module", "drag_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "drag_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c", null ]
 ];

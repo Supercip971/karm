@@ -412,7 +412,7 @@ var annotated_dup =
         [ "IpcListener", "structKarm_1_1Sys_1_1IpcListener.html", "structKarm_1_1Sys_1_1IpcListener" ],
         [ "MemInfo", "structKarm_1_1Sys_1_1MemInfo.html", "structKarm_1_1Sys_1_1MemInfo" ],
         [ "Mmap", "structKarm_1_1Sys_1_1Mmap.html", "structKarm_1_1Sys_1_1Mmap" ],
-        [ "MmapOptions", "structKarm_1_1Sys_1_1MmapOptions.html", "structKarm_1_1Sys_1_1MmapOptions" ],
+        [ "MmapProps", "structKarm_1_1Sys_1_1MmapProps.html", "structKarm_1_1Sys_1_1MmapProps" ],
         [ "MmapResult", "structKarm_1_1Sys_1_1MmapResult.html", "structKarm_1_1Sys_1_1MmapResult" ],
         [ "Mutex", "structKarm_1_1Sys_1_1Mutex.html", "structKarm_1_1Sys_1_1Mutex" ],
         [ "MutMmap", "structKarm_1_1Sys_1_1MutMmap.html", "structKarm_1_1Sys_1_1MutMmap" ],

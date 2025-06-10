@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"namespaceKarm_1_1Gc.html#a2250fe99c5b3159f4619d14fa02f42dd":[0,0,8,8,7],
 "namespaceKarm_1_1Gc.html#a3e11a915dbdfafa714b1f8c1d3eb4ea5":[0,0,8,8,6],
 "namespaceKarm_1_1Gc.html#a9bf6a87a8b091e376d789530e43ba1e5":[0,0,8,8,5],
 "namespaceKarm_1_1Gc_1_1Tests.html":[0,0,8,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Jit_1_1Riscv.html":[0,0,8,15,4],
 "namespaceKarm_1_1Jit_1_1Spirv.html":[0,0,8,15,5],
 "namespaceKarm_1_1Jit_1_1Sysv.html":[0,0,8,15,6],
-"namespaceKarm_1_1Jit_1_1Wasm.html":[0,0,8,15,7],
-"namespaceKarm_1_1Jit_1_1Win.html":[0,0,8,15,8]
+"namespaceKarm_1_1Jit_1_1Wasm.html":[0,0,8,15,7]
 };

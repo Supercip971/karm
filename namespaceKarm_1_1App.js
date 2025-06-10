@@ -18,7 +18,6 @@ var namespaceKarm_1_1App =
       [ "MOBILE", "namespaceKarm_1_1App.html#ae8b0398827181942904ae3adf1faf662ad9e3110063ba107ab79340dceebc2d7b", null ]
     ] ],
     [ "KeyMod", "namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1", [
-      [ "NONE", "namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1ab50339a10e1de285ac99d4c3990b8693", null ],
       [ "LSHIFT", "namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1adff23c74b1d8d80f33e8a894964c74d7", null ],
       [ "RSHIFT", "namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1ad13eccc8e378c60e2f9620ce4c77f963", null ],
       [ "LCTRL", "namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1aa0ff1131b5e3e765b0b5151de87cb6b2", null ],
@@ -48,8 +47,6 @@ var namespaceKarm_1_1App =
       [ "X1", "namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aabb7f5ae6220c9828e5ec91faf054197c", null ],
       [ "X2", "namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aa54105bddbfe3f639d49cbe8f5182c958", null ]
     ] ],
-    [ "FlagsEnum$", "namespaceKarm_1_1App.html#a09cd1cf363868394ed828ab78b971216", null ],
-    [ "FlagsEnum$", "namespaceKarm_1_1App.html#a41bb35f7cd709650b012ad1e33701665", null ],
     [ "globalPrefs", "namespaceKarm_1_1App.html#ac5880d0122bb2803d0ea7e035a44fbeb", null ],
     [ "makeEvent", "namespaceKarm_1_1App.html#a7ed12ebfea428527a0fc630006afc4d2", null ]
 ];
