@@ -2,8 +2,8 @@ var searchData=
 [
   ['callable_2eh_0',['callable.h',['../callable_8h.html',1,'']]],
   ['cancelation_2eh_1',['cancelation.h',['../cancelation_8h.html',1,'']]],
-  ['canvas_2ecpp_2',['canvas.cpp',['../karm-gfx_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-gfx_2cpu_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-pdf_2canvas_8cpp.html',1,'(Global Namespace)']]],
-  ['canvas_2eh_3',['canvas.h',['../karm-pdf_2canvas_8h.html',1,'(Global Namespace)'],['../karm-gfx_2cpu_2canvas_8h.html',1,'(Global Namespace)'],['../karm-gfx_2canvas_8h.html',1,'(Global Namespace)']]],
+  ['canvas_2ecpp_2',['canvas.cpp',['../karm-pdf_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-gfx_2cpu_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-gfx_2canvas_8cpp.html',1,'(Global Namespace)']]],
+  ['canvas_2eh_3',['canvas.h',['../karm-gfx_2canvas_8h.html',1,'(Global Namespace)'],['../karm-pdf_2canvas_8h.html',1,'(Global Namespace)'],['../karm-gfx_2cpu_2canvas_8h.html',1,'(Global Namespace)']]],
   ['card_2ecpp_4',['card.cpp',['../card_8cpp.html',1,'']]],
   ['chan_2ecpp_5',['chan.cpp',['../chan_8cpp.html',1,'']]],
   ['chan_2eh_6',['chan.h',['../chan_8h.html',1,'']]],
@@ -30,7 +30,7 @@ var searchData=
   ['crc32_2eh_27',['crc32.h',['../crc32_8h.html',1,'']]],
   ['cstr_2eh_28',['cstr.h',['../cstr_8h.html',1,'']]],
   ['ctype_2eh_29',['ctype.h',['../ctype_8h.html',1,'']]],
-  ['cursor_2eh_30',['cursor.h',['../karm-base_2cursor_8h.html',1,'(Global Namespace)'],['../karm-cli_2cursor_8h.html',1,'(Global Namespace)']]],
+  ['cursor_2eh_30',['cursor.h',['../karm-cli_2cursor_8h.html',1,'(Global Namespace)'],['../karm-base_2cursor_8h.html',1,'(Global Namespace)']]],
   ['curve_2eh_31',['curve.h',['../curve_8h.html',1,'']]],
   ['cvrp_2eh_32',['cvrp.h',['../cvrp_8h.html',1,'']]]
 ];
