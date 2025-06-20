@@ -743,7 +743,7 @@ $(document).ready(function(){initNavTree('opt_8h_source.html',''); initResizable
 <div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span> </div>
 <div class="line"><a id="l00643" name="l00643"></a><span class="lineno"><a class="line" href="structKarm_1_1Opt_3_01T_01_4.html#a0feea79ca0775f15c0546618d789f39e">  643</a></span>    <a class="code hl_typedef" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a> <a class="code hl_function" href="structKarm_1_1Opt_3_01T_01_4.html#a0feea79ca0775f15c0546618d789f39e">hash</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>        <span class="keywordflow">if</span> (has())</div>
-<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>            <span class="keywordflow">return</span> hashCombine(hash(<span class="keyword">true</span>), unwrap());</div>
+<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>            <span class="keywordflow">return</span> hash(hash(<span class="keyword">true</span>), unwrap());</div>
 <div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>        <span class="keywordflow">return</span> hash(<span class="keyword">false</span>);</div>
 <div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>    }</div>
 <div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>};</div>
