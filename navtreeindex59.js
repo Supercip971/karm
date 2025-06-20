@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"unionKarm_1_1Math_1_1Vec4.html#a39c24c8f5338ea31a29eee0c3ac5c5ef":[2,0,3,18,34,37],
+"unionKarm_1_1Math_1_1Vec4.html#a39c24c8f5338ea31a29eee0c3ac5c5ef":[0,0,8,20,35,37],
+"unionKarm_1_1Math_1_1Vec4.html#a40493faba2a5ed7dc237c9cdc363754a":[0,0,8,20,35,28],
+"unionKarm_1_1Math_1_1Vec4.html#a40493faba2a5ed7dc237c9cdc363754a":[2,0,3,18,34,28],
+"unionKarm_1_1Math_1_1Vec4.html#a480b335a203aebe2b9767b17c915e676":[0,0,8,20,35,39],
+"unionKarm_1_1Math_1_1Vec4.html#a480b335a203aebe2b9767b17c915e676":[2,0,3,18,34,39],
 "unionKarm_1_1Math_1_1Vec4.html#a51c5e67e42350cfe7d020d88602577b7":[0,0,8,20,35,2],
 "unionKarm_1_1Math_1_1Vec4.html#a51c5e67e42350cfe7d020d88602577b7":[2,0,3,18,34,2],
 "unionKarm_1_1Math_1_1Vec4.html#a557b9e9d52dba58e30372b44c9c973f4":[0,0,8,20,35,29],

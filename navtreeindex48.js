@@ -1,5 +1,11 @@
 var NAVTREEINDEX48 =
 {
+"structKarm_1_1Ui_1_1DragEvent.html":[0,0,8,35,16],
+"structKarm_1_1Ui_1_1DragEvent.html":[2,0,3,31,16],
+"structKarm_1_1Ui_1_1DragEvent.html#a4ae1117000e25dcc0d5149d2544048f5":[0,0,8,35,16,0],
+"structKarm_1_1Ui_1_1DragEvent.html#a4ae1117000e25dcc0d5149d2544048f5":[2,0,3,31,16,0],
+"structKarm_1_1Ui_1_1DragEvent.html#a68508c00e1609fa8ebf5e2476453f65f":[0,0,8,35,16,1],
+"structKarm_1_1Ui_1_1DragEvent.html#a68508c00e1609fa8ebf5e2476453f65f":[2,0,3,31,16,1],
 "structKarm_1_1Ui_1_1DragRegion.html":[0,0,8,35,17],
 "structKarm_1_1Ui_1_1DragRegion.html":[2,0,3,31,17],
 "structKarm_1_1Ui_1_1DragRegion.html#a06dc2655d2d9dd64bdf4f6e0ee7f0622":[0,0,8,35,17,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX48 =
 "structKarm_1_1Ui_1_1Image.html#a188e9e50ed8828e463bb02f5846b74c9":[2,0,3,31,34,1],
 "structKarm_1_1Ui_1_1Image.html#a188e9e50ed8828e463bb02f5846b74c9":[0,0,8,35,34,1],
 "structKarm_1_1Ui_1_1Image.html#a7af247587ac53dc23ef96ccef7f93769":[2,0,3,31,34,2],
-"structKarm_1_1Ui_1_1Image.html#a7af247587ac53dc23ef96ccef7f93769":[0,0,8,35,34,2],
-"structKarm_1_1Ui_1_1Image.html#aebce8efb03f94c7f24d25d0c26903d37":[2,0,3,31,34,0],
-"structKarm_1_1Ui_1_1Image.html#aebce8efb03f94c7f24d25d0c26903d37":[0,0,8,35,34,0],
-"structKarm_1_1Ui_1_1Input.html":[2,0,3,31,35],
-"structKarm_1_1Ui_1_1Input.html":[0,0,8,35,35],
-"structKarm_1_1Ui_1_1Input.html#a1a5912a75a39b058b525120fc93f8739":[2,0,3,31,35,2],
-"structKarm_1_1Ui_1_1Input.html#a1a5912a75a39b058b525120fc93f8739":[0,0,8,35,35,2]
+"structKarm_1_1Ui_1_1Image.html#a7af247587ac53dc23ef96ccef7f93769":[0,0,8,35,34,2]
 };

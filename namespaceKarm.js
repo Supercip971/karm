@@ -34,7 +34,7 @@ var namespaceKarm =
     [ "Sys", "namespaceKarm_1_1Sys.html", "namespaceKarm_1_1Sys" ],
     [ "Test", "namespaceKarm_1_1Test.html", "namespaceKarm_1_1Test" ],
     [ "Tests", "namespaceKarm_1_1Tests.html", [
-      [ "test$", "namespaceKarm_1_1Tests.html#a3c54cc6c046db979db167e2838af1f62", null ]
+      [ "test$", "namespaceKarm_1_1Tests.html#aea7fa5a478f0ba91cc5bb4ea693badb0", null ]
     ] ],
     [ "Text", "namespaceKarm_1_1Text.html", "namespaceKarm_1_1Text" ],
     [ "Ui", "namespaceKarm_1_1Ui.html", "namespaceKarm_1_1Ui" ],

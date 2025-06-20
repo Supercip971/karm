@@ -88,7 +88,7 @@ var searchData=
   ['sig_85',['sig',['../structPng_1_1Decoder.html#ade91f16526f109bf0d44c96b7a3e2d30',1,'Png::Decoder']]],
   ['sign_86',['sign',['../structKarm_1_1Math_1_1IBig.html#a86e032b6cf3e8af9ec0bd41b3a1def1f',1,'Karm::Math::IBig']]],
   ['signal_87',['signal',['../structKarm_1_1Sys_1_1Sema.html#aa9b96bc7fd642e7980b882841279f50b',1,'Karm::Sys::Sema::signal()'],['../structKarm_1_1Sys_1_1CondVar.html#aba975b8881062f8ae042cace48d4e636',1,'Karm::Sys::CondVar::signal()']]],
-  ['simple_88',['simple',['../structKarm_1_1Http_1_1Server.html#acdd36836408435e0757e815fec6cf5f5',1,'Karm::Http::Server::simple()'],['../unionKarm_1_1Math_1_1Trans2.html#a46d3a73e18710cbcaf58fb0d1c4bb75c',1,'Karm::Math::Trans2::simple()']]],
+  ['simple_88',['simple',['../structKarm_1_1Http_1_1Server.html#a2638d6f899b47f63aa6101bd761b2919',1,'Karm::Http::Server::simple()'],['../unionKarm_1_1Math_1_1Trans2.html#a46d3a73e18710cbcaf58fb0d1c4bb75c',1,'Karm::Math::Trans2::simple()']]],
   ['simpleauto_89',['simpleAuto',['../structKarm_1_1Ui_1_1GridStyle.html#a8feb6cb497c1d49831d0c11af68a2102',1,'Karm::Ui::GridStyle']]],
   ['simplefixed_90',['simpleFixed',['../structKarm_1_1Ui_1_1GridStyle.html#a63cde73fc752d4209a601ea302ffc310',1,'Karm::Ui::GridStyle']]],
   ['simplegrow_91',['simpleGrow',['../structKarm_1_1Ui_1_1GridStyle.html#aed7e3f9fe15a7b754b71a5942dcede9f',1,'Karm::Ui::GridStyle']]],

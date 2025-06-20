@@ -1,5 +1,11 @@
 var NAVTREEINDEX47 =
 {
+"structKarm_1_1Text_1_1TtfFontface.html#a87eae156350c9b912e31be167a1f5326":[0,0,8,34,20,5],
+"structKarm_1_1Text_1_1TtfFontface.html#a87eae156350c9b912e31be167a1f5326":[2,0,3,30,19,5],
+"structKarm_1_1Text_1_1TtfFontface.html#ab60aab745d8cecf5fdea68fa123c557e":[0,0,8,34,20,6],
+"structKarm_1_1Text_1_1TtfFontface.html#ab60aab745d8cecf5fdea68fa123c557e":[2,0,3,30,19,6],
+"structKarm_1_1Text_1_1UnresolvedBaselineSet.html":[0,0,8,34,21],
+"structKarm_1_1Text_1_1UnresolvedBaselineSet.html":[2,0,3,30,20],
 "structKarm_1_1Text_1_1UnresolvedBaselineSet.html#a551223b0ca6a15b23b81b1a5d9a2a5d4":[0,0,8,34,21,0],
 "structKarm_1_1Text_1_1UnresolvedBaselineSet.html#a551223b0ca6a15b23b81b1a5d9a2a5d4":[2,0,3,30,20,0],
 "structKarm_1_1Text_1_1UnresolvedBaselineSet.html#a64d504f3754ff62adeb5ea329662d903":[0,0,8,34,21,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX47 =
 "structKarm_1_1Ui_1_1Dismisable.html#ace4ce946345a7f1ce000624a4dce49e7":[2,0,3,31,15,2],
 "structKarm_1_1Ui_1_1Dismisable.html#ace4ce946345a7f1ce000624a4dce49e7":[0,0,8,35,15,2],
 "structKarm_1_1Ui_1_1Dismisable.html#ad0b639ff21b5e5909d80539d4c585ac7":[2,0,3,31,15,0],
-"structKarm_1_1Ui_1_1Dismisable.html#ad0b639ff21b5e5909d80539d4c585ac7":[0,0,8,35,15,0],
-"structKarm_1_1Ui_1_1DragEvent.html":[0,0,8,35,16],
-"structKarm_1_1Ui_1_1DragEvent.html":[2,0,3,31,16],
-"structKarm_1_1Ui_1_1DragEvent.html#a4ae1117000e25dcc0d5149d2544048f5":[0,0,8,35,16,0],
-"structKarm_1_1Ui_1_1DragEvent.html#a4ae1117000e25dcc0d5149d2544048f5":[2,0,3,31,16,0],
-"structKarm_1_1Ui_1_1DragEvent.html#a68508c00e1609fa8ebf5e2476453f65f":[0,0,8,35,16,1],
-"structKarm_1_1Ui_1_1DragEvent.html#a68508c00e1609fa8ebf5e2476453f65f":[2,0,3,31,16,1]
+"structKarm_1_1Ui_1_1Dismisable.html#ad0b639ff21b5e5909d80539d4c585ac7":[0,0,8,35,15,0]
 };

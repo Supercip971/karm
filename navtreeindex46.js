@@ -1,5 +1,11 @@
 var NAVTREEINDEX46 =
 {
+"structKarm_1_1Text_1_1Model.html#a797222faaf986078309cf1e809523d22":[0,0,8,34,17,6],
+"structKarm_1_1Text_1_1Model.html#a797222faaf986078309cf1e809523d22":[2,0,3,30,16,6],
+"structKarm_1_1Text_1_1Model.html#a7db4ab1835c454a9da2dca4276369809":[0,0,8,34,17,23],
+"structKarm_1_1Text_1_1Model.html#a7db4ab1835c454a9da2dca4276369809":[2,0,3,30,16,23],
+"structKarm_1_1Text_1_1Model.html#a7fba60be9cda710c0a9a0af6d25cdede":[2,0,3,30,16,31],
+"structKarm_1_1Text_1_1Model.html#a7fba60be9cda710c0a9a0af6d25cdede":[0,0,8,34,17,31],
 "structKarm_1_1Text_1_1Model.html#a806e2af39f106e6ced1758fb14ada4c1":[2,0,3,30,16,7],
 "structKarm_1_1Text_1_1Model.html#a806e2af39f106e6ced1758fb14ada4c1":[0,0,8,34,17,7],
 "structKarm_1_1Text_1_1Model.html#a8845e5b29213441a6d3fa095fb0d9b21":[2,0,3,30,16,37],
@@ -243,11 +249,5 @@ var NAVTREEINDEX46 =
 "structKarm_1_1Text_1_1TtfFontface.html#a6f0d33a64b2b0da4b9eaa2487f73b6b9":[0,0,8,34,20,1],
 "structKarm_1_1Text_1_1TtfFontface.html#a6f0d33a64b2b0da4b9eaa2487f73b6b9":[2,0,3,30,19,1],
 "structKarm_1_1Text_1_1TtfFontface.html#a71d06678b3ae3c6d9648e92f7a491958":[0,0,8,34,20,4],
-"structKarm_1_1Text_1_1TtfFontface.html#a71d06678b3ae3c6d9648e92f7a491958":[2,0,3,30,19,4],
-"structKarm_1_1Text_1_1TtfFontface.html#a87eae156350c9b912e31be167a1f5326":[0,0,8,34,20,5],
-"structKarm_1_1Text_1_1TtfFontface.html#a87eae156350c9b912e31be167a1f5326":[2,0,3,30,19,5],
-"structKarm_1_1Text_1_1TtfFontface.html#ab60aab745d8cecf5fdea68fa123c557e":[0,0,8,34,20,6],
-"structKarm_1_1Text_1_1TtfFontface.html#ab60aab745d8cecf5fdea68fa123c557e":[2,0,3,30,19,6],
-"structKarm_1_1Text_1_1UnresolvedBaselineSet.html":[0,0,8,34,21],
-"structKarm_1_1Text_1_1UnresolvedBaselineSet.html":[2,0,3,30,20]
+"structKarm_1_1Text_1_1TtfFontface.html#a71d06678b3ae3c6d9648e92f7a491958":[2,0,3,30,19,4]
 };
