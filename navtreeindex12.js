@@ -1,7 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"namespaceKarm_1_1Gc.html#a2250fe99c5b3159f4619d14fa02f42dd":[0,0,8,8,7],
-"namespaceKarm_1_1Gc.html#a3e11a915dbdfafa714b1f8c1d3eb4ea5":[0,0,8,8,6],
 "namespaceKarm_1_1Gc.html#a9bf6a87a8b091e376d789530e43ba1e5":[0,0,8,8,5],
 "namespaceKarm_1_1Gc_1_1Tests.html":[0,0,8,8,0],
 "namespaceKarm_1_1Gc_1_1Tests.html#a50a02f5f842d32b5bc04e3b8e3260ba5":[0,0,8,8,0,1],
@@ -220,6 +218,7 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Io_1_1Tests.html#a878456d49b220c79174e6bafe0d56bb1":[0,0,8,14,0,31],
 "namespaceKarm_1_1Io_1_1Tests.html#a9874c166d770fc156de8218c552e326f":[0,0,8,14,0,32],
 "namespaceKarm_1_1Io_1_1Tests.html#a9eae71a276ca97253f17856c4456a32a":[0,0,8,14,0,46],
+"namespaceKarm_1_1Io_1_1Tests.html#aa7337404028b027c4ee2b0984662d99c":[0,0,8,14,0,43],
 "namespaceKarm_1_1Io_1_1Tests.html#aa89fbcc13dda3af8b9993787789cdd0f":[0,0,8,14,0,18],
 "namespaceKarm_1_1Io_1_1Tests.html#aab59685220f0e05cf6ccd7ead9196dbf":[0,0,8,14,0,3],
 "namespaceKarm_1_1Io_1_1Tests.html#aacb3b3dff82a2cdfdcbc1764cc8d462e":[0,0,8,14,0,24],
@@ -236,7 +235,6 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Io_1_1Tests.html#ae88b2cf52aec1c2a89db19bba415514e":[0,0,8,14,0,16],
 "namespaceKarm_1_1Io_1_1Tests.html#af197c59cac0b009b16fa1f0ed939916f":[0,0,8,14,0,29],
 "namespaceKarm_1_1Io_1_1Tests.html#af34cee679ecfa9ab048b8c16d7ecefad":[0,0,8,14,0,44],
-"namespaceKarm_1_1Io_1_1Tests.html#af5e54be18f67c683440ffb6b1b3f5f4d":[0,0,8,14,0,43],
 "namespaceKarm_1_1Io_1_1Tests.html#af7614e50226aa33f15bd8ba65aa58013":[0,0,8,14,0,17],
 "namespaceKarm_1_1Io_1_1Tests.html#af77ce2ea6855f4c4a9c75f4f02049581":[0,0,8,14,0,34],
 "namespaceKarm_1_1Io_1_1Tests.html#afeb59429ec10020034f2fb6b0b76de94":[0,0,8,14,0,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Jit_1_1Riscv.html":[0,0,8,15,4],
 "namespaceKarm_1_1Jit_1_1Spirv.html":[0,0,8,15,5],
 "namespaceKarm_1_1Jit_1_1Sysv.html":[0,0,8,15,6],
-"namespaceKarm_1_1Jit_1_1Wasm.html":[0,0,8,15,7]
+"namespaceKarm_1_1Jit_1_1Wasm.html":[0,0,8,15,7],
+"namespaceKarm_1_1Jit_1_1Win.html":[0,0,8,15,8],
+"namespaceKarm_1_1Jit_1_1x86.html":[0,0,8,15,9]
 };

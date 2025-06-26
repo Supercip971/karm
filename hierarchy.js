@@ -394,9 +394,9 @@ var hierarchy =
     [ "Karm::Flags< MmapOption >", "structKarm_1_1Flags.html", null ],
     [ "Karm::Flags< MouseButton >", "structKarm_1_1Flags.html", null ],
     [ "Karm::Flags< Option >", "structKarm_1_1Flags.html", null ],
-    [ "Karm::Math::FloatBits< T >", "unionKarm_1_1Math_1_1FloatBits.html", null ],
-    [ "Karm::Math::FloatBits< f32 >", "unionKarm_1_1Math_1_1FloatBits_3_01f32_01_4.html", null ],
-    [ "Karm::Math::FloatBits< f64 >", "unionKarm_1_1Math_1_1FloatBits_3_01f64_01_4.html", null ],
+    [ "Karm::FloatBits< T >", "unionKarm_1_1FloatBits.html", null ],
+    [ "Karm::FloatBits< f32 >", "unionKarm_1_1FloatBits_3_01f32_01_4.html", null ],
+    [ "Karm::FloatBits< f64 >", "unionKarm_1_1FloatBits_3_01f64_01_4.html", null ],
     [ "Karm::Math::Flow", "structKarm_1_1Math_1_1Flow.html", null ],
     [ "Karm::Ui::FlowStyle", "structKarm_1_1Ui_1_1FlowStyle.html", null ],
     [ "Karm::Io::Flusher", "structKarm_1_1Io_1_1Flusher.html", [

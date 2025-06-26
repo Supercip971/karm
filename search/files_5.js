@@ -24,6 +24,6 @@ var searchData=
   ['form_2dfactor_2eh_21',['form-factor.h',['../form-factor_8h.html',1,'']]],
   ['func_2eh_22',['func.h',['../func_8h.html',1,'']]],
   ['funcs_2ecpp_23',['funcs.cpp',['../karm-ui_2funcs_8cpp.html',1,'(Global Namespace)'],['../karm-aio_2funcs_8cpp.html',1,'(Global Namespace)']]],
-  ['funcs_2eh_24',['funcs.h',['../karm-io_2funcs_8h.html',1,'(Global Namespace)'],['../karm-math_2funcs_8h.html',1,'(Global Namespace)']]],
+  ['funcs_2eh_24',['funcs.h',['../karm-math_2funcs_8h.html',1,'(Global Namespace)'],['../karm-io_2funcs_8h.html',1,'(Global Namespace)']]],
   ['fuzzy_2dmatch_2eh_25',['fuzzy-match.h',['../fuzzy-match_8h.html',1,'']]]
 ];

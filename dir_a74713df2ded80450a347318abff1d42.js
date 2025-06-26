@@ -14,7 +14,6 @@ var dir_a74713df2ded80450a347318abff1d42 =
     [ "expr.cpp", "expr_8cpp.html", null ],
     [ "expr.h", "karm-math_2expr_8h.html", "karm-math_2expr_8h" ],
     [ "fixed.h", "fixed_8h.html", "fixed_8h" ],
-    [ "float.h", "float_8h.html", "float_8h" ],
     [ "flow.h", "flow_8h.html", "flow_8h" ],
     [ "funcs.h", "karm-math_2funcs_8h.html", "karm-math_2funcs_8h" ],
     [ "insets.h", "insets_8h.html", "insets_8h" ],

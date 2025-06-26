@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['packet_5flen_0',['PACKET_LEN',['../namespaceTga.html#a6e511a7cf91360e8fa055771b298a32ba0997ac9ae803977fc653483cf48049ca',1,'Tga']]],
-  ['packet_5frle_1',['PACKET_RLE',['../namespaceTga.html#a6e511a7cf91360e8fa055771b298a32bab2e08e05e7fbc7be6a14f512029969d0',1,'Tga']]],
+  ['packet_5flen_0',['PACKET_LEN',['../namespaceTga.html#a376ff53f039367ece4a0311b1bb980b5a0997ac9ae803977fc653483cf48049ca',1,'Tga']]],
+  ['packet_5frle_1',['PACKET_RLE',['../namespaceTga.html#a376ff53f039367ece4a0311b1bb980b5ab2e08e05e7fbc7be6a14f512029969d0',1,'Tga']]],
   ['pair_5fadjustment_2',['PAIR_ADJUSTMENT',['../namespaceTtf.html#a05b8ea106b9e04f26c6135c19902dd97aced04171d5d07af480234ea9dadd6111',1,'Ttf']]],
   ['pallete_3',['PALLETE',['../namespaceKarm_1_1Kira.html#a3feec2160ccc8ab3a744dfa09ce79fcda267e877fd944933367d3dd8f091e2640',1,'Karm::Kira']]],
   ['panic_4',['PANIC',['../namespaceKarm.html#a5d29e668f2026225571396025e282454a98a11b6a207bf1c64618790847ab8055',1,'Karm']]],
