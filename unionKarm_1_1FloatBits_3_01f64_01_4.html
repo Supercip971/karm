@@ -123,13 +123,13 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a260240faa13f633aeee04cd17f8fd6a0"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#a260240faa13f633aeee04cd17f8fd6a0">mantissaBits</a> = 52</td></tr>
 <tr class="separator:a260240faa13f633aeee04cd17f8fd6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc54cdc0c77071459222c8d363d3c840"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#afc54cdc0c77071459222c8d363d3c840">mantissaMax</a> = (((<a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a>)1) &lt;&lt; 52) - 1</td></tr>
+<tr class="memitem:afc54cdc0c77071459222c8d363d3c840"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#afc54cdc0c77071459222c8d363d3c840">mantissaMax</a> = (((<a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a>)1) &lt;&lt; <a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#a260240faa13f633aeee04cd17f8fd6a0">mantissaBits</a>) - 1</td></tr>
 <tr class="separator:afc54cdc0c77071459222c8d363d3c840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad4d48a7b1f52df0dde7cf8014755d5c"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#aad4d48a7b1f52df0dde7cf8014755d5c">exponentBias</a> = 1023</td></tr>
 <tr class="separator:aad4d48a7b1f52df0dde7cf8014755d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add76598e4c347ae16914b2af0f9f751f"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#add76598e4c347ae16914b2af0f9f751f">exponentBits</a> = 11</td></tr>
 <tr class="separator:add76598e4c347ae16914b2af0f9f751f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1298f9f5d6ff4dd897b1b809f65a067f"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#a1298f9f5d6ff4dd897b1b809f65a067f">exponentMax</a> = 2047</td></tr>
+<tr class="memitem:a1298f9f5d6ff4dd897b1b809f65a067f"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#a1298f9f5d6ff4dd897b1b809f65a067f">exponentMax</a> = (1 &lt;&lt; <a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#add76598e4c347ae16914b2af0f9f751f">exponentBits</a>) - 1</td></tr>
 <tr class="separator:a1298f9f5d6ff4dd897b1b809f65a067f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -229,7 +229,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr unsigned <a class="el" href="unionKarm_1_1FloatBits.html">Karm::FloatBits</a>&lt; <a class="el" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> &gt;::exponentMax = 2047</td>
+          <td class="memname">constexpr unsigned <a class="el" href="unionKarm_1_1FloatBits.html">Karm::FloatBits</a>&lt; <a class="el" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> &gt;::exponentMax = (1 &lt;&lt; <a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#add76598e4c347ae16914b2af0f9f751f">exponentBits</a>) - 1</td>
         </tr>
       </table>
   </td>
@@ -287,7 +287,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a> <a class="el" href="unionKarm_1_1FloatBits.html">Karm::FloatBits</a>&lt; <a class="el" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> &gt;::mantissaMax = (((<a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a>)1) &lt;&lt; 52) - 1</td>
+          <td class="memname">constexpr <a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a> <a class="el" href="unionKarm_1_1FloatBits.html">Karm::FloatBits</a>&lt; <a class="el" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> &gt;::mantissaMax = (((<a class="el" href="namespaceKarm.html#aab09eefdbbad801446c68e84cbcc653d">u64</a>)1) &lt;&lt; <a class="el" href="unionKarm_1_1FloatBits_3_01f64_01_4.html#a260240faa13f633aeee04cd17f8fd6a0">mantissaBits</a>) - 1</td>
         </tr>
       </table>
   </td>
