@@ -7,6 +7,7 @@ var dir_51fd102c4c424eb43241db44c04dbf4f =
     [ "test-flags.cpp", "test-flags_8cpp.html", "test-flags_8cpp" ],
     [ "test-list.cpp", "test-list_8cpp.html", "test-list_8cpp" ],
     [ "test-lru.cpp", "test-lru_8cpp.html", "test-lru_8cpp" ],
+    [ "test-map.cpp", "test-map_8cpp.html", "test-map_8cpp" ],
     [ "test-opt.cpp", "test-opt_8cpp.html", "test-opt_8cpp" ],
     [ "test-rc.cpp", "test-rc_8cpp.html", "test-rc_8cpp" ],
     [ "test-ring.cpp", "test-ring_8cpp.html", "test-ring_8cpp" ],

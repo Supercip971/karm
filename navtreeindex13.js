@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"namespaceKarm_1_1Jit_1_1x86.html":[0,0,8,15,9],
 "namespaceKarm_1_1Json.html":[0,0,8,16],
 "namespaceKarm_1_1Json.html#a06d6670226b16306f30aa67d92a85600":[0,0,8,16,14],
 "namespaceKarm_1_1Json.html#a12faaa7317e6875b75a95727db6516aa":[0,0,8,16,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "namespaceKarm_1_1Math.html#ac1927c473e9824113d9944d8f7c6b8f6":[0,0,8,20,56],
 "namespaceKarm_1_1Math.html#ac21bec3e0d7ded30b020239520bdae06":[0,0,8,20,70],
 "namespaceKarm_1_1Math.html#ac40ac38a738332ec62f5c154c693476c":[0,0,8,20,119],
-"namespaceKarm_1_1Math.html#ac49a1e82dd4897febd8a9493c6e1ce39":[0,0,8,20,120],
-"namespaceKarm_1_1Math.html#ac6ae1248517330d5e1fedb94e96b5597":[0,0,8,20,94]
+"namespaceKarm_1_1Math.html#ac49a1e82dd4897febd8a9493c6e1ce39":[0,0,8,20,120]
 };
