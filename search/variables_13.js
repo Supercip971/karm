@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['t_0',['T',['../namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed',1,'Karm']]],
-  ['t_1',['t',['../namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a',1,'Karm']]],
+  ['t_0',['t',['../namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a',1,'Karm']]],
+  ['t_1',['T',['../namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed',1,'Karm']]],
   ['tag_2',['tag',['../structTtf_1_1ScriptTable.html#a95b9878c2186eec3eb7c03e135daba07',1,'Ttf::ScriptTable::tag()'],['../structTtf_1_1FeatureTable.html#a1d3d3b67ee2e757cff1e53f713513bcc',1,'Ttf::FeatureTable::tag()'],['../structTtf_1_1LangSys.html#a03ee1a27a062ee699427e23fc9750d8d',1,'Ttf::LangSys::tag()']]],
   ['tail_3',['tail',['../structKarm_1_1Text_1_1Model_1_1Cur.html#ac4c80d1bc2fe4c7c9cddb3188438a898',1,'Karm::Text::Model::Cur']]],
   ['tau_4',['TAU',['../namespaceKarm_1_1Math.html#a604220479c74f9048f59cde85671fb09',1,'Karm::Math']]],
@@ -12,8 +12,8 @@ var searchData=
   ['tls_5faes_5f128_5fgcm_5fsha256_9',['TLS_AES_128_GCM_SHA256',['../structTls_1_1CipherSuite.html#a98a521f74c5dbd217a0deab741ee1e73',1,'Tls::CipherSuite']]],
   ['to_10',['to',['../structKarm_1_1Rpc_1_1Header.html#a86397b0c68f46bb4014e7a78e0a37840',1,'Karm::Rpc::Header']]],
   ['tofu_11',['TOFU',['../structKarm_1_1Text_1_1Glyph.html#aec329e2395b4dd9a5d577f30aae21b37',1,'Karm::Text::Glyph']]],
-  ['top_12',['TOP',['../structKarm_1_1Math_1_1Align.html#ae6ca3a77dd14c9f70cb6b7100de35931',1,'Karm::Math::Align']]],
-  ['top_13',['top',['../structKarm_1_1Math_1_1Insets.html#a6b6bcf709cd5dec2a5f285d9729258ae',1,'Karm::Math::Insets']]],
+  ['top_12',['top',['../structKarm_1_1Math_1_1Insets.html#a6b6bcf709cd5dec2a5f285d9729258ae',1,'Karm::Math::Insets']]],
+  ['top_13',['TOP',['../structKarm_1_1Math_1_1Align.html#ae6ca3a77dd14c9f70cb6b7100de35931',1,'Karm::Math::Align']]],
   ['top_5fend_14',['TOP_END',['../structKarm_1_1Math_1_1Align.html#a7679f2386dd6a05d04a99207b97fbcb5',1,'Karm::Math::Align']]],
   ['top_5fstart_15',['TOP_START',['../structKarm_1_1Math_1_1Align.html#acc65b34566324226a7f690ff47701314',1,'Karm::Math::Align']]],
   ['trailer_16',['trailer',['../structKarm_1_1Pdf_1_1File.html#a2015745cd6e923f253293b8d6d48bac5',1,'Karm::Pdf::File']]],
@@ -21,5 +21,5 @@ var searchData=
   ['trans_18',['trans',['../structKarm_1_1Gfx_1_1CpuCanvas_1_1Scope.html#ae45eb415fc0d404491065d4b10c9a0d0',1,'Karm::Gfx::CpuCanvas::Scope']]],
   ['ttfglyphinfoadapter_19',['ttfGlyphInfoAdapter',['../structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a282be11d02b7a4454caf504064823122',1,'Karm::Print::TrueTypeFontAdapter']]],
   ['ttl_20',['ttl',['../structKarm_1_1Net_1_1Dns_1_1Answer.html#af5a42fc432de84b81d43ac78ec9742ae',1,'Karm::Net::Dns::Answer']]],
-  ['type_21',['type',['../structKarm_1_1Jit_1_1Ref.html#a1159f21b60d53c2d33d7f857e684f0ee',1,'Karm::Jit::Ref::type()'],['../structKarm_1_1Kv_1_1Wal_1_1Record.html#adc7ca301d151555a47774d04f957732a',1,'Karm::Kv::Wal::Record::type()'],['../structKarm_1_1Kv_1_1Wal_1_1RawRecord.html#ad78b5881d6edbe45e121fa481c24064f',1,'Karm::Kv::Wal::RawRecord::type()'],['../structKarm_1_1Net_1_1Dns_1_1Question.html#a86e7d4bbc2eb7e9aab581f2eea515bdf',1,'Karm::Net::Dns::Question::type()'],['../structKarm_1_1Net_1_1Dns_1_1Answer.html#a484be6b0d5717829c0eed503818b0f40',1,'Karm::Net::Dns::Answer::type()'],['../structKarm_1_1Sys_1_1DirEntry.html#a71198c1cbcb9c6f10d6fc4e98158583f',1,'Karm::Sys::DirEntry::type()'],['../structKarm_1_1Sys_1_1Object.html#a2c3fb8ac441dff029d6300d823a4d956',1,'Karm::Sys::Object::type()'],['../structKarm_1_1Sys_1_1Stat.html#ac2fc7873b34b394597dbd658d7583367',1,'Karm::Sys::Stat::type()'],['../structTtf_1_1Cmap_1_1Table.html#a0478ff427b0872cc7aec58caa44ca1c8',1,'Ttf::Cmap::Table::type()'],['../structKarm_1_1Ui_1_1DragEvent.html#a68508c00e1609fa8ebf5e2476453f65f',1,'Karm::Ui::DragEvent::type()'],['../structKarm_1_1Ui_1_1FocusEvent.html#a58db501eaff87caa4eb6dc14194e5be7',1,'Karm::Ui::FocusEvent::type()'],['../structKarm_1_1App_1_1MouseEvent.html#af44515dd7b425bcb66f3dbce4c387e29',1,'Karm::App::MouseEvent::type()'],['../structKarm_1_1App_1_1KeyboardEvent.html#a37131bd6750bef7b6a7e021501930454',1,'Karm::App::KeyboardEvent::type()']]]
+  ['type_21',['type',['../structKarm_1_1Kv_1_1Wal_1_1Record.html#adc7ca301d151555a47774d04f957732a',1,'Karm::Kv::Wal::Record::type()'],['../structKarm_1_1Kv_1_1Wal_1_1RawRecord.html#ad78b5881d6edbe45e121fa481c24064f',1,'Karm::Kv::Wal::RawRecord::type()'],['../structKarm_1_1Net_1_1Dns_1_1Question.html#a86e7d4bbc2eb7e9aab581f2eea515bdf',1,'Karm::Net::Dns::Question::type()'],['../structKarm_1_1Net_1_1Dns_1_1Answer.html#a484be6b0d5717829c0eed503818b0f40',1,'Karm::Net::Dns::Answer::type()'],['../structKarm_1_1Sys_1_1DirEntry.html#a71198c1cbcb9c6f10d6fc4e98158583f',1,'Karm::Sys::DirEntry::type()'],['../structKarm_1_1Sys_1_1Object.html#a2c3fb8ac441dff029d6300d823a4d956',1,'Karm::Sys::Object::type()'],['../structKarm_1_1Sys_1_1Stat.html#ac2fc7873b34b394597dbd658d7583367',1,'Karm::Sys::Stat::type()'],['../structTtf_1_1Cmap_1_1Table.html#a0478ff427b0872cc7aec58caa44ca1c8',1,'Ttf::Cmap::Table::type()'],['../structKarm_1_1Ui_1_1DragEvent.html#a68508c00e1609fa8ebf5e2476453f65f',1,'Karm::Ui::DragEvent::type()'],['../structKarm_1_1Ui_1_1FocusEvent.html#a58db501eaff87caa4eb6dc14194e5be7',1,'Karm::Ui::FocusEvent::type()'],['../structKarm_1_1App_1_1MouseEvent.html#af44515dd7b425bcb66f3dbce4c387e29',1,'Karm::App::MouseEvent::type()'],['../structKarm_1_1App_1_1KeyboardEvent.html#a37131bd6750bef7b6a7e021501930454',1,'Karm::App::KeyboardEvent::type()']]]
 ];

@@ -2,7 +2,7 @@ var indexSectionsWithContent =
 {
   0: "abcdefghijklmnopqrstuvwxyz~¡¢£¥ª«¬°±²µ·º»¼½¿ßàáâäåæçèéêëìíîïñòóôö÷ùúûüÿƒαγδεθπστφωⁿ₧∙√∞∩≈≡≤≥⌐⌠⌡─│┌┐└┘├┤┬┴┼═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬▀▄█▌▐░▒▓■",
   1: "abcdefghiklmnopqrstuvwxyz",
-  2: "abfgijkmpqrtwz",
+  2: "abgjkmpqt",
   3: "abcdefghiklmnopqrstuvw",
   4: "abcdefghijklmnopqrstuvwxyz~",
   5: "abcdefghijklmnopqrstuvwxyz¡¢£¥ª«¬°±²µ·º»¼½¿ßàáâäåæçèéêëìíîïñòóôö÷ùúûüÿƒαγδεθπστφωⁿ₧∙√∞∩≈≡≤≥⌐⌠⌡─│┌┐└┘├┤┬┴┼═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬▀▄█▌▐░▒▓■",

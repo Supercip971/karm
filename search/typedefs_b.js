@@ -10,7 +10,6 @@ var searchData=
   ['mat4i_7',['Mat4i',['../namespaceKarm_1_1Math.html#a5f84de234d02460f2f59107b41ac7c22',1,'Karm::Math']]],
   ['mcu_8',['Mcu',['../namespaceJpeg.html#af23a3233eaa80ba98f2e884d83799a5e',1,'Jpeg']]],
   ['model_9',['Model',['../structKarm_1_1Kira_1_1Scaffold.html#af259b33c2f382527fc04d6fdf531312e',1,'Karm::Kira::Scaffold::Model()'],['../namespaceKarm_1_1Kira.html#a7538895a33f7b4193efbb93cf5a80084',1,'Karm::Kira::Model()']]],
-  ['mutaudio_10',['MutAudio',['../namespaceKarm_1_1Av.html#a633ce844f839d149fbc21c478e395064',1,'Karm::Av']]],
-  ['mutbytes_11',['MutBytes',['../namespaceKarm.html#aae9861e68f8d76cbdfb6427494441e55',1,'Karm']]],
-  ['mutpixels_12',['MutPixels',['../namespaceKarm_1_1Gfx.html#a06a73bd0d78227ce4f4dc8f840c55c70',1,'Karm::Gfx']]]
+  ['mutbytes_10',['MutBytes',['../namespaceKarm.html#aae9861e68f8d76cbdfb6427494441e55',1,'Karm']]],
+  ['mutpixels_11',['MutPixels',['../namespaceKarm_1_1Gfx.html#a06a73bd0d78227ce4f4dc8f840c55c70',1,'Karm::Gfx']]]
 ];

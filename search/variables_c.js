@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['m_0',['m',['../namespaceKarm.html#a7fffe6a2b214e9ee472eabfc8991d587',1,'Karm']]],
-  ['m_1',['M',['../namespaceKarm.html#a73a7b9d48ac31579e65fb6dca459ea1f',1,'Karm']]],
+  ['m_0',['M',['../namespaceKarm.html#a73a7b9d48ac31579e65fb6dca459ea1f',1,'Karm']]],
+  ['m_1',['m',['../namespaceKarm.html#a7fffe6a2b214e9ee472eabfc8991d587',1,'Karm']]],
   ['m00_2',['m00',['../unionKarm_1_1Math_1_1Mat3.html#a64b38e2a08f1374a454afc50333c7a34',1,'Karm::Math::Mat3::m00()'],['../unionKarm_1_1Math_1_1Mat2.html#a356291c98896f4391412907fa503f1fa',1,'Karm::Math::Mat2::m00()'],['../unionKarm_1_1Math_1_1Mat4.html#a1084038bc45f49c5f3aabb81971d9ff5',1,'Karm::Math::Mat4::m00()']]],
   ['m01_3',['m01',['../unionKarm_1_1Math_1_1Mat4.html#a6fc11584bb301effaed7b07473bcebe1',1,'Karm::Math::Mat4::m01()'],['../unionKarm_1_1Math_1_1Mat3.html#ab8211038417f7dae0a3d7e479a2af99a',1,'Karm::Math::Mat3::m01()'],['../unionKarm_1_1Math_1_1Mat2.html#ae940e9154e001fe4bbb0165e2207f7df',1,'Karm::Math::Mat2::m01()']]],
   ['m02_4',['m02',['../unionKarm_1_1Math_1_1Mat3.html#a0532a96fd8734c790faf44664bfd00b6',1,'Karm::Math::Mat3::m02()'],['../unionKarm_1_1Math_1_1Mat4.html#ae0ebf0190706dcdaf09cb094f8fcad8c',1,'Karm::Math::Mat4::m02()']]],

@@ -26,6 +26,5 @@ var searchData=
   ['aspectratio_23',['AspectRatio',['../structKarm_1_1Ui_1_1AspectRatio.html',1,'Karm::Ui']]],
   ['atomic_24',['Atomic',['../structKarm_1_1Atomic.html',1,'Karm']]],
   ['atoxoptions_25',['AtoxOptions',['../structKarm_1_1Io_1_1AtoxOptions.html',1,'Karm::Io']]],
-  ['audiostream_26',['AudioStream',['../structKarm_1_1Av_1_1AudioStream.html',1,'Karm::Av']]],
-  ['awaiter_27',['Awaiter',['../structKarm_1_1Async_1_1Awaiter.html',1,'Karm::Async']]]
+  ['awaiter_26',['Awaiter',['../structKarm_1_1Async_1_1Awaiter.html',1,'Karm::Async']]]
 ];

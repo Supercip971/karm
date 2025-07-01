@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jpeg_0',['Jpeg',['../namespaceJpeg.html',1,'']]]
+  ['mixbox_0',['Mixbox',['../namespaceMixbox.html',1,'']]]
 ];

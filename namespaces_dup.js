@@ -1,12 +1,8 @@
 var namespaces_dup =
 [
     [ "Abi", "namespaceAbi.html", "namespaceAbi" ],
-    [ "Avi", "namespaceAvi.html", null ],
     [ "Bmp", "namespaceBmp.html", "namespaceBmp" ],
-    [ "Flac", "namespaceFlac.html", null ],
     [ "Gif", "namespaceGif.html", "namespaceGif" ],
-    [ "Gzip", "namespaceGzip.html", null ],
-    [ "Inflate", "namespaceInflate.html", null ],
     [ "Jpeg", "namespaceJpeg.html", "namespaceJpeg" ],
     [ "Karm", "namespaceKarm.html", "namespaceKarm" ],
     [ "Mixbox", "namespaceMixbox.html", [
@@ -18,16 +14,10 @@ var namespaces_dup =
       [ "unmix", "namespaceMixbox.html#a9e89891d9b2955c075e9d5820c7ce538", null ],
       [ "unmixColor", "namespaceMixbox.html#a1dd30b53f856713a526d3a625333b6c7", null ]
     ] ],
-    [ "Mkv", "namespaceMkv.html", null ],
     [ "Png", "namespacePng.html", "namespacePng" ],
     [ "Posix", "namespacePosix.html", "namespacePosix" ],
-    [ "Qoa", "namespaceQoa.html", null ],
     [ "Qoi", "namespaceQoi.html", "namespaceQoi" ],
-    [ "Riff", "namespaceRiff.html", null ],
-    [ "Tar", "namespaceTar.html", null ],
     [ "Tga", "namespaceTga.html", "namespaceTga" ],
     [ "Tls", "namespaceTls.html", "namespaceTls" ],
-    [ "Ttf", "namespaceTtf.html", "namespaceTtf" ],
-    [ "Wav", "namespaceWav.html", null ],
-    [ "Zlib", "namespaceZlib.html", null ]
+    [ "Ttf", "namespaceTtf.html", "namespaceTtf" ]
 ];

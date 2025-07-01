@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['png_0',['Png',['../namespacePng.html',1,'']]],
-  ['posix_1',['Posix',['../namespacePosix.html',1,'']]]
+  ['tga_0',['Tga',['../namespaceTga.html',1,'']]],
+  ['tls_1',['Tls',['../namespaceTls.html',1,'']]],
+  ['ttf_2',['Ttf',['../namespaceTtf.html',1,'']]]
 ];

@@ -47,9 +47,6 @@ var annotated_dup =
         [ "Queue", "structKarm_1_1Async_1_1Queue.html", "structKarm_1_1Async_1_1Queue" ],
         [ "State", "structKarm_1_1Async_1_1State.html", "structKarm_1_1Async_1_1State" ]
       ] ],
-      [ "Av", "namespaceKarm_1_1Av.html", [
-        [ "AudioStream", "structKarm_1_1Av_1_1AudioStream.html", "structKarm_1_1Av_1_1AudioStream" ]
-      ] ],
       [ "Base", "namespaceKarm_1_1Base.html", [
         [ "Foo", "structKarm_1_1Base_1_1Foo.html", "structKarm_1_1Base_1_1Foo" ]
       ] ],
@@ -116,15 +113,6 @@ var annotated_dup =
         [ "TintFilter", "structKarm_1_1Gfx_1_1TintFilter.html", "structKarm_1_1Gfx_1_1TintFilter" ],
         [ "Unfiltered", "structKarm_1_1Gfx_1_1Unfiltered.html", "structKarm_1_1Gfx_1_1Unfiltered" ],
         [ "YCbCr", "structKarm_1_1Gfx_1_1YCbCr.html", "structKarm_1_1Gfx_1_1YCbCr" ]
-      ] ],
-      [ "Gpu", "namespaceKarm_1_1Gpu.html", [
-        [ "Buffer", "structKarm_1_1Gpu_1_1Buffer.html", "structKarm_1_1Gpu_1_1Buffer" ],
-        [ "CommandBuffer", "structKarm_1_1Gpu_1_1CommandBuffer.html", "structKarm_1_1Gpu_1_1CommandBuffer" ],
-        [ "Device", "structKarm_1_1Gpu_1_1Device.html", "structKarm_1_1Gpu_1_1Device" ],
-        [ "Pipeline", "structKarm_1_1Gpu_1_1Pipeline.html", "structKarm_1_1Gpu_1_1Pipeline" ],
-        [ "RenderPass", "structKarm_1_1Gpu_1_1RenderPass.html", "structKarm_1_1Gpu_1_1RenderPass" ],
-        [ "Shader", "structKarm_1_1Gpu_1_1Shader.html", "structKarm_1_1Gpu_1_1Shader" ],
-        [ "Texture", "structKarm_1_1Gpu_1_1Texture.html", "structKarm_1_1Gpu_1_1Texture" ]
       ] ],
       [ "Http", "namespaceKarm_1_1Http.html", [
         [ "Body", "structKarm_1_1Http_1_1Body.html", null ],
@@ -245,11 +233,6 @@ var annotated_dup =
         [ "Writer", "structKarm_1_1Io_1_1Writer.html", "structKarm_1_1Io_1_1Writer" ],
         [ "WriterSlice", "structKarm_1_1Io_1_1WriterSlice.html", "structKarm_1_1Io_1_1WriterSlice" ],
         [ "Zero", "structKarm_1_1Io_1_1Zero.html", "structKarm_1_1Io_1_1Zero" ]
-      ] ],
-      [ "Jit", "namespaceKarm_1_1Jit.html", [
-        [ "Block", "structKarm_1_1Jit_1_1Block.html", "structKarm_1_1Jit_1_1Block" ],
-        [ "Inst", "structKarm_1_1Jit_1_1Inst.html", "structKarm_1_1Jit_1_1Inst" ],
-        [ "Ref", "structKarm_1_1Jit_1_1Ref.html", "structKarm_1_1Jit_1_1Ref" ]
       ] ],
       [ "Json", "namespaceKarm_1_1Json.html", [
         [ "Value", "structKarm_1_1Json_1_1Value.html", "structKarm_1_1Json_1_1Value" ]
@@ -382,11 +365,6 @@ var annotated_dup =
         [ "Text", "structKarm_1_1Scene_1_1Text.html", "structKarm_1_1Scene_1_1Text" ],
         [ "Transform", "structKarm_1_1Scene_1_1Transform.html", "structKarm_1_1Scene_1_1Transform" ],
         [ "Viewbox", "structKarm_1_1Scene_1_1Viewbox.html", "structKarm_1_1Scene_1_1Viewbox" ]
-      ] ],
-      [ "Shader", "namespaceKarm_1_1Shader.html", [
-        [ "Expr", "structKarm_1_1Shader_1_1Expr.html", null ],
-        [ "Module", "structKarm_1_1Shader_1_1Module.html", null ],
-        [ "Props", "structKarm_1_1Shader_1_1Props.html", null ]
       ] ],
       [ "Sys", "namespaceKarm_1_1Sys.html", [
         [ "ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", "structKarm_1_1Sys_1_1ArgsHook" ],

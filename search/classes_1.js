@@ -15,7 +15,7 @@ var searchData=
   ['bits_12',['Bits',['../structKarm_1_1Bits.html',1,'Karm']]],
   ['bitwriter_13',['BitWriter',['../structJpeg_1_1BitWriter.html',1,'Jpeg']]],
   ['blob_14',['Blob',['../structKarm_1_1Kv_1_1Blob.html',1,'Karm::Kv']]],
-  ['block_15',['Block',['../structKarm_1_1Jit_1_1Block.html',1,'Karm::Jit::Block'],['../structKarm_1_1Text_1_1Prose_1_1Block.html',1,'Karm::Text::Prose::Block']]],
+  ['block_15',['Block',['../structKarm_1_1Text_1_1Prose_1_1Block.html',1,'Karm::Text::Prose']]],
   ['blurfilter_16',['BlurFilter',['../structKarm_1_1Gfx_1_1BlurFilter.html',1,'Karm::Gfx']]],
   ['body_17',['Body',['../structKarm_1_1Http_1_1Body.html',1,'Karm::Http']]],
   ['borders_18',['Borders',['../structKarm_1_1Gfx_1_1Borders.html',1,'Karm::Gfx']]],
@@ -27,12 +27,11 @@ var searchData=
   ['bscan_24',['BScan',['../structKarm_1_1Io_1_1BScan.html',1,'Karm::Io']]],
   ['buf_25',['Buf',['../structKarm_1_1Buf.html',1,'Karm']]],
   ['buf_3c_20u8_20_3e_26',['Buf&lt; u8 &gt;',['../structKarm_1_1Buf.html',1,'Karm']]],
-  ['buffer_27',['Buffer',['../structKarm_1_1Gpu_1_1Buffer.html',1,'Karm::Gpu']]],
-  ['bufferwriter_28',['BufferWriter',['../structKarm_1_1Io_1_1BufferWriter.html',1,'Karm::Io']]],
-  ['bufreader_29',['BufReader',['../structKarm_1_1Io_1_1BufReader.html',1,'Karm::Io']]],
-  ['bufwriter_30',['BufWriter',['../structKarm_1_1Io_1_1BufWriter.html',1,'Karm::Io']]],
-  ['builder_31',['Builder',['../structKarm_1_1Gfx_1_1Gradient_1_1Builder.html',1,'Karm::Gfx::Gradient::Builder'],['../structKarm_1_1Text_1_1FontFamily_1_1Builder.html',1,'Karm::Text::FontFamily::Builder']]],
-  ['bundleinfo_32',['BundleInfo',['../structKarm_1_1Pkg_1_1BundleInfo.html',1,'Karm::Pkg']]],
-  ['button_33',['Button',['../structKarm_1_1Ui_1_1Button.html',1,'Karm::Ui']]],
-  ['buttonstyle_34',['ButtonStyle',['../structKarm_1_1Ui_1_1ButtonStyle.html',1,'Karm::Ui']]]
+  ['bufferwriter_27',['BufferWriter',['../structKarm_1_1Io_1_1BufferWriter.html',1,'Karm::Io']]],
+  ['bufreader_28',['BufReader',['../structKarm_1_1Io_1_1BufReader.html',1,'Karm::Io']]],
+  ['bufwriter_29',['BufWriter',['../structKarm_1_1Io_1_1BufWriter.html',1,'Karm::Io']]],
+  ['builder_30',['Builder',['../structKarm_1_1Gfx_1_1Gradient_1_1Builder.html',1,'Karm::Gfx::Gradient::Builder'],['../structKarm_1_1Text_1_1FontFamily_1_1Builder.html',1,'Karm::Text::FontFamily::Builder']]],
+  ['bundleinfo_31',['BundleInfo',['../structKarm_1_1Pkg_1_1BundleInfo.html',1,'Karm::Pkg']]],
+  ['button_32',['Button',['../structKarm_1_1Ui_1_1Button.html',1,'Karm::Ui']]],
+  ['buttonstyle_33',['ButtonStyle',['../structKarm_1_1Ui_1_1ButtonStyle.html',1,'Karm::Ui']]]
 ];

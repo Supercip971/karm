@@ -13,5 +13,5 @@ var searchData=
   ['err_10',['Err',['../structKarm_1_1Sys_1_1Err.html',1,'Karm::Sys']]],
   ['error_11',['Error',['../structKarm_1_1Error.html',1,'Karm']]],
   ['event_12',['Event',['../structKarm_1_1App_1_1Event.html',1,'Karm::App']]],
-  ['expr_13',['Expr',['../structKarm_1_1Math_1_1Expr.html',1,'Karm::Math::Expr'],['../structKarm_1_1Shader_1_1Expr.html',1,'Karm::Shader::Expr']]]
+  ['expr_13',['Expr',['../structKarm_1_1Math_1_1Expr.html',1,'Karm::Math']]]
 ];

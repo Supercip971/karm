@@ -6,6 +6,5 @@ var searchData=
   ['arci_3',['Arci',['../namespaceKarm_1_1Math.html#a23c866a60e6ded26ba4295883cad3496',1,'Karm::Math']]],
   ['array_4',['Array',['../namespaceKarm_1_1Json.html#ab1957d407e8899c5a9b3f96fa851d3b2',1,'Karm::Json']]],
   ['au_5',['Au',['../namespaceKarm.html#aebd562ee475778b341dd07538834134c',1,'Karm']]],
-  ['audio_6',['Audio',['../namespaceKarm_1_1Av.html#aca8d0c3ffc1361e856cc4d834d974256',1,'Karm::Av']]],
-  ['aweak_7',['Aweak',['../namespaceKarm.html#a5042e775b8b08cc9173063014e3f46fa',1,'Karm']]]
+  ['aweak_6',['Aweak',['../namespaceKarm.html#a5042e775b8b08cc9173063014e3f46fa',1,'Karm']]]
 ];
