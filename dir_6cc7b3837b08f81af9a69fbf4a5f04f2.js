@@ -7,7 +7,7 @@ var dir_6cc7b3837b08f81af9a69fbf4a5f04f2 =
     [ "logger", "dir_6bf6d659b0614fb3ec4ea62f6bf67cf9.html", "dir_6bf6d659b0614fb3ec4ea62f6bf67cf9" ],
     [ "seccomp", "dir_f2d9dcacfe9a19dca339996d3a5bba65.html", "dir_f2d9dcacfe9a19dca339996d3a5bba65" ],
     [ "uring", "dir_68f4d656fde2dc721a70de56e8852953.html", "dir_68f4d656fde2dc721a70de56e8852953" ],
-    [ "app.cpp", "impls_2impl-posix_2app_8cpp.html", null ],
+    [ "xdg", "dir_abf914c05f54a9fb003515fd33d33114.html", "dir_abf914c05f54a9fb003515fd33d33114" ],
     [ "entry.cpp", "impl-posix_2entry_8cpp.html", null ],
     [ "entry.h", "impls_2impl-posix_2entry_8h.html", "impls_2impl-posix_2entry_8h" ],
     [ "fd.cpp", "impls_2impl-posix_2fd_8cpp.html", null ],

@@ -9,12 +9,12 @@ var searchData=
   ['chain_5fcontext_5fpositioning_6',['CHAIN_CONTEXT_POSITIONING',['../namespaceTtf.html#a05b8ea106b9e04f26c6135c19902dd97ae7d330012e67009075cb31cfa2690de4',1,'Ttf']]],
   ['change_5fcipher_5fspec_7',['CHANGE_CIPHER_SPEC',['../namespaceTls.html#af4f9673df47c05b9d214c7b1849d92c8a5072f00cf2e09874dbaaced8bcf35252',1,'Tls']]],
   ['clear_8',['CLEAR',['../structKarm_1_1Math_1_1Path.html#a1a219937914ccedcf08cb1852aa8eca7a813461e0c58e7ad59a2fd83ca2237fec',1,'Karm::Math::Path']]],
-  ['clear_5fdisplay_9',['CLEAR_DISPLAY',['../structKarm_1_1Cli_1_1Cmd.html#a0adce330af261c92f525a5d43399fd94ae0e8d616a3e4fcc066c3edfd9da8bd55',1,'Karm::Cli::Cmd']]],
-  ['clear_5fdisplay_5fafter_10',['CLEAR_DISPLAY_AFTER',['../structKarm_1_1Cli_1_1Cmd.html#a0adce330af261c92f525a5d43399fd94a3447d9a121cbe3b399799adb2d48aa28',1,'Karm::Cli::Cmd']]],
-  ['clear_5fdisplay_5fbefore_11',['CLEAR_DISPLAY_BEFORE',['../structKarm_1_1Cli_1_1Cmd.html#a0adce330af261c92f525a5d43399fd94a2b790b4bcdb3b93ddfc86868b62ed777',1,'Karm::Cli::Cmd']]],
-  ['clear_5fline_12',['CLEAR_LINE',['../structKarm_1_1Cli_1_1Cmd.html#a0adce330af261c92f525a5d43399fd94accd5b4a0b5e1be5b61ccf61b87c92396',1,'Karm::Cli::Cmd']]],
-  ['clear_5fline_5fafter_13',['CLEAR_LINE_AFTER',['../structKarm_1_1Cli_1_1Cmd.html#a0adce330af261c92f525a5d43399fd94a02491372de5f9368e40077df34db74ea',1,'Karm::Cli::Cmd']]],
-  ['clear_5fline_5fbefore_14',['CLEAR_LINE_BEFORE',['../structKarm_1_1Cli_1_1Cmd.html#a0adce330af261c92f525a5d43399fd94aec71cb7aed533aebba55ce578f179205',1,'Karm::Cli::Cmd']]],
+  ['clear_5fdisplay_9',['CLEAR_DISPLAY',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a9ee4972c4a7197ddcef6acf6f57d7864',1,'Karm::Tty::Cmd']]],
+  ['clear_5fdisplay_5fafter_10',['CLEAR_DISPLAY_AFTER',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a782515be59b4c63f97eb96bc59b14131',1,'Karm::Tty::Cmd']]],
+  ['clear_5fdisplay_5fbefore_11',['CLEAR_DISPLAY_BEFORE',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5acb719a6f92688efcdf091a9d9e66f6b2',1,'Karm::Tty::Cmd']]],
+  ['clear_5fline_12',['CLEAR_LINE',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a5b419460f77ea20648dceeb470a089a3',1,'Karm::Tty::Cmd']]],
+  ['clear_5fline_5fafter_13',['CLEAR_LINE_AFTER',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a6bc77d08a283215f25b9eed5a7653e56',1,'Karm::Tty::Cmd']]],
+  ['clear_5fline_5fbefore_14',['CLEAR_LINE_BEFORE',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a5c28490d00e677a913e0f037948cd0ec',1,'Karm::Tty::Cmd']]],
   ['client_5ferror_15',['CLIENT_ERROR',['../namespaceKarm_1_1Http.html#a5845f99333d8889a8c0de8901840f671aac9eb3124d6b6c4075ae1b44d23e8224',1,'Karm::Http']]],
   ['clockwise_16',['CLOCKWISE',['../unionKarm_1_1Math_1_1Tri2.html#afa4243d1eb7e8f5d71216c9513f14690acfe39a5621dfe382d2991f32c4ae08da',1,'Karm::Math::Tri2']]],
   ['close_17',['CLOSE',['../structKarm_1_1Math_1_1Path.html#a1a219937914ccedcf08cb1852aa8eca7a7286293c9125ac7d7bace94c190bc16d',1,'Karm::Math::Path']]],
@@ -38,6 +38,6 @@ var searchData=
   ['custom_35',['CUSTOM',['../structKarm_1_1Print_1_1Margins.html#a72baef04098f035e8a320b03ad197818',1,'Karm::Print::Margins']]],
   ['cut_36',['CUT',['../structKarm_1_1Text_1_1Action.html#a423fe970cba054599e6fea242504dfcf',1,'Karm::Text::Action']]],
   ['cutekit_37',['CUTEKIT',['../namespacePosix.html#a4f42a28320f1c7e97b56de0dfd0421b5a9d4629b4c331c01ba046d7f02a8de5f8',1,'Posix']]],
-  ['cyan_38',['CYAN',['../namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa3c1f2693ae63916ab2ac3f098c845e03',1,'Karm::Cli']]],
-  ['cyan_5flight_39',['CYAN_LIGHT',['../namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa20a83d720c8bf505d4d6867d81168bf2',1,'Karm::Cli']]]
+  ['cyan_38',['CYAN',['../namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5aca49b139f8d2a6e8879e067404f6efc8',1,'Karm::Tty']]],
+  ['cyan_5flight_39',['CYAN_LIGHT',['../namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5aa773edcdaa3d62c4392f15b1b12998e4',1,'Karm::Tty']]]
 ];

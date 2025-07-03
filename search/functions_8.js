@@ -38,7 +38,7 @@ var searchData=
   ['into_35',['into',['../structKarm_1_1Range.html#aabf9818473e7bc3728d2b4b44510e87e',1,'Karm::Range::into()'],['../structKarm_1_1Tuple_3_4.html#a433a2588306ae7ce0171215ddc4157b8',1,'Karm::Tuple&lt;&gt;::into()'],['../unionKarm_1_1Math_1_1Vec2.html#a6590dae87feae34fa11c6db78963633b',1,'Karm::Math::Vec2::into()'],['../unionKarm_1_1Math_1_1Vec3.html#a83e0d2b6ca54eb76f0c04ac7ef8f194e',1,'Karm::Math::Vec3::into()'],['../unionKarm_1_1Math_1_1Vec4.html#a13b19def6868ebdc5521d26f48eac7d9',1,'Karm::Math::Vec4::into()']]],
   ['invdir_36',['invDir',['../unionKarm_1_1Math_1_1Edge.html#a5309715f9adc78326cc449a1d06060b5',1,'Karm::Math::Edge']]],
   ['inverse_37',['inverse',['../unionKarm_1_1Math_1_1Trans2.html#a8b207808c112420730d200e1e76ee0d9',1,'Karm::Math::Trans2']]],
-  ['invisible_38',['invisible',['../structKarm_1_1Cli_1_1Style.html#ae2d924c907051119249a48361778d7ac',1,'Karm::Cli::Style']]],
+  ['invisible_38',['invisible',['../structKarm_1_1Tty_1_1Style.html#a0daf554125255cf73eec75295d6b84a9',1,'Karm::Tty::Style']]],
   ['ip4_39',['Ip4',['../unionKarm_1_1Sys_1_1Ip4.html#ac54f926b1fa73970e082131fd7fb3263',1,'Karm::Sys::Ip4::Ip4(Array&lt; u8, 4 &gt; bytes)'],['../unionKarm_1_1Sys_1_1Ip4.html#ab0cefe6fdc094cd8f96d71e664d456bd',1,'Karm::Sys::Ip4::Ip4(u8 a, u8 b, u8 c, u8 d)']]],
   ['ip6_40',['Ip6',['../unionKarm_1_1Sys_1_1Ip6.html#a95e28d262df68605e5b7baa0a6c8893f',1,'Karm::Sys::Ip6::Ip6(u16 a, u16 b, u16 c, u16 d, u16 e, u16 f, u16 g, u16 h)'],['../unionKarm_1_1Sys_1_1Ip6.html#abaa8b3bbefbf16ce069a3a136002c000',1,'Karm::Sys::Ip6::Ip6(Array&lt; u16, 8 &gt; words)']]],
   ['ipcconnection_41',['IpcConnection',['../structKarm_1_1Sys_1_1IpcConnection.html#ae58f84d5ce7f931d7eecb2e6bc767518',1,'Karm::Sys::IpcConnection']]],

@@ -51,12 +51,9 @@ var annotated_dup =
         [ "Foo", "structKarm_1_1Base_1_1Foo.html", "structKarm_1_1Base_1_1Foo" ]
       ] ],
       [ "Cli", "namespaceKarm_1_1Cli.html", [
-        [ "Cmd", "structKarm_1_1Cli_1_1Cmd.html", "structKarm_1_1Cli_1_1Cmd" ],
         [ "Command", "structKarm_1_1Cli_1_1Command.html", "structKarm_1_1Cli_1_1Command" ],
         [ "Option", "structKarm_1_1Cli_1_1Option.html", "structKarm_1_1Cli_1_1Option" ],
         [ "OptionImpl", "structKarm_1_1Cli_1_1OptionImpl.html", "structKarm_1_1Cli_1_1OptionImpl" ],
-        [ "Style", "structKarm_1_1Cli_1_1Style.html", "structKarm_1_1Cli_1_1Style" ],
-        [ "Styled", "structKarm_1_1Cli_1_1Styled.html", null ],
         [ "Token", "structKarm_1_1Cli_1_1Token.html", "structKarm_1_1Cli_1_1Token" ],
         [ "ValueParser", "structKarm_1_1Cli_1_1ValueParser.html", null ],
         [ "ValueParser< bool >", "structKarm_1_1Cli_1_1ValueParser_3_01bool_01_4.html", null ],
@@ -169,7 +166,6 @@ var annotated_dup =
         [ "Formatter< Duration >", "structKarm_1_1Io_1_1Formatter_3_01Duration_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Duration_01_4" ],
         [ "Formatter< Error >", "structKarm_1_1Io_1_1Formatter_3_01Error_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Error_01_4" ],
         [ "Formatter< Instant >", "structKarm_1_1Io_1_1Formatter_3_01Instant_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Instant_01_4" ],
-        [ "Formatter< Karm::Cli::Styled< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Cli_1_1Styled_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Cli_1_1Styled_3_01T_01_4_01_4" ],
         [ "Formatter< Karm::Http::Code >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4" ],
         [ "Formatter< Karm::Http::Method >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4" ],
         [ "Formatter< Karm::Http::Version >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4" ],
@@ -180,6 +176,7 @@ var annotated_dup =
         [ "Formatter< Karm::Sys::Ip4 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip4_01_4" ],
         [ "Formatter< Karm::Sys::Ip6 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4" ],
         [ "Formatter< Karm::Sys::SocketAddr >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1SocketAddr_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1SocketAddr_01_4" ],
+        [ "Formatter< Karm::Tty::Styled< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Tty_1_1Styled_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Tty_1_1Styled_3_01T_01_4_01_4" ],
         [ "Formatter< Le< T > >", "structKarm_1_1Io_1_1Formatter_3_01Le_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Le_3_01T_01_4_01_4" ],
         [ "Formatter< Map< K, V > >", "structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4" ],
         [ "Formatter< Math::Fixed< T, F > >", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4" ],
@@ -359,7 +356,6 @@ var annotated_dup =
         [ "Opacity", "structKarm_1_1Scene_1_1Opacity.html", "structKarm_1_1Scene_1_1Opacity" ],
         [ "PaintOptions", "structKarm_1_1Scene_1_1PaintOptions.html", "structKarm_1_1Scene_1_1PaintOptions" ],
         [ "Proxy", "structKarm_1_1Scene_1_1Proxy.html", "structKarm_1_1Scene_1_1Proxy" ],
-        [ "Screen", "structKarm_1_1Scene_1_1Screen.html", "structKarm_1_1Scene_1_1Screen" ],
         [ "Shape", "structKarm_1_1Scene_1_1Shape.html", "structKarm_1_1Scene_1_1Shape" ],
         [ "Stack", "structKarm_1_1Scene_1_1Stack.html", "structKarm_1_1Scene_1_1Stack" ],
         [ "Text", "structKarm_1_1Scene_1_1Text.html", "structKarm_1_1Scene_1_1Text" ],
@@ -415,7 +411,6 @@ var annotated_dup =
       [ "Text", "namespaceKarm_1_1Text.html", [
         [ "Action", "structKarm_1_1Text_1_1Action.html", "structKarm_1_1Text_1_1Action" ],
         [ "BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", "structKarm_1_1Text_1_1BaselineSet" ],
-        [ "Family", "structKarm_1_1Text_1_1Family.html", "structKarm_1_1Text_1_1Family" ],
         [ "Font", "structKarm_1_1Text_1_1Font.html", "structKarm_1_1Text_1_1Font" ],
         [ "FontAdjust", "structKarm_1_1Text_1_1FontAdjust.html", "structKarm_1_1Text_1_1FontAdjust" ],
         [ "FontAttrs", "structKarm_1_1Text_1_1FontAttrs.html", "structKarm_1_1Text_1_1FontAttrs" ],
@@ -435,6 +430,11 @@ var annotated_dup =
         [ "TtfFontface", "structKarm_1_1Text_1_1TtfFontface.html", "structKarm_1_1Text_1_1TtfFontface" ],
         [ "UnresolvedBaselineSet", "structKarm_1_1Text_1_1UnresolvedBaselineSet.html", "structKarm_1_1Text_1_1UnresolvedBaselineSet" ],
         [ "VgaFontface", "structKarm_1_1Text_1_1VgaFontface.html", "structKarm_1_1Text_1_1VgaFontface" ]
+      ] ],
+      [ "Tty", "namespaceKarm_1_1Tty.html", [
+        [ "Cmd", "structKarm_1_1Tty_1_1Cmd.html", "structKarm_1_1Tty_1_1Cmd" ],
+        [ "Style", "structKarm_1_1Tty_1_1Style.html", "structKarm_1_1Tty_1_1Style" ],
+        [ "Styled", "structKarm_1_1Tty_1_1Styled.html", null ]
       ] ],
       [ "Ui", "namespaceKarm_1_1Ui.html", [
         [ "Align", "structKarm_1_1Ui_1_1Align.html", "structKarm_1_1Ui_1_1Align" ],

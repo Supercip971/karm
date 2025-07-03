@@ -3,7 +3,6 @@ var karm_text_2base_8h =
     [ "Karm::Text::Glyph", "structKarm_1_1Text_1_1Glyph.html", "structKarm_1_1Text_1_1Glyph" ],
     [ "Karm::Text::FontWeight", "structKarm_1_1Text_1_1FontWeight.html", "structKarm_1_1Text_1_1FontWeight" ],
     [ "Karm::Text::FontStretch", "structKarm_1_1Text_1_1FontStretch.html", "structKarm_1_1Text_1_1FontStretch" ],
-    [ "Karm::Text::Family", "structKarm_1_1Text_1_1Family.html", "structKarm_1_1Text_1_1Family" ],
     [ "Karm::Text::FontAttrs", "structKarm_1_1Text_1_1FontAttrs.html", "structKarm_1_1Text_1_1FontAttrs" ],
     [ "Karm::Text::BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", "structKarm_1_1Text_1_1BaselineSet" ],
     [ "Karm::Text::UnresolvedBaselineSet", "structKarm_1_1Text_1_1UnresolvedBaselineSet.html", "structKarm_1_1Text_1_1UnresolvedBaselineSet" ],

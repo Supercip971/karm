@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['n_0',['N',['../namespaceKarm.html#a2d253ecfc1b8ce9edd8e68876d98d28a',1,'Karm']]],
-  ['n_1',['n',['../namespaceKarm.html#a7fec9ca9ba58cdd8234462b1656e7058',1,'Karm']]],
+  ['n_0',['n',['../namespaceKarm.html#a7fec9ca9ba58cdd8234462b1656e7058',1,'Karm']]],
+  ['n_1',['N',['../namespaceKarm.html#a2d253ecfc1b8ce9edd8e68876d98d28a',1,'Karm']]],
   ['name_2',['NAME',['../structKarm_1_1Gfx_1_1BlurFilter.html#adc397ece8b9ff7da24ec2f9ba223df5e',1,'Karm::Gfx::BlurFilter']]],
   ['name_3',['name',['../structKarm_1_1Sys_1_1UserInfo.html#a97bb6f046c0a3c0a6477fe841fb84699',1,'Karm::Sys::UserInfo::name()'],['../structKarm_1_1Sys_1_1CpuInfo.html#a83337ed74dc689e1fb1fc0d11a483251',1,'Karm::Sys::CpuInfo::name()'],['../structKarm_1_1Sys_1_1DirEntry.html#a3f97244997b35b1b80aa6252f27fe530',1,'Karm::Sys::DirEntry::name()'],['../structKarm_1_1Print_1_1PaperSeries.html#ad23f9e8a27e2de43d43f900ee0889afc',1,'Karm::Print::PaperSeries::name()'],['../structKarm_1_1Print_1_1PaperStock.html#a0a52fa0ef03912dc2ebbdc6cfac5f978',1,'Karm::Print::PaperStock::name()'],['../structKarm_1_1Net_1_1Dns_1_1Answer.html#a21f912dd07892f164827cf13dd64145a',1,'Karm::Net::Dns::Answer::name()'],['../structKarm_1_1Net_1_1Dns_1_1Question.html#ab56f7a885e202d82d9fded50e4454250',1,'Karm::Net::Dns::Question::name()'],['../structKarm_1_1Level.html#abd78a551e03b0c4bdb138c1cabf343a3',1,'Karm::Level::name()']]],
   ['name_4',['NAME',['../structKarm_1_1Gfx_1_1FilterChain.html#aacf4c50db5e0e84f5a6f2319a2448bee',1,'Karm::Gfx::FilterChain::NAME()'],['../structKarm_1_1Gfx_1_1SaturationFilter.html#a92bd4cf3a38c8afd90a2dae79d7a78a7',1,'Karm::Gfx::SaturationFilter::NAME()'],['../structKarm_1_1Gfx_1_1Unfiltered.html#a864819f7c09f27db180715d1ef55b0f5',1,'Karm::Gfx::Unfiltered::NAME()']]],

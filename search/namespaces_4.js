@@ -32,5 +32,6 @@ var searchData=
   ['test_29',['Test',['../namespaceKarm_1_1Test.html',1,'Karm']]],
   ['tests_30',['Tests',['../namespaceKarm_1_1Async_1_1Tests.html',1,'Karm::Async::Tests'],['../namespaceKarm_1_1Base_1_1Tests.html',1,'Karm::Base::Tests'],['../namespaceKarm_1_1Cli_1_1Tests.html',1,'Karm::Cli::Tests'],['../namespaceKarm_1_1Crypto_1_1Tests.html',1,'Karm::Crypto::Tests'],['../namespaceKarm_1_1Gc_1_1Tests.html',1,'Karm::Gc::Tests'],['../namespaceKarm_1_1Gfx_1_1Tests.html',1,'Karm::Gfx::Tests'],['../namespaceKarm_1_1Http_1_1Tests.html',1,'Karm::Http::Tests'],['../namespaceKarm_1_1Io_1_1Tests.html',1,'Karm::Io::Tests'],['../namespaceKarm_1_1Json_1_1Tests.html',1,'Karm::Json::Tests'],['../namespaceKarm_1_1Math_1_1Tests.html',1,'Karm::Math::Tests'],['../namespaceKarm_1_1Mime_1_1Tests.html',1,'Karm::Mime::Tests'],['../namespaceKarm_1_1Sys_1_1Tests.html',1,'Karm::Sys::Tests'],['../namespaceKarm_1_1Test_1_1Tests.html',1,'Karm::Test::Tests'],['../namespaceKarm_1_1Tests.html',1,'Karm::Tests'],['../namespaceKarm_1_1Text_1_1Tests.html',1,'Karm::Text::Tests']]],
   ['text_31',['Text',['../namespaceKarm_1_1Text.html',1,'Karm']]],
-  ['ui_32',['Ui',['../namespaceKarm_1_1Ui.html',1,'Karm']]]
+  ['tty_32',['Tty',['../namespaceKarm_1_1Tty.html',1,'Karm']]],
+  ['ui_33',['Ui',['../namespaceKarm_1_1Ui.html',1,'Karm']]]
 ];

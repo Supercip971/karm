@@ -36,7 +36,7 @@ var searchData=
   ['query_33',['query',['../structKarm_1_1Mime_1_1Url.html#a2dfb904cdeb56dacec27027a183b0561',1,'Karm::Mime::Url']]],
   ['queryclosest_34',['queryClosest',['../structKarm_1_1Text_1_1FontBook.html#aacdc3810794193316651866a80cbd42c',1,'Karm::Text::FontBook']]],
   ['queryexact_35',['queryExact',['../structKarm_1_1Text_1_1FontBook.html#a69e8302459070ec6ba3ab8e3ff8d8c64',1,'Karm::Text::FontBook']]],
-  ['queryfamily_36',['queryFamily',['../structKarm_1_1Text_1_1FontBook.html#af24b4078c96f9414392cf98bce286302',1,'Karm::Text::FontBook']]],
+  ['queryfamily_36',['queryFamily',['../structKarm_1_1Text_1_1FontBook.html#ad906868100d86c9217d4aa6d9a8dc963',1,'Karm::Text::FontBook']]],
   ['queryposition_37',['queryPosition',['../structKarm_1_1Text_1_1Prose.html#a66a2912aadee583a38847628dc93abc5',1,'Karm::Text::Prose']]],
   ['question_38',['Question',['../structKarm_1_1Net_1_1Dns_1_1Question.html',1,'Karm::Net::Dns']]],
   ['queue_39',['Queue',['../structKarm_1_1Async_1_1Queue.html',1,'Karm::Async::Queue&lt; T &gt;'],['../structKarm_1_1Async_1_1Queue.html#a677a987f17f8f23a07195ed97bcfe1d9',1,'Karm::Async::Queue::Queue()']]],

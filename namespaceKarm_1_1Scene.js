@@ -8,7 +8,6 @@ var namespaceKarm_1_1Scene =
     [ "Opacity", "structKarm_1_1Scene_1_1Opacity.html", "structKarm_1_1Scene_1_1Opacity" ],
     [ "PaintOptions", "structKarm_1_1Scene_1_1PaintOptions.html", "structKarm_1_1Scene_1_1PaintOptions" ],
     [ "Proxy", "structKarm_1_1Scene_1_1Proxy.html", "structKarm_1_1Scene_1_1Proxy" ],
-    [ "Screen", "structKarm_1_1Scene_1_1Screen.html", "structKarm_1_1Scene_1_1Screen" ],
     [ "Shape", "structKarm_1_1Scene_1_1Shape.html", "structKarm_1_1Scene_1_1Shape" ],
     [ "Stack", "structKarm_1_1Scene_1_1Stack.html", "structKarm_1_1Scene_1_1Stack" ],
     [ "Text", "structKarm_1_1Scene_1_1Text.html", "structKarm_1_1Scene_1_1Text" ],

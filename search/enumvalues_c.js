@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['magenta_0',['MAGENTA',['../namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754fa8f02fe42cf7583245e8902e8c3657219',1,'Karm::Cli']]],
-  ['magenta_5flight_1',['MAGENTA_LIGHT',['../namespaceKarm_1_1Cli.html#a97b3b566a0abd873584be7cc49f8754faf5cfb97345e3f20c25cfeb43458b3f16',1,'Karm::Cli']]],
+  ['magenta_0',['MAGENTA',['../namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5a489fa206a63206efb6b373f266456f76',1,'Karm::Tty']]],
+  ['magenta_5flight_1',['MAGENTA_LIGHT',['../namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5aae4d4bd506d0552a78ccadb3d3c45712',1,'Karm::Tty']]],
   ['manufacturer_2',['MANUFACTURER',['../structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea8117ba9aef7ef5e602f2bc11b41799dd',1,'Ttf::Name']]],
   ['mark_5fattachment_5ftype_3',['MARK_ATTACHMENT_TYPE',['../structTtf_1_1LookupTable.html#a4db476abf9b305edcdbd4808ac0d66f7abbc6756393a91eb6bc39a8875218324a',1,'Ttf::LookupTable']]],
   ['mark_5fto_5fbase_5fattachment_4',['MARK_TO_BASE_ATTACHMENT',['../namespaceTtf.html#a05b8ea106b9e04f26c6135c19902dd97af637fd5e3eedfa3d13dfdc4a1739c7ff',1,'Ttf']]],

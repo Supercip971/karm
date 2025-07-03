@@ -8,6 +8,7 @@ var structKarm_1_1Map =
     [ "clear", "structKarm_1_1Map.html#ab2ba1f5fe9fd70260bead2c4eb707ed3", null ],
     [ "del", "structKarm_1_1Map.html#a013985d2bf29792eafd998ed20daa05f", null ],
     [ "get", "structKarm_1_1Map.html#a8b984416cd788462cd8a02cd4989724f", null ],
+    [ "get", "structKarm_1_1Map.html#a1fc8d4f630000fcc3d1aa8c3388c362b", null ],
     [ "getOrDefault", "structKarm_1_1Map.html#a8872ba561e94b66201fab6595d658ae7", null ],
     [ "has", "structKarm_1_1Map.html#a513c38603416dccda887b7aad9cec073", null ],
     [ "iter", "structKarm_1_1Map.html#aeb04a64efb01c7d6ecc49b9f2caabac1", null ],

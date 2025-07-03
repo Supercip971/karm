@@ -6,7 +6,6 @@ var namespaceKarm_1_1Text =
     ] ],
     [ "Action", "structKarm_1_1Text_1_1Action.html", "structKarm_1_1Text_1_1Action" ],
     [ "BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", "structKarm_1_1Text_1_1BaselineSet" ],
-    [ "Family", "structKarm_1_1Text_1_1Family.html", "structKarm_1_1Text_1_1Family" ],
     [ "Font", "structKarm_1_1Text_1_1Font.html", "structKarm_1_1Text_1_1Font" ],
     [ "FontAdjust", "structKarm_1_1Text_1_1FontAdjust.html", "structKarm_1_1Text_1_1FontAdjust" ],
     [ "FontAttrs", "structKarm_1_1Text_1_1FontAttrs.html", "structKarm_1_1Text_1_1FontAttrs" ],
@@ -55,7 +54,7 @@ var namespaceKarm_1_1Text =
       [ "CENTER", "namespaceKarm_1_1Text.html#a2133f87041c1f104afff4ce6b41a0c86ac397289ee45877be0cd49811fe245b4e", null ],
       [ "RIGHT", "namespaceKarm_1_1Text.html#a2133f87041c1f104afff4ce6b41a0c86a21507b40c80068eda19865706fdc2403", null ]
     ] ],
-    [ "commonFamily", "namespaceKarm_1_1Text.html#aa471ae3703b8a4fc1cdd0042fe6ab860", null ],
+    [ "commonFamily", "namespaceKarm_1_1Text.html#a0c4333f245aa909d51451ff6ced22293", null ],
     [ "loadFont", "namespaceKarm_1_1Text.html#a71eed72cfac963aef44ca5271a0eed5b", null ],
     [ "loadFontface", "namespaceKarm_1_1Text.html#a81643a3b75021342c717b0df6157ead8", null ],
     [ "loadFontface", "namespaceKarm_1_1Text.html#a2198846bd02044686a1c26394291dda6", null ],

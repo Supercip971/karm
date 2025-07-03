@@ -19,7 +19,7 @@ var searchData=
   ['closedialogevent_16',['CloseDialogEvent',['../structKarm_1_1Ui_1_1CloseDialogEvent.html',1,'Karm::Ui']]],
   ['closepopoverevent_17',['ClosePopoverEvent',['../structKarm_1_1Ui_1_1ClosePopoverEvent.html',1,'Karm::Ui']]],
   ['cmap_18',['Cmap',['../structTtf_1_1Cmap.html',1,'Ttf']]],
-  ['cmd_19',['Cmd',['../structKarm_1_1Cli_1_1Cmd.html',1,'Karm::Cli']]],
+  ['cmd_19',['Cmd',['../structKarm_1_1Tty_1_1Cmd.html',1,'Karm::Tty']]],
   ['color_20',['Color',['../structKarm_1_1Gfx_1_1Color.html',1,'Karm::Gfx']]],
   ['command_21',['Command',['../structKarm_1_1Cli_1_1Command.html',1,'Karm::Cli']]],
   ['component_22',['Component',['../structJpeg_1_1Decoder_1_1Component.html',1,'Jpeg::Decoder']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['k_0',['k',['../namespaceKarm.html#a210c3207932076308679de8b9de84f5c',1,'Karm']]],
-  ['k_1',['K',['../namespaceKarm.html#a87829cbd02606e7eb1e0957a38f3b27b',1,'Karm']]],
+  ['k_0',['K',['../namespaceKarm.html#a87829cbd02606e7eb1e0957a38f3b27b',1,'Karm']]],
+  ['k_1',['k',['../namespaceKarm.html#a210c3207932076308679de8b9de84f5c',1,'Karm']]],
   ['karm_2',['Karm',['../mod_8cpp.html#a2caf1220e069c055eeb221053e90bb6d',1,'mod.cpp']]],
   ['kernelname_3',['kernelName',['../structKarm_1_1Sys_1_1SysInfo.html#a6505448eafc1cbb3c7c1afd987fe72cb',1,'Karm::Sys::SysInfo']]],
   ['kernelversion_4',['kernelVersion',['../structKarm_1_1Sys_1_1SysInfo.html#a739f48e72924e124478e2e28ce3a9000',1,'Karm::Sys::SysInfo']]],

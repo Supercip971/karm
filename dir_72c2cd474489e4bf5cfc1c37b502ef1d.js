@@ -9,7 +9,7 @@ var dir_72c2cd474489e4bf5cfc1c37b502ef1d =
     [ "buffer.cpp", "buffer_8cpp.html", "buffer_8cpp" ],
     [ "buffer.h", "buffer_8h.html", "buffer_8h" ],
     [ "canvas.cpp", "karm-gfx_2canvas_8cpp.html", null ],
-    [ "canvas.h", "karm-gfx_2canvas_8h.html", "karm-gfx_2canvas_8h" ],
+    [ "canvas.h", "canvas_8h.html", "canvas_8h" ],
     [ "color.cpp", "color_8cpp.html", "color_8cpp" ],
     [ "color.h", "color_8h.html", "color_8h" ],
     [ "colors.cpp", "colors_8cpp.html", "colors_8cpp" ],

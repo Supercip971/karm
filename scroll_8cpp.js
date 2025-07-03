@@ -14,6 +14,7 @@ var scroll_8cpp =
     [ "vhscroll", "scroll_8cpp.html#a832e9c1befa3b4039753b683df4ae0bb", null ],
     [ "vscroll", "scroll_8cpp.html#a64d0f43272bac62b2445f15fc8aca5d6", null ],
     [ "vscroll", "scroll_8cpp.html#ac522c060e4e6971d1fef227bc6115bd1", null ],
+    [ "App", "scroll_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
     [ "module", "scroll_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "scroll_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c", null ]
 ];

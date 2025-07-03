@@ -7,6 +7,7 @@ var popover_8cpp =
     [ "popoverLayer", "popover_8cpp.html#a82f74990f3990da9c7ea93b1f9d01399", null ],
     [ "popoverLayer", "popover_8cpp.html#a4cc926dd7190724bf4bc92ac7fdcfb5a", null ],
     [ "showPopover", "popover_8cpp.html#a1120ab395338f5f9ffcedee1c9ef45ca", null ],
+    [ "App", "popover_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
     [ "module", "popover_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "popover_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c", null ]
 ];

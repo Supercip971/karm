@@ -116,7 +116,7 @@ var hierarchy =
     [ "Karm::Net::Dns::Client", "structKarm_1_1Net_1_1Dns_1_1Client.html", null ],
     [ "Karm::Ui::CloseDialogEvent", "structKarm_1_1Ui_1_1CloseDialogEvent.html", null ],
     [ "Karm::Ui::ClosePopoverEvent", "structKarm_1_1Ui_1_1ClosePopoverEvent.html", null ],
-    [ "Karm::Cli::Cmd", "structKarm_1_1Cli_1_1Cmd.html", null ],
+    [ "Karm::Tty::Cmd", "structKarm_1_1Tty_1_1Cmd.html", null ],
     [ "Karm::Gfx::Color", "structKarm_1_1Gfx_1_1Color.html", null ],
     [ "Jpeg::Decoder::Component", "structJpeg_1_1Decoder_1_1Component.html", null ],
     [ "Karm::Sys::CondVar", "structKarm_1_1Sys_1_1CondVar.html", null ],
@@ -450,7 +450,6 @@ var hierarchy =
     [ "Karm::Io::Formatter< Error >", "structKarm_1_1Io_1_1Formatter_3_01Error_01_4.html", null ],
     [ "Karm::Io::Formatter< Instant >", "structKarm_1_1Io_1_1Formatter_3_01Instant_01_4.html", null ],
     [ "Karm::Io::Formatter< K >", "structKarm_1_1Io_1_1Formatter.html", null ],
-    [ "Karm::Io::Formatter< Karm::Cli::Styled< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Cli_1_1Styled_3_01T_01_4_01_4.html", null ],
     [ "Karm::Io::Formatter< Karm::Http::Code >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4.html", null ],
     [ "Karm::Io::Formatter< Karm::Http::Method >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4.html", null ],
     [ "Karm::Io::Formatter< Karm::Http::Version >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4.html", null ],
@@ -461,6 +460,7 @@ var hierarchy =
     [ "Karm::Io::Formatter< Karm::Sys::Ip4 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip4_01_4.html", null ],
     [ "Karm::Io::Formatter< Karm::Sys::Ip6 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4.html", null ],
     [ "Karm::Io::Formatter< Karm::Sys::SocketAddr >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1SocketAddr_01_4.html", null ],
+    [ "Karm::Io::Formatter< Karm::Tty::Styled< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Tty_1_1Styled_3_01T_01_4_01_4.html", null ],
     [ "Karm::Io::Formatter< Map< K, V > >", "structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html", null ],
     [ "Karm::Io::Formatter< Math::Fixed< T, F > >", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", null ],
     [ "Karm::Io::Formatter< Math::Frac< T > >", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Frac_3_01T_01_4_01_4.html", null ],
@@ -635,14 +635,12 @@ var hierarchy =
         [ "Karm::Scene::Clear", "structKarm_1_1Scene_1_1Clear.html", null ],
         [ "Karm::Scene::Clip", "structKarm_1_1Scene_1_1Clip.html", null ],
         [ "Karm::Scene::Opacity", "structKarm_1_1Scene_1_1Opacity.html", null ],
-        [ "Karm::Scene::Transform", "structKarm_1_1Scene_1_1Transform.html", null ]
+        [ "Karm::Scene::Transform", "structKarm_1_1Scene_1_1Transform.html", null ],
+        [ "Karm::Scene::Viewbox", "structKarm_1_1Scene_1_1Viewbox.html", null ]
       ] ],
       [ "Karm::Scene::Shape", "structKarm_1_1Scene_1_1Shape.html", null ],
-      [ "Karm::Scene::Stack", "structKarm_1_1Scene_1_1Stack.html", [
-        [ "Karm::Scene::Screen", "structKarm_1_1Scene_1_1Screen.html", null ]
-      ] ],
-      [ "Karm::Scene::Text", "structKarm_1_1Scene_1_1Text.html", null ],
-      [ "Karm::Scene::Viewbox", "structKarm_1_1Scene_1_1Viewbox.html", null ]
+      [ "Karm::Scene::Stack", "structKarm_1_1Scene_1_1Stack.html", null ],
+      [ "Karm::Scene::Text", "structKarm_1_1Scene_1_1Text.html", null ]
     ] ],
     [ "Karm::Gfx::NoiseFilter", "structKarm_1_1Gfx_1_1NoiseFilter.html", null ],
     [ "Karm::None", "structKarm_1_1None.html", null ],
@@ -838,8 +836,8 @@ var hierarchy =
     [ "Karm::StrLit< N >", "structKarm_1_1StrLit.html", null ],
     [ "Karm::Gfx::Stroke", "structKarm_1_1Gfx_1_1Stroke.html", null ],
     [ "Karm::Text::Prose::StrutCell", "structKarm_1_1Text_1_1Prose_1_1StrutCell.html", null ],
-    [ "Karm::Cli::Style", "structKarm_1_1Cli_1_1Style.html", null ],
-    [ "Karm::Cli::Styled< T >", "structKarm_1_1Cli_1_1Styled.html", null ],
+    [ "Karm::Tty::Style", "structKarm_1_1Tty_1_1Style.html", null ],
+    [ "Karm::Tty::Styled< T >", "structKarm_1_1Tty_1_1Styled.html", null ],
     [ "Karm::Mime::Suffix2Mime", "structKarm_1_1Mime_1_1Suffix2Mime.html", null ],
     [ "Karm::Gfx::Surface", "structKarm_1_1Gfx_1_1Surface.html", null ],
     [ "Karm::Symbol", "structKarm_1_1Symbol.html", null ],
@@ -876,8 +874,7 @@ var hierarchy =
       [ "Karm::Gfx::Filter", "structKarm_1_1Gfx_1_1Filter.html", null ],
       [ "Karm::Gfx::Fmt", "structKarm_1_1Gfx_1_1Fmt.html", null ],
       [ "Karm::Math::Expr", "structKarm_1_1Math_1_1Expr.html", null ],
-      [ "Karm::Pdf::Value", "structKarm_1_1Pdf_1_1Value.html", null ],
-      [ "Karm::Text::Family", "structKarm_1_1Text_1_1Family.html", null ]
+      [ "Karm::Pdf::Value", "structKarm_1_1Pdf_1_1Value.html", null ]
     ] ],
     [ "Karm::Union< Ip4, Ip6 >", "structKarm_1_1Union.html", [
       [ "Karm::Sys::Ip", "structKarm_1_1Sys_1_1Ip.html", null ]

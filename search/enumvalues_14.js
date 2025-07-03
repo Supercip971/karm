@@ -7,7 +7,7 @@ var searchData=
   ['undo_4',['UNDO',['../structKarm_1_1Text_1_1Action.html#a269940bcad6fddf5c68d3e67f767c3d1',1,'Karm::Text::Action']]],
   ['unique_5',['UNIQUE',['../structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea2a823a680759eaa18f6a006a989cb25b',1,'Ttf::Name']]],
   ['unknown_6',['UNKNOWN',['../namespaceKarm_1_1Http.html#a5845f99333d8889a8c0de8901840f671a696b031073e74bf2cb98e5ef201d4aa3',1,'Karm::Http']]],
-  ['up_7',['UP',['../structKarm_1_1Cli_1_1Cmd.html#a0adce330af261c92f525a5d43399fd94aac1c2d05f0ca7d69efdf9c5421b9e6c2',1,'Karm::Cli::Cmd']]],
+  ['up_7',['UP',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a8ee6c95c8f16d7c5cf02470cb719b907',1,'Karm::Tty::Cmd']]],
   ['update_8',['UPDATE',['../namespaceKarm_1_1Net_1_1Dns.html#a47f8b09c32e5921ee31751a3046bd3faa8c72d5cccafcbf4d359476e361aa06ba',1,'Karm::Net::Dns']]],
   ['upper_9',['UPPER',['../namespaceKarm_1_1Io.html#ab3289aef9c6dbeb8105ef83dc36c9672a9e43f5291e6fcb2ad99c8e3f91acd179',1,'Karm::Io::UPPER()'],['../namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a9e43f5291e6fcb2ad99c8e3f91acd179',1,'Karm::Sys::UPPER()']]],
   ['upper_5ffirst_10',['UPPER_FIRST',['../namespaceKarm_1_1Io.html#ab3289aef9c6dbeb8105ef83dc36c9672a01d25b9cd7130cde878ddebcd05205b6',1,'Karm::Io']]],

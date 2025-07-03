@@ -32,6 +32,7 @@ var namespaceKarm =
       [ "test$", "namespaceKarm_1_1Tests.html#aea7fa5a478f0ba91cc5bb4ea693badb0", null ]
     ] ],
     [ "Text", "namespaceKarm_1_1Text.html", "namespaceKarm_1_1Text" ],
+    [ "Tty", "namespaceKarm_1_1Tty.html", "namespaceKarm_1_1Tty" ],
     [ "Ui", "namespaceKarm_1_1Ui.html", "namespaceKarm_1_1Ui" ],
     [ "ArmedDefer", "structKarm_1_1ArmedDefer.html", "structKarm_1_1ArmedDefer" ],
     [ "Array", "structKarm_1_1Array.html", "structKarm_1_1Array" ],

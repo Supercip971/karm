@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('chan_8h_source.html',''); initResizabl
 <a href="chan_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="fmt_8h.html">karm-io/fmt.h</a>&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="karm-io_2text_8h.html">karm-io/text.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="text_8h.html">karm-io/text.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;karm-sys/_embed.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="libs_2karm-sys_2fd_8h.html">fd.h</a>&quot;</span></div>
@@ -190,10 +190,9 @@ $(document).ready(function(){initNavTree('chan_8h_source.html',''); initResizabl
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>} <span class="comment">// namespace Karm::Sys</span></div>
 <div class="ttc" id="afmt_8h_html"><div class="ttname"><a href="fmt_8h.html">fmt.h</a></div></div>
-<div class="ttc" id="akarm-io_2text_8h_html"><div class="ttname"><a href="karm-io_2text_8h.html">text.h</a></div></div>
 <div class="ttc" id="alibs_2karm-sys_2fd_8h_html"><div class="ttname"><a href="libs_2karm-sys_2fd_8h.html">fd.h</a></div></div>
 <div class="ttc" id="anamespaceKarm_1_1Io_html_a5a9ca5c0a3a69401e1cae2fe18ccbb1a"><div class="ttname"><a href="namespaceKarm_1_1Io.html#a5a9ca5c0a3a69401e1cae2fe18ccbb1a">Karm::Io::format</a></div><div class="ttdeci">Res format(Io::TextWriter &amp;writer, Str format)</div><div class="ttdef"><b>Definition:</b> fmt.h:63</div></div>
-<div class="ttc" id="anamespaceKarm_1_1Sys_html"><div class="ttname"><a href="namespaceKarm_1_1Sys.html">Karm::Sys</a></div><div class="ttdef"><b>Definition:</b> sandbox.cpp:4</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Sys_html"><div class="ttname"><a href="namespaceKarm_1_1Sys.html">Karm::Sys</a></div><div class="ttdef"><b>Definition:</b> sandbox.cpp:3</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Sys_html_a44a61d671927b718a8bdf24b2a3f8589"><div class="ttname"><a href="namespaceKarm_1_1Sys.html#a44a61d671927b718a8bdf24b2a3f8589">Karm::Sys::out</a></div><div class="ttdeci">Out &amp; out()</div><div class="ttdef"><b>Definition:</b> chan.cpp:15</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Sys_html_a747e4d8ffacfc5cfedc91c25ff78ba77"><div class="ttname"><a href="namespaceKarm_1_1Sys.html#a747e4d8ffacfc5cfedc91c25ff78ba77">Karm::Sys::in</a></div><div class="ttdeci">In &amp; in()</div><div class="ttdef"><b>Definition:</b> chan.cpp:9</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Sys_html_a75a25a87463c4f428d55c9ceab4a16a3"><div class="ttname"><a href="namespaceKarm_1_1Sys.html#a75a25a87463c4f428d55c9ceab4a16a3">Karm::Sys::print</a></div><div class="ttdeci">void print(Str str=&quot;&quot;, auto &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> chan.h:70</div></div>
@@ -223,6 +222,7 @@ $(document).ready(function(){initNavTree('chan_8h_source.html',''); initResizabl
 <div class="ttc" id="astructKarm_1_1Sys_1_1Out_html_aa0a16630d9961333d23e28aad352fd75"><div class="ttname"><a href="structKarm_1_1Sys_1_1Out.html#aa0a16630d9961333d23e28aad352fd75">Karm::Sys::Out::flush</a></div><div class="ttdeci">Res flush() override</div><div class="ttdef"><b>Definition:</b> chan.h:40</div></div>
 <div class="ttc" id="astructKarm_1_1Sys_1_1Out_html_ac19bae765c52d64fa18f1903a1085cda"><div class="ttname"><a href="structKarm_1_1Sys_1_1Out.html#ac19bae765c52d64fa18f1903a1085cda">Karm::Sys::Out::Out</a></div><div class="ttdeci">Out(Rc&lt; Fd &gt; fd)</div><div class="ttdef"><b>Definition:</b> chan.h:29</div></div>
 <div class="ttc" id="astructKarm_1_1Sys_1_1Out_html_ad304472cb1d4ef05194c5a899daf9388"><div class="ttname"><a href="structKarm_1_1Sys_1_1Out.html#ad304472cb1d4ef05194c5a899daf9388">Karm::Sys::Out::fd</a></div><div class="ttdeci">Rc&lt; Fd &gt; fd()</div><div class="ttdef"><b>Definition:</b> chan.h:36</div></div>
+<div class="ttc" id="atext_8h_html"><div class="ttname"><a href="text_8h.html">text.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

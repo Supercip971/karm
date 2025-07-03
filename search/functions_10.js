@@ -12,7 +12,7 @@ var searchData=
   ['quarticout_9',['quarticOut',['../structKarm_1_1Math_1_1Easing.html#ae422c4bdcc0fa5adbe85a17fd9d775c1',1,'Karm::Math::Easing']]],
   ['queryclosest_10',['queryClosest',['../structKarm_1_1Text_1_1FontBook.html#aacdc3810794193316651866a80cbd42c',1,'Karm::Text::FontBook']]],
   ['queryexact_11',['queryExact',['../structKarm_1_1Text_1_1FontBook.html#a69e8302459070ec6ba3ab8e3ff8d8c64',1,'Karm::Text::FontBook']]],
-  ['queryfamily_12',['queryFamily',['../structKarm_1_1Text_1_1FontBook.html#af24b4078c96f9414392cf98bce286302',1,'Karm::Text::FontBook']]],
+  ['queryfamily_12',['queryFamily',['../structKarm_1_1Text_1_1FontBook.html#ad906868100d86c9217d4aa6d9a8dc963',1,'Karm::Text::FontBook']]],
   ['queryposition_13',['queryPosition',['../structKarm_1_1Text_1_1Prose.html#a66a2912aadee583a38847628dc93abc5',1,'Karm::Text::Prose']]],
   ['queue_14',['Queue',['../structKarm_1_1Async_1_1Queue.html#a677a987f17f8f23a07195ed97bcfe1d9',1,'Karm::Async::Queue']]],
   ['quinticin_15',['quinticIn',['../structKarm_1_1Math_1_1Easing.html#a2d6d94e0a2006e10c96b6006f3da8963',1,'Karm::Math::Easing']]],

@@ -4,5 +4,5 @@ var dir_15c1d75c5e84f616dbc0525f21253154 =
     [ "parse.cpp", "parse_8cpp.html", "parse_8cpp" ],
     [ "parse.h", "parse_8h.html", "parse_8h" ],
     [ "values.cpp", "karm-json_2values_8cpp.html", "karm-json_2values_8cpp" ],
-    [ "values.h", "karm-json_2values_8h.html", "karm-json_2values_8h" ]
+    [ "values.h", "values_8h.html", "values_8h" ]
 ];

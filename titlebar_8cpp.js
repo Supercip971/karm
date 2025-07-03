@@ -10,6 +10,7 @@ var titlebar_8cpp =
     [ "titlebar", "titlebar_8cpp.html#a964df7002bb906436a72879b5ef03feb", null ],
     [ "titlebarControls", "titlebar_8cpp.html#a93bb041080ad2eb33e0fd504d5eff673", null ],
     [ "titlebarTitle", "titlebar_8cpp.html#ad53791ea4521dbfba4bc47c17a2101a6", null ],
+    [ "App", "titlebar_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
     [ "Kira", "titlebar_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c", null ],
     [ "Mdi", "titlebar_8cpp.html#a83454f23b85047627e4256d3d754eedf", null ],
     [ "module", "titlebar_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],

@@ -47,6 +47,8 @@ var namespaceKarm_1_1App =
       [ "X1", "namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aabb7f5ae6220c9828e5ec91faf054197c", null ],
       [ "X2", "namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aa54105bddbfe3f639d49cbe8f5182c958", null ]
     ] ],
-    [ "globalPrefs", "namespaceKarm_1_1App.html#ac5880d0122bb2803d0ea7e035a44fbeb", null ],
-    [ "makeEvent", "namespaceKarm_1_1App.html#a7ed12ebfea428527a0fc630006afc4d2", null ]
+    [ "globalPrefs", "namespaceKarm_1_1App.html#a37696b84bfa2be7156a9a1e3cffddecc", null ],
+    [ "makeEvent", "namespaceKarm_1_1App.html#a304d8683feb30dd8ab494db4964877f1", null ],
+    [ "match", "namespaceKarm_1_1App.html#ac5f954173dc6686031920b4a6694803e", null ],
+    [ "formFactor", "namespaceKarm_1_1App.html#a6a4c90f00be9d08398e5f46a9e161e25", null ]
 ];
