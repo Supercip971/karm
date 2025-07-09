@@ -63,7 +63,7 @@ var namespaceKarm_1_1Meta =
     [ "declref", "namespaceKarm_1_1Meta.html#aa302bba2cd662d5bd93306bf213bfb3c", null ],
     [ "declval", "namespaceKarm_1_1Meta.html#a012c2d5cd0ba51b4a4bf42cf18bdd6cf", null ],
     [ "indexOf", "namespaceKarm_1_1Meta.html#af3a8b343f4b53be452aaa3d7605dd6e1", null ],
-    [ "size", "namespaceKarm_1_1Meta.html#a47fab2585d11b4e061d732bb98876aca", null ],
+    [ "size", "namespaceKarm_1_1Meta.html#adcc1ccc33b39457a1fac151d2909ec5a", null ],
     [ "visit", "namespaceKarm_1_1Meta.html#a56225c734ed3b60cbd56e4cc7fa7e3c8", null ],
     [ "zeroableSizeOf", "namespaceKarm_1_1Meta.html#a61373e45c0cea01e6a37a24aab2de604", null ]
 ];

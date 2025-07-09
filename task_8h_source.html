@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('task_8h_source.html',''); initResizabl
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    _Task(_Task <span class="keyword">const</span>&amp; other) = <span class="keyword">delete</span>;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    _Task(_Task&amp;&amp; other)</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        : _coro(std::exchange(other._coro, nullptr)) {}</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        : _coro(<a class="code hl_namespace" href="namespacestd.html">std</a>::exchange(other._coro, nullptr)) {}</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    _Task&amp; operator=(_Task <span class="keyword">const</span>&amp; other) = <span class="keyword">delete</span>;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
@@ -197,7 +197,7 @@ $(document).ready(function(){initNavTree('task_8h_source.html',''); initResizabl
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <a class="code hl_variable" href="namespaceKarm.html#ab4fb6e21445fe44f048caee98ac3ae23">R</a> _r;</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>            Operation(_Task t, R r)</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                : _t{std::<a class="code hl_function" href="namespaceKarm.html#a41dcad736901ce1f4107fa457b1f2b49">move</a>(<a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>)}, _r{std::<a class="code hl_function" href="namespaceKarm.html#a41dcad736901ce1f4107fa457b1f2b49">move</a>(<a class="code hl_variable" href="namespaceKarm.html#ab93253fd7a7aae8746ab4140cebefa92">r</a>)} {}</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                : _t{<a class="code hl_namespace" href="namespacestd.html">std</a>::<a class="code hl_function" href="namespaceKarm.html#a41dcad736901ce1f4107fa457b1f2b49">move</a>(<a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>)}, _r{<a class="code hl_namespace" href="namespacestd.html">std</a>::<a class="code hl_function" href="namespaceKarm.html#a41dcad736901ce1f4107fa457b1f2b49">move</a>(<a class="code hl_variable" href="namespaceKarm.html#ab93253fd7a7aae8746ab4140cebefa92">r</a>)} {}</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            <span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceKarm_1_1Ui.html#a6253e151369df7fee1da6faf7d7d8e58">start</a>() {</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>                <span class="keyword">auto</span> coro = _t._coro;</div>
@@ -249,6 +249,7 @@ $(document).ready(function(){initNavTree('task_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespaceKarm_html_a739eca9d05194fbb289a957dbedf191c"><div class="ttname"><a href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">Karm::S</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U S</div><div class="ttdef"><b>Definition:</b> rune.h:364</div></div>
 <div class="ttc" id="anamespaceKarm_html_ab4fb6e21445fe44f048caee98ac3ae23"><div class="ttname"><a href="namespaceKarm.html#ab4fb6e21445fe44f048caee98ac3ae23">Karm::R</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U R</div><div class="ttdef"><b>Definition:</b> rune.h:364</div></div>
 <div class="ttc" id="anamespaceKarm_html_ab93253fd7a7aae8746ab4140cebefa92"><div class="ttname"><a href="namespaceKarm.html#ab93253fd7a7aae8746ab4140cebefa92">Karm::r</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U r</div><div class="ttdef"><b>Definition:</b> rune.h:368</div></div>
+<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> std.cpp:16</div></div>
 <div class="ttc" id="ares_8h_html"><div class="ttname"><a href="res_8h.html">res.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

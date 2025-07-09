@@ -266,10 +266,10 @@ requires (Contains&lt;<a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc5
 <tr class="memitem:a61373e45c0cea01e6a37a24aab2de604"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> &gt; </td></tr>
 <tr class="memitem:a61373e45c0cea01e6a37a24aab2de604"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#a61373e45c0cea01e6a37a24aab2de604">zeroableSizeOf</a> ()</td></tr>
 <tr class="separator:a61373e45c0cea01e6a37a24aab2de604"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fab2585d11b4e061d732bb98876aca"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> , size_t Bases = 0u, class... Ts&gt; <br />
+<tr class="memitem:adcc1ccc33b39457a1fac151d2909ec5a"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> , std::size_t Bases = 0u, class... Ts&gt; <br />
 requires Meta::Agregate&lt;<a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a>&gt;</td></tr>
-<tr class="memitem:a47fab2585d11b4e061d732bb98876aca"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#a47fab2585d11b4e061d732bb98876aca">size</a> () -&gt; size_t</td></tr>
-<tr class="separator:a47fab2585d11b4e061d732bb98876aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc1ccc33b39457a1fac151d2909ec5a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#adcc1ccc33b39457a1fac151d2909ec5a">size</a> () -&gt; std::size_t</td></tr>
+<tr class="separator:adcc1ccc33b39457a1fac151d2909ec5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56225c734ed3b60cbd56e4cc7fa7e3c8"><td class="memTemplParams" colspan="2">template&lt;class Fn , class <a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> &gt; <br />
 requires Meta::Agregate&lt;<a class="el" href="namespaceKarm_1_1Meta.html#ab664a0c5ad4a62af27b8e8db9b61fa71">Meta::RemoveConstVolatileRef</a>&lt;<a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a>&gt;&gt;</td></tr>
 <tr class="memitem:a56225c734ed3b60cbd56e4cc7fa7e3c8"><td class="memTemplItemLeft" align="right" valign="top">constexpr decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#a56225c734ed3b60cbd56e4cc7fa7e3c8">visit</a> (Fn &amp;&amp;fn, <a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> &amp;&amp;<a class="el" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>, auto...)</td></tr>
@@ -573,13 +573,13 @@ requires (Contains&lt;<a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc5
 
 </div>
 </div>
-<a id="a47fab2585d11b4e061d732bb98876aca" name="a47fab2585d11b4e061d732bb98876aca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47fab2585d11b4e061d732bb98876aca">&#9670;&#160;</a></span>size()</h2>
+<a id="adcc1ccc33b39457a1fac151d2909ec5a" name="adcc1ccc33b39457a1fac151d2909ec5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc1ccc33b39457a1fac151d2909ec5a">&#9670;&#160;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class <a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> , size_t Bases = 0u, class... Ts&gt; <br />
+template&lt;class <a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> , std::size_t Bases = 0u, class... Ts&gt; <br />
 requires Meta::Agregate&lt;<a class="el" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a>&gt;</div>
 <table class="mlabels">
   <tr>
@@ -589,7 +589,7 @@ requires Meta::Agregate&lt;<a class="el" href="namespaceKarm.html#a18f5da5b00dd7
           <td class="memname">constexpr auto Karm::Meta::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; size_t </td>
+          <td> -&gt; std::size_t </td>
         </tr>
       </table>
   </td>

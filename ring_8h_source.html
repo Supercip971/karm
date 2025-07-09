@@ -130,11 +130,11 @@ $(document).ready(function(){initNavTree('ring_8h_source.html',''); initResizabl
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structKarm_1_1Ring.html#a29b26b3e57f8384447e48ecc8f76c819">   31</a></span>    <a class="code hl_function" href="structKarm_1_1Ring.html#a29b26b3e57f8384447e48ecc8f76c819">Ring</a>(<a class="code hl_struct" href="structKarm_1_1Ring.html">Ring</a>&amp;&amp; other)</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        : _buf(std::exchange(other._buf, nullptr)),</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>          _cap(std::exchange(other._cap, 0)),</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>          _len(std::exchange(other._len, 0)),</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>          _head(std::exchange(other._head, 0)),</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>          _tail(std::exchange(other._tail, 0)) {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        : _buf(<a class="code hl_namespace" href="namespacestd.html">std</a>::exchange(other._buf, nullptr)),</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>          _cap(<a class="code hl_namespace" href="namespacestd.html">std</a>::exchange(other._cap, 0)),</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>          _len(<a class="code hl_namespace" href="namespacestd.html">std</a>::exchange(other._len, 0)),</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>          _head(<a class="code hl_namespace" href="namespacestd.html">std</a>::exchange(other._head, 0)),</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>          _tail(<a class="code hl_namespace" href="namespacestd.html">std</a>::exchange(other._tail, 0)) {</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="structKarm_1_1Ring.html#affddea4439365ca3b5bc6b850ddde10a">   39</a></span>    <a class="code hl_function" href="structKarm_1_1Ring.html#affddea4439365ca3b5bc6b850ddde10a">~Ring</a>() {</div>
@@ -259,6 +259,7 @@ $(document).ready(function(){initNavTree('ring_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespaceKarm_html_a4bf631b8f40ef13c238f6522dd1f0a4e"><div class="ttname"><a href="namespaceKarm.html#a4bf631b8f40ef13c238f6522dd1f0a4e">Karm::panic</a></div><div class="ttdeci">void panic(char const *msg)</div><div class="ttdef"><b>Definition:</b> panic.h:22</div></div>
 <div class="ttc" id="anamespaceKarm_html_a7826e564b525f4f5a2a0e63f961c2dbd"><div class="ttname"><a href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">Karm::usize</a></div><div class="ttdeci">__SIZE_TYPE__ usize</div><div class="ttdef"><b>Definition:</b> base.h:10</div></div>
 <div class="ttc" id="anamespaceKarm_html_aeef377e10b4ddead557562442105f0bb"><div class="ttname"><a href="namespaceKarm.html#aeef377e10b4ddead557562442105f0bb">Karm::i</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U i</div><div class="ttdef"><b>Definition:</b> rune.h:367</div></div>
+<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> std.cpp:16</div></div>
 <div class="ttc" id="apanic_8h_html"><div class="ttname"><a href="panic_8h.html">panic.h</a></div></div>
 <div class="ttc" id="aslice_8h_html"><div class="ttname"><a href="slice_8h.html">slice.h</a></div></div>
 <div class="ttc" id="astructKarm_1_1Manual_html"><div class="ttname"><a href="structKarm_1_1Manual.html">Karm::Manual</a></div><div class="ttdef"><b>Definition:</b> manual.h:10</div></div>

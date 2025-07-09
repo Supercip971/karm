@@ -17,6 +17,7 @@ var namespaces_dup =
     [ "Png", "namespacePng.html", "namespacePng" ],
     [ "Posix", "namespacePosix.html", "namespacePosix" ],
     [ "Qoi", "namespaceQoi.html", "namespaceQoi" ],
+    [ "std", "namespacestd.html", null ],
     [ "Tga", "namespaceTga.html", "namespaceTga" ],
     [ "Tls", "namespaceTls.html", "namespaceTls" ],
     [ "Ttf", "namespaceTtf.html", "namespaceTtf" ]

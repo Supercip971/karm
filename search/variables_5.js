@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['f_0',['f',['../unionKarm_1_1Sys_1_1Ip6.html#a707a95ab93016680655febcf35898e53',1,'Karm::Sys::Ip6::f()'],['../namespaceKarm.html#a56fd194a9d96f98b881602287029a12e',1,'Karm::f()']]],
+  ['f_0',['f',['../unionKarm_1_1Sys_1_1Ip6.html#a707a95ab93016680655febcf35898e53',1,'Karm::Sys::Ip6']]],
   ['f_1',['F',['../namespaceKarm.html#aa130da165af4359040790f6d297ac2a4',1,'Karm']]],
-  ['f_2',['f',['../structKarm_1_1Math_1_1Radii.html#ab7fc87c878af197bd9aa68ba8afe657e',1,'Karm::Math::Radii']]],
+  ['f_2',['f',['../namespaceKarm.html#a56fd194a9d96f98b881602287029a12e',1,'Karm::f()'],['../structKarm_1_1Math_1_1Radii.html#ab7fc87c878af197bd9aa68ba8afe657e',1,'Karm::Math::Radii::f()']]],
   ['face_3',['face',['../structKarm_1_1Text_1_1FontInfo.html#a45deff8884f9eea1693dd350c01e5f44',1,'Karm::Text::FontInfo::face()'],['../structKarm_1_1Text_1_1FontFamily_1_1Member.html#a946e3b6a707b563539bfc06ad8878788',1,'Karm::Text::FontFamily::Member::face()']]],
   ['family_4',['family',['../structKarm_1_1Text_1_1FontQuery.html#ada7eab625f772572e95b674d1e74f56e',1,'Karm::Text::FontQuery::family()'],['../structKarm_1_1Text_1_1FontAttrs.html#a2af74e2accb5bf5cd9dd8cc16a3d5efb',1,'Karm::Text::FontAttrs::family()']]],
   ['fast_5',['fast',['../structKarm_1_1Test_1_1RunOptions.html#aeefc8626a7a24ced54338f20cfe4cdf0',1,'Karm::Test::RunOptions']]],

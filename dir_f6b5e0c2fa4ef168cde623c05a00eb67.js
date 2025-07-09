@@ -49,6 +49,7 @@ var dir_f6b5e0c2fa4ef168cde623c05a00eb67 =
     [ "simd.h", "simd_8h.html", "simd_8h" ],
     [ "size.h", "size_8h.html", "size_8h" ],
     [ "slice.h", "slice_8h.html", "slice_8h" ],
+    [ "std.cpp", "std_8cpp.html", "std_8cpp" ],
     [ "string.h", "string_8h.html", "string_8h" ],
     [ "symbol.cpp", "symbol_8cpp.html", null ],
     [ "symbol.h", "symbol_8h.html", "symbol_8h" ],

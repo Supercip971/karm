@@ -30,12 +30,13 @@ var searchData=
   ['stack_2ecpp_27',['stack.cpp',['../stack_8cpp.html',1,'']]],
   ['stat_2ecpp_28',['stat.cpp',['../stat_8cpp.html',1,'']]],
   ['stat_2eh_29',['stat.h',['../stat_8h.html',1,'']]],
-  ['store_2ecpp_30',['store.cpp',['../store_8cpp.html',1,'']]],
-  ['string_2eh_31',['string.h',['../string_8h.html',1,'']]],
-  ['stroke_2ecpp_32',['stroke.cpp',['../stroke_8cpp.html',1,'']]],
-  ['stroke_2eh_33',['stroke.h',['../stroke_8h.html',1,'']]],
-  ['style_2ecpp_34',['style.cpp',['../style_8cpp.html',1,'']]],
-  ['symbol_2ecpp_35',['symbol.cpp',['../symbol_8cpp.html',1,'']]],
-  ['symbol_2eh_36',['symbol.h',['../symbol_8h.html',1,'']]],
-  ['sys_2ecpp_37',['sys.cpp',['../impl-posix_2sys_8cpp.html',1,'(Global Namespace)'],['../impl-wasm_2sys_8cpp.html',1,'(Global Namespace)']]]
+  ['std_2ecpp_30',['std.cpp',['../std_8cpp.html',1,'']]],
+  ['store_2ecpp_31',['store.cpp',['../store_8cpp.html',1,'']]],
+  ['string_2eh_32',['string.h',['../string_8h.html',1,'']]],
+  ['stroke_2ecpp_33',['stroke.cpp',['../stroke_8cpp.html',1,'']]],
+  ['stroke_2eh_34',['stroke.h',['../stroke_8h.html',1,'']]],
+  ['style_2ecpp_35',['style.cpp',['../style_8cpp.html',1,'']]],
+  ['symbol_2ecpp_36',['symbol.cpp',['../symbol_8cpp.html',1,'']]],
+  ['symbol_2eh_37',['symbol.h',['../symbol_8h.html',1,'']]],
+  ['sys_2ecpp_38',['sys.cpp',['../impl-wasm_2sys_8cpp.html',1,'(Global Namespace)'],['../impl-posix_2sys_8cpp.html',1,'(Global Namespace)']]]
 ];
