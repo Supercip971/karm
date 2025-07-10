@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['q_0',['q',['../namespaceKarm.html#a4ac191aeeeb11ea5b66edabaedc2908c',1,'Karm']]],
-  ['q_1',['Q',['../namespaceKarm.html#acfc7dc9a835ebfbad7b980dbd295159c',1,'Karm']]],
+  ['q_0',['Q',['../namespaceKarm.html#acfc7dc9a835ebfbad7b980dbd295159c',1,'Karm']]],
+  ['q_1',['q',['../namespaceKarm.html#a4ac191aeeeb11ea5b66edabaedc2908c',1,'Karm']]],
   ['qdcount_2',['qdcount',['../structKarm_1_1Net_1_1Dns_1_1Header.html#afb0c9326795276b5c61f147c7473d799',1,'Karm::Net::Dns::Header']]],
   ['quality_3',['quality',['../structKarm_1_1Image_1_1Saver.html#af5c3d0abc295b1470527d3ebacf49db9',1,'Karm::Image::Saver']]],
-  ['quant100_4',['QUANT100',['../namespaceJpeg.html#afee63264da5876a9ba486e914bf0dead',1,'Jpeg']]],
-  ['quant50_5',['QUANT50',['../namespaceJpeg.html#ad9f0d571a5400f351a77c58190aa5f5d',1,'Jpeg']]],
-  ['quant75_6',['QUANT75',['../namespaceJpeg.html#a8e36b977ecaaeaec5502008aaf8014aa',1,'Jpeg']]],
+  ['quant100_4',['QUANT100',['../namespaceJpeg.html#a6b8c80f07c8b4944ba437d4c31b407b5',1,'Jpeg']]],
+  ['quant50_5',['QUANT50',['../namespaceJpeg.html#a15b6945e824b10c1e65c5ab03a8d89e8',1,'Jpeg']]],
+  ['quant75_6',['QUANT75',['../namespaceJpeg.html#a039b71c5b0b260cdb6259d7dfe77042e',1,'Jpeg']]],
   ['quant_5fcbcr100_7',['QUANT_CbCr100',['../namespaceJpeg.html#aa2aa916df4c902a60d1f4ee92ae359d3',1,'Jpeg']]],
   ['quant_5fcbcr50_8',['QUANT_CbCr50',['../namespaceJpeg.html#a15b7fd76ce96a11a375e61f0c935990d',1,'Jpeg']]],
   ['quant_5fcbcr75_9',['QUANT_CbCr75',['../namespaceJpeg.html#ad34e0acad7ee41f5f1ad7a1325f7a34a',1,'Jpeg']]],

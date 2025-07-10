@@ -5,9 +5,8 @@ var structKarm_1_1Text_1_1FontFamily =
     [ "FontFamily", "structKarm_1_1Text_1_1FontFamily.html#aa599a5f4ca243028d3a723a31b118759", null ],
     [ "advance", "structKarm_1_1Text_1_1FontFamily.html#afa10faf3d3eac693ea32ff18ec961475", null ],
     [ "attrs", "structKarm_1_1Text_1_1FontFamily.html#ae03b2f0bdaf373c586edf2e548141ecb", null ],
-    [ "baselineSet", "structKarm_1_1Text_1_1FontFamily.html#a0e9d9d1e370f790992e4890aff440164", null ],
     [ "contour", "structKarm_1_1Text_1_1FontFamily.html#a6ecc7ed2ac65cbcfd06393296679297c", null ],
     [ "glyph", "structKarm_1_1Text_1_1FontFamily.html#a847a5ceba9abc053a0fac50856553f7d", null ],
     [ "kern", "structKarm_1_1Text_1_1FontFamily.html#a6ce1488b66344301e0cbd830febce158", null ],
-    [ "metrics", "structKarm_1_1Text_1_1FontFamily.html#a5ca50b9c28d663e92c7d2836d927ccb0", null ]
+    [ "metrics", "structKarm_1_1Text_1_1FontFamily.html#a64b92408bf26a0bcbe6ca3216dac308f", null ]
 ];

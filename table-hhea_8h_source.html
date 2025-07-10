@@ -105,50 +105,52 @@ $(document).ready(function(){initNavTree('table-hhea_8h_source.html',''); initRe
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceTtf.html">Ttf</a> {</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html">    7</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structTtf_1_1Hhea.html">Hhea</a> : Io::BChunk {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a1134f9c8b97ab2b2652ef253aa211fc0">    8</a></span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> Str <a class="code hl_variable" href="structTtf_1_1Hhea.html#a1134f9c8b97ab2b2652ef253aa211fc0">SIG</a> = <span class="stringliteral">&quot;hhea&quot;</span>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a5f6434475b333b7119eee0b2f843baf7">   10</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#a5f6434475b333b7119eee0b2f843baf7">ascender</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keyword">auto</span> s = begin();</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        s.skip(4);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keywordflow">return</span> s.nextI16be();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    }</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a52eeb07804ca23206a76ed1be84e140d">   16</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#a52eeb07804ca23206a76ed1be84e140d">descender</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">auto</span> s = begin();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        s.skip(6);</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">return</span> -s.nextI16be();</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#ac306644f5fec15c22e68647f940de447">   22</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#ac306644f5fec15c22e68647f940de447">lineGap</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keyword">auto</span> s = begin();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        s.skip(8);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> s.nextI16be();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#ab38808b6897e6067b1bbfa1785e5ba88">   28</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#ab38808b6897e6067b1bbfa1785e5ba88">advanceWidthMax</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keyword">auto</span> s = begin();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        s.skip(10);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">return</span> s.nextU16be();</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a9766f42841b3519e738d4258f79eddbf">   34</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#a9766f42841b3519e738d4258f79eddbf">numberOfHMetrics</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keyword">auto</span> s = begin();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        s.skip(34);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">return</span> s.nextU16be();</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>} <span class="comment">// namespace Ttf</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// https://learn.microsoft.com/en-us/typography/opentype/spec/hhea</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html">    8</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structTtf_1_1Hhea.html">Hhea</a> : Io::BChunk {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a1134f9c8b97ab2b2652ef253aa211fc0">    9</a></span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> Str <a class="code hl_variable" href="structTtf_1_1Hhea.html#a1134f9c8b97ab2b2652ef253aa211fc0">SIG</a> = <span class="stringliteral">&quot;hhea&quot;</span>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a7b548b48c627ea8466acbb15a46f34a8">   11</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="structTtf_1_1Hhea.html#a7b548b48c627ea8466acbb15a46f34a8">Ascender</a> = Io::BField&lt;i16be, 4&gt;;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a2568ad2053e4a4e08a680cd8b9461355">   12</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="structTtf_1_1Hhea.html#a2568ad2053e4a4e08a680cd8b9461355">Descender</a> = Io::BField&lt;i16be, 6&gt;;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a06e31bd99b663e526134221bac12782c">   13</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="structTtf_1_1Hhea.html#a06e31bd99b663e526134221bac12782c">LineGap</a> = Io::BField&lt;i16be, 8&gt;;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a5d41909f9e5a3a72810d47cb4bc7da03">   14</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="structTtf_1_1Hhea.html#a5d41909f9e5a3a72810d47cb4bc7da03">AdvanceWidthMax</a> = Io::BField&lt;u16be, 10&gt;;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#ab2086a226c2184c25f5a1cf655787acb">   15</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="structTtf_1_1Hhea.html#ab2086a226c2184c25f5a1cf655787acb">NumberOfHMetrics</a> = Io::BField&lt;u16be, 34&gt;;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a5f6434475b333b7119eee0b2f843baf7">   17</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#a5f6434475b333b7119eee0b2f843baf7">ascender</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keywordflow">return</span> get&lt;Ascender&gt;();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    }</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a52eeb07804ca23206a76ed1be84e140d">   21</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#a52eeb07804ca23206a76ed1be84e140d">descender</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">return</span> -get&lt;Descender&gt;();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    }</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#ac306644f5fec15c22e68647f940de447">   25</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#ac306644f5fec15c22e68647f940de447">lineGap</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">return</span> get&lt;LineGap&gt;();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#ab38808b6897e6067b1bbfa1785e5ba88">   29</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#ab38808b6897e6067b1bbfa1785e5ba88">advanceWidthMax</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> get&lt;AdvanceWidthMax&gt;();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structTtf_1_1Hhea.html#a9766f42841b3519e738d4258f79eddbf">   33</a></span>    isize <a class="code hl_function" href="structTtf_1_1Hhea.html#a9766f42841b3519e738d4258f79eddbf">numberOfHMetrics</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">return</span> get&lt;NumberOfHMetrics&gt;();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} <span class="comment">// namespace Ttf</span></div>
 <div class="ttc" id="abscan_8h_html"><div class="ttname"><a href="bscan_8h.html">bscan.h</a></div></div>
 <div class="ttc" id="anamespaceTtf_html"><div class="ttname"><a href="namespaceTtf.html">Ttf</a></div><div class="ttdef"><b>Definition:</b> base.h:5</div></div>
-<div class="ttc" id="astructTtf_1_1Hhea_html"><div class="ttname"><a href="structTtf_1_1Hhea.html">Ttf::Hhea</a></div><div class="ttdef"><b>Definition:</b> table-hhea.h:7</div></div>
-<div class="ttc" id="astructTtf_1_1Hhea_html_a1134f9c8b97ab2b2652ef253aa211fc0"><div class="ttname"><a href="structTtf_1_1Hhea.html#a1134f9c8b97ab2b2652ef253aa211fc0">Ttf::Hhea::SIG</a></div><div class="ttdeci">static constexpr Str SIG</div><div class="ttdef"><b>Definition:</b> table-hhea.h:8</div></div>
-<div class="ttc" id="astructTtf_1_1Hhea_html_a52eeb07804ca23206a76ed1be84e140d"><div class="ttname"><a href="structTtf_1_1Hhea.html#a52eeb07804ca23206a76ed1be84e140d">Ttf::Hhea::descender</a></div><div class="ttdeci">isize descender() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:16</div></div>
-<div class="ttc" id="astructTtf_1_1Hhea_html_a5f6434475b333b7119eee0b2f843baf7"><div class="ttname"><a href="structTtf_1_1Hhea.html#a5f6434475b333b7119eee0b2f843baf7">Ttf::Hhea::ascender</a></div><div class="ttdeci">isize ascender() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:10</div></div>
-<div class="ttc" id="astructTtf_1_1Hhea_html_a9766f42841b3519e738d4258f79eddbf"><div class="ttname"><a href="structTtf_1_1Hhea.html#a9766f42841b3519e738d4258f79eddbf">Ttf::Hhea::numberOfHMetrics</a></div><div class="ttdeci">isize numberOfHMetrics() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:34</div></div>
-<div class="ttc" id="astructTtf_1_1Hhea_html_ab38808b6897e6067b1bbfa1785e5ba88"><div class="ttname"><a href="structTtf_1_1Hhea.html#ab38808b6897e6067b1bbfa1785e5ba88">Ttf::Hhea::advanceWidthMax</a></div><div class="ttdeci">isize advanceWidthMax() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:28</div></div>
-<div class="ttc" id="astructTtf_1_1Hhea_html_ac306644f5fec15c22e68647f940de447"><div class="ttname"><a href="structTtf_1_1Hhea.html#ac306644f5fec15c22e68647f940de447">Ttf::Hhea::lineGap</a></div><div class="ttdeci">isize lineGap() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:22</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html"><div class="ttname"><a href="structTtf_1_1Hhea.html">Ttf::Hhea</a></div><div class="ttdef"><b>Definition:</b> table-hhea.h:8</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a06e31bd99b663e526134221bac12782c"><div class="ttname"><a href="structTtf_1_1Hhea.html#a06e31bd99b663e526134221bac12782c">Ttf::Hhea::LineGap</a></div><div class="ttdeci">Io::BField&lt; i16be, 8 &gt; LineGap</div><div class="ttdef"><b>Definition:</b> table-hhea.h:13</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a1134f9c8b97ab2b2652ef253aa211fc0"><div class="ttname"><a href="structTtf_1_1Hhea.html#a1134f9c8b97ab2b2652ef253aa211fc0">Ttf::Hhea::SIG</a></div><div class="ttdeci">static constexpr Str SIG</div><div class="ttdef"><b>Definition:</b> table-hhea.h:9</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a2568ad2053e4a4e08a680cd8b9461355"><div class="ttname"><a href="structTtf_1_1Hhea.html#a2568ad2053e4a4e08a680cd8b9461355">Ttf::Hhea::Descender</a></div><div class="ttdeci">Io::BField&lt; i16be, 6 &gt; Descender</div><div class="ttdef"><b>Definition:</b> table-hhea.h:12</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a52eeb07804ca23206a76ed1be84e140d"><div class="ttname"><a href="structTtf_1_1Hhea.html#a52eeb07804ca23206a76ed1be84e140d">Ttf::Hhea::descender</a></div><div class="ttdeci">isize descender() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:21</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a5d41909f9e5a3a72810d47cb4bc7da03"><div class="ttname"><a href="structTtf_1_1Hhea.html#a5d41909f9e5a3a72810d47cb4bc7da03">Ttf::Hhea::AdvanceWidthMax</a></div><div class="ttdeci">Io::BField&lt; u16be, 10 &gt; AdvanceWidthMax</div><div class="ttdef"><b>Definition:</b> table-hhea.h:14</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a5f6434475b333b7119eee0b2f843baf7"><div class="ttname"><a href="structTtf_1_1Hhea.html#a5f6434475b333b7119eee0b2f843baf7">Ttf::Hhea::ascender</a></div><div class="ttdeci">isize ascender() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:17</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a7b548b48c627ea8466acbb15a46f34a8"><div class="ttname"><a href="structTtf_1_1Hhea.html#a7b548b48c627ea8466acbb15a46f34a8">Ttf::Hhea::Ascender</a></div><div class="ttdeci">Io::BField&lt; i16be, 4 &gt; Ascender</div><div class="ttdef"><b>Definition:</b> table-hhea.h:11</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_a9766f42841b3519e738d4258f79eddbf"><div class="ttname"><a href="structTtf_1_1Hhea.html#a9766f42841b3519e738d4258f79eddbf">Ttf::Hhea::numberOfHMetrics</a></div><div class="ttdeci">isize numberOfHMetrics() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:33</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_ab2086a226c2184c25f5a1cf655787acb"><div class="ttname"><a href="structTtf_1_1Hhea.html#ab2086a226c2184c25f5a1cf655787acb">Ttf::Hhea::NumberOfHMetrics</a></div><div class="ttdeci">Io::BField&lt; u16be, 34 &gt; NumberOfHMetrics</div><div class="ttdef"><b>Definition:</b> table-hhea.h:15</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_ab38808b6897e6067b1bbfa1785e5ba88"><div class="ttname"><a href="structTtf_1_1Hhea.html#ab38808b6897e6067b1bbfa1785e5ba88">Ttf::Hhea::advanceWidthMax</a></div><div class="ttdeci">isize advanceWidthMax() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:29</div></div>
+<div class="ttc" id="astructTtf_1_1Hhea_html_ac306644f5fec15c22e68647f940de447"><div class="ttname"><a href="structTtf_1_1Hhea.html#ac306644f5fec15c22e68647f940de447">Ttf::Hhea::lineGap</a></div><div class="ttdeci">isize lineGap() const</div><div class="ttdef"><b>Definition:</b> table-hhea.h:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

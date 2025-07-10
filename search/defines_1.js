@@ -10,5 +10,7 @@ var searchData=
   ['co_5fexpectnot_7',['co_expectNot',['../libs_2karm-test_2macros_8h.html#a8f86eef226be9ccb24d553100cf62a57',1,'macros.h']]],
   ['co_5ftry_8',['co_try',['../libs_2karm-base_2macros_8h.html#a8f595bb9c8ce95155d8982c744d4cb32',1,'macros.h']]],
   ['co_5ftrya_9',['co_trya',['../libs_2karm-base_2macros_8h.html#aed296b2dce6a2f6d66600e671004a2bf',1,'macros.h']]],
-  ['concat_10',['concat',['../libs_2karm-base_2macros_8h.html#aa8cec9de05455b62fb70f0871ff58d12',1,'macros.h']]]
+  ['co_5ftryy_10',['co_tryy',['../libs_2karm-base_2macros_8h.html#a118dc910935bf5795d49a1f363613d0a',1,'macros.h']]],
+  ['co_5ftryya_11',['co_tryya',['../libs_2karm-base_2macros_8h.html#aa9a4ab0a038e2f0391523e827648929a',1,'macros.h']]],
+  ['concat_12',['concat',['../libs_2karm-base_2macros_8h.html#aa8cec9de05455b62fb70f0871ff58d12',1,'macros.h']]]
 ];

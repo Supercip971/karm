@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['decl_2eh_0',['decl.h',['../decl_8h.html',1,'']]],
-  ['decoder_2ecpp_1',['decoder.cpp',['../bmp_2decoder_8cpp.html',1,'(Global Namespace)'],['../jpeg_2decoder_8cpp.html',1,'(Global Namespace)'],['../qoi_2decoder_8cpp.html',1,'(Global Namespace)'],['../tga_2decoder_8cpp.html',1,'(Global Namespace)']]],
-  ['decoder_2eh_2',['decoder.h',['../bmp_2decoder_8h.html',1,'(Global Namespace)'],['../gif_2decoder_8h.html',1,'(Global Namespace)'],['../jpeg_2decoder_8h.html',1,'(Global Namespace)'],['../png_2decoder_8h.html',1,'(Global Namespace)'],['../qoi_2decoder_8h.html',1,'(Global Namespace)'],['../tga_2decoder_8h.html',1,'(Global Namespace)']]],
+  ['dct_2ecpp_0',['dct.cpp',['../dct_8cpp.html',1,'']]],
+  ['decl_2eh_1',['decl.h',['../decl_8h.html',1,'']]],
+  ['decoder_2ecpp_2',['decoder.cpp',['../bmp_2decoder_8cpp.html',1,'(Global Namespace)'],['../gif_2decoder_8cpp.html',1,'(Global Namespace)'],['../jpeg_2decoder_8cpp.html',1,'(Global Namespace)'],['../png_2decoder_8cpp.html',1,'(Global Namespace)'],['../qoi_2decoder_8cpp.html',1,'(Global Namespace)'],['../tga_2decoder_8cpp.html',1,'(Global Namespace)']]],
   ['defer_2eh_3',['defer.h',['../defer_8h.html',1,'']]],
   ['defs_2eh_4',['defs.h',['../defs_8h.html',1,'']]],
   ['dialog_2ecpp_5',['dialog.cpp',['../karm-kira_2dialog_8cpp.html',1,'(Global Namespace)'],['../karm-ui_2dialog_8cpp.html',1,'(Global Namespace)']]],

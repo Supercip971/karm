@@ -4,8 +4,6 @@ var karm_text_2base_8h =
     [ "Karm::Text::FontWeight", "structKarm_1_1Text_1_1FontWeight.html", "structKarm_1_1Text_1_1FontWeight" ],
     [ "Karm::Text::FontStretch", "structKarm_1_1Text_1_1FontStretch.html", "structKarm_1_1Text_1_1FontStretch" ],
     [ "Karm::Text::FontAttrs", "structKarm_1_1Text_1_1FontAttrs.html", "structKarm_1_1Text_1_1FontAttrs" ],
-    [ "Karm::Text::BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", "structKarm_1_1Text_1_1BaselineSet" ],
-    [ "Karm::Text::UnresolvedBaselineSet", "structKarm_1_1Text_1_1UnresolvedBaselineSet.html", "structKarm_1_1Text_1_1UnresolvedBaselineSet" ],
     [ "FontStyle", "karm-text_2base_8h.html#a884b141e705caf530991cff5cb034407", [
       [ "NORMAL", "karm-text_2base_8h.html#a884b141e705caf530991cff5cb034407a1e23852820b9154316c7c06e2b7ba051", null ],
       [ "OBLIQUE", "karm-text_2base_8h.html#a884b141e705caf530991cff5cb034407a08e76c6cf31341b61b0bc6c662773828", null ],

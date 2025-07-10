@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['x_0',['x',['../structKarm_1_1Gfx_1_1CpuRast_1_1Active.html#a30f9f4578c7a76d8b477a4a5d0116dce',1,'Karm::Gfx::CpuRast::Active::x()'],['../namespaceKarm.html#a3932af4cb7e0010f331f6416c2f45e6a',1,'Karm::x()']]],
+  ['x_0',['x',['../structKarm_1_1Gfx_1_1CpuRast_1_1Active.html#a30f9f4578c7a76d8b477a4a5d0116dce',1,'Karm::Gfx::CpuRast::Active']]],
   ['x_1',['X',['../namespaceKarm.html#a776e8221f828519d8dd651015d81f0e1',1,'Karm']]],
-  ['x_2',['x',['../structTtf_1_1Glyf_1_1SimpleContour.html#a3d91eeb9cb9fb38ea4c7ebc0eaae8614',1,'Ttf::Glyf::SimpleContour::x()'],['../structTtf_1_1GlyphMetrics.html#a0739444abbecbb8f223e66904ded94e0',1,'Ttf::GlyphMetrics::x()'],['../unionKarm_1_1Math_1_1Vec4.html#a182c347cd01c1beef2a2486e2302e910',1,'Karm::Math::Vec4::x()'],['../unionKarm_1_1Math_1_1Vec2.html#a329bfb5c9d493620707dba4e3672426a',1,'Karm::Math::Vec2::x()'],['../unionKarm_1_1Math_1_1Trans2.html#aa62b18c2629ce9e6d79e4849188f47a4',1,'Karm::Math::Trans2::x()'],['../unionKarm_1_1Math_1_1Rect.html#a3907fea3cb788117c5b934365d612419',1,'Karm::Math::Rect::x()'],['../unionKarm_1_1Math_1_1Vec3.html#a8b30d560371f563d0eead6d6c5dc3bf9',1,'Karm::Math::Vec3::x()']]],
+  ['x_2',['x',['../namespaceKarm.html#a3932af4cb7e0010f331f6416c2f45e6a',1,'Karm::x()'],['../structTtf_1_1Glyf_1_1SimpleContour.html#a3d91eeb9cb9fb38ea4c7ebc0eaae8614',1,'Ttf::Glyf::SimpleContour::x()'],['../structTtf_1_1GlyphMetrics.html#a0739444abbecbb8f223e66904ded94e0',1,'Ttf::GlyphMetrics::x()'],['../unionKarm_1_1Math_1_1Vec4.html#a182c347cd01c1beef2a2486e2302e910',1,'Karm::Math::Vec4::x()'],['../unionKarm_1_1Math_1_1Vec2.html#a329bfb5c9d493620707dba4e3672426a',1,'Karm::Math::Vec2::x()'],['../unionKarm_1_1Math_1_1Trans2.html#aa62b18c2629ce9e6d79e4849188f47a4',1,'Karm::Math::Trans2::x()'],['../unionKarm_1_1Math_1_1Rect.html#a3907fea3cb788117c5b934365d612419',1,'Karm::Math::Rect::x()'],['../unionKarm_1_1Math_1_1Vec3.html#a8b30d560371f563d0eead6d6c5dc3bf9',1,'Karm::Math::Vec3::x()']]],
   ['x00a0_3',['x00a0',['../namespaceKarm.html#ab5174aad5d3d7e14ac35909b2c70fdcb',1,'Karm']]],
   ['x1_4',['X1',['../namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aabb7f5ae6220c9828e5ec91faf054197c',1,'Karm::App']]],
   ['x2_5',['X2',['../namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aa54105bddbfe3f639d49cbe8f5182c958',1,'Karm::App']]],
@@ -16,9 +16,9 @@ var searchData=
   ['xadvancedeviceoffset_13',['xAdvanceDeviceOffset',['../structTtf_1_1ValueRecord.html#a44bc1d41d6bafa780a82d42453a3a7d1',1,'Ttf::ValueRecord']]],
   ['xchg_14',['xchg',['../structKarm_1_1Atomic.html#afdd9b3686faa0091318b7d6ca0507d45',1,'Karm::Atomic']]],
   ['xdigit_15',['xdigit',['../namespaceKarm_1_1Re.html#a449e216c6cf441ff5fec17211023ce53',1,'Karm::Re']]],
-  ['xheight_16',['xHeight',['../structKarm_1_1Text_1_1BaselineSet.html#a07c288c473c410ce09a26757fdb16bf0',1,'Karm::Text::BaselineSet::xHeight()'],['../structKarm_1_1Text_1_1UnresolvedBaselineSet.html#aa488ec3c42b4a87b0dd7c47a22c6e685',1,'Karm::Text::UnresolvedBaselineSet::xHeight()'],['../structKarm_1_1Text_1_1Font.html#ac7b396fd153ec9b526ce29c5defb0c23',1,'Karm::Text::Font::xHeight()']]],
+  ['xheight_16',['xHeight',['../structKarm_1_1Text_1_1FontMetrics.html#a65ae0da60fe2986ffbb04a94e777686e',1,'Karm::Text::FontMetrics::xHeight()'],['../structKarm_1_1Text_1_1Font.html#ac7b396fd153ec9b526ce29c5defb0c23',1,'Karm::Text::Font::xHeight()']]],
   ['xmax_17',['xMax',['../structTtf_1_1Glyf_1_1Metrics.html#a145ceb1df3b815ffaa5a089a379956fc',1,'Ttf::Glyf::Metrics']]],
-  ['xmiddle_18',['xMiddle',['../structKarm_1_1Text_1_1UnresolvedBaselineSet.html#a64d504f3754ff62adeb5ea329662d903',1,'Karm::Text::UnresolvedBaselineSet::xMiddle()'],['../structKarm_1_1Text_1_1BaselineSet.html#a40a2c82d9147c2c04c3b62a652e17123',1,'Karm::Text::BaselineSet::xMiddle()']]],
+  ['xmiddlebaseline_18',['xMiddleBaseline',['../structKarm_1_1Text_1_1FontMetrics.html#ab0802178f8e12fddfcf8131f0e053817',1,'Karm::Text::FontMetrics']]],
   ['xmin_19',['xMin',['../structTtf_1_1Glyf_1_1Metrics.html#aa07da4da80d4a6aef45974f7452091b8',1,'Ttf::Glyf::Metrics']]],
   ['xplacement_20',['xPlacement',['../structTtf_1_1ValueRecord.html#ae7c31f030505c24d0581fcb27a1e2b94',1,'Ttf::ValueRecord']]],
   ['xplacementdeviceoffset_21',['xPlacementDeviceOffset',['../structTtf_1_1ValueRecord.html#ace30576e3dea677661e810c834db237d',1,'Ttf::ValueRecord']]],

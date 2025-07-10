@@ -124,12 +124,16 @@ Macros</h2></td></tr>
 <tr class="separator:ac620672df61cb1f3f6bf8901869b6be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a076bd9e518620131d6ecb66844c61f26"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#a076bd9e518620131d6ecb66844c61f26">no_unique_address</a>&#160;&#160;&#160;no_unique_address</td></tr>
 <tr class="separator:a076bd9e518620131d6ecb66844c61f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28599e8ac99ea9faff60a2258a914aee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#a28599e8ac99ea9faff60a2258a914aee">try</a>&#160;&#160;&#160;$(EXPR) __try$(EXPR, return, )</td></tr>
+<tr class="memitem:a28599e8ac99ea9faff60a2258a914aee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#a28599e8ac99ea9faff60a2258a914aee">try</a>&#160;&#160;&#160;$(EXPR)      __try$(EXPR,    return,          ,          )</td></tr>
 <tr class="separator:a28599e8ac99ea9faff60a2258a914aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f595bb9c8ce95155d8982c744d4cb32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#a8f595bb9c8ce95155d8982c744d4cb32">co_try</a>&#160;&#160;&#160;$(EXPR) __try$(EXPR, co_return, )</td></tr>
+<tr class="memitem:a8f595bb9c8ce95155d8982c744d4cb32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#a8f595bb9c8ce95155d8982c744d4cb32">co_try</a>&#160;&#160;&#160;$(EXPR)   __try$(EXPR, co_return,          ,          )</td></tr>
 <tr class="separator:a8f595bb9c8ce95155d8982c744d4cb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed296b2dce6a2f6d66600e671004a2bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#aed296b2dce6a2f6d66600e671004a2bf">co_trya</a>&#160;&#160;&#160;$(EXPR) __try$(EXPR, co_return, co_await)</td></tr>
+<tr class="memitem:aed296b2dce6a2f6d66600e671004a2bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#aed296b2dce6a2f6d66600e671004a2bf">co_trya</a>&#160;&#160;&#160;$(EXPR)  __try$(EXPR, co_return,  co_await,          )</td></tr>
 <tr class="separator:aed296b2dce6a2f6d66600e671004a2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118dc910935bf5795d49a1f363613d0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#a118dc910935bf5795d49a1f363613d0a">co_tryy</a>&#160;&#160;&#160;$(EXPR)  __try$(EXPR,  co_yield,          , co_return)</td></tr>
+<tr class="separator:a118dc910935bf5795d49a1f363613d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9a4ab0a038e2f0391523e827648929a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libs_2karm-base_2macros_8h.html#aa9a4ab0a038e2f0391523e827648929a">co_tryya</a>&#160;&#160;&#160;$(EXPR) __try$(EXPR,  co_yield,  co_await, co_return)</td></tr>
+<tr class="separator:aa9a4ab0a038e2f0391523e827648929a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ac620672df61cb1f3f6bf8901869b6be2" name="ac620672df61cb1f3f6bf8901869b6be2"></a>
@@ -153,7 +157,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define co_try&#160;&#160;&#160;$(EXPR) __try$(EXPR, co_return, )</td>
+          <td class="memname">#define co_try&#160;&#160;&#160;$(EXPR)   __try$(EXPR, co_return,          ,          )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -167,7 +171,35 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define co_trya&#160;&#160;&#160;$(EXPR) __try$(EXPR, co_return, co_await)</td>
+          <td class="memname">#define co_trya&#160;&#160;&#160;$(EXPR)  __try$(EXPR, co_return,  co_await,          )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a118dc910935bf5795d49a1f363613d0a" name="a118dc910935bf5795d49a1f363613d0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118dc910935bf5795d49a1f363613d0a">&#9670;&#160;</a></span>co_tryy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define co_tryy&#160;&#160;&#160;$(EXPR)  __try$(EXPR,  co_yield,          , co_return)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9a4ab0a038e2f0391523e827648929a" name="aa9a4ab0a038e2f0391523e827648929a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9a4ab0a038e2f0391523e827648929a">&#9670;&#160;</a></span>co_tryya</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define co_tryya&#160;&#160;&#160;$(EXPR) __try$(EXPR,  co_yield,  co_await, co_return)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -237,7 +269,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define try&#160;&#160;&#160;$(EXPR) __try$(EXPR, return, )</td>
+          <td class="memname">#define try&#160;&#160;&#160;$(EXPR)      __try$(EXPR,    return,          ,          )</td>
         </tr>
       </table>
 </div><div class="memdoc">

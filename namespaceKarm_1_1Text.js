@@ -5,7 +5,6 @@ var namespaceKarm_1_1Text =
       [ "test$", "namespaceKarm_1_1Text_1_1Tests.html#aa26740b79491866bf93037d222dbd9d9", null ]
     ] ],
     [ "Action", "structKarm_1_1Text_1_1Action.html", "structKarm_1_1Text_1_1Action" ],
-    [ "BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", "structKarm_1_1Text_1_1BaselineSet" ],
     [ "Font", "structKarm_1_1Text_1_1Font.html", "structKarm_1_1Text_1_1Font" ],
     [ "FontAdjust", "structKarm_1_1Text_1_1FontAdjust.html", "structKarm_1_1Text_1_1FontAdjust" ],
     [ "FontAttrs", "structKarm_1_1Text_1_1FontAttrs.html", "structKarm_1_1Text_1_1FontAttrs" ],
@@ -23,7 +22,6 @@ var namespaceKarm_1_1Text =
     [ "Prose", "structKarm_1_1Text_1_1Prose.html", "structKarm_1_1Text_1_1Prose" ],
     [ "ProseStyle", "structKarm_1_1Text_1_1ProseStyle.html", "structKarm_1_1Text_1_1ProseStyle" ],
     [ "TtfFontface", "structKarm_1_1Text_1_1TtfFontface.html", "structKarm_1_1Text_1_1TtfFontface" ],
-    [ "UnresolvedBaselineSet", "structKarm_1_1Text_1_1UnresolvedBaselineSet.html", "structKarm_1_1Text_1_1UnresolvedBaselineSet" ],
     [ "VgaFontface", "structKarm_1_1Text_1_1VgaFontface.html", "structKarm_1_1Text_1_1VgaFontface" ],
     [ "FontStyle", "namespaceKarm_1_1Text.html#a884b141e705caf530991cff5cb034407", [
       [ "NORMAL", "namespaceKarm_1_1Text.html#a884b141e705caf530991cff5cb034407a1e23852820b9154316c7c06e2b7ba051", null ],

@@ -410,7 +410,6 @@ var annotated_dup =
       ] ],
       [ "Text", "namespaceKarm_1_1Text.html", [
         [ "Action", "structKarm_1_1Text_1_1Action.html", "structKarm_1_1Text_1_1Action" ],
-        [ "BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", "structKarm_1_1Text_1_1BaselineSet" ],
         [ "Font", "structKarm_1_1Text_1_1Font.html", "structKarm_1_1Text_1_1Font" ],
         [ "FontAdjust", "structKarm_1_1Text_1_1FontAdjust.html", "structKarm_1_1Text_1_1FontAdjust" ],
         [ "FontAttrs", "structKarm_1_1Text_1_1FontAttrs.html", "structKarm_1_1Text_1_1FontAttrs" ],
@@ -428,7 +427,6 @@ var annotated_dup =
         [ "Prose", "structKarm_1_1Text_1_1Prose.html", "structKarm_1_1Text_1_1Prose" ],
         [ "ProseStyle", "structKarm_1_1Text_1_1ProseStyle.html", "structKarm_1_1Text_1_1ProseStyle" ],
         [ "TtfFontface", "structKarm_1_1Text_1_1TtfFontface.html", "structKarm_1_1Text_1_1TtfFontface" ],
-        [ "UnresolvedBaselineSet", "structKarm_1_1Text_1_1UnresolvedBaselineSet.html", "structKarm_1_1Text_1_1UnresolvedBaselineSet" ],
         [ "VgaFontface", "structKarm_1_1Text_1_1VgaFontface.html", "structKarm_1_1Text_1_1VgaFontface" ]
       ] ],
       [ "Tty", "namespaceKarm_1_1Tty.html", [

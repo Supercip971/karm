@@ -99,7 +99,8 @@ $(document).ready(function(){initNavTree('namespaceQoi.html',''); initResizable(
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Qoi Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -126,8 +127,17 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aca332f78f1f45df128dda72caf804b54"><td class="memItemLeft" align="right" valign="top">Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#aca332f78f1f45df128dda72caf804b54">encode</a> (Gfx::Pixels pixels, Io::BEmit &amp;e)</td></tr>
-<tr class="separator:aca332f78f1f45df128dda72caf804b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc756e0b5c764b4ad45df47d7db0790"><td class="memItemLeft" align="right" valign="top">export usize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#acbc756e0b5c764b4ad45df47d7db0790">hashColor</a> (Gfx::Color c)</td></tr>
+<tr class="separator:acbc756e0b5c764b4ad45df47d7db0790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4638a08063d637e3651a981956d34a3"><td class="memItemLeft" align="right" valign="top">export Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#ad4638a08063d637e3651a981956d34a3">encode</a> (Gfx::Pixels pixels, Io::BEmit &amp;e)</td></tr>
+<tr class="separator:ad4638a08063d637e3651a981956d34a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a08d2d1a0b7566b4c99f84cd64a9b727f"><td class="memItemLeft" align="right" valign="top">export constexpr Array&lt; u8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#a08d2d1a0b7566b4c99f84cd64a9b727f">MAGIC</a></td></tr>
+<tr class="separator:a08d2d1a0b7566b4c99f84cd64a9b727f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205269d4722a85d0a51c42182dad7a40"><td class="memItemLeft" align="right" valign="top">export constexpr Array&lt; u8, 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#a205269d4722a85d0a51c42182dad7a40">END</a></td></tr>
+<tr class="separator:a205269d4722a85d0a51c42182dad7a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="acffe5ab0215eb976c5aafced51fc9b67" name="acffe5ab0215eb976c5aafced51fc9b67"></a>
@@ -154,14 +164,14 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aca332f78f1f45df128dda72caf804b54" name="aca332f78f1f45df128dda72caf804b54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca332f78f1f45df128dda72caf804b54">&#9670;&#160;</a></span>encode()</h2>
+<a id="ad4638a08063d637e3651a981956d34a3" name="ad4638a08063d637e3651a981956d34a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4638a08063d637e3651a981956d34a3">&#9670;&#160;</a></span>encode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Res Qoi::encode </td>
+          <td class="memname">export Res Qoi::encode </td>
           <td>(</td>
           <td class="paramtype">Gfx::Pixels&#160;</td>
           <td class="paramname"><em>pixels</em>, </td>
@@ -180,6 +190,75 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="acbc756e0b5c764b4ad45df47d7db0790" name="acbc756e0b5c764b4ad45df47d7db0790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbc756e0b5c764b4ad45df47d7db0790">&#9670;&#160;</a></span>hashColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export usize Qoi::hashColor </td>
+          <td>(</td>
+          <td class="paramtype">Gfx::Color&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a205269d4722a85d0a51c42182dad7a40" name="a205269d4722a85d0a51c42182dad7a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a205269d4722a85d0a51c42182dad7a40">&#9670;&#160;</a></span>END</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export constexpr Array&lt;u8, 8&gt; Qoi::END</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0, 0, 0, 0, 0, 0, 0, 1</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a08d2d1a0b7566b4c99f84cd64a9b727f" name="a08d2d1a0b7566b4c99f84cd64a9b727f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d2d1a0b7566b4c99f84cd64a9b727f">&#9670;&#160;</a></span>MAGIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export constexpr Array&lt;u8, 4&gt; Qoi::MAGIC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0x71, 0x6F, 0x69, 0x66</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

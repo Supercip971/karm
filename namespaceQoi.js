@@ -10,5 +10,8 @@ var namespaceQoi =
       [ "RUN", "namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a16deb39e66b18b800f5d6c80217e6e08", null ],
       [ "MASK", "namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a09cfc23522b0b49999a4b0ac494e33eb", null ]
     ] ],
-    [ "encode", "namespaceQoi.html#aca332f78f1f45df128dda72caf804b54", null ]
+    [ "encode", "namespaceQoi.html#ad4638a08063d637e3651a981956d34a3", null ],
+    [ "hashColor", "namespaceQoi.html#acbc756e0b5c764b4ad45df47d7db0790", null ],
+    [ "END", "namespaceQoi.html#a205269d4722a85d0a51c42182dad7a40", null ],
+    [ "MAGIC", "namespaceQoi.html#a08d2d1a0b7566b4c99f84cd64a9b727f", null ]
 ];

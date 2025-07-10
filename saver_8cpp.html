@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Karm: src/libs/karm-image/saver.cpp File Reference</title>
+<title>Karm: src/libs/karm-image/base/saver.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
@@ -97,18 +97,23 @@ $(document).ready(function(){initNavTree('saver_8cpp.html',''); initResizable();
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">saver.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="file_8h_source.html">karm-sys/file.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="bmp_2encoder_8h_source.html">bmp/encoder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="jpeg_2encoder_8h_source.html">jpeg/encoder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="qoi_2encoder_8h_source.html">qoi/encoder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="tga_2encoder_8h_source.html">tga/encoder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="saver_8h_source.html">saver.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="buffer_8h_source.html">karm-gfx/buffer.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="bscan_8h_source.html">karm-io/bscan.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="uti_8h_source.html">karm-mime/uti.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="file_8h_source.html">karm-sys/file.h</a>&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Image_1_1Saver.html">Karm::Image::Saver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
@@ -118,19 +123,55 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af3b53bcf3481ae56bdf8fdc396c47271"><td class="memItemLeft" align="right" valign="top">Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image.html#af3b53bcf3481ae56bdf8fdc396c47271">Karm::Image::save</a> (Gfx::Pixels pixels, Io::BEmit &amp;e, Saver const &amp;props)</td></tr>
-<tr class="separator:af3b53bcf3481ae56bdf8fdc396c47271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade7e839923c0b0aa62c00c0393728b48"><td class="memItemLeft" align="right" valign="top">Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image.html#ade7e839923c0b0aa62c00c0393728b48">Karm::Image::save</a> (Gfx::Pixels pixels, Io::Writer &amp;w, Saver const &amp;props)</td></tr>
-<tr class="separator:ade7e839923c0b0aa62c00c0393728b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a570be7e6c881545fa28c3892f2457d63"><td class="memItemLeft" align="right" valign="top">Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image.html#a570be7e6c881545fa28c3892f2457d63">Karm::Image::save</a> (Gfx::Pixels pixels, Mime::Url const &amp;url, Saver const &amp;props)</td></tr>
-<tr class="separator:a570be7e6c881545fa28c3892f2457d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd9864874ddde387dc8d0314e09bf34"><td class="memItemLeft" align="right" valign="top">export Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image.html#a7bd9864874ddde387dc8d0314e09bf34">Karm::Image::save</a> (Gfx::Pixels pixels, Io::BEmit &amp;e, Saver const &amp;props={})</td></tr>
+<tr class="separator:a7bd9864874ddde387dc8d0314e09bf34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406c783b1e20228ce80539813b945cfb"><td class="memItemLeft" align="right" valign="top">export Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image.html#a406c783b1e20228ce80539813b945cfb">Karm::Image::save</a> (Gfx::Pixels pixels, Io::Writer &amp;w, Saver const &amp;props={})</td></tr>
+<tr class="separator:a406c783b1e20228ce80539813b945cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51042aed95ea33c6975b61c7e965a1bd"><td class="memItemLeft" align="right" valign="top">export Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image.html#a51042aed95ea33c6975b61c7e965a1bd">Karm::Image::save</a> (Gfx::Pixels pixels, Mime::Url const &amp;url, Saver const &amp;props={})</td></tr>
+<tr class="separator:a51042aed95ea33c6975b61c7e965a1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="saver_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37503819ab26c63c3b3cb63014b131fb"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="saver_8cpp.html#a37503819ab26c63c3b3cb63014b131fb">Image</a></td></tr>
+<tr class="separator:a37503819ab26c63c3b3cb63014b131fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a37503819ab26c63c3b3cb63014b131fb" name="a37503819ab26c63c3b3cb63014b131fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37503819ab26c63c3b3cb63014b131fb">&#9670;&#160;</a></span>Image</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Image</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_7e6fdb58758a9a7ef7d22cde38d3b808.html">karm-image</a></li><li class="navelem"><a class="el" href="saver_8cpp.html">saver.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_7e6fdb58758a9a7ef7d22cde38d3b808.html">karm-image</a></li><li class="navelem"><a class="el" href="dir_d687ccff6d7041919cda33bb29a5601d.html">base</a></li><li class="navelem"><a class="el" href="saver_8cpp.html">saver.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

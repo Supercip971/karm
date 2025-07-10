@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['j_0',['J',['../namespaceKarm.html#a7f1715deac1238023bf2412c822f41d9',1,'Karm']]],
-  ['j_1',['j',['../namespaceKarm.html#ada853e4447811c467dd885209fbc6a82',1,'Karm']]],
+  ['j_0',['j',['../namespaceKarm.html#ada853e4447811c467dd885209fbc6a82',1,'Karm']]],
+  ['j_1',['J',['../namespaceKarm.html#a7f1715deac1238023bf2412c822f41d9',1,'Karm']]],
   ['join_2',['join',['../structKarm_1_1Gfx_1_1Stroke.html#aab72efdbe37dd12ea5a7c5a5540d30d0',1,'Karm::Gfx::Stroke::join()'],['../structKarm_1_1Mime_1_1Path.html#a00447d4ca348f76f2e791fb2f9daa96c',1,'Karm::Mime::Path::join(Path const &amp;other) const'],['../structKarm_1_1Mime_1_1Path.html#a5d1bc69c9ba75315a26c7f995c735c73',1,'Karm::Mime::Path::join(Str other) const'],['../structKarm_1_1Mime_1_1Url.html#a134cdb83bef023564a20523dd34dad6e',1,'Karm::Mime::Url::join(Path const &amp;other) const'],['../structKarm_1_1Mime_1_1Url.html#a4fd3790267c48fc42f231b42351e375d',1,'Karm::Mime::Url::join(Str other) const']]],
   ['jpeg_3',['Jpeg',['../namespaceJpeg.html',1,'']]],
   ['jpg_4',['JPG',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a4e720238a412e8fead0121a8383537ed',1,'Jpeg']]],

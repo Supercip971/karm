@@ -45,7 +45,6 @@ var hierarchy =
     [ "Karm::Ascii", "structKarm_1_1Ascii.html", null ],
     [ "Karm::Atomic< T >", "structKarm_1_1Atomic.html", null ],
     [ "Karm::Io::AtoxOptions", "structKarm_1_1Io_1_1AtoxOptions.html", null ],
-    [ "Karm::Text::BaselineSet", "structKarm_1_1Text_1_1BaselineSet.html", null ],
     [ "Io::BChunk", null, [
       [ "Png::Idat", "structPng_1_1Idat.html", null ],
       [ "Png::Iend", "structPng_1_1Iend.html", null ],
@@ -656,7 +655,6 @@ var hierarchy =
     [ "Karm::Async::One< T >", "structKarm_1_1Async_1_1One.html", null ],
     [ "Karm::Math::Path::Op", "structKarm_1_1Math_1_1Path_1_1Op.html", null ],
     [ "Karm::Opt< T >", "structKarm_1_1Opt.html", null ],
-    [ "Karm::Opt< f64 >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Karm::Func >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Karm::Gfx::BoxShadow >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Karm::Gfx::Color >", "structKarm_1_1Opt.html", null ],
@@ -879,7 +877,6 @@ var hierarchy =
     [ "Karm::Union< Ip4, Ip6 >", "structKarm_1_1Union.html", [
       [ "Karm::Sys::Ip", "structKarm_1_1Sys_1_1Ip.html", null ]
     ] ],
-    [ "Karm::Text::UnresolvedBaselineSet", "structKarm_1_1Text_1_1UnresolvedBaselineSet.html", null ],
     [ "Karm::Kira::UpdateHsv", "structKarm_1_1Kira_1_1UpdateHsv.html", null ],
     [ "Karm::Kira::UpdatePage", "structKarm_1_1Kira_1_1UpdatePage.html", null ],
     [ "Karm::Mime::Url", "structKarm_1_1Mime_1_1Url.html", null ],

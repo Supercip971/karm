@@ -128,22 +128,25 @@ $(document).ready(function(){initNavTree('libs_2karm-base_2macros_8h_source.html
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#    define __tryFail() </span><span class="comment">/* NOP */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define __try$(EXPR, RET, AWAIT) ({                   \</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define __try$(EXPR, RET, AWAIT, FINAL) ({            \</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">    auto __expr = AWAIT(EXPR);                        \</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">    if (not static_cast&lt;bool&gt;(__expr)) [[unlikely]] { \</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">        __tryFail();                                  \</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">        RET __expr.none();                            \</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">    }                                                 \</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">    __expr.take();                                    \</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">})</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#a28599e8ac99ea9faff60a2258a914aee">   39</a></span><span class="preprocessor">#define try$(EXPR) __try$(EXPR, return, )</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#a8f595bb9c8ce95155d8982c744d4cb32">   41</a></span><span class="preprocessor">#define co_try$(EXPR) __try$(EXPR, co_return, )</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#aed296b2dce6a2f6d66600e671004a2bf">   43</a></span><span class="preprocessor">#define co_trya$(EXPR) __try$(EXPR, co_return, co_await)</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>} <span class="comment">// namespace Karm</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">        FINAL;                                        \</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">    }                                                 \</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">    __expr.take();                                    \</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">})</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">// clang-format off</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#a28599e8ac99ea9faff60a2258a914aee">   41</a></span><span class="preprocessor">#define try$(EXPR)      __try$(EXPR,    return,          ,          )</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#a8f595bb9c8ce95155d8982c744d4cb32">   42</a></span><span class="preprocessor">#define co_try$(EXPR)   __try$(EXPR, co_return,          ,          )</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#aed296b2dce6a2f6d66600e671004a2bf">   43</a></span><span class="preprocessor">#define co_trya$(EXPR)  __try$(EXPR, co_return,  co_await,          )</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#a118dc910935bf5795d49a1f363613d0a">   44</a></span><span class="preprocessor">#define co_tryy$(EXPR)  __try$(EXPR,  co_yield,          , co_return)</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="libs_2karm-base_2macros_8h.html#aa9a4ab0a038e2f0391523e827648929a">   45</a></span><span class="preprocessor">#define co_tryya$(EXPR) __try$(EXPR,  co_yield,  co_await, co_return)</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">// clang-format on</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>} <span class="comment">// namespace Karm</span></div>
 <div class="ttc" id="anamespaceKarm_html"><div class="ttname"><a href="namespaceKarm.html">Karm</a></div><div class="ttdef"><b>Definition:</b> lock.cpp:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
