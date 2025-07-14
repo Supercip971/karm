@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"structKarm_1_1Sys_1_1MemInfo.html#a323f6befa33d7d7cee8811982d57762f":[0,0,4,26,20,5],
 "structKarm_1_1Sys_1_1MemInfo.html#a7644688df11563e6b471ae218ab0b87c":[2,0,3,24,19,2],
 "structKarm_1_1Sys_1_1MemInfo.html#a7644688df11563e6b471ae218ab0b87c":[0,0,4,26,20,2],
 "structKarm_1_1Sys_1_1MemInfo.html#a77aadad19a6534b5c9550d8d8c69319e":[2,0,3,24,19,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "structKarm_1_1Sys_1_1UdpConnection.html":[0,0,4,26,38],
 "structKarm_1_1Sys_1_1UdpConnection.html#a76326e75564742b5ca152ab992c4a722":[2,0,3,24,37,1],
 "structKarm_1_1Sys_1_1UdpConnection.html#a76326e75564742b5ca152ab992c4a722":[0,0,4,26,38,1],
-"structKarm_1_1Sys_1_1UdpConnection.html#a7dd6e483016195075919aab6dff182a5":[0,0,4,26,38,2],
-"structKarm_1_1Sys_1_1UdpConnection.html#a7dd6e483016195075919aab6dff182a5":[2,0,3,24,37,2]
+"structKarm_1_1Sys_1_1UdpConnection.html#a7dd6e483016195075919aab6dff182a5":[0,0,4,26,38,2]
 };

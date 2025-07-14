@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"structJpeg_1_1Huff.html":[2,0,2,3],
 "structJpeg_1_1Huff.html#a1abc129d4a22e8b442c5e85dc7c0efd0":[0,0,3,3,4],
 "structJpeg_1_1Huff.html#a1abc129d4a22e8b442c5e85dc7c0efd0":[2,0,2,3,4],
 "structJpeg_1_1Huff.html#a316be6c2c24b784fc758e636c5edd397":[2,0,2,3,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "structKarm_1_1Async_1_1Queue.html#a5f26bb43caac8bd0df0cf94313ee7b21":[2,0,3,2,9,1],
 "structKarm_1_1Async_1_1Queue.html#a677a987f17f8f23a07195ed97bcfe1d9":[0,0,4,2,10,0],
 "structKarm_1_1Async_1_1Queue.html#a677a987f17f8f23a07195ed97bcfe1d9":[2,0,3,2,9,0],
-"structKarm_1_1Async_1_1Queue.html#a6b30dc75ff278f7276c4f16290492172":[2,0,3,2,9,4],
-"structKarm_1_1Async_1_1Queue.html#a6b30dc75ff278f7276c4f16290492172":[0,0,4,2,10,4]
+"structKarm_1_1Async_1_1Queue.html#a6b30dc75ff278f7276c4f16290492172":[2,0,3,2,9,4]
 };

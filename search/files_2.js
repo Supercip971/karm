@@ -2,7 +2,7 @@ var searchData=
 [
   ['callable_2eh_0',['callable.h',['../callable_8h.html',1,'']]],
   ['cancelation_2eh_1',['cancelation.h',['../cancelation_8h.html',1,'']]],
-  ['canvas_2ecpp_2',['canvas.cpp',['../karm-pdf_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-gfx_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-gfx_2cpu_2canvas_8cpp.html',1,'(Global Namespace)']]],
+  ['canvas_2ecpp_2',['canvas.cpp',['../karm-pdf_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-gfx_2cpu_2canvas_8cpp.html',1,'(Global Namespace)'],['../karm-gfx_2canvas_8cpp.html',1,'(Global Namespace)']]],
   ['canvas_2eh_3',['canvas.h',['../cpu_2canvas_8h.html',1,'(Global Namespace)'],['../canvas_8h.html',1,'(Global Namespace)']]],
   ['card_2ecpp_4',['card.cpp',['../card_8cpp.html',1,'']]],
   ['chan_2ecpp_5',['chan.cpp',['../chan_8cpp.html',1,'']]],

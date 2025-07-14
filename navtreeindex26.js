@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"structKarm_1_1Gfx_1_1ContrastFilter.html#ae7dc71011ded8edd00f74cdfd37fc301":[2,0,3,7,8,0],
 "structKarm_1_1Gfx_1_1CpuCanvas.html":[2,0,3,7,9],
 "structKarm_1_1Gfx_1_1CpuCanvas.html":[0,0,4,7,10],
 "structKarm_1_1Gfx_1_1CpuCanvas.html#a02b91d495770f1c073e31a012f59e48a":[2,0,3,7,9,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "structKarm_1_1Gfx_1_1Hsv.html#af71dd2dd8dcc85f758cf3567ce387a8a":[2,0,3,7,19,2],
 "structKarm_1_1Gfx_1_1HueValueChroma.html":[0,0,4,7,21],
 "structKarm_1_1Gfx_1_1HueValueChroma.html":[2,0,3,7,20],
-"structKarm_1_1Gfx_1_1HueValueChroma.html#a27b68f1672086e5649517fe9b28dd9a1":[2,0,3,7,20,1],
-"structKarm_1_1Gfx_1_1HueValueChroma.html#a27b68f1672086e5649517fe9b28dd9a1":[0,0,4,7,21,1]
+"structKarm_1_1Gfx_1_1HueValueChroma.html#a27b68f1672086e5649517fe9b28dd9a1":[2,0,3,7,20,1]
 };

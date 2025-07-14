@@ -67,6 +67,7 @@ var namespaceKarm_1_1Base =
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a295ae6d4d551a8bf246ed018e2a12515", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#aa91c90c7126e06de954d4edbef417384", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a5089a47f3dee959773953e25e8a9a844", null ],
+      [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#ad357d585df1feebadc4a4a1eb50ebfd0", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a5fe2061f207087fab34382a6792a2f32", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#a43cf584364811840769268d0cfb0740a", null ],
       [ "test$", "namespaceKarm_1_1Base_1_1Tests.html#ac5c4c10b80080381d0cc979ebf17c43c", null ],

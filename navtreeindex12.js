@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"namespaceKarm_1_1Io.html#a22d6cdaab0f64553050fcefa7a55a172":[0,0,4,11,109],
 "namespaceKarm_1_1Io.html#a22d6cdaab0f64553050fcefa7a55a172a19aad9f2fe3ce0023298ab83f7e75775":[0,0,4,11,109,0],
 "namespaceKarm_1_1Io.html#a22d6cdaab0f64553050fcefa7a55a172aa2770969c827f0f2910f6179418462df":[0,0,4,11,109,1],
 "namespaceKarm_1_1Io.html#a22d6cdaab0f64553050fcefa7a55a172ab1a326c06d88bf042f73d70f50197905":[0,0,4,11,109,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Kira.html#ad26a18a11090299ad88e2fdeab1680f8":[0,0,4,13,91],
 "namespaceKarm_1_1Kira.html#ad3f94f5a759b0892f566432701857485":[0,0,4,13,60],
 "namespaceKarm_1_1Kira.html#ad43e8ff6532f7086c9e75d782a50d41d":[0,0,4,13,81],
-"namespaceKarm_1_1Kira.html#ad53791ea4521dbfba4bc47c17a2101a6":[0,0,4,13,114],
-"namespaceKarm_1_1Kira.html#ad71bdca531c7f3710ddc02366e4216f7":[0,0,4,13,63]
+"namespaceKarm_1_1Kira.html#ad53791ea4521dbfba4bc47c17a2101a6":[0,0,4,13,114]
 };

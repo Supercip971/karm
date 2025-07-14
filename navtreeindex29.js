@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"structKarm_1_1Io_1_1BScan.html#a72152f9ecc6f0a8de48bc2583a56d875":[2,0,3,11,7,40],
 "structKarm_1_1Io_1_1BScan.html#a75f3509cd73e6426dfd45b703593312e":[0,0,4,11,8,46],
 "structKarm_1_1Io_1_1BScan.html#a75f3509cd73e6426dfd45b703593312e":[2,0,3,11,7,46],
 "structKarm_1_1Io_1_1BScan.html#a770b31d1dc9f479552038750506e0efe":[0,0,4,11,8,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4.html":[0,0,4,11,38],
 "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4.html#a0cc95b245c9de523583b10d2ad350727":[2,0,3,11,37,0],
 "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4.html#a0cc95b245c9de523583b10d2ad350727":[0,0,4,11,38,0],
-"structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html":[0,0,4,11,36],
-"structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html":[2,0,3,11,35]
+"structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html":[0,0,4,11,36]
 };

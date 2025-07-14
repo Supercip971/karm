@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"structKarm_1_1Gfx_1_1HueValueChroma.html#a27b68f1672086e5649517fe9b28dd9a1":[0,0,4,7,21,1],
 "structKarm_1_1Gfx_1_1HueValueChroma.html#a69cd653b543c56240d8a040056235903":[2,0,3,7,20,2],
 "structKarm_1_1Gfx_1_1HueValueChroma.html#a69cd653b543c56240d8a040056235903":[0,0,4,7,21,2],
 "structKarm_1_1Gfx_1_1HueValueChroma.html#a98b2ae74c721e6de3d1ed04770b74cc6":[2,0,3,7,20,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "structKarm_1_1Http_1_1Response.html#acfd47f04bcd9101dd0bd2946003f397e":[2,0,3,8,11,2],
 "structKarm_1_1Http_1_1Response.html#af61564c400223fed8852c536a7cbf001":[0,0,4,8,12,4],
 "structKarm_1_1Http_1_1Response.html#af61564c400223fed8852c536a7cbf001":[2,0,3,8,11,4],
-"structKarm_1_1Http_1_1Response_1_1Writer.html":[0,0,4,8,12,0],
-"structKarm_1_1Http_1_1Response_1_1Writer.html":[2,0,3,8,11,0]
+"structKarm_1_1Http_1_1Response_1_1Writer.html":[0,0,4,8,12,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"namespacemembers_vars_0xcf80.html":[0,1,2,76],
 "namespacemembers_vars_0xcf83.html":[0,1,2,77],
 "namespacemembers_vars_0xcf84.html":[0,1,2,78],
 "namespacemembers_vars_0xcf86.html":[0,1,2,79],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "png_2decoder_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,10,4,0,6],
 "poly_8h.html":[3,0,0,1,16,20],
 "poly_8h.html#a426444acde4f3001dcce67b098806958":[3,0,0,1,16,20,1],
-"poly_8h.html#a9ead17a5e8cdc2d433fc817bc94ab468":[3,0,0,1,16,20,3],
-"poly_8h.html#aae69aded3f18e41ccdade9d35a32f24a":[3,0,0,1,16,20,2]
+"poly_8h.html#a9ead17a5e8cdc2d433fc817bc94ab468":[3,0,0,1,16,20,3]
 };

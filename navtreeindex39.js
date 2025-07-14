@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"structKarm_1_1Pdf_1_1Canvas.html#a4cf53168e5ce60ccb69902066b5e525d":[0,0,4,20,1,13],
 "structKarm_1_1Pdf_1_1Canvas.html#a4e2d6afe005a71ccb23859fe49c2a106":[2,0,3,19,1,11],
 "structKarm_1_1Pdf_1_1Canvas.html#a4e2d6afe005a71ccb23859fe49c2a106":[0,0,4,20,1,11],
 "structKarm_1_1Pdf_1_1Canvas.html#a4e83d3d5c1a19fbdfe04367c80eafb2a":[2,0,3,19,1,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a2bcf5177d5dd079808cf6ca8ee3be076":[2,0,3,21,11,3],
 "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a3793f4067920e0b4a31169b84e0e3ce8":[2,0,3,21,11,0],
 "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a3793f4067920e0b4a31169b84e0e3ce8":[0,0,4,22,11,0],
-"structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a39375a880d975f8716f2cc63b745db95":[0,0,4,22,11,9],
-"structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a39375a880d975f8716f2cc63b745db95":[2,0,3,21,11,9]
+"structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a39375a880d975f8716f2cc63b745db95":[0,0,4,22,11,9]
 };

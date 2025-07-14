@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"structKarm_1_1Http_1_1Response_1_1Writer.html":[2,0,3,8,11,0],
 "structKarm_1_1Http_1_1Response_1_1Writer.html#ab799b6bcc245360cf245b66c332cf088":[0,0,4,8,12,0,0],
 "structKarm_1_1Http_1_1Response_1_1Writer.html#ab799b6bcc245360cf245b66c332cf088":[2,0,3,8,11,0,0],
 "structKarm_1_1Http_1_1Response_1_1Writer.html#acbd47da9c07541e3f78e5f2a7f25d06a":[2,0,3,8,11,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "structKarm_1_1Io_1_1BScan.html#a7036b0d3121874ab319534c553b05d56":[0,0,4,11,8,8],
 "structKarm_1_1Io_1_1BScan.html#a7195de6fbaafb88b37ae8bf6e63e5a02":[2,0,3,11,7,16],
 "structKarm_1_1Io_1_1BScan.html#a7195de6fbaafb88b37ae8bf6e63e5a02":[0,0,4,11,8,16],
-"structKarm_1_1Io_1_1BScan.html#a72152f9ecc6f0a8de48bc2583a56d875":[0,0,4,11,8,40],
-"structKarm_1_1Io_1_1BScan.html#a72152f9ecc6f0a8de48bc2583a56d875":[2,0,3,11,7,40]
+"structKarm_1_1Io_1_1BScan.html#a72152f9ecc6f0a8de48bc2583a56d875":[0,0,4,11,8,40]
 };

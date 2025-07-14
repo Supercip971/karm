@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"simd_8h.html#ac87ce7c7d947667036960deacfef0440":[3,0,0,1,3,46,30],
 "simd_8h.html#adab1ae9b475bc98ce292b7651d6adf8c":[3,0,0,1,3,46,31],
 "simd_8h.html#ae2da157622bc827476622f0c7ce03547":[3,0,0,1,3,46,1],
 "simd_8h.html#ae3eb9ff9033f2b6f2243b6cf88aef1a9":[3,0,0,1,3,46,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "structJpeg_1_1Decoder_1_1ScanComponent.html#acb843bce8d16f14698df37efd11fbbce":[0,0,3,2,1,0],
 "structJpeg_1_1Decoder_1_1ScanComponent.html#aedb9900709f38578c7172d2c6981ce7d":[2,0,2,2,1,1],
 "structJpeg_1_1Decoder_1_1ScanComponent.html#aedb9900709f38578c7172d2c6981ce7d":[0,0,3,2,1,1],
-"structJpeg_1_1Huff.html":[0,0,3,3],
-"structJpeg_1_1Huff.html":[2,0,2,3]
+"structJpeg_1_1Huff.html":[0,0,3,3]
 };

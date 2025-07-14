@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html":[2,0,3,11,35],
 "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html#ae363a8b0600391cd199851dbf865cad2":[0,0,4,11,36,0],
 "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html#ae363a8b0600391cd199851dbf865cad2":[2,0,3,11,35,0],
 "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1SocketAddr_01_4.html":[2,0,3,11,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "structKarm_1_1Io_1_1Repeat.html#aff118c6797f917e810eeb8b5fb38c5f0":[2,0,3,11,80,0],
 "structKarm_1_1Io_1_1Repr.html":[2,0,3,11,81],
 "structKarm_1_1Io_1_1Repr.html":[0,0,4,11,82],
-"structKarm_1_1Io_1_1Repr_3_01T_01_4.html":[0,0,4,11,83],
-"structKarm_1_1Io_1_1Repr_3_01T_01_4.html":[2,0,3,11,82]
+"structKarm_1_1Io_1_1Repr_3_01T_01_4.html":[0,0,4,11,83]
 };
