@@ -120,7 +120,7 @@ struct [[nodiscard]] Res {
     always_inline constexpr Res<V, U> mapErr() {
         if (_inner.template is<Ok<V>>())
             return _inner.template unwrap<Ok<V>>();
-        return U{};
+        return U{_inner.template unwrap<E>()};
     }
 
     template <typename U>

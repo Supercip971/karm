@@ -308,6 +308,13 @@ struct _Weak {
     constexpr _Weak(_Rc<L, U> const& other)
         : _cell(other._cell->refWeak()) {}
 
+    constexpr _Weak(_Weak const& other)
+        : _cell(other._cell->refWeak()) {}
+
+    constexpr _Weak(_Weak&& other)
+    : _cell(std::exchange(other._cell, nullptr)) {
+    }
+
     template <Meta::Derive<T> U>
     constexpr _Weak(_Weak<L, U> const& other)
         : _cell(other._cell->refWeak()) {}
