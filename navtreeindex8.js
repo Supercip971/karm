@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"loader_8h_source.html":[3,0,0,1,27,13],
 "loc_8h.html":[3,0,0,1,3,27],
 "loc_8h_source.html":[3,0,0,1,3,27],
 "lock_8h.html":[3,0,0,1,3,28],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "namespaceKarm.html#a1927532d0bced5a14757d80f8c6a3d31":[0,0,4,517],
 "namespaceKarm.html#a19e00605270c13d3cc371eda0a489776":[0,0,4,311],
 "namespaceKarm.html#a1b428ca1be30466bf8f6acae574ee5c6":[0,0,4,256],
-"namespaceKarm.html#a1bd0008e353e06cf21425af95c416762":[0,0,4,320]
+"namespaceKarm.html#a1bd0008e353e06cf21425af95c416762":[0,0,4,320],
+"namespaceKarm.html#a1bd3cab1a3f8d168107582ba222d019f":[0,0,4,350]
 };

@@ -148,13 +148,12 @@ var searchData=
   ['extension_5fpositioning_145',['EXTENSION_POSITIONING',['../namespaceTtf.html#a05b8ea106b9e04f26c6135c19902dd97ae3c96247f51e7f1af29d5c1d2c73ec54',1,'Ttf']]],
   ['externs_2eh_146',['externs.h',['../externs_8h.html',1,'']]],
   ['externsym_147',['ExternSym',['../namespaceKarm.html#a9073376a4b4c45912fad7f2afd966037',1,'Karm']]],
-  ['extra_148',['EXTRA',['../namespaceKarm_1_1Cli.html#adad269924e06d6f9a5c912b24b17bf93aa21f6af4d39dbd2643527651dd4e694b',1,'Karm::Cli']]],
-  ['extra_149',['extra',['../namespaceKarm_1_1Cli.html#aa71f54f1feb4dab161f60285a30369f0',1,'Karm::Cli']]],
-  ['extra_150',['EXTRA',['../structKarm_1_1Cli_1_1Token.html#a4c9fb0da0d8a646b925e07bacadc7aeeaa21f6af4d39dbd2643527651dd4e694b',1,'Karm::Cli::Token']]],
-  ['extra_5fbold_151',['EXTRA_BOLD',['../structKarm_1_1Text_1_1FontWeight.html#a3ee7a6922055f1017c46c52166edbfcb',1,'Karm::Text::FontWeight']]],
-  ['extra_5fcondensed_152',['EXTRA_CONDENSED',['../structKarm_1_1Text_1_1FontStretch.html#a5c9afff09bcc055c6a808e8f3fd8e2d3',1,'Karm::Text::FontStretch']]],
-  ['extra_5fexpanded_153',['EXTRA_EXPANDED',['../structKarm_1_1Text_1_1FontStretch.html#ac1559e7d44e4614903c81f88fde739cd',1,'Karm::Text::FontStretch']]],
-  ['extra_5flight_154',['EXTRA_LIGHT',['../structKarm_1_1Text_1_1FontWeight.html#a9b799997d1839a0f1d6187b8e4a2ad49',1,'Karm::Text::FontWeight']]],
-  ['extractmapping_155',['extractMapping',['../structTtf_1_1Cmap_1_1Table.html#a4050df5863ac46de0dc72f17a7d89130',1,'Ttf::Cmap::Table']]],
-  ['ey_156',['ey',['../unionKarm_1_1Math_1_1Edge.html#af70ec4a990b1c3164e433013962c5e73',1,'Karm::Math::Edge']]]
+  ['extra_148',['extra',['../namespaceKarm_1_1Cli.html#aa71f54f1feb4dab161f60285a30369f0',1,'Karm::Cli']]],
+  ['extra_149',['EXTRA',['../namespaceKarm_1_1Cli.html#adad269924e06d6f9a5c912b24b17bf93aa21f6af4d39dbd2643527651dd4e694b',1,'Karm::Cli::EXTRA()'],['../structKarm_1_1Cli_1_1Token.html#a4c9fb0da0d8a646b925e07bacadc7aeeaa21f6af4d39dbd2643527651dd4e694b',1,'Karm::Cli::Token::EXTRA()']]],
+  ['extra_5fbold_150',['EXTRA_BOLD',['../structKarm_1_1Text_1_1FontWeight.html#a3ee7a6922055f1017c46c52166edbfcb',1,'Karm::Text::FontWeight']]],
+  ['extra_5fcondensed_151',['EXTRA_CONDENSED',['../structKarm_1_1Text_1_1FontStretch.html#a5c9afff09bcc055c6a808e8f3fd8e2d3',1,'Karm::Text::FontStretch']]],
+  ['extra_5fexpanded_152',['EXTRA_EXPANDED',['../structKarm_1_1Text_1_1FontStretch.html#ac1559e7d44e4614903c81f88fde739cd',1,'Karm::Text::FontStretch']]],
+  ['extra_5flight_153',['EXTRA_LIGHT',['../structKarm_1_1Text_1_1FontWeight.html#a9b799997d1839a0f1d6187b8e4a2ad49',1,'Karm::Text::FontWeight']]],
+  ['extractmapping_154',['extractMapping',['../structTtf_1_1Cmap_1_1Table.html#a4050df5863ac46de0dc72f17a7d89130',1,'Ttf::Cmap::Table']]],
+  ['ey_155',['ey',['../unionKarm_1_1Math_1_1Edge.html#af70ec4a990b1c3164e433013962c5e73',1,'Karm::Math::Edge']]]
 ];
