@@ -47,14 +47,15 @@ var searchData=
   ['square_5fcap_44',['SQUARE_CAP',['../namespaceKarm_1_1Gfx.html#a8d5f1e6776ae49b29d3fd7fced4ba2a6a6fc987f5b3fb6bbe6daf3542cc420c62',1,'Karm::Gfx']]],
   ['srv_45',['SRV',['../namespaceKarm_1_1Net_1_1Dns.html#afdc41d84596321984a29bae536776a54ad24e82c02ddf0b15e22fe683d5a4beb9',1,'Karm::Net::Dns']]],
   ['stack_46',['STACK',['../namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a0fac686d86aba414411b58f6bce53a76',1,'Karm::Sys']]],
-  ['start_47',['START',['../namespaceKarm_1_1Kira.html#a43d3e6c943128cab8eac7d966bb39256ab078ffd28db767c502ac367053f6e0ac',1,'Karm::Kira::START()'],['../namespaceKarm_1_1Ui.html#a9866160976eeb8a2d05358039a4fd1f0ab078ffd28db767c502ac367053f6e0ac',1,'Karm::Ui::START()'],['../structKarm_1_1Ui_1_1DragEvent.html#a23598ce0635f89f0115303f8a9f9e93ea2984679006732279f3efd83f3cf3de43',1,'Karm::Ui::DragEvent::START()']]],
+  ['start_47',['START',['../structKarm_1_1Ui_1_1DragEvent.html#a23598ce0635f89f0115303f8a9f9e93ea2984679006732279f3efd83f3cf3de43',1,'Karm::Ui::DragEvent::START()'],['../namespaceKarm_1_1Kira.html#a43d3e6c943128cab8eac7d966bb39256ab078ffd28db767c502ac367053f6e0ac',1,'Karm::Kira::START()'],['../namespaceKarm_1_1Ui.html#a9866160976eeb8a2d05358039a4fd1f0ab078ffd28db767c502ac367053f6e0ac',1,'Karm::Ui::START()']]],
   ['status_48',['STATUS',['../namespaceKarm_1_1Net_1_1Dns.html#a47f8b09c32e5921ee31751a3046bd3faaf004bf6a721dbe97dd542a91f3c8bff7',1,'Karm::Net::Dns']]],
   ['steal_49',['STEAL',['../structKarm_1_1Ui_1_1FocusEvent.html#aaf00e241189e66030de18d59a9823a4aa3ce8ffaf900f47ef19b5db8674d1c749',1,'Karm::Ui::FocusEvent']]],
-  ['subfamily_50',['SUBFAMILY',['../structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eaa4cd3f11dca403c4a21597339fc25373',1,'Ttf::Name']]],
-  ['success_51',['SUCCESS',['../namespaceKarm_1_1Http.html#a5845f99333d8889a8c0de8901840f671ad0749aaba8b833466dfcbb0428e4f89c',1,'Karm::Http::SUCCESS()'],['../namespaceKarm_1_1Kira.html#aa7d4919c45b313a4d69df1e93a2b0464ad0749aaba8b833466dfcbb0428e4f89c',1,'Karm::Kira::SUCCESS()']]],
-  ['super_52',['SUPER',['../namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1afc91b14eef9c58c4cad8fdf87b4c0bea',1,'Karm::App']]],
-  ['swap_53',['SWAP',['../namespaceKarm_1_1Io.html#ab3289aef9c6dbeb8105ef83dc36c9672a46fc23bc4e4d57e5469a39658a6dd3e8',1,'Karm::Io']]],
-  ['sweep_54',['SWEEP',['../structKarm_1_1Math_1_1Path.html#afe1bee000a9c9486653d10231adda691a836ede1239c3fef77fa9c7df2eaf67e9',1,'Karm::Math::Path']]],
-  ['sync_55',['SYNC',['../structKarm_1_1Test_1_1Test.html#a76304e729b87b76ed24842e30c27ee16a274ccef15a21e829d03293a6fd1974f3',1,'Karm::Test::Test']]],
-  ['system_56',['SYSTEM',['../namespaceKarm_1_1Text.html#a979015f1460368740d4a4fb75677ce53afa177138f94a7ea01f549b1aa7893d03',1,'Karm::Text']]]
+  ['string_50',['STRING',['../namespaceKarm_1_1Ml_1_1Gguf.html#a5bbf19e28eca480c0956db66ad3bfe3aa63b588d5559f64f89a416e656880b949',1,'Karm::Ml::Gguf']]],
+  ['subfamily_51',['SUBFAMILY',['../structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eaa4cd3f11dca403c4a21597339fc25373',1,'Ttf::Name']]],
+  ['success_52',['SUCCESS',['../namespaceKarm_1_1Http.html#a5845f99333d8889a8c0de8901840f671ad0749aaba8b833466dfcbb0428e4f89c',1,'Karm::Http::SUCCESS()'],['../namespaceKarm_1_1Kira.html#aa7d4919c45b313a4d69df1e93a2b0464ad0749aaba8b833466dfcbb0428e4f89c',1,'Karm::Kira::SUCCESS()']]],
+  ['super_53',['SUPER',['../namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1afc91b14eef9c58c4cad8fdf87b4c0bea',1,'Karm::App']]],
+  ['swap_54',['SWAP',['../namespaceKarm_1_1Io.html#ab3289aef9c6dbeb8105ef83dc36c9672a46fc23bc4e4d57e5469a39658a6dd3e8',1,'Karm::Io']]],
+  ['sweep_55',['SWEEP',['../structKarm_1_1Math_1_1Path.html#afe1bee000a9c9486653d10231adda691a836ede1239c3fef77fa9c7df2eaf67e9',1,'Karm::Math::Path']]],
+  ['sync_56',['SYNC',['../structKarm_1_1Test_1_1Test.html#a76304e729b87b76ed24842e30c27ee16a274ccef15a21e829d03293a6fd1974f3',1,'Karm::Test::Test']]],
+  ['system_57',['SYSTEM',['../namespaceKarm_1_1Text.html#a979015f1460368740d4a4fb75677ce53afa177138f94a7ea01f549b1aa7893d03',1,'Karm::Text']]]
 ];

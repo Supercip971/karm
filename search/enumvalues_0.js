@@ -28,6 +28,7 @@ var searchData=
   ['app9_25',['APP9',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a0354568e7fa5fceabb2d2551b97cb195',1,'Jpeg']]],
   ['application_5fdata_26',['APPLICATION_DATA',['../namespaceTls.html#af4f9673df47c05b9d214c7b1849d92c8a704d52e4b4b32ea4145af26445eef741',1,'Tls']]],
   ['arc_5fto_27',['ARC_TO',['../structKarm_1_1Math_1_1Path.html#a1a219937914ccedcf08cb1852aa8eca7af60d3e4d98896742370dea24c6b224ca',1,'Karm::Math::Path']]],
-  ['async_28',['ASYNC',['../structKarm_1_1Test_1_1Test.html#a76304e729b87b76ed24842e30c27ee16abe553330beb7b3d994656e0a4e66cd96',1,'Karm::Test::Test']]],
-  ['auto_29',['AUTO',['../structKarm_1_1Ui_1_1GridUnit.html#a349ec47e0a09b966e7d081f166deaeb8',1,'Karm::Ui::GridUnit']]]
+  ['array_28',['ARRAY',['../namespaceKarm_1_1Ml_1_1Gguf.html#a5bbf19e28eca480c0956db66ad3bfe3aacb4fb1757fb37c43cded35d3eb857c43',1,'Karm::Ml::Gguf']]],
+  ['async_29',['ASYNC',['../structKarm_1_1Test_1_1Test.html#a76304e729b87b76ed24842e30c27ee16abe553330beb7b3d994656e0a4e66cd96',1,'Karm::Test::Test']]],
+  ['auto_30',['AUTO',['../structKarm_1_1Ui_1_1GridUnit.html#a349ec47e0a09b966e7d081f166deaeb8',1,'Karm::Ui::GridUnit']]]
 ];

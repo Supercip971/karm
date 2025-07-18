@@ -301,6 +301,13 @@ var annotated_dup =
         [ "Url", "structKarm_1_1Mime_1_1Url.html", "structKarm_1_1Mime_1_1Url" ],
         [ "Uti", "structKarm_1_1Mime_1_1Uti.html", "structKarm_1_1Mime_1_1Uti" ]
       ] ],
+      [ "Ml", "namespaceKarm_1_1Ml.html", [
+        [ "Gguf", "namespaceKarm_1_1Ml_1_1Gguf.html", [
+          [ "Header", "structKarm_1_1Ml_1_1Gguf_1_1Header.html", "structKarm_1_1Ml_1_1Gguf_1_1Header" ],
+          [ "TensorInfos", "structKarm_1_1Ml_1_1Gguf_1_1TensorInfos.html", "structKarm_1_1Ml_1_1Gguf_1_1TensorInfos" ]
+        ] ],
+        [ "Tensor", "structKarm_1_1Ml_1_1Tensor.html", null ]
+      ] ],
       [ "Net", "namespaceKarm_1_1Net.html", [
         [ "Dns", "namespaceKarm_1_1Net_1_1Dns.html", [
           [ "Answer", "structKarm_1_1Net_1_1Dns_1_1Answer.html", "structKarm_1_1Net_1_1Dns_1_1Answer" ],

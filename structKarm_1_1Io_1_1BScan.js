@@ -4,6 +4,7 @@ var structKarm_1_1Io_1_1BScan =
     [ "alignBits", "structKarm_1_1Io_1_1BScan.html#a029b4217c3c801ac2b81dae6b4f16f94", null ],
     [ "copyTo", "structKarm_1_1Io_1_1BScan.html#ac019d9860d783312f37e3a994ad16227", null ],
     [ "ended", "structKarm_1_1Io_1_1BScan.html#ac87403dde29c669d1e01f603d7b03247", null ],
+    [ "next", "structKarm_1_1Io_1_1BScan.html#aa57800ae3590d952e9ec1959c03cd474", null ],
     [ "nextBe", "structKarm_1_1Io_1_1BScan.html#aab47e716aa16deea7dda6c1af68d5a07", null ],
     [ "nextBitbe", "structKarm_1_1Io_1_1BScan.html#af8e40d9099a1bc892deb90ee2faafe1a", null ],
     [ "nextBitle", "structKarm_1_1Io_1_1BScan.html#ad012a3324a54813c6b8aa1124c16d67f", null ],

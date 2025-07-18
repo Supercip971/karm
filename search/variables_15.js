@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['v_0',['V',['../namespaceKarm.html#a1e36aec4935b1b6b477c346b1d59df32',1,'Karm']]],
-  ['v_1',['v',['../namespaceKarm.html#a94b420e776fb22e6c93f13a21829b9ab',1,'Karm']]],
+  ['v_0',['v',['../namespaceKarm.html#a94b420e776fb22e6c93f13a21829b9ab',1,'Karm']]],
+  ['v_1',['V',['../namespaceKarm.html#a1e36aec4935b1b6b477c346b1d59df32',1,'Karm']]],
   ['vaddr_2',['vaddr',['../structKarm_1_1Sys_1_1MmapResult.html#ae8960a4f71afb67a77b0ca2b28952e02',1,'Karm::Sys::MmapResult::vaddr()'],['../structKarm_1_1Sys_1_1MmapProps.html#a4376c385995a7ba2aefa488b849a83ea',1,'Karm::Sys::MmapProps::vaddr()']]],
   ['valformatter_3',['valFormatter',['../structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html#ac3c8ec05d2449546a4d89ee81fb5862a',1,'Karm::Io::Formatter&lt; Map&lt; K, V &gt; &gt;']]],
   ['vallen_4',['vallen',['../structKarm_1_1Kv_1_1Wal_1_1RawRecord.html#a062e567597bffc4197b4f4c90e6096d6',1,'Karm::Kv::Wal::RawRecord']]],
@@ -9,7 +9,7 @@ var searchData=
   ['vcenter_6',['VCENTER',['../structKarm_1_1Math_1_1Align.html#a7877be378d1ae97631e020a018a033d5',1,'Karm::Math::Align']]],
   ['vclamp_7',['VCLAMP',['../structKarm_1_1Math_1_1Align.html#a914e5bff60899e2c029df8e13961ff3f',1,'Karm::Math::Align']]],
   ['vendor_8',['vendor',['../structKarm_1_1Sys_1_1CpuInfo.html#a3217f3eec7bdd6a3aa9acd4a4fc78909',1,'Karm::Sys::CpuInfo']]],
-  ['version_9',['version',['../structKarm_1_1Http_1_1Request.html#a6e9db5af6619be2d471a0f706b83e45c',1,'Karm::Http::Request::version()'],['../structKarm_1_1Http_1_1Response.html#a923467396b42b47fd415de9360488ffe',1,'Karm::Http::Response::version()']]],
+  ['version_9',['version',['../structKarm_1_1Http_1_1Request.html#a6e9db5af6619be2d471a0f706b83e45c',1,'Karm::Http::Request::version()'],['../structKarm_1_1Http_1_1Response.html#a923467396b42b47fd415de9360488ffe',1,'Karm::Http::Response::version()'],['../structKarm_1_1Ml_1_1Gguf_1_1Header.html#a176ab34e27220e921749949ec80c7421',1,'Karm::Ml::Gguf::Header::version()']]],
   ['vfactor_10',['vFactor',['../structJpeg_1_1Decoder_1_1Component.html#a146b22f5c5f3fa5c4a6eb10d1d459aa8',1,'Jpeg::Decoder::Component']]],
   ['vfill_11',['VFILL',['../structKarm_1_1Math_1_1Align.html#aec3a3dd7a795c421304b618b3c567ff4',1,'Karm::Math::Align']]],
   ['virtualtotal_12',['virtualTotal',['../structKarm_1_1Sys_1_1MemInfo.html#a77aadad19a6534b5c9550d8d8c69319e',1,'Karm::Sys::MemInfo']]],

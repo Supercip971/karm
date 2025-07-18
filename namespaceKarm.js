@@ -19,6 +19,7 @@ var namespaceKarm =
     [ "Math", "namespaceKarm_1_1Math.html", "namespaceKarm_1_1Math" ],
     [ "Meta", "namespaceKarm_1_1Meta.html", "namespaceKarm_1_1Meta" ],
     [ "Mime", "namespaceKarm_1_1Mime.html", "namespaceKarm_1_1Mime" ],
+    [ "Ml", "namespaceKarm_1_1Ml.html", "namespaceKarm_1_1Ml" ],
     [ "Net", "namespaceKarm_1_1Net.html", "namespaceKarm_1_1Net" ],
     [ "Pdf", "namespaceKarm_1_1Pdf.html", "namespaceKarm_1_1Pdf" ],
     [ "Pkg", "namespaceKarm_1_1Pkg.html", "namespaceKarm_1_1Pkg" ],
