@@ -1,24 +1,25 @@
-#pragma once
+module;
 
 #include <karm-base/map.h>
 #include <karm-base/string.h>
 #include <karm-base/union.h>
 #include <karm-base/vec.h>
-#include <karm-io/emit.h>
-#include <karm-io/expr.h>
+#include <karm-io/fmt.h>
 
-namespace Karm::Json {
+export module Karm.Core:serde;
 
-struct Value;
+namespace Karm::Serde {
 
-using Array = Vec<Value>;
+export struct Value;
 
-using Object = Map<String, Value>;
+export using Array = Vec<Value>;
 
-using Integer = isize;
+export using Object = Map<String, Value>;
+
+export using Integer = isize;
 
 #ifndef __ck_freestanding__
-using Number = f64;
+export using Number = f64;
 #endif
 
 using _Store = Union<
@@ -32,7 +33,7 @@ using _Store = Union<
 #endif
     bool>;
 
-struct Value {
+export struct Value {
     _Store _store;
 
     Value()
@@ -330,17 +331,4 @@ struct Value {
     }
 };
 
-Res<> unparse(Io::Emit& emit, Value const& v);
-
-Res<String> unparse(Value const& v);
-
-} // namespace Karm::Json
-
-template <>
-struct Karm::Io::Formatter<Karm::Json::Value> {
-    Res<> format(Io::TextWriter& writer, Karm::Json::Value value) {
-        Io::Emit emit{writer};
-        try$(Karm::Json::unparse(emit, value));
-        return Ok();
-    }
-};
+} // namespace Karm::Serde

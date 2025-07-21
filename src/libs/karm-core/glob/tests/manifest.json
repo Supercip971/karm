@@ -1,12 +1,12 @@
 {
     "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
-    "id": "karm-json.tests",
+    "id": "karm-core.glob.test",
     "type": "lib",
     "props": {
         "cpp-excluded": true
     },
     "requires": [
-        "karm-json",
+        "karm-core",
         "karm-test"
     ],
     "injects": [
