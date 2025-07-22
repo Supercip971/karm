@@ -99,6 +99,7 @@ var hierarchy =
     [ "Karm::Box< T >", "structKarm_1_1Box.html", null ],
     [ "Karm::Gfx::BoxShadow", "structKarm_1_1Gfx_1_1BoxShadow.html", null ],
     [ "Karm::Ui::BoxStyle", "structKarm_1_1Ui_1_1BoxStyle.html", null ],
+    [ "Karm::Io::BPattern", "structKarm_1_1Io_1_1BPattern.html", null ],
     [ "Karm::Gfx::BrightnessFilter", "structKarm_1_1Gfx_1_1BrightnessFilter.html", null ],
     [ "Karm::Io::BScan", "structKarm_1_1Io_1_1BScan.html", [
       [ "Karm::Io::PackScan", "structKarm_1_1Io_1_1PackScan.html", null ]
@@ -581,6 +582,7 @@ var hierarchy =
     [ "Ttf::Hmtx::Metrics", "structTtf_1_1Hmtx_1_1Metrics.html", null ],
     [ "Ttf::Metrics", "structTtf_1_1Metrics.html", null ],
     [ "Karm::Mime::Mime", "structKarm_1_1Mime_1_1Mime.html", null ],
+    [ "Karm::Mime::MimePattern", "structKarm_1_1Mime_1_1MimePattern.html", null ],
     [ "Karm::Sys::MmapProps", "structKarm_1_1Sys_1_1MmapProps.html", null ],
     [ "Karm::Sys::MmapResult", "structKarm_1_1Sys_1_1MmapResult.html", null ],
     [ "Karm::Text::Model", "structKarm_1_1Text_1_1Model.html", null ],

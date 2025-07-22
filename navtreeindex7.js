@@ -1,5 +1,9 @@
 var NAVTREEINDEX7 =
 {
+"karm-pdf_2values_8cpp.html":[3,0,0,1,21,3],
+"karm-pdf_2values_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,21,3,9],
+"karm-pdf_2values_8cpp.html#afdf7704aaf7c74d468d03af339982fb2":[3,0,0,1,21,3,10],
+"karm-pkg_2cli_2main_8cpp.html":[3,0,0,1,22,0,0],
 "karm-pkg_2cli_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e":[3,0,0,1,22,0,0,0],
 "karm-print_2cli_2main_8cpp.html":[3,0,0,1,23,0,0],
 "karm-print_2cli_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e":[3,0,0,1,23,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX7 =
 "layout_8cpp.html#afb0abdc1765c51caadd973d644fa5098":[3,0,0,1,30,11,45],
 "layout_8cpp.html#afbac994b33c98748b8ce45c80b407213":[3,0,0,1,30,11,41],
 "layout_8cpp.html#afc14373ce16fd35db83fa5ceee198f37":[3,0,0,1,30,11,75],
-"layout_8cpp.html#afc71934cabee057219fc14caf0a9320d":[3,0,0,1,30,11,25],
-"layout_8cpp.html#afcaf317e2ff39f281d49dcc813b8c280":[3,0,0,1,30,11,48],
-"layout_8cpp.html#afe32fb93de8a21da6a33e0dffa856c7c":[3,0,0,1,30,11,73],
-"libs_2karm-app_2prefs_8cpp.html":[3,0,0,1,1,6],
-"libs_2karm-app_2prefs_8cpp.html#a13f54950fa9f83c0b98769ddc06c2c47":[3,0,0,1,1,6,3]
+"layout_8cpp.html#afc71934cabee057219fc14caf0a9320d":[3,0,0,1,30,11,25]
 };

@@ -144,6 +144,7 @@ var annotated_dup =
         [ "BEmit", "structKarm_1_1Io_1_1BEmit.html", "structKarm_1_1Io_1_1BEmit" ],
         [ "BField", "structKarm_1_1Io_1_1BField.html", "structKarm_1_1Io_1_1BField" ],
         [ "BitReader", "structKarm_1_1Io_1_1BitReader.html", "structKarm_1_1Io_1_1BitReader" ],
+        [ "BPattern", "structKarm_1_1Io_1_1BPattern.html", "structKarm_1_1Io_1_1BPattern" ],
         [ "BScan", "structKarm_1_1Io_1_1BScan.html", "structKarm_1_1Io_1_1BScan" ],
         [ "BufferWriter", "structKarm_1_1Io_1_1BufferWriter.html", "structKarm_1_1Io_1_1BufferWriter" ],
         [ "BufReader", "structKarm_1_1Io_1_1BufReader.html", "structKarm_1_1Io_1_1BufReader" ],
@@ -296,6 +297,7 @@ var annotated_dup =
       ] ],
       [ "Mime", "namespaceKarm_1_1Mime.html", [
         [ "Mime", "structKarm_1_1Mime_1_1Mime.html", "structKarm_1_1Mime_1_1Mime" ],
+        [ "MimePattern", "structKarm_1_1Mime_1_1MimePattern.html", "structKarm_1_1Mime_1_1MimePattern" ],
         [ "Path", "structKarm_1_1Mime_1_1Path.html", "structKarm_1_1Mime_1_1Path" ],
         [ "Suffix2Mime", "structKarm_1_1Mime_1_1Suffix2Mime.html", "structKarm_1_1Mime_1_1Suffix2Mime" ],
         [ "Url", "structKarm_1_1Mime_1_1Url.html", "structKarm_1_1Mime_1_1Url" ],

@@ -10,10 +10,13 @@ var namespaceKarm_1_1Mime =
       [ "test$", "namespaceKarm_1_1Mime_1_1Tests.html#a5a4bd6e417c23d28eef29fb2983a9ab9", null ]
     ] ],
     [ "Mime", "structKarm_1_1Mime_1_1Mime.html", "structKarm_1_1Mime_1_1Mime" ],
+    [ "MimePattern", "structKarm_1_1Mime_1_1MimePattern.html", "structKarm_1_1Mime_1_1MimePattern" ],
     [ "Path", "structKarm_1_1Mime_1_1Path.html", "structKarm_1_1Mime_1_1Path" ],
     [ "Suffix2Mime", "structKarm_1_1Mime_1_1Suffix2Mime.html", "structKarm_1_1Mime_1_1Suffix2Mime" ],
     [ "Url", "structKarm_1_1Mime_1_1Url.html", "structKarm_1_1Mime_1_1Url" ],
     [ "Uti", "structKarm_1_1Mime_1_1Uti.html", "structKarm_1_1Mime_1_1Uti" ],
     [ "parseUrlOrPath", "namespaceKarm_1_1Mime.html#ad320a711bd9b0abf76bb84ec62cb5c66", null ],
+    [ "sniffBytes", "namespaceKarm_1_1Mime.html#abfca4c04bf0e8ab884de7a5033e8f280", null ],
+    [ "sniffReader", "namespaceKarm_1_1Mime.html#a929b9dd46083591ccb26c4a62dbc0b05", null ],
     [ "sniffSuffix", "namespaceKarm_1_1Mime.html#a5aefae3a226723ab2c4fd30f0ea3e3c7", null ]
 ];

@@ -1,5 +1,15 @@
 var NAVTREEINDEX14 =
 {
+"namespaceKarm_1_1Mime.html#a929b9dd46083591ccb26c4a62dbc0b05":[0,0,4,18,9],
+"namespaceKarm_1_1Mime.html#abfca4c04bf0e8ab884de7a5033e8f280":[0,0,4,18,8],
+"namespaceKarm_1_1Mime.html#ad320a711bd9b0abf76bb84ec62cb5c66":[0,0,4,18,7],
+"namespaceKarm_1_1Mime_1_1Tests.html":[0,0,4,18,0],
+"namespaceKarm_1_1Mime_1_1Tests.html#a4e7b4d215d154eb69c3ee3cd84750014":[0,0,4,18,0,4],
+"namespaceKarm_1_1Mime_1_1Tests.html#a560cb452c67776df3c293ca6b26babfe":[0,0,4,18,0,5],
+"namespaceKarm_1_1Mime_1_1Tests.html#a5a4bd6e417c23d28eef29fb2983a9ab9":[0,0,4,18,0,6],
+"namespaceKarm_1_1Mime_1_1Tests.html#aa801c06616677ea00582a770a9603a9b":[0,0,4,18,0,0],
+"namespaceKarm_1_1Mime_1_1Tests.html#ac5abdda7b20c922ade175d3b5f84ece6":[0,0,4,18,0,2],
+"namespaceKarm_1_1Mime_1_1Tests.html#ad0862c1826fa7d43adada5a94ac85ee4":[0,0,4,18,0,1],
 "namespaceKarm_1_1Mime_1_1Tests.html#af384dd41ff78e34f0763d2ad4830af93":[0,0,4,18,0,3],
 "namespaceKarm_1_1Ml.html":[0,0,4,19],
 "namespaceKarm_1_1Ml_1_1Gguf.html":[0,0,4,19,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX14 =
 "namespaceKarm_1_1Test.html#af989ffb367f87121248c5992e537b1b5":[0,0,4,28,4],
 "namespaceKarm_1_1Test_1_1Tests.html":[0,0,4,28,0],
 "namespaceKarm_1_1Test_1_1Tests.html#ab5b7721f658ca423d2e66db1acc4ecb9":[0,0,4,28,0,0],
-"namespaceKarm_1_1Tests.html":[0,0,4,29],
-"namespaceKarm_1_1Tests.html#aea7fa5a478f0ba91cc5bb4ea693badb0":[0,0,4,29,0],
-"namespaceKarm_1_1Text.html":[0,0,4,30],
-"namespaceKarm_1_1Text.html#a0c4333f245aa909d51451ff6ced22293":[0,0,4,30,24],
-"namespaceKarm_1_1Text.html#a2133f87041c1f104afff4ce6b41a0c86":[0,0,4,30,23],
-"namespaceKarm_1_1Text.html#a2133f87041c1f104afff4ce6b41a0c86a21507b40c80068eda19865706fdc2403":[0,0,4,30,23,2],
-"namespaceKarm_1_1Text.html#a2133f87041c1f104afff4ce6b41a0c86a684d325a7303f52e64011467ff5c5758":[0,0,4,30,23,0],
-"namespaceKarm_1_1Text.html#a2133f87041c1f104afff4ce6b41a0c86ac397289ee45877be0cd49811fe245b4e":[0,0,4,30,23,1],
-"namespaceKarm_1_1Text.html#a2198846bd02044686a1c26394291dda6":[0,0,4,30,27],
-"namespaceKarm_1_1Text.html#a3de5a14a84181ef2171cfb29c2939602":[0,0,4,30,22],
-"namespaceKarm_1_1Text.html#a3de5a14a84181ef2171cfb29c2939602a7469a286259799e5b37e5db9296f00b3":[0,0,4,30,22,1]
+"namespaceKarm_1_1Tests.html":[0,0,4,29]
 };

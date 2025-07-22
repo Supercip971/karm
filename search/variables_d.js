@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['n_0',['n',['../namespaceKarm.html#a7fec9ca9ba58cdd8234462b1656e7058',1,'Karm']]],
-  ['n_1',['N',['../namespaceKarm.html#a2d253ecfc1b8ce9edd8e68876d98d28a',1,'Karm']]],
+  ['n_0',['N',['../namespaceKarm.html#a2d253ecfc1b8ce9edd8e68876d98d28a',1,'Karm']]],
+  ['n_1',['n',['../namespaceKarm.html#a7fec9ca9ba58cdd8234462b1656e7058',1,'Karm']]],
   ['name_2',['name',['../structKarm_1_1Level.html#abd78a551e03b0c4bdb138c1cabf343a3',1,'Karm::Level']]],
   ['name_3',['NAME',['../structKarm_1_1Gfx_1_1FilterChain.html#aacf4c50db5e0e84f5a6f2319a2448bee',1,'Karm::Gfx::FilterChain::NAME()'],['../structKarm_1_1Gfx_1_1OverlayFilter.html#a736cfd96c7ff16f0c5384ffe79232b6b',1,'Karm::Gfx::OverlayFilter::NAME()'],['../structKarm_1_1Gfx_1_1TintFilter.html#ae03f8ca373b0ecb6114ec8756f8fd93e',1,'Karm::Gfx::TintFilter::NAME()'],['../structKarm_1_1Gfx_1_1SepiaFilter.html#a6b543ccc3df7d21e870c30eda48ffc40',1,'Karm::Gfx::SepiaFilter::NAME()'],['../structKarm_1_1Gfx_1_1NoiseFilter.html#adeffb1cb9a9b511a74821da20843da84',1,'Karm::Gfx::NoiseFilter::NAME()'],['../structKarm_1_1Gfx_1_1BrightnessFilter.html#a51907670ae06850c49d62e8d34062408',1,'Karm::Gfx::BrightnessFilter::NAME()'],['../structKarm_1_1Gfx_1_1ContrastFilter.html#aad33222fcd6429719ae0db1102738fdd',1,'Karm::Gfx::ContrastFilter::NAME()'],['../structKarm_1_1Gfx_1_1GrayscaleFilter.html#a6023b42bcc97350faa545846c9d8a592',1,'Karm::Gfx::GrayscaleFilter::NAME()'],['../structKarm_1_1Gfx_1_1SaturationFilter.html#a92bd4cf3a38c8afd90a2dae79d7a78a7',1,'Karm::Gfx::SaturationFilter::NAME()'],['../structKarm_1_1Gfx_1_1Unfiltered.html#a864819f7c09f27db180715d1ef55b0f5',1,'Karm::Gfx::Unfiltered::NAME()']]],
   ['name_4',['name',['../structKarm_1_1Ml_1_1Gguf_1_1TensorInfos.html#a7cfedb40bb9a4c5c0c7fd1474cd24e6a',1,'Karm::Ml::Gguf::TensorInfos::name()'],['../structKarm_1_1Gfx_1_1Icon.html#ae2937863f6d869ab9496b60a354e6b5e',1,'Karm::Gfx::Icon::name()']]],

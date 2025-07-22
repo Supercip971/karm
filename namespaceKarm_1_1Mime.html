@@ -113,6 +113,8 @@ Namespaces</h2></td></tr>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Mime_1_1Mime.html">Mime</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Mime_1_1MimePattern.html">MimePattern</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Mime_1_1Path.html">Path</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Mime_1_1Suffix2Mime.html">Suffix2Mime</a></td></tr>
@@ -127,6 +129,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a5aefae3a226723ab2c4fd30f0ea3e3c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; <a class="el" href="structKarm_1_1Mime_1_1Mime.html">Mime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Mime.html#a5aefae3a226723ab2c4fd30f0ea3e3c7">sniffSuffix</a> (<a class="el" href="namespaceKarm.html#ad13bfdef3971d180d820f6489f550505">Str</a> suffix)</td></tr>
 <tr class="memdesc:a5aefae3a226723ab2c4fd30f0ea3e3c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to sniff the mime type from a file extension.  <br /></td></tr>
 <tr class="separator:a5aefae3a226723ab2c4fd30f0ea3e3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfca4c04bf0e8ab884de7a5033e8f280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Mime_1_1Mime.html">Mime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Mime.html#abfca4c04bf0e8ab884de7a5033e8f280">sniffBytes</a> (<a class="el" href="namespaceKarm.html#a3d0e6679f40bc938c4e7e9c543c3d6ea">Bytes</a> <a class="el" href="namespaceKarm.html#ae6c8530b4199793d2c014e3afe018b95">bytes</a>)</td></tr>
+<tr class="separator:abfca4c04bf0e8ab884de7a5033e8f280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a929b9dd46083591ccb26c4a62dbc0b05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Res.html">Res</a>&lt; <a class="el" href="structKarm_1_1Mime_1_1Mime.html">Mime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Mime.html#a929b9dd46083591ccb26c4a62dbc0b05">sniffReader</a> (<a class="el" href="structKarm_1_1Io_1_1Reader.html">Io::Reader</a> &amp;reader)</td></tr>
+<tr class="separator:a929b9dd46083591ccb26c4a62dbc0b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad320a711bd9b0abf76bb84ec62cb5c66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Mime_1_1Url.html">Url</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Mime.html#ad320a711bd9b0abf76bb84ec62cb5c66">parseUrlOrPath</a> (<a class="el" href="namespaceKarm.html#ad13bfdef3971d180d820f6489f550505">Str</a> str, <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; <a class="el" href="structKarm_1_1Mime_1_1Url.html">Url</a> &gt; baseUrl)</td></tr>
 <tr class="separator:ad320a711bd9b0abf76bb84ec62cb5c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -153,6 +159,42 @@ Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfca4c04bf0e8ab884de7a5033e8f280" name="abfca4c04bf0e8ab884de7a5033e8f280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfca4c04bf0e8ab884de7a5033e8f280">&#9670;&#160;</a></span>sniffBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structKarm_1_1Mime_1_1Mime.html">Mime</a> Karm::Mime::sniffBytes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceKarm.html#a3d0e6679f40bc938c4e7e9c543c3d6ea">Bytes</a>&#160;</td>
+          <td class="paramname"><em>bytes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a929b9dd46083591ccb26c4a62dbc0b05" name="a929b9dd46083591ccb26c4a62dbc0b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a929b9dd46083591ccb26c4a62dbc0b05">&#9670;&#160;</a></span>sniffReader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structKarm_1_1Res.html">Res</a>&lt; <a class="el" href="structKarm_1_1Mime_1_1Mime.html">Mime</a> &gt; Karm::Mime::sniffReader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Io_1_1Reader.html">Io::Reader</a> &amp;&#160;</td>
+          <td class="paramname"><em>reader</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

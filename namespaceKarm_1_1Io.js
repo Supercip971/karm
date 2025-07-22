@@ -63,6 +63,7 @@ var namespaceKarm_1_1Io =
     [ "BEmit", "structKarm_1_1Io_1_1BEmit.html", "structKarm_1_1Io_1_1BEmit" ],
     [ "BField", "structKarm_1_1Io_1_1BField.html", "structKarm_1_1Io_1_1BField" ],
     [ "BitReader", "structKarm_1_1Io_1_1BitReader.html", "structKarm_1_1Io_1_1BitReader" ],
+    [ "BPattern", "structKarm_1_1Io_1_1BPattern.html", "structKarm_1_1Io_1_1BPattern" ],
     [ "BScan", "structKarm_1_1Io_1_1BScan.html", "structKarm_1_1Io_1_1BScan" ],
     [ "BufferWriter", "structKarm_1_1Io_1_1BufferWriter.html", "structKarm_1_1Io_1_1BufferWriter" ],
     [ "BufReader", "structKarm_1_1Io_1_1BufReader.html", "structKarm_1_1Io_1_1BufReader" ],

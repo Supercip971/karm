@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"karm-image_2jpeg_2base_8cpp.html#a76dce5f2f01efdd989595400e43aa697a5a73319c3327ddee5cf747b1b550af0c":[3,0,0,1,10,3,0,5,58],
 "karm-image_2jpeg_2base_8cpp.html#a76dce5f2f01efdd989595400e43aa697a5dad7e5baaac22680961a3bf19e40f48":[3,0,0,1,10,3,0,5,19],
 "karm-image_2jpeg_2base_8cpp.html#a76dce5f2f01efdd989595400e43aa697a71395f67edd2b7a10cc9fa458861b313":[3,0,0,1,10,3,0,5,4],
 "karm-image_2jpeg_2base_8cpp.html#a76dce5f2f01efdd989595400e43aa697a75c9802f78876b12e1c8e7adf11f4659":[3,0,0,1,10,3,0,5,2],
@@ -156,8 +157,8 @@ var NAVTREEINDEX6 =
 "karm-math_2expr_8h.html#a27ae887c41766cf034721e9e4fc10aa7":[3,0,0,1,16,12,6],
 "karm-math_2expr_8h.html#a3d8a79ff6f05c57452e6e15cdaf320fd":[3,0,0,1,16,12,10],
 "karm-math_2expr_8h.html#a5fed1623760fd8b6477452c9c302607a":[3,0,0,1,16,12,4],
-"karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,16,12,8],
 "karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,16,12,9],
+"karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,16,12,8],
 "karm-math_2expr_8h.html#a8fffbd56da949b39245183ee583e98d1":[3,0,0,1,16,12,7],
 "karm-math_2expr_8h.html#ab4926c4a2ede894f50482096453a94e5":[3,0,0,1,16,12,5],
 "karm-math_2expr_8h_source.html":[3,0,0,1,16,12],
@@ -229,11 +230,14 @@ var NAVTREEINDEX6 =
 "karm-meta_2traits_8h.html#a5f1e119cc07df3835800e667747ff8cf":[3,0,0,1,17,10,28],
 "karm-meta_2traits_8h.html#a61373e45c0cea01e6a37a24aab2de604":[3,0,0,1,17,10,29],
 "karm-meta_2traits_8h_source.html":[3,0,0,1,17,10],
-"karm-mime_2path_8cpp.html":[3,0,0,1,18,4],
-"karm-mime_2path_8h.html":[3,0,0,1,18,5],
-"karm-mime_2path_8h.html#a80854492c05fa0bc41052785bf70b15c":[3,0,0,1,18,5,2],
-"karm-mime_2path_8h.html#aaaefd6f9dce3435425ac54781771fdb4":[3,0,0,1,18,5,3],
-"karm-mime_2path_8h_source.html":[3,0,0,1,18,5],
+"karm-mime_2main_2main_8cpp.html":[3,0,0,1,18,1,0],
+"karm-mime_2main_2main_8cpp.html#a876fec53e9f913f7783a74b04563174d":[3,0,0,1,18,1,0,1],
+"karm-mime_2main_2main_8cpp.html#a8aa65a262e6babc6840b40b42c26bdac":[3,0,0,1,18,1,0,0],
+"karm-mime_2path_8cpp.html":[3,0,0,1,18,5],
+"karm-mime_2path_8h.html":[3,0,0,1,18,6],
+"karm-mime_2path_8h.html#a80854492c05fa0bc41052785bf70b15c":[3,0,0,1,18,6,2],
+"karm-mime_2path_8h.html#aaaefd6f9dce3435425ac54781771fdb4":[3,0,0,1,18,6,3],
+"karm-mime_2path_8h_source.html":[3,0,0,1,18,6],
 "karm-ml_2main_2main_8cpp.html":[3,0,0,1,19,0,0],
 "karm-ml_2main_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e":[3,0,0,1,19,0,0,0],
 "karm-ml_2main_2main_8cpp.html#ad4da1bb5d0167596040cd8aa498e1108":[3,0,0,1,19,0,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "karm-pdf_2canvas_8cpp.html#afdf7704aaf7c74d468d03af339982fb2":[3,0,0,1,21,0,4],
 "karm-pdf_2mod_8cpp.html":[3,0,0,1,21,1],
 "karm-pdf_2mod_8cpp.html#afdf7704aaf7c74d468d03af339982fb2":[3,0,0,1,21,1,1],
-"karm-pdf_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,21,1,0],
-"karm-pdf_2values_8cpp.html":[3,0,0,1,21,3],
-"karm-pdf_2values_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,21,3,9],
-"karm-pdf_2values_8cpp.html#afdf7704aaf7c74d468d03af339982fb2":[3,0,0,1,21,3,10],
-"karm-pkg_2cli_2main_8cpp.html":[3,0,0,1,22,0,0]
+"karm-pdf_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,21,1,0]
 };
