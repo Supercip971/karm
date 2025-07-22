@@ -16,8 +16,9 @@ var searchData=
   ['distinct_3c_20u16_2c_20struct_20_5ffontstretchtag_20_3e_13',['Distinct&lt; u16, struct _FontStretchTag &gt;',['../structKarm_1_1Distinct.html',1,'Karm']]],
   ['distinct_3c_20u16_2c_20struct_20_5ffontweighttag_20_3e_14',['Distinct&lt; u16, struct _FontWeightTag &gt;',['../structKarm_1_1Distinct.html',1,'Karm']]],
   ['distinct_3c_20u64_2c_20struct_20_5fporttag_20_3e_15',['Distinct&lt; u64, struct _PortTag &gt;',['../structKarm_1_1Distinct.html',1,'Karm']]],
-  ['dragevent_16',['DragEvent',['../structKarm_1_1Ui_1_1DragEvent.html',1,'Karm::Ui']]],
-  ['dragregion_17',['DragRegion',['../structKarm_1_1Ui_1_1DragRegion.html',1,'Karm::Ui']]],
-  ['driver_18',['Driver',['../structKarm_1_1Test_1_1Driver.html',1,'Karm::Test']]],
-  ['duration_19',['Duration',['../structKarm_1_1Duration.html',1,'Karm']]]
+  ['dotmatcher_16',['DotMatcher',['../structKarm_1_1Regex_1_1DotMatcher.html',1,'Karm::Regex']]],
+  ['dragevent_17',['DragEvent',['../structKarm_1_1Ui_1_1DragEvent.html',1,'Karm::Ui']]],
+  ['dragregion_18',['DragRegion',['../structKarm_1_1Ui_1_1DragRegion.html',1,'Karm::Ui']]],
+  ['driver_19',['Driver',['../structKarm_1_1Test_1_1Driver.html',1,'Karm::Test']]],
+  ['duration_20',['Duration',['../structKarm_1_1Duration.html',1,'Karm']]]
 ];

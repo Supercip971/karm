@@ -29,5 +29,6 @@ var searchData=
   ['move_5fstart_26',['MOVE_START',['../structKarm_1_1Text_1_1Action.html#a03d82e0f0174989b6dde04452a75f406',1,'Karm::Text::Action']]],
   ['move_5fto_27',['MOVE_TO',['../structKarm_1_1Math_1_1Path.html#a1a219937914ccedcf08cb1852aa8eca7a08491dbec8edcd811f90044448f46c70',1,'Karm::Math::Path']]],
   ['move_5fup_28',['MOVE_UP',['../structKarm_1_1Text_1_1Action.html#ae397b4fa67c25cc1c9eae980cfdd43eb',1,'Karm::Text::Action']]],
-  ['mx_29',['MX',['../namespaceKarm_1_1Net_1_1Dns.html#afdc41d84596321984a29bae536776a54a0b2f2c31ecee9725330fbb16aa35b62e',1,'Karm::Net::Dns']]]
+  ['multi_5fline_29',['MULTI_LINE',['../namespaceKarm_1_1Regex.html#aeb80b5b3b27409e056039a96aef0bcfba8e729acc1d7af6eb333dd399b48a132c',1,'Karm::Regex']]],
+  ['mx_30',['MX',['../namespaceKarm_1_1Net_1_1Dns.html#afdc41d84596321984a29bae536776a54a0b2f2c31ecee9725330fbb16aa35b62e',1,'Karm::Net::Dns']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['value_0',['Value',['../structKarm_1_1Json_1_1Value.html',1,'Karm::Json::Value'],['../structKarm_1_1Pdf_1_1Value.html',1,'Karm::Pdf::Value']]],
+  ['value_0',['Value',['../structKarm_1_1Pdf_1_1Value.html',1,'Karm::Pdf::Value'],['../structKarm_1_1Serde_1_1Value.html',1,'Karm::Serde::Value']]],
   ['valueparser_1',['ValueParser',['../structKarm_1_1Cli_1_1ValueParser.html',1,'Karm::Cli']]],
   ['valueparser_3c_20bool_20_3e_2',['ValueParser&lt; bool &gt;',['../structKarm_1_1Cli_1_1ValueParser_3_01bool_01_4.html',1,'Karm::Cli']]],
   ['valueparser_3c_20isize_20_3e_3',['ValueParser&lt; isize &gt;',['../structKarm_1_1Cli_1_1ValueParser_3_01isize_01_4.html',1,'Karm::Cli']]],

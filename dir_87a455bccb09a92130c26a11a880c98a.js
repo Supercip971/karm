@@ -1,10 +1,10 @@
 var dir_87a455bccb09a92130c26a11a880c98a =
 [
-    [ "karm-aio", "dir_3f99c6d8bf13a75843d32e1354579c9d.html", "dir_3f99c6d8bf13a75843d32e1354579c9d" ],
     [ "karm-app", "dir_5ff5341d6f38070b241c57ad0d8719c4.html", "dir_5ff5341d6f38070b241c57ad0d8719c4" ],
     [ "karm-async", "dir_b36250c56255e10a05d699878813ffe2.html", "dir_b36250c56255e10a05d699878813ffe2" ],
     [ "karm-base", "dir_f6b5e0c2fa4ef168cde623c05a00eb67.html", "dir_f6b5e0c2fa4ef168cde623c05a00eb67" ],
     [ "karm-cli", "dir_e7b6f028fef62249f8ea0d96c75a70ed.html", "dir_e7b6f028fef62249f8ea0d96c75a70ed" ],
+    [ "karm-core", "dir_0faa10f0ea8b4a910168b5e6ae52c924.html", "dir_0faa10f0ea8b4a910168b5e6ae52c924" ],
     [ "karm-crypto", "dir_799f3ab960e51e7b817c99a858c44ced.html", "dir_799f3ab960e51e7b817c99a858c44ced" ],
     [ "karm-gc", "dir_5a521d82086ec2c222c4521809d95df8.html", "dir_5a521d82086ec2c222c4521809d95df8" ],
     [ "karm-gfx", "dir_72c2cd474489e4bf5cfc1c37b502ef1d.html", "dir_72c2cd474489e4bf5cfc1c37b502ef1d" ],
@@ -12,7 +12,6 @@ var dir_87a455bccb09a92130c26a11a880c98a =
     [ "karm-icu", "dir_c541f5249274e7317e87e64cba7c57ff.html", "dir_c541f5249274e7317e87e64cba7c57ff" ],
     [ "karm-image", "dir_7e6fdb58758a9a7ef7d22cde38d3b808.html", "dir_7e6fdb58758a9a7ef7d22cde38d3b808" ],
     [ "karm-io", "dir_f9cc2060724f634b7c3f795b6b80dc1a.html", "dir_f9cc2060724f634b7c3f795b6b80dc1a" ],
-    [ "karm-json", "dir_15c1d75c5e84f616dbc0525f21253154.html", "dir_15c1d75c5e84f616dbc0525f21253154" ],
     [ "karm-kira", "dir_06736972a74fcd963fed32b309ebb905.html", "dir_06736972a74fcd963fed32b309ebb905" ],
     [ "karm-kv", "dir_b0be1a13a3b458ca2fc4a6f0ad8c8ec8.html", "dir_b0be1a13a3b458ca2fc4a6f0ad8c8ec8" ],
     [ "karm-logger", "dir_d0f41770b29100010b77e76c9df82c47.html", "dir_d0f41770b29100010b77e76c9df82c47" ],

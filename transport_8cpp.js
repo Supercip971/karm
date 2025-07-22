@@ -17,7 +17,7 @@ var transport_8cpp =
     [ "localTransport", "transport_8cpp.html#af1c2f04b07946af18c6b0b6c87e203b5", null ],
     [ "multiplexTransport", "transport_8cpp.html#aaf89444a0219effd695ebf482ea956b7", null ],
     [ "pipeTransport", "transport_8cpp.html#a76579a1b687f7dd65ca9a98c4a386987", null ],
-    [ "Aio", "transport_8cpp.html#ab3882ee71e6b536ddae7311bfad95455", null ],
+    [ "Core", "transport_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Http", "transport_8cpp.html#ae4e6389ba964884ff5221427019b2efc", null ],
     [ "module", "transport_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

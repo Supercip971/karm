@@ -5,7 +5,7 @@ var searchData=
   ['arc_2',['Arc',['../namespaceKarm.html#ad120fe892922685cda8fc248ea0e8ee2',1,'Karm']]],
   ['arcf_3',['Arcf',['../namespaceKarm_1_1Math.html#af114c7e5f927db9ce62968838ec11e30',1,'Karm::Math']]],
   ['arci_4',['Arci',['../namespaceKarm_1_1Math.html#a23c866a60e6ded26ba4295883cad3496',1,'Karm::Math']]],
-  ['array_5',['Array',['../namespaceKarm_1_1Json.html#ab1957d407e8899c5a9b3f96fa851d3b2',1,'Karm::Json']]],
+  ['array_5',['Array',['../namespaceKarm_1_1Serde.html#ae63f72a0f167d41288b44cba60386ac2',1,'Karm::Serde']]],
   ['ascender_6',['Ascender',['../structTtf_1_1Hhea.html#a7b548b48c627ea8466acbb15a46f34a8',1,'Ttf::Hhea']]],
   ['au_7',['Au',['../namespaceKarm.html#aebd562ee475778b341dd07538834134c',1,'Karm']]],
   ['aweak_8',['Aweak',['../namespaceKarm.html#a5042e775b8b08cc9173063014e3f46fa',1,'Karm']]]

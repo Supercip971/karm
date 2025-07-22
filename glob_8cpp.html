@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Karm: src/libs/karm-io/glob.cpp File Reference</title>
+<title>Karm: src/libs/karm-core/glob/glob.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
@@ -98,33 +98,70 @@ $(document).ready(function(){initNavTree('glob_8cpp.html',''); initResizable(); 
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">glob.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="glob_8h_source.html">glob.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="karm-io_2expr_8h_source.html">expr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="karm-io_2expr_8h_source.html">karm-io/expr.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="sscan_8h_source.html">karm-io/sscan.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceKarm_1_1Io"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html">Karm::Io</a></td></tr>
+<tr class="memitem:namespaceKarm_1_1Glob"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Glob.html">Karm::Glob</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5be486c118abeecc5af7f459d5f1a927"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a5be486c118abeecc5af7f459d5f1a927">Karm::Io::matchGlob</a> (SScan &amp;glob, SScan &amp;in)</td></tr>
-<tr class="separator:a5be486c118abeecc5af7f459d5f1a927"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb897a811207e668d1c1cfef60334936"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#abb897a811207e668d1c1cfef60334936">Karm::Io::matchGlob</a> (Str glob, Str str)</td></tr>
-<tr class="separator:abb897a811207e668d1c1cfef60334936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab398a26bb68708f21fe954bc60bca09c"><td class="memItemLeft" align="right" valign="top">export bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Glob.html#ab398a26bb68708f21fe954bc60bca09c">Karm::Glob::matchGlob</a> (Io::SScan &amp;glob, Io::SScan &amp;in)</td></tr>
+<tr class="separator:ab398a26bb68708f21fe954bc60bca09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a5248b855d7e44adfa3334e9e4b804"><td class="memItemLeft" align="right" valign="top">export bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Glob.html#a34a5248b855d7e44adfa3334e9e4b804">Karm::Glob::matchGlob</a> (Str glob, Str str)</td></tr>
+<tr class="separator:a34a5248b855d7e44adfa3334e9e4b804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="glob_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60e35d72364ff777a965d456af4dea3"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="glob_8cpp.html#af60e35d72364ff777a965d456af4dea3">Core</a></td></tr>
+<tr class="separator:af60e35d72364ff777a965d456af4dea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="af60e35d72364ff777a965d456af4dea3" name="af60e35d72364ff777a965d456af4dea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60e35d72364ff777a965d456af4dea3">&#9670;&#160;</a></span>Core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_f9cc2060724f634b7c3f795b6b80dc1a.html">karm-io</a></li><li class="navelem"><a class="el" href="glob_8cpp.html">glob.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_0faa10f0ea8b4a910168b5e6ae52c924.html">karm-core</a></li><li class="navelem"><a class="el" href="dir_6d18df12b1eccf52cb6ed50e7aa686f6.html">glob</a></li><li class="navelem"><a class="el" href="glob_8cpp.html">glob.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

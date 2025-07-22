@@ -23,7 +23,7 @@ var searchData=
   ['font_2eh_20',['font.h',['../font_8h.html',1,'']]],
   ['form_2dfactor_2ecpp_21',['form-factor.cpp',['../form-factor_8cpp.html',1,'']]],
   ['func_2eh_22',['func.h',['../func_8h.html',1,'']]],
-  ['funcs_2ecpp_23',['funcs.cpp',['../karm-aio_2funcs_8cpp.html',1,'(Global Namespace)'],['../karm-ui_2funcs_8cpp.html',1,'(Global Namespace)']]],
+  ['funcs_2ecpp_23',['funcs.cpp',['../karm-ui_2funcs_8cpp.html',1,'(Global Namespace)'],['../karm-core_2aio_2funcs_8cpp.html',1,'(Global Namespace)']]],
   ['funcs_2eh_24',['funcs.h',['../karm-math_2funcs_8h.html',1,'(Global Namespace)'],['../karm-io_2funcs_8h.html',1,'(Global Namespace)']]],
-  ['fuzzy_2eh_25',['fuzzy.h',['../fuzzy_8h.html',1,'']]]
+  ['fuzzy_2ecpp_25',['fuzzy.cpp',['../fuzzy_8cpp.html',1,'']]]
 ];

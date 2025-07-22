@@ -24,7 +24,9 @@ var searchData=
   ['array_3c_20u8_2c_208_20_3e_21',['Array&lt; u8, 8 &gt;',['../structKarm_1_1Array.html',1,'Karm']]],
   ['ascii_22',['Ascii',['../structKarm_1_1Ascii.html',1,'Karm']]],
   ['aspectratio_23',['AspectRatio',['../structKarm_1_1Ui_1_1AspectRatio.html',1,'Karm::Ui']]],
-  ['atomic_24',['Atomic',['../structKarm_1_1Atomic.html',1,'Karm']]],
-  ['atoxoptions_25',['AtoxOptions',['../structKarm_1_1Io_1_1AtoxOptions.html',1,'Karm::Io']]],
-  ['awaiter_26',['Awaiter',['../structKarm_1_1Async_1_1Awaiter.html',1,'Karm::Async']]]
+  ['assertionmatcher_24',['AssertionMatcher',['../structKarm_1_1Regex_1_1AssertionMatcher.html',1,'Karm::Regex']]],
+  ['atomic_25',['Atomic',['../structKarm_1_1Atomic.html',1,'Karm']]],
+  ['atommatcher_26',['AtomMatcher',['../structKarm_1_1Regex_1_1AtomMatcher.html',1,'Karm::Regex']]],
+  ['atoxoptions_27',['AtoxOptions',['../structKarm_1_1Io_1_1AtoxOptions.html',1,'Karm::Io']]],
+  ['awaiter_28',['Awaiter',['../structKarm_1_1Async_1_1Awaiter.html',1,'Karm::Async']]]
 ];

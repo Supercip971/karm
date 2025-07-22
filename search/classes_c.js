@@ -16,7 +16,8 @@ var searchData=
   ['noisefilter_13',['NoiseFilter',['../structKarm_1_1Gfx_1_1NoiseFilter.html',1,'Karm::Gfx']]],
   ['nolock_14',['NoLock',['../structKarm_1_1NoLock.html',1,'Karm']]],
   ['none_15',['None',['../structKarm_1_1None.html',1,'Karm']]],
-  ['null_16',['Null',['../structKarm_1_1Async_1_1Null.html',1,'Karm::Async']]],
-  ['nullfd_17',['NullFd',['../structKarm_1_1Sys_1_1NullFd.html',1,'Karm::Sys']]],
-  ['numberformatter_18',['NumberFormatter',['../structKarm_1_1Io_1_1NumberFormatter.html',1,'Karm::Io']]]
+  ['nopmatcher_16',['NopMatcher',['../structKarm_1_1Regex_1_1NopMatcher.html',1,'Karm::Regex']]],
+  ['null_17',['Null',['../structKarm_1_1Async_1_1Null.html',1,'Karm::Async']]],
+  ['nullfd_18',['NullFd',['../structKarm_1_1Sys_1_1NullFd.html',1,'Karm::Sys']]],
+  ['numberformatter_19',['NumberFormatter',['../structKarm_1_1Io_1_1NumberFormatter.html',1,'Karm::Io']]]
 ];

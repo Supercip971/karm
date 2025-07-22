@@ -170,7 +170,6 @@ var annotated_dup =
         [ "Formatter< Karm::Http::Code >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4" ],
         [ "Formatter< Karm::Http::Method >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4" ],
         [ "Formatter< Karm::Http::Version >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4" ],
-        [ "Formatter< Karm::Json::Value >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Json_1_1Value_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Json_1_1Value_01_4" ],
         [ "Formatter< Karm::Mime::Path >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Path_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Path_01_4" ],
         [ "Formatter< Karm::Mime::Url >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Url_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Url_01_4" ],
         [ "Formatter< Karm::Sys::Ip >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4" ],
@@ -231,9 +230,6 @@ var annotated_dup =
         [ "Writer", "structKarm_1_1Io_1_1Writer.html", "structKarm_1_1Io_1_1Writer" ],
         [ "WriterSlice", "structKarm_1_1Io_1_1WriterSlice.html", "structKarm_1_1Io_1_1WriterSlice" ],
         [ "Zero", "structKarm_1_1Io_1_1Zero.html", "structKarm_1_1Io_1_1Zero" ]
-      ] ],
-      [ "Json", "namespaceKarm_1_1Json.html", [
-        [ "Value", "structKarm_1_1Json_1_1Value.html", "structKarm_1_1Json_1_1Value" ]
       ] ],
       [ "Kira", "namespaceKarm_1_1Kira.html", [
         [ "Checkbox", "structKarm_1_1Kira_1_1Checkbox.html", "structKarm_1_1Kira_1_1Checkbox" ],
@@ -308,7 +304,7 @@ var annotated_dup =
           [ "Header", "structKarm_1_1Ml_1_1Gguf_1_1Header.html", "structKarm_1_1Ml_1_1Gguf_1_1Header" ],
           [ "TensorInfos", "structKarm_1_1Ml_1_1Gguf_1_1TensorInfos.html", "structKarm_1_1Ml_1_1Gguf_1_1TensorInfos" ]
         ] ],
-        [ "Tensor", "structKarm_1_1Ml_1_1Tensor.html", null ]
+        [ "BpeVocab", "structKarm_1_1Ml_1_1BpeVocab.html", "structKarm_1_1Ml_1_1BpeVocab" ]
       ] ],
       [ "Net", "namespaceKarm_1_1Net.html", [
         [ "Dns", "namespaceKarm_1_1Net_1_1Dns.html", [
@@ -350,6 +346,19 @@ var annotated_dup =
         [ "TrueTypeFontAdapter", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html", "structKarm_1_1Print_1_1TrueTypeFontAdapter" ],
         [ "TtfGlyphInfoAdapter", "structKarm_1_1Print_1_1TtfGlyphInfoAdapter.html", "structKarm_1_1Print_1_1TtfGlyphInfoAdapter" ]
       ] ],
+      [ "Regex", "namespaceKarm_1_1Regex.html", [
+        [ "AssertionMatcher", "structKarm_1_1Regex_1_1AssertionMatcher.html", "structKarm_1_1Regex_1_1AssertionMatcher" ],
+        [ "AtomMatcher", "structKarm_1_1Regex_1_1AtomMatcher.html", "structKarm_1_1Regex_1_1AtomMatcher" ],
+        [ "ChainMatcher", "structKarm_1_1Regex_1_1ChainMatcher.html", "structKarm_1_1Regex_1_1ChainMatcher" ],
+        [ "DotMatcher", "structKarm_1_1Regex_1_1DotMatcher.html", "structKarm_1_1Regex_1_1DotMatcher" ],
+        [ "EitherMatcher", "structKarm_1_1Regex_1_1EitherMatcher.html", "structKarm_1_1Regex_1_1EitherMatcher" ],
+        [ "Match", "structKarm_1_1Regex_1_1Match.html", "structKarm_1_1Regex_1_1Match" ],
+        [ "Matcher", "structKarm_1_1Regex_1_1Matcher.html", "structKarm_1_1Regex_1_1Matcher" ],
+        [ "NopMatcher", "structKarm_1_1Regex_1_1NopMatcher.html", "structKarm_1_1Regex_1_1NopMatcher" ],
+        [ "Quantifier", "structKarm_1_1Regex_1_1Quantifier.html", "structKarm_1_1Regex_1_1Quantifier" ],
+        [ "QuantifierMatcher", "structKarm_1_1Regex_1_1QuantifierMatcher.html", "structKarm_1_1Regex_1_1QuantifierMatcher" ],
+        [ "Regex", "structKarm_1_1Regex_1_1Regex.html", "structKarm_1_1Regex_1_1Regex" ]
+      ] ],
       [ "Rpc", "namespaceKarm_1_1Rpc.html", [
         [ "Endpoint", "structKarm_1_1Rpc_1_1Endpoint.html", "structKarm_1_1Rpc_1_1Endpoint" ],
         [ "Header", "structKarm_1_1Rpc_1_1Header.html", "structKarm_1_1Rpc_1_1Header" ],
@@ -370,6 +379,9 @@ var annotated_dup =
         [ "Text", "structKarm_1_1Scene_1_1Text.html", "structKarm_1_1Scene_1_1Text" ],
         [ "Transform", "structKarm_1_1Scene_1_1Transform.html", "structKarm_1_1Scene_1_1Transform" ],
         [ "Viewbox", "structKarm_1_1Scene_1_1Viewbox.html", "structKarm_1_1Scene_1_1Viewbox" ]
+      ] ],
+      [ "Serde", "namespaceKarm_1_1Serde.html", [
+        [ "Value", "structKarm_1_1Serde_1_1Value.html", "structKarm_1_1Serde_1_1Value" ]
       ] ],
       [ "Sys", "namespaceKarm_1_1Sys.html", [
         [ "ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", "structKarm_1_1Sys_1_1ArgsHook" ],

@@ -18,11 +18,12 @@ var searchData=
   ['opt_3c_20rc_3c_20karm_3a_3atext_3a_3aprose_3a_3aspan_20_3e_20_3e_15',['Opt&lt; Rc&lt; Karm::Text::Prose::Span &gt; &gt;',['../structKarm_1_1Opt.html',1,'Karm']]],
   ['opt_3c_20s_3a_3ainner_20_3e_16',['Opt&lt; S::Inner &gt;',['../structKarm_1_1Opt.html',1,'Karm']]],
   ['opt_3c_20t_20_3e_17',['Opt&lt; T &gt;',['../structKarm_1_1Opt_3_01T_01_4.html',1,'Karm']]],
-  ['opt_3c_20usize_20_3e_18',['Opt&lt; usize &gt;',['../structKarm_1_1Opt.html',1,'Karm']]],
-  ['option_19',['Option',['../structKarm_1_1Cli_1_1Option.html',1,'Karm::Cli']]],
-  ['optionimpl_20',['OptionImpl',['../structKarm_1_1Cli_1_1OptionImpl.html',1,'Karm::Cli']]],
-  ['os2_21',['Os2',['../structTtf_1_1Os2.html',1,'Ttf']]],
-  ['out_22',['Out',['../structKarm_1_1Sys_1_1Out.html',1,'Karm::Sys']]],
-  ['outline_23',['Outline',['../structKarm_1_1Gfx_1_1Outline.html',1,'Karm::Gfx']]],
-  ['overlayfilter_24',['OverlayFilter',['../structKarm_1_1Gfx_1_1OverlayFilter.html',1,'Karm::Gfx']]]
+  ['opt_3c_20u64_20_3e_18',['Opt&lt; u64 &gt;',['../structKarm_1_1Opt.html',1,'Karm']]],
+  ['opt_3c_20usize_20_3e_19',['Opt&lt; usize &gt;',['../structKarm_1_1Opt.html',1,'Karm']]],
+  ['option_20',['Option',['../structKarm_1_1Cli_1_1Option.html',1,'Karm::Cli']]],
+  ['optionimpl_21',['OptionImpl',['../structKarm_1_1Cli_1_1OptionImpl.html',1,'Karm::Cli']]],
+  ['os2_22',['Os2',['../structTtf_1_1Os2.html',1,'Ttf']]],
+  ['out_23',['Out',['../structKarm_1_1Sys_1_1Out.html',1,'Karm::Sys']]],
+  ['outline_24',['Outline',['../structKarm_1_1Gfx_1_1Outline.html',1,'Karm::Gfx']]],
+  ['overlayfilter_25',['OverlayFilter',['../structKarm_1_1Gfx_1_1OverlayFilter.html',1,'Karm::Gfx']]]
 ];

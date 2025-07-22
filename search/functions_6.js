@@ -1,7 +1,7 @@
 var searchData=
 [
   ['generator_0',['Generator',['../structKarm_1_1Generator.html#ac81c692cb0cfdd2f7df8375d1c283353',1,'Karm::Generator::Generator(Generator const &amp;other)=delete'],['../structKarm_1_1Generator.html#ab7621516a545c74654c9b1ab3951a3cb',1,'Karm::Generator::Generator(Generator &amp;&amp;other)'],['../structKarm_1_1Generator.html#a83b7d2b3cc53584c898dee128f09288b',1,'Karm::Generator::Generator(std::coroutine_handle&lt; promise_type &gt; coro)']]],
-  ['get_1',['get',['../structKarm_1_1Bits.html#a286b5cd0cd1c69ecea999089dc743920',1,'Karm::Bits::get()'],['../structKarm_1_1Map.html#a8b984416cd788462cd8a02cd4989724f',1,'Karm::Map::get(K const &amp;key)'],['../structKarm_1_1Map.html#a1fc8d4f630000fcc3d1aa8c3388c362b',1,'Karm::Map::get(K const &amp;key) const'],['../structKarm_1_1Sieve.html#a93fa85d60793144fb4a09cb0c5c3a323',1,'Karm::Sieve::get()'],['../structKarm_1_1Io_1_1BChunk.html#ae460868c164efb9c58b5780b6732dc56',1,'Karm::Io::BChunk::get()'],['../structKarm_1_1Json_1_1Value.html#a06de23fabe68423e33012d7754cd3729',1,'Karm::Json::Value::get(Str key) const'],['../structKarm_1_1Json_1_1Value.html#a089a9635fc95f5f1c3c9b86081c65c4a',1,'Karm::Json::Value::get(usize index) const']]],
+  ['get_1',['get',['../structKarm_1_1Bits.html#a286b5cd0cd1c69ecea999089dc743920',1,'Karm::Bits::get()'],['../structKarm_1_1Map.html#a8b984416cd788462cd8a02cd4989724f',1,'Karm::Map::get(K const &amp;key)'],['../structKarm_1_1Map.html#a1fc8d4f630000fcc3d1aa8c3388c362b',1,'Karm::Map::get(K const &amp;key) const'],['../structKarm_1_1Sieve.html#a93fa85d60793144fb4a09cb0c5c3a323',1,'Karm::Sieve::get()'],['../structKarm_1_1Serde_1_1Value.html#a001cc383870d7db7feeed100cc227842',1,'Karm::Serde::Value::get(Str key) const'],['../structKarm_1_1Serde_1_1Value.html#a824ea3cf9714f0ade66cf9c5d210dafd',1,'Karm::Serde::Value::get(usize index) const'],['../structKarm_1_1Io_1_1BChunk.html#ae460868c164efb9c58b5780b6732dc56',1,'Karm::Io::BChunk::get()']]],
   ['get_5freturn_5fobject_2',['get_return_object',['../structKarm_1_1Generator_1_1promise__type.html#a594cb7b8c9b99c30417047950c8d980b',1,'Karm::Generator::promise_type']]],
   ['getasync_3',['getAsync',['../namespaceKarm_1_1Http.html#a3f4ed49bc8f027cb58395e16e748270f',1,'Karm::Http::getAsync()'],['../structKarm_1_1Http_1_1Client.html#a91cb757477bd8e2c75bb930d942ce93c',1,'Karm::Http::Client::getAsync()']]],
   ['getbottom_4',['getBottom',['../structKarm_1_1Math_1_1Flow.html#a92f7b02c69830b79e973222955a56f55',1,'Karm::Math::Flow']]],
@@ -10,7 +10,7 @@ var searchData=
   ['getfontid_7',['getFontId',['../structKarm_1_1Pdf_1_1FontManager.html#a5a283ab502024d45fe33efccfe2cc243',1,'Karm::Pdf::FontManager']]],
   ['gethcenter_8',['getHcenter',['../structKarm_1_1Math_1_1Flow.html#a2d899eb6e725fc1ae2e9d1d4a8725e7f',1,'Karm::Math::Flow']]],
   ['getheight_9',['getHeight',['../structKarm_1_1Math_1_1Flow.html#a47b7950eba6c1258a8ca25ebf074e4b3',1,'Karm::Math::Flow']]],
-  ['getor_10',['getOr',['../structKarm_1_1Json_1_1Value.html#aa64a8b4a453030a600f883c8c1becfcf',1,'Karm::Json::Value']]],
+  ['getor_10',['getOr',['../structKarm_1_1Serde_1_1Value.html#a0343445cd1c91f2d19ce07e050fff116',1,'Karm::Serde::Value']]],
   ['getordefault_11',['getOrDefault',['../structKarm_1_1Map.html#a8872ba561e94b66201fab6595d658ae7',1,'Karm::Map']]],
   ['getorigin_12',['getOrigin',['../structKarm_1_1Math_1_1Flow.html#aa24f605a4cea19aa05c9f71874390c0a',1,'Karm::Math::Flow']]],
   ['getstart_13',['getStart',['../structKarm_1_1Math_1_1Flow.html#a4d9a3185f200fbd869d0242329882bd8',1,'Karm::Math::Flow']]],
