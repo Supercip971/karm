@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['h_0',['h',['../unionKarm_1_1Sys_1_1Ip6.html#a5cc0840a5968ec5b93ebee416527b864',1,'Karm::Sys::Ip6::h()'],['../namespaceKarm.html#a3699aff4906ecb1ee6c5dc4bde486cc4',1,'Karm::h()']]],
+  ['h_0',['h',['../unionKarm_1_1Sys_1_1Ip6.html#a5cc0840a5968ec5b93ebee416527b864',1,'Karm::Sys::Ip6']]],
   ['h_1',['H',['../namespaceKarm.html#a5792d99d6529c0be3f0d21aed2f2a8e2',1,'Karm']]],
-  ['h_2',['h',['../structKarm_1_1Math_1_1Radii.html#aac10ec316e4a5aadd21b0c3ddefdfcc6',1,'Karm::Math::Radii']]],
+  ['h_2',['h',['../namespaceKarm.html#a3699aff4906ecb1ee6c5dc4bde486cc4',1,'Karm::h()'],['../structKarm_1_1Math_1_1Radii.html#aac10ec316e4a5aadd21b0c3ddefdfcc6',1,'Karm::Math::Radii::h()']]],
   ['half_5funit_3',['HALF_UNIT',['../structKarm_1_1Gfx_1_1CpuRast.html#aaaaddbd890b6e4621f6e6a697542add4',1,'Karm::Gfx::CpuRast']]],
   ['handler_4',['handler',['../structKarm_1_1Sys_1_1Intent.html#aaae97028cd34a3d3447a91eb783c80cb',1,'Karm::Sys::Intent']]],
   ['hcenter_5',['HCENTER',['../structKarm_1_1Math_1_1Align.html#ab8211bbe67bdb0009efbafdfa2fe3d4f',1,'Karm::Math::Align']]],

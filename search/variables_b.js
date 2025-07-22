@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['l_0',['L',['../namespaceKarm.html#a8b69acf080b98de3a0e981fe3e468fc8',1,'Karm']]],
-  ['l_1',['l',['../namespaceKarm.html#af92eb1f30e4d89227ea345edf23ebb6b',1,'Karm']]],
+  ['l_0',['l',['../namespaceKarm.html#af92eb1f30e4d89227ea345edf23ebb6b',1,'Karm']]],
+  ['l_1',['L',['../namespaceKarm.html#a8b69acf080b98de3a0e981fe3e468fc8',1,'Karm']]],
   ['l2_5fe_2',['L2_E',['../namespaceKarm_1_1Math.html#a0d01e975c80d5c2aea19a4e5bfd11d62',1,'Karm::Math']]],
   ['languageid_3',['languageId',['../structTtf_1_1Name_1_1Record.html#a9f95d5267a09ecbfdfb56a52050309cc',1,'Ttf::Name::Record']]],
   ['leading_4',['leading',['../structKarm_1_1Mime_1_1MimePattern.html#a3f5d04d0f0ccf2842e09b44dad852f8c',1,'Karm::Mime::MimePattern']]],
