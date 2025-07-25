@@ -1,17 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"namespaceKarm_1_1Math_1_1Tests.html#a1d8f5195c7ea830f07c2c65ff67797fd":[0,0,4,17,0,5],
-"namespaceKarm_1_1Math_1_1Tests.html#a2b7f9fd20a290dbf3e03a9923ad9e08e":[0,0,4,17,0,2],
-"namespaceKarm_1_1Math_1_1Tests.html#a2fdb192658fd2056d7bcdd427e7bffcd":[0,0,4,17,0,8],
-"namespaceKarm_1_1Math_1_1Tests.html#a469d93cd49ebf8e9c49da7f898f38ee6":[0,0,4,17,0,16],
-"namespaceKarm_1_1Math_1_1Tests.html#a55de3a45eb99e673a171095394e55e0a":[0,0,4,17,0,15],
-"namespaceKarm_1_1Math_1_1Tests.html#a68c719208e5234666e9c688756dddd51":[0,0,4,17,0,11],
-"namespaceKarm_1_1Math_1_1Tests.html#a96d673465d9927c289fdcd7e0b00b0ff":[0,0,4,17,0,14],
-"namespaceKarm_1_1Math_1_1Tests.html#aa4f1f3b7d778dcf6ecacf99d7bf636e6":[0,0,4,17,0,13],
-"namespaceKarm_1_1Math_1_1Tests.html#aa5f1e1e3d6a8e044863c212d64d9af4f":[0,0,4,17,0,6],
-"namespaceKarm_1_1Math_1_1Tests.html#aa96c39f50eadc34c5030a8dab91386f8":[0,0,4,17,0,1],
-"namespaceKarm_1_1Math_1_1Tests.html#aaf6b20f1d2c2abc71cb2a3958a787563":[0,0,4,17,0,4],
-"namespaceKarm_1_1Math_1_1Tests.html#ab007f32f33df4ef1d1f638930ff15946":[0,0,4,17,0,12],
 "namespaceKarm_1_1Math_1_1Tests.html#ab19743b5086b2b6bc98bf4bb4cef1ddd":[0,0,4,17,0,0],
 "namespaceKarm_1_1Math_1_1Tests.html#ab82ffeed30312e55936af7227d45055e":[0,0,4,17,0,3],
 "namespaceKarm_1_1Math_1_1Tests.html#af05bb89936a1b16b3061bdbaa03da774":[0,0,4,17,0,9],
@@ -249,5 +237,17 @@ var NAVTREEINDEX14 =
 "namespaceKarm_1_1Re.html#acd3539aad9b86aba9a6526392a9fb56c":[0,0,4,25,1],
 "namespaceKarm_1_1Re.html#ada70226358bd038166f52a10eb6392de":[0,0,4,25,27],
 "namespaceKarm_1_1Re.html#ae621de31c06797ac461186219130a82a":[0,0,4,25,25],
-"namespaceKarm_1_1Re.html#af31ba0bdbe908a578fa2ee28fbfacbb1":[0,0,4,25,14]
+"namespaceKarm_1_1Re.html#af31ba0bdbe908a578fa2ee28fbfacbb1":[0,0,4,25,14],
+"namespaceKarm_1_1Re.html#af37eb317a9d8fd4db5d97c9a142efbd2":[0,0,4,25,2],
+"namespaceKarm_1_1Re.html#afaa3132096256fcaf878482b0af53f1c":[0,0,4,25,17],
+"namespaceKarm_1_1Re.html#afbefc3cb48d13e7b56bc10af5c26111a":[0,0,4,25,11],
+"namespaceKarm_1_1Re.html#afd42c725f32eee61b508dd1afd65aec7":[0,0,4,25,35],
+"namespaceKarm_1_1Regex.html":[0,0,4,26],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898":[0,0,4,26,12],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898a1648b7ed82691a46fd01b6843d2fd258":[0,0,4,26,12,2],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898a3f9fb41adc7fc630862308604e717b6b":[0,0,4,26,12,1],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898a45cd6622dc11600dddf2f129cba2edff":[0,0,4,26,12,0],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898aa70f58d67f1cc1822f7735e17b2006a4":[0,0,4,26,12,3],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898ae29d1d2ceca88985d2cf3bd5ba380301":[0,0,4,26,12,4],
+"namespaceKarm_1_1Regex.html#ac4c76e58617dbb89dd86d2a7e8f9f2a9":[0,0,4,26,13]
 };

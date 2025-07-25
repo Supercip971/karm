@@ -35,7 +35,6 @@ var dir_f6b5e0c2fa4ef168cde623c05a00eb67 =
     [ "map.h", "map_8h.html", "map_8h" ],
     [ "niche.h", "niche_8h.html", "niche_8h" ],
     [ "opt.h", "opt_8h.html", "opt_8h" ],
-    [ "pack.h", "karm-base_2pack_8h.html", "karm-base_2pack_8h" ],
     [ "panic.cpp", "panic_8cpp.html", "panic_8cpp" ],
     [ "panic.h", "panic_8h.html", "panic_8h" ],
     [ "range.h", "range_8h.html", "range_8h" ],

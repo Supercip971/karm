@@ -9,7 +9,6 @@ var dir_87a455bccb09a92130c26a11a880c98a =
     [ "karm-gc", "dir_5a521d82086ec2c222c4521809d95df8.html", "dir_5a521d82086ec2c222c4521809d95df8" ],
     [ "karm-gfx", "dir_72c2cd474489e4bf5cfc1c37b502ef1d.html", "dir_72c2cd474489e4bf5cfc1c37b502ef1d" ],
     [ "karm-http", "dir_781d9ea28d26e5eebb4de68744911187.html", "dir_781d9ea28d26e5eebb4de68744911187" ],
-    [ "karm-icu", "dir_c541f5249274e7317e87e64cba7c57ff.html", "dir_c541f5249274e7317e87e64cba7c57ff" ],
     [ "karm-image", "dir_7e6fdb58758a9a7ef7d22cde38d3b808.html", "dir_7e6fdb58758a9a7ef7d22cde38d3b808" ],
     [ "karm-io", "dir_f9cc2060724f634b7c3f795b6b80dc1a.html", "dir_f9cc2060724f634b7c3f795b6b80dc1a" ],
     [ "karm-kira", "dir_06736972a74fcd963fed32b309ebb905.html", "dir_06736972a74fcd963fed32b309ebb905" ],

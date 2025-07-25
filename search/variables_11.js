@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['r_0',['r',['../unionKarm_1_1Math_1_1Vec4.html#a0a9cfd5555b05b2c790775febb31d134',1,'Karm::Math::Vec4']]],
+  ['r_0',['r',['../unionKarm_1_1Math_1_1Vec4.html#a0a9cfd5555b05b2c790775febb31d134',1,'Karm::Math::Vec4::r()'],['../namespaceKarm.html#ab93253fd7a7aae8746ab4140cebefa92',1,'Karm::r()']]],
   ['r_1',['R',['../namespaceKarm.html#ab4fb6e21445fe44f048caee98ac3ae23',1,'Karm']]],
-  ['r_2',['r',['../namespaceKarm.html#ab93253fd7a7aae8746ab4140cebefa92',1,'Karm::r()'],['../unionKarm_1_1Math_1_1Vec3.html#ad6bb0ec7c3627812601efbc6aba1bf8b',1,'Karm::Math::Vec3::r()']]],
+  ['r_2',['r',['../unionKarm_1_1Math_1_1Vec3.html#ad6bb0ec7c3627812601efbc6aba1bf8b',1,'Karm::Math::Vec3']]],
   ['radii_3',['radii',['../unionKarm_1_1Math_1_1Ellipse.html#a4568baab3f2ca8278c58a1de8ad61cf9',1,'Karm::Math::Ellipse::radii()'],['../structKarm_1_1Gfx_1_1Borders.html#a4310de18beeedc992e525e335eb89905',1,'Karm::Gfx::Borders::radii()'],['../structKarm_1_1Math_1_1Radii.html#a7c8ba96def3683aaf43ffa18d346ef85',1,'Karm::Math::Radii::radii()'],['../unionKarm_1_1Math_1_1Arc.html#ab3e8e5e9c7c3e53c047d4afb83c8edc4',1,'Karm::Math::Arc::radii()'],['../structKarm_1_1Math_1_1Path_1_1Op.html#a189469180d73c05b4c05a2b1f1c15d43',1,'Karm::Math::Path::Op::radii()']]],
   ['radius_4',['RADIUS',['../structKarm_1_1Ui_1_1ButtonStyle.html#a7026c71b241169b72e479bd12a19e80b',1,'Karm::Ui::ButtonStyle']]],
   ['range_5',['RANGE',['../structKarm_1_1Gfx_1_1BrightnessFilter.html#a01cf35ae07c23600afbd67900a923e06',1,'Karm::Gfx::BrightnessFilter::RANGE()'],['../structKarm_1_1Gfx_1_1BlurFilter.html#a4774361618a9da8025b44900a30fbb6f',1,'Karm::Gfx::BlurFilter::RANGE()'],['../structKarm_1_1Gfx_1_1SaturationFilter.html#a4b2f3ed016166a2b6311d9e88ee3b0a0',1,'Karm::Gfx::SaturationFilter::RANGE()'],['../structKarm_1_1Gfx_1_1SepiaFilter.html#ad2ba9442998bf98e1d01068f57cf98a5',1,'Karm::Gfx::SepiaFilter::RANGE()'],['../structKarm_1_1Gfx_1_1ContrastFilter.html#a5dc81c3088db27d1ac29bf11c56bff14',1,'Karm::Gfx::ContrastFilter::RANGE()'],['../structKarm_1_1Gfx_1_1NoiseFilter.html#a88638b1358add85cdaec2b9235b02aed',1,'Karm::Gfx::NoiseFilter::RANGE()']]],

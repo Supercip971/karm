@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['b_0',['b',['../unionKarm_1_1Math_1_1Quad.html#a1378e96a39029eb42108f34a0a468ae5',1,'Karm::Math::Quad']]],
+  ['b_0',['b',['../unionKarm_1_1Math_1_1Quad.html#a1378e96a39029eb42108f34a0a468ae5',1,'Karm::Math::Quad::b()'],['../namespaceKarm.html#af6cc2b2218d492b45d9a475312b8e644',1,'Karm::b()']]],
   ['b_1',['B',['../namespaceKarm.html#a03e1aff846b2faeb4e8bc413b298b2b8',1,'Karm']]],
-  ['b_2',['b',['../namespaceKarm.html#af6cc2b2218d492b45d9a475312b8e644',1,'Karm::b()'],['../unionKarm_1_1Math_1_1Curve.html#add194afb3004b007f67e08801e875752',1,'Karm::Math::Curve::b()'],['../unionKarm_1_1Sys_1_1Ip6.html#a2158740bf4942b07211a1c5dbb0c8f1d',1,'Karm::Sys::Ip6::b()'],['../unionKarm_1_1Sys_1_1Ip4.html#a7dc7a48805a382380480c80de2a66997',1,'Karm::Sys::Ip4::b()'],['../unionKarm_1_1Math_1_1Vec4.html#add956440b4042ade791fe4fbbf044560',1,'Karm::Math::Vec4::b()'],['../unionKarm_1_1Math_1_1Vec3.html#a42ea4fd8cccb3b2a58ac53feafc55eca',1,'Karm::Math::Vec3::b()'],['../unionKarm_1_1Math_1_1Tri2.html#a0c6486ebeecb1ee525b6a7e9b4c5026d',1,'Karm::Math::Tri2::b()'],['../structKarm_1_1Math_1_1Radii.html#a369ca7960b72c2b3b53dfbe9bb539730',1,'Karm::Math::Radii::b()']]],
+  ['b_2',['b',['../unionKarm_1_1Math_1_1Curve.html#add194afb3004b007f67e08801e875752',1,'Karm::Math::Curve::b()'],['../unionKarm_1_1Sys_1_1Ip6.html#a2158740bf4942b07211a1c5dbb0c8f1d',1,'Karm::Sys::Ip6::b()'],['../unionKarm_1_1Sys_1_1Ip4.html#a7dc7a48805a382380480c80de2a66997',1,'Karm::Sys::Ip4::b()'],['../unionKarm_1_1Math_1_1Vec4.html#add956440b4042ade791fe4fbbf044560',1,'Karm::Math::Vec4::b()'],['../unionKarm_1_1Math_1_1Vec3.html#a42ea4fd8cccb3b2a58ac53feafc55eca',1,'Karm::Math::Vec3::b()'],['../unionKarm_1_1Math_1_1Tri2.html#a0c6486ebeecb1ee525b6a7e9b4c5026d',1,'Karm::Math::Tri2::b()'],['../structKarm_1_1Math_1_1Radii.html#a369ca7960b72c2b3b53dfbe9bb539730',1,'Karm::Math::Radii::b()']]],
   ['b0_3',['B0',['../namespaceKarm_1_1Print.html#aefbea7a1567bbb0f6d8585c9e44c2df7',1,'Karm::Print']]],
   ['b1_4',['B1',['../namespaceKarm_1_1Print.html#a42cbf2d86d15a8a94d9ceee35937a221',1,'Karm::Print']]],
   ['b10_5',['B10',['../namespaceKarm_1_1Print.html#ababe894ad74534418544664d7f1998a9',1,'Karm::Print']]],
@@ -34,8 +34,8 @@ var searchData=
   ['borderfill_31',['borderFill',['../structKarm_1_1Ui_1_1BoxStyle.html#a825ead07664c664decb7d38e6bea7457',1,'Karm::Ui::BoxStyle']]],
   ['borderradii_32',['borderRadii',['../structKarm_1_1Ui_1_1BoxStyle.html#ac5ba08fb605f7f2f243879605253a2f7',1,'Karm::Ui::BoxStyle']]],
   ['borderwidth_33',['borderWidth',['../structKarm_1_1Ui_1_1BoxStyle.html#ade308c6f67e6d7dc207aed7b1d50efcd',1,'Karm::Ui::BoxStyle']]],
-  ['bottom_34',['BOTTOM',['../structKarm_1_1Math_1_1Align.html#a1b20378dd93536baa0e5b2d357d16bff',1,'Karm::Math::Align']]],
-  ['bottom_35',['bottom',['../structKarm_1_1Math_1_1Insets.html#aca4fb8af6aaed0c0b9fbecc265226320',1,'Karm::Math::Insets']]],
+  ['bottom_34',['bottom',['../structKarm_1_1Math_1_1Insets.html#aca4fb8af6aaed0c0b9fbecc265226320',1,'Karm::Math::Insets']]],
+  ['bottom_35',['BOTTOM',['../structKarm_1_1Math_1_1Align.html#a1b20378dd93536baa0e5b2d357d16bff',1,'Karm::Math::Align']]],
   ['bottom_5fend_36',['BOTTOM_END',['../structKarm_1_1Math_1_1Align.html#ae23d451f0ed15630969c0c24640f84cb',1,'Karm::Math::Align']]],
   ['bottom_5fstart_37',['BOTTOM_START',['../structKarm_1_1Math_1_1Align.html#a30363d69827db432af95c67ae50fd3ac',1,'Karm::Math::Align']]],
   ['bound_38',['bound',['../structKarm_1_1Ui_1_1Node_1_1PaintEvent.html#a4ae9e250a66c9bdb9d22af49c83dc0d6',1,'Karm::Ui::Node::PaintEvent']]],

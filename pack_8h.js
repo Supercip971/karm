@@ -1,4 +1,4 @@
-var karm_io_2pack_8h =
+var pack_8h =
 [
     [ "Karm::Io::PackEmit", "structKarm_1_1Io_1_1PackEmit.html", "structKarm_1_1Io_1_1PackEmit" ],
     [ "Karm::Io::PackScan", "structKarm_1_1Io_1_1PackScan.html", "structKarm_1_1Io_1_1PackScan" ],

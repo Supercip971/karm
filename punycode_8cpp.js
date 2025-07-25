@@ -1,4 +1,4 @@
 var punycode_8cpp =
 [
-    [ "Icu", "punycode_8cpp.html#a4606a1d568126e49e3a3b83c8c4296a4", null ]
+    [ "Core", "punycode_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['t_0',['t',['../namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a',1,'Karm']]],
-  ['t_1',['T',['../namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed',1,'Karm']]],
+  ['t_0',['T',['../namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed',1,'Karm']]],
+  ['t_1',['t',['../namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a',1,'Karm']]],
   ['tabloid_2',['TABLOID',['../namespaceKarm_1_1Print.html#a8631c7f0ffbfd50ae3967ba8934b8353',1,'Karm::Print']]],
   ['tag_3',['tag',['../structTtf_1_1ScriptTable.html#a95b9878c2186eec3eb7c03e135daba07',1,'Ttf::ScriptTable::tag()'],['../structTtf_1_1LangSys.html#a03ee1a27a062ee699427e23fc9750d8d',1,'Ttf::LangSys::tag()'],['../structTtf_1_1FeatureTable.html#a1d3d3b67ee2e757cff1e53f713513bcc',1,'Ttf::FeatureTable::tag()']]],
   ['tail_4',['tail',['../structKarm_1_1Text_1_1Model_1_1Cur.html#ac4c80d1bc2fe4c7c9cddb3188438a898',1,'Karm::Text::Model::Cur']]],
@@ -17,8 +17,8 @@ var searchData=
   ['to_14',['to',['../structKarm_1_1Rpc_1_1Header.html#a86397b0c68f46bb4014e7a78e0a37840',1,'Karm::Rpc::Header']]],
   ['tofu_15',['TOFU',['../structKarm_1_1Text_1_1Glyph.html#aec329e2395b4dd9a5d577f30aae21b37',1,'Karm::Text::Glyph']]],
   ['token_16',['token',['../structKarm_1_1Ml_1_1BpeVocab_1_1TokenInfos.html#a4a207ee6b7f3302f8fd6b8176ee66f1e',1,'Karm::Ml::BpeVocab::TokenInfos']]],
-  ['top_17',['TOP',['../structKarm_1_1Math_1_1Align.html#ae6ca3a77dd14c9f70cb6b7100de35931',1,'Karm::Math::Align']]],
-  ['top_18',['top',['../structKarm_1_1Math_1_1Insets.html#a6b6bcf709cd5dec2a5f285d9729258ae',1,'Karm::Math::Insets']]],
+  ['top_17',['top',['../structKarm_1_1Math_1_1Insets.html#a6b6bcf709cd5dec2a5f285d9729258ae',1,'Karm::Math::Insets']]],
+  ['top_18',['TOP',['../structKarm_1_1Math_1_1Align.html#ae6ca3a77dd14c9f70cb6b7100de35931',1,'Karm::Math::Align']]],
   ['top_5fend_19',['TOP_END',['../structKarm_1_1Math_1_1Align.html#a7679f2386dd6a05d04a99207b97fbcb5',1,'Karm::Math::Align']]],
   ['top_5fstart_20',['TOP_START',['../structKarm_1_1Math_1_1Align.html#acc65b34566324226a7f690ff47701314',1,'Karm::Math::Align']]],
   ['trailer_21',['trailer',['../structKarm_1_1Pdf_1_1File.html#a2015745cd6e923f253293b8d6d48bac5',1,'Karm::Pdf::File']]],
