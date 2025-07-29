@@ -6,7 +6,7 @@ var searchData=
   ['id_3',['id',['../structKarm_1_1App_1_1Event.html#aa207d6b0d37168a92dfb7ef1cc466211',1,'Karm::App::Event::id()'],['../structKarm_1_1Cell.html#a438868ad09eb38b7d0afa14ffd4e3866',1,'Karm::Cell::id()']]],
   ['idct_4',['idct',['../namespaceJpeg.html#a2ab94e62ad588eb235676980ab9321fc',1,'Jpeg']]],
   ['identity_5',['identity',['../unionKarm_1_1Math_1_1Mat2.html#aad66e78fa2b8ffd6abd1aaaab01277ca',1,'Karm::Math::Mat2::identity()'],['../unionKarm_1_1Math_1_1Trans2.html#a8b99f5086242a76aaadd22b88aef8935',1,'Karm::Math::Trans2::identity()']]],
-  ['image_6',['image',['../namespaceKarm_1_1Ui.html#a0c356f4dfcdfcafa256454e23506c115',1,'Karm::Ui::image(Karm::Image::Picture image)'],['../namespaceKarm_1_1Ui.html#acf7ade04c329d50a0673ff02b4f18999',1,'Karm::Ui::image(Karm::Image::Picture image, Math::Radiif radii)']]],
+  ['image_6',['image',['../namespaceKarm_1_1Ui.html#a1b20d65ae50855005273ec7e9bc39892',1,'Karm::Ui::image(Mime::Url url, Opt&lt; Math::Radiif &gt; radii=NONE)'],['../namespaceKarm_1_1Ui.html#a6d7d86bd58d6b3eed69ec77868d47104',1,'Karm::Ui::image(Karm::Image::Picture image, Opt&lt; Math::Radiif &gt; radii=NONE)']]],
   ['image_7',['Image',['../structKarm_1_1Scene_1_1Image.html#a61ed66a2491e337bdfd8739087af751c',1,'Karm::Scene::Image::Image()'],['../structKarm_1_1Ui_1_1Image.html#aebce8efb03f94c7f24d25d0c26903d37',1,'Karm::Ui::Image::Image()']]],
   ['imageprinter_8',['ImagePrinter',['../structKarm_1_1Print_1_1ImagePrinter.html#a0c77bfbea3b55792f99cca483ce7c1db',1,'Karm::Print::ImagePrinter']]],
   ['in_9',['In',['../structKarm_1_1Sys_1_1In.html#a16f0a53af81224abc7e791c61f4ddca0',1,'Karm::Sys::In']]],
