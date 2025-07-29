@@ -3,7 +3,7 @@ var structKarm_1_1Io_1_1BScan =
     [ "BScan", "structKarm_1_1Io_1_1BScan.html#a8e0cdc02ba542e39db7089315644892e", null ],
     [ "alignBits", "structKarm_1_1Io_1_1BScan.html#a029b4217c3c801ac2b81dae6b4f16f94", null ],
     [ "copyTo", "structKarm_1_1Io_1_1BScan.html#ac019d9860d783312f37e3a994ad16227", null ],
-    [ "ended", "structKarm_1_1Io_1_1BScan.html#ac87403dde29c669d1e01f603d7b03247", null ],
+    [ "ended", "structKarm_1_1Io_1_1BScan.html#adbcd7a5b4cb7ec97b70a87837ccb9ef5", null ],
     [ "next", "structKarm_1_1Io_1_1BScan.html#aa57800ae3590d952e9ec1959c03cd474", null ],
     [ "nextBe", "structKarm_1_1Io_1_1BScan.html#aab47e716aa16deea7dda6c1af68d5a07", null ],
     [ "nextBitbe", "structKarm_1_1Io_1_1BScan.html#af8e40d9099a1bc892deb90ee2faafe1a", null ],
@@ -55,12 +55,12 @@ var structKarm_1_1Io_1_1BScan =
     [ "peekU8be", "structKarm_1_1Io_1_1BScan.html#ac83a56eb44be136b6fb97d0cb563c9f2", null ],
     [ "peekU8le", "structKarm_1_1Io_1_1BScan.html#aba5baab3ea1a5aa2ccabdb60604fbe6e", null ],
     [ "readTo", "structKarm_1_1Io_1_1BScan.html#a8bb59c9bba19fda2ba0d01c3640987dc", null ],
-    [ "rem", "structKarm_1_1Io_1_1BScan.html#ae3e15f893f740623c8fddf793b6bf996", null ],
-    [ "remBytes", "structKarm_1_1Io_1_1BScan.html#a100fbda90fb6a2850fa4d0b2a68842f8", null ],
+    [ "rem", "structKarm_1_1Io_1_1BScan.html#a2722df8231348ef84aad131fb2799480", null ],
+    [ "remBytes", "structKarm_1_1Io_1_1BScan.html#a07e276b4594655b1369da6b7f278fcc3", null ],
     [ "rewind", "structKarm_1_1Io_1_1BScan.html#a03e850648ad229988484d590969f449d", null ],
     [ "seek", "structKarm_1_1Io_1_1BScan.html#a5ebbf470659e3eaece45b5d55193132c", null ],
     [ "skip", "structKarm_1_1Io_1_1BScan.html#a995bd30540c2656309fb181d504b4827", null ],
     [ "skipBitsbe", "structKarm_1_1Io_1_1BScan.html#a81e90e8e6a51faa43487e9e13ab16817", null ],
     [ "skipBitsle", "structKarm_1_1Io_1_1BScan.html#aabeb37a58dadf303d22329401b6820c9", null ],
-    [ "tell", "structKarm_1_1Io_1_1BScan.html#a2c3409db6ba0661c7d975701da90b851", null ]
+    [ "tell", "structKarm_1_1Io_1_1BScan.html#a4ed0d791eaf7292a2ce944e0338e664e", null ]
 ];

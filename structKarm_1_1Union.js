@@ -19,7 +19,7 @@ var structKarm_1_1Union =
     [ "operator=", "structKarm_1_1Union.html#a00183ba3eaa780b8fbcb73acfa2b049c", null ],
     [ "operator==", "structKarm_1_1Union.html#ad888e73bb0c4784dc501e49523cc0ea4", null ],
     [ "operator==", "structKarm_1_1Union.html#a7ac3d39da7793486da6fc245fecec200", null ],
-    [ "take", "structKarm_1_1Union.html#a31368ac3f15cdbf42c28aa23756dad6f", null ],
+    [ "take", "structKarm_1_1Union.html#adc036cc22e255774c31472ad541c962f", null ],
     [ "unwrap", "structKarm_1_1Union.html#aab3442e905ecb1ee2869fde902ee31fb", null ],
     [ "unwrap", "structKarm_1_1Union.html#a7d3c51bee7dc24f37bc5e540f64fcf0b", null ],
     [ "unwrapOr", "structKarm_1_1Union.html#a6529d536612fa4dcddd58d69f0487ba0", null ],
