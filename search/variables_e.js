@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['o_0',['o',['../unionKarm_1_1Math_1_1Trans2.html#a9b7cb2da0ce7c60606ea908a609817fe',1,'Karm::Math::Trans2']]],
+  ['o_0',['o',['../unionKarm_1_1Math_1_1Trans2.html#a9b7cb2da0ce7c60606ea908a609817fe',1,'Karm::Math::Trans2::o()'],['../namespaceKarm.html#a036724bd08905e4572a1545aed2adf19',1,'Karm::o()']]],
   ['o_1',['O',['../namespaceKarm.html#a812f017b8cc13df6dada1cb5773c00fe',1,'Karm']]],
-  ['o_2',['o',['../namespaceKarm.html#a036724bd08905e4572a1545aed2adf19',1,'Karm::o()'],['../structKarm_1_1Math_1_1Ray.html#ad97c4fc4439a7a6863eb175f9798e71e',1,'Karm::Math::Ray::o()']]],
+  ['o_2',['o',['../structKarm_1_1Math_1_1Ray.html#ad97c4fc4439a7a6863eb175f9798e71e',1,'Karm::Math::Ray']]],
   ['objects_3',['objects',['../structKarm_1_1Sys_1_1Intent.html#ae700b094aed044233a387495b8a16929',1,'Karm::Sys::Intent']]],
   ['offs_4',['offs',['../structJpeg_1_1Huff.html#a316be6c2c24b784fc758e636c5edd397',1,'Jpeg::Huff']]],
   ['offset_5',['offset',['../structKarm_1_1Gfx_1_1Outline.html#a67f6120bd56c83fb000a7d29a95b8dbf',1,'Karm::Gfx::Outline::offset()'],['../structTtf_1_1Name_1_1Record.html#ab9f36019fa8260d21f4a95b2172db6b4',1,'Ttf::Name::Record::offset()'],['../structKarm_1_1Sys_1_1MmapProps.html#a554df5043fe094e08f46603a4c415785',1,'Karm::Sys::MmapProps::offset()'],['../structKarm_1_1Ml_1_1Gguf_1_1TensorInfos.html#a55fed53ece5feaebc06eb2b3eabbe00f',1,'Karm::Ml::Gguf::TensorInfos::offset()'],['../structKarm_1_1Gfx_1_1BoxShadow.html#aa54cefc5569f37143835c41373d470a4',1,'Karm::Gfx::BoxShadow::offset()'],['../structKarm_1_1Io_1_1BField.html#a4378da38115ad9fb50f96e31d05bd0aa',1,'Karm::Io::BField::offset()'],['../structKarm_1_1Pdf_1_1XRef_1_1Entry.html#a85fb7465d44a1ea7907ccdbfdbe6dda7',1,'Karm::Pdf::XRef::Entry::offset()'],['../structKarm_1_1Io_1_1Seek.html#afb108ff405e0509c6af50ed077bf5cb9',1,'Karm::Io::Seek::offset()']]],

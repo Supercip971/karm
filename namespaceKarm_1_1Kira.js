@@ -67,6 +67,7 @@ var namespaceKarm_1_1Kira =
     [ "contextMenuIcon", "namespaceKarm_1_1Kira.html#af9b6f463db822ba0c55a77c7af9f36f7", null ],
     [ "contextMenuItem", "namespaceKarm_1_1Kira.html#aaf5981f649bb0d5efb69ba73067a6c6a", null ],
     [ "dialogAction", "namespaceKarm_1_1Kira.html#a4f795981974829d97e66eea9fa251c94", null ],
+    [ "dialogBody", "namespaceKarm_1_1Kira.html#a08a0c20919a343a439ff33014f006852", null ],
     [ "dialogCancel", "namespaceKarm_1_1Kira.html#a8c7223c5bb7a2856acf1195ebb5b8887", null ],
     [ "dialogContent", "namespaceKarm_1_1Kira.html#a1b827da8c7509f1db388dd7899b00ad7", null ],
     [ "dialogDescription", "namespaceKarm_1_1Kira.html#ab29744745a158d759d3a9b97bb1aef26", null ],

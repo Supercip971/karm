@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"prose_8h_source.html":[3,0,0,1,26,15],
+"proxy_8cpp.html":[3,0,0,1,23,7],
 "proxy_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,23,7,1],
 "proxy_8cpp.html#afca124844d1743677fb36a9992bd0cf5":[3,0,0,1,23,7,2],
 "ptr_8cpp.html":[3,0,0,1,6,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "rune_8h.html#a883585f91ee70e36508b82f74882d852":[3,0,0,1,2,42,24],
 "rune_8h.html#a8ab6724e477fd91bf504fe9d4c62a885":[3,0,0,1,2,42,37],
 "rune_8h.html#a8b69acf080b98de3a0e981fe3e468fc8":[3,0,0,1,2,42,168],
-"rune_8h.html#a8b7c1d2cb02a3010a1b25cd33dab2bcb":[3,0,0,1,2,42,192],
-"rune_8h.html#a8beebd0c4f8a6626830d5db899c06105":[3,0,0,1,2,42,80],
-"rune_8h.html#a8c537365ccb761e00dba0bb77ad0cc92":[3,0,0,1,2,42,15]
+"rune_8h.html#a8b7c1d2cb02a3010a1b25cd33dab2bcb":[3,0,0,1,2,42,192]
 };

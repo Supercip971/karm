@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['l_0',['l',['../namespaceKarm.html#af92eb1f30e4d89227ea345edf23ebb6b',1,'Karm']]],
-  ['l_1',['L',['../namespaceKarm.html#a8b69acf080b98de3a0e981fe3e468fc8',1,'Karm::L()'],['../namespaceKarm_1_1Icu.html#a374f62108410f9c0065ef638d0b1fb63ad20caec3b48a1eef164cb4ca81ba2587',1,'Karm::Icu::L()']]],
+  ['l_0',['L',['../namespaceKarm.html#a8b69acf080b98de3a0e981fe3e468fc8',1,'Karm::L()'],['../namespaceKarm_1_1Icu.html#a374f62108410f9c0065ef638d0b1fb63ad20caec3b48a1eef164cb4ca81ba2587',1,'Karm::Icu::L()']]],
+  ['l_1',['l',['../namespaceKarm.html#af92eb1f30e4d89227ea345edf23ebb6b',1,'Karm']]],
   ['l2_5fe_2',['L2_E',['../namespaceKarm_1_1Math.html#a0d01e975c80d5c2aea19a4e5bfd11d62',1,'Karm::Math']]],
   ['labellarge_3',['labelLarge',['../structKarm_1_1Ui_1_1TextStyles.html#ac88c03f1d331258e775582cb2aad9c51',1,'Karm::Ui::TextStyles']]],
   ['labelmedium_4',['labelMedium',['../structKarm_1_1Ui_1_1TextStyles.html#aadf5ee54c75c901740d11e65719a2659',1,'Karm::Ui::TextStyles']]],

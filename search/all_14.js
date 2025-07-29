@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['u_0',['u',['../namespaceKarm.html#a09fe05ee86b71772bc9e706b93e4872f',1,'Karm']]],
-  ['u_1',['U',['../namespaceKarm.html#a0eb0b2619128a2946d40447f5b25cd85',1,'Karm']]],
+  ['u_0',['U',['../namespaceKarm.html#a0eb0b2619128a2946d40447f5b25cd85',1,'Karm']]],
+  ['u_1',['u',['../namespaceKarm.html#a09fe05ee86b71772bc9e706b93e4872f',1,'Karm']]],
   ['u16_2',['u16',['../namespaceKarm.html#ad16f1afb3e5ed2bc1cdf9273ab539216',1,'Karm']]],
   ['u16be_3',['u16be',['../namespaceKarm.html#a3f2d3e4bb1dea41b21697f8e07b5bfcf',1,'Karm']]],
   ['u16le_4',['u16le',['../namespaceKarm.html#a234de13e39ff5d3ba08a533ca0b74657',1,'Karm']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"karm-math_2vec_8h.html#a526de289f18012e75813f9c83bec311b":[3,0,0,1,14,29,9],
 "karm-math_2vec_8h.html#a56f2606c6b18dfbc707d97f5fa11bb67":[3,0,0,1,14,29,25],
 "karm-math_2vec_8h.html#a613db4fdffaade82aa2708cabea92fc5":[3,0,0,1,14,29,4],
 "karm-math_2vec_8h.html#a6dcb44f74c7047f88189680b24e4a22a":[3,0,0,1,14,29,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "layout_8cpp.html#a6539cb0632e4bd790b54ff37bbeba743":[3,0,0,1,28,11,66],
 "layout_8cpp.html#a69844f688f511614c16399938b444643":[3,0,0,1,28,11,76],
 "layout_8cpp.html#a6a49edb341c27638fd3289068b4424c5":[3,0,0,1,28,11,24],
-"layout_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c":[3,0,0,1,28,11,87],
-"layout_8cpp.html#a741ff8037249a408cecbc772a93cda77":[3,0,0,1,28,11,34]
+"layout_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c":[3,0,0,1,28,11,87]
 };

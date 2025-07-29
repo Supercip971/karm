@@ -2,6 +2,7 @@ var karm_kira_2dialog_8cpp =
 [
     [ "alertDialog", "karm-kira_2dialog_8cpp.html#a31b88418e89eb8dda586b0fdb5ec9f2c", null ],
     [ "dialogAction", "karm-kira_2dialog_8cpp.html#a4f795981974829d97e66eea9fa251c94", null ],
+    [ "dialogBody", "karm-kira_2dialog_8cpp.html#a08a0c20919a343a439ff33014f006852", null ],
     [ "dialogCancel", "karm-kira_2dialog_8cpp.html#a8c7223c5bb7a2856acf1195ebb5b8887", null ],
     [ "dialogContent", "karm-kira_2dialog_8cpp.html#a1b827da8c7509f1db388dd7899b00ad7", null ],
     [ "dialogDescription", "karm-kira_2dialog_8cpp.html#ab29744745a158d759d3a9b97bb1aef26", null ],

@@ -13,7 +13,7 @@ var atoms_8cpp =
     [ "ACCENT900", "atoms_8cpp.html#a7c0870c7ffd6d2c397569e32b4fcf2fb", null ],
     [ "ACCENT950", "atoms_8cpp.html#a134a0d37031b3ff30fce06ac73f2a134", null ],
     [ "ACCENTS", "atoms_8cpp.html#ab8ca4e70cff081c8277b77b584743c8a", null ],
-    [ "DARK_MODE", "atoms_8cpp.html#a19b3343d0c35ffebf5d44f0369fc6e86", null ],
+    [ "darkMode", "atoms_8cpp.html#a1c48579e659fefe3594323ce15a0af2e", null ],
     [ "GRAY", "atoms_8cpp.html#a96103c94788a1a081f4511cad4720cd9", null ],
     [ "GRAY100", "atoms_8cpp.html#abc7a0aab0572e4c6df04d223b8dea189", null ],
     [ "GRAY200", "atoms_8cpp.html#a4ceafba9997f458b94aeed75b4a405a7", null ],

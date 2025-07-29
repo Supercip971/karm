@@ -50,5 +50,5 @@ var namespaceKarm_1_1App =
     [ "globalPrefs", "namespaceKarm_1_1App.html#a37696b84bfa2be7156a9a1e3cffddecc", null ],
     [ "makeEvent", "namespaceKarm_1_1App.html#a304d8683feb30dd8ab494db4964877f1", null ],
     [ "match", "namespaceKarm_1_1App.html#ac5f954173dc6686031920b4a6694803e", null ],
-    [ "formFactor", "namespaceKarm_1_1App.html#a6a4c90f00be9d08398e5f46a9e161e25", null ]
+    [ "formFactor", "namespaceKarm_1_1App.html#a9a00db032c87a16a0a7507eb1a9b8e08", null ]
 ];

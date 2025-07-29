@@ -5,5 +5,5 @@ var form_factor_8cpp =
       [ "MOBILE", "form-factor_8cpp.html#ae8b0398827181942904ae3adf1faf662ad9e3110063ba107ab79340dceebc2d7b", null ]
     ] ],
     [ "App", "form-factor_8cpp.html#a13f54950fa9f83c0b98769ddc06c2c47", null ],
-    [ "formFactor", "form-factor_8cpp.html#a6a4c90f00be9d08398e5f46a9e161e25", null ]
+    [ "formFactor", "form-factor_8cpp.html#a9a00db032c87a16a0a7507eb1a9b8e08", null ]
 ];

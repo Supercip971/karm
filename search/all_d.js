@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['n_0',['N',['../namespaceKarm.html#a2d253ecfc1b8ce9edd8e68876d98d28a',1,'Karm']]],
-  ['n_1',['n',['../namespaceKarm.html#a7fec9ca9ba58cdd8234462b1656e7058',1,'Karm']]],
+  ['n_0',['n',['../namespaceKarm.html#a7fec9ca9ba58cdd8234462b1656e7058',1,'Karm']]],
+  ['n_1',['N',['../namespaceKarm.html#a2d253ecfc1b8ce9edd8e68876d98d28a',1,'Karm']]],
   ['name_2',['Name',['../structKarm_1_1Pdf_1_1Name.html',1,'Karm::Pdf']]],
   ['name_3',['NAME',['../structKarm_1_1Gfx_1_1BlurFilter.html#adc397ece8b9ff7da24ec2f9ba223df5e',1,'Karm::Gfx::BlurFilter']]],
   ['name_4',['name',['../structKarm_1_1Gfx_1_1Icon.html#ae2937863f6d869ab9496b60a354e6b5e',1,'Karm::Gfx::Icon::name()'],['../structKarm_1_1Level.html#abd78a551e03b0c4bdb138c1cabf343a3',1,'Karm::Level::name()'],['../structKarm_1_1Ml_1_1Gguf_1_1TensorInfos.html#a7cfedb40bb9a4c5c0c7fd1474cd24e6a',1,'Karm::Ml::Gguf::TensorInfos::name()'],['../structKarm_1_1Net_1_1Dns_1_1Question.html#ab56f7a885e202d82d9fded50e4454250',1,'Karm::Net::Dns::Question::name()'],['../structKarm_1_1Net_1_1Dns_1_1Answer.html#a21f912dd07892f164827cf13dd64145a',1,'Karm::Net::Dns::Answer::name()'],['../structKarm_1_1Print_1_1PaperStock.html#a0a52fa0ef03912dc2ebbdc6cfac5f978',1,'Karm::Print::PaperStock::name()'],['../structKarm_1_1Print_1_1PaperSeries.html#ad23f9e8a27e2de43d43f900ee0889afc',1,'Karm::Print::PaperSeries::name()'],['../structKarm_1_1Sys_1_1DirEntry.html#a3f97244997b35b1b80aa6252f27fe530',1,'Karm::Sys::DirEntry::name()'],['../structKarm_1_1Sys_1_1CpuInfo.html#a83337ed74dc689e1fb1fc0d11a483251',1,'Karm::Sys::CpuInfo::name()'],['../structKarm_1_1Sys_1_1UserInfo.html#a97bb6f046c0a3c0a6477fe841fb84699',1,'Karm::Sys::UserInfo::name()'],['../structKarm_1_1App_1_1Key.html#afec2a9255376f2c49ec446b6a6e42d42',1,'Karm::App::Key::name()']]],
@@ -114,8 +114,8 @@ var searchData=
   ['num_111',['num',['../structKarm_1_1Pdf_1_1Ref.html#a3fd9406414fbd77d847338b2127360ce',1,'Karm::Pdf::Ref::num()'],['../structKarm_1_1Math_1_1BigFrac.html#ab5c63df15cfe1b9d3012d5731967e5db',1,'Karm::Math::BigFrac::num()']]],
   ['num_112',['NUM',['../namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a44119bf3bae5d40a8d0766b91c304aac',1,'Karm::App']]],
   ['num_113',['num',['../structKarm_1_1Math_1_1BigFrac.html#abe3961cf6c714fcb3334c24eb7a19a2b',1,'Karm::Math::BigFrac']]],
-  ['number_114',['Number',['../namespaceKarm_1_1Serde.html#a84a094c1f5b7461d8ad9cde1d0a31e0f',1,'Karm::Serde']]],
-  ['number_115',['number',['../namespaceKarm_1_1Kira.html#a6606189c4cdbc41c1e86c4a3f98e5e36',1,'Karm::Kira']]],
+  ['number_114',['number',['../namespaceKarm_1_1Kira.html#a6606189c4cdbc41c1e86c4a3f98e5e36',1,'Karm::Kira']]],
+  ['number_115',['Number',['../namespaceKarm_1_1Serde.html#a84a094c1f5b7461d8ad9cde1d0a31e0f',1,'Karm::Serde']]],
   ['number_2ecpp_116',['number.cpp',['../number_8cpp.html',1,'']]],
   ['numberformatter_117',['NumberFormatter',['../structKarm_1_1Io_1_1NumberFormatter.html',1,'Karm::Io']]],
   ['numberofhmetrics_118',['NumberOfHMetrics',['../structTtf_1_1Hhea.html#ab2086a226c2184c25f5a1cf655787acb',1,'Ttf::Hhea']]],

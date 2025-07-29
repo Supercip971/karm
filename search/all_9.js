@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['j_0',['j',['../namespaceKarm.html#ada853e4447811c467dd885209fbc6a82',1,'Karm']]],
-  ['j_1',['J',['../namespaceKarm.html#a7f1715deac1238023bf2412c822f41d9',1,'Karm']]],
+  ['j_0',['J',['../namespaceKarm.html#a7f1715deac1238023bf2412c822f41d9',1,'Karm']]],
+  ['j_1',['j',['../namespaceKarm.html#ada853e4447811c467dd885209fbc6a82',1,'Karm']]],
   ['jis_5fb0_2',['JIS_B0',['../namespaceKarm_1_1Print.html#aefad61063fe604cf440314d04e1baa66',1,'Karm::Print']]],
   ['jis_5fb1_3',['JIS_B1',['../namespaceKarm_1_1Print.html#a1c15df2d7a1efa2d2c75f07e7d3e5238',1,'Karm::Print']]],
   ['jis_5fb10_4',['JIS_B10',['../namespaceKarm_1_1Print.html#ac188753392c57417cd09cab51ad9d1c5',1,'Karm::Print']]],
