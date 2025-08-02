@@ -19,6 +19,6 @@ var code_8cpp =
     [ "codeClass", "code_8cpp.html#aa30787939493f3b406f8de83a4577318", null ],
     [ "parseCode", "code_8cpp.html#a3b3e4c1f9ed1115a178e32b46c0bbaec", null ],
     [ "toStr", "code_8cpp.html#a85d5d3a532933caba9af5037207fd42c", null ],
-    [ "Http", "code_8cpp.html#ae4e6389ba964884ff5221427019b2efc", null ],
-    [ "module", "code_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
+    [ "Core", "code_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Http", "code_8cpp.html#ae4e6389ba964884ff5221427019b2efc", null ]
 ];

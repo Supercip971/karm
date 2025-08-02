@@ -4,6 +4,6 @@ var dir_5d35bd94269d4c48adb3753a1977e021 =
     [ "tests", "dir_8ef9a712410be6b60772e1866bae0b6f.html", "dir_8ef9a712410be6b60772e1866bae0b6f" ],
     [ "driver.cpp", "driver_8cpp.html", "driver_8cpp" ],
     [ "driver.h", "driver_8h.html", "driver_8h" ],
-    [ "macros.h", "libs_2karm-test_2macros_8h.html", "libs_2karm-test_2macros_8h" ],
+    [ "macros.h", "karm-test_2macros_8h.html", "karm-test_2macros_8h" ],
     [ "test.h", "test_8h.html", "test_8h" ]
 ];

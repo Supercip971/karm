@@ -8,5 +8,6 @@ var test_flags_8cpp =
     [ "test$", "test-flags_8cpp.html#ad0d3a9d42f21363aa213a7e322a0e661", null ],
     [ "test$", "test-flags_8cpp.html#a901fbd21ce5014fd05edde6c79487363", null ],
     [ "test$", "test-flags_8cpp.html#a738fe6285779fd2d85aaddf82983d1da", null ],
-    [ "test$", "test-flags_8cpp.html#a3b881b79ff696cc668e36b1a8fe4f6d7", null ]
+    [ "test$", "test-flags_8cpp.html#a3b881b79ff696cc668e36b1a8fe4f6d7", null ],
+    [ "Core", "test-flags_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

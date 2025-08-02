@@ -4,5 +4,5 @@ var dir_b9189a4f9ba7a286c997d606fe90d063 =
     [ "funcs.cpp", "karm-core_2aio_2funcs_8cpp.html", "karm-core_2aio_2funcs_8cpp" ],
     [ "mod.cpp", "karm-core_2aio_2mod_8cpp.html", "karm-core_2aio_2mod_8cpp" ],
     [ "pipe.cpp", "karm-core_2aio_2pipe_8cpp.html", "karm-core_2aio_2pipe_8cpp" ],
-    [ "traits.cpp", "traits_8cpp.html", "traits_8cpp" ]
+    [ "traits.cpp", "aio_2traits_8cpp.html", "aio_2traits_8cpp" ]
 ];

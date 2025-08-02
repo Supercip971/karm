@@ -13,7 +13,7 @@ var namespaceKarm_1_1Async =
       [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a2373d4164b45231493462fc75e729fb3", null ]
     ] ],
     [ "Awaiter", "structKarm_1_1Async_1_1Awaiter.html", "structKarm_1_1Async_1_1Awaiter" ],
-    [ "Cancelation", "structKarm_1_1Async_1_1Cancelation.html", "structKarm_1_1Async_1_1Cancelation" ],
+    [ "Cancellation", "structKarm_1_1Async_1_1Cancellation.html", "structKarm_1_1Async_1_1Cancellation" ],
     [ "Context", "structKarm_1_1Async_1_1Context.html", "structKarm_1_1Async_1_1Context" ],
     [ "Continuation", "structKarm_1_1Async_1_1Continuation.html", "structKarm_1_1Async_1_1Continuation" ],
     [ "Inline", "structKarm_1_1Async_1_1Inline.html", null ],
@@ -26,7 +26,7 @@ var namespaceKarm_1_1Async =
     [ "Operation", "conceptKarm_1_1Async_1_1Operation.html", null ],
     [ "Receiver", "conceptKarm_1_1Async_1_1Receiver.html", null ],
     [ "Sender", "conceptKarm_1_1Async_1_1Sender.html", null ],
-    [ "Ct", "namespaceKarm_1_1Async.html#a84a28fe2198a7d4592c7b8d9ae7edc2d", null ],
+    [ "Ct", "namespaceKarm_1_1Async.html#a33545b8707ac3ad65228416b174b94f6", null ],
     [ "Future", "namespaceKarm_1_1Async.html#ac982df6cc775113df6d9844c5408dffd", null ],
     [ "OperationOf", "namespaceKarm_1_1Async.html#abf731c3505af4c13e4b44e5771681048", null ],
     [ "Promise", "namespaceKarm_1_1Async.html#ae1cd9687a512559d20397a39ddd6ef50", null ],
@@ -36,6 +36,12 @@ var namespaceKarm_1_1Async =
       [ "PAST_START", "namespaceKarm_1_1Async.html#a979dbfb9df43c8f4b720c43338696a40a69e29e951a6108ff1df10069c790dc52", null ],
       [ "PAST_SUSPEND", "namespaceKarm_1_1Async.html#a979dbfb9df43c8f4b720c43338696a40a0ebe1fc8e46860bab41eff4806f6764e", null ]
     ] ],
-    [ "makeTask", "namespaceKarm_1_1Async.html#a4d1cb0dae76fe4666e74b4a1dd98045e", null ],
-    [ "operator co_await", "namespaceKarm_1_1Async.html#ab537230c734bf29b70a8badd67e1744e", null ]
+    [ "detach", "namespaceKarm_1_1Async.html#a75d899ee637b3881519f868a1f04e8c9", null ],
+    [ "detach", "namespaceKarm_1_1Async.html#a9fd2f8c96b4423e429e42bcab53b90bd", null ],
+    [ "makeTask", "namespaceKarm_1_1Async.html#a1273e4ff1f8273445050403830da5ea8", null ],
+    [ "operator co_await", "namespaceKarm_1_1Async.html#a5c523d458f6d7f7aa7adee21d847d0b2", null ],
+    [ "run", "namespaceKarm_1_1Async.html#a9c5ed5b879071713ee630efbbab99d8b", null ],
+    [ "run", "namespaceKarm_1_1Async.html#a13f1166a03e80be2aeaaf9670fdb5425", null ],
+    [ "INLINE", "namespaceKarm_1_1Async.html#a438ab719d87e589874ea4e060f59bca0", null ],
+    [ "LATER", "namespaceKarm_1_1Async.html#a5bafa08d6e3b6db781005727dcdb388d", null ]
 ];

@@ -8,5 +8,6 @@ var test_sscan_8cpp =
     [ "test$", "test-sscan_8cpp.html#ae3e427b15f4dbbb0ddd29a8279b419ae", null ],
     [ "test$", "test-sscan_8cpp.html#a2a2fddb8de477071540a41c4afcbb170", null ],
     [ "test$", "test-sscan_8cpp.html#a1da717c0a88a1697e5ba813f599b2557", null ],
-    [ "test$", "test-sscan_8cpp.html#a5f640bb7f31fcdb6d048c2caa6676c07", null ]
+    [ "test$", "test-sscan_8cpp.html#a5f640bb7f31fcdb6d048c2caa6676c07", null ],
+    [ "Core", "test-sscan_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

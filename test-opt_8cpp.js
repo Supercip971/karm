@@ -12,5 +12,6 @@ var test_opt_8cpp =
     [ "test$", "test-opt_8cpp.html#af52fe039f6206289116a11b203dd55ba", null ],
     [ "test$", "test-opt_8cpp.html#ae3989563c52f8152d7f5f0836be14aa8", null ],
     [ "test$", "test-opt_8cpp.html#af47110a02b6ba1498e6915b74268e0b5", null ],
-    [ "test$", "test-opt_8cpp.html#a420c29199846d2ffb077c37b77b8a6f2", null ]
+    [ "test$", "test-opt_8cpp.html#a420c29199846d2ffb077c37b77b8a6f2", null ],
+    [ "Core", "test-opt_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

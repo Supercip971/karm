@@ -10,6 +10,6 @@ var method_8cpp =
     ] ],
     [ "parseMethod", "method_8cpp.html#a67c9f0343cc32ada30956766b7c011ae", null ],
     [ "toStr", "method_8cpp.html#a6f9f37dfdb88da1656cbba3657156a25", null ],
-    [ "Http", "method_8cpp.html#ae4e6389ba964884ff5221427019b2efc", null ],
-    [ "module", "method_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
+    [ "Core", "method_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Http", "method_8cpp.html#ae4e6389ba964884ff5221427019b2efc", null ]
 ];

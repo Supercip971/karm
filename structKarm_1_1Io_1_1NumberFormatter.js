@@ -1,11 +1,11 @@
 var structKarm_1_1Io_1_1NumberFormatter =
 [
-    [ "formatFloat", "structKarm_1_1Io_1_1NumberFormatter.html#a4cbf66252eac5be90ec7d82b002e9323", null ],
+    [ "formatFloat", "structKarm_1_1Io_1_1NumberFormatter.html#af22a6b01bd557133c93b432d602511dc", null ],
     [ "formatPrefix", "structKarm_1_1Io_1_1NumberFormatter.html#a1283df442cf2928432afb7ad191578ab", null ],
-    [ "formatRune", "structKarm_1_1Io_1_1NumberFormatter.html#acf1d5362027ed172126403451af4b876", null ],
-    [ "formatSigned", "structKarm_1_1Io_1_1NumberFormatter.html#ae6f3ab379330bbc4750aed3eb367854c", null ],
-    [ "formatUnsigned", "structKarm_1_1Io_1_1NumberFormatter.html#afca82bb612ff9bedbe02974cab9657f9", null ],
-    [ "parse", "structKarm_1_1Io_1_1NumberFormatter.html#a85af187143493211a747e3b8ccc7b430", null ],
+    [ "formatRune", "structKarm_1_1Io_1_1NumberFormatter.html#a951f1ff7baff6517c2ee52b8cd0ccb9d", null ],
+    [ "formatSigned", "structKarm_1_1Io_1_1NumberFormatter.html#a2e6c15f360b2e9b18a858ea85d78143d", null ],
+    [ "formatUnsigned", "structKarm_1_1Io_1_1NumberFormatter.html#abb4b79c4f19c81416013495797172aff", null ],
+    [ "parse", "structKarm_1_1Io_1_1NumberFormatter.html#a00088231c0624817af413d201cb22b6a", null ],
     [ "parse", "structKarm_1_1Io_1_1NumberFormatter.html#af84d27596a794530658591405c602e92", null ],
     [ "base", "structKarm_1_1Io_1_1NumberFormatter.html#a2f363a6750cbd42b4bb59e1acf9423cc", null ],
     [ "fillChar", "structKarm_1_1Io_1_1NumberFormatter.html#a1ae1837a5390a03c65665aa51449fb44", null ],

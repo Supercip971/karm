@@ -1,17 +1,18 @@
 var otlayout_8h =
 [
-    [ "Ttf::LangSys", "structTtf_1_1LangSys.html", "structTtf_1_1LangSys" ],
-    [ "Ttf::ScriptTable", "structTtf_1_1ScriptTable.html", "structTtf_1_1ScriptTable" ],
-    [ "Ttf::ScriptList", "structTtf_1_1ScriptList.html", "structTtf_1_1ScriptList" ],
-    [ "Ttf::FeatureTable", "structTtf_1_1FeatureTable.html", "structTtf_1_1FeatureTable" ],
-    [ "Ttf::FeatureList", "structTtf_1_1FeatureList.html", "structTtf_1_1FeatureList" ],
-    [ "Ttf::CoverageTable", "structTtf_1_1CoverageTable.html", "structTtf_1_1CoverageTable" ],
-    [ "Ttf::LookupSubtableBase", "structTtf_1_1LookupSubtableBase.html", "structTtf_1_1LookupSubtableBase" ],
-    [ "Ttf::ValueRecord", "structTtf_1_1ValueRecord.html", "structTtf_1_1ValueRecord" ],
-    [ "Ttf::GlyphPairAdjustment", "structTtf_1_1GlyphPairAdjustment.html", "structTtf_1_1GlyphPairAdjustment" ],
-    [ "Ttf::ClassDef", "structTtf_1_1ClassDef.html", "structTtf_1_1ClassDef" ],
-    [ "Ttf::ClassPairAdjustment", "structTtf_1_1ClassPairAdjustment.html", "structTtf_1_1ClassPairAdjustment" ],
-    [ "Ttf::LookupTable", "structTtf_1_1LookupTable.html", "structTtf_1_1LookupTable" ],
-    [ "Ttf::LookupList", "structTtf_1_1LookupList.html", "structTtf_1_1LookupList" ],
-    [ "LookupSubtable", "otlayout_8h.html#a07614b023a12da1c75dfa78d4d57720f", null ]
+    [ "Karm::Text::Ttf::LangSys", "structKarm_1_1Text_1_1Ttf_1_1LangSys.html", "structKarm_1_1Text_1_1Ttf_1_1LangSys" ],
+    [ "Karm::Text::Ttf::ScriptTable", "structKarm_1_1Text_1_1Ttf_1_1ScriptTable.html", "structKarm_1_1Text_1_1Ttf_1_1ScriptTable" ],
+    [ "Karm::Text::Ttf::ScriptList", "structKarm_1_1Text_1_1Ttf_1_1ScriptList.html", "structKarm_1_1Text_1_1Ttf_1_1ScriptList" ],
+    [ "Karm::Text::Ttf::FeatureTable", "structKarm_1_1Text_1_1Ttf_1_1FeatureTable.html", "structKarm_1_1Text_1_1Ttf_1_1FeatureTable" ],
+    [ "Karm::Text::Ttf::FeatureList", "structKarm_1_1Text_1_1Ttf_1_1FeatureList.html", "structKarm_1_1Text_1_1Ttf_1_1FeatureList" ],
+    [ "Karm::Text::Ttf::CoverageTable", "structKarm_1_1Text_1_1Ttf_1_1CoverageTable.html", "structKarm_1_1Text_1_1Ttf_1_1CoverageTable" ],
+    [ "Karm::Text::Ttf::LookupSubtableBase", "structKarm_1_1Text_1_1Ttf_1_1LookupSubtableBase.html", "structKarm_1_1Text_1_1Ttf_1_1LookupSubtableBase" ],
+    [ "Karm::Text::Ttf::ValueRecord", "structKarm_1_1Text_1_1Ttf_1_1ValueRecord.html", "structKarm_1_1Text_1_1Ttf_1_1ValueRecord" ],
+    [ "Karm::Text::Ttf::GlyphPairAdjustment", "structKarm_1_1Text_1_1Ttf_1_1GlyphPairAdjustment.html", "structKarm_1_1Text_1_1Ttf_1_1GlyphPairAdjustment" ],
+    [ "Karm::Text::Ttf::ClassDef", "structKarm_1_1Text_1_1Ttf_1_1ClassDef.html", "structKarm_1_1Text_1_1Ttf_1_1ClassDef" ],
+    [ "Karm::Text::Ttf::ClassPairAdjustment", "structKarm_1_1Text_1_1Ttf_1_1ClassPairAdjustment.html", "structKarm_1_1Text_1_1Ttf_1_1ClassPairAdjustment" ],
+    [ "Karm::Text::Ttf::LookupTable", "structKarm_1_1Text_1_1Ttf_1_1LookupTable.html", "structKarm_1_1Text_1_1Ttf_1_1LookupTable" ],
+    [ "Karm::Text::Ttf::LookupList", "structKarm_1_1Text_1_1Ttf_1_1LookupList.html", "structKarm_1_1Text_1_1Ttf_1_1LookupList" ],
+    [ "LookupSubtable", "otlayout_8h.html#aff79683c13e12d5d49fa395320088024", null ],
+    [ "Core", "otlayout_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

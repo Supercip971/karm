@@ -1,4 +1,4 @@
 var table_gsub_8h =
 [
-    [ "Ttf::Gsub", "structTtf_1_1Gsub.html", "structTtf_1_1Gsub" ]
+    [ "Karm::Text::Ttf::Gsub", "structKarm_1_1Text_1_1Ttf_1_1Gsub.html", "structKarm_1_1Text_1_1Ttf_1_1Gsub" ]
 ];

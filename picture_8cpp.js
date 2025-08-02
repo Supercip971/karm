@@ -1,6 +1,7 @@
 var picture_8cpp =
 [
     [ "Karm::Image::Picture", "structKarm_1_1Image_1_1Picture.html", "structKarm_1_1Image_1_1Picture" ],
+    [ "Core", "picture_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Image", "picture_8cpp.html#a37503819ab26c63c3b3cb63014b131fb", null ],
     [ "module", "picture_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

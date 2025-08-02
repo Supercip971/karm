@@ -27,6 +27,5 @@ var bidi_8cpp =
       [ "PDI", "bidi_8cpp.html#a374f62108410f9c0065ef638d0b1fb63a9c64f4aa07620d9a8ce53090e6fdfe68", null ],
       [ "_LEN", "bidi_8cpp.html#a374f62108410f9c0065ef638d0b1fb63ae29d1d2ceca88985d2cf3bd5ba380301", null ]
     ] ],
-    [ "Core", "bidi_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
-    [ "module", "bidi_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
+    [ "Core", "bidi_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
 ];

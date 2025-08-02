@@ -1,7 +1,7 @@
 var dir_0f17f98ad79c645a91f7de19e2f55579 =
 [
     [ "anim.cpp", "anim_8cpp.html", "anim_8cpp" ],
-    [ "app.cpp", "libs_2karm-ui_2app_8cpp.html", "libs_2karm-ui_2app_8cpp" ],
+    [ "app.cpp", "app_8cpp.html", "app_8cpp" ],
     [ "atoms.cpp", "atoms_8cpp.html", "atoms_8cpp" ],
     [ "box.cpp", "karm-ui_2box_8cpp.html", "karm-ui_2box_8cpp" ],
     [ "dialog.cpp", "karm-ui_2dialog_8cpp.html", "karm-ui_2dialog_8cpp" ],

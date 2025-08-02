@@ -4,6 +4,7 @@ var namespaceKarm_1_1Text =
       [ "test$", "namespaceKarm_1_1Text_1_1Tests.html#a74281e3cf656cc5391fb993a9567b5ba", null ],
       [ "test$", "namespaceKarm_1_1Text_1_1Tests.html#aa26740b79491866bf93037d222dbd9d9", null ]
     ] ],
+    [ "Ttf", "namespaceKarm_1_1Text_1_1Ttf.html", "namespaceKarm_1_1Text_1_1Ttf" ],
     [ "Action", "structKarm_1_1Text_1_1Action.html", "structKarm_1_1Text_1_1Action" ],
     [ "Font", "structKarm_1_1Text_1_1Font.html", "structKarm_1_1Text_1_1Font" ],
     [ "FontAdjust", "structKarm_1_1Text_1_1FontAdjust.html", "structKarm_1_1Text_1_1FontAdjust" ],

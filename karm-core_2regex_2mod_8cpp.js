@@ -19,7 +19,8 @@ var karm_core_2regex_2mod_8cpp =
       [ "_LEN", "karm-core_2regex_2mod_8cpp.html#a5d572325166b7e0ae5551367f61e7898ae29d1d2ceca88985d2cf3bd5ba380301", null ]
     ] ],
     [ "Flavor", "karm-core_2regex_2mod_8cpp.html#ac4c76e58617dbb89dd86d2a7e8f9f2a9", [
-      [ "ECMA_SCRIPT", "karm-core_2regex_2mod_8cpp.html#ac4c76e58617dbb89dd86d2a7e8f9f2a9aced3a9ab7def7a8f535743ee9802c34e", null ]
+      [ "ECMA_SCRIPT", "karm-core_2regex_2mod_8cpp.html#ac4c76e58617dbb89dd86d2a7e8f9f2a9aced3a9ab7def7a8f535743ee9802c34e", null ],
+      [ "_LEN", "karm-core_2regex_2mod_8cpp.html#ac4c76e58617dbb89dd86d2a7e8f9f2a9ae29d1d2ceca88985d2cf3bd5ba380301", null ]
     ] ],
     [ "Option", "karm-core_2regex_2mod_8cpp.html#aeb80b5b3b27409e056039a96aef0bcfb", [
       [ "GLOBAL", "karm-core_2regex_2mod_8cpp.html#aeb80b5b3b27409e056039a96aef0bcfba6eecfba72d12922ee1dead07a0ef3334", null ],
@@ -30,6 +31,5 @@ var karm_core_2regex_2mod_8cpp =
       [ "VNICODE", "karm-core_2regex_2mod_8cpp.html#aeb80b5b3b27409e056039a96aef0bcfba47aa1720508b214ec057ee45eb499be1", null ],
       [ "SINGLE_LINE", "karm-core_2regex_2mod_8cpp.html#aeb80b5b3b27409e056039a96aef0bcfbac3bc8d25d44abb84f8d226c46566b639", null ]
     ] ],
-    [ "Core", "karm-core_2regex_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
-    [ "module", "karm-core_2regex_2mod_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
+    [ "Core", "karm-core_2regex_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
 ];

@@ -1,18 +1,18 @@
 var searchData=
 [
-  ['jpg_0',['JPG',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a4e720238a412e8fead0121a8383537ed',1,'Jpeg']]],
-  ['jpg0_1',['JPG0',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a326332d9b2d3bece45093b0755596db4',1,'Jpeg']]],
-  ['jpg1_2',['JPG1',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697ac2a469f27c991368f6e7ead8b9ef1a99',1,'Jpeg']]],
-  ['jpg10_3',['JPG10',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697aa9aafdb4aeffaa2d2032644d19ecfbef',1,'Jpeg']]],
-  ['jpg11_4',['JPG11',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a13c0e905b229bf195cae0f16dccdb934',1,'Jpeg']]],
-  ['jpg12_5',['JPG12',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a2940f95aa63300ce12397fe44398853f',1,'Jpeg']]],
-  ['jpg13_6',['JPG13',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697abc984aedc335ab5a204d4ec07e6508ef',1,'Jpeg']]],
-  ['jpg2_7',['JPG2',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697ab9c303a1960b7589862b54eaf1789760',1,'Jpeg']]],
-  ['jpg3_8',['JPG3',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697ad4fd166e086a65d8e8904ead2523afe3',1,'Jpeg']]],
-  ['jpg4_9',['JPG4',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a79d80571f79ef9aa2582ad630378c2a5',1,'Jpeg']]],
-  ['jpg5_10',['JPG5',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a095d863b387ccf3405f160025cefcb9c',1,'Jpeg']]],
-  ['jpg6_11',['JPG6',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a049154ecec2c7a4bdbd16424ed9003b7',1,'Jpeg']]],
-  ['jpg7_12',['JPG7',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a3d0d9327528f3edf26f93ba5980ddf3a',1,'Jpeg']]],
-  ['jpg8_13',['JPG8',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a4677ab850cc0bb482d0278e0705fe5c0',1,'Jpeg']]],
-  ['jpg9_14',['JPG9',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697a5a73319c3327ddee5cf747b1b550af0c',1,'Jpeg']]]
+  ['jpg_0',['JPG',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a5fdaab55f024f370daf265af662d46d7',1,'Karm::Image::Jpeg']]],
+  ['jpg0_1',['JPG0',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a66b5f362a3a6cb3ca657dc223a3cb9fa',1,'Karm::Image::Jpeg']]],
+  ['jpg1_2',['JPG1',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a07d663582496f7855a9983d5bbb95d2c',1,'Karm::Image::Jpeg']]],
+  ['jpg10_3',['JPG10',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808aa3281cfaac60ea9ba997e87ec1b115d4',1,'Karm::Image::Jpeg']]],
+  ['jpg11_4',['JPG11',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a2fb2dea68c8c141cf7f534954a98fa28',1,'Karm::Image::Jpeg']]],
+  ['jpg12_5',['JPG12',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ade5df1213abf42759e5a5836088c01a1',1,'Karm::Image::Jpeg']]],
+  ['jpg13_6',['JPG13',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a88d2a61d5eac6a76bafc4e177b9984a3',1,'Karm::Image::Jpeg']]],
+  ['jpg2_7',['JPG2',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a2fa7acf7c3fd94579140b80092cfefa3',1,'Karm::Image::Jpeg']]],
+  ['jpg3_8',['JPG3',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a6bf385fc23b0fdc7d8b02a06e1f4ff96',1,'Karm::Image::Jpeg']]],
+  ['jpg4_9',['JPG4',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ab22b13422e590d9475ecfacd6b14f03f',1,'Karm::Image::Jpeg']]],
+  ['jpg5_10',['JPG5',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a262033002053a976ae3caf28d2af31fe',1,'Karm::Image::Jpeg']]],
+  ['jpg6_11',['JPG6',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a6fdd142d9d2ce1fa93efa2ee9d572db1',1,'Karm::Image::Jpeg']]],
+  ['jpg7_12',['JPG7',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a8ba7c20f1b4fe6ba19b3fc933abb3fd1',1,'Karm::Image::Jpeg']]],
+  ['jpg8_13',['JPG8',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a42d2eeec20b3b7530468a7db9fcb73a4',1,'Karm::Image::Jpeg']]],
+  ['jpg9_14',['JPG9',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a7e031f499ab2ef86c4e0642fdcd9aa82',1,'Karm::Image::Jpeg']]]
 ];

@@ -44,5 +44,6 @@ var dns_8h =
     ] ],
     [ "decodeName", "dns_8h.html#ac07401f51286224d75588c74fec82010", null ],
     [ "encodeName", "dns_8h.html#abd2f32101ab24c08b4a25c169aa9a7b5", null ],
-    [ "toStr", "dns_8h.html#ac23d343ce7043f220ba582d79efa39f6", null ]
+    [ "toStr", "dns_8h.html#ac23d343ce7043f220ba582d79efa39f6", null ],
+    [ "Core", "dns_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

@@ -15,5 +15,6 @@ var logger_8h =
     [ "logWarnIf", "logger_8h.html#abf230d3f36cefa0727e1b79e4de3cedc", null ],
     [ "setLogLevel", "logger_8h.html#a68d248c60712f5189ec3fb44ec737f3b", null ],
     [ "yap", "logger_8h.html#a7b74c697efece51d16b4c04ed3def4e3", null ],
+    [ "Core", "logger_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Tty", "logger_8h.html#a3a0ec93b1fc28162b9e5533ef60f45ba", null ]
 ];

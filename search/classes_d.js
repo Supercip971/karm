@@ -22,7 +22,7 @@ var searchData=
   ['opt_3c_20usize_20_3e_19',['Opt&lt; usize &gt;',['../structKarm_1_1Opt.html',1,'Karm']]],
   ['option_20',['Option',['../structKarm_1_1Cli_1_1Option.html',1,'Karm::Cli']]],
   ['optionimpl_21',['OptionImpl',['../structKarm_1_1Cli_1_1OptionImpl.html',1,'Karm::Cli']]],
-  ['os2_22',['Os2',['../structTtf_1_1Os2.html',1,'Ttf']]],
+  ['os2_22',['Os2',['../structKarm_1_1Text_1_1Ttf_1_1Os2.html',1,'Karm::Text::Ttf']]],
   ['out_23',['Out',['../structKarm_1_1Sys_1_1Out.html',1,'Karm::Sys']]],
   ['outline_24',['Outline',['../structKarm_1_1Gfx_1_1Outline.html',1,'Karm::Gfx']]],
   ['overlayfilter_25',['OverlayFilter',['../structKarm_1_1Gfx_1_1OverlayFilter.html',1,'Karm::Gfx']]]

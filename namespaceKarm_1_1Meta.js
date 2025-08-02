@@ -61,11 +61,12 @@ var namespaceKarm_1_1Meta =
     [ "Ret", "namespaceKarm_1_1Meta.html#ae0daf0804cc358f5d09264c0d94699b8", null ],
     [ "UnderlyingType", "namespaceKarm_1_1Meta.html#a5f1e119cc07df3835800e667747ff8cf", null ],
     [ "any", "namespaceKarm_1_1Meta.html#ac1b9ca06cde38d77d4cf5dd1c9d71779", null ],
-    [ "declref", "namespaceKarm_1_1Meta.html#aa302bba2cd662d5bd93306bf213bfb3c", null ],
-    [ "declval", "namespaceKarm_1_1Meta.html#a012c2d5cd0ba51b4a4bf42cf18bdd6cf", null ],
+    [ "declref", "namespaceKarm_1_1Meta.html#af7dae90ac95ca40d152a6780b00f833b", null ],
+    [ "declval", "namespaceKarm_1_1Meta.html#a3e30b76cb83ae42481fe527ff2d5b22d", null ],
+    [ "idOf", "namespaceKarm_1_1Meta.html#a46e92b3d924529578fc2e7d79f73973c", null ],
     [ "indexCast", "namespaceKarm_1_1Meta.html#af386475a307f4ed57f8639343175446d", null ],
     [ "indexOf", "namespaceKarm_1_1Meta.html#ac4c0c58e93cd5c1bac64c62211a91ef8", null ],
-    [ "size", "namespaceKarm_1_1Meta.html#adcc1ccc33b39457a1fac151d2909ec5a", null ],
-    [ "visit", "namespaceKarm_1_1Meta.html#a56225c734ed3b60cbd56e4cc7fa7e3c8", null ],
-    [ "zeroableSizeOf", "namespaceKarm_1_1Meta.html#a61373e45c0cea01e6a37a24aab2de604", null ]
+    [ "size", "namespaceKarm_1_1Meta.html#a340ceab91e5a6ca8e293b617d8d13b1e", null ],
+    [ "visit", "namespaceKarm_1_1Meta.html#a66ee989d6cd9f7202ba2a059d405aa56", null ],
+    [ "zeroableSizeOf", "namespaceKarm_1_1Meta.html#ae5eb7f8d37aef4e708dca4d728aa4c77", null ]
 ];

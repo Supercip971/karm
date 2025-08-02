@@ -1,24 +1,22 @@
 var dir_a74713df2ded80450a347318abff1d42 =
 [
     [ "tests", "dir_9c60450f5a7cef550ad532f3f43c8ef8.html", "dir_9c60450f5a7cef550ad532f3f43c8ef8" ],
-    [ "align.h", "karm-math_2align_8h.html", "karm-math_2align_8h" ],
+    [ "align.h", "align_8h.html", "align_8h" ],
     [ "arc.h", "arc_8h.html", "arc_8h" ],
     [ "au.h", "au_8h.html", "au_8h" ],
     [ "bigint.cpp", "bigint_8cpp.html", null ],
     [ "bigint.h", "bigint_8h.html", "bigint_8h" ],
-    [ "const.h", "const_8h.html", "const_8h" ],
     [ "curve.h", "curve_8h.html", "curve_8h" ],
     [ "easing.h", "easing_8h.html", "easing_8h" ],
     [ "edge.h", "edge_8h.html", "edge_8h" ],
     [ "ellipse.h", "ellipse_8h.html", "ellipse_8h" ],
-    [ "expr.cpp", "expr_8cpp.html", null ],
-    [ "expr.h", "karm-math_2expr_8h.html", "karm-math_2expr_8h" ],
+    [ "expr.cpp", "karm-math_2expr_8cpp.html", null ],
+    [ "expr.h", "expr_8h.html", "expr_8h" ],
     [ "fixed.h", "fixed_8h.html", "fixed_8h" ],
     [ "flow.h", "flow_8h.html", "flow_8h" ],
-    [ "funcs.h", "karm-math_2funcs_8h.html", "karm-math_2funcs_8h" ],
     [ "insets.h", "insets_8h.html", "insets_8h" ],
     [ "mat.h", "mat_8h.html", "mat_8h" ],
-    [ "path.cpp", "karm-math_2path_8cpp.html", null ],
+    [ "path.cpp", "karm-math_2path_8cpp.html", "karm-math_2path_8cpp" ],
     [ "path.h", "karm-math_2path_8h.html", "karm-math_2path_8h" ],
     [ "poly.h", "poly_8h.html", "poly_8h" ],
     [ "quad.h", "quad_8h.html", "quad_8h" ],
@@ -29,5 +27,5 @@ var dir_a74713df2ded80450a347318abff1d42 =
     [ "sod.h", "sod_8h.html", "sod_8h" ],
     [ "trans.h", "trans_8h.html", "trans_8h" ],
     [ "tri.h", "tri_8h.html", "tri_8h" ],
-    [ "vec.h", "karm-math_2vec_8h.html", "karm-math_2vec_8h" ]
+    [ "vec.h", "vec_8h.html", "vec_8h" ]
 ];

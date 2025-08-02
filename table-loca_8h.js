@@ -1,4 +1,4 @@
 var table_loca_8h =
 [
-    [ "Ttf::Loca", "structTtf_1_1Loca.html", "structTtf_1_1Loca" ]
+    [ "Karm::Text::Ttf::Loca", "structKarm_1_1Text_1_1Ttf_1_1Loca.html", "structKarm_1_1Text_1_1Ttf_1_1Loca" ]
 ];

@@ -1,17 +1,18 @@
 var karm_image_2qoi_2base_8cpp =
 [
-    [ "Chunk", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67", [
-      [ "RGB", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67a59cbf1379346b2c6cc3226206e1e1e0f", null ],
-      [ "RGBA", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67a91f68d4abef73b8d1a9ce16bf21295fd", null ],
-      [ "INDEX", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67a2e83a2d8f361a4ff78c3071e20590ea9", null ],
-      [ "DIFF", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67a1a08ea6f5c24fe61c2fe73ffeda169a0", null ],
-      [ "LUMA", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67a001cc13108883f1c087da3bfa06039b4", null ],
-      [ "RUN", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67a16deb39e66b18b800f5d6c80217e6e08", null ],
-      [ "MASK", "karm-image_2qoi_2base_8cpp.html#acffe5ab0215eb976c5aafced51fc9b67a09cfc23522b0b49999a4b0ac494e33eb", null ]
+    [ "Chunk", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84", [
+      [ "RGB", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84a6f7845993be274716b1d2350eddf6108", null ],
+      [ "RGBA", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84a15b6b14fa4a96b95cf1d3f7fbaf745ff", null ],
+      [ "INDEX", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84a13aa80bfce3f5d3de254870dd69b9656", null ],
+      [ "DIFF", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84abf47f3dcab01cb211cfcec662866583e", null ],
+      [ "LUMA", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84a35d82fae1bc21eab896ab787f9a33520", null ],
+      [ "RUN", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84adcd6d38aac59a788b31bc69f7a2c235f", null ],
+      [ "MASK", "karm-image_2qoi_2base_8cpp.html#aacde60f0fc4bacd02d89f5cee6479d84af7f33dd9c4fe7eab0759bd11e3702278", null ]
     ] ],
-    [ "hashColor", "karm-image_2qoi_2base_8cpp.html#acbc756e0b5c764b4ad45df47d7db0790", null ],
-    [ "END", "karm-image_2qoi_2base_8cpp.html#a205269d4722a85d0a51c42182dad7a40", null ],
+    [ "hashColor", "karm-image_2qoi_2base_8cpp.html#ad1ccd1937babddabfba77c94a4c84e0c", null ],
+    [ "Core", "karm-image_2qoi_2base_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "END", "karm-image_2qoi_2base_8cpp.html#a01a67a1b2f64e2ebf2c408f18fbd025d", null ],
     [ "Image", "karm-image_2qoi_2base_8cpp.html#a37503819ab26c63c3b3cb63014b131fb", null ],
-    [ "MAGIC", "karm-image_2qoi_2base_8cpp.html#a08d2d1a0b7566b4c99f84cd64a9b727f", null ],
+    [ "MAGIC", "karm-image_2qoi_2base_8cpp.html#a7d035fc42d9eb1577b0321ecd4803d48", null ],
     [ "module", "karm-image_2qoi_2base_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

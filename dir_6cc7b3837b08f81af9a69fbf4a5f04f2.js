@@ -8,12 +8,12 @@ var dir_6cc7b3837b08f81af9a69fbf4a5f04f2 =
     [ "seccomp", "dir_f2d9dcacfe9a19dca339996d3a5bba65.html", "dir_f2d9dcacfe9a19dca339996d3a5bba65" ],
     [ "uring", "dir_68f4d656fde2dc721a70de56e8852953.html", "dir_68f4d656fde2dc721a70de56e8852953" ],
     [ "xdg", "dir_abf914c05f54a9fb003515fd33d33114.html", "dir_abf914c05f54a9fb003515fd33d33114" ],
-    [ "entry.cpp", "impl-posix_2entry_8cpp.html", null ],
+    [ "entry.cpp", "entry_8cpp.html", null ],
     [ "entry.h", "impls_2impl-posix_2entry_8h.html", "impls_2impl-posix_2entry_8h" ],
     [ "fd.cpp", "impls_2impl-posix_2fd_8cpp.html", null ],
     [ "fd.h", "impls_2impl-posix_2fd_8h.html", "impls_2impl-posix_2fd_8h" ],
     [ "pkg.cpp", "pkg_8cpp.html", null ],
-    [ "sys.cpp", "impl-posix_2sys_8cpp.html", null ],
+    [ "sys.cpp", "sys_8cpp.html", "sys_8cpp" ],
     [ "utils.cpp", "utils_8cpp.html", "utils_8cpp" ],
     [ "utils.h", "utils_8h.html", "utils_8h" ]
 ];

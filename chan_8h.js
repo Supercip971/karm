@@ -9,5 +9,6 @@ var chan_8h =
     [ "in", "chan_8h.html#a747e4d8ffacfc5cfedc91c25ff78ba77", null ],
     [ "out", "chan_8h.html#a44a61d671927b718a8bdf24b2a3f8589", null ],
     [ "print", "chan_8h.html#a75a25a87463c4f428d55c9ceab4a16a3", null ],
-    [ "println", "chan_8h.html#acf39dc4a94d9f61a03549c3d56d2c6b8", null ]
+    [ "println", "chan_8h.html#acf39dc4a94d9f61a03549c3d56d2c6b8", null ],
+    [ "Core", "chan_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

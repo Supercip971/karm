@@ -102,8 +102,6 @@ $(document).ready(function(){initNavTree('structKarm_1_1Async_1_1Awaiter.html','
   <div class="headertitle"><div class="title">Karm::Async::Awaiter&lt; S &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="awaiter_8h_source.html">awaiter.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Karm::Async::Awaiter&lt; S &gt;:</div>
 <div class="dyncontent">
@@ -118,7 +116,7 @@ Inheritance diagram for Karm::Async::Awaiter&lt; S &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1d1360dace55a8558048272352ec54ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Async_1_1Awaiter.html#a1d1360dace55a8558048272352ec54ee">Awaiter</a> (<a class="el" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a> <a class="el" href="namespaceKarm.html#a37cf6955cf008d3d8fffe31632e9e796">s</a>)</td></tr>
+<tr class="memitem:a1d1360dace55a8558048272352ec54ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Async_1_1Awaiter.html#a1d1360dace55a8558048272352ec54ee">Awaiter</a> (S s)</td></tr>
 <tr class="separator:a1d1360dace55a8558048272352ec54ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a7ad56f55a2faec22b3bf30b107eb7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Async_1_1Awaiter.html#a05a7ad56f55a2faec22b3bf30b107eb7">await_ready</a> () const</td></tr>
 <tr class="separator:a05a7ad56f55a2faec22b3bf30b107eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,9 +169,9 @@ template&lt;Sender S&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; <a class="el" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a> &gt;::Awaiter </td>
+          <td class="memname"><a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; S &gt;::Awaiter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a>&#160;</td>
+          <td class="paramtype">S&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td></td>
         </tr>
@@ -200,7 +198,7 @@ template&lt;Sender S&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; <a class="el" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a> &gt;::await_ready </td>
+          <td class="memname">bool <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; S &gt;::await_ready </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -227,7 +225,7 @@ template&lt;Sender S&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">S::Inner <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; <a class="el" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a> &gt;::await_resume </td>
+          <td class="memname">S::Inner <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; S &gt;::await_resume </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -254,7 +252,7 @@ template&lt;Sender S&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; <a class="el" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a> &gt;::await_suspend </td>
+          <td class="memname">bool <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; S &gt;::await_suspend </td>
           <td>(</td>
           <td class="paramtype">std::coroutine_handle&lt;&gt;&#160;</td>
           <td class="paramname"><em>coro</em></td><td>)</td>
@@ -282,7 +280,7 @@ template&lt;Sender S&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; <a class="el" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a> &gt;::resume </td>
+          <td class="memname">void <a class="el" href="structKarm_1_1Async_1_1Awaiter.html">Karm::Async::Awaiter</a>&lt; S &gt;::resume </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -300,7 +298,7 @@ template&lt;Sender S&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/libs/karm-async/<a class="el" href="awaiter_8h_source.html">awaiter.h</a></li>
+<li>src/libs/karm-core/async/<a class="el" href="awaiter_8cpp.html">awaiter.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

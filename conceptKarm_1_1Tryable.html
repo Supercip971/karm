@@ -99,17 +99,13 @@ $(document).ready(function(){initNavTree('conceptKarm_1_1Tryable.html',''); init
   <div class="headertitle"><div class="title">Karm::Tryable Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="try_8h_source.html">try.h</a>&gt;</code></p>
 <h2 class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Tryable.html">Karm::Tryable</a> =  <span class="keyword">requires</span>(<a class="code hl_variable" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> <a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>) {</div>
-<div class="line">    { not <span class="keyword">static_cast&lt;</span><span class="keywordtype">bool</span><span class="keyword">&gt;</span>(<a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>) };</div>
-<div class="line">    { <a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>.none() };</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Tryable.html">Karm::Tryable</a> =  <span class="keyword">requires</span>(T t) {</div>
+<div class="line">    { not <span class="keyword">static_cast&lt;</span><span class="keywordtype">bool</span><span class="keyword">&gt;</span>(t) };</div>
+<div class="line">    { t.none() };</div>
 <div class="line">} and Unwrapable&lt;T&gt; and Takeable&lt;T&gt;</div>
-<div class="ttc" id="aconceptKarm_1_1Tryable_html"><div class="ttname"><a href="conceptKarm_1_1Tryable.html">Karm::Tryable</a></div><div class="ttdef"><b>Definition:</b> try.h:24</div></div>
-<div class="ttc" id="anamespaceKarm_html_a1810a4ab3c6ee771c9d4f7d464fb105a"><div class="ttname"><a href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">Karm::t</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U t</div><div class="ttdef"><b>Definition:</b> rune.h:368</div></div>
-<div class="ttc" id="anamespaceKarm_html_a18f5da5b00dd7f1bc574277abe3982ed"><div class="ttname"><a href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">Karm::T</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U T</div><div class="ttdef"><b>Definition:</b> rune.h:364</div></div>
+<div class="ttc" id="aconceptKarm_1_1Tryable_html"><div class="ttname"><a href="conceptKarm_1_1Tryable.html">Karm::Tryable</a></div><div class="ttdef"><b>Definition:</b> try.cpp:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -11,5 +11,6 @@ var filters_8h =
     [ "Karm::Gfx::TintFilter", "structKarm_1_1Gfx_1_1TintFilter.html", "structKarm_1_1Gfx_1_1TintFilter" ],
     [ "Karm::Gfx::OverlayFilter", "structKarm_1_1Gfx_1_1OverlayFilter.html", "structKarm_1_1Gfx_1_1OverlayFilter" ],
     [ "Karm::Gfx::FilterChain", "structKarm_1_1Gfx_1_1FilterChain.html", "structKarm_1_1Gfx_1_1FilterChain" ],
-    [ "Karm::Gfx::Filter", "structKarm_1_1Gfx_1_1Filter.html", "structKarm_1_1Gfx_1_1Filter" ]
+    [ "Karm::Gfx::Filter", "structKarm_1_1Gfx_1_1Filter.html", "structKarm_1_1Gfx_1_1Filter" ],
+    [ "Core", "filters_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

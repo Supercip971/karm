@@ -9,7 +9,7 @@ var searchData=
   ['ellipse_6',['Ellipse',['../unionKarm_1_1Math_1_1Ellipse.html',1,'Karm::Math']]],
   ['emit_7',['Emit',['../structKarm_1_1Io_1_1Emit.html',1,'Karm::Io']]],
   ['empty_8',['Empty',['../structKarm_1_1Io_1_1Empty.html',1,'Karm::Io::Empty'],['../structKarm_1_1Ui_1_1Empty.html',1,'Karm::Ui::Empty']]],
-  ['endpoint_9',['Endpoint',['../structKarm_1_1Rpc_1_1Endpoint.html',1,'Karm::Rpc']]],
+  ['endpoint_9',['Endpoint',['../structKarm_1_1Sys_1_1Endpoint.html',1,'Karm::Sys']]],
   ['entry_10',['Entry',['../structKarm_1_1Pdf_1_1XRef_1_1Entry.html',1,'Karm::Pdf::XRef']]],
   ['err_11',['Err',['../structKarm_1_1Sys_1_1Err.html',1,'Karm::Sys']]],
   ['error_12',['Error',['../structKarm_1_1Error.html',1,'Karm']]],

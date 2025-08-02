@@ -10,5 +10,6 @@ var bigint_8h =
     [ "SubResult", "bigint_8h.html#abe3a02ad5c515c065ce4a22d731c05eb", [
       [ "OK", "bigint_8h.html#abe3a02ad5c515c065ce4a22d731c05ebae0aa021e21dddbd6d8cecec71e9cf564", null ],
       [ "UNDERFLOW", "bigint_8h.html#abe3a02ad5c515c065ce4a22d731c05eba80e2b505e5438b38c08675fe785e8afe", null ]
-    ] ]
+    ] ],
+    [ "Core", "bigint_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

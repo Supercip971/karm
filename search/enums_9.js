@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['marker_0',['Marker',['../namespaceJpeg.html#a76dce5f2f01efdd989595400e43aa697',1,'Jpeg']]],
+  ['marker_0',['Marker',['../namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808',1,'Karm::Image::Jpeg']]],
   ['match_1',['Match',['../namespaceKarm.html#afdc762aa1d829153c0f8804624ea8d2f',1,'Karm']]],
   ['memorder_2',['MemOrder',['../namespaceKarm.html#a2a9fb6c9880434e12f636949d7a2498f',1,'Karm']]],
   ['method_3',['Method',['../namespaceKarm_1_1Http.html#a04c0f4a44a817c0a1e0018359b7a38c2',1,'Karm::Http']]],

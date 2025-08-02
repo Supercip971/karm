@@ -24,5 +24,6 @@ var karm_cli_2mod_8cpp =
     [ "tokenize", "karm-cli_2mod_8cpp.html#a5fde8f658f2b509e3790532b0b6e5aa2", null ],
     [ "tokenize", "karm-cli_2mod_8cpp.html#ad719c200ee8ea9e3dee0e7e25675a078", null ],
     [ "Cli", "karm-cli_2mod_8cpp.html#a4eec3224550cd5aa08b94d95d9d7d683", null ],
+    [ "Core", "karm-cli_2mod_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "module", "karm-cli_2mod_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

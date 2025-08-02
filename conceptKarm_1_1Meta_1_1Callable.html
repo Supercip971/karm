@@ -99,16 +99,12 @@ $(document).ready(function(){initNavTree('conceptKarm_1_1Meta_1_1Callable.html',
   <div class="headertitle"><div class="title">Karm::Meta::Callable Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="callable_8h_source.html">callable.h</a>&gt;</code></p>
 <h2 class="groupheader">Concept definition</h2>
-<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> <a class="code hl_variable" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a>, <span class="keyword">typename</span>... Args&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Meta_1_1Callable.html">Karm::Meta::Callable</a> =  <span class="keyword">requires</span>(<a class="code hl_variable" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> <a class="code hl_variable" href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">f</a>) {</div>
-<div class="line">    <a class="code hl_variable" href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">f</a>(declval&lt;Args&gt;()...);</div>
+<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Meta_1_1Callable.html">Karm::Meta::Callable</a> =  <span class="keyword">requires</span>(T f) {</div>
+<div class="line">    f(declval&lt;Args&gt;()...);</div>
 <div class="line">}</div>
-<div class="ttc" id="aconceptKarm_1_1Meta_1_1Callable_html"><div class="ttname"><a href="conceptKarm_1_1Meta_1_1Callable.html">Karm::Meta::Callable</a></div><div class="ttdef"><b>Definition:</b> callable.h:29</div></div>
-<div class="ttc" id="anamespaceKarm_html_a18f5da5b00dd7f1bc574277abe3982ed"><div class="ttname"><a href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">Karm::T</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U T</div><div class="ttdef"><b>Definition:</b> rune.h:364</div></div>
-<div class="ttc" id="anamespaceKarm_html_a56fd194a9d96f98b881602287029a12e"><div class="ttname"><a href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">Karm::f</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U f</div><div class="ttdef"><b>Definition:</b> rune.h:366</div></div>
+<div class="ttc" id="aconceptKarm_1_1Meta_1_1Callable_html"><div class="ttname"><a href="conceptKarm_1_1Meta_1_1Callable.html">Karm::Meta::Callable</a></div><div class="ttdef"><b>Definition:</b> callable.cpp:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

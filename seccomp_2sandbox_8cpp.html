@@ -177,9 +177,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (<span class="keyword">auto</span> it = seccomp_rule_add(ctx, SCMP_ACT_ALLOW, SCMP_SYS(SYSCALL), 0); it &lt; 0) { \</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code hl_function" href="namespacePosix.html#a232f4bdf353ec3595470f6b71deb67b1">Posix::fromErrno</a>(-it);                                                    \</div>
+<div class="line">        <span class="keywordflow">return</span> Posix::fromErrno(-it);                                                    \</div>
 <div class="line">    }</div>
-<div class="ttc" id="anamespacePosix_html_a232f4bdf353ec3595470f6b71deb67b1"><div class="ttname"><a href="namespacePosix.html#a232f4bdf353ec3595470f6b71deb67b1">Posix::fromErrno</a></div><div class="ttdeci">Error fromErrno(isize error)</div><div class="ttdef"><b>Definition:</b> utils.cpp:8</div></div>
 </div><!-- fragment -->
 </div>
 </div>

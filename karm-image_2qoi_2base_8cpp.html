@@ -104,33 +104,36 @@ $(document).ready(function(){initNavTree('karm-image_2qoi_2base_8cpp.html',''); 
   <div class="headertitle"><div class="title">base.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="array_8h_source.html">karm-base/array.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="color_8h_source.html">karm-gfx/color.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="color_8h_source.html">karm-gfx/color.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceQoi"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html">Qoi</a></td></tr>
+<tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceKarm_1_1Image"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image.html">Karm::Image</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceKarm_1_1Image_1_1Qoi"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html">Karm::Image::Qoi</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:acffe5ab0215eb976c5aafced51fc9b67"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67">Qoi::Chunk</a> : u8 { <br />
-&#160;&#160;<a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a59cbf1379346b2c6cc3226206e1e1e0f">Qoi::RGB</a> = 0b11111110
-, <a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a91f68d4abef73b8d1a9ce16bf21295fd">Qoi::RGBA</a> = 0b11111111
-, <a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a2e83a2d8f361a4ff78c3071e20590ea9">Qoi::INDEX</a> = 0b00000000
-, <a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a1a08ea6f5c24fe61c2fe73ffeda169a0">Qoi::DIFF</a> = 0b01000000
+<tr class="memitem:aacde60f0fc4bacd02d89f5cee6479d84"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84">Karm::Image::Qoi::Chunk</a> : u8 { <br />
+&#160;&#160;<a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84a6f7845993be274716b1d2350eddf6108">Karm::Image::Qoi::RGB</a> = 0b11111110
+, <a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84a15b6b14fa4a96b95cf1d3f7fbaf745ff">Karm::Image::Qoi::RGBA</a> = 0b11111111
+, <a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84a13aa80bfce3f5d3de254870dd69b9656">Karm::Image::Qoi::INDEX</a> = 0b00000000
+, <a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84abf47f3dcab01cb211cfcec662866583e">Karm::Image::Qoi::DIFF</a> = 0b01000000
 , <br />
-&#160;&#160;<a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a001cc13108883f1c087da3bfa06039b4">Qoi::LUMA</a> = 0b10000000
-, <a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a16deb39e66b18b800f5d6c80217e6e08">Qoi::RUN</a> = 0b11000000
-, <a class="el" href="namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a09cfc23522b0b49999a4b0ac494e33eb">Qoi::MASK</a> = 0b11000000
+&#160;&#160;<a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84a35d82fae1bc21eab896ab787f9a33520">Karm::Image::Qoi::LUMA</a> = 0b10000000
+, <a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84adcd6d38aac59a788b31bc69f7a2c235f">Karm::Image::Qoi::RUN</a> = 0b11000000
+, <a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84af7f33dd9c4fe7eab0759bd11e3702278">Karm::Image::Qoi::MASK</a> = 0b11000000
 <br />
  }</td></tr>
-<tr class="separator:acffe5ab0215eb976c5aafced51fc9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aacde60f0fc4bacd02d89f5cee6479d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acbc756e0b5c764b4ad45df47d7db0790"><td class="memItemLeft" align="right" valign="top">export usize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#acbc756e0b5c764b4ad45df47d7db0790">Qoi::hashColor</a> (Gfx::Color c)</td></tr>
-<tr class="separator:acbc756e0b5c764b4ad45df47d7db0790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1ccd1937babddabfba77c94a4c84e0c"><td class="memItemLeft" align="right" valign="top">export usize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#ad1ccd1937babddabfba77c94a4c84e0c">Karm::Image::Qoi::hashColor</a> (Gfx::Color c)</td></tr>
+<tr class="separator:ad1ccd1937babddabfba77c94a4c84e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -138,12 +141,28 @@ Variables</h2></td></tr>
 <tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37503819ab26c63c3b3cb63014b131fb"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="karm-image_2qoi_2base_8cpp.html#a37503819ab26c63c3b3cb63014b131fb">Image</a></td></tr>
 <tr class="separator:a37503819ab26c63c3b3cb63014b131fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08d2d1a0b7566b4c99f84cd64a9b727f"><td class="memItemLeft" align="right" valign="top">export constexpr Array&lt; u8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#a08d2d1a0b7566b4c99f84cd64a9b727f">Qoi::MAGIC</a></td></tr>
-<tr class="separator:a08d2d1a0b7566b4c99f84cd64a9b727f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a205269d4722a85d0a51c42182dad7a40"><td class="memItemLeft" align="right" valign="top">export constexpr Array&lt; u8, 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceQoi.html#a205269d4722a85d0a51c42182dad7a40">Qoi::END</a></td></tr>
-<tr class="separator:a205269d4722a85d0a51c42182dad7a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="karm-image_2qoi_2base_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
+<tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d035fc42d9eb1577b0321ecd4803d48"><td class="memItemLeft" align="right" valign="top">export constexpr Array&lt; u8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#a7d035fc42d9eb1577b0321ecd4803d48">Karm::Image::Qoi::MAGIC</a></td></tr>
+<tr class="separator:a7d035fc42d9eb1577b0321ecd4803d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a67a1b2f64e2ebf2c408f18fbd025d"><td class="memItemLeft" align="right" valign="top">export constexpr Array&lt; u8, 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Image_1_1Qoi.html#a01a67a1b2f64e2ebf2c408f18fbd025d">Karm::Image::Qoi::END</a></td></tr>
+<tr class="separator:a01a67a1b2f64e2ebf2c408f18fbd025d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="abedc7e19652ef6fd2984ea9cb3d62db5" name="abedc7e19652ef6fd2984ea9cb3d62db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedc7e19652ef6fd2984ea9cb3d62db5">&#9670;&#160;</a></span>Core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a37503819ab26c63c3b3cb63014b131fb" name="a37503819ab26c63c3b3cb63014b131fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37503819ab26c63c3b3cb63014b131fb">&#9670;&#160;</a></span>Image</h2>
 

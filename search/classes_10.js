@@ -12,7 +12,7 @@ var searchData=
   ['ray_9',['Ray',['../structKarm_1_1Math_1_1Ray.html',1,'Karm::Math']]],
   ['reader_10',['Reader',['../structKarm_1_1Aio_1_1Pipe_1_1Reader.html',1,'Karm::Aio::Pipe::Reader'],['../structKarm_1_1Aio_1_1Reader.html',1,'Karm::Aio::Reader'],['../structKarm_1_1Io_1_1Reader.html',1,'Karm::Io::Reader']]],
   ['readlockscope_11',['ReadLockScope',['../structKarm_1_1ReadLockScope.html',1,'Karm']]],
-  ['record_12',['Record',['../structKarm_1_1Kv_1_1Wal_1_1Record.html',1,'Karm::Kv::Wal::Record'],['../structKarm_1_1Text_1_1Model_1_1Record.html',1,'Karm::Text::Model::Record'],['../structTtf_1_1Name_1_1Record.html',1,'Ttf::Name::Record']]],
+  ['record_12',['Record',['../structKarm_1_1Kv_1_1Wal_1_1Record.html',1,'Karm::Kv::Wal::Record'],['../structKarm_1_1Text_1_1Model_1_1Record.html',1,'Karm::Text::Model::Record'],['../structKarm_1_1Text_1_1Ttf_1_1Name_1_1Record.html',1,'Karm::Text::Ttf::Name::Record']]],
   ['rect_13',['Rect',['../unionKarm_1_1Math_1_1Rect.html',1,'Karm::Math']]],
   ['reducer_14',['Reducer',['../structKarm_1_1Ui_1_1Reducer.html',1,'Karm::Ui']]],
   ['ref_15',['Ref',['../structKarm_1_1Gc_1_1Ref.html',1,'Karm::Gc::Ref&lt; T &gt;'],['../structKarm_1_1Pdf_1_1Ref.html',1,'Karm::Pdf::Ref']]],

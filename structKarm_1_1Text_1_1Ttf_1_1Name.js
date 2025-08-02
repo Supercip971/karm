@@ -1,0 +1,37 @@
+var structKarm_1_1Text_1_1Ttf_1_1Name =
+[
+    [ "Record", "structKarm_1_1Text_1_1Ttf_1_1Name_1_1Record.html", "structKarm_1_1Text_1_1Ttf_1_1Name_1_1Record" ],
+    [ "StorageOffset", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a6619e36fa59fbe7622039bc2e47f7607", null ],
+    [ "NameId", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258", [
+      [ "COPYRIGHT", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a6163abd589889aa052eac6cc4eaf78aa", null ],
+      [ "FAMILY", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a0e1c9e988f545258a5ecef993160e58c", null ],
+      [ "SUBFAMILY", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258acfb5e6b614cf56a18b71ea23c028f1a0", null ],
+      [ "UNIQUE", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a9f97d5d5030db2d82cb7979c07eb0ae2", null ],
+      [ "FULL_NAME", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a0b3182e266e755c912e95bffd52fd888", null ],
+      [ "VERSION", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a22e045c13992f24e2e7efe76c1ac922e", null ],
+      [ "POSTSCRIPT", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258ada0c4c57e0e99b4d32a4216518f54259", null ],
+      [ "TRADEMARK", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a9575a63dcb54f5a2a378e704f6ebd7bb", null ],
+      [ "MANUFACTURER", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258af8b94b38878e5dd9c0bcc0a5832d70fd", null ],
+      [ "DESIGNER", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a07653fb6a45f8cdb84d404a24c973121", null ],
+      [ "DESCRIPTION", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a5319bdb122b9aa9b3726ec20758c905f", null ],
+      [ "VENDOR_URL", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a14e7ad643fb970dd6e2738ad63dcb14b", null ],
+      [ "DESIGNER_URL", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a0cd982a9f643386e4196a89b05c6a187", null ],
+      [ "LICENSE", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a14f6dec20115f4f000c529263e2a9287", null ],
+      [ "LICENSE_URL", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258aba2909e9f3401f3c6786ad1a119a5b09", null ],
+      [ "RESERVED", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a67dd28e70ff1c64680d31e7a440cc152", null ],
+      [ "TYPOGRAPHIC_FAMILY", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a973bce2fb089f673f89e6966739ecf96", null ],
+      [ "TYPOGRAPHIC_SUBFAMILY", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258aa1ccf19c9ab7f2127b48495924ca36aa", null ],
+      [ "COMPATIBLE_FULL_NAME", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258afedfaa9c6296430a1b46d928e26e6641", null ],
+      [ "SAMPLE_TEXT", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a1440b2792eb64de1cf15368557213a3c", null ],
+      [ "POSTSCRIPT_CID", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a42c8a4d8527a98871da814506816b724", null ],
+      [ "WWS_FAMILY", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a873ef5d1d5c9b202faad24b517e9cf30", null ],
+      [ "WWS_SUBFAMILY", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a93703965f68a168ca2bf83c46521f6a7", null ],
+      [ "LIGHT_BACKGROUND_PALETTE", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a289fd8d9e967917df97432650d8f3da3", null ],
+      [ "DARK_BACKGROUND_PALETTE", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a491bf9515a15b76f3b40b32a894c2777", null ],
+      [ "VARIATIONS_POSTSCRIPT_PREFIX", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a85556e443d2bbe607d3bba82a2e441f9", null ],
+      [ "_LEN", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258", null ]
+    ] ],
+    [ "iterRecords", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a2d6cff835da304a6147fde2eb5619010", null ],
+    [ "lookupRecord", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a611708ee45d682ce8939a1efa2532df0", null ],
+    [ "string", "structKarm_1_1Text_1_1Ttf_1_1Name.html#a0578b67df15d45001e12239e9981b544", null ]
+];

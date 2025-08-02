@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['Name',['../structKarm_1_1Pdf_1_1Name.html',1,'Karm::Pdf::Name'],['../structTtf_1_1Name.html',1,'Ttf::Name']]],
+  ['name_0',['Name',['../structKarm_1_1Pdf_1_1Name.html',1,'Karm::Pdf::Name'],['../structKarm_1_1Text_1_1Ttf_1_1Name.html',1,'Karm::Text::Ttf::Name']]],
   ['niche_1',['Niche',['../structKarm_1_1Niche.html',1,'Karm']]],
   ['niche_3c_20array_3c_20t_2c_20n_20_3e_20_3e_2',['Niche&lt; Array&lt; T, N &gt; &gt;',['../structKarm_1_1Niche_3_01Array_3_01T_00_01N_01_4_01_4.html',1,'Karm']]],
   ['niche_3c_20bool_20_3e_3',['Niche&lt; bool &gt;',['../structKarm_1_1Niche_3_01bool_01_4.html',1,'Karm']]],

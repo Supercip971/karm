@@ -99,16 +99,12 @@ $(document).ready(function(){initNavTree('conceptKarm_1_1Async_1_1Sender.html','
   <div class="headertitle"><div class="title">Karm::Async::Sender Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="karm-async_2base_8h_source.html">base.h</a>&gt;</code></p>
 <h2 class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> S&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Async_1_1Sender.html">Karm::Async::Sender</a> =  <span class="keyword">requires</span>(<a class="code hl_variable" href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">S</a> <a class="code hl_variable" href="namespaceKarm.html#a37cf6955cf008d3d8fffe31632e9e796">s</a>) {</div>
-<div class="line">    { <a class="code hl_variable" href="namespaceKarm.html#a37cf6955cf008d3d8fffe31632e9e796">s</a>.connect(Null&lt;typename S::Inner&gt;{}) } -&gt; Operation;</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Async_1_1Sender.html">Karm::Async::Sender</a> =  <span class="keyword">requires</span>(S s) {</div>
+<div class="line">    { s.connect(Null&lt;typename S::Inner&gt;{}) } -&gt; Operation;</div>
 <div class="line">}</div>
-<div class="ttc" id="aconceptKarm_1_1Async_1_1Sender_html"><div class="ttname"><a href="conceptKarm_1_1Async_1_1Sender.html">Karm::Async::Sender</a></div><div class="ttdef"><b>Definition:</b> base.h:45</div></div>
-<div class="ttc" id="anamespaceKarm_html_a37cf6955cf008d3d8fffe31632e9e796"><div class="ttname"><a href="namespaceKarm.html#a37cf6955cf008d3d8fffe31632e9e796">Karm::s</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U s</div><div class="ttdef"><b>Definition:</b> rune.h:368</div></div>
-<div class="ttc" id="anamespaceKarm_html_a739eca9d05194fbb289a957dbedf191c"><div class="ttname"><a href="namespaceKarm.html#a739eca9d05194fbb289a957dbedf191c">Karm::S</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U S</div><div class="ttdef"><b>Definition:</b> rune.h:364</div></div>
+<div class="ttc" id="aconceptKarm_1_1Async_1_1Sender_html"><div class="ttname"><a href="conceptKarm_1_1Async_1_1Sender.html">Karm::Async::Sender</a></div><div class="ttdef"><b>Definition:</b> base.cpp:45</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

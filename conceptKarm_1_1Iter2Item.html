@@ -99,19 +99,15 @@ $(document).ready(function(){initNavTree('conceptKarm_1_1Iter2Item.html',''); in
   <div class="headertitle"><div class="title">Karm::Iter2Item Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="iter_8h_source.html">iter.h</a>&gt;</code></p>
 <h2 class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Iter2Item.html">Karm::Iter2Item</a> =  <span class="keyword">requires</span>(<a class="code hl_variable" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a> <a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>) {</div>
-<div class="line">    *<a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a>;</div>
-<div class="line">    <a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a> == <a class="code hl_variable" href="namespaceKarm.html#af68e3dac4c84e0dd22cd8545cb114db8">NONE</a>;</div>
-<div class="line">    <a class="code hl_variable" href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">t</a> != <a class="code hl_variable" href="namespaceKarm.html#af68e3dac4c84e0dd22cd8545cb114db8">NONE</a>;</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Iter2Item.html">Karm::Iter2Item</a> =  <span class="keyword">requires</span>(T t) {</div>
+<div class="line">    *t;</div>
+<div class="line">    t == <a class="code hl_variable" href="namespaceKarm.html#ad1321baaaac39d3c9e044f9fb4308639">NONE</a>;</div>
+<div class="line">    t != <a class="code hl_variable" href="namespaceKarm.html#ad1321baaaac39d3c9e044f9fb4308639">NONE</a>;</div>
 <div class="line">}</div>
-<div class="ttc" id="aconceptKarm_1_1Iter2Item_html"><div class="ttname"><a href="conceptKarm_1_1Iter2Item.html">Karm::Iter2Item</a></div><div class="ttdef"><b>Definition:</b> iter.h:406</div></div>
-<div class="ttc" id="anamespaceKarm_html_a1810a4ab3c6ee771c9d4f7d464fb105a"><div class="ttname"><a href="namespaceKarm.html#a1810a4ab3c6ee771c9d4f7d464fb105a">Karm::t</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U t</div><div class="ttdef"><b>Definition:</b> rune.h:368</div></div>
-<div class="ttc" id="anamespaceKarm_html_a18f5da5b00dd7f1bc574277abe3982ed"><div class="ttname"><a href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">Karm::T</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U T</div><div class="ttdef"><b>Definition:</b> rune.h:364</div></div>
-<div class="ttc" id="anamespaceKarm_html_af68e3dac4c84e0dd22cd8545cb114db8"><div class="ttname"><a href="namespaceKarm.html#af68e3dac4c84e0dd22cd8545cb114db8">Karm::NONE</a></div><div class="ttdeci">constexpr auto NONE</div><div class="ttdef"><b>Definition:</b> base.h:166</div></div>
+<div class="ttc" id="aconceptKarm_1_1Iter2Item_html"><div class="ttname"><a href="conceptKarm_1_1Iter2Item.html">Karm::Iter2Item</a></div><div class="ttdef"><b>Definition:</b> iter.cpp:406</div></div>
+<div class="ttc" id="anamespaceKarm_html_ad1321baaaac39d3c9e044f9fb4308639"><div class="ttname"><a href="namespaceKarm.html#ad1321baaaac39d3c9e044f9fb4308639">Karm::NONE</a></div><div class="ttdeci">export constexpr auto NONE</div><div class="ttdef"><b>Definition:</b> base.cpp:167</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

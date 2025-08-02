@@ -1,8 +1,8 @@
 var searchData=
 [
   ['scalar_0',['Scalar',['../structKarm_1_1Math_1_1Ray.html#a461911e13317ba7b8543f4e5c2b3a3cf',1,'Karm::Math::Ray::Scalar()'],['../unionKarm_1_1Math_1_1Arc.html#aba199854fd1ce379eea527e1f0bec01b',1,'Karm::Math::Arc::Scalar()'],['../unionKarm_1_1Math_1_1Vec4.html#a6a96219153abf07100f71460a0c0b548',1,'Karm::Math::Vec4::Scalar()'],['../unionKarm_1_1Math_1_1Vec3.html#a769efa3a0e6efaa684f4df7b7f959546',1,'Karm::Math::Vec3::Scalar()'],['../unionKarm_1_1Math_1_1Vec2.html#ac742c0636ec35a1126890cebc795af4e',1,'Karm::Math::Vec2::Scalar()'],['../unionKarm_1_1Math_1_1Tri2.html#ab99c9b8a9efbe4d8380cec5d9706834f',1,'Karm::Math::Tri2::Scalar()'],['../unionKarm_1_1Math_1_1Trans2.html#aba1517f145cdaf6f0e82775cec08f7e1',1,'Karm::Math::Trans2::Scalar()'],['../unionKarm_1_1Math_1_1Rect.html#abcf9a7a01da3f99f7f7c07d58dde4587',1,'Karm::Math::Rect::Scalar()'],['../unionKarm_1_1Math_1_1Quad.html#a495e8f837b2b6e742a499687243991d9',1,'Karm::Math::Quad::Scalar()'],['../unionKarm_1_1Math_1_1Mat4.html#a9f1f7aaecb6725ae2b7111fbe3306110',1,'Karm::Math::Mat4::Scalar()'],['../unionKarm_1_1Math_1_1Mat3.html#a532a74e46f99508d908ecd74c522762d',1,'Karm::Math::Mat3::Scalar()'],['../unionKarm_1_1Math_1_1Mat2.html#a3ec4d700301b228bcdf9bcb9a189a91b',1,'Karm::Math::Mat2::Scalar()'],['../unionKarm_1_1Math_1_1Ellipse.html#a17a2ca78d09a17e120881109202a6cab',1,'Karm::Math::Ellipse::Scalar()'],['../unionKarm_1_1Math_1_1Edge.html#a31055b9e36e208ed97b69854b79d0a29',1,'Karm::Math::Edge::Scalar()'],['../unionKarm_1_1Math_1_1Curve.html#ab6ae74b35a9d0ff25cb5ce60147575d0',1,'Karm::Math::Curve::Scalar()']]],
-  ['scriptcount_1',['ScriptCount',['../structTtf_1_1ScriptList.html#a45c31fa480cc84454532f0aed5213f74',1,'Ttf::ScriptList']]],
-  ['scriptlistoffset_2',['ScriptListOffset',['../structTtf_1_1Gsub.html#a22c82de8f6d4e2deaec574f950b2c481',1,'Ttf::Gsub::ScriptListOffset()'],['../structTtf_1_1Gpos.html#a31ff1c19d0cdcd4005330659d9bdf73d',1,'Ttf::Gpos::ScriptListOffset()']]],
+  ['scriptcount_1',['ScriptCount',['../structKarm_1_1Text_1_1Ttf_1_1ScriptList.html#ab9fc14fa1f5fe7e97f156b9733b765f2',1,'Karm::Text::Ttf::ScriptList']]],
+  ['scriptlistoffset_2',['ScriptListOffset',['../structKarm_1_1Text_1_1Ttf_1_1Gsub.html#a68ad8c315ca489f7e67defb0b4aaa6b8',1,'Karm::Text::Ttf::Gsub::ScriptListOffset()'],['../structKarm_1_1Text_1_1Ttf_1_1Gpos.html#a52588e8aae0b049184709068be10ee4d',1,'Karm::Text::Ttf::Gpos::ScriptListOffset()']]],
   ['send_3',['Send',['../namespaceKarm_1_1Ui.html#a97e01472538b0021d7126a139f4f04ad',1,'Karm::Ui']]],
   ['size_4',['Size',['../structKarm_1_1Range.html#a0d98a621ca9270ae189891003a14ec41',1,'Karm::Range']]],
   ['slot_5',['Slot',['../namespaceKarm_1_1Ui.html#a42eff427ab5c7586bf0eea0b481a592e',1,'Karm::Ui']]],
@@ -11,11 +11,11 @@ var searchData=
   ['sscan_8',['SScan',['../namespaceKarm_1_1Io.html#a6cee1ccb2229cb0d94e469d387a41c2a',1,'Karm::Io']]],
   ['state_9',['State',['../structKarm_1_1Ui_1_1Reducer.html#a89724ba7488939e71c7b60c03b6b323b',1,'Karm::Ui::Reducer::State()'],['../structKarm_1_1Ui_1_1Model.html#aedb2f8e38f116a3c691a99fcec013f8e',1,'Karm::Ui::Model::State()']]],
   ['stop_10',['Stop',['../structKarm_1_1Gfx_1_1Gradient.html#a1ac7507e574b402f018ebb4a007fa86e',1,'Karm::Gfx::Gradient']]],
-  ['storageoffset_11',['StorageOffset',['../structTtf_1_1Name.html#a55ab87f40efcdf15a2b3ded2bf7ffd7d',1,'Ttf::Name']]],
+  ['storageoffset_11',['StorageOffset',['../structKarm_1_1Text_1_1Ttf_1_1Name.html#a6619e36fa59fbe7622039bc2e47f7607',1,'Karm::Text::Ttf::Name']]],
   ['str_12',['Str',['../namespaceKarm.html#ad13bfdef3971d180d820f6489f550505',1,'Karm']]],
   ['string_13',['String',['../namespaceKarm.html#ae6adab057126d950320de3262006925b',1,'Karm']]],
   ['stringbuilder_14',['StringBuilder',['../namespaceKarm.html#a1c5604e0afdf6fc0b4b67054e0daaa18',1,'Karm']]],
   ['stringwriter_15',['StringWriter',['../namespaceKarm_1_1Io.html#ad7e121919fcdb91a5cc5ba9ef0b325f9',1,'Karm::Io']]],
-  ['subtablecount_16',['SubTableCount',['../structTtf_1_1LookupTable.html#a739b02afe453906303ecf75f874b923d',1,'Ttf::LookupTable']]],
+  ['subtablecount_16',['SubTableCount',['../structKarm_1_1Text_1_1Ttf_1_1LookupTable.html#aff6102efcf05e611fa2e55a7ac7c1dfc',1,'Karm::Text::Ttf::LookupTable']]],
   ['systemtime_17',['SystemTime',['../namespaceKarm.html#a68b0d292848ebc470a5ea7a2d5dfd97d',1,'Karm']]]
 ];

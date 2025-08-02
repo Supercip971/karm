@@ -99,18 +99,15 @@ $(document).ready(function(){initNavTree('conceptKarm_1_1Io_1_1Readable.html',''
   <div class="headertitle"><div class="title">Karm::Io::Readable Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="karm-io_2traits_8h_source.html">traits.h</a>&gt;</code></p>
 <h2 class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Io_1_1Readable.html">Karm::Io::Readable</a> =  <span class="keyword">requires</span>(<a class="code hl_variable" href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">T</a>&amp; reader, <a class="code hl_typedef" href="namespaceKarm.html#aae9861e68f8d76cbdfb6427494441e55">MutBytes</a> <a class="code hl_function" href="namespaceKarm.html#ae6c8530b4199793d2c014e3afe018b95">bytes</a>) {</div>
-<div class="line">    { reader.read(<a class="code hl_function" href="namespaceKarm.html#ae6c8530b4199793d2c014e3afe018b95">bytes</a>) } -&gt; <a class="code hl_concept" href="conceptKarm_1_1Meta_1_1Same.html">Meta::Same&lt;Res&lt;usize&gt;</a>&gt;;</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptKarm_1_1Io_1_1Readable.html">Karm::Io::Readable</a> =  <span class="keyword">requires</span>(T&amp; reader, <a class="code hl_typedef" href="namespaceKarm.html#aae9861e68f8d76cbdfb6427494441e55">MutBytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>) {</div>
+<div class="line">    { reader.read(<a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>) } -&gt; <a class="code hl_concept" href="conceptKarm_1_1Meta_1_1Same.html">Meta::Same&lt;Res&lt;usize&gt;</a>&gt;;</div>
 <div class="line">}</div>
-<div class="ttc" id="aconceptKarm_1_1Io_1_1Readable_html"><div class="ttname"><a href="conceptKarm_1_1Io_1_1Readable.html">Karm::Io::Readable</a></div><div class="ttdef"><b>Definition:</b> traits.h:17</div></div>
-<div class="ttc" id="aconceptKarm_1_1Meta_1_1Same_html"><div class="ttname"><a href="conceptKarm_1_1Meta_1_1Same.html">Karm::Meta::Same</a></div><div class="ttdef"><b>Definition:</b> traits.h:129</div></div>
-<div class="ttc" id="anamespaceKarm_html_a18f5da5b00dd7f1bc574277abe3982ed"><div class="ttname"><a href="namespaceKarm.html#a18f5da5b00dd7f1bc574277abe3982ed">Karm::T</a></div><div class="ttdeci">U&lt;', U'=', U'&gt; U U U U U U U U U U U U U U U U U U U U T</div><div class="ttdef"><b>Definition:</b> rune.h:364</div></div>
-<div class="ttc" id="anamespaceKarm_html_aae9861e68f8d76cbdfb6427494441e55"><div class="ttname"><a href="namespaceKarm.html#aae9861e68f8d76cbdfb6427494441e55">Karm::MutBytes</a></div><div class="ttdeci">MutSlice&lt; u8 &gt; MutBytes</div><div class="ttdef"><b>Definition:</b> slice.h:208</div></div>
-<div class="ttc" id="anamespaceKarm_html_ae6c8530b4199793d2c014e3afe018b95"><div class="ttname"><a href="namespaceKarm.html#ae6c8530b4199793d2c014e3afe018b95">Karm::bytes</a></div><div class="ttdeci">Bytes bytes(S const &amp;slice)</div><div class="ttdef"><b>Definition:</b> slice.h:263</div></div>
+<div class="ttc" id="aconceptKarm_1_1Io_1_1Readable_html"><div class="ttname"><a href="conceptKarm_1_1Io_1_1Readable.html">Karm::Io::Readable</a></div><div class="ttdef"><b>Definition:</b> traits.cpp:14</div></div>
+<div class="ttc" id="aconceptKarm_1_1Meta_1_1Same_html"><div class="ttname"><a href="conceptKarm_1_1Meta_1_1Same.html">Karm::Meta::Same</a></div><div class="ttdef"><b>Definition:</b> traits.cpp:127</div></div>
+<div class="ttc" id="anamespaceKarm_html_a3bdf6315e5ed232fc27f650ba669cc70"><div class="ttname"><a href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">Karm::bytes</a></div><div class="ttdeci">export Bytes bytes(S const &amp;slice)</div><div class="ttdef"><b>Definition:</b> slice.cpp:265</div></div>
+<div class="ttc" id="anamespaceKarm_html_aae9861e68f8d76cbdfb6427494441e55"><div class="ttname"><a href="namespaceKarm.html#aae9861e68f8d76cbdfb6427494441e55">Karm::MutBytes</a></div><div class="ttdeci">MutSlice&lt; u8 &gt; MutBytes</div><div class="ttdef"><b>Definition:</b> slice.cpp:210</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

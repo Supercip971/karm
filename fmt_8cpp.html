@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Karm: src/libs/karm-io/fmt.cpp File Reference</title>
+<title>Karm: src/libs/karm-core/io/fmt.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
@@ -97,18 +97,94 @@ $(document).ready(function(){initNavTree('fmt_8cpp.html',''); initResizable(); }
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#concepts">Concepts</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">fmt.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="karm-io_2expr_8h_source.html">karm-io/expr.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="karm-math_2funcs_8h_source.html">karm-math/funcs.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="aton_8h_source.html">aton.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="emit_8h_source.html">emit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fmt_8h_source.html">fmt.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="karm-core_2macros_8h_source.html">karm-core/macros.h</a>&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Args.html">Karm::Io::Args&lt; Ts &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Aligned.html">Karm::Io::Aligned&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Aligned_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Aligned&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1NumberFormatter.html">Karm::Io::NumberFormatter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01T_01_4.html">Karm::Io::Formatter&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Be_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Be&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Le_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Le&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01T_01_5_01_4.html">Karm::Io::Formatter&lt; T * &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01std_1_1nullptr__t_01_4.html">Karm::Io::Formatter&lt; std::nullptr_t &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01None_01_4.html">Karm::Io::Formatter&lt; None &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01bool_01_4.html">Karm::Io::Formatter&lt; bool &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Opt_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Opt&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Ok_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Ok&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Error_01_4.html">Karm::Io::Formatter&lt; Error &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Res_3_01T_00_01E_01_4_01_4.html">Karm::Io::Formatter&lt; Res&lt; T, E &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Union_3_01Ts_8_8_8_01_4_01_4.html">Karm::Io::Formatter&lt; Union&lt; Ts... &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01std_1_1strong__ordering_01_4.html">Karm::Io::Formatter&lt; std::strong_ordering &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01std_1_1weak__ordering_01_4.html">Karm::Io::Formatter&lt; std::weak_ordering &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01std_1_1partial__ordering_01_4.html">Karm::Io::Formatter&lt; std::partial_ordering &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Rc_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Rc&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Weak_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Weak&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Box_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Box&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Cow_3_01T_01_4_01_4.html">Karm::Io::Formatter&lt; Cow&lt; T &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html">Karm::Io::Formatter&lt; Map&lt; K, V &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Range_3_01T_00_01Tag_01_4_01_4.html">Karm::Io::Formatter&lt; Range&lt; T, Tag &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1StringFormatter.html">Karm::Io::StringFormatter&lt; E &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01StrLit_3_01N_01_4_01_4.html">Karm::Io::Formatter&lt; StrLit&lt; N &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01char_01const_01_5_01_4.html">Karm::Io::Formatter&lt; char const * &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Symbol_01_4.html">Karm::Io::Formatter&lt; Symbol &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Duration_01_4.html">Karm::Io::Formatter&lt; Duration &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Instant_01_4.html">Karm::Io::Formatter&lt; Instant &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01SystemTime_01_4.html">Karm::Io::Formatter&lt; SystemTime &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Time_01_4.html">Karm::Io::Formatter&lt; Time &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Date_01_4.html">Karm::Io::Formatter&lt; Date &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01DateTime_01_4.html">Karm::Io::Formatter&lt; DateTime &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Pair_3_01Car_00_01Cdr_01_4_01_4.html">Karm::Io::Formatter&lt; Pair&lt; Car, Cdr &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Io_1_1Formatter_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html">Karm::Io::Formatter&lt; Tuple&lt; Ts... &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
@@ -116,60 +192,65 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm_1_1Io"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html">Karm::Io</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a64cac0f9bea13bce340eda39c5afe9f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a64cac0f9bea13bce340eda39c5afe9f5">Karm::Io::CaseFn</a> = auto(Rune, usize, usize) -&gt; Rune</td></tr>
-<tr class="separator:a64cac0f9bea13bce340eda39c5afe9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
+Concepts</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptKarm_1_1Io_1_1ReprMethod.html">Karm::Io::ReprMethod</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptKarm_1_1Io_1_1Reprable.html">Karm::Io::Reprable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a425d6a2ac28c2a937fb0fe57285b6acd"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a425d6a2ac28c2a937fb0fe57285b6acd">Karm::Io::Align</a> { <a class="el" href="namespaceKarm_1_1Io.html#a425d6a2ac28c2a937fb0fe57285b6acda684d325a7303f52e64011467ff5c5758">Karm::Io::LEFT</a>
+, <a class="el" href="namespaceKarm_1_1Io.html#a425d6a2ac28c2a937fb0fe57285b6acda21507b40c80068eda19865706fdc2403">Karm::Io::RIGHT</a>
+, <a class="el" href="namespaceKarm_1_1Io.html#a425d6a2ac28c2a937fb0fe57285b6acdac397289ee45877be0cd49811fe245b4e">Karm::Io::CENTER</a>
+ }</td></tr>
+<tr class="separator:a425d6a2ac28c2a937fb0fe57285b6acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7fb1305d3b8e2e13684428227ad0f537"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a7fb1305d3b8e2e13684428227ad0f537">Karm::Io::toDefaultCase</a> (Str str)</td></tr>
-<tr class="separator:a7fb1305d3b8e2e13684428227ad0f537"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79452e9ad2744ea39b1ef69eeafd9caf"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a79452e9ad2744ea39b1ef69eeafd9caf">Karm::Io::toCamelCase</a> (Str str)</td></tr>
-<tr class="separator:a79452e9ad2744ea39b1ef69eeafd9caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a76c02b1cfd2f65b34c36ebf2b3804"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ab1a76c02b1cfd2f65b34c36ebf2b3804">Karm::Io::toCapitalCase</a> (Str str)</td></tr>
-<tr class="separator:ab1a76c02b1cfd2f65b34c36ebf2b3804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ace207f99ed42fc340209dd6bb00469"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a3ace207f99ed42fc340209dd6bb00469">Karm::Io::toConstantCase</a> (Str str)</td></tr>
-<tr class="separator:a3ace207f99ed42fc340209dd6bb00469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90aa2de58ccfe76ef5f8bbf8a9934383"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a90aa2de58ccfe76ef5f8bbf8a9934383">Karm::Io::toDotCase</a> (Str str)</td></tr>
-<tr class="separator:a90aa2de58ccfe76ef5f8bbf8a9934383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4127b98a2f1023e86e1080ac617e159e"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a4127b98a2f1023e86e1080ac617e159e">Karm::Io::toHeaderCase</a> (Str str)</td></tr>
-<tr class="separator:a4127b98a2f1023e86e1080ac617e159e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aaa67bad38f6ef5dbd86851fb3b87c8"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a1aaa67bad38f6ef5dbd86851fb3b87c8">Karm::Io::toNoCase</a> (Str str)</td></tr>
-<tr class="separator:a1aaa67bad38f6ef5dbd86851fb3b87c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3cb1413bfc3e212a8525f99dd715390"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ae3cb1413bfc3e212a8525f99dd715390">Karm::Io::toParamCase</a> (Str str)</td></tr>
-<tr class="separator:ae3cb1413bfc3e212a8525f99dd715390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1080498cb23743a7bea03f35c9d282a9"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a1080498cb23743a7bea03f35c9d282a9">Karm::Io::toPascalCase</a> (Str str)</td></tr>
-<tr class="separator:a1080498cb23743a7bea03f35c9d282a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67ba0e1c1d9dc3f902c047c73fd99ca4"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a67ba0e1c1d9dc3f902c047c73fd99ca4">Karm::Io::toPathCase</a> (Str str)</td></tr>
-<tr class="separator:a67ba0e1c1d9dc3f902c047c73fd99ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab34c08a074f8dd0236aba3bbab8175f9"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ab34c08a074f8dd0236aba3bbab8175f9">Karm::Io::toSentenceCase</a> (Str str)</td></tr>
-<tr class="separator:ab34c08a074f8dd0236aba3bbab8175f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d5c349a2b69f350cff047051d0b0b41"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a8d5c349a2b69f350cff047051d0b0b41">Karm::Io::toSnakeCase</a> (Str str)</td></tr>
-<tr class="separator:a8d5c349a2b69f350cff047051d0b0b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec5ad01664e308e1e1eed5fa4ef71d6d"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#aec5ad01664e308e1e1eed5fa4ef71d6d">Karm::Io::toTitleCase</a> (Str str)</td></tr>
-<tr class="separator:aec5ad01664e308e1e1eed5fa4ef71d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf7cffc0b348d75a821d118541cb32bb"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#acf7cffc0b348d75a821d118541cb32bb">Karm::Io::toSwapCase</a> (Str str)</td></tr>
-<tr class="separator:acf7cffc0b348d75a821d118541cb32bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2268bfd2eebd95af48157da3dd368fe"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ab2268bfd2eebd95af48157da3dd368fe">Karm::Io::toLowerCase</a> (Str str)</td></tr>
-<tr class="separator:ab2268bfd2eebd95af48157da3dd368fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae67f3f3e83bd20a05e3b8b72e44467a8"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ae67f3f3e83bd20a05e3b8b72e44467a8">Karm::Io::toLowerFirstCase</a> (Str str)</td></tr>
-<tr class="separator:ae67f3f3e83bd20a05e3b8b72e44467a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f05944a055e67a2144f6b75b332b82"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a51f05944a055e67a2144f6b75b332b82">Karm::Io::toUpperCase</a> (Str str)</td></tr>
-<tr class="separator:a51f05944a055e67a2144f6b75b332b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae966629a64ba75991de6dcf5eba8ecbe"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ae966629a64ba75991de6dcf5eba8ecbe">Karm::Io::toUpperFirstCase</a> (Str str)</td></tr>
-<tr class="separator:ae966629a64ba75991de6dcf5eba8ecbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af319aaaf26ea85ab11dc987187ee37c6"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#af319aaaf26ea85ab11dc987187ee37c6">Karm::Io::toSpongeCase</a> (Str str)</td></tr>
-<tr class="separator:af319aaaf26ea85ab11dc987187ee37c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34d8434cd901fe383b09d5d802a30af5"><td class="memItemLeft" align="right" valign="top">Res&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a34d8434cd901fe383b09d5d802a30af5">Karm::Io::changeCase</a> (Str str, Case toCase)</td></tr>
-<tr class="separator:a34d8434cd901fe383b09d5d802a30af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab628c8c55e2fd03bb9b7edb448be1935"><td class="memItemLeft" align="right" valign="top">export Res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ab628c8c55e2fd03bb9b7edb448be1935">Karm::Io::format</a> (TextWriter &amp;writer, Str format)</td></tr>
+<tr class="separator:ab628c8c55e2fd03bb9b7edb448be1935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2623d501fcffb2e5b4f2cd00b94ca8"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a2a2623d501fcffb2e5b4f2cd00b94ca8"><td class="memTemplItemLeft" align="right" valign="top">export Res&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a2a2623d501fcffb2e5b4f2cd00b94ca8">Karm::Io::format</a> (TextWriter &amp;writer, Str format, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:a2a2623d501fcffb2e5b4f2cd00b94ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744bdda8d4acc8b3ac9758dec0298d1f"><td class="memItemLeft" align="right" valign="top">export String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a744bdda8d4acc8b3ac9758dec0298d1f">Karm::Io::format</a> (Str format)</td></tr>
+<tr class="separator:a744bdda8d4acc8b3ac9758dec0298d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7912445229a66e93a69a9b07e73b69"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:ade7912445229a66e93a69a9b07e73b69"><td class="memTemplItemLeft" align="right" valign="top">export String&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#ade7912445229a66e93a69a9b07e73b69">Karm::Io::format</a> (Str format, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:ade7912445229a66e93a69a9b07e73b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b28ce373fd9b12b8e5c6bad4b43c69"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a54b28ce373fd9b12b8e5c6bad4b43c69"><td class="memTemplItemLeft" align="right" valign="top">export String&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a54b28ce373fd9b12b8e5c6bad4b43c69">Karm::Io::toStr</a> (T const &amp;t, Str format=&quot;&quot;)</td></tr>
+<tr class="separator:a54b28ce373fd9b12b8e5c6bad4b43c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da0fabb35bbdcc49befbc5ef6315857"><td class="memItemLeft" align="right" valign="top">export auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Io.html#a7da0fabb35bbdcc49befbc5ef6315857">Karm::Io::aligned</a> (auto inner, Align align, usize width)</td></tr>
+<tr class="separator:a7da0fabb35bbdcc49befbc5ef6315857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af60e35d72364ff777a965d456af4dea3"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmt_8cpp.html#af60e35d72364ff777a965d456af4dea3">Core</a></td></tr>
+<tr class="separator:af60e35d72364ff777a965d456af4dea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="af60e35d72364ff777a965d456af4dea3" name="af60e35d72364ff777a965d456af4dea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60e35d72364ff777a965d456af4dea3">&#9670;&#160;</a></span>Core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_f9cc2060724f634b7c3f795b6b80dc1a.html">karm-io</a></li><li class="navelem"><a class="el" href="fmt_8cpp.html">fmt.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_0faa10f0ea8b4a910168b5e6ae52c924.html">karm-core</a></li><li class="navelem"><a class="el" href="dir_be3883856b4814f666ad44e2e59562d4.html">io</a></li><li class="navelem"><a class="el" href="fmt_8cpp.html">fmt.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

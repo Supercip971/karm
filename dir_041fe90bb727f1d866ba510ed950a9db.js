@@ -10,7 +10,7 @@ var dir_041fe90bb727f1d866ba510ed950a9db =
     [ "proxy.cpp", "proxy_8cpp.html", "proxy_8cpp" ],
     [ "shape.cpp", "shape_8cpp.html", "shape_8cpp" ],
     [ "stack.cpp", "stack_8cpp.html", "stack_8cpp" ],
-    [ "text.cpp", "text_8cpp.html", "text_8cpp" ],
+    [ "text.cpp", "karm-scene_2text_8cpp.html", "karm-scene_2text_8cpp" ],
     [ "transform.cpp", "transform_8cpp.html", "transform_8cpp" ],
     [ "viewbox.cpp", "viewbox_8cpp.html", "viewbox_8cpp" ]
 ];

@@ -11,6 +11,5 @@ var karm_core_2json_2mod_8cpp =
     [ "parseStr", "karm-core_2json_2mod_8cpp.html#a06d6670226b16306f30aa67d92a85600", null ],
     [ "unparse", "karm-core_2json_2mod_8cpp.html#ab9a9ed73490df1b143dc913d020a8668", null ],
     [ "unparse", "karm-core_2json_2mod_8cpp.html#ac5948f842326ffd322178ef2f16c0ba2", null ],
-    [ "Core", "karm-core_2json_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
-    [ "module", "karm-core_2json_2mod_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
+    [ "Core", "karm-core_2json_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
 ];

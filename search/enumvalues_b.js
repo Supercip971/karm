@@ -8,9 +8,9 @@ var searchData=
   ['leave_5',['LEAVE',['../structKarm_1_1Ui_1_1FocusEvent.html#aaf00e241189e66030de18d59a9823a4aae0f9ef6d3025baf33497bafcca7ff781',1,'Karm::Ui::FocusEvent']]],
   ['left_6',['LEFT',['../namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aa684d325a7303f52e64011467ff5c5758',1,'Karm::App::LEFT()'],['../namespaceKarm_1_1Ui.html#a9a6f71ee5d5e1182df9c535312fa6089a684d325a7303f52e64011467ff5c5758',1,'Karm::Ui::LEFT()'],['../namespaceKarm_1_1Text.html#a2133f87041c1f104afff4ce6b41a0c86a684d325a7303f52e64011467ff5c5758',1,'Karm::Text::LEFT()'],['../namespaceKarm_1_1Io.html#a425d6a2ac28c2a937fb0fe57285b6acda684d325a7303f52e64011467ff5c5758',1,'Karm::Io::LEFT()']]],
   ['left_5fto_5fright_7',['LEFT_TO_RIGHT',['../structKarm_1_1Math_1_1Flow.html#a3ba9c296d0eb2686b837d4f10e27243b',1,'Karm::Math::Flow']]],
-  ['license_8',['LICENSE',['../structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea260c11eed26cc0f904106cbc76341c43',1,'Ttf::Name']]],
-  ['license_5furl_9',['LICENSE_URL',['../structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31eadbaa932b0c120696193f9ed84d74f643',1,'Ttf::Name']]],
-  ['light_5fbackground_5fpalette_10',['LIGHT_BACKGROUND_PALETTE',['../structTtf_1_1Name.html#ac8f1d720ec6fe24a86aa79b30a40f31ea5b9697f7c0ccee1dad2c7db5cac853fc',1,'Ttf::Name']]],
+  ['license_8',['LICENSE',['../structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a14f6dec20115f4f000c529263e2a9287',1,'Karm::Text::Ttf::Name']]],
+  ['license_5furl_9',['LICENSE_URL',['../structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258aba2909e9f3401f3c6786ad1a119a5b09',1,'Karm::Text::Ttf::Name']]],
+  ['light_5fbackground_5fpalette_10',['LIGHT_BACKGROUND_PALETTE',['../structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a289fd8d9e967917df97432650d8f3da3',1,'Karm::Text::Ttf::Name']]],
   ['line_5fto_11',['LINE_TO',['../structKarm_1_1Math_1_1Path.html#a1a219937914ccedcf08cb1852aa8eca7a968d1951cdadef8af7975ef564ab77c0',1,'Karm::Math::Path']]],
   ['linear_12',['LINEAR',['../structKarm_1_1Gfx_1_1Gradient.html#a37f713a9cc356fb99f7128137b3b15faa352183418704a69d7b8bd1896e9dd51b',1,'Karm::Gfx::Gradient']]],
   ['lower_13',['LOWER',['../namespaceKarm_1_1Io.html#ab3289aef9c6dbeb8105ef83dc36c9672aa7c48ba367e019d004bfb0239b85f2b3',1,'Karm::Io::LOWER()'],['../namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4aa7c48ba367e019d004bfb0239b85f2b3',1,'Karm::Sys::LOWER()']]],
@@ -20,5 +20,5 @@ var searchData=
   ['lro_17',['LRO',['../namespaceKarm_1_1Icu.html#a374f62108410f9c0065ef638d0b1fb63a0331b5c1f027f310c2d2fca91ad025e2',1,'Karm::Icu']]],
   ['lshift_18',['LSHIFT',['../namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1adff23c74b1d8d80f33e8a894964c74d7',1,'Karm::App']]],
   ['lsuper_19',['LSUPER',['../namespaceKarm_1_1App.html#ad07c9914f5689fc3c0360845e694c5d1a462acf6fa42f3b2a720f95dba2468678',1,'Karm::App']]],
-  ['luma_20',['LUMA',['../namespaceQoi.html#acffe5ab0215eb976c5aafced51fc9b67a001cc13108883f1c087da3bfa06039b4',1,'Qoi']]]
+  ['luma_20',['LUMA',['../namespaceKarm_1_1Image_1_1Qoi.html#aacde60f0fc4bacd02d89f5cee6479d84a35d82fae1bc21eab896ab787f9a33520',1,'Karm::Image::Qoi']]]
 ];

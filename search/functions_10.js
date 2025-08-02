@@ -7,7 +7,7 @@ var searchData=
   ['quadraticout_4',['quadraticOut',['../structKarm_1_1Math_1_1Easing.html#a2fd7b47084b1d540c206c1a5b11819ec',1,'Karm::Math::Easing']]],
   ['quadto_5',['quadTo',['../structKarm_1_1Gfx_1_1Canvas.html#af78ad9eb4019216587e48803dd9ede69',1,'Karm::Gfx::Canvas::quadTo()'],['../structKarm_1_1Gfx_1_1CpuCanvas.html#ad1994bb2dae30ca1ca77b2d4709a0ce7',1,'Karm::Gfx::CpuCanvas::quadTo()'],['../structKarm_1_1Math_1_1Path.html#ab0739cd603c3bd14a7a72abd7b0b5f60',1,'Karm::Math::Path::quadTo()'],['../structKarm_1_1Pdf_1_1Canvas.html#ac03e49a27a87e1e984826379d986df58',1,'Karm::Pdf::Canvas::quadTo()']]],
   ['quantifiermatcher_6',['QuantifierMatcher',['../structKarm_1_1Regex_1_1QuantifierMatcher.html#a06d8527d36e687eb5f35239832a4f031',1,'Karm::Regex::QuantifierMatcher']]],
-  ['quantize_7',['quantize',['../namespaceJpeg.html#aa1869b4aac5150f9596a1b92cc7ecbbe',1,'Jpeg']]],
+  ['quantize_7',['quantize',['../namespaceKarm_1_1Image_1_1Jpeg.html#aca0809dc4035820dcdbeac3a4a451324',1,'Karm::Image::Jpeg']]],
   ['quarticin_8',['quarticIn',['../structKarm_1_1Math_1_1Easing.html#a8a5a2c501eeb16b7c8aba479559bd6fd',1,'Karm::Math::Easing']]],
   ['quarticinout_9',['quarticInOut',['../structKarm_1_1Math_1_1Easing.html#aac09ce1c53bc3f3dd63b29cb4cc297b9',1,'Karm::Math::Easing']]],
   ['quarticout_10',['quarticOut',['../structKarm_1_1Math_1_1Easing.html#ae422c4bdcc0fa5adbe85a17fd9d775c1',1,'Karm::Math::Easing']]],

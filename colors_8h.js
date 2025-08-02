@@ -4,5 +4,6 @@ var colors_8h =
     [ "ColorRamp", "colors_8h.html#adf0a684a57f60d932be18e5459a9ab53", null ],
     [ "rainbowColor", "colors_8h.html#a66f6284a870b57f9785d19f4038a1ef9", null ],
     [ "randomColor", "colors_8h.html#adf0730e28261ab45461a517b0039ae9d", null ],
-    [ "randomColor", "colors_8h.html#a28536cc55216863a6f3d6931be9071ec", null ]
+    [ "randomColor", "colors_8h.html#a28536cc55216863a6f3d6931be9071ec", null ],
+    [ "Core", "colors_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

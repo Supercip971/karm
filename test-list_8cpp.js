@@ -8,5 +8,6 @@ var test_list_8cpp =
     [ "test$", "test-list_8cpp.html#a0fe28a0f6e90b9cb4d314de72dc238b1", null ],
     [ "test$", "test-list_8cpp.html#a4138507fe7abdc36ab83d59f57a130e9", null ],
     [ "test$", "test-list_8cpp.html#add8f7dff50e7e6e57dee414565b96edf", null ],
-    [ "test$", "test-list_8cpp.html#a81b7c4a1c500775eae638e32bea08554", null ]
+    [ "test$", "test-list_8cpp.html#a81b7c4a1c500775eae638e32bea08554", null ],
+    [ "Core", "test-list_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

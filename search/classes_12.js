@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['table_0',['Table',['../structTtf_1_1Cmap_1_1Table.html',1,'Ttf::Cmap']]],
+  ['table_0',['Table',['../structKarm_1_1Text_1_1Ttf_1_1Cmap_1_1Table.html',1,'Karm::Text::Ttf::Cmap']]],
   ['tcpconnection_1',['TcpConnection',['../structKarm_1_1Sys_1_1TcpConnection.html',1,'Karm::Sys']]],
   ['tcplistener_2',['TcpListener',['../structKarm_1_1Sys_1_1TcpListener.html',1,'Karm::Sys']]],
   ['tensorinfos_3',['TensorInfos',['../structKarm_1_1Ml_1_1Gguf_1_1TensorInfos.html',1,'Karm::Ml::Gguf']]],
@@ -8,7 +8,7 @@ var searchData=
   ['text_5',['Text',['../structKarm_1_1Scene_1_1Text.html',1,'Karm::Scene::Text'],['../structKarm_1_1Ui_1_1Text.html',1,'Karm::Ui::Text']]],
   ['textencoder_6',['TextEncoder',['../structKarm_1_1Io_1_1TextEncoder.html',1,'Karm::Io']]],
   ['textencoderbase_7',['TextEncoderBase',['../structKarm_1_1Io_1_1TextEncoderBase.html',1,'Karm::Io']]],
-  ['textencoderbase_3c_20typename_20sys_3a_3aencoding_20_3e_8',['TextEncoderBase&lt; typename Sys::Encoding &gt;',['../structKarm_1_1Io_1_1TextEncoderBase.html',1,'Karm::Io']]],
+  ['textencoderbase_3c_20utf8_20_3e_8',['TextEncoderBase&lt; Utf8 &gt;',['../structKarm_1_1Io_1_1TextEncoderBase.html',1,'Karm::Io']]],
   ['textstyles_9',['TextStyles',['../structKarm_1_1Ui_1_1TextStyles.html',1,'Karm::Ui']]],
   ['textwriter_10',['TextWriter',['../structKarm_1_1Io_1_1TextWriter.html',1,'Karm::Io']]],
   ['time_11',['Time',['../structKarm_1_1Time.html',1,'Karm']]],
@@ -17,7 +17,7 @@ var searchData=
   ['tlsconnection_14',['TlsConnection',['../structTls_1_1TlsConnection.html',1,'Tls']]],
   ['toggle_15',['Toggle',['../structKarm_1_1Kira_1_1Toggle.html',1,'Karm::Kira']]],
   ['togglesidebar_16',['ToggleSidebar',['../structKarm_1_1Kira_1_1Scaffold_1_1ToggleSidebar.html',1,'Karm::Kira::Scaffold']]],
-  ['token_17',['Token',['../structKarm_1_1Async_1_1Cancelation_1_1Token.html',1,'Karm::Async::Cancelation::Token'],['../structKarm_1_1Cli_1_1Token.html',1,'Karm::Cli::Token']]],
+  ['token_17',['Token',['../structKarm_1_1Async_1_1Cancellation_1_1Token.html',1,'Karm::Async::Cancellation::Token'],['../structKarm_1_1Cli_1_1Token.html',1,'Karm::Cli::Token']]],
   ['tokeninfos_18',['TokenInfos',['../structKarm_1_1Ml_1_1BpeVocab_1_1TokenInfos.html',1,'Karm::Ml::BpeVocab']]],
   ['trans2_19',['Trans2',['../unionKarm_1_1Math_1_1Trans2.html',1,'Karm::Math']]],
   ['transform_20',['Transform',['../structKarm_1_1Scene_1_1Transform.html',1,'Karm::Scene']]],

@@ -1,9 +1,10 @@
 var mixbox_8cpp =
 [
-    [ "lerp", "mixbox_8cpp.html#aa44080c403d791ab868a8f7ad5d03b89", null ],
-    [ "lerpColor", "mixbox_8cpp.html#a4463d4781d7ba65ef5a929e48c56f328", null ],
-    [ "mix", "mixbox_8cpp.html#a217b5a3b79d34476c1997fbb461a2ab1", null ],
-    [ "mixColor", "mixbox_8cpp.html#aa39b45583df3847e4d4cbcb81a648d9a", null ],
-    [ "unmix", "mixbox_8cpp.html#a9e89891d9b2955c075e9d5820c7ce538", null ],
-    [ "unmixColor", "mixbox_8cpp.html#a1dd30b53f856713a526d3a625333b6c7", null ]
+    [ "lerp", "mixbox_8cpp.html#ae1fe8d701e32b73ed0f80e11670e50c4", null ],
+    [ "lerpColor", "mixbox_8cpp.html#a8dc565397cf0f8cdfce6b012ef0a85f9", null ],
+    [ "mix", "mixbox_8cpp.html#aced549c61f9dbc9dacf52ae276a3e5ba", null ],
+    [ "mixColor", "mixbox_8cpp.html#a177176adcb4ac5c1b5ba47488249d62b", null ],
+    [ "unmix", "mixbox_8cpp.html#adbc897fa296b3964b0d892bfcfe063a9", null ],
+    [ "unmixColor", "mixbox_8cpp.html#a28938e60764184edd29c2dca59b68667", null ],
+    [ "Core", "mixbox_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

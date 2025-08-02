@@ -1,17 +1,5 @@
 var annotated_dup =
 [
-    [ "Bmp", "namespaceBmp.html", [
-      [ "Decoder", "structBmp_1_1Decoder.html", "structBmp_1_1Decoder" ]
-    ] ],
-    [ "Gif", "namespaceGif.html", [
-      [ "Decoder", "structGif_1_1Decoder.html", "structGif_1_1Decoder" ]
-    ] ],
-    [ "Jpeg", "namespaceJpeg.html", [
-      [ "BitReader", "structJpeg_1_1BitReader.html", "structJpeg_1_1BitReader" ],
-      [ "BitWriter", "structJpeg_1_1BitWriter.html", "structJpeg_1_1BitWriter" ],
-      [ "Decoder", "structJpeg_1_1Decoder.html", "structJpeg_1_1Decoder" ],
-      [ "Huff", "structJpeg_1_1Huff.html", "structJpeg_1_1Huff" ]
-    ] ],
     [ "Karm", "namespaceKarm.html", [
       [ "Aio", "namespaceKarm_1_1Aio.html", [
         [ "Adapter", "structKarm_1_1Aio_1_1Adapter.html", "structKarm_1_1Aio_1_1Adapter" ],
@@ -36,7 +24,7 @@ var annotated_dup =
       ] ],
       [ "Async", "namespaceKarm_1_1Async.html", [
         [ "Awaiter", "structKarm_1_1Async_1_1Awaiter.html", "structKarm_1_1Async_1_1Awaiter" ],
-        [ "Cancelation", "structKarm_1_1Async_1_1Cancelation.html", "structKarm_1_1Async_1_1Cancelation" ],
+        [ "Cancellation", "structKarm_1_1Async_1_1Cancellation.html", "structKarm_1_1Async_1_1Cancellation" ],
         [ "Context", "structKarm_1_1Async_1_1Context.html", "structKarm_1_1Async_1_1Context" ],
         [ "Continuation", "structKarm_1_1Async_1_1Continuation.html", "structKarm_1_1Async_1_1Continuation" ],
         [ "Inline", "structKarm_1_1Async_1_1Inline.html", null ],
@@ -133,6 +121,32 @@ var annotated_dup =
         [ "Bidi", "structKarm_1_1Icu_1_1Bidi.html", "structKarm_1_1Icu_1_1Bidi" ]
       ] ],
       [ "Image", "namespaceKarm_1_1Image.html", [
+        [ "Bmp", "namespaceKarm_1_1Image_1_1Bmp.html", [
+          [ "Decoder", "structKarm_1_1Image_1_1Bmp_1_1Decoder.html", "structKarm_1_1Image_1_1Bmp_1_1Decoder" ]
+        ] ],
+        [ "Gif", "namespaceKarm_1_1Image_1_1Gif.html", [
+          [ "Decoder", "structKarm_1_1Image_1_1Gif_1_1Decoder.html", "structKarm_1_1Image_1_1Gif_1_1Decoder" ]
+        ] ],
+        [ "Jpeg", "namespaceKarm_1_1Image_1_1Jpeg.html", [
+          [ "BitReader", "structKarm_1_1Image_1_1Jpeg_1_1BitReader.html", "structKarm_1_1Image_1_1Jpeg_1_1BitReader" ],
+          [ "BitWriter", "structKarm_1_1Image_1_1Jpeg_1_1BitWriter.html", "structKarm_1_1Image_1_1Jpeg_1_1BitWriter" ],
+          [ "Decoder", "structKarm_1_1Image_1_1Jpeg_1_1Decoder.html", "structKarm_1_1Image_1_1Jpeg_1_1Decoder" ],
+          [ "Huff", "structKarm_1_1Image_1_1Jpeg_1_1Huff.html", "structKarm_1_1Image_1_1Jpeg_1_1Huff" ]
+        ] ],
+        [ "Png", "namespaceKarm_1_1Image_1_1Png.html", [
+          [ "Decoder", "structKarm_1_1Image_1_1Png_1_1Decoder.html", "structKarm_1_1Image_1_1Png_1_1Decoder" ],
+          [ "Idat", "structKarm_1_1Image_1_1Png_1_1Idat.html", null ],
+          [ "Iend", "structKarm_1_1Image_1_1Png_1_1Iend.html", null ],
+          [ "Ihdr", "structKarm_1_1Image_1_1Png_1_1Ihdr.html", "structKarm_1_1Image_1_1Png_1_1Ihdr" ],
+          [ "Plte", "structKarm_1_1Image_1_1Png_1_1Plte.html", null ]
+        ] ],
+        [ "Qoi", "namespaceKarm_1_1Image_1_1Qoi.html", [
+          [ "Decoder", "structKarm_1_1Image_1_1Qoi_1_1Decoder.html", "structKarm_1_1Image_1_1Qoi_1_1Decoder" ]
+        ] ],
+        [ "Tga", "namespaceKarm_1_1Image_1_1Tga.html", [
+          [ "Decoder", "structKarm_1_1Image_1_1Tga_1_1Decoder.html", "structKarm_1_1Image_1_1Tga_1_1Decoder" ],
+          [ "Header", "structKarm_1_1Image_1_1Tga_1_1Header.html", "structKarm_1_1Image_1_1Tga_1_1Header" ]
+        ] ],
         [ "Picture", "structKarm_1_1Image_1_1Picture.html", "structKarm_1_1Image_1_1Picture" ],
         [ "Saver", "structKarm_1_1Image_1_1Saver.html", "structKarm_1_1Image_1_1Saver" ]
       ] ],
@@ -170,6 +184,8 @@ var annotated_dup =
         [ "Formatter< Karm::Http::Code >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Code_01_4" ],
         [ "Formatter< Karm::Http::Method >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Method_01_4" ],
         [ "Formatter< Karm::Http::Version >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4" ],
+        [ "Formatter< Karm::Math::Fixed< T, F > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Fixed_3_01T_00_01F_01_4_01_4" ],
+        [ "Formatter< Karm::Math::Frac< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Frac_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Frac_3_01T_01_4_01_4" ],
         [ "Formatter< Karm::Mime::Path >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Path_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Path_01_4" ],
         [ "Formatter< Karm::Mime::Url >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Url_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Url_01_4" ],
         [ "Formatter< Karm::Sys::Ip >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4" ],
@@ -179,8 +195,6 @@ var annotated_dup =
         [ "Formatter< Karm::Tty::Styled< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Tty_1_1Styled_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Tty_1_1Styled_3_01T_01_4_01_4" ],
         [ "Formatter< Le< T > >", "structKarm_1_1Io_1_1Formatter_3_01Le_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Le_3_01T_01_4_01_4" ],
         [ "Formatter< Map< K, V > >", "structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Map_3_01K_00_01V_01_4_01_4" ],
-        [ "Formatter< Math::Fixed< T, F > >", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4" ],
-        [ "Formatter< Math::Frac< T > >", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Frac_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Math_1_1Frac_3_01T_01_4_01_4" ],
         [ "Formatter< None >", "structKarm_1_1Io_1_1Formatter_3_01None_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01None_01_4" ],
         [ "Formatter< Ok< T > >", "structKarm_1_1Io_1_1Formatter_3_01Ok_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Ok_3_01T_01_4_01_4" ],
         [ "Formatter< Opt< T > >", "structKarm_1_1Io_1_1Formatter_3_01Opt_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Opt_3_01T_01_4_01_4" ],
@@ -203,19 +217,6 @@ var annotated_dup =
         [ "Formatter< Weak< T > >", "structKarm_1_1Io_1_1Formatter_3_01Weak_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Weak_3_01T_01_4_01_4" ],
         [ "Limit", "structKarm_1_1Io_1_1Limit.html", "structKarm_1_1Io_1_1Limit" ],
         [ "NumberFormatter", "structKarm_1_1Io_1_1NumberFormatter.html", "structKarm_1_1Io_1_1NumberFormatter" ],
-        [ "PackEmit", "structKarm_1_1Io_1_1PackEmit.html", "structKarm_1_1Io_1_1PackEmit" ],
-        [ "Packer", "structKarm_1_1Io_1_1Packer.html", null ],
-        [ "Packer< Error >", "structKarm_1_1Io_1_1Packer_3_01Error_01_4.html", null ],
-        [ "Packer< Math::Vec2< T > >", "structKarm_1_1Io_1_1Packer_3_01Math_1_1Vec2_3_01T_01_4_01_4.html", null ],
-        [ "Packer< None >", "structKarm_1_1Io_1_1Packer_3_01None_01_4.html", null ],
-        [ "Packer< Opt< T > >", "structKarm_1_1Io_1_1Packer_3_01Opt_3_01T_01_4_01_4.html", null ],
-        [ "Packer< Pair< Car, Cdr > >", "structKarm_1_1Io_1_1Packer_3_01Pair_3_01Car_00_01Cdr_01_4_01_4.html", null ],
-        [ "Packer< Res< T, E > >", "structKarm_1_1Io_1_1Packer_3_01Res_3_01T_00_01E_01_4_01_4.html", null ],
-        [ "Packer< T >", "structKarm_1_1Io_1_1Packer_3_01T_01_4.html", null ],
-        [ "Packer< Tuple< Ts... > >", "structKarm_1_1Io_1_1Packer_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
-        [ "Packer< Union< Ts... > >", "structKarm_1_1Io_1_1Packer_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
-        [ "Packer< Vec< T > >", "structKarm_1_1Io_1_1Packer_3_01Vec_3_01T_01_4_01_4.html", null ],
-        [ "PackScan", "structKarm_1_1Io_1_1PackScan.html", "structKarm_1_1Io_1_1PackScan" ],
         [ "Reader", "structKarm_1_1Io_1_1Reader.html", "structKarm_1_1Io_1_1Reader" ],
         [ "Repeat", "structKarm_1_1Io_1_1Repeat.html", "structKarm_1_1Io_1_1Repeat" ],
         [ "Repr", "structKarm_1_1Io_1_1Repr.html", null ],
@@ -331,6 +332,9 @@ var annotated_dup =
       [ "Pkg", "namespaceKarm_1_1Pkg.html", [
         [ "BundleInfo", "structKarm_1_1Pkg_1_1BundleInfo.html", "structKarm_1_1Pkg_1_1BundleInfo" ]
       ] ],
+      [ "Posix", "namespaceKarm_1_1Posix.html", [
+        [ "Fd", "structKarm_1_1Posix_1_1Fd.html", "structKarm_1_1Posix_1_1Fd" ]
+      ] ],
       [ "Print", "namespaceKarm_1_1Print.html", [
         [ "FilePrinter", "structKarm_1_1Print_1_1FilePrinter.html", "structKarm_1_1Print_1_1FilePrinter" ],
         [ "FilePrinterProps", "structKarm_1_1Print_1_1FilePrinterProps.html", "structKarm_1_1Print_1_1FilePrinterProps" ],
@@ -359,12 +363,6 @@ var annotated_dup =
         [ "QuantifierMatcher", "structKarm_1_1Regex_1_1QuantifierMatcher.html", "structKarm_1_1Regex_1_1QuantifierMatcher" ],
         [ "Regex", "structKarm_1_1Regex_1_1Regex.html", "structKarm_1_1Regex_1_1Regex" ]
       ] ],
-      [ "Rpc", "namespaceKarm_1_1Rpc.html", [
-        [ "Endpoint", "structKarm_1_1Rpc_1_1Endpoint.html", "structKarm_1_1Rpc_1_1Endpoint" ],
-        [ "Header", "structKarm_1_1Rpc_1_1Header.html", "structKarm_1_1Rpc_1_1Header" ],
-        [ "Message", "structKarm_1_1Rpc_1_1Message.html", "structKarm_1_1Rpc_1_1Message" ],
-        [ "Port", "structKarm_1_1Rpc_1_1Port.html", "structKarm_1_1Rpc_1_1Port" ]
-      ] ],
       [ "Scene", "namespaceKarm_1_1Scene.html", [
         [ "Box", "structKarm_1_1Scene_1_1Box.html", "structKarm_1_1Scene_1_1Box" ],
         [ "Clear", "structKarm_1_1Scene_1_1Clear.html", "structKarm_1_1Scene_1_1Clear" ],
@@ -391,11 +389,13 @@ var annotated_dup =
         [ "CpuInfo", "structKarm_1_1Sys_1_1CpuInfo.html", "structKarm_1_1Sys_1_1CpuInfo" ],
         [ "Dir", "structKarm_1_1Sys_1_1Dir.html", "structKarm_1_1Sys_1_1Dir" ],
         [ "DirEntry", "structKarm_1_1Sys_1_1DirEntry.html", "structKarm_1_1Sys_1_1DirEntry" ],
+        [ "Endpoint", "structKarm_1_1Sys_1_1Endpoint.html", "structKarm_1_1Sys_1_1Endpoint" ],
         [ "Err", "structKarm_1_1Sys_1_1Err.html", "structKarm_1_1Sys_1_1Err" ],
         [ "Fd", "structKarm_1_1Sys_1_1Fd.html", "structKarm_1_1Sys_1_1Fd" ],
         [ "File", "structKarm_1_1Sys_1_1File.html", null ],
         [ "FileReader", "structKarm_1_1Sys_1_1FileReader.html", "structKarm_1_1Sys_1_1FileReader" ],
         [ "FileWriter", "structKarm_1_1Sys_1_1FileWriter.html", "structKarm_1_1Sys_1_1FileWriter" ],
+        [ "Header", "structKarm_1_1Sys_1_1Header.html", "structKarm_1_1Sys_1_1Header" ],
         [ "In", "structKarm_1_1Sys_1_1In.html", "structKarm_1_1Sys_1_1In" ],
         [ "Intent", "structKarm_1_1Sys_1_1Intent.html", "structKarm_1_1Sys_1_1Intent" ],
         [ "Ip", "structKarm_1_1Sys_1_1Ip.html", null ],
@@ -404,6 +404,19 @@ var annotated_dup =
         [ "IpcConnection", "structKarm_1_1Sys_1_1IpcConnection.html", "structKarm_1_1Sys_1_1IpcConnection" ],
         [ "IpcListener", "structKarm_1_1Sys_1_1IpcListener.html", "structKarm_1_1Sys_1_1IpcListener" ],
         [ "MemInfo", "structKarm_1_1Sys_1_1MemInfo.html", "structKarm_1_1Sys_1_1MemInfo" ],
+        [ "Message", "structKarm_1_1Sys_1_1Message.html", "structKarm_1_1Sys_1_1Message" ],
+        [ "MessagePacker", "structKarm_1_1Sys_1_1MessagePacker.html", null ],
+        [ "MessagePacker< Error >", "structKarm_1_1Sys_1_1MessagePacker_3_01Error_01_4.html", null ],
+        [ "MessagePacker< None >", "structKarm_1_1Sys_1_1MessagePacker_3_01None_01_4.html", null ],
+        [ "MessagePacker< Opt< T > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Opt_3_01T_01_4_01_4.html", null ],
+        [ "MessagePacker< Pair< Car, Cdr > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Pair_3_01Car_00_01Cdr_01_4_01_4.html", null ],
+        [ "MessagePacker< Res< T, E > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Res_3_01T_00_01E_01_4_01_4.html", null ],
+        [ "MessagePacker< T >", "structKarm_1_1Sys_1_1MessagePacker_3_01T_01_4.html", null ],
+        [ "MessagePacker< Tuple< Ts... > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
+        [ "MessagePacker< Union< Ts... > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
+        [ "MessagePacker< Vec< T > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Vec_3_01T_01_4_01_4.html", null ],
+        [ "MessageReader", "structKarm_1_1Sys_1_1MessageReader.html", "structKarm_1_1Sys_1_1MessageReader" ],
+        [ "MessageWriter", "structKarm_1_1Sys_1_1MessageWriter.html", "structKarm_1_1Sys_1_1MessageWriter" ],
         [ "Mmap", "structKarm_1_1Sys_1_1Mmap.html", "structKarm_1_1Sys_1_1Mmap" ],
         [ "MmapProps", "structKarm_1_1Sys_1_1MmapProps.html", "structKarm_1_1Sys_1_1MmapProps" ],
         [ "MmapResult", "structKarm_1_1Sys_1_1MmapResult.html", "structKarm_1_1Sys_1_1MmapResult" ],
@@ -413,6 +426,7 @@ var annotated_dup =
         [ "Object", "structKarm_1_1Sys_1_1Object.html", "structKarm_1_1Sys_1_1Object" ],
         [ "Out", "structKarm_1_1Sys_1_1Out.html", "structKarm_1_1Sys_1_1Out" ],
         [ "Pipe", "structKarm_1_1Sys_1_1Pipe.html", "structKarm_1_1Sys_1_1Pipe" ],
+        [ "Port", "structKarm_1_1Sys_1_1Port.html", "structKarm_1_1Sys_1_1Port" ],
         [ "Sched", "structKarm_1_1Sys_1_1Sched.html", "structKarm_1_1Sys_1_1Sched" ],
         [ "Sema", "structKarm_1_1Sys_1_1Sema.html", "structKarm_1_1Sys_1_1Sema" ],
         [ "Service", "structKarm_1_1Sys_1_1Service.html", "structKarm_1_1Sys_1_1Service" ],
@@ -430,6 +444,38 @@ var annotated_dup =
         [ "Test", "structKarm_1_1Test_1_1Test.html", "structKarm_1_1Test_1_1Test" ]
       ] ],
       [ "Text", "namespaceKarm_1_1Text.html", [
+        [ "Ttf", "namespaceKarm_1_1Text_1_1Ttf.html", [
+          [ "ClassDef", "structKarm_1_1Text_1_1Ttf_1_1ClassDef.html", "structKarm_1_1Text_1_1Ttf_1_1ClassDef" ],
+          [ "ClassPairAdjustment", "structKarm_1_1Text_1_1Ttf_1_1ClassPairAdjustment.html", "structKarm_1_1Text_1_1Ttf_1_1ClassPairAdjustment" ],
+          [ "Cmap", "structKarm_1_1Text_1_1Ttf_1_1Cmap.html", "structKarm_1_1Text_1_1Ttf_1_1Cmap" ],
+          [ "CoverageTable", "structKarm_1_1Text_1_1Ttf_1_1CoverageTable.html", "structKarm_1_1Text_1_1Ttf_1_1CoverageTable" ],
+          [ "FeatureList", "structKarm_1_1Text_1_1Ttf_1_1FeatureList.html", "structKarm_1_1Text_1_1Ttf_1_1FeatureList" ],
+          [ "FeatureTable", "structKarm_1_1Text_1_1Ttf_1_1FeatureTable.html", "structKarm_1_1Text_1_1Ttf_1_1FeatureTable" ],
+          [ "Fixed", "structKarm_1_1Text_1_1Ttf_1_1Fixed.html", "structKarm_1_1Text_1_1Ttf_1_1Fixed" ],
+          [ "Glyf", "structKarm_1_1Text_1_1Ttf_1_1Glyf.html", "structKarm_1_1Text_1_1Ttf_1_1Glyf" ],
+          [ "GlyphMetrics", "structKarm_1_1Text_1_1Ttf_1_1GlyphMetrics.html", "structKarm_1_1Text_1_1Ttf_1_1GlyphMetrics" ],
+          [ "GlyphPairAdjustment", "structKarm_1_1Text_1_1Ttf_1_1GlyphPairAdjustment.html", "structKarm_1_1Text_1_1Ttf_1_1GlyphPairAdjustment" ],
+          [ "Gpos", "structKarm_1_1Text_1_1Ttf_1_1Gpos.html", "structKarm_1_1Text_1_1Ttf_1_1Gpos" ],
+          [ "Gsub", "structKarm_1_1Text_1_1Ttf_1_1Gsub.html", "structKarm_1_1Text_1_1Ttf_1_1Gsub" ],
+          [ "Head", "structKarm_1_1Text_1_1Ttf_1_1Head.html", "structKarm_1_1Text_1_1Ttf_1_1Head" ],
+          [ "Hhea", "structKarm_1_1Text_1_1Ttf_1_1Hhea.html", "structKarm_1_1Text_1_1Ttf_1_1Hhea" ],
+          [ "Hmtx", "structKarm_1_1Text_1_1Ttf_1_1Hmtx.html", "structKarm_1_1Text_1_1Ttf_1_1Hmtx" ],
+          [ "LangSys", "structKarm_1_1Text_1_1Ttf_1_1LangSys.html", "structKarm_1_1Text_1_1Ttf_1_1LangSys" ],
+          [ "Loca", "structKarm_1_1Text_1_1Ttf_1_1Loca.html", "structKarm_1_1Text_1_1Ttf_1_1Loca" ],
+          [ "LookupList", "structKarm_1_1Text_1_1Ttf_1_1LookupList.html", "structKarm_1_1Text_1_1Ttf_1_1LookupList" ],
+          [ "LookupSubtableBase", "structKarm_1_1Text_1_1Ttf_1_1LookupSubtableBase.html", "structKarm_1_1Text_1_1Ttf_1_1LookupSubtableBase" ],
+          [ "LookupTable", "structKarm_1_1Text_1_1Ttf_1_1LookupTable.html", "structKarm_1_1Text_1_1Ttf_1_1LookupTable" ],
+          [ "Maxp", "structKarm_1_1Text_1_1Ttf_1_1Maxp.html", "structKarm_1_1Text_1_1Ttf_1_1Maxp" ],
+          [ "Metrics", "structKarm_1_1Text_1_1Ttf_1_1Metrics.html", "structKarm_1_1Text_1_1Ttf_1_1Metrics" ],
+          [ "Name", "structKarm_1_1Text_1_1Ttf_1_1Name.html", "structKarm_1_1Text_1_1Ttf_1_1Name" ],
+          [ "Os2", "structKarm_1_1Text_1_1Ttf_1_1Os2.html", "structKarm_1_1Text_1_1Ttf_1_1Os2" ],
+          [ "Parser", "structKarm_1_1Text_1_1Ttf_1_1Parser.html", "structKarm_1_1Text_1_1Ttf_1_1Parser" ],
+          [ "Post", "structKarm_1_1Text_1_1Ttf_1_1Post.html", "structKarm_1_1Text_1_1Ttf_1_1Post" ],
+          [ "ScriptList", "structKarm_1_1Text_1_1Ttf_1_1ScriptList.html", "structKarm_1_1Text_1_1Ttf_1_1ScriptList" ],
+          [ "ScriptTable", "structKarm_1_1Text_1_1Ttf_1_1ScriptTable.html", "structKarm_1_1Text_1_1Ttf_1_1ScriptTable" ],
+          [ "ValueRecord", "structKarm_1_1Text_1_1Ttf_1_1ValueRecord.html", "structKarm_1_1Text_1_1Ttf_1_1ValueRecord" ],
+          [ "Version", "structKarm_1_1Text_1_1Ttf_1_1Version.html", "structKarm_1_1Text_1_1Ttf_1_1Version" ]
+        ] ],
         [ "Action", "structKarm_1_1Text_1_1Action.html", "structKarm_1_1Text_1_1Action" ],
         [ "Font", "structKarm_1_1Text_1_1Font.html", "structKarm_1_1Text_1_1Font" ],
         [ "FontAdjust", "structKarm_1_1Text_1_1FontAdjust.html", "structKarm_1_1Text_1_1FontAdjust" ],
@@ -547,6 +593,7 @@ var annotated_dup =
       [ "Func", "structKarm_1_1Func.html", null ],
       [ "Func< Out(In...)>", "structKarm_1_1Func_3_01Out_07In_8_8_8_08_4.html", "structKarm_1_1Func_3_01Out_07In_8_8_8_08_4" ],
       [ "Generator", "structKarm_1_1Generator.html", "structKarm_1_1Generator" ],
+      [ "Ibm437Mapper", "structKarm_1_1Ibm437Mapper.html", "structKarm_1_1Ibm437Mapper" ],
       [ "InlineBuf", "structKarm_1_1InlineBuf.html", "structKarm_1_1InlineBuf" ],
       [ "It", "structKarm_1_1It.html", "structKarm_1_1It" ],
       [ "Iter", "structKarm_1_1Iter.html", "structKarm_1_1Iter" ],
@@ -558,10 +605,10 @@ var annotated_dup =
       [ "Limits< double >", "structKarm_1_1Limits_3_01double_01_4.html", null ],
       [ "Limits< float >", "structKarm_1_1Limits_3_01float_01_4.html", null ],
       [ "Limits< int >", "structKarm_1_1Limits_3_01int_01_4.html", null ],
+      [ "Limits< Karm::Math::Fixed< T, F > >", "structKarm_1_1Limits_3_01Karm_1_1Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", null ],
       [ "Limits< long >", "structKarm_1_1Limits_3_01long_01_4.html", null ],
       [ "Limits< long double >", "structKarm_1_1Limits_3_01long_01double_01_4.html", null ],
       [ "Limits< long long >", "structKarm_1_1Limits_3_01long_01long_01_4.html", null ],
-      [ "Limits< Math::Fixed< T, F > >", "structKarm_1_1Limits_3_01Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", null ],
       [ "Limits< short >", "structKarm_1_1Limits_3_01short_01_4.html", null ],
       [ "Limits< signed char >", "structKarm_1_1Limits_3_01signed_01char_01_4.html", null ],
       [ "Limits< unsigned >", "structKarm_1_1Limits_3_01unsigned_01_4.html", null ],
@@ -627,58 +674,8 @@ var annotated_dup =
       [ "WriteLockScope", "structKarm_1_1WriteLockScope.html", "structKarm_1_1WriteLockScope" ],
       [ "Year", "structKarm_1_1Year.html", "structKarm_1_1Year" ]
     ] ],
-    [ "Png", "namespacePng.html", [
-      [ "Decoder", "structPng_1_1Decoder.html", "structPng_1_1Decoder" ],
-      [ "Idat", "structPng_1_1Idat.html", null ],
-      [ "Iend", "structPng_1_1Iend.html", null ],
-      [ "Ihdr", "structPng_1_1Ihdr.html", "structPng_1_1Ihdr" ],
-      [ "Plte", "structPng_1_1Plte.html", null ]
-    ] ],
-    [ "Posix", "namespacePosix.html", [
-      [ "Fd", "structPosix_1_1Fd.html", "structPosix_1_1Fd" ]
-    ] ],
-    [ "Qoi", "namespaceQoi.html", [
-      [ "Decoder", "structQoi_1_1Decoder.html", "structQoi_1_1Decoder" ]
-    ] ],
-    [ "Tga", "namespaceTga.html", [
-      [ "Decoder", "structTga_1_1Decoder.html", "structTga_1_1Decoder" ],
-      [ "Header", "structTga_1_1Header.html", "structTga_1_1Header" ]
-    ] ],
     [ "Tls", "namespaceTls.html", [
       [ "CipherSuite", "structTls_1_1CipherSuite.html", null ],
       [ "TlsConnection", "structTls_1_1TlsConnection.html", "structTls_1_1TlsConnection" ]
-    ] ],
-    [ "Ttf", "namespaceTtf.html", [
-      [ "ClassDef", "structTtf_1_1ClassDef.html", "structTtf_1_1ClassDef" ],
-      [ "ClassPairAdjustment", "structTtf_1_1ClassPairAdjustment.html", "structTtf_1_1ClassPairAdjustment" ],
-      [ "Cmap", "structTtf_1_1Cmap.html", "structTtf_1_1Cmap" ],
-      [ "CoverageTable", "structTtf_1_1CoverageTable.html", "structTtf_1_1CoverageTable" ],
-      [ "FeatureList", "structTtf_1_1FeatureList.html", "structTtf_1_1FeatureList" ],
-      [ "FeatureTable", "structTtf_1_1FeatureTable.html", "structTtf_1_1FeatureTable" ],
-      [ "Fixed", "structTtf_1_1Fixed.html", "structTtf_1_1Fixed" ],
-      [ "Glyf", "structTtf_1_1Glyf.html", "structTtf_1_1Glyf" ],
-      [ "GlyphMetrics", "structTtf_1_1GlyphMetrics.html", "structTtf_1_1GlyphMetrics" ],
-      [ "GlyphPairAdjustment", "structTtf_1_1GlyphPairAdjustment.html", "structTtf_1_1GlyphPairAdjustment" ],
-      [ "Gpos", "structTtf_1_1Gpos.html", "structTtf_1_1Gpos" ],
-      [ "Gsub", "structTtf_1_1Gsub.html", "structTtf_1_1Gsub" ],
-      [ "Head", "structTtf_1_1Head.html", "structTtf_1_1Head" ],
-      [ "Hhea", "structTtf_1_1Hhea.html", "structTtf_1_1Hhea" ],
-      [ "Hmtx", "structTtf_1_1Hmtx.html", "structTtf_1_1Hmtx" ],
-      [ "LangSys", "structTtf_1_1LangSys.html", "structTtf_1_1LangSys" ],
-      [ "Loca", "structTtf_1_1Loca.html", "structTtf_1_1Loca" ],
-      [ "LookupList", "structTtf_1_1LookupList.html", "structTtf_1_1LookupList" ],
-      [ "LookupSubtableBase", "structTtf_1_1LookupSubtableBase.html", "structTtf_1_1LookupSubtableBase" ],
-      [ "LookupTable", "structTtf_1_1LookupTable.html", "structTtf_1_1LookupTable" ],
-      [ "Maxp", "structTtf_1_1Maxp.html", "structTtf_1_1Maxp" ],
-      [ "Metrics", "structTtf_1_1Metrics.html", "structTtf_1_1Metrics" ],
-      [ "Name", "structTtf_1_1Name.html", "structTtf_1_1Name" ],
-      [ "Os2", "structTtf_1_1Os2.html", "structTtf_1_1Os2" ],
-      [ "Parser", "structTtf_1_1Parser.html", "structTtf_1_1Parser" ],
-      [ "Post", "structTtf_1_1Post.html", "structTtf_1_1Post" ],
-      [ "ScriptList", "structTtf_1_1ScriptList.html", "structTtf_1_1ScriptList" ],
-      [ "ScriptTable", "structTtf_1_1ScriptTable.html", "structTtf_1_1ScriptTable" ],
-      [ "ValueRecord", "structTtf_1_1ValueRecord.html", "structTtf_1_1ValueRecord" ],
-      [ "Version", "structTtf_1_1Version.html", "structTtf_1_1Version" ]
-    ] ],
-    [ "ChannelHook", "structChannelHook.html", "structChannelHook" ]
+    ] ]
 ];

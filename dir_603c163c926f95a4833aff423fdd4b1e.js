@@ -3,7 +3,7 @@ var dir_603c163c926f95a4833aff423fdd4b1e =
     [ "cli", "dir_d2f7d978f7f82313e9730380e029c2fd.html", "dir_d2f7d978f7f82313e9730380e029c2fd" ],
     [ "tests", "dir_aa2c616506cba20250ef804362025675.html", "dir_aa2c616506cba20250ef804362025675" ],
     [ "ttf", "dir_d66c061a6ca30f817a5ba259c2bd4435.html", "dir_d66c061a6ca30f817a5ba259c2bd4435" ],
-    [ "base.h", "karm-text_2base_8h.html", "karm-text_2base_8h" ],
+    [ "base.h", "base_8h.html", "base_8h" ],
     [ "book.cpp", "book_8cpp.html", "book_8cpp" ],
     [ "book.h", "book_8h.html", "book_8h" ],
     [ "edit.cpp", "edit_8cpp.html", null ],

@@ -11,5 +11,6 @@ var karm_sys_2types_8h =
       [ "LOWER", "karm-sys_2types_8h.html#a4bc4dd239ab723c5768e73b651e5c8d4aa7c48ba367e019d004bfb0239b85f2b3", null ],
       [ "UPPER", "karm-sys_2types_8h.html#a4bc4dd239ab723c5768e73b651e5c8d4a9e43f5291e6fcb2ad99c8e3f91acd179", null ],
       [ "PREFETCH", "karm-sys_2types_8h.html#a4bc4dd239ab723c5768e73b651e5c8d4aa78a8d492349aa1aeef53ce4c89033c8", null ]
-    ] ]
+    ] ],
+    [ "Core", "karm-sys_2types_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
 ];

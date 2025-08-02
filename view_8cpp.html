@@ -106,8 +106,7 @@ $(document).ready(function(){initNavTree('view_8cpp.html',''); initResizable(); 
   <div class="headertitle"><div class="title">view.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="func_8h_source.html">karm-base/func.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="icon_8h_source.html">karm-gfx/icon.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="icon_8h_source.html">karm-gfx/icon.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="loader_8h_source.html">karm-text/loader.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="prose_8h_source.html">karm-text/prose.h</a>&gt;</code><br />
 </div><table class="memberdecls">
@@ -200,6 +199,8 @@ Variables</h2></td></tr>
 <tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b10d166640a82762e7ff7e7eea7c78c"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="view_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c">Ui</a></td></tr>
 <tr class="separator:a6b10d166640a82762e7ff7e7eea7c78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="view_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
+<tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a347f7c7ef7bd899fa94f6f503c00ab77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="view_8cpp.html#a347f7c7ef7bd899fa94f6f503c00ab77">Scene</a></td></tr>
 <tr class="separator:a347f7c7ef7bd899fa94f6f503c00ab77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bad3c590a133e3484b11be311494dae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="view_8cpp.html#a1bad3c590a133e3484b11be311494dae">Image</a></td></tr>
@@ -231,12 +232,26 @@ Variables</h2></td></tr>
 <div class="line">    <span class="keyword">inline</span> <a class="code hl_typedef" href="namespaceKarm_1_1Ui.html#a83e5086d08101336278888d3ccaa50d6">Child</a> STYLE(Gfx::Color color, Str format, Args&amp;&amp;... args) {                                                    \</div>
 <div class="line">        <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceKarm_1_1Ui.html#a9733de381e7fcd658239041f85f1c53b">text</a>(TextStyles::STYLE().withColor(color), format, std::forward&lt;Args&gt;(args)...);                           \</div>
 <div class="line">    }</div>
-<div class="ttc" id="anamespaceKarm_1_1Ui_html_a83e5086d08101336278888d3ccaa50d6"><div class="ttname"><a href="namespaceKarm_1_1Ui.html#a83e5086d08101336278888d3ccaa50d6">Karm::Ui::Child</a></div><div class="ttdeci">Rc&lt; Node &gt; Child</div><div class="ttdef"><b>Definition:</b> node.cpp:23</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Ui_html_a83e5086d08101336278888d3ccaa50d6"><div class="ttname"><a href="namespaceKarm_1_1Ui.html#a83e5086d08101336278888d3ccaa50d6">Karm::Ui::Child</a></div><div class="ttdeci">Rc&lt; Node &gt; Child</div><div class="ttdef"><b>Definition:</b> node.cpp:21</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Ui_html_a9733de381e7fcd658239041f85f1c53b"><div class="ttname"><a href="namespaceKarm_1_1Ui.html#a9733de381e7fcd658239041f85f1c53b">Karm::Ui::text</a></div><div class="ttdeci">export Child text(Karm::Text::ProseStyle style, Str text)</div><div class="ttdef"><b>Definition:</b> view.cpp:283</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="abedc7e19652ef6fd2984ea9cb3d62db5" name="abedc7e19652ef6fd2984ea9cb3d62db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedc7e19652ef6fd2984ea9cb3d62db5">&#9670;&#160;</a></span>Core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1bad3c590a133e3484b11be311494dae" name="a1bad3c590a133e3484b11be311494dae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1bad3c590a133e3484b11be311494dae">&#9670;&#160;</a></span>Image</h2>
 

@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['l_0',['l',['../namespaceKarm.html#af92eb1f30e4d89227ea345edf23ebb6b',1,'Karm']]],
-  ['l_1',['L',['../namespaceKarm.html#a8b69acf080b98de3a0e981fe3e468fc8',1,'Karm']]],
-  ['l2_5fe_2',['L2_E',['../namespaceKarm_1_1Math.html#a0d01e975c80d5c2aea19a4e5bfd11d62',1,'Karm::Math']]],
-  ['languageid_3',['languageId',['../structTtf_1_1Name_1_1Record.html#a9f95d5267a09ecbfdfb56a52050309cc',1,'Ttf::Name::Record']]],
+  ['l2_5fe_0',['L2_E',['../namespaceKarm_1_1Math.html#ab3b6c143205e17cc769f037e228eeb16',1,'Karm::Math']]],
+  ['languageid_1',['languageId',['../structKarm_1_1Text_1_1Ttf_1_1Name_1_1Record.html#a9e19862b3785937d31d991ef98fcdd7b',1,'Karm::Text::Ttf::Name::Record']]],
+  ['later_2',['LATER',['../namespaceKarm_1_1Async.html#a5bafa08d6e3b6db781005727dcdb388d',1,'Karm::Async']]],
+  ['latin1_3',['LATIN1',['../namespaceKarm.html#a4ba1983cdbbcadf1ae0098f6d0ed4c13',1,'Karm']]],
   ['leading_4',['leading',['../structKarm_1_1Mime_1_1MimePattern.html#a3f5d04d0f0ccf2842e09b44dad852f8c',1,'Karm::Mime::MimePattern']]],
   ['ledger_5',['LEDGER',['../namespaceKarm_1_1Print.html#a2eacd1538d20beea2c5e7ca07c80fc73',1,'Karm::Print']]],
   ['legal_6',['LEGAL',['../namespaceKarm_1_1Print.html#a4ce4da0278b08b745b964472f2410973',1,'Karm::Print']]],
-  ['length_7',['length',['../structTtf_1_1Name_1_1Record.html#a4a64656fdc4b9757f0cbeffa04ff0f98',1,'Ttf::Name::Record']]],
+  ['length_7',['length',['../structKarm_1_1Text_1_1Ttf_1_1Name_1_1Record.html#ae6be85a75ce4103f54bbbb3369377495',1,'Karm::Text::Ttf::Name::Record']]],
   ['letter_8',['LETTER',['../namespaceKarm_1_1Print.html#a13b76d1c86631426de6e446f6ae0bc8d',1,'Karm::Print']]],
   ['li_9',['li',['../structKarm_1_1Text_1_1Prose_1_1Lbc.html#a84941af1aca847970e2f1811d85e94e7',1,'Karm::Text::Prose::Lbc']]],
   ['light_10',['LIGHT',['../structKarm_1_1Text_1_1FontWeight.html#a5bbdfd5c9d20d58634ddadb05dc4dbd0',1,'Karm::Text::FontWeight']]],
@@ -16,10 +16,10 @@ var searchData=
   ['limit_13',['LIMIT',['../structKarm_1_1Gfx_1_1Gradient_1_1Builder.html#a7ca87b88b55747050a30727d6b8bdda2',1,'Karm::Gfx::Gradient::Builder']]],
   ['line_14',['line',['../structKarm_1_1Loc.html#ad9c1b4dc45fe064d18cdbe980dc3cd2e',1,'Karm::Loc']]],
   ['linebound_15',['linebound',['../structKarm_1_1Text_1_1FontMeasure.html#a17815cbf79337aa6df48e7f864f0e2dc',1,'Karm::Text::FontMeasure']]],
-  ['linegap_16',['linegap',['../structTtf_1_1Metrics.html#ac679d507f7cb8e9f7300464dbb621624',1,'Ttf::Metrics::linegap()'],['../structKarm_1_1Text_1_1FontMetrics.html#a67944eb108525a32e3fb8a461be78e42',1,'Karm::Text::FontMetrics::linegap()'],['../structKarm_1_1Text_1_1FontAdjust.html#a600288a2fa0104de44dd17b272bdf6e7',1,'Karm::Text::FontAdjust::linegap()']]],
+  ['linegap_16',['linegap',['../structKarm_1_1Text_1_1Ttf_1_1Metrics.html#af2c9d738d870cc22027cc231e93fa841',1,'Karm::Text::Ttf::Metrics::linegap()'],['../structKarm_1_1Text_1_1FontMetrics.html#a67944eb108525a32e3fb8a461be78e42',1,'Karm::Text::FontMetrics::linegap()'],['../structKarm_1_1Text_1_1FontAdjust.html#a600288a2fa0104de44dd17b272bdf6e7',1,'Karm::Text::FontAdjust::linegap()']]],
   ['lineheight_17',['lineheight',['../structKarm_1_1Text_1_1Font.html#aba1401b6b4f05f331c24c10a1f412e1e',1,'Karm::Text::Font']]],
   ['loc_18',['loc',['../structKarm_1_1Format.html#aeb3b648f730ecb160053f3f012df4c34',1,'Karm::Format']]],
-  ['long_5frecord_5fsize_19',['LONG_RECORD_SIZE',['../structTtf_1_1Hmtx.html#a8b0077daf7ad671ab9d75c9c93ee4b5d',1,'Ttf::Hmtx']]],
+  ['long_5frecord_5fsize_19',['LONG_RECORD_SIZE',['../structKarm_1_1Text_1_1Ttf_1_1Hmtx.html#a5fa7922e17f4a7c41c0a6bdc124b368d',1,'Karm::Text::Ttf::Hmtx']]],
   ['longname_20',['longName',['../structKarm_1_1Cli_1_1Command.html#abe7b274e0da965271ed2b9eb109b7d9d',1,'Karm::Cli::Command']]],
-  ['lsb_21',['lsb',['../structTtf_1_1GlyphMetrics.html#aeea8385627c547009f373a8ee758ebd0',1,'Ttf::GlyphMetrics::lsb()'],['../structTtf_1_1Hmtx_1_1Metrics.html#a67269affdfcdcde474c9b9ca6cc73360',1,'Ttf::Hmtx::Metrics::lsb()']]]
+  ['lsb_21',['lsb',['../structKarm_1_1Text_1_1Ttf_1_1GlyphMetrics.html#a2fec77edebbd791e3d8305202fbba2ee',1,'Karm::Text::Ttf::GlyphMetrics::lsb()'],['../structKarm_1_1Text_1_1Ttf_1_1Hmtx_1_1Metrics.html#a627e7dad6af7925a36be931c17106f52',1,'Karm::Text::Ttf::Hmtx::Metrics::lsb()']]]
 ];

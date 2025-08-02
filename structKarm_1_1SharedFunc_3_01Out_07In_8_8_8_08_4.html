@@ -103,8 +103,6 @@ $(document).ready(function(){initNavTree('structKarm_1_1SharedFunc_3_01Out_07In_
   <div class="headertitle"><div class="title">Karm::SharedFunc&lt; Out(In...)&gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="func_8h_source.html">func.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -115,26 +113,26 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a922f52270eea7321fb44c9d332841255"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#a922f52270eea7321fb44c9d332841255">SharedFunc</a> ()=delete</td></tr>
 <tr class="separator:a922f52270eea7321fb44c9d332841255"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab761d17f12b0abd12a401ef28eb74f5c"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;</td></tr>
-<tr class="memitem:ab761d17f12b0abd12a401ef28eb74f5c"><td class="memTemplItemLeft" align="right" valign="top">and Meta::Callable&lt; <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>, In... &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#ab761d17f12b0abd12a401ef28eb74f5c">SharedFunc</a> (<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> <a class="el" href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">f</a>)</td></tr>
+<tr class="memitem:ab761d17f12b0abd12a401ef28eb74f5c"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; <br />
+requires Meta::FuncPtr&lt;F&gt;</td></tr>
+<tr class="memitem:ab761d17f12b0abd12a401ef28eb74f5c"><td class="memTemplItemLeft" align="right" valign="top">and Meta::Callable&lt; F, In... &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#ab761d17f12b0abd12a401ef28eb74f5c">SharedFunc</a> (F f)</td></tr>
 <tr class="separator:ab761d17f12b0abd12a401ef28eb74f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30c41dfb0813dd72fcacc429c1a2ca9b"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires (Meta::RvalueRef&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;&gt; and not (Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;))</td></tr>
-<tr class="memitem:a30c41dfb0813dd72fcacc429c1a2ca9b"><td class="memTemplItemLeft" align="right" valign="top">and Meta::Callable&lt; <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>, In... &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#a30c41dfb0813dd72fcacc429c1a2ca9b">SharedFunc</a> (<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;<a class="el" href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">f</a>)</td></tr>
+<tr class="memitem:a30c41dfb0813dd72fcacc429c1a2ca9b"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; <br />
+requires (Meta::RvalueRef&lt;F &amp;&amp;&gt; and not (Meta::FuncPtr&lt;F&gt;))</td></tr>
+<tr class="memitem:a30c41dfb0813dd72fcacc429c1a2ca9b"><td class="memTemplItemLeft" align="right" valign="top">and Meta::Callable&lt; F, In... &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#a30c41dfb0813dd72fcacc429c1a2ca9b">SharedFunc</a> (F &amp;&amp;f)</td></tr>
 <tr class="separator:a30c41dfb0813dd72fcacc429c1a2ca9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbf52551a9ac0218daf4a514d86b70df"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;</td></tr>
-<tr class="memitem:abbf52551a9ac0218daf4a514d86b70df"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#abbf52551a9ac0218daf4a514d86b70df">operator=</a> (<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> <a class="el" href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">f</a>)</td></tr>
+<tr class="memitem:abbf52551a9ac0218daf4a514d86b70df"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; <br />
+requires Meta::FuncPtr&lt;F&gt;</td></tr>
+<tr class="memitem:abbf52551a9ac0218daf4a514d86b70df"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#abbf52551a9ac0218daf4a514d86b70df">operator=</a> (F f)</td></tr>
 <tr class="separator:abbf52551a9ac0218daf4a514d86b70df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfb9aca64af912523099f2faf184e763"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires (Meta::RvalueRef&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;&gt; and not (Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;))</td></tr>
-<tr class="memitem:adfb9aca64af912523099f2faf184e763"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#adfb9aca64af912523099f2faf184e763">operator=</a> (<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;<a class="el" href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">f</a>)</td></tr>
+<tr class="memitem:adfb9aca64af912523099f2faf184e763"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; <br />
+requires (Meta::RvalueRef&lt;F &amp;&amp;&gt; and not (Meta::FuncPtr&lt;F&gt;))</td></tr>
+<tr class="memitem:adfb9aca64af912523099f2faf184e763"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#adfb9aca64af912523099f2faf184e763">operator=</a> (F &amp;&amp;f)</td></tr>
 <tr class="separator:adfb9aca64af912523099f2faf184e763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c4c183b8e6bf61fcfa92c5d8c98eec"><td class="memItemLeft" align="right" valign="top">Out&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#a86c4c183b8e6bf61fcfa92c5d8c98eec">operator()</a> (In... in) const</td></tr>
 <tr class="separator:a86c4c183b8e6bf61fcfa92c5d8c98eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d311f07ada728f27b81eafa237d7721"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; </td></tr>
-<tr class="memitem:a8d311f07ada728f27b81eafa237d7721"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#a8d311f07ada728f27b81eafa237d7721">operator=</a> (<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> <a class="el" href="namespaceKarm.html#a56fd194a9d96f98b881602287029a12e">f</a>)</td></tr>
+<tr class="memitem:a8d311f07ada728f27b81eafa237d7721"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a8d311f07ada728f27b81eafa237d7721"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structKarm_1_1SharedFunc_3_01Out_07In_8_8_8_08_4.html#a8d311f07ada728f27b81eafa237d7721">operator=</a> (F f)</td></tr>
 <tr class="separator:a8d311f07ada728f27b81eafa237d7721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -173,16 +171,16 @@ template&lt;typename Out , typename... In&gt; </div>
 <div class="memtemplate">
 template&lt;typename Out , typename... In&gt; </div>
 <div class="memtemplate">
-template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;</div>
+template&lt;typename F &gt; <br />
+requires Meta::FuncPtr&lt;F&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">and Meta::Callable&lt; <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>, In... &gt; <a class="el" href="structKarm_1_1SharedFunc.html">Karm::SharedFunc</a>&lt; Out(In...)&gt;::SharedFunc </td>
+          <td class="memname">and Meta::Callable&lt; F, In... &gt; <a class="el" href="structKarm_1_1SharedFunc.html">Karm::SharedFunc</a>&lt; Out(In...)&gt;::SharedFunc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&#160;</td>
+          <td class="paramtype">F&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
           <td></td>
         </tr>
@@ -204,16 +202,16 @@ requires Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af435
 <div class="memtemplate">
 template&lt;typename Out , typename... In&gt; </div>
 <div class="memtemplate">
-template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires (Meta::RvalueRef&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;&gt; and not (Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;))</div>
+template&lt;typename F &gt; <br />
+requires (Meta::RvalueRef&lt;F &amp;&amp;&gt; and not (Meta::FuncPtr&lt;F&gt;))</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">and Meta::Callable&lt; <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>, In... &gt; <a class="el" href="structKarm_1_1SharedFunc.html">Karm::SharedFunc</a>&lt; Out(In...)&gt;::SharedFunc </td>
+          <td class="memname">and Meta::Callable&lt; F, In... &gt; <a class="el" href="structKarm_1_1SharedFunc.html">Karm::SharedFunc</a>&lt; Out(In...)&gt;::SharedFunc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;&#160;</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
           <td></td>
         </tr>
@@ -264,8 +262,8 @@ template&lt;typename Out , typename... In&gt; </div>
 <div class="memtemplate">
 template&lt;typename Out , typename... In&gt; </div>
 <div class="memtemplate">
-template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires (Meta::RvalueRef&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;&gt; and not (Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;))</div>
+template&lt;typename F &gt; <br />
+requires (Meta::RvalueRef&lt;F &amp;&amp;&gt; and not (Meta::FuncPtr&lt;F&gt;))</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -273,7 +271,7 @@ requires (Meta::RvalueRef&lt;<a class="el" href="namespaceKarm.html#aa130da165af
         <tr>
           <td class="memname"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp; <a class="el" href="structKarm_1_1SharedFunc.html">Karm::SharedFunc</a>&lt; Out(In...)&gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &amp;&amp;&#160;</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
           <td></td>
         </tr>
@@ -295,8 +293,8 @@ requires (Meta::RvalueRef&lt;<a class="el" href="namespaceKarm.html#aa130da165af
 <div class="memtemplate">
 template&lt;typename Out , typename... In&gt; </div>
 <div class="memtemplate">
-template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; <br />
-requires Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&gt;</div>
+template&lt;typename F &gt; <br />
+requires Meta::FuncPtr&lt;F&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -304,7 +302,7 @@ requires Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af435
         <tr>
           <td class="memname"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp; <a class="el" href="structKarm_1_1SharedFunc.html">Karm::SharedFunc</a>&lt; Out(In...)&gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&#160;</td>
+          <td class="paramtype">F&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
           <td></td>
         </tr>
@@ -326,7 +324,7 @@ requires Meta::FuncPtr&lt;<a class="el" href="namespaceKarm.html#aa130da165af435
 <div class="memtemplate">
 template&lt;typename Out , typename... In&gt; </div>
 <div class="memtemplate">
-template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a> &gt; </div>
+template&lt;typename F &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -334,7 +332,7 @@ template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af43590407
         <tr>
           <td class="memname"><a class="el" href="structKarm_1_1SharedFunc.html">SharedFunc</a> &amp; <a class="el" href="structKarm_1_1SharedFunc.html">Karm::SharedFunc</a>&lt; Out(In...)&gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceKarm.html#aa130da165af4359040790f6d297ac2a4">F</a>&#160;</td>
+          <td class="paramtype">F&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
           <td></td>
         </tr>
@@ -349,7 +347,7 @@ template&lt;typename <a class="el" href="namespaceKarm.html#aa130da165af43590407
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/libs/karm-base/<a class="el" href="func_8h_source.html">func.h</a></li>
+<li>src/libs/karm-core/base/<a class="el" href="func_8cpp.html">func.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
