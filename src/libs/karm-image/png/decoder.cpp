@@ -123,9 +123,8 @@ export struct Decoder {
     template <typename T>
     T lookupChunk() {
         for (auto chunk : iterChunks()) {
-            if (chunk.sig == T::SIG) {
+            if (chunk.sig == T::SIG)
                 return T{chunk.data};
-            }
         }
 
         logWarn("png: '{}' chunk not found", T::SIG);

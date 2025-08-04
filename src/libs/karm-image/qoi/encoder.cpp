@@ -44,14 +44,14 @@ export Res<> encode(Gfx::Pixels pixels, Io::BEmit& e) {
                 run = 0;
             }
 
-            usize index_pos = hashColor(curr) % 64;
+            usize indexPos = hashColor(curr) % 64;
 
-            if (index[index_pos] == curr) {
-                e.writeU8be(Chunk::INDEX | index_pos);
+            if (index[indexPos] == curr) {
+                e.writeU8be(Chunk::INDEX | indexPos);
                 continue;
             }
 
-            index[index_pos] = curr;
+            index[indexPos] = curr;
 
             if (curr.alpha == prev.alpha) {
                 i8 vr = curr.red - prev.red;

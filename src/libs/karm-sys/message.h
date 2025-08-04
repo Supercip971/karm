@@ -196,9 +196,7 @@ struct MessagePacker<T> {
     }
 
     static Res<T> unpack(MessageReader& s) {
-        T res;
-        s.readTo(&res);
-        return Ok(res);
+        return s.next<T>();
     }
 };
 
@@ -225,7 +223,7 @@ struct MessagePacker<Opt<T>> {
     }
 
     static Res<Opt<T>> unpack(MessageReader& s) {
-        bool has = s.nextU8le();
+        bool has = try$(s.next<u8le>());
         if (not has)
             return Ok<Opt<T>>(NONE);
         return Ok(unpack<T>());
@@ -280,7 +278,7 @@ struct MessagePacker<Res<T, E>> {
     }
 
     static Res<Res<T, E>> unpack(MessageReader& s) {
-        bool has = s.nextU8le();
+        bool has = try$(s.next<u8le>());
         if (has) {
             auto res = Ok<T>(try$(Sys::unpack<T>(s)));
             return Ok<Res<T, E>>(std::move(res));
@@ -345,7 +343,7 @@ struct MessagePacker<Vec<T>> {
     }
 
     static Res<Vec<T>> unpack(MessageReader& s) {
-        auto len = s.nextU64le();
+        auto len = try$(s.next<u64le>());
         Vec<T> res{len};
         for (usize i = 0; i < len; i++) {
             res.emplaceBack(try$(Sys::unpack<T>(s)));
@@ -365,7 +363,8 @@ struct MessagePacker<_String<E>> {
     }
 
     static Res<String> unpack(MessageReader& s) {
-        return Ok(s.nextStr(s.nextU64le()));
+        auto len = try$(s.next<u64le>());
+        return s.nextStr(len).map<String>();
     }
 };
 

@@ -10,23 +10,19 @@ import :qoi.base;
 
 namespace Karm::Image::Qoi {
 
+struct Header {
+    Array<u8, 4> magic;
+    i32be width;
+    i32be height;
+    i8be channels;
+    i8be colorSpace;
+};
+
 export struct Decoder : Io::BChunk {
-    using Width = Io::BField<i32be, 4>;
-    using Height = Io::BField<i32be, 8>;
-    using Channels = Io::BField<u8be, 12>;
-    using ColorSpace = Io::BField<u8be, 13>;
+    Header _header;
 
-    Bytes magic() const { return begin().nextBytes(4); }
-
-    isize width() const { return get<Width>(); }
-
-    isize height() const { return get<Height>(); }
-
-    u8 channels() const { return get<Channels>(); }
-
-    u8 colorSpace() const { return get<ColorSpace>(); }
-
-    Decoder(Bytes slice) : BChunk(slice) {}
+    Decoder(Bytes slice, Header header)
+        : BChunk(slice), _header(header) {}
 
     static bool sniff(Bytes slice) {
         return slice.len() >= 4 and slice[0] == 0x71 and slice[1] == 0x6F and
@@ -34,24 +30,22 @@ export struct Decoder : Io::BChunk {
     }
 
     static Res<Decoder> init(Bytes slice) {
-        if (slice.len() < 14) {
+        if (slice.len() < 14)
             return Error::invalidData("image too small");
-        }
 
-        auto dec = Decoder(slice);
-        if (dec.magic() != MAGIC) {
+        Io::BScan s{slice};
+        auto header = try$(s.next<Header>());
+
+        if (header.magic != MAGIC)
             return Error::invalidData("invalid magic");
-        }
 
-        if (not(dec.channels() == 4 or dec.channels() == 3)) {
+        if (not(header.channels == 4 or header.channels == 3))
             return Error::invalidData("invalid number of channels");
-        }
 
-        if (not(dec.colorSpace() == 0 or dec.colorSpace() == 1)) {
+        if (not(header.colorSpace == 0 or header.colorSpace == 1))
             return Error::invalidData("invalid color space");
-        }
 
-        return Ok(dec);
+        return Ok(Decoder{slice, header});
     }
 
     Res<> decode(Gfx::MutPixels dest) {
@@ -59,10 +53,10 @@ export struct Decoder : Io::BChunk {
         Array<Gfx::Color, 64> index{};
         Gfx::Color pixel = Gfx::BLACK;
 
-        auto s = begin().skip(14);
+        auto s = begin().skip(14); // skip the header
 
-        for (isize y = 0; y < height(); y++) {
-            for (isize x = 0; x < width(); x++) {
+        for (isize y = 0; y < _header.height; y++) {
+            for (isize x = 0; x < _header.width; x++) {
                 if (s.ended()) {
                     return Error::invalidData("unexpected end of file");
                 }
@@ -73,24 +67,26 @@ export struct Decoder : Io::BChunk {
                     continue;
                 }
 
-                auto b1 = s.next<u8be>();
+                auto b1 = try$(s.next<u8be>());
                 if (b1 == Chunk::RGB) {
-                    pixel.red = s.next<u8be>();
-                    pixel.green = s.next<u8be>();
-                    pixel.blue = s.next<u8be>();
+                    auto [red, green, blue] = try$((s.next<Tuple<u8be, u8be, u8be>>()));
+                    pixel.red = red;
+                    pixel.green = green;
+                    pixel.blue = blue;
                 } else if (b1 == Chunk::RGBA) {
-                    pixel.red = s.next<u8be>();
-                    pixel.green = s.next<u8be>();
-                    pixel.blue = s.next<u8be>();
-                    pixel.alpha = s.next<u8be>();
+                    auto [red, green, blue, alpha] = try$((s.next<Tuple<u8be, u8be, u8be, u8be>>()));
+                    pixel.red = red;
+                    pixel.green = green;
+                    pixel.blue = blue;
+                    pixel.blue = alpha;
                 } else if ((b1 & Chunk::MASK) == Chunk::INDEX) {
-                    pixel = index[b1];
+                    pixel = index[b1 & 0x3f];
                 } else if ((b1 & Chunk::MASK) == Chunk::DIFF) {
                     pixel.red += ((b1 >> 4) & 0x03) - 2;
                     pixel.green += ((b1 >> 2) & 0x03) - 2;
                     pixel.blue += (b1 & 0x03) - 2;
                 } else if ((b1 & Chunk::MASK) == Chunk::LUMA) {
-                    auto b2 = s.next<u8be>();
+                    auto b2 = try$(s.next<u8be>());
                     auto vg = (b1 & 0x3f) - 32;
                     pixel.red += vg - 8 + ((b2 >> 4) & 0x0f);
                     pixel.green += vg;
@@ -106,9 +102,8 @@ export struct Decoder : Io::BChunk {
             }
         }
 
-        if (s.nextBytes(8) != END) {
+        if (try$(s.nextBytes(8)) != END)
             return Error::invalidData("missing end marker");
-        }
 
         return Ok();
     }

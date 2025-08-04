@@ -316,6 +316,10 @@ export Res<> unparse(Io::Emit& emit, Serde::Value const& v) {
                 emit("{}", i);
                 return Ok();
             },
+            [&](Serde::Unsigned i) -> Res<> {
+                emit("{}", i);
+                return Ok();
+            },
 #ifndef __ck_freestanding__
             [&](Serde::Number d) -> Res<> {
                 emit("{}", d);

@@ -17,6 +17,7 @@ import :jpeg.dct;
 //  - https://www.w3.org/Graphics/JPEG/itu-t81.pdf
 //  - https://github.com/dannye/jed/blob/master/src/decoder.cpp
 //  - https://www.youtube.com/watch?v=CPT4FSkFUgs
+
 namespace Karm::Image::Jpeg {
 
 // MARK: Decoder ---------------------------------------------------------------
@@ -39,14 +40,14 @@ export struct Decoder {
         bool expectSoi = true;
 
         while (not s.ended()) {
-            u8 first = s.next<u8be>();
+            u8 first = try$(s.next<u8be>());
 
             if (first != 0xFF) {
                 logError("jpeg: invalid marker");
                 return Error::invalidData("invalid marker");
             }
 
-            u8 marker = s.next<u8be>();
+            u8 marker = try$(s.next<u8be>());
 
             if (expectSoi) {
                 if (marker != SOI) {
@@ -56,7 +57,7 @@ export struct Decoder {
                 expectSoi = false;
             } else if (APP0 <= marker and marker <= APP15) {
                 logWarn("jpeg: skipping APP{}", marker - APP0);
-                dec.skipMarker(s);
+                try$(dec.skipMarker(s));
             } else if (marker == DQT) {
                 try$(dec.defineQuantizationTable(s));
             } else if (marker == SOF0) {
@@ -74,11 +75,11 @@ export struct Decoder {
                 logWarn("jpeg: ignoring TEM marker");
             } else if (marker == COM) {
                 logDebug("jpeg: skipping comment");
-                dec.skipMarker(s);
+                try$(dec.skipMarker(s));
             } else if (marker == 0xff) {
                 logDebug("jpeg: skipping padding byte");
                 while (marker == 0xff) {
-                    marker = s.next<u8be>();
+                    marker = try$(s.next<u8be>());
                 }
             } else {
                 logWarn("jpeg: unknown marker: {:02x}", marker);
@@ -93,8 +94,8 @@ export struct Decoder {
         return Ok(dec);
     };
 
-    void skipMarker(Io::BScan& s) {
-        u16 len = s.next<u16be>();
+    Res<> skipMarker(Io::BScan& s) {
+        u16 len = try$(s.next<u16be>());
         s.skip(len - 2);
     }
 
@@ -106,11 +107,11 @@ export struct Decoder {
     Res<> defineQuantizationTable(Io::BScan& x) {
         // logDebug("jpeg: defining quantization table");
 
-        u16 len = x.next<u16be>();
-        Io::BScan s = x.nextBytes(len - 2);
+        u16 len = try$(x.next<u16be>());
+        Io::BScan s = try$(x.nextBytes(len - 2));
 
         while (not s.ended()) {
-            u8 infos = s.next<u8be>();
+            u8 infos = try$(s.next<u8be>());
             u8 id = infos & 0x0F;
 
             // logDebug("jpeg: quantization table id: {}", id);
@@ -157,26 +158,26 @@ export struct Decoder {
     Res<> startOfFrame(Io::BScan& x) {
         // logDebug("jpeg: start of frame");
 
-        u16 len = x.next<u16be>();
-        Io::BScan s = x.nextBytes(len - 2);
+        u16 len = try$(x.next<u16be>());
+        Io::BScan s = try$(x.nextBytes(len - 2));
 
-        u8 precision = s.next<u8be>();
+        u8 precision = try$(s.next<u8be>());
         if (precision != 8) {
             logError("jpeg: invalid precision: {}", precision);
             return Error::invalidData("invalid precision");
         }
 
-        _height = s.next<u16be>();
-        _width = s.next<u16be>();
+        _height = try$(s.next<u16be>());
+        _width = try$(s.next<u16be>());
 
-        u8 componentCount = s.next<u8be>();
+        u8 componentCount = try$(s.next<u8be>());
         if (componentCount != 1 and componentCount != 3) {
             logError("jpeg: invalid component count: {}", componentCount);
             return Error::invalidData("invalid component count");
         }
 
         for (u8 i = 0; i < componentCount; ++i) {
-            u8 id = s.next<u8be>();
+            u8 id = try$(s.next<u8be>());
 
             if (id == 0) {
                 logWarn("jpeg: zero-based component id");
@@ -197,8 +198,8 @@ export struct Decoder {
                 return Error::invalidData("duplicate component id");
             }
 
-            u8 factors = s.next<u8be>();
-            u8 quantId = s.next<u8be>();
+            u8 factors = try$(s.next<u8be>());
+            u8 quantId = try$(s.next<u8be>());
 
             _components[id].emplace(Component{
                 (u8)(factors >> 4),
@@ -219,10 +220,10 @@ export struct Decoder {
     Res<> defineRestartInterval(Io::BScan& x) {
         // logDebug("jpeg: defining restart interval");
 
-        u16 len = x.next<u16be>();
-        Io::BScan s = x.nextBytes(len - 2);
+        u16 len = try$(x.next<u16be>());
+        Io::BScan s = try$(x.nextBytes(len - 2));
 
-        _restartInterval = s.next<u16be>();
+        _restartInterval = try$(s.next<u16be>());
 
         if (not s.ended()) {
             logError("jpeg: unexpected data after DRI marker");
@@ -240,11 +241,11 @@ export struct Decoder {
     Res<> defineHuffmanTable(Io::BScan& x) {
         // logDebug("jpeg: defining huffman table");
 
-        u16 len = x.next<u16be>();
-        Io::BScan s = x.nextBytes(len - 2);
+        u16 len = try$(x.next<u16be>());
+        Io::BScan s = try$(x.nextBytes(len - 2));
 
         while (not s.ended()) {
-            u8 infos = s.next<u8be>();
+            u8 infos = try$(s.next<u8be>());
             u8 id = infos & 0x0F;
             bool isAc = (infos >> 4) == 1;
 
@@ -257,7 +258,7 @@ export struct Decoder {
 
             usize sum = 0;
             for (usize i = 1; i < 17; ++i) {
-                sum += s.next<u8be>();
+                sum += try$(s.next<u8be>());
                 table.offs[i] = sum;
             }
 
@@ -267,7 +268,7 @@ export struct Decoder {
             }
 
             for (usize i = 0; i < sum; ++i) {
-                table.syms[i] = s.next<u8be>();
+                table.syms[i] = try$(s.next<u8be>());
             }
         }
 
@@ -295,17 +296,17 @@ export struct Decoder {
             return Error::invalidData("start of scan before start of frame");
         }
 
-        u16 len = x.next<u16be>();
-        Io::BScan s = x.nextBytes(len - 2);
+        u16 len = try$(x.next<u16be>());
+        Io::BScan s = try$(x.nextBytes(len - 2));
 
-        u8 componentCount = s.next<u8be>();
+        u8 componentCount = try$(s.next<u8be>());
         if (componentCount != _componentCount) {
             logError("jpeg: invalid component count: {}", componentCount);
             return Error::invalidData("invalid component count");
         }
 
         for (u8 i = 0; i < componentCount; ++i) {
-            u8 id = s.next<u8be>();
+            u8 id = try$(s.next<u8be>());
 
             if (not _quirkZeroBased and id == 0) {
                 logError("jpeg: component id is zero-based while SOF0 is not");
@@ -326,7 +327,7 @@ export struct Decoder {
                 return Error::invalidData("undefined component id");
             }
 
-            u8 huffIds = s.next<u8be>();
+            u8 huffIds = try$(s.next<u8be>());
             u8 dcHuffId = huffIds >> 4;
             u8 acHuffId = huffIds & 0xF;
 
@@ -343,9 +344,9 @@ export struct Decoder {
             _scanComponents[id].emplace(ScanComponent{dcHuffId, acHuffId});
         }
 
-        _ss = s.next<u8be>();
-        _se = s.next<u8be>();
-        u8 ahAl = s.next<u8be>();
+        _ss = try$(s.next<u8be>());
+        _se = try$(s.next<u8be>());
+        u8 ahAl = try$(s.next<u8be>());
         _ah = ahAl >> 4;
         _al = ahAl & 0xF;
 

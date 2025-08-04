@@ -52,13 +52,12 @@ struct Decoder {
         Io::BScan scan{slice};
 
         Header header{};
-        scan.readTo(&header);
+        try$(scan.readTo(&header));
 
         LogicalScreenDescriptor lsd{};
-        scan.readTo(&lsd);
+        try$(scan.readTo(&lsd));
 
         dec._size = {lsd.width, lsd.height};
-
         return Ok(dec);
     }
 

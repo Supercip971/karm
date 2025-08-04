@@ -67,11 +67,11 @@ struct MimePattern {
     Vec<u8> terminating;
     Mime mime;
 
-    Res<> match(Bytes bytes) const {
+    bool match(Bytes bytes) const {
         Io::BScan s{bytes};
 
         while (not s.ended() and contains(leading, s.peek<u8le>())) {
-            s.next<u8le>();
+            s.next<u8le>().unwrap();
         }
 
         if (pattern.match(s.remBytes()).v0 != Match::YES) {

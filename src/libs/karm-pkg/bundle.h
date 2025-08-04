@@ -20,3 +20,4 @@ Res<BundleInfo> currentBundle();
 Res<Vec<BundleInfo>> installedBundles();
 
 } // namespace Karm::Pkg
+;

@@ -74,48 +74,48 @@ struct [[gnu::packed]] Header {
 
 // MARK: Metadata --------------------------------------------------------------
 
-Serde::Value _loadMetadataValue(Io::BScan& s, ValueType type);
+Res<Serde::Value> _loadMetadataValue(Io::BScan& s, ValueType type);
 
-Str _loadMetadataString(Io::BScan& s) {
-    auto len = s.next<u64le>();
+Res<Str> _loadMetadataString(Io::BScan& s) {
+    auto len = try$(s.next<u64le>());
     return s.nextStr(len);
 }
 
-Serde::Value _loadMetaDataArray(Io::BScan& s) {
+Res<Serde::Value> _loadMetaDataArray(Io::BScan& s) {
     Serde::Array res;
-    auto type = static_cast<ValueType>(s.next<u32le>());
-    auto len = s.next<u64le>();
+    auto type = static_cast<ValueType>(try$(s.next<u32le>()).value());
+    auto len = try$(s.next<u64le>());
     for (usize _ : range(len)) {
         res.pushBack(_loadMetadataValue(s, type));
     }
-    return res;
+    return Ok(res);
 }
 
-Serde::Value _loadMetadataValue(Io::BScan& s, ValueType type) {
+Res<Serde::Value> _loadMetadataValue(Io::BScan& s, ValueType type) {
     switch (type) {
     case ValueType::BOOL:
-        return static_cast<bool>(s.next<u8le>());
+        return Ok<bool>(try$(s.next<u8le>()));
 
     case ValueType::UINT8:
-        return static_cast<Serde::Integer>(s.next<u8le>());
+        return Ok<Serde::Integer>(try$(s.next<u8le>()));
     case ValueType::INT8:
-        return static_cast<Serde::Integer>(s.next<i8le>());
+        return Ok<Serde::Integer>(try$(s.next<i8le>()));
 
     case ValueType::UINT16:
-        return static_cast<Serde::Integer>(s.next<u16le>());
+        return Ok<Serde::Integer>(s.next<u16le>());
     case ValueType::INT16:
-        return static_cast<Serde::Integer>(s.next<i16le>());
+        return Ok<Serde::Integer>(s.next<i16le>());
 
     case ValueType::UINT32:
-        return static_cast<Serde::Integer>(s.next<u32le>());
+        return Ok<Serde::Integer>(s.next<u32le>());
     case ValueType::INT32:
-        return static_cast<Serde::Integer>(s.next<i32le>());
+        return Ok<Serde::Integer>(s.next<i32le>());
 
     case ValueType::UINT64:
-        return static_cast<Serde::Integer>(s.next<u64le>());
+        return Ok<Serde::Integer>(s.next<u64le>());
 
     case ValueType::INT64:
-        return static_cast<Serde::Integer>(s.next<i64le>());
+        return Ok<Serde::Integer>(s.next<i64le>());
 
     case ValueType::FLOAT32:
         return s.next<f32>();
@@ -135,8 +135,8 @@ Serde::Value _loadMetadataValue(Io::BScan& s, ValueType type) {
 }
 
 Res<Tuple<Str, Serde::Value>> _loadMetadataRecord(Io::BScan& s) {
-    auto key = _loadMetadataString(s);
-    auto type = static_cast<ValueType>(s.next<u32le>());
+    auto key = try$(_loadMetadataString(s));
+    auto type = static_cast<ValueType>(try$(s.next<u32le>()).value());
     return Ok(Tuple<Str, Serde::Value>{key, _loadMetadataValue(s, type)});
 }
 
@@ -181,24 +181,24 @@ struct TensorInfos {
     u64 offset;
 };
 
-TensorInfos _loadTensor(Io::BScan& s) {
+Res<TensorInfos> _loadTensor(Io::BScan& s) {
     TensorInfos infos;
-    infos.name = _loadMetadataString(s);
-    auto dimsLen = s.next<u32le>();
+    infos.name = try$(_loadMetadataString(s));
+    auto dimsLen = try$(s.next<u32le>());
     Vec<u64> dims;
     for (usize _ : range(dimsLen)) {
-        infos.dims.pushBack(s.next<u64le>());
+        infos.dims.pushBack(try$(s.next<u64le>()));
     }
-    infos.type = static_cast<Type>(s.next<u32le>());
-    infos.offset = s.next<u64le>();
+    infos.type = static_cast<Type>(try$(s.next<u32le>()).value());
+    infos.offset = try$(s.next<u64le>());
 
-    return infos;
+    return Ok(infos);
 }
 
 Res<Vec<TensorInfos>> _loadTensors(Io::BScan& s, usize len) {
     Vec<TensorInfos> res;
     for (usize _ : range(len))
-        res.pushBack(_loadTensor(s));
+        res.pushBack(try$(_loadTensor(s)));
     return Ok(std::move(res));
 }
 
@@ -209,7 +209,7 @@ export Res<> loadGguf(Mime::Url url) {
 
     yap("mmap'ed model file of {}mib", mmap.bytes().len() / mib(1));
     Io::BScan s{mmap.bytes()};
-    auto header = s.next<Header>();
+    auto header = try$(s.next<Header>());
 
     if (header.magic != Header::MAGIC)
         return Error::invalidData("not a gguf file");

@@ -27,8 +27,8 @@ export struct Decoder {
         //       and check it looks like a valid TGA header.
         Io::BScan s{slice};
 
-        Header header{};
-        s.readTo(&header);
+        // We check that the buffer is already big enough, this should be file
+        Header header = s.next<Header>().unwrap();
 
         if (header.width == 0 or header.height == 0)
             return false;
@@ -53,8 +53,7 @@ export struct Decoder {
 
     static Res<Decoder> init(Bytes slice) {
         Io::BScan s{slice};
-        Header header{};
-        s.readTo(&header);
+        Header header = try$(s.next<Header>());
         return Ok(Decoder{header, slice});
     }
 
@@ -65,33 +64,27 @@ export struct Decoder {
 
     isize height() const { return _header.height; }
 
-    static Gfx::Color readColor(Io::BScan& s, usize bpp) {
+    static Res<Gfx::Color> readColor(Io::BScan& s, usize bpp) {
         if (bpp == 8) {
-            u8 d = s.next<u8le>();
-            return {d, d, d, 255};
+            u8 d = try$(s.next<u8le>());
+            return Ok(Gfx::Color{d, d, d, 255});
         } else if (bpp == 15 or bpp == 16) {
-            u8 l = s.next<u8le>();
-            u8 h = s.next<u8le>();
+            auto [l, h] = try$((s.next<Tuple<u8le, u8le>>()));
 
-            return {
-                (u8)((h & 0x3e) << 2),
-                (u8)((l & 0xf8)),
-                (u8)((l << 5) | ((h & 0xc0) >> 2)),
+            return Ok(Gfx::Color{
+                static_cast<u8>((h & 0x3e) << 2),
+                static_cast<u8>((l & 0xf8)),
+                static_cast<u8>((l << 5) | ((h & 0xc0) >> 2)),
                 255,
-            };
+            });
         } else if (bpp == 24) {
-            u8 b = s.next<u8le>();
-            u8 g = s.next<u8le>();
-            u8 r = s.next<u8le>();
-            return {r, g, b, 255};
+            auto [b, g, r] = try$((s.next<Tuple<u8le, u8le, u8le>>()));
+            return Ok(Gfx::Color{r, g, b, 255});
         } else if (bpp == 32) {
-            u8 b = s.next<u8le>();
-            u8 g = s.next<u8le>();
-            u8 r = s.next<u8le>();
-            u8 a = s.next<u8le>();
-            return {r, g, b, a};
+            auto [b, g, r, a] = try$((s.next<Tuple<u8le, u8le, u8le, u8le>>()));
+            return Ok(Gfx::Color{r, g, b, a});
         } else {
-            return {255, 0, 255, 255};
+            return Ok(Gfx::Color{255, 0, 255, 255});
         }
     }
 
@@ -107,16 +100,16 @@ export struct Decoder {
             return Ok();
         _hasColorMap = true;
         for (usize i = 0; i < _header.cmSize; ++i)
-            _colorMap.pushBack(readColor(s, _header.cmBpc));
+            _colorMap.pushBack(try$(readColor(s, _header.cmBpc)));
         return Ok();
     }
 
-    Gfx::Color decodePixel(Io::BScan& s) {
+    Res<Gfx::Color> decodePixel(Io::BScan& s) {
         if (_hasColorMap) {
-            auto index = s.next<u8le>();
+            auto index = try$(s.next<u8le>());
             if (index >= _colorMap.len())
-                return {255, 0, 255, 255};
-            return _colorMap[index];
+                return Ok(Gfx::Color{255, 0, 255, 255});
+            return Ok(_colorMap[index]);
         }
 
         return readColor(s, _header.bpp);
@@ -139,7 +132,7 @@ export struct Decoder {
     Res<> decodeUncompress(Io::BScan& s, Gfx::MutPixels pixels) {
         for (isize y = 0; y < height(); ++y)
             for (isize x = 0; x < width(); ++x)
-                storePixel(pixels, {x, y}, decodePixel(s));
+                storePixel(pixels, {x, y}, try$(decodePixel(s)));
 
         return Ok();
     }
@@ -149,16 +142,16 @@ export struct Decoder {
         usize end = _header.width * _header.height;
 
         while (index < end) {
-            u8 packet = s.next<u8le>();
+            u8 packet = try$(s.next<u8le>());
             usize len = (packet & PACKET_LEN) + 1;
 
             if (packet & PACKET_RLE) {
-                auto color = decodePixel(s);
+                auto color = try$(decodePixel(s));
                 for (usize i = 0; i < len; ++i)
                     storePixel(pixels, index++, color);
             } else {
                 for (usize i = 0; i < len; ++i)
-                    storePixel(pixels, index++, decodePixel(s));
+                    storePixel(pixels, index++, try$(decodePixel(s)));
             }
         }
 

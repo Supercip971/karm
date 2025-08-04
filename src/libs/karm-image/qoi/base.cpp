@@ -28,7 +28,7 @@ export enum Chunk : u8 {
     MASK = 0b11000000,
 };
 
-export usize hashColor(Gfx::Color c) {
+export u32 hashColor(Gfx::Color c) {
     return c.red * 3 + c.green * 5 + c.blue * 7 + c.alpha * 11;
 }
 

@@ -18,6 +18,8 @@ export using Object = Map<String, Value>;
 
 export using Integer = isize;
 
+export using Unsigned = usize;
+
 #ifndef __ck_freestanding__
 export using Number = f64;
 #endif
@@ -28,6 +30,7 @@ using _Store = Union<
     Object,
     String,
     Integer,
+    Unsigned,
 #ifndef __ck_freestanding__
     Number,
 #endif
@@ -52,6 +55,9 @@ export struct Value {
         : _store(s) {}
 
     Value(Integer d)
+        : _store(d) {}
+
+    Value(Unsigned d)
         : _store(d) {}
 
 #ifndef __ck_freestanding__
@@ -87,6 +93,11 @@ export struct Value {
         return *this;
     }
 
+    Value& operator=(Unsigned d) {
+        _store = d;
+        return *this;
+    }
+
 #ifndef __ck_freestanding__
     Value& operator=(Number d) {
         _store = d;
@@ -117,6 +128,10 @@ export struct Value {
 
     bool isInt() const {
         return _store.is<Integer>();
+    }
+
+    bool isUInt() const {
+        return _store.is<Unsigned>();
     }
 
 #ifndef __ck_freestanding__
@@ -163,6 +178,9 @@ export struct Value {
                 [](Integer i) -> String {
                     return Io::format("{}", i);
                 },
+                [](Unsigned i) -> String {
+                    return Io::format("{}", i);
+                },
 #ifndef __ck_freestanding__
                 [](Number d) -> String {
                     return Io::format("{}", d);
@@ -179,6 +197,10 @@ export struct Value {
         return _store.visit(
             Visitor{
                 [](Integer i) {
+                    return i;
+                },
+
+                [](Unsigned i) {
                     return i;
                 },
 
@@ -203,6 +225,9 @@ export struct Value {
         return _store.visit(
             Visitor{
                 [](Integer i) {
+                    return (f64)i;
+                },
+                [](Unsigned i) {
                     return (f64)i;
                 },
                 [](Number d) {
@@ -235,6 +260,9 @@ export struct Value {
                     return s.len() > 0;
                 },
                 [](Integer i) {
+                    return i != 0;
+                },
+                [](Unsigned i) {
                     return i != 0;
                 },
 #ifndef __ck_freestanding__
