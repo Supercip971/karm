@@ -21,7 +21,7 @@ struct LangSys : Io::BChunk {
         auto s = begin().skip(6);
         return range((usize)get<FeatureCount>())
             .map([s](auto) mutable {
-                return s.nextU16be();
+                return s.next<u16be>();
             });
     }
 };
@@ -46,7 +46,7 @@ struct ScriptTable : Io::BChunk {
 
     LangSys at(usize i) const {
         auto s = begin().skip(4 + i * 6);
-        return {s.nextStr(4), begin().skip(s.nextU16be()).remBytes()};
+        return {s.nextStr(4), begin().skip(s.next<u16be>()).remBytes()};
     }
 
     auto iter() const {
@@ -65,7 +65,7 @@ struct ScriptList : Io::BChunk {
     ScriptTable at(usize i) const {
         auto s = begin().skip(2 + i * 6);
         auto tag = s.nextStr(4);
-        auto off = s.nextU16be();
+        auto off = s.next<u16be>();
         return ScriptTable{tag, begin().skip(off).remBytes()};
     }
 
@@ -98,7 +98,7 @@ struct FeatureTable : Io::BChunk {
         auto s = begin().skip(4);
         return range((usize)get<LookupCount>())
             .map([s](auto) mutable {
-                return s.nextU16be();
+                return s.next<u16be>();
             });
     }
 };
@@ -114,7 +114,7 @@ struct FeatureList : Io::BChunk {
     FeatureTable at(usize i) const {
         auto s = begin().skip(2 + i * 6);
         auto tag = s.nextStr(4);
-        auto off = s.nextU16be();
+        auto off = s.next<u16be>();
         return FeatureTable{tag, begin().skip(off).remBytes()};
     }
 
@@ -137,7 +137,7 @@ struct CoverageTable : Io::BChunk {
 
         if (format() == 1) {
             for (auto i : range(len())) {
-                auto glyph = s.nextU16be();
+                auto glyph = s.next<u16be>();
                 if (glyph == glyphId) {
                     return i;
                 }
@@ -147,9 +147,9 @@ struct CoverageTable : Io::BChunk {
         if (format() == 2) {
             for (auto i : range(len())) {
                 (void)i;
-                auto start = s.nextU16be();
-                auto end = s.nextU16be();
-                auto index = s.nextU16be();
+                auto start = s.next<u16be>();
+                auto end = s.next<u16be>();
+                auto index = s.next<u16be>();
                 if (start <= glyphId and glyphId <= end) {
                     return index + glyphId - start;
                 }
@@ -191,28 +191,28 @@ struct ValueRecord {
         ValueRecord r = {};
 
         if (format & X_PLACEMENT)
-            r.xPlacement = s.nextI16be();
+            r.xPlacement = s.next<i16be>();
 
         if (format & Y_PLACEMENT)
-            r.yPlacement = s.nextI16be();
+            r.yPlacement = s.next<i16be>();
 
         if (format & X_ADVANCE)
-            r.xAdvance = s.nextI16be();
+            r.xAdvance = s.next<i16be>();
 
         if (format & Y_ADVANCE)
-            r.yAdvance = s.nextI16be();
+            r.yAdvance = s.next<i16be>();
 
         if (format & X_PLACEMENT_DEVICE)
-            r.xPlacementDeviceOffset = s.nextI16be();
+            r.xPlacementDeviceOffset = s.next<i16be>();
 
         if (format & Y_PLACEMENT_DEVICE)
-            r.yPlacementDeviceOffset = s.nextI16be();
+            r.yPlacementDeviceOffset = s.next<i16be>();
 
         if (format & X_ADVANCE_DEVICE)
-            r.xAdvanceDeviceOffset = s.nextI16be();
+            r.xAdvanceDeviceOffset = s.next<i16be>();
 
         if (format & Y_ADVANCE_DEVICE)
-            r.yAdvanceDeviceOffset = s.nextI16be();
+            r.yAdvanceDeviceOffset = s.next<i16be>();
 
         return r;
     }
@@ -229,11 +229,11 @@ struct GlyphPairAdjustment : LookupSubtableBase {
         auto s = begin();
 
         // Read the table header
-        /* format = */ s.nextU16be();
-        auto coverageOffset = s.nextU16be();
-        auto valueFormat1 = s.nextU16be();
-        auto valueFormat2 = s.nextU16be();
-        auto pairSetCount = s.nextU16be();
+        /* format = */ s.next<u16be>();
+        auto coverageOffset = s.next<u16be>();
+        auto valueFormat1 = s.next<u16be>();
+        auto valueFormat2 = s.next<u16be>();
+        auto pairSetCount = s.next<u16be>();
 
         // Lookup the coverage index for the first glyph
         CoverageTable coverage{begin().skip(coverageOffset).remBytes()};
@@ -244,15 +244,15 @@ struct GlyphPairAdjustment : LookupSubtableBase {
 
         auto value1len = ValueRecord::len(valueFormat1);
         auto value2len = ValueRecord::len(valueFormat2);
-        auto pairSetOffset = s.skip(coverageIndex.unwrap() * 2).nextU16be();
+        auto pairSetOffset = s.skip(coverageIndex.unwrap() * 2).next<u16be>();
 
         // Lookup the PairSet table for the second glyph
         auto pairSetTable = begin().skip(pairSetOffset);
-        auto pairValueCount = pairSetTable.nextU16be();
+        auto pairValueCount = pairSetTable.next<u16be>();
 
         for (usize i : range(pairValueCount)) {
             (void)i;
-            auto secondGlyph = pairSetTable.nextU16be();
+            auto secondGlyph = pairSetTable.next<u16be>();
             if (secondGlyph == curr) {
                 ValueRecord value1 = ValueRecord::read(pairSetTable, valueFormat1);
                 ValueRecord value2 = ValueRecord::read(pairSetTable, valueFormat2);
@@ -270,23 +270,23 @@ struct GlyphPairAdjustment : LookupSubtableBase {
 struct ClassDef : Io::BChunk {
     Opt<usize> classOf(usize glyphId) {
         auto s = begin();
-        auto format = s.nextU16be();
+        auto format = s.next<u16be>();
 
         if (format == 1) {
-            auto startGlyph = s.nextU16be();
-            auto glyphCount = s.nextU16be();
+            auto startGlyph = s.next<u16be>();
+            auto glyphCount = s.next<u16be>();
             if (startGlyph <= glyphId and glyphId < startGlyph + glyphCount) {
-                return s.skip((glyphId - startGlyph) * 2).nextU16be();
+                return s.skip((glyphId - startGlyph) * 2).next<u16be>();
             }
         }
 
         if (format == 2) {
-            auto classRangeCount = s.nextU16be();
+            auto classRangeCount = s.next<u16be>();
             for (usize i : range(classRangeCount)) {
                 (void)i;
-                auto startGlyph = s.nextU16be();
-                auto endGlyph = s.nextU16be();
-                auto glyphClass = s.nextU16be();
+                auto startGlyph = s.next<u16be>();
+                auto endGlyph = s.next<u16be>();
+                auto glyphClass = s.next<u16be>();
                 if (startGlyph <= glyphId and glyphId <= endGlyph) {
                     return glyphClass;
                 }
@@ -305,14 +305,14 @@ struct ClassPairAdjustment : LookupSubtableBase {
         auto s = begin();
 
         // Read the table header
-        /* format = */ s.nextU16be();
-        /* coverageOffset = */ s.nextU16be();
-        auto valueFormat1 = s.nextU16be();
-        auto valueFormat2 = s.nextU16be();
-        auto classDef1Offset = s.nextU16be();
-        auto classDef2Offset = s.nextU16be();
-        /* class1Count = */ s.nextU16be();
-        auto class2Count = s.nextU16be();
+        /* format = */ s.next<u16be>();
+        /* coverageOffset = */ s.next<u16be>();
+        auto valueFormat1 = s.next<u16be>();
+        auto valueFormat2 = s.next<u16be>();
+        auto classDef1Offset = s.next<u16be>();
+        auto classDef2Offset = s.next<u16be>();
+        /* class1Count = */ s.next<u16be>();
+        auto class2Count = s.next<u16be>();
 
         ClassDef prevClassDef{begin().skip(classDef1Offset).remBytes()};
         ClassDef currClassDef{begin().skip(classDef2Offset).remBytes()};
@@ -359,14 +359,14 @@ struct LookupTable : Io::BChunk {
 
     u16 markFilteringSet() const {
         return lookupFlag() & USE_MARK_FILTERING_SET
-                   ? begin().skip(6 + get<SubTableCount>() * 2).nextU16be()
+                   ? begin().skip(6 + get<SubTableCount>() * 2).next<u16be>()
                    : 0;
     }
 
     LookupSubtable at(usize i) const {
-        auto off = begin().skip(6 + i * 2).nextU16be();
+        auto off = begin().skip(6 + i * 2).next<u16be>();
         auto subtable = begin().skip(off);
-        auto format = subtable.peekU16be();
+        auto format = subtable.peek<u16be>();
 
         switch (format) {
         case GlyphPairAdjustment::FORMAT:
@@ -394,7 +394,7 @@ struct LookupList : Io::BChunk {
 
     LookupTable at(usize i) const {
         auto s = begin().skip(2 + i * 2);
-        auto off = s.nextU16be();
+        auto off = s.next<u16be>();
         return LookupTable{begin().skip(off).remBytes()};
     }
 
