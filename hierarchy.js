@@ -172,6 +172,7 @@ var hierarchy =
         [ "Karm::Ui::LeafNode< Radio >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< Resizable >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< Separator >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
+        [ "Karm::Ui::LeafNode< Slider >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< Toggle >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< Align >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< AspectRatio >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
@@ -210,7 +211,6 @@ var hierarchy =
         [ "Karm::Ui::LeafNode< SimpleInput >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< Sizing >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< SlideIn >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
-        [ "Karm::Ui::LeafNode< Slider >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< StackLayout >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::LeafNode< Text >", "structKarm_1_1Ui_1_1LeafNode.html", null ],
         [ "Karm::Ui::Host", "structKarm_1_1Ui_1_1Host.html", null ],
@@ -312,6 +312,9 @@ var hierarchy =
           ] ],
           [ "Karm::Ui::View< Separator >", "structKarm_1_1Ui_1_1View.html", [
             [ "Karm::Kira::Separator", "structKarm_1_1Kira_1_1Separator.html", null ]
+          ] ],
+          [ "Karm::Ui::View< Slider >", "structKarm_1_1Ui_1_1View.html", [
+            [ "Karm::Kira::Slider", "structKarm_1_1Kira_1_1Slider.html", null ]
           ] ],
           [ "Karm::Ui::View< Toggle >", "structKarm_1_1Ui_1_1View.html", [
             [ "Karm::Kira::Toggle", "structKarm_1_1Kira_1_1Toggle.html", null ]

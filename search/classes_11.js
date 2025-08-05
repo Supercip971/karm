@@ -35,7 +35,7 @@ var searchData=
   ['slice_3c_20typename_20e_3a_3aunit_20_3e_32',['Slice&lt; typename E::Unit &gt;',['../structKarm_1_1Slice.html',1,'Karm']]],
   ['slice_3c_20u8_20_3e_33',['Slice&lt; u8 &gt;',['../structKarm_1_1Slice.html',1,'Karm']]],
   ['slidein_34',['SlideIn',['../structKarm_1_1Ui_1_1SlideIn.html',1,'Karm::Ui']]],
-  ['slider_35',['Slider',['../structKarm_1_1Ui_1_1Slider.html',1,'Karm::Ui']]],
+  ['slider_35',['Slider',['../structKarm_1_1Kira_1_1Slider.html',1,'Karm::Kira::Slider'],['../structKarm_1_1Ui_1_1Slider.html',1,'Karm::Ui::Slider']]],
   ['slot_36',['Slot',['../structKarm_1_1Set_1_1Slot.html',1,'Karm::Set']]],
   ['socketaddr_37',['SocketAddr',['../structKarm_1_1Sys_1_1SocketAddr.html',1,'Karm::Sys']]],
   ['span_38',['Span',['../structKarm_1_1Text_1_1Prose_1_1Span.html',1,'Karm::Text::Prose']]],

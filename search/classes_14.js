@@ -29,9 +29,10 @@ var searchData=
   ['view_3c_20scenecanvas_20_3e_26',['View&lt; SceneCanvas &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
   ['view_3c_20separator_20_3e_27',['View&lt; Separator &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
   ['view_3c_20simpleinput_20_3e_28',['View&lt; SimpleInput &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
-  ['view_3c_20text_20_3e_29',['View&lt; Text &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
-  ['view_3c_20toggle_20_3e_30',['View&lt; Toggle &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
-  ['viewbox_31',['Viewbox',['../structKarm_1_1Scene_1_1Viewbox.html',1,'Karm::Scene']]],
-  ['viewbuf_32',['ViewBuf',['../structKarm_1_1ViewBuf.html',1,'Karm']]],
-  ['visitor_33',['Visitor',['../structKarm_1_1Visitor.html',1,'Karm']]]
+  ['view_3c_20slider_20_3e_29',['View&lt; Slider &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
+  ['view_3c_20text_20_3e_30',['View&lt; Text &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
+  ['view_3c_20toggle_20_3e_31',['View&lt; Toggle &gt;',['../structKarm_1_1Ui_1_1View.html',1,'Karm::Ui']]],
+  ['viewbox_32',['Viewbox',['../structKarm_1_1Scene_1_1Viewbox.html',1,'Karm::Scene']]],
+  ['viewbuf_33',['ViewBuf',['../structKarm_1_1ViewBuf.html',1,'Karm']]],
+  ['visitor_34',['Visitor',['../structKarm_1_1Visitor.html',1,'Karm']]]
 ];

@@ -242,6 +242,7 @@ var annotated_dup =
         [ "Resizable", "structKarm_1_1Kira_1_1Resizable.html", "structKarm_1_1Kira_1_1Resizable" ],
         [ "Scaffold", "structKarm_1_1Kira_1_1Scaffold.html", "structKarm_1_1Kira_1_1Scaffold" ],
         [ "Separator", "structKarm_1_1Kira_1_1Separator.html", "structKarm_1_1Kira_1_1Separator" ],
+        [ "Slider", "structKarm_1_1Kira_1_1Slider.html", "structKarm_1_1Kira_1_1Slider" ],
         [ "State", "structKarm_1_1Kira_1_1State.html", "structKarm_1_1Kira_1_1State" ],
         [ "TitlebarContent", "structKarm_1_1Kira_1_1TitlebarContent.html", "structKarm_1_1Kira_1_1TitlebarContent" ],
         [ "Toggle", "structKarm_1_1Kira_1_1Toggle.html", "structKarm_1_1Kira_1_1Toggle" ],
