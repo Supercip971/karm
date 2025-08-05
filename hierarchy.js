@@ -111,7 +111,7 @@ var hierarchy =
     [ "Karm::Buf< T >", "structKarm_1_1Buf.html", null ],
     [ "Karm::Buf< u8 >", "structKarm_1_1Buf.html", null ],
     [ "Karm::Gfx::Gradient::Builder", "structKarm_1_1Gfx_1_1Gradient_1_1Builder.html", null ],
-    [ "Karm::Pkg::BundleInfo", "structKarm_1_1Pkg_1_1BundleInfo.html", null ],
+    [ "Karm::Sys::Bundle", "structKarm_1_1Sys_1_1Bundle.html", null ],
     [ "Karm::Ui::ButtonStyle", "structKarm_1_1Ui_1_1ButtonStyle.html", null ],
     [ "Karm::Gfx::Cap", "structKarm_1_1Gfx_1_1Cap.html", null ],
     [ "Karm::Io::Cased< T >", "structKarm_1_1Io_1_1Cased.html", null ],

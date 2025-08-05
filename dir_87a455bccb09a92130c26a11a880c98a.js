@@ -16,7 +16,6 @@ var dir_87a455bccb09a92130c26a11a880c98a =
     [ "karm-ml", "dir_419b9a491d14fb349fa831be28adac7f.html", "dir_419b9a491d14fb349fa831be28adac7f" ],
     [ "karm-net", "dir_a05c10671bfc9cf338e5b6b64c71b9f3.html", "dir_a05c10671bfc9cf338e5b6b64c71b9f3" ],
     [ "karm-pdf", "dir_607574346b30d41d343c5af9b1e4d0f8.html", "dir_607574346b30d41d343c5af9b1e4d0f8" ],
-    [ "karm-pkg", "dir_4c50df85294fce2bdade224f04dc6793.html", "dir_4c50df85294fce2bdade224f04dc6793" ],
     [ "karm-print", "dir_ce01f1d74e95ef6fb12cbe059cde8a52.html", "dir_ce01f1d74e95ef6fb12cbe059cde8a52" ],
     [ "karm-scene", "dir_041fe90bb727f1d866ba510ed950a9db.html", "dir_041fe90bb727f1d866ba510ed950a9db" ],
     [ "karm-sys", "dir_892c880cf19884495b53e8cd9cea50ae.html", "dir_892c880cf19884495b53e8cd9cea50ae" ],

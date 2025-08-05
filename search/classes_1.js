@@ -33,7 +33,7 @@ var searchData=
   ['bufreader_30',['BufReader',['../structKarm_1_1Io_1_1BufReader.html',1,'Karm::Io']]],
   ['bufwriter_31',['BufWriter',['../structKarm_1_1Io_1_1BufWriter.html',1,'Karm::Io']]],
   ['builder_32',['Builder',['../structKarm_1_1Gfx_1_1Gradient_1_1Builder.html',1,'Karm::Gfx::Gradient::Builder'],['../structKarm_1_1Text_1_1FontFamily_1_1Builder.html',1,'Karm::Text::FontFamily::Builder']]],
-  ['bundleinfo_33',['BundleInfo',['../structKarm_1_1Pkg_1_1BundleInfo.html',1,'Karm::Pkg']]],
+  ['bundle_33',['Bundle',['../structKarm_1_1Sys_1_1Bundle.html',1,'Karm::Sys']]],
   ['button_34',['Button',['../structKarm_1_1Ui_1_1Button.html',1,'Karm::Ui']]],
   ['buttonstyle_35',['ButtonStyle',['../structKarm_1_1Ui_1_1ButtonStyle.html',1,'Karm::Ui']]]
 ];

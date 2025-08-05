@@ -7,6 +7,7 @@ var namespaceKarm_1_1Sys =
       [ "testAsync$", "namespaceKarm_1_1Sys_1_1Tests.html#af7d4be09a6f1b8b774b37b5c8e962e09", null ]
     ] ],
     [ "ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", "structKarm_1_1Sys_1_1ArgsHook" ],
+    [ "Bundle", "structKarm_1_1Sys_1_1Bundle.html", "structKarm_1_1Sys_1_1Bundle" ],
     [ "CondVar", "structKarm_1_1Sys_1_1CondVar.html", "structKarm_1_1Sys_1_1CondVar" ],
     [ "Connection", "structKarm_1_1Sys_1_1Connection.html", "structKarm_1_1Sys_1_1Connection" ],
     [ "Context", "structKarm_1_1Sys_1_1Context.html", "structKarm_1_1Sys_1_1Context" ],
@@ -63,6 +64,7 @@ var namespaceKarm_1_1Sys =
     [ "UserInfo", "structKarm_1_1Sys_1_1UserInfo.html", "structKarm_1_1Sys_1_1UserInfo" ],
     [ "AsFd", "conceptKarm_1_1Sys_1_1AsFd.html", null ],
     [ "EntryPointAsync", "namespaceKarm_1_1Sys.html#a23e5b651dde118d2489b9aa5eadd4a17", null ],
+    [ "Handle", "namespaceKarm_1_1Sys.html#ac70aea4ef2ec04bff824146a87754826", null ],
     [ "MmapOption", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4", [
       [ "READ", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a3466fab4975481651940ed328aa990e4", null ],
       [ "WRITE", "namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4ad4b9e47f65b6e79b010582f15785867e", null ],

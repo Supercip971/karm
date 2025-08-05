@@ -329,9 +329,6 @@ var annotated_dup =
         [ "Value", "structKarm_1_1Pdf_1_1Value.html", "structKarm_1_1Pdf_1_1Value" ],
         [ "XRef", "structKarm_1_1Pdf_1_1XRef.html", "structKarm_1_1Pdf_1_1XRef" ]
       ] ],
-      [ "Pkg", "namespaceKarm_1_1Pkg.html", [
-        [ "BundleInfo", "structKarm_1_1Pkg_1_1BundleInfo.html", "structKarm_1_1Pkg_1_1BundleInfo" ]
-      ] ],
       [ "Posix", "namespaceKarm_1_1Posix.html", [
         [ "Fd", "structKarm_1_1Posix_1_1Fd.html", "structKarm_1_1Posix_1_1Fd" ]
       ] ],
@@ -383,6 +380,7 @@ var annotated_dup =
       ] ],
       [ "Sys", "namespaceKarm_1_1Sys.html", [
         [ "ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", "structKarm_1_1Sys_1_1ArgsHook" ],
+        [ "Bundle", "structKarm_1_1Sys_1_1Bundle.html", "structKarm_1_1Sys_1_1Bundle" ],
         [ "CondVar", "structKarm_1_1Sys_1_1CondVar.html", "structKarm_1_1Sys_1_1CondVar" ],
         [ "Connection", "structKarm_1_1Sys_1_1Connection.html", "structKarm_1_1Sys_1_1Connection" ],
         [ "Context", "structKarm_1_1Sys_1_1Context.html", "structKarm_1_1Sys_1_1Context" ],

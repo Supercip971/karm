@@ -32,7 +32,6 @@ var namespaceKarm =
     [ "Ml", "namespaceKarm_1_1Ml.html", "namespaceKarm_1_1Ml" ],
     [ "Net", "namespaceKarm_1_1Net.html", "namespaceKarm_1_1Net" ],
     [ "Pdf", "namespaceKarm_1_1Pdf.html", "namespaceKarm_1_1Pdf" ],
-    [ "Pkg", "namespaceKarm_1_1Pkg.html", "namespaceKarm_1_1Pkg" ],
     [ "Posix", "namespaceKarm_1_1Posix.html", "namespaceKarm_1_1Posix" ],
     [ "Print", "namespaceKarm_1_1Print.html", "namespaceKarm_1_1Print" ],
     [ "Re", "namespaceKarm_1_1Re.html", "namespaceKarm_1_1Re" ],

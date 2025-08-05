@@ -4,6 +4,8 @@ var dir_892c880cf19884495b53e8cd9cea50ae =
     [ "addr.h", "addr_8h.html", "addr_8h" ],
     [ "async.cpp", "libs_2karm-sys_2async_8cpp.html", "libs_2karm-sys_2async_8cpp" ],
     [ "async.h", "async_8h.html", "async_8h" ],
+    [ "bundle.cpp", "bundle_8cpp.html", null ],
+    [ "bundle.h", "bundle_8h.html", "bundle_8h" ],
     [ "chan.cpp", "chan_8cpp.html", "chan_8cpp" ],
     [ "chan.h", "chan_8h.html", "chan_8h" ],
     [ "context.cpp", "karm-sys_2context_8cpp.html", null ],
