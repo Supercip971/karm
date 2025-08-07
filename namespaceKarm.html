@@ -970,6 +970,15 @@ requires requires(T const t) { { t.hash() } -&gt; Meta::Same&lt;<a class="el" hr
 <tr class="memitem:a718c25b0b8e27ecee23d188093b4ea60"><td class="memTemplParams" colspan="2">template&lt;typename T , Lockable L = Lock&gt; </td></tr>
 <tr class="memitem:a718c25b0b8e27ecee23d188093b4ea60"><td class="memTemplItemLeft" align="right" valign="top">export&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm.html#a718c25b0b8e27ecee23d188093b4ea60">LockProtected</a> (T, L &amp;) -&gt; <a class="el" href="structKarm_1_1LockProtected.html">LockProtected</a>&lt; T, L &gt;</td></tr>
 <tr class="separator:a718c25b0b8e27ecee23d188093b4ea60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15136f67110f9bad121a7b0f3b25480c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a15136f67110f9bad121a7b0f3b25480c"><td class="memTemplItemLeft" align="right" valign="top">export <a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm.html#a15136f67110f9bad121a7b0f3b25480c">operator or</a> (<a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;lhs, <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a15136f67110f9bad121a7b0f3b25480c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff61e9ebdc9a5bdd1671564844c79ff"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:acff61e9ebdc9a5bdd1671564844c79ff"><td class="memTemplItemLeft" align="right" valign="top">export <a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm.html#acff61e9ebdc9a5bdd1671564844c79ff">operator and</a> (<a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;lhs, <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:acff61e9ebdc9a5bdd1671564844c79ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb6fa5b8b77e1338cecc61b8fc3a9f3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9eb6fa5b8b77e1338cecc61b8fc3a9f3"><td class="memTemplItemLeft" align="right" valign="top">export <a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm.html#a9eb6fa5b8b77e1338cecc61b8fc3a9f3">operator xor</a> (<a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;lhs, <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a9eb6fa5b8b77e1338cecc61b8fc3a9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6e90f1bd849699886a13663d4b8b8f"><td class="memItemLeft" align="right" valign="top">export void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html#aef6e90f1bd849699886a13663d4b8b8f">registerPanicHandler</a> (<a class="el" href="namespaceKarm.html#aea0fd31a8ae6495cbb7e611ab01fcb7f">PanicHandler</a> handler)</td></tr>
 <tr class="separator:aef6e90f1bd849699886a13663d4b8b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa20c95258adaa6ee9de973dfd7b7426f"><td class="memItemLeft" align="right" valign="top">export void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html#aa20c95258adaa6ee9de973dfd7b7426f">debug</a> (char const *msg)</td></tr>
@@ -6729,6 +6738,120 @@ template&lt;typename... Args&gt; </div>
           <td> -&gt;  <a class="el" href="structKarm_1_1Ok.html">Ok</a>&lt; <a class="el" href="namespaceKarm_1_1Meta.html#ab664a0c5ad4a62af27b8e8db9b61fa71">Meta::RemoveConstVolatileRef</a>&lt; Args &gt;... &gt;</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acff61e9ebdc9a5bdd1671564844c79ff" name="acff61e9ebdc9a5bdd1671564844c79ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff61e9ebdc9a5bdd1671564844c79ff">&#9670;&#160;</a></span>operator and()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; Karm::operator and </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15136f67110f9bad121a7b0f3b25480c" name="a15136f67110f9bad121a7b0f3b25480c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15136f67110f9bad121a7b0f3b25480c">&#9670;&#160;</a></span>operator or()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; Karm::operator or </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9eb6fa5b8b77e1338cecc61b8fc3a9f3" name="a9eb6fa5b8b77e1338cecc61b8fc3a9f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eb6fa5b8b77e1338cecc61b8fc3a9f3">&#9670;&#160;</a></span>operator xor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr <a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; Karm::operator xor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Opt.html">Opt</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
