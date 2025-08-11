@@ -13,7 +13,7 @@ var searchData=
   ['book_2eh_10',['book.h',['../book_8h.html',1,'']]],
   ['borders_2ecpp_11',['borders.cpp',['../borders_8cpp.html',1,'']]],
   ['borders_2eh_12',['borders.h',['../borders_8h.html',1,'']]],
-  ['box_2ecpp_13',['box.cpp',['../karm-scene_2box_8cpp.html',1,'(Global Namespace)'],['../karm-core_2base_2box_8cpp.html',1,'(Global Namespace)'],['../karm-ui_2box_8cpp.html',1,'(Global Namespace)']]],
+  ['box_2ecpp_13',['box.cpp',['../karm-core_2base_2box_8cpp.html',1,'(Global Namespace)'],['../karm-scene_2box_8cpp.html',1,'(Global Namespace)'],['../karm-ui_2box_8cpp.html',1,'(Global Namespace)']]],
   ['bscan_2ecpp_14',['bscan.cpp',['../bscan_8cpp.html',1,'']]],
   ['buf_2ecpp_15',['buf.cpp',['../buf_8cpp.html',1,'']]],
   ['buffer_2ecpp_16',['buffer.cpp',['../buffer_8cpp.html',1,'']]],

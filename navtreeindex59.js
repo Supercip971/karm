@@ -1,11 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"utils_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,0,0,15,12],
-"utils_8h.html#ac752423bd25b7d9787b75146ca71434d":[3,0,0,0,0,15,4],
-"utils_8h.html#ac7adf9f39ae572d89ea043bcc269468b":[3,0,0,0,0,15,2],
-"utils_8h.html#ad400c7c2f483debfd66b238a6ec501ae":[3,0,0,0,0,15,10],
-"utils_8h.html#adc43afe46e3890de2a0dcd3bbeeafac9":[3,0,0,0,0,15,5],
-"utils_8h_source.html":[3,0,0,0,0,15],
 "values-impl_8cpp.html":[3,0,0,1,15,2],
 "values-impl_8cpp.html#a5766f339025ff1f5c7fd2b25aacae8a4":[3,0,0,1,15,2,1],
 "values-impl_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,15,2,0],
