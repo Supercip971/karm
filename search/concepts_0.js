@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['agregate_0',['Agregate',['../conceptKarm_1_1Meta_1_1Agregate.html',1,'Karm::Meta']]],
+  ['aggregate_0',['Aggregate',['../conceptKarm_1_1Meta_1_1Aggregate.html',1,'Karm::Meta']]],
   ['array_1',['Array',['../conceptKarm_1_1Meta_1_1Array.html',1,'Karm::Meta']]],
   ['asfd_2',['AsFd',['../conceptKarm_1_1Sys_1_1AsFd.html',1,'Karm::Sys']]],
   ['asyncreadable_3',['AsyncReadable',['../conceptKarm_1_1Aio_1_1AsyncReadable.html',1,'Karm::Aio']]],

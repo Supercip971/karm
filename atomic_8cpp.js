@@ -10,5 +10,6 @@ var atomic_8cpp =
       [ "SEQ_CST", "atomic_8cpp.html#a2a9fb6c9880434e12f636949d7a2498fa55dac756dacc494c230beca9b5c02484", null ]
     ] ],
     [ "memoryBarier", "atomic_8cpp.html#a4cf99de09e05e9a92ae53086dc425521", null ],
-    [ "Core", "atomic_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "atomic_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "atomic_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

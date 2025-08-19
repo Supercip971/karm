@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"blob_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,9,1,2],
+"bmp_2decoder_8cpp.html":[3,0,0,1,7,1,0],
 "bmp_2decoder_8cpp.html#a37503819ab26c63c3b3cb63014b131fb":[3,0,0,1,7,1,0,2],
 "bmp_2decoder_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,7,1,0,3],
 "bmp_2decoder_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,7,1,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "conceptKarm_1_1Aio_1_1AsyncWritable.html":[1,0,0,0],
 "conceptKarm_1_1Async_1_1Operation.html":[0,0,0,2,12],
 "conceptKarm_1_1Async_1_1Operation.html":[1,0,1,0],
-"conceptKarm_1_1Async_1_1Receiver.html":[0,0,0,2,13],
-"conceptKarm_1_1Async_1_1Receiver.html":[1,0,1,1],
-"conceptKarm_1_1Async_1_1Sender.html":[0,0,0,2,14]
+"conceptKarm_1_1Async_1_1Receiver.html":[0,0,0,2,13]
 };

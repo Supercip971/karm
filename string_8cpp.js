@@ -9,5 +9,6 @@ var string_8cpp =
     [ "iterRunes", "string_8cpp.html#a52c70fec7e5e0622dd638eaeb4b419b0", null ],
     [ "operator\"\"s", "string_8cpp.html#a1787ecf435d08e5ef11d01690af68797", null ],
     [ "transcode", "string_8cpp.html#ada857037043202eba87fc82df05adf1a", null ],
-    [ "Core", "string_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "string_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "string_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

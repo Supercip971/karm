@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"family_8cpp.html":[3,0,0,1,20,8],
+"family_8h.html":[3,0,0,1,20,9],
 "family_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,20,9,4],
 "family_8h_source.html":[3,0,0,1,20,9],
 "file-printer-impl_8cpp.html":[3,0,0,1,16,1],
@@ -244,10 +246,8 @@ var NAVTREEINDEX4 =
 "globals_t.html":[3,1,0,15],
 "globals_u.html":[3,1,0,16],
 "globals_v.html":[3,1,0,17],
-"globals_vars.html":[3,1,2],
 "globals_vars.html":[3,1,2,0],
+"globals_vars.html":[3,1,2],
 "globals_vars_c.html":[3,1,2,1],
-"globals_vars_g.html":[3,1,2,2],
-"globals_vars_h.html":[3,1,2,3],
-"globals_vars_i.html":[3,1,2,4]
+"globals_vars_g.html":[3,1,2,2]
 };

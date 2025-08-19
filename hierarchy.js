@@ -401,11 +401,13 @@ var hierarchy =
       [ "Karm::Io::BufferWriter", "structKarm_1_1Io_1_1BufferWriter.html", null ],
       [ "Karm::Io::TextWriter", "structKarm_1_1Io_1_1TextWriter.html", [
         [ "Karm::Io::TextEncoderBase< Utf8 >", "structKarm_1_1Io_1_1TextEncoderBase.html", null ],
-        [ "Karm::Io::Emit", "structKarm_1_1Io_1_1Emit.html", null ],
-        [ "Karm::Io::TextEncoderBase< E >", "structKarm_1_1Io_1_1TextEncoderBase.html", [
-          [ "Karm::Io::TextEncoder< E >", "structKarm_1_1Io_1_1TextEncoder.html", null ],
+        [ "Karm::Io::TextEncoderBase< Sys::Encoding >", "structKarm_1_1Io_1_1TextEncoderBase.html", [
           [ "Karm::Sys::Err", "structKarm_1_1Sys_1_1Err.html", null ],
           [ "Karm::Sys::Out", "structKarm_1_1Sys_1_1Out.html", null ]
+        ] ],
+        [ "Karm::Io::Emit", "structKarm_1_1Io_1_1Emit.html", null ],
+        [ "Karm::Io::TextEncoderBase< E >", "structKarm_1_1Io_1_1TextEncoderBase.html", [
+          [ "Karm::Io::TextEncoder< E >", "structKarm_1_1Io_1_1TextEncoder.html", null ]
         ] ]
       ] ],
       [ "Karm::Sys::MutMmap", "structKarm_1_1Sys_1_1MutMmap.html", null ],

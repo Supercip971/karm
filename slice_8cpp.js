@@ -67,5 +67,6 @@ var slice_8cpp =
     [ "sub", "slice_8cpp.html#a99eeab7c93d42e45c17145ff97603136", null ],
     [ "sub", "slice_8cpp.html#ab1661b617d11854ff5cfbec538b23f91", null ],
     [ "zeroFill", "slice_8cpp.html#adda484a149ddb3803dc9ca78c2be2c81", null ],
-    [ "Core", "slice_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "slice_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "slice_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

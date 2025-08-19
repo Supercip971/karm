@@ -14,7 +14,7 @@ var meta_2traits_8cpp =
     [ "Karm::Meta::StandardLayout", "conceptKarm_1_1Meta_1_1StandardLayout.html", null ],
     [ "Karm::Meta::Pod", "conceptKarm_1_1Meta_1_1Pod.html", null ],
     [ "Karm::Meta::TrivialyCopyable", "conceptKarm_1_1Meta_1_1TrivialyCopyable.html", null ],
-    [ "Karm::Meta::Agregate", "conceptKarm_1_1Meta_1_1Agregate.html", null ],
+    [ "Karm::Meta::Aggregate", "conceptKarm_1_1Meta_1_1Aggregate.html", null ],
     [ "Karm::Meta::Signed", "conceptKarm_1_1Meta_1_1Signed.html", null ],
     [ "Karm::Meta::Unsigned", "conceptKarm_1_1Meta_1_1Unsigned.html", null ],
     [ "Karm::Meta::SignedIntegral", "conceptKarm_1_1Meta_1_1SignedIntegral.html", null ],
@@ -30,5 +30,6 @@ var meta_2traits_8cpp =
     [ "Karm::Meta::Equatable", "conceptKarm_1_1Meta_1_1Equatable.html", null ],
     [ "UnderlyingType", "meta_2traits_8cpp.html#a5f1e119cc07df3835800e667747ff8cf", null ],
     [ "zeroableSizeOf", "meta_2traits_8cpp.html#ae5eb7f8d37aef4e708dca4d728aa4c77", null ],
-    [ "Core", "meta_2traits_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "meta_2traits_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "meta_2traits_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

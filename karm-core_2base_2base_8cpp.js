@@ -31,6 +31,7 @@ var karm_core_2base_2base_8cpp =
     [ "unionCast", "karm-core_2base_2base_8cpp.html#acd2db184c90b8e550e690493007ae975", null ],
     [ "COPY", "karm-core_2base_2base_8cpp.html#a2d251b5c556c93ae1c4f337b3d67babd", null ],
     [ "Core", "karm-core_2base_2base_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "karm-core_2base_2base_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "MOVE", "karm-core_2base_2base_8cpp.html#a86648acd8148ae7b47701dd1082c550d", null ],
     [ "NONE", "karm-core_2base_2base_8cpp.html#ad1321baaaac39d3c9e044f9fb4308639", null ],
     [ "WRAP", "karm-core_2base_2base_8cpp.html#a16e17b79e31f255b86597c26bc041a5a", null ]

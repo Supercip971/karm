@@ -23,6 +23,7 @@ var rune_8cpp =
     [ "Core", "rune_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
     [ "IBM437", "rune_8cpp.html#adb76066585dfb8d65b79df03297c6627", null ],
     [ "LATIN1", "rune_8cpp.html#a4ba1983cdbbcadf1ae0098f6d0ed4c13", null ],
+    [ "module", "rune_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "REPLACEMENT", "rune_8cpp.html#a394525318dfa69c1a1c60eadad8371eb", null ],
     [ "UTF16", "rune_8cpp.html#ad23059999a6e473aeccdbd23481ef61a", null ],
     [ "UTF32", "rune_8cpp.html#ae92cb1d23a6745ed05c5bf6d1ac827c2", null ],

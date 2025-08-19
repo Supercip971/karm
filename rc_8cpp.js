@@ -7,5 +7,6 @@ var rc_8cpp =
     [ "Weak", "rc_8cpp.html#ac5f58155de9223053ee4561561115d8a", null ],
     [ "makeArc", "rc_8cpp.html#a14bdf48000357320ca3d38297c1a7d39", null ],
     [ "makeRc", "rc_8cpp.html#a9c99d467101f5c4f41724fbdf9df7462", null ],
-    [ "Core", "rc_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "rc_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "rc_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

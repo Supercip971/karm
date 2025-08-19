@@ -13,5 +13,6 @@ var karm_core_2io_2funcs_8cpp =
     [ "skip", "karm-core_2io_2funcs_8cpp.html#a1f1b3b7e9fbcc961c1942419302960c0", null ],
     [ "skip", "karm-core_2io_2funcs_8cpp.html#a0546d5350a42c9b5f8499f8c320839eb", null ],
     [ "tell", "karm-core_2io_2funcs_8cpp.html#a42747038ba60f8686190cfb46d818353", null ],
-    [ "Core", "karm-core_2io_2funcs_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "karm-core_2io_2funcs_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "karm-core_2io_2funcs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

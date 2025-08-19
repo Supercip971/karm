@@ -3,14 +3,14 @@ var namespaceKarm_1_1Async =
     [ "Tests", "namespaceKarm_1_1Async_1_1Tests.html", [
       [ "taskOuter", "namespaceKarm_1_1Async_1_1Tests.html#aea908c44ad80e6af9bfd5eb00c045659", null ],
       [ "taskValue", "namespaceKarm_1_1Async_1_1Tests.html#a28a7e1b1a39284e05d62d9479dbb8816", null ],
-      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a88daa7f79f4969107247aae85b653543", null ],
-      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a35ae17807001b67472510fd7d555da4a", null ],
-      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a98111133c94e895bca237ca8efe76e25", null ],
-      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a4ed5c2797d032792cfb5b787fa957b21", null ],
-      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a03ee340f20b2bd9a2063fb2a3114b1d2", null ],
-      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a1f608aa429891fde67bfe058c148a329", null ],
       [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a04a303f56cb75fb185d3f129edc8653c", null ],
-      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a2373d4164b45231493462fc75e729fb3", null ]
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a2373d4164b45231493462fc75e729fb3", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a577b9d54280f7f2e3ef7ed12c3ea41a9", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a1a8d1abc4c161c5a7f15a1ca75eb908a", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#ac73af1d03e35c4643abd58c085d88b52", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#a33a5dc8627c0442a0624dbaa82c92892", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#ac29dbeed4b8c5baa6d7e1b3d1462641f", null ],
+      [ "test$", "namespaceKarm_1_1Async_1_1Tests.html#ac42a984b8eb4e16ecee49ec6fc351b81", null ]
     ] ],
     [ "Awaiter", "structKarm_1_1Async_1_1Awaiter.html", "structKarm_1_1Async_1_1Awaiter" ],
     [ "Cancellation", "structKarm_1_1Async_1_1Cancellation.html", "structKarm_1_1Async_1_1Cancellation" ],

@@ -22,6 +22,7 @@ var namespaceKarm_1_1Tty =
       [ "CYAN_LIGHT", "namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5aa773edcdaa3d62c4392f15b1b12998e4", null ],
       [ "WHITE", "namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5a12cb65f572b2ce9e97ae1cd71f9a1532", null ]
     ] ],
+    [ "operator|", "namespaceKarm_1_1Tty.html#ab6ea6adb9764c4792b330866e844e5a0", null ],
     [ "operator|", "namespaceKarm_1_1Tty.html#a3fe883f34c3890e2715db4c845adf45d", null ],
     [ "random", "namespaceKarm_1_1Tty.html#a26627dda493888f9ac4d66094df48847", null ],
     [ "reset", "namespaceKarm_1_1Tty.html#a28cdd43d9a7c3abd5c1b04b3351455a3", null ],

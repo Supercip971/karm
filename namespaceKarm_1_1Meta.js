@@ -31,7 +31,7 @@ var namespaceKarm_1_1Meta =
     [ "StandardLayout", "conceptKarm_1_1Meta_1_1StandardLayout.html", null ],
     [ "Pod", "conceptKarm_1_1Meta_1_1Pod.html", null ],
     [ "TrivialyCopyable", "conceptKarm_1_1Meta_1_1TrivialyCopyable.html", null ],
-    [ "Agregate", "conceptKarm_1_1Meta_1_1Agregate.html", null ],
+    [ "Aggregate", "conceptKarm_1_1Meta_1_1Aggregate.html", null ],
     [ "Signed", "conceptKarm_1_1Meta_1_1Signed.html", null ],
     [ "Unsigned", "conceptKarm_1_1Meta_1_1Unsigned.html", null ],
     [ "SignedIntegral", "conceptKarm_1_1Meta_1_1SignedIntegral.html", null ],
