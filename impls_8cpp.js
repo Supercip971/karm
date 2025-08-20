@@ -12,5 +12,6 @@ var impls_8cpp =
     [ "Karm::Io::BufferWriter", "structKarm_1_1Io_1_1BufferWriter.html", "structKarm_1_1Io_1_1BufferWriter" ],
     [ "Karm::Io::BitReader", "structKarm_1_1Io_1_1BitReader.html", "structKarm_1_1Io_1_1BitReader" ],
     [ "makeSlice", "impls_8cpp.html#acdf7b35f6580b3fe9e2eb427f872583c", null ],
-    [ "Core", "impls_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "impls_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "impls_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

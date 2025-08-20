@@ -45,5 +45,6 @@ var case_8cpp =
     [ "toTitleCase", "case_8cpp.html#a0869084e6becfd44fcc449ac5c7af95f", null ],
     [ "toUpperCase", "case_8cpp.html#aab5e1842c3a4cd8751634a8207ed044c", null ],
     [ "toUpperFirstCase", "case_8cpp.html#a8a6a6f5a1c25cb6fd532dde66baf2634", null ],
-    [ "Core", "case_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "case_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "case_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

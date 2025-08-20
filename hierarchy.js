@@ -724,6 +724,7 @@ var hierarchy =
       [ "Karm::Async::Cancellation", "structKarm_1_1Async_1_1Cancellation.html", null ],
       [ "Karm::Cli::Command", "structKarm_1_1Cli_1_1Command.html", null ],
       [ "Karm::CriticalScope", "structKarm_1_1CriticalScope.html", null ],
+      [ "Karm::Debug::Flag", "structKarm_1_1Debug_1_1Flag.html", null ],
       [ "Karm::Defer< F >", "structKarm_1_1Defer.html", null ],
       [ "Karm::Gc::Heap", "structKarm_1_1Gc_1_1Heap.html", null ],
       [ "Karm::LlItem< T >", "structKarm_1_1LlItem.html", null ],
@@ -752,7 +753,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "Karm::Generator< T >::promise_type", "structKarm_1_1Generator_1_1promise__type.html", null ],
-    [ "Karm::Cli::Command::Props", "structKarm_1_1Cli_1_1Command_1_1Props.html", null ],
     [ "Karm::Text::ProseStyle", "structKarm_1_1Text_1_1ProseStyle.html", null ],
     [ "Karm::Gc::Ptr< T >", "structKarm_1_1Gc_1_1Ptr.html", null ],
     [ "Karm::Math::Quad< T >", "unionKarm_1_1Math_1_1Quad.html", null ],

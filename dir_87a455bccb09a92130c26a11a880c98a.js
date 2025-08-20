@@ -4,6 +4,7 @@ var dir_87a455bccb09a92130c26a11a880c98a =
     [ "karm-cli", "dir_e7b6f028fef62249f8ea0d96c75a70ed.html", "dir_e7b6f028fef62249f8ea0d96c75a70ed" ],
     [ "karm-core", "dir_0faa10f0ea8b4a910168b5e6ae52c924.html", "dir_0faa10f0ea8b4a910168b5e6ae52c924" ],
     [ "karm-crypto", "dir_799f3ab960e51e7b817c99a858c44ced.html", "dir_799f3ab960e51e7b817c99a858c44ced" ],
+    [ "karm-debug", "dir_2cb9b8a529ff90502e2975b18e0a1cbc.html", "dir_2cb9b8a529ff90502e2975b18e0a1cbc" ],
     [ "karm-gc", "dir_5a521d82086ec2c222c4521809d95df8.html", "dir_5a521d82086ec2c222c4521809d95df8" ],
     [ "karm-gfx", "dir_72c2cd474489e4bf5cfc1c37b502ef1d.html", "dir_72c2cd474489e4bf5cfc1c37b502ef1d" ],
     [ "karm-http", "dir_781d9ea28d26e5eebb4de68744911187.html", "dir_781d9ea28d26e5eebb4de68744911187" ],

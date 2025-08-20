@@ -1,6 +1,5 @@
 var structKarm_1_1Cli_1_1Command =
 [
-    [ "Props", "structKarm_1_1Cli_1_1Command_1_1Props.html", null ],
     [ "Callback", "structKarm_1_1Cli_1_1Command.html#ab20f2219d0b87e2f2e4479891736c0e5", null ],
     [ "Command", "structKarm_1_1Cli_1_1Command.html#ac6855df10bea77c8fef908ac7bb7ac97", null ],
     [ "execAsync", "structKarm_1_1Cli_1_1Command.html#a59c0d1c126d0e28e9b8071e6549c097c", null ],

@@ -9,7 +9,6 @@ var karm_cli_2mod_8cpp =
     [ "Karm::Cli::OptionImpl< T >", "structKarm_1_1Cli_1_1OptionImpl.html", "structKarm_1_1Cli_1_1OptionImpl" ],
     [ "Karm::Cli::Option< T >", "structKarm_1_1Cli_1_1Option.html", "structKarm_1_1Cli_1_1Option" ],
     [ "Karm::Cli::Command", "structKarm_1_1Cli_1_1Command.html", "structKarm_1_1Cli_1_1Command" ],
-    [ "Karm::Cli::Command::Props", "structKarm_1_1Cli_1_1Command_1_1Props.html", null ],
     [ "Flag", "karm-cli_2mod_8cpp.html#a62dfccd12407e397cab6854be10e96f5", null ],
     [ "OptionKind", "karm-cli_2mod_8cpp.html#adad269924e06d6f9a5c912b24b17bf93", [
       [ "OPTION", "karm-cli_2mod_8cpp.html#adad269924e06d6f9a5c912b24b17bf93ae1c4a02aed2e485ae96bc5a5b1d01ee5", null ],
@@ -25,5 +24,6 @@ var karm_cli_2mod_8cpp =
     [ "tokenize", "karm-cli_2mod_8cpp.html#ad719c200ee8ea9e3dee0e7e25675a078", null ],
     [ "Cli", "karm-cli_2mod_8cpp.html#a4eec3224550cd5aa08b94d95d9d7d683", null ],
     [ "Core", "karm-cli_2mod_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Debug", "karm-cli_2mod_8cpp.html#ae9c22628d1cefdb9b7dc5262029cb360", null ],
     [ "module", "karm-cli_2mod_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

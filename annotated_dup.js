@@ -53,6 +53,9 @@ var annotated_dup =
       [ "Crypto", "namespaceKarm_1_1Crypto.html", [
         [ "Crc32", "structKarm_1_1Crypto_1_1Crc32.html", "structKarm_1_1Crypto_1_1Crc32" ]
       ] ],
+      [ "Debug", "namespaceKarm_1_1Debug.html", [
+        [ "Flag", "structKarm_1_1Debug_1_1Flag.html", "structKarm_1_1Debug_1_1Flag" ]
+      ] ],
       [ "Gc", "namespaceKarm_1_1Gc.html", [
         [ "Tests", "namespaceKarm_1_1Gc_1_1Tests.html", [
           [ "Foo", "structKarm_1_1Gc_1_1Tests_1_1Foo.html", null ]

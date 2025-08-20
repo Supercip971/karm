@@ -6,6 +6,7 @@ var namespaceKarm =
     [ "Base", "namespaceKarm_1_1Base.html", "namespaceKarm_1_1Base" ],
     [ "Cli", "namespaceKarm_1_1Cli.html", "namespaceKarm_1_1Cli" ],
     [ "Crypto", "namespaceKarm_1_1Crypto.html", "namespaceKarm_1_1Crypto" ],
+    [ "Debug", "namespaceKarm_1_1Debug.html", "namespaceKarm_1_1Debug" ],
     [ "Gc", "namespaceKarm_1_1Gc.html", "namespaceKarm_1_1Gc" ],
     [ "Gfx", "namespaceKarm_1_1Gfx.html", "namespaceKarm_1_1Gfx" ],
     [ "Glob", "namespaceKarm_1_1Glob.html", "namespaceKarm_1_1Glob" ],
