@@ -275,14 +275,14 @@ requires (Contains&lt;T, Ts...&gt;)</td></tr>
 <tr class="memitem:ae5eb7f8d37aef4e708dca4d728aa4c77"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae5eb7f8d37aef4e708dca4d728aa4c77"><td class="memTemplItemLeft" align="right" valign="top">export constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#ae5eb7f8d37aef4e708dca4d728aa4c77">zeroableSizeOf</a> ()</td></tr>
 <tr class="separator:ae5eb7f8d37aef4e708dca4d728aa4c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a340ceab91e5a6ca8e293b617d8d13b1e"><td class="memTemplParams" colspan="2">template&lt;class T , std::size_t Bases = 0u, class... Ts&gt; <br />
-requires Meta::Agregate&lt;T&gt;</td></tr>
-<tr class="memitem:a340ceab91e5a6ca8e293b617d8d13b1e"><td class="memTemplItemLeft" align="right" valign="top">export constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#a340ceab91e5a6ca8e293b617d8d13b1e">size</a> () -&gt; std::size_t</td></tr>
-<tr class="separator:a340ceab91e5a6ca8e293b617d8d13b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66ee989d6cd9f7202ba2a059d405aa56"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T &gt; <br />
-requires Meta::Agregate&lt;<a class="el" href="namespaceKarm_1_1Meta.html#ab664a0c5ad4a62af27b8e8db9b61fa71">Meta::RemoveConstVolatileRef</a>&lt;T&gt;&gt;</td></tr>
-<tr class="memitem:a66ee989d6cd9f7202ba2a059d405aa56"><td class="memTemplItemLeft" align="right" valign="top">export constexpr decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#a66ee989d6cd9f7202ba2a059d405aa56">visit</a> (Fn &amp;&amp;fn, T &amp;&amp;t, auto...)</td></tr>
-<tr class="separator:a66ee989d6cd9f7202ba2a059d405aa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3397edebd0b659155f5d16b4c96dc13d"><td class="memTemplParams" colspan="2">template&lt;class T , std::size_t Bases = 0u, class... Ts&gt; <br />
+requires Meta::Aggregate&lt;T&gt;</td></tr>
+<tr class="memitem:a3397edebd0b659155f5d16b4c96dc13d"><td class="memTemplItemLeft" align="right" valign="top">export constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#a3397edebd0b659155f5d16b4c96dc13d">size</a> () -&gt; std::size_t</td></tr>
+<tr class="separator:a3397edebd0b659155f5d16b4c96dc13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e4725831a5b0071dfcfdb4bd7acc755"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T &gt; <br />
+requires Meta::Aggregate&lt;<a class="el" href="namespaceKarm_1_1Meta.html#ab664a0c5ad4a62af27b8e8db9b61fa71">Meta::RemoveConstVolatileRef</a>&lt;T&gt;&gt;</td></tr>
+<tr class="memitem:a4e4725831a5b0071dfcfdb4bd7acc755"><td class="memTemplItemLeft" align="right" valign="top">export constexpr decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Meta.html#a4e4725831a5b0071dfcfdb4bd7acc755">visit</a> (Fn &amp;&amp;fn, T &amp;&amp;t, auto...)</td></tr>
+<tr class="separator:a4e4725831a5b0071dfcfdb4bd7acc755"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a2033699d5563afa20327582c7c228535" name="a2033699d5563afa20327582c7c228535"></a>
@@ -665,14 +665,14 @@ requires (Contains&lt;T, Ts...&gt;)</div>
 
 </div>
 </div>
-<a id="a340ceab91e5a6ca8e293b617d8d13b1e" name="a340ceab91e5a6ca8e293b617d8d13b1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a340ceab91e5a6ca8e293b617d8d13b1e">&#9670;&#160;</a></span>size()</h2>
+<a id="a3397edebd0b659155f5d16b4c96dc13d" name="a3397edebd0b659155f5d16b4c96dc13d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3397edebd0b659155f5d16b4c96dc13d">&#9670;&#160;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T , std::size_t Bases = 0u, class... Ts&gt; <br />
-requires Meta::Agregate&lt;T&gt;</div>
+requires Meta::Aggregate&lt;T&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -693,14 +693,14 @@ requires Meta::Agregate&lt;T&gt;</div>
 
 </div>
 </div>
-<a id="a66ee989d6cd9f7202ba2a059d405aa56" name="a66ee989d6cd9f7202ba2a059d405aa56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66ee989d6cd9f7202ba2a059d405aa56">&#9670;&#160;</a></span>visit()</h2>
+<a id="a4e4725831a5b0071dfcfdb4bd7acc755" name="a4e4725831a5b0071dfcfdb4bd7acc755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e4725831a5b0071dfcfdb4bd7acc755">&#9670;&#160;</a></span>visit()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class Fn , class T &gt; <br />
-requires Meta::Agregate&lt;<a class="el" href="namespaceKarm_1_1Meta.html#ab664a0c5ad4a62af27b8e8db9b61fa71">Meta::RemoveConstVolatileRef</a>&lt;T&gt;&gt;</div>
+requires Meta::Aggregate&lt;<a class="el" href="namespaceKarm_1_1Meta.html#ab664a0c5ad4a62af27b8e8db9b61fa71">Meta::RemoveConstVolatileRef</a>&lt;T&gt;&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
