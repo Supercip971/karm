@@ -9,7 +9,8 @@ var searchData=
   ['option_6',['OPTION',['../structKarm_1_1Cli_1_1Token.html#a4c9fb0da0d8a646b925e07bacadc7aeeae1c4a02aed2e485ae96bc5a5b1d01ee5',1,'Karm::Cli::Token::OPTION()'],['../namespaceKarm_1_1Cli.html#adad269924e06d6f9a5c912b24b17bf93ae1c4a02aed2e485ae96bc5a5b1d01ee5',1,'Karm::Cli::OPTION()']]],
   ['order_5fr2l_7',['ORDER_R2L',['../namespaceKarm_1_1Image_1_1Tga.html#a4e86f04bd0008178a7bcf822889db1d5a8ffd03443eb135374e917568b32c4809',1,'Karm::Image::Tga']]],
   ['order_5ft2b_8',['ORDER_T2B',['../namespaceKarm_1_1Image_1_1Tga.html#a4e86f04bd0008178a7bcf822889db1d5a7e89012297c3d00fdb8d7aaa1764d25d',1,'Karm::Image::Tga']]],
-  ['outset_9',['OUTSET',['../namespaceKarm_1_1Gfx.html#a65f2c46530a861de605f2103cb12a3a5aac2ffd2a4ac725c84c51e5ec56505345',1,'Karm::Gfx']]],
-  ['outside_5falign_10',['OUTSIDE_ALIGN',['../namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991a8d7f446d95a80c25cf69eced85a571be',1,'Karm::Gfx']]],
-  ['overlap_5fsimple_11',['OVERLAP_SIMPLE',['../structKarm_1_1Text_1_1Ttf_1_1Glyf_1_1SimpleContour.html#a2185a0fdd0280c3183f4d5ec18339bdfa482fe74f17836a4de35c5f194dc5cb9c',1,'Karm::Text::Ttf::Glyf::SimpleContour']]]
+  ['other_9',['OTHER',['../namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cda03570470bad94692ce93e32700d2e1cb',1,'Karm::Sys']]],
+  ['outset_10',['OUTSET',['../namespaceKarm_1_1Gfx.html#a65f2c46530a861de605f2103cb12a3a5aac2ffd2a4ac725c84c51e5ec56505345',1,'Karm::Gfx']]],
+  ['outside_5falign_11',['OUTSIDE_ALIGN',['../namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991a8d7f446d95a80c25cf69eced85a571be',1,'Karm::Gfx']]],
+  ['overlap_5fsimple_12',['OVERLAP_SIMPLE',['../structKarm_1_1Text_1_1Ttf_1_1Glyf_1_1SimpleContour.html#a2185a0fdd0280c3183f4d5ec18339bdfa482fe74f17836a4de35c5f194dc5cb9c',1,'Karm::Text::Ttf::Glyf::SimpleContour']]]
 ];

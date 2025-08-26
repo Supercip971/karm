@@ -3,7 +3,7 @@ var dir_041fe90bb727f1d866ba510ed950a9db =
     [ "box.cpp", "karm-scene_2box_8cpp.html", "karm-scene_2box_8cpp" ],
     [ "clear.cpp", "clear_8cpp.html", "clear_8cpp" ],
     [ "clip.cpp", "clip_8cpp.html", "clip_8cpp" ],
-    [ "image.cpp", "image_8cpp.html", "image_8cpp" ],
+    [ "image.cpp", "karm-scene_2image_8cpp.html", "karm-scene_2image_8cpp" ],
     [ "mod.cpp", "karm-scene_2mod_8cpp.html", "karm-scene_2mod_8cpp" ],
     [ "node.cpp", "karm-scene_2node_8cpp.html", "karm-scene_2node_8cpp" ],
     [ "opacity.cpp", "opacity_8cpp.html", "opacity_8cpp" ],

@@ -77,7 +77,8 @@ var namespaceKarm_1_1Sys =
     ] ],
     [ "Type", "namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cd", [
       [ "FILE", "namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cda9fc5887c030f7a3e19821ebec457e719", null ],
-      [ "DIR", "namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cdac1561b120842fabe1310417083827590", null ]
+      [ "DIR", "namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cdac1561b120842fabe1310417083827590", null ],
+      [ "OTHER", "namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cda03570470bad94692ce93e32700d2e1cb", null ]
     ] ],
     [ "cpusinfo", "namespaceKarm_1_1Sys.html#a3b2df967631bca55b5d7535b2e6c5605", null ],
     [ "date", "namespaceKarm_1_1Sys.html#a244c0f68a8a6d9a96ef0cc05adf6f6d1", null ],

@@ -10,7 +10,7 @@ var searchData=
   ['emit_7',['Emit',['../structKarm_1_1Io_1_1Emit.html',1,'Karm::Io']]],
   ['empty_8',['Empty',['../structKarm_1_1Io_1_1Empty.html',1,'Karm::Io::Empty'],['../structKarm_1_1Ui_1_1Empty.html',1,'Karm::Ui::Empty']]],
   ['endpoint_9',['Endpoint',['../structKarm_1_1Sys_1_1Endpoint.html',1,'Karm::Sys']]],
-  ['entry_10',['Entry',['../structKarm_1_1Pdf_1_1XRef_1_1Entry.html',1,'Karm::Pdf::XRef']]],
+  ['entry_10',['Entry',['../structKarm_1_1Fs_1_1Mbr_1_1Entry.html',1,'Karm::Fs::Mbr::Entry'],['../structKarm_1_1Pdf_1_1XRef_1_1Entry.html',1,'Karm::Pdf::XRef::Entry']]],
   ['err_11',['Err',['../structKarm_1_1Sys_1_1Err.html',1,'Karm::Sys']]],
   ['error_12',['Error',['../structKarm_1_1Error.html',1,'Karm']]],
   ['event_13',['Event',['../structKarm_1_1App_1_1Event.html',1,'Karm::App']]],

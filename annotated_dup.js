@@ -56,6 +56,16 @@ var annotated_dup =
       [ "Debug", "namespaceKarm_1_1Debug.html", [
         [ "Flag", "structKarm_1_1Debug_1_1Flag.html", "structKarm_1_1Debug_1_1Flag" ]
       ] ],
+      [ "Fs", "namespaceKarm_1_1Fs.html", [
+        [ "Fat32", "structKarm_1_1Fs_1_1Fat32.html", null ],
+        [ "Gpt", "structKarm_1_1Fs_1_1Gpt.html", null ],
+        [ "Image", "structKarm_1_1Fs_1_1Image.html", "structKarm_1_1Fs_1_1Image" ],
+        [ "Mbr", "structKarm_1_1Fs_1_1Mbr.html", "structKarm_1_1Fs_1_1Mbr" ],
+        [ "Node", "structKarm_1_1Fs_1_1Node.html", "structKarm_1_1Fs_1_1Node" ],
+        [ "VDir", "structKarm_1_1Fs_1_1VDir.html", null ],
+        [ "VFile", "structKarm_1_1Fs_1_1VFile.html", null ],
+        [ "Vfs", "structKarm_1_1Fs_1_1Vfs.html", null ]
+      ] ],
       [ "Gc", "namespaceKarm_1_1Gc.html", [
         [ "Tests", "namespaceKarm_1_1Gc_1_1Tests.html", [
           [ "Foo", "structKarm_1_1Gc_1_1Tests_1_1Foo.html", null ]
