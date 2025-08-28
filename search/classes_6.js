@@ -1,11 +1,11 @@
 var searchData=
 [
   ['generator_0',['Generator',['../structKarm_1_1Generator.html',1,'Karm']]],
-  ['glyf_1',['Glyf',['../structKarm_1_1Text_1_1Ttf_1_1Glyf.html',1,'Karm::Text::Ttf']]],
-  ['glyph_2',['Glyph',['../structKarm_1_1Text_1_1Glyph.html',1,'Karm::Text']]],
-  ['glyphmetrics_3',['GlyphMetrics',['../structKarm_1_1Text_1_1Ttf_1_1GlyphMetrics.html',1,'Karm::Text::Ttf']]],
-  ['glyphpairadjustment_4',['GlyphPairAdjustment',['../structKarm_1_1Text_1_1Ttf_1_1GlyphPairAdjustment.html',1,'Karm::Text::Ttf']]],
-  ['gpos_5',['Gpos',['../structKarm_1_1Text_1_1Ttf_1_1Gpos.html',1,'Karm::Text::Ttf']]],
+  ['glyf_1',['Glyf',['../structKarm_1_1Font_1_1Ttf_1_1Glyf.html',1,'Karm::Font::Ttf']]],
+  ['glyph_2',['Glyph',['../structKarm_1_1Gfx_1_1Glyph.html',1,'Karm::Gfx']]],
+  ['glyphmetrics_3',['GlyphMetrics',['../structKarm_1_1Font_1_1Ttf_1_1GlyphMetrics.html',1,'Karm::Font::Ttf']]],
+  ['glyphpairadjustment_4',['GlyphPairAdjustment',['../structKarm_1_1Font_1_1Ttf_1_1GlyphPairAdjustment.html',1,'Karm::Font::Ttf']]],
+  ['gpos_5',['Gpos',['../structKarm_1_1Font_1_1Ttf_1_1Gpos.html',1,'Karm::Font::Ttf']]],
   ['gpt_6',['Gpt',['../structKarm_1_1Fs_1_1Gpt.html',1,'Karm::Fs']]],
   ['gradient_7',['Gradient',['../structKarm_1_1Gfx_1_1Gradient.html',1,'Karm::Gfx']]],
   ['graphicalstatedict_8',['GraphicalStateDict',['../structKarm_1_1Pdf_1_1GraphicalStateDict.html',1,'Karm::Pdf']]],
@@ -20,5 +20,5 @@ var searchData=
   ['groupnode_3c_20gridlayout_20_3e_17',['GroupNode&lt; GridLayout &gt;',['../structKarm_1_1Ui_1_1GroupNode.html',1,'Karm::Ui']]],
   ['groupnode_3c_20stacklayout_20_3e_18',['GroupNode&lt; StackLayout &gt;',['../structKarm_1_1Ui_1_1GroupNode.html',1,'Karm::Ui']]],
   ['grow_19',['Grow',['../structKarm_1_1Ui_1_1Grow.html',1,'Karm::Ui']]],
-  ['gsub_20',['Gsub',['../structKarm_1_1Text_1_1Ttf_1_1Gsub.html',1,'Karm::Text::Ttf']]]
+  ['gsub_20',['Gsub',['../structKarm_1_1Font_1_1Ttf_1_1Gsub.html',1,'Karm::Font::Ttf']]]
 ];

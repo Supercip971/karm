@@ -18,7 +18,7 @@ var searchData=
   ['_7eevent_15',['~Event',['../structKarm_1_1App_1_1Event.html#a51dfc621eff38be84bcbb0a6a27b0a67',1,'Karm::App::Event']]],
   ['_7efd_16',['~Fd',['../structKarm_1_1Posix_1_1Fd.html#ae22e0a241bfb5ed24777789733806bd6',1,'Karm::Posix::Fd::~Fd()'],['../structKarm_1_1Sys_1_1Fd.html#ad84afe3c3cb278f4f1ba4defbe929a1f',1,'Karm::Sys::Fd::~Fd()']]],
   ['_7eflusher_17',['~Flusher',['../structKarm_1_1Io_1_1Flusher.html#a55d8a13526f3d870002ead79eccb731a',1,'Karm::Io::Flusher']]],
-  ['_7efontface_18',['~Fontface',['../structKarm_1_1Text_1_1Fontface.html#a72f252d9174f1c072c08e9f21f2b3706',1,'Karm::Text::Fontface']]],
+  ['_7efontface_18',['~Fontface',['../structKarm_1_1Gfx_1_1Fontface.html#aeac8687661e444096f07b84552be163c',1,'Karm::Gfx::Fontface']]],
   ['_7egenerator_19',['~Generator',['../structKarm_1_1Generator.html#a4fd6ae2d16b9a5a063fe7df02f42ebf7',1,'Karm::Generator']]],
   ['_7egroupnode_20',['~GroupNode',['../structKarm_1_1Ui_1_1GroupNode.html#a90e45aa48b735a5da756c2a4e803b729',1,'Karm::Ui::GroupNode']]],
   ['_7eheap_21',['~Heap',['../structKarm_1_1Gc_1_1Heap.html#a15b33e01abd20939397071d0b93814be',1,'Karm::Gc::Heap']]],

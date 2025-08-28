@@ -15,7 +15,7 @@ var searchData=
   ['bits_12',['Bits',['../structKarm_1_1Bits.html',1,'Karm']]],
   ['bitwriter_13',['BitWriter',['../structKarm_1_1Image_1_1Jpeg_1_1BitWriter.html',1,'Karm::Image::Jpeg']]],
   ['blob_14',['Blob',['../structKarm_1_1Kv_1_1Blob.html',1,'Karm::Kv']]],
-  ['block_15',['Block',['../structKarm_1_1Text_1_1Prose_1_1Block.html',1,'Karm::Text::Prose']]],
+  ['block_15',['Block',['../structKarm_1_1Gfx_1_1Prose_1_1Block.html',1,'Karm::Gfx::Prose']]],
   ['blurfilter_16',['BlurFilter',['../structKarm_1_1Gfx_1_1BlurFilter.html',1,'Karm::Gfx']]],
   ['body_17',['Body',['../structKarm_1_1Http_1_1Body.html',1,'Karm::Http']]],
   ['borders_18',['Borders',['../structKarm_1_1Gfx_1_1Borders.html',1,'Karm::Gfx']]],
@@ -32,7 +32,7 @@ var searchData=
   ['bufferwriter_29',['BufferWriter',['../structKarm_1_1Io_1_1BufferWriter.html',1,'Karm::Io']]],
   ['bufreader_30',['BufReader',['../structKarm_1_1Io_1_1BufReader.html',1,'Karm::Io']]],
   ['bufwriter_31',['BufWriter',['../structKarm_1_1Io_1_1BufWriter.html',1,'Karm::Io']]],
-  ['builder_32',['Builder',['../structKarm_1_1Gfx_1_1Gradient_1_1Builder.html',1,'Karm::Gfx::Gradient::Builder'],['../structKarm_1_1Text_1_1FontFamily_1_1Builder.html',1,'Karm::Text::FontFamily::Builder']]],
+  ['builder_32',['Builder',['../structKarm_1_1Gfx_1_1Gradient_1_1Builder.html',1,'Karm::Gfx::Gradient']]],
   ['bundle_33',['Bundle',['../structKarm_1_1Sys_1_1Bundle.html',1,'Karm::Sys']]],
   ['button_34',['Button',['../structKarm_1_1Ui_1_1Button.html',1,'Karm::Ui']]],
   ['buttonstyle_35',['ButtonStyle',['../structKarm_1_1Ui_1_1ButtonStyle.html',1,'Karm::Ui']]]

@@ -40,8 +40,8 @@ var searchData=
   ['instant_37',['Instant',['../namespaceKarm.html#a7c25caa13599c579275a0f3e8e688e5e',1,'Karm']]],
   ['integer_38',['Integer',['../namespaceKarm_1_1Serde.html#a9e2c48140e46d4ed4b8b67291b8a2c14',1,'Karm::Serde']]],
   ['irange_39',['irange',['../namespaceKarm.html#a9ae9bdb97bbfe66ab16b75deb2bff8ad',1,'Karm']]],
-  ['isfixedpitch_40',['IsFixedPitch',['../structKarm_1_1Text_1_1Ttf_1_1Post.html#a00a9675e0a06105d467fe20d34af4fdc',1,'Karm::Text::Ttf::Post']]],
+  ['isfixedpitch_40',['IsFixedPitch',['../structKarm_1_1Font_1_1Ttf_1_1Post.html#ab0e31c01b971282fe2a3e21aea0f45e0',1,'Karm::Font::Ttf::Post']]],
   ['isize_41',['isize',['../namespaceKarm.html#ad82b8e5abde741498d909649c69a5ba1',1,'Karm']]],
-  ['italicangle_42',['ItalicAngle',['../structKarm_1_1Text_1_1Ttf_1_1Post.html#aec3a3823edc90466372937f9afc1ac1d',1,'Karm::Text::Ttf::Post']]],
+  ['italicangle_42',['ItalicAngle',['../structKarm_1_1Font_1_1Ttf_1_1Post.html#a819f29a3876d6b64abbab679ed91f123',1,'Karm::Font::Ttf::Post']]],
   ['item_43',['Item',['../structKarm_1_1Iter.html#a2f793d26e806a88eac6a62a3167a9b85',1,'Karm::Iter::Item()'],['../structKarm_1_1It.html#a4c0f62e80af3e3106940c8e872272d0a',1,'Karm::It::Item()']]]
 ];

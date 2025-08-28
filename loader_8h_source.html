@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Karm: src/libs/karm-text/loader.h Source File</title>
+<title>Karm: src/libs/karm-font/loader.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
@@ -101,37 +101,36 @@ $(document).ready(function(){initNavTree('loader_8h_source.html',''); initResiza
 <div class="contents">
 <a href="loader_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="mmap_8h.html">karm-sys/mmap.h</a>&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="font_8h.html">font.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceKarm_1_1Text.html">Karm::Text</a> {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>Res&lt;Rc&lt;Fontface&gt;&gt; <a class="code hl_function" href="namespaceKarm_1_1Text.html#a2198846bd02044686a1c26394291dda6">loadFontface</a>(Sys::Mmap&amp;&amp; map);</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>Res&lt;Rc&lt;Fontface&gt;&gt; <a class="code hl_function" href="namespaceKarm_1_1Text.html#a2198846bd02044686a1c26394291dda6">loadFontface</a>(Mime::Url url);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>Res&lt;Rc&lt;Fontface&gt;&gt; <a class="code hl_function" href="namespaceKarm_1_1Text.html#ad410850ae52f09e20330bc945572a9d3">loadFontfaceOrFallback</a>(Mime::Url url);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>Res&lt;Font&gt; <a class="code hl_function" href="namespaceKarm_1_1Text.html#a71eed72cfac963aef44ca5271a0eed5b">loadFont</a>(<a class="code hl_typedef" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> size, Mime::Url url);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>Res&lt;Font&gt; <a class="code hl_function" href="namespaceKarm_1_1Text.html#a50a835c1fddb06df1aa6de04c2e155e7">loadFontOrFallback</a>(<a class="code hl_typedef" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> size, Mime::Url url);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>} <span class="comment">// namespace Karm::Text</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="font_8h.html">karm-gfx/font.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="mmap_8h.html">karm-sys/mmap.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceKarm_1_1Font.html">Karm::Font</a> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>Res&lt;Rc&lt;Gfx::Fontface&gt;&gt; <a class="code hl_function" href="namespaceKarm_1_1Font.html#aa4c899c16042125dcc0614c1acdf2e29">loadFontface</a>(Sys::Mmap&amp;&amp; map);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>Res&lt;Rc&lt;Gfx::Fontface&gt;&gt; <a class="code hl_function" href="namespaceKarm_1_1Font.html#aa4c899c16042125dcc0614c1acdf2e29">loadFontface</a>(Mime::Url url);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>Res&lt;Rc&lt;Gfx::Fontface&gt;&gt; <a class="code hl_function" href="namespaceKarm_1_1Font.html#a0a6e962c7f593abc54c72e0d2d584c7a">loadFontfaceOrFallback</a>(Mime::Url url);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>Res&lt;Gfx::Font&gt; <a class="code hl_function" href="namespaceKarm_1_1Font.html#a7e90efa95b2de9d635ce4f709b486603">loadFont</a>(<a class="code hl_typedef" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> size, Mime::Url url);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>Res&lt;Gfx::Font&gt; <a class="code hl_function" href="namespaceKarm_1_1Font.html#a5f722e2203a40d51c4736c800c00fc23">loadFontOrFallback</a>(<a class="code hl_typedef" href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">f64</a> size, Mime::Url url);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>} <span class="comment">// namespace Karm::Font</span></div>
 <div class="ttc" id="afont_8h_html"><div class="ttname"><a href="font_8h.html">font.h</a></div></div>
 <div class="ttc" id="ammap_8h_html"><div class="ttname"><a href="mmap_8h.html">mmap.h</a></div></div>
-<div class="ttc" id="anamespaceKarm_1_1Text_html"><div class="ttname"><a href="namespaceKarm_1_1Text.html">Karm::Text</a></div><div class="ttdef"><b>Definition:</b> base.h:5</div></div>
-<div class="ttc" id="anamespaceKarm_1_1Text_html_a2198846bd02044686a1c26394291dda6"><div class="ttname"><a href="namespaceKarm_1_1Text.html#a2198846bd02044686a1c26394291dda6">Karm::Text::loadFontface</a></div><div class="ttdeci">Res&lt; Rc&lt; Fontface &gt; &gt; loadFontface(Sys::Mmap &amp;&amp;map)</div><div class="ttdef"><b>Definition:</b> loader.cpp:10</div></div>
-<div class="ttc" id="anamespaceKarm_1_1Text_html_a50a835c1fddb06df1aa6de04c2e155e7"><div class="ttname"><a href="namespaceKarm_1_1Text.html#a50a835c1fddb06df1aa6de04c2e155e7">Karm::Text::loadFontOrFallback</a></div><div class="ttdeci">Res&lt; Font &gt; loadFontOrFallback(f64 size, Mime::Url url)</div><div class="ttdef"><b>Definition:</b> loader.cpp:34</div></div>
-<div class="ttc" id="anamespaceKarm_1_1Text_html_a71eed72cfac963aef44ca5271a0eed5b"><div class="ttname"><a href="namespaceKarm_1_1Text.html#a71eed72cfac963aef44ca5271a0eed5b">Karm::Text::loadFont</a></div><div class="ttdeci">Res&lt; Font &gt; loadFont(f64 size, Mime::Url url)</div><div class="ttdef"><b>Definition:</b> loader.cpp:27</div></div>
-<div class="ttc" id="anamespaceKarm_1_1Text_html_ad410850ae52f09e20330bc945572a9d3"><div class="ttname"><a href="namespaceKarm_1_1Text.html#ad410850ae52f09e20330bc945572a9d3">Karm::Text::loadFontfaceOrFallback</a></div><div class="ttdeci">Res&lt; Rc&lt; Fontface &gt; &gt; loadFontfaceOrFallback(Mime::Url url)</div><div class="ttdef"><b>Definition:</b> loader.cpp:20</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Font_html"><div class="ttname"><a href="namespaceKarm_1_1Font.html">Karm::Font</a></div><div class="ttdef"><b>Definition:</b> database.cpp:9</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Font_html_a0a6e962c7f593abc54c72e0d2d584c7a"><div class="ttname"><a href="namespaceKarm_1_1Font.html#a0a6e962c7f593abc54c72e0d2d584c7a">Karm::Font::loadFontfaceOrFallback</a></div><div class="ttdeci">Res&lt; Rc&lt; Gfx::Fontface &gt; &gt; loadFontfaceOrFallback(Mime::Url url)</div><div class="ttdef"><b>Definition:</b> loader.cpp:20</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Font_html_a5f722e2203a40d51c4736c800c00fc23"><div class="ttname"><a href="namespaceKarm_1_1Font.html#a5f722e2203a40d51c4736c800c00fc23">Karm::Font::loadFontOrFallback</a></div><div class="ttdeci">Res&lt; Gfx::Font &gt; loadFontOrFallback(f64 size, Mime::Url url)</div><div class="ttdef"><b>Definition:</b> loader.cpp:34</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Font_html_a7e90efa95b2de9d635ce4f709b486603"><div class="ttname"><a href="namespaceKarm_1_1Font.html#a7e90efa95b2de9d635ce4f709b486603">Karm::Font::loadFont</a></div><div class="ttdeci">Res&lt; Gfx::Font &gt; loadFont(f64 size, Mime::Url url)</div><div class="ttdef"><b>Definition:</b> loader.cpp:27</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Font_html_aa4c899c16042125dcc0614c1acdf2e29"><div class="ttname"><a href="namespaceKarm_1_1Font.html#aa4c899c16042125dcc0614c1acdf2e29">Karm::Font::loadFontface</a></div><div class="ttdeci">Res&lt; Rc&lt; Gfx::Fontface &gt; &gt; loadFontface(Sys::Mmap &amp;&amp;map)</div><div class="ttdef"><b>Definition:</b> loader.cpp:10</div></div>
 <div class="ttc" id="anamespaceKarm_html_aaa50825017672262b5fd33f91f7d8ed9"><div class="ttname"><a href="namespaceKarm.html#aaa50825017672262b5fd33f91f7d8ed9">Karm::f64</a></div><div class="ttdeci">double f64</div><div class="ttdef"><b>Definition:</b> base.cpp:131</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_603c163c926f95a4833aff423fdd4b1e.html">karm-text</a></li><li class="navelem"><a class="el" href="loader_8h.html">loader.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_b2950a729f812980ba41198a60b421b7.html">karm-font</a></li><li class="navelem"><a class="el" href="loader_8h.html">loader.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

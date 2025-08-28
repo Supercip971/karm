@@ -1,8 +1,8 @@
 var loader_8h =
 [
-    [ "loadFont", "loader_8h.html#a71eed72cfac963aef44ca5271a0eed5b", null ],
-    [ "loadFontface", "loader_8h.html#a81643a3b75021342c717b0df6157ead8", null ],
-    [ "loadFontface", "loader_8h.html#a2198846bd02044686a1c26394291dda6", null ],
-    [ "loadFontfaceOrFallback", "loader_8h.html#ad410850ae52f09e20330bc945572a9d3", null ],
-    [ "loadFontOrFallback", "loader_8h.html#a50a835c1fddb06df1aa6de04c2e155e7", null ]
+    [ "loadFont", "loader_8h.html#a7e90efa95b2de9d635ce4f709b486603", null ],
+    [ "loadFontface", "loader_8h.html#a44b42fb992d989715204227bc29fbe4e", null ],
+    [ "loadFontface", "loader_8h.html#aa4c899c16042125dcc0614c1acdf2e29", null ],
+    [ "loadFontfaceOrFallback", "loader_8h.html#a0a6e962c7f593abc54c72e0d2d584c7a", null ],
+    [ "loadFontOrFallback", "loader_8h.html#a5f722e2203a40d51c4736c800c00fc23", null ]
 ];

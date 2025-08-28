@@ -19,6 +19,16 @@ var namespaceKarm_1_1Gfx =
     [ "Filter", "structKarm_1_1Gfx_1_1Filter.html", "structKarm_1_1Gfx_1_1Filter" ],
     [ "FilterChain", "structKarm_1_1Gfx_1_1FilterChain.html", "structKarm_1_1Gfx_1_1FilterChain" ],
     [ "Fmt", "structKarm_1_1Gfx_1_1Fmt.html", "structKarm_1_1Gfx_1_1Fmt" ],
+    [ "Font", "structKarm_1_1Gfx_1_1Font.html", "structKarm_1_1Gfx_1_1Font" ],
+    [ "FontAdjust", "structKarm_1_1Gfx_1_1FontAdjust.html", "structKarm_1_1Gfx_1_1FontAdjust" ],
+    [ "FontAttrs", "structKarm_1_1Gfx_1_1FontAttrs.html", "structKarm_1_1Gfx_1_1FontAttrs" ],
+    [ "Fontface", "structKarm_1_1Gfx_1_1Fontface.html", "structKarm_1_1Gfx_1_1Fontface" ],
+    [ "FontFamily", "structKarm_1_1Gfx_1_1FontFamily.html", "structKarm_1_1Gfx_1_1FontFamily" ],
+    [ "FontMeasure", "structKarm_1_1Gfx_1_1FontMeasure.html", "structKarm_1_1Gfx_1_1FontMeasure" ],
+    [ "FontMetrics", "structKarm_1_1Gfx_1_1FontMetrics.html", "structKarm_1_1Gfx_1_1FontMetrics" ],
+    [ "FontStretch", "structKarm_1_1Gfx_1_1FontStretch.html", "structKarm_1_1Gfx_1_1FontStretch" ],
+    [ "FontWeight", "structKarm_1_1Gfx_1_1FontWeight.html", "structKarm_1_1Gfx_1_1FontWeight" ],
+    [ "Glyph", "structKarm_1_1Gfx_1_1Glyph.html", "structKarm_1_1Gfx_1_1Glyph" ],
     [ "Gradient", "structKarm_1_1Gfx_1_1Gradient.html", "structKarm_1_1Gfx_1_1Gradient" ],
     [ "GrayscaleFilter", "structKarm_1_1Gfx_1_1GrayscaleFilter.html", "structKarm_1_1Gfx_1_1GrayscaleFilter" ],
     [ "Greyscale8", "structKarm_1_1Gfx_1_1Greyscale8.html", null ],
@@ -30,6 +40,8 @@ var namespaceKarm_1_1Gfx =
     [ "NoiseFilter", "structKarm_1_1Gfx_1_1NoiseFilter.html", "structKarm_1_1Gfx_1_1NoiseFilter" ],
     [ "Outline", "structKarm_1_1Gfx_1_1Outline.html", "structKarm_1_1Gfx_1_1Outline" ],
     [ "OverlayFilter", "structKarm_1_1Gfx_1_1OverlayFilter.html", "structKarm_1_1Gfx_1_1OverlayFilter" ],
+    [ "Prose", "structKarm_1_1Gfx_1_1Prose.html", "structKarm_1_1Gfx_1_1Prose" ],
+    [ "ProseStyle", "structKarm_1_1Gfx_1_1ProseStyle.html", "structKarm_1_1Gfx_1_1ProseStyle" ],
     [ "Rgba8888", "structKarm_1_1Gfx_1_1Rgba8888.html", null ],
     [ "SaturationFilter", "structKarm_1_1Gfx_1_1SaturationFilter.html", "structKarm_1_1Gfx_1_1SaturationFilter" ],
     [ "SepiaFilter", "structKarm_1_1Gfx_1_1SepiaFilter.html", "structKarm_1_1Gfx_1_1SepiaFilter" ],
@@ -38,6 +50,7 @@ var namespaceKarm_1_1Gfx =
     [ "Surface", "structKarm_1_1Gfx_1_1Surface.html", "structKarm_1_1Gfx_1_1Surface" ],
     [ "TintFilter", "structKarm_1_1Gfx_1_1TintFilter.html", "structKarm_1_1Gfx_1_1TintFilter" ],
     [ "Unfiltered", "structKarm_1_1Gfx_1_1Unfiltered.html", "structKarm_1_1Gfx_1_1Unfiltered" ],
+    [ "VgaFontface", "structKarm_1_1Gfx_1_1VgaFontface.html", "structKarm_1_1Gfx_1_1VgaFontface" ],
     [ "YCbCr", "structKarm_1_1Gfx_1_1YCbCr.html", "structKarm_1_1Gfx_1_1YCbCr" ],
     [ "RawIcon", "conceptKarm_1_1Gfx_1_1RawIcon.html", null ],
     [ "ColorRamp", "namespaceKarm_1_1Gfx.html#adf0a684a57f60d932be18e5459a9ab53", null ],
@@ -60,6 +73,30 @@ var namespaceKarm_1_1Gfx =
       [ "NONZERO", "namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29af215f3b40377be8fd6199db406216e35", null ],
       [ "EVENODD", "namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29a8812e6916764c080e8061a9f1ca382de", null ]
     ] ],
+    [ "FontStyle", "namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482", [
+      [ "NORMAL", "namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a1e23852820b9154316c7c06e2b7ba051", null ],
+      [ "OBLIQUE", "namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a08e76c6cf31341b61b0bc6c662773828", null ],
+      [ "ITALIC", "namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a25093123b8943308104129e1d762f3b7", null ],
+      [ "NO_MATCH", "namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a94935cef4046d086a88dc70dae2086ca", null ],
+      [ "_LEN", "namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482ae29d1d2ceca88985d2cf3bd5ba380301", null ]
+    ] ],
+    [ "GenericFamily", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcc", [
+      [ "SERIF", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca4f5de0ac9e414db58c967bde1b1360cf", null ],
+      [ "SANS_SERIF", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca9195e6994ae866b9b4cd76760190ffb5", null ],
+      [ "MONOSPACE", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca15915ae6bbcd77c253328799a737a63e", null ],
+      [ "CURSIVE", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccac02370ee7d395c075c293be914d5859d", null ],
+      [ "FANTASY", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccaa53561bf0d3ab67102f9e8cb635d8c95", null ],
+      [ "SYSTEM", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccafa177138f94a7ea01f549b1aa7893d03", null ],
+      [ "EMOJI", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca3d5a8e602b2db6ec81688075668247f5", null ],
+      [ "MATH", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca65571aa0536447fb1cf47a2b5a98954b", null ],
+      [ "FANGSONG", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccac89a7f3fd2fbf4fbebd93cca95515d3d", null ],
+      [ "_LEN", "namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccae29d1d2ceca88985d2cf3bd5ba380301", null ]
+    ] ],
+    [ "Monospace", "namespaceKarm_1_1Gfx.html#a9b45eafe0109eed17448005467f7f6da", [
+      [ "NO", "namespaceKarm_1_1Gfx.html#a9b45eafe0109eed17448005467f7f6daac2f3f489a00553e7a01d369c103c7251", null ],
+      [ "YES", "namespaceKarm_1_1Gfx.html#a9b45eafe0109eed17448005467f7f6daa7469a286259799e5b37e5db9296f00b3", null ],
+      [ "_LEN", "namespaceKarm_1_1Gfx.html#a9b45eafe0109eed17448005467f7f6daae29d1d2ceca88985d2cf3bd5ba380301", null ]
+    ] ],
     [ "StrokeAlign", "namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991", [
       [ "CENTER_ALIGN", "namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991adcf988bd5f1739e169778dc130ffb8d8", null ],
       [ "INSIDE_ALIGN", "namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991ac76ec43bab354fd44e25c648648ad6d9", null ],
@@ -74,6 +111,11 @@ var namespaceKarm_1_1Gfx =
       [ "BEVEL_JOIN", "namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442a6f4e498e669decaf97c7bfb5accd38db", null ],
       [ "MITER_JOIN", "namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442afba79aa6e32522f3933c83c5d7d39aac", null ],
       [ "ROUND_JOIN", "namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442aab87748bcf6dc2ed2eac70abb9d90bba", null ]
+    ] ],
+    [ "TextAlign", "namespaceKarm_1_1Gfx.html#ab80f5a5f98d03961e7203873c8610382", [
+      [ "LEFT", "namespaceKarm_1_1Gfx.html#ab80f5a5f98d03961e7203873c8610382a684d325a7303f52e64011467ff5c5758", null ],
+      [ "CENTER", "namespaceKarm_1_1Gfx.html#ab80f5a5f98d03961e7203873c8610382ac397289ee45877be0cd49811fe245b4e", null ],
+      [ "RIGHT", "namespaceKarm_1_1Gfx.html#ab80f5a5f98d03961e7203873c8610382a21507b40c80068eda19865706fdc2403", null ]
     ] ],
     [ "blitUnsafe", "namespaceKarm_1_1Gfx.html#aafc8f40c1bce01981f2923ef6b2807bb", null ],
     [ "boxShadow", "namespaceKarm_1_1Gfx.html#a0dbeba231c2ec1d70fb9dc642e4c2bbb", null ],

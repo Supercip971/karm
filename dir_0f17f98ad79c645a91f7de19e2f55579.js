@@ -1,5 +1,6 @@
 var dir_0f17f98ad79c645a91f7de19e2f55579 =
 [
+    [ "tests", "dir_e90be5bc0750550b7a6adeedb76d1fcd.html", "dir_e90be5bc0750550b7a6adeedb76d1fcd" ],
     [ "anim.cpp", "anim_8cpp.html", "anim_8cpp" ],
     [ "app.cpp", "app_8cpp.html", "app_8cpp" ],
     [ "atoms.cpp", "atoms_8cpp.html", "atoms_8cpp" ],
@@ -17,5 +18,6 @@ var dir_0f17f98ad79c645a91f7de19e2f55579 =
     [ "popover.cpp", "popover_8cpp.html", "popover_8cpp" ],
     [ "reducer.cpp", "reducer_8cpp.html", "reducer_8cpp" ],
     [ "scroll.cpp", "scroll_8cpp.html", "scroll_8cpp" ],
+    [ "text.cpp", "karm-ui_2text_8cpp.html", "karm-ui_2text_8cpp" ],
     [ "view.cpp", "view_8cpp.html", "view_8cpp" ]
 ];

@@ -7,6 +7,7 @@ var namespaceKarm =
     [ "Cli", "namespaceKarm_1_1Cli.html", "namespaceKarm_1_1Cli" ],
     [ "Crypto", "namespaceKarm_1_1Crypto.html", "namespaceKarm_1_1Crypto" ],
     [ "Debug", "namespaceKarm_1_1Debug.html", "namespaceKarm_1_1Debug" ],
+    [ "Font", "namespaceKarm_1_1Font.html", "namespaceKarm_1_1Font" ],
     [ "Fs", "namespaceKarm_1_1Fs.html", "namespaceKarm_1_1Fs" ],
     [ "Gc", "namespaceKarm_1_1Gc.html", "namespaceKarm_1_1Gc" ],
     [ "Gfx", "namespaceKarm_1_1Gfx.html", "namespaceKarm_1_1Gfx" ],
@@ -22,15 +23,6 @@ var namespaceKarm =
     [ "Math", "namespaceKarm_1_1Math.html", "namespaceKarm_1_1Math" ],
     [ "Meta", "namespaceKarm_1_1Meta.html", "namespaceKarm_1_1Meta" ],
     [ "Mime", "namespaceKarm_1_1Mime.html", "namespaceKarm_1_1Mime" ],
-    [ "Mixbox", "namespaceKarm_1_1Mixbox.html", [
-      [ "Latent", "namespaceKarm_1_1Mixbox.html#ae194838ee635ebf31415f15e838438b1", null ],
-      [ "lerp", "namespaceKarm_1_1Mixbox.html#ae1fe8d701e32b73ed0f80e11670e50c4", null ],
-      [ "lerpColor", "namespaceKarm_1_1Mixbox.html#a8dc565397cf0f8cdfce6b012ef0a85f9", null ],
-      [ "mix", "namespaceKarm_1_1Mixbox.html#aced549c61f9dbc9dacf52ae276a3e5ba", null ],
-      [ "mixColor", "namespaceKarm_1_1Mixbox.html#a177176adcb4ac5c1b5ba47488249d62b", null ],
-      [ "unmix", "namespaceKarm_1_1Mixbox.html#adbc897fa296b3964b0d892bfcfe063a9", null ],
-      [ "unmixColor", "namespaceKarm_1_1Mixbox.html#a28938e60764184edd29c2dca59b68667", null ]
-    ] ],
     [ "Ml", "namespaceKarm_1_1Ml.html", "namespaceKarm_1_1Ml" ],
     [ "Net", "namespaceKarm_1_1Net.html", "namespaceKarm_1_1Net" ],
     [ "Pdf", "namespaceKarm_1_1Pdf.html", "namespaceKarm_1_1Pdf" ],
@@ -45,7 +37,6 @@ var namespaceKarm =
     [ "Tests", "namespaceKarm_1_1Tests.html", [
       [ "test$", "namespaceKarm_1_1Tests.html#aea7fa5a478f0ba91cc5bb4ea693badb0", null ]
     ] ],
-    [ "Text", "namespaceKarm_1_1Text.html", "namespaceKarm_1_1Text" ],
     [ "Tty", "namespaceKarm_1_1Tty.html", "namespaceKarm_1_1Tty" ],
     [ "Ui", "namespaceKarm_1_1Ui.html", "namespaceKarm_1_1Ui" ],
     [ "ArmedDefer", "structKarm_1_1ArmedDefer.html", "structKarm_1_1ArmedDefer" ],

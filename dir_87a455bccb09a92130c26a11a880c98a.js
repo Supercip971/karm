@@ -5,6 +5,7 @@ var dir_87a455bccb09a92130c26a11a880c98a =
     [ "karm-core", "dir_0faa10f0ea8b4a910168b5e6ae52c924.html", "dir_0faa10f0ea8b4a910168b5e6ae52c924" ],
     [ "karm-crypto", "dir_799f3ab960e51e7b817c99a858c44ced.html", "dir_799f3ab960e51e7b817c99a858c44ced" ],
     [ "karm-debug", "dir_2cb9b8a529ff90502e2975b18e0a1cbc.html", "dir_2cb9b8a529ff90502e2975b18e0a1cbc" ],
+    [ "karm-font", "dir_b2950a729f812980ba41198a60b421b7.html", "dir_b2950a729f812980ba41198a60b421b7" ],
     [ "karm-fs", "dir_c110d460f6427764978a32d1c2850cba.html", "dir_c110d460f6427764978a32d1c2850cba" ],
     [ "karm-gc", "dir_5a521d82086ec2c222c4521809d95df8.html", "dir_5a521d82086ec2c222c4521809d95df8" ],
     [ "karm-gfx", "dir_72c2cd474489e4bf5cfc1c37b502ef1d.html", "dir_72c2cd474489e4bf5cfc1c37b502ef1d" ],
@@ -22,7 +23,6 @@ var dir_87a455bccb09a92130c26a11a880c98a =
     [ "karm-scene", "dir_041fe90bb727f1d866ba510ed950a9db.html", "dir_041fe90bb727f1d866ba510ed950a9db" ],
     [ "karm-sys", "dir_892c880cf19884495b53e8cd9cea50ae.html", "dir_892c880cf19884495b53e8cd9cea50ae" ],
     [ "karm-test", "dir_5d35bd94269d4c48adb3753a1977e021.html", "dir_5d35bd94269d4c48adb3753a1977e021" ],
-    [ "karm-text", "dir_603c163c926f95a4833aff423fdd4b1e.html", "dir_603c163c926f95a4833aff423fdd4b1e" ],
     [ "karm-tty", "dir_6a88cdd6b6812bbb635057f6a793657b.html", "dir_6a88cdd6b6812bbb635057f6a793657b" ],
     [ "karm-ui", "dir_0f17f98ad79c645a91f7de19e2f55579.html", "dir_0f17f98ad79c645a91f7de19e2f55579" ],
     [ "mod.cpp", "mod_8cpp.html", "mod_8cpp" ]

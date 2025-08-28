@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Karm: src/libs/karm-text/loader.h File Reference</title>
+<title>Karm: src/libs/karm-font/loader.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
@@ -102,8 +102,8 @@ $(document).ready(function(){initNavTree('loader_8h.html',''); initResizable(); 
   <div class="headertitle"><div class="title">loader.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="mmap_8h_source.html">karm-sys/mmap.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="font_8h_source.html">font.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="font_8h_source.html">karm-gfx/font.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="mmap_8h_source.html">karm-sys/mmap.h</a>&gt;</code><br />
 </div>
 <p><a href="loader_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -111,28 +111,28 @@ $(document).ready(function(){initNavTree('loader_8h.html',''); initResizable(); 
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceKarm_1_1Text"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Text.html">Karm::Text</a></td></tr>
+<tr class="memitem:namespaceKarm_1_1Font"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Font.html">Karm::Font</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2198846bd02044686a1c26394291dda6"><td class="memItemLeft" align="right" valign="top">Res&lt; Rc&lt; Fontface &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Text.html#a2198846bd02044686a1c26394291dda6">Karm::Text::loadFontface</a> (Sys::Mmap &amp;&amp;map)</td></tr>
-<tr class="separator:a2198846bd02044686a1c26394291dda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81643a3b75021342c717b0df6157ead8"><td class="memItemLeft" align="right" valign="top">Res&lt; Rc&lt; Fontface &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Text.html#a81643a3b75021342c717b0df6157ead8">Karm::Text::loadFontface</a> (Mime::Url url)</td></tr>
-<tr class="separator:a81643a3b75021342c717b0df6157ead8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad410850ae52f09e20330bc945572a9d3"><td class="memItemLeft" align="right" valign="top">Res&lt; Rc&lt; Fontface &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Text.html#ad410850ae52f09e20330bc945572a9d3">Karm::Text::loadFontfaceOrFallback</a> (Mime::Url url)</td></tr>
-<tr class="separator:ad410850ae52f09e20330bc945572a9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71eed72cfac963aef44ca5271a0eed5b"><td class="memItemLeft" align="right" valign="top">Res&lt; Font &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Text.html#a71eed72cfac963aef44ca5271a0eed5b">Karm::Text::loadFont</a> (f64 size, Mime::Url url)</td></tr>
-<tr class="separator:a71eed72cfac963aef44ca5271a0eed5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50a835c1fddb06df1aa6de04c2e155e7"><td class="memItemLeft" align="right" valign="top">Res&lt; Font &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Text.html#a50a835c1fddb06df1aa6de04c2e155e7">Karm::Text::loadFontOrFallback</a> (f64 size, Mime::Url url)</td></tr>
-<tr class="separator:a50a835c1fddb06df1aa6de04c2e155e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c899c16042125dcc0614c1acdf2e29"><td class="memItemLeft" align="right" valign="top">Res&lt; Rc&lt; Gfx::Fontface &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Font.html#aa4c899c16042125dcc0614c1acdf2e29">Karm::Font::loadFontface</a> (Sys::Mmap &amp;&amp;map)</td></tr>
+<tr class="separator:aa4c899c16042125dcc0614c1acdf2e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b42fb992d989715204227bc29fbe4e"><td class="memItemLeft" align="right" valign="top">Res&lt; Rc&lt; Gfx::Fontface &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Font.html#a44b42fb992d989715204227bc29fbe4e">Karm::Font::loadFontface</a> (Mime::Url url)</td></tr>
+<tr class="separator:a44b42fb992d989715204227bc29fbe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a6e962c7f593abc54c72e0d2d584c7a"><td class="memItemLeft" align="right" valign="top">Res&lt; Rc&lt; Gfx::Fontface &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Font.html#a0a6e962c7f593abc54c72e0d2d584c7a">Karm::Font::loadFontfaceOrFallback</a> (Mime::Url url)</td></tr>
+<tr class="separator:a0a6e962c7f593abc54c72e0d2d584c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e90efa95b2de9d635ce4f709b486603"><td class="memItemLeft" align="right" valign="top">Res&lt; Gfx::Font &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Font.html#a7e90efa95b2de9d635ce4f709b486603">Karm::Font::loadFont</a> (f64 size, Mime::Url url)</td></tr>
+<tr class="separator:a7e90efa95b2de9d635ce4f709b486603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f722e2203a40d51c4736c800c00fc23"><td class="memItemLeft" align="right" valign="top">Res&lt; Gfx::Font &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Font.html#a5f722e2203a40d51c4736c800c00fc23">Karm::Font::loadFontOrFallback</a> (f64 size, Mime::Url url)</td></tr>
+<tr class="separator:a5f722e2203a40d51c4736c800c00fc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_603c163c926f95a4833aff423fdd4b1e.html">karm-text</a></li><li class="navelem"><a class="el" href="loader_8h.html">loader.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_b2950a729f812980ba41198a60b421b7.html">karm-font</a></li><li class="navelem"><a class="el" href="loader_8h.html">loader.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

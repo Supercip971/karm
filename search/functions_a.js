@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['kern_0',['kern',['../structKarm_1_1Text_1_1FontFamily.html#a6ce1488b66344301e0cbd830febce158',1,'Karm::Text::FontFamily::kern()'],['../structKarm_1_1Text_1_1Fontface.html#a6fb1feffee2187c8af6253b317944285',1,'Karm::Text::Fontface::kern()'],['../structKarm_1_1Text_1_1Font.html#af25b1fc9f961854c21de55f6f5e195c4',1,'Karm::Text::Font::kern()'],['../structKarm_1_1Text_1_1TtfFontface.html#ab60aab745d8cecf5fdea68fa123c557e',1,'Karm::Text::TtfFontface::kern()'],['../structKarm_1_1Text_1_1VgaFontface.html#abf1bf0266c9e05c06467ddaedccc106c',1,'Karm::Text::VgaFontface::kern()']]],
+  ['kern_0',['kern',['../structKarm_1_1Font_1_1Ttf_1_1Fontface.html#a2046522051cd8907c08834cfa34a6676',1,'Karm::Font::Ttf::Fontface::kern()'],['../structKarm_1_1Gfx_1_1VgaFontface.html#a2883e79f587976378f5a2e4c1e3f5902',1,'Karm::Gfx::VgaFontface::kern()'],['../structKarm_1_1Gfx_1_1Fontface.html#a33cf7e8c35260a6af004b5c8ef6010c5',1,'Karm::Gfx::Fontface::kern()'],['../structKarm_1_1Gfx_1_1FontFamily.html#ae2ecca9255c4c09897eac91efb2bb6fd',1,'Karm::Gfx::FontFamily::kern()'],['../structKarm_1_1Gfx_1_1Font.html#ac0649e372cffecad7cef4247f32a9814',1,'Karm::Gfx::Font::kern()']]],
   ['key_1',['key',['../structKarm_1_1Ui_1_1Node.html#af84aa85f09bccf34cdfa95e76b3f454e',1,'Karm::Ui::Node']]],
   ['key_2',['Key',['../structKarm_1_1App_1_1Key.html#abaeaaadf5ba72efcb6214cd300377899',1,'Karm::App::Key']]],
   ['key_3',['key',['../namespaceKarm_1_1Ui.html#af84696bd30f4f062fc751398fc25bf2e',1,'Karm::Ui']]],

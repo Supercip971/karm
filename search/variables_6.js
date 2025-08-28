@@ -6,7 +6,7 @@ var searchData=
   ['gc_3',['Gc',['../ptr_8cpp.html#a9a327da3244d594b7f4066836088b9af',1,'Gc():&#160;ptr.cpp'],['../mod_8cpp.html#a3b7af6a4907bbf81320812b89cf54eef',1,'Gc():&#160;mod.cpp'],['../test-gc_8cpp.html#a1cf0572448f002e1eb6beee206c18ac3',1,'Gc():&#160;test-gc.cpp'],['../root_8cpp.html#a9a327da3244d594b7f4066836088b9af',1,'Gc():&#160;root.cpp'],['../ref_8cpp.html#a9a327da3244d594b7f4066836088b9af',1,'Gc():&#160;ref.cpp'],['../karm-gc_2mod_8cpp.html#a9a327da3244d594b7f4066836088b9af',1,'Gc():&#160;mod.cpp'],['../heap_8cpp.html#a9a327da3244d594b7f4066836088b9af',1,'Gc():&#160;heap.cpp']]],
   ['gen_4',['gen',['../structKarm_1_1Pdf_1_1XRef_1_1Entry.html#ab90ca4f8bb318a545f146ea57000d1e0',1,'Karm::Pdf::XRef::Entry::gen()'],['../structKarm_1_1Pdf_1_1Ref.html#af9307e9730015e5b23f1bd0e82db988c',1,'Karm::Pdf::Ref::gen()']]],
   ['glob_5',['glob',['../structKarm_1_1Test_1_1RunOptions.html#a7eb04a1fb5489b27e64b3f3862a38859',1,'Karm::Test::RunOptions']]],
-  ['glyph_6',['glyph',['../structKarm_1_1Text_1_1Prose_1_1Cell.html#a36c97fbf63c56fb4d6739fa026aa8f83',1,'Karm::Text::Prose::Cell']]],
+  ['glyph_6',['glyph',['../structKarm_1_1Gfx_1_1Prose_1_1Cell.html#a0b9dda8ec73fd6373b38d1494432039b',1,'Karm::Gfx::Prose::Cell']]],
   ['graphicalstates_7',['graphicalStates',['../structKarm_1_1Print_1_1PdfPrinter.html#a37a019c95d663fc6e8897fcdcd4b54e8',1,'Karm::Print::PdfPrinter']]],
   ['gray_8',['GRAY',['../namespaceKarm_1_1Ui.html#a96103c94788a1a081f4511cad4720cd9',1,'Karm::Ui']]],
   ['gray100_9',['GRAY100',['../namespaceKarm_1_1Ui.html#abc7a0aab0572e4c6df04d223b8dea189',1,'Karm::Ui']]],
@@ -23,5 +23,5 @@ var searchData=
   ['grays_20',['GRAYS',['../namespaceKarm_1_1Ui.html#acd61db039e4fe2e152e7270b2be10d44',1,'Karm::Ui']]],
   ['green_21',['green',['../structKarm_1_1Gfx_1_1Color.html#a0c1db79b9ce1ecaef7492f92a52df41a',1,'Karm::Gfx::Color::green()'],['../structKarm_1_1Gfx_1_1LcdLayout.html#af7752ffcc7522b9bbf712aa346033098',1,'Karm::Gfx::LcdLayout::green()']]],
   ['green_5fcomponent_22',['GREEN_COMPONENT',['../structKarm_1_1Gfx_1_1Color.html#a80b4cdaf23abc18739c646ff395fb9e4',1,'Karm::Gfx::Color']]],
-  ['group_23',['group',['../structKarm_1_1Text_1_1Model_1_1Record.html#a031620542604d18cdb29d8c32103e543',1,'Karm::Text::Model::Record']]]
+  ['group_23',['group',['../structKarm_1_1Ui_1_1TextModel_1_1Record.html#a609572cf5595d023f9bc83b2f6abea73',1,'Karm::Ui::TextModel::Record']]]
 ];

@@ -2,10 +2,10 @@ var searchData=
 [
   ['x1_0',['X1',['../namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aabb7f5ae6220c9828e5ec91faf054197c',1,'Karm::App']]],
   ['x2_1',['X2',['../namespaceKarm_1_1App.html#a6be91eb6569c46f6a8e9d7faee8e5b9aa54105bddbfe3f639d49cbe8f5182c958',1,'Karm::App']]],
-  ['x_5fadvance_2',['X_ADVANCE',['../structKarm_1_1Text_1_1Ttf_1_1ValueRecord.html#a67153db1b83f6334346e23ddd579aad7a2b373a8c1e3b1e09b3ecf43e373817c4',1,'Karm::Text::Ttf::ValueRecord']]],
-  ['x_5fadvance_5fdevice_3',['X_ADVANCE_DEVICE',['../structKarm_1_1Text_1_1Ttf_1_1ValueRecord.html#a67153db1b83f6334346e23ddd579aad7adc46d03c9b950e004ce5a52e7b60d093',1,'Karm::Text::Ttf::ValueRecord']]],
-  ['x_5fplacement_4',['X_PLACEMENT',['../structKarm_1_1Text_1_1Ttf_1_1ValueRecord.html#a67153db1b83f6334346e23ddd579aad7ad7ab08b7367c1a216b5900c589437ddd',1,'Karm::Text::Ttf::ValueRecord']]],
-  ['x_5fplacement_5fdevice_5',['X_PLACEMENT_DEVICE',['../structKarm_1_1Text_1_1Ttf_1_1ValueRecord.html#a67153db1b83f6334346e23ddd579aad7a5c93658fdbeeb6c1a484f392b7758d5a',1,'Karm::Text::Ttf::ValueRecord']]],
-  ['x_5fsame_5for_5fpositive_5fx_5fshort_5fvector_6',['X_SAME_OR_POSITIVE_X_SHORT_VECTOR',['../structKarm_1_1Text_1_1Ttf_1_1Glyf_1_1SimpleContour.html#a2185a0fdd0280c3183f4d5ec18339bdfa1064b58ea812fb26e70cde95e0b8a757',1,'Karm::Text::Ttf::Glyf::SimpleContour']]],
-  ['x_5fshort_5fvector_7',['X_SHORT_VECTOR',['../structKarm_1_1Text_1_1Ttf_1_1Glyf_1_1SimpleContour.html#a2185a0fdd0280c3183f4d5ec18339bdfaf23f45ce48f0c44c08668494574fb03c',1,'Karm::Text::Ttf::Glyf::SimpleContour']]]
+  ['x_5fadvance_2',['X_ADVANCE',['../structKarm_1_1Font_1_1Ttf_1_1ValueRecord.html#a6f7c83bc75e6a436042c2722577f8a66a687fbe687787914063d494b3c34cb82a',1,'Karm::Font::Ttf::ValueRecord']]],
+  ['x_5fadvance_5fdevice_3',['X_ADVANCE_DEVICE',['../structKarm_1_1Font_1_1Ttf_1_1ValueRecord.html#a6f7c83bc75e6a436042c2722577f8a66ac6fb1bc27fc2e69b331afb9f30215b11',1,'Karm::Font::Ttf::ValueRecord']]],
+  ['x_5fplacement_4',['X_PLACEMENT',['../structKarm_1_1Font_1_1Ttf_1_1ValueRecord.html#a6f7c83bc75e6a436042c2722577f8a66aec5dc686d879e3b229d756038c63dee5',1,'Karm::Font::Ttf::ValueRecord']]],
+  ['x_5fplacement_5fdevice_5',['X_PLACEMENT_DEVICE',['../structKarm_1_1Font_1_1Ttf_1_1ValueRecord.html#a6f7c83bc75e6a436042c2722577f8a66ae06b4a269275557defd7499f72f1e922',1,'Karm::Font::Ttf::ValueRecord']]],
+  ['x_5fsame_5for_5fpositive_5fx_5fshort_5fvector_6',['X_SAME_OR_POSITIVE_X_SHORT_VECTOR',['../structKarm_1_1Font_1_1Ttf_1_1Glyf_1_1SimpleContour.html#a4e80d5734aa153209e111f2720498b53a3e268c708057bd21e479ddc201763300',1,'Karm::Font::Ttf::Glyf::SimpleContour']]],
+  ['x_5fshort_5fvector_7',['X_SHORT_VECTOR',['../structKarm_1_1Font_1_1Ttf_1_1Glyf_1_1SimpleContour.html#a4e80d5734aa153209e111f2720498b53a2efd1df1c48f91ccb5443f92a6ec4fc3',1,'Karm::Font::Ttf::Glyf::SimpleContour']]]
 ];

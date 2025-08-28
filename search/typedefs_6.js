@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['glyphcount_0',['GlyphCount',['../structKarm_1_1Text_1_1Ttf_1_1CoverageTable.html#a0d86bb51a2bcb8275760a35d491b4194',1,'Karm::Text::Ttf::CoverageTable']]]
+  ['glyphcount_0',['GlyphCount',['../structKarm_1_1Font_1_1Ttf_1_1CoverageTable.html#aea5ba301f71333a7a6b8b72d0dcadc8b',1,'Karm::Font::Ttf::CoverageTable']]]
 ];

@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['langsyscount_0',['LangSysCount',['../structKarm_1_1Text_1_1Ttf_1_1ScriptTable.html#a0e7b3d59d640894ac634507acbe51436',1,'Karm::Text::Ttf::ScriptTable']]],
-  ['latent_1',['Latent',['../namespaceKarm_1_1Mixbox.html#ae194838ee635ebf31415f15e838438b1',1,'Karm::Mixbox']]],
-  ['latin1_2',['Latin1',['../namespaceKarm.html#a7980476e527eaba11d5156d667e97fc4',1,'Karm']]],
-  ['latin1mapper_3',['Latin1Mapper',['../namespaceKarm.html#a528f8e6429690f73b4e5da3692da6b3f',1,'Karm']]],
-  ['linegap_4',['LineGap',['../structKarm_1_1Text_1_1Ttf_1_1Hhea.html#ad4878a31dc1fcb27723f810d5741f766',1,'Karm::Text::Ttf::Hhea']]],
-  ['lookupcount_5',['LookupCount',['../structKarm_1_1Text_1_1Ttf_1_1FeatureTable.html#a8af6c67ae70457a068a7d2ccd850c1e2',1,'Karm::Text::Ttf::FeatureTable::LookupCount()'],['../structKarm_1_1Text_1_1Ttf_1_1LookupList.html#a60cff232299a689a0d4f7f0579469510',1,'Karm::Text::Ttf::LookupList::LookupCount()']]],
-  ['lookupflag_6',['LookupFlag',['../structKarm_1_1Text_1_1Ttf_1_1LookupTable.html#a345e46d82007ca9e7ead9ae36522b0e2',1,'Karm::Text::Ttf::LookupTable']]],
-  ['lookuplistoffset_7',['LookupListOffset',['../structKarm_1_1Text_1_1Ttf_1_1Gpos.html#a92814a9df4c72090073ed472ab1505f5',1,'Karm::Text::Ttf::Gpos::LookupListOffset()'],['../structKarm_1_1Text_1_1Ttf_1_1Gsub.html#adf58b7351963f401fbed1b9d049b6c97',1,'Karm::Text::Ttf::Gsub::LookupListOffset()']]],
-  ['lookuporderoffset_8',['LookupOrderOffset',['../structKarm_1_1Text_1_1Ttf_1_1LangSys.html#a0702c89ded168b74492cd3802eb3a9e7',1,'Karm::Text::Ttf::LangSys']]],
-  ['lookupsubtable_9',['LookupSubtable',['../namespaceKarm_1_1Text_1_1Ttf.html#aff79683c13e12d5d49fa395320088024',1,'Karm::Text::Ttf']]],
-  ['lookuptype_10',['LookupType',['../structKarm_1_1Text_1_1Ttf_1_1LookupTable.html#a1c46ee5ad8f67e514429ff82d6d7e35c',1,'Karm::Text::Ttf::LookupTable']]]
+  ['langsyscount_0',['LangSysCount',['../structKarm_1_1Font_1_1Ttf_1_1ScriptTable.html#ae3dbbce110e021f3909f2b92cfb2dbc0',1,'Karm::Font::Ttf::ScriptTable']]],
+  ['latin1_1',['Latin1',['../namespaceKarm.html#a7980476e527eaba11d5156d667e97fc4',1,'Karm']]],
+  ['latin1mapper_2',['Latin1Mapper',['../namespaceKarm.html#a528f8e6429690f73b4e5da3692da6b3f',1,'Karm']]],
+  ['linegap_3',['LineGap',['../structKarm_1_1Font_1_1Ttf_1_1Hhea.html#acd715a8c9da964731b5700c49adcd106',1,'Karm::Font::Ttf::Hhea']]],
+  ['lookupcount_4',['LookupCount',['../structKarm_1_1Font_1_1Ttf_1_1FeatureTable.html#a56df063db8493342a7a4d2ec3ef9f850',1,'Karm::Font::Ttf::FeatureTable::LookupCount()'],['../structKarm_1_1Font_1_1Ttf_1_1LookupList.html#a8406f09b3ebb8bd685ac191eee43d932',1,'Karm::Font::Ttf::LookupList::LookupCount()']]],
+  ['lookupflag_5',['LookupFlag',['../structKarm_1_1Font_1_1Ttf_1_1LookupTable.html#a1a4161523a4564e7e74bfd5a78340d63',1,'Karm::Font::Ttf::LookupTable']]],
+  ['lookuplistoffset_6',['LookupListOffset',['../structKarm_1_1Font_1_1Ttf_1_1Gpos.html#a776aee4809cb2a1f168e859e03ace3b9',1,'Karm::Font::Ttf::Gpos::LookupListOffset()'],['../structKarm_1_1Font_1_1Ttf_1_1Gsub.html#a3d39fc01e6396c754f5dcf5553611345',1,'Karm::Font::Ttf::Gsub::LookupListOffset()']]],
+  ['lookuporderoffset_7',['LookupOrderOffset',['../structKarm_1_1Font_1_1Ttf_1_1LangSys.html#ac6b55809ea509035797108cd773a74b2',1,'Karm::Font::Ttf::LangSys']]],
+  ['lookupsubtable_8',['LookupSubtable',['../namespaceKarm_1_1Font_1_1Ttf.html#ad0b413f2d8fe4d8d79cbd0b46a04e568',1,'Karm::Font::Ttf']]],
+  ['lookuptype_9',['LookupType',['../structKarm_1_1Font_1_1Ttf_1_1LookupTable.html#ae76dcab3c271b3926f6715be2f57f639',1,'Karm::Font::Ttf::LookupTable']]]
 ];

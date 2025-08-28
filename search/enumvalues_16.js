@@ -5,6 +5,6 @@ var searchData=
   ['word_5fboundary_2',['WORD_BOUNDARY',['../namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898a1648b7ed82691a46fd01b6843d2fd258',1,'Karm::Regex']]],
   ['write_3',['WRITE',['../namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4ad4b9e47f65b6e79b010582f15785867e',1,'Karm::Sys']]],
   ['ws_4',['WS',['../namespaceKarm_1_1Icu.html#a374f62108410f9c0065ef638d0b1fb63a54df3baef130c81e6ae8432a2567320a',1,'Karm::Icu']]],
-  ['wws_5ffamily_5',['WWS_FAMILY',['../structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a873ef5d1d5c9b202faad24b517e9cf30',1,'Karm::Text::Ttf::Name']]],
-  ['wws_5fsubfamily_6',['WWS_SUBFAMILY',['../structKarm_1_1Text_1_1Ttf_1_1Name.html#a20f7ac6e5066d75198122d315e334258a93703965f68a168ca2bf83c46521f6a7',1,'Karm::Text::Ttf::Name']]]
+  ['wws_5ffamily_5',['WWS_FAMILY',['../structKarm_1_1Font_1_1Ttf_1_1Name.html#a25cf0d819a233e5e96ba9399abf62d58ad34e7bdf80a9a8916eb3cf003feb6eb6',1,'Karm::Font::Ttf::Name']]],
+  ['wws_5fsubfamily_6',['WWS_SUBFAMILY',['../structKarm_1_1Font_1_1Ttf_1_1Name.html#a25cf0d819a233e5e96ba9399abf62d58a8cef5ab6649d91dc3de9ecb28a240100',1,'Karm::Font::Ttf::Name']]]
 ];

@@ -1,6 +1,6 @@
 var structKarm_1_1Print_1_1TrueTypeFontAdapter =
 [
-    [ "TrueTypeFontAdapter", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a3793f4067920e0b4a31169b84e0e3ce8", null ],
+    [ "TrueTypeFontAdapter", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a45b72e7ac77a8f9d5aa4d4b3478c2407", null ],
     [ "addToFile", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#aaae982ebea0e72651f122a4d9aa5ad88", null ],
     [ "CIDFont", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a64acb2307e974a82ef4076cb4ab8ccd5", null ],
     [ "CIDSystemInfo", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html#a2bcf5177d5dd079808cf6ca8ee3be076", null ],

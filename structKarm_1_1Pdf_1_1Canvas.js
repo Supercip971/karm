@@ -15,7 +15,7 @@ var structKarm_1_1Pdf_1_1Canvas =
     [ "ellipse", "structKarm_1_1Pdf_1_1Canvas.html#a4e83d3d5c1a19fbdfe04367c80eafb2a", null ],
     [ "fill", "structKarm_1_1Pdf_1_1Canvas.html#a4cf53168e5ce60ccb69902066b5e525d", null ],
     [ "fill", "structKarm_1_1Pdf_1_1Canvas.html#a1d846fb965b2b900fc999f84a260e922", null ],
-    [ "fill", "structKarm_1_1Pdf_1_1Canvas.html#a4ec5bd4ca6e8e696f0e80cf066f0d240", null ],
+    [ "fill", "structKarm_1_1Pdf_1_1Canvas.html#a1505662172698a2608666ec32fa2e0a0", null ],
     [ "fillStyle", "structKarm_1_1Pdf_1_1Canvas.html#a91db1069522dc87b0acb513f228b1e18", null ],
     [ "hlineTo", "structKarm_1_1Pdf_1_1Canvas.html#a9403cab675449cd4009eb48f742b5611", null ],
     [ "line", "structKarm_1_1Pdf_1_1Canvas.html#a8716a05771a9770249947167d42f3e24", null ],

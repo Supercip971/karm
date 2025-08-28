@@ -1,6 +1,6 @@
 var structKarm_1_1Ui_1_1SimpleInput =
 [
-    [ "SimpleInput", "structKarm_1_1Ui_1_1SimpleInput.html#a8589e8dc358a313bb14f0ad22b176db4", null ],
+    [ "SimpleInput", "structKarm_1_1Ui_1_1SimpleInput.html#a355b7180068e46ed024d47a11b8c1d7c", null ],
     [ "event", "structKarm_1_1Ui_1_1SimpleInput.html#a03aab8c773b118d98854b1e757cf783b", null ],
     [ "layout", "structKarm_1_1Ui_1_1SimpleInput.html#afba0fcfe48d2c7aaf420ba3b2c3d2f64", null ],
     [ "paint", "structKarm_1_1Ui_1_1SimpleInput.html#a09083364020a088cfd1c6f77db1491bd", null ],
