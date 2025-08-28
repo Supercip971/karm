@@ -52,22 +52,26 @@ SizeHint sizeHintFor() {
 
 export struct Type {
     enum struct Kind {
-        NONE,
+        NIL,
         SOME,
-        UNION,
         FIELD,
+
+        UNION,
         ENUM,
+
         ARRAY,
         VEC,
+
         MAP,
+        OBJECT,
     };
 
     using enum Kind;
 
     Kind kind;
-    Opt<usize> index;
-    Opt<usize> len;
-    Opt<Symbol> tag;
+    Opt<usize> index = NONE;
+    Opt<usize> len = NONE;
+    Opt<Symbol> tag = NONE;
 };
 
 template <typename T>
@@ -172,28 +176,57 @@ export struct Deserializer {
         Type type;
 
         Res<bool> ended() {
+            return _de->endedUnit();
         }
 
-        Res<> end();
+        Res<> end() {
+            if (_de) {
+                auto res = _de->endUnit();
+                _de = nullptr;
+                return res;
+            }
+            return Ok();
+        }
 
-        Res<> deserializeUnit(Type);
+        Res<Type> deserializeUnit(Type type) {
+            return _de->deserializeUnit(type);
+        }
 
         template <typename T>
-        Res<Tuple<Type, T>> deserializeUnit(Type);
+        Res<Tuple<Type, T>> deserializeUnit(Type) {
+            return _de->deserializeUnit<Type>(type);
+        }
 
         template <typename T>
-        Res<T> deserialize();
+        Res<T> deserialize() {
+            return _de->deserialize<T>();
+        }
     };
 
-    virtual Res<Scope> beginScope(Type);
+    Res<Scope> beginScope(Type type) {
+        type = try$(beginUnit(type));
+        Scope scope{this, type};
+        return Ok(std::move(scope));
+    }
 
-    Res<> deserializeUnit(Type);
+    Res<Type> deserializeUnit(Type type) {
+        type = try$(beginUnit(type));
+        try$(endUnit());
+        return Ok(type);
+    }
 
     template <typename T>
-    Res<Tuple<Type, T>> deserializeUnit(Type);
+    Res<Tuple<Type, T>> deserializeUnit(Type type) {
+        auto scope = try$(beginScope(type));
+        auto v = try$(scope.deserialize<T>());
+        try$(scope.end());
+        return Ok<Tuple<Type, T>>();
+    }
 
     template <typename T>
-    Res<T> deserialize();
+    Res<T> deserialize() {
+        return Karm::Serde::deserialize<T>(*this);
+    }
 };
 
 template <>
@@ -210,11 +243,11 @@ struct Serde<bool> {
 template <>
 struct Serde<None> {
     static Res<> serialize(Serializer& ser, None const&) {
-        return ser.serializeUnit({Type::NONE});
+        return ser.serializeUnit({Type::NIL});
     }
 
     static Res<None> deserialize(Deserializer& de) {
-        try$(de.deserializeUnit({Type::NONE}));
+        try$(de.deserializeUnit({Type::NIL}));
         return Ok(NONE);
     }
 };
@@ -238,14 +271,14 @@ template <typename V, typename E>
 struct Serde<Res<V, E>> {
     static Res<> serialize(Serializer& ser, Res<V, E> const& v) {
         if (not v)
-            return ser.serializeUnit<E>({Type::NONE}, v.none());
+            return ser.serializeUnit<E>({Type::NIL}, v.none());
         return ser.serializeUnit<V>({Type::SOME}, v.unwrap());
     }
 
     static Res<Res<V, E>> deserialize(Deserializer& de) {
         if (auto res = de.deserializeUnit<V>({Type::SOME}))
             return std::move(res);
-        return de.deserializeUnit<E>({Type::NONE});
+        return de.deserializeUnit<E>({Type::NIL});
     }
 };
 
@@ -254,7 +287,7 @@ struct Serde<Union<Ts...>> {
     static Res<> serialize(Serializer& ser, Union<Ts...> const& v) {
         auto scope = try$(ser.beginScope({Type::UNION}));
         try$(v.visit([&](auto const& v) {
-            return scope->serializeUnit({Type::FIELD, .index = v.index()}, v);
+            return scope.serializeUnit({.kind = Type::FIELD, .index = v.index()}, v);
         }));
         return scope.end();
     }
@@ -263,7 +296,7 @@ struct Serde<Union<Ts...>> {
         auto scope = try$(de.beginScope({Type::UNION}));
         usize index = 0;
         auto res = try$(Meta::any<Ts...>([&]<typename T> -> Res<Union<Ts...>> {
-            return scope.deserializeUnit<T>({Type::FIELD, .index = index++});
+            return scope.deserializeUnit<T>({.kind = Type::FIELD, .index = index++});
         }));
         try$(scope.end());
         return Ok(std::move(res));
@@ -274,14 +307,14 @@ template <Meta::Enum T>
 struct Serde<T> {
     static Res<> serialize(Serializer& ser, T const& v) {
         auto scope = try$(ser.beginScope({Type::ENUM}));
-        try$(scope.serializeUnit({Type::FIELD, .tag = Symbol::from(nameOf(v))}, toUnderlyingType(v)));
+        try$(scope.serializeUnit({.kind = Type::FIELD, .tag = Symbol::from(nameOf(v))}, toUnderlyingType(v)));
         return scope.end();
     }
 
     static Res<T> deserialize(Deserializer& de) {
         auto scope = try$(de.beginScope({Type::ENUM}));
         for (auto i : enumItems<T>()) {
-            if (auto res = de.deserializeUnit<Meta::UnderlyingType<T>>({Type::FIELD, .tag = Symbol::from(i.name)})) {
+            if (auto res = de.deserializeUnit<Meta::UnderlyingType<T>>({.kind = Type::FIELD, .tag = Symbol::from(i.name)})) {
                 try$(scope.end());
                 return res;
             }
@@ -340,7 +373,7 @@ struct Serde<Vec<u8>> {
         return ser.serializeBytes(v);
     }
 
-    static Res<Vec<T>> deserialize(Deserializer& de) {
+    static Res<Vec<u8>> deserialize(Deserializer& de) {
         return de.deserializeBytes();
     }
 };
@@ -395,21 +428,60 @@ struct Serde<Map<String, T>> {
         return scope.end();
     }
 
-    static Res<Map<String, T>> deserialize(Deserializer& de);
+    static Res<Map<String, T>> deserialize(Deserializer& de) {
+        auto scope = try$(de.beginScope({.kind = Type::MAP}));
+        Map<String, T> res;
+        while (not scope.ended()) {
+            auto [type, value] = try$(scope.deserializeUnit<T>({.kind = Type::FIELD}));
+            res.put(type.tag.unwrap(), value);
+        }
+        try$(scope.end());
+        return Ok(std::move(res));
+    }
 };
 
 template <typename... Ts>
 struct Serde<Tuple<Ts...>> {
-    static Res<> serialize(Serializer& ser, Tuple<Ts...> const& v);
+    static Res<> serialize(Serializer& ser, Tuple<Ts...> const& v) {
+        auto scope = try$(ser.beginScope({.kind = Type::ARRAY}));
+        try$(v.visit([&]<typename I>(I const& i) {
+            return ser.serialize<I>(i);
+        }));
+        return scope.end();
+    }
 
-    static Res<Tuple<Ts...>> deserialize(Deserializer& de);
+    static Res<Tuple<Ts...>> deserialize(Deserializer& de) {
+        auto scope = try$(de.beginScope({.kind = Type::ARRAY}));
+        Tuple<Ts...> res;
+        try$(res.visit([&]<typename I>(I& i) {
+            i = try$(de.deserialize<I>());
+            return Ok();
+        }));
+        try$(scope.end());
+        return Ok();
+    }
 };
 
 template <Meta::Aggregate T>
 struct Serde<T> {
-    static Res<> serialize(Serializer& ser, T const& v);
+    static Res<> serialize(Serializer& ser, T const& v) {
+        auto scope = try$(ser.beginScope({.kind = Type::ARRAY}));
+        try$(visit(v, [&]<typename I>(I const& i) {
+            return ser.serialize<I>(i);
+        }));
+        return scope.end();
+    }
 
-    static Res<T> deserialize(Deserializer& de);
+    static Res<T> deserialize(Deserializer& de) {
+        auto scope = try$(de.beginScope({.kind = Type::ARRAY}));
+        T res;
+        try$(visit(res, [&]<typename I>(I& i) {
+            i = try$(de.deserialize<I>());
+            return Ok();
+        }));
+        try$(scope.end());
+        return Ok();
+    }
 };
 
 } // namespace Karm::Serde
