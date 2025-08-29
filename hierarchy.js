@@ -164,6 +164,7 @@ var hierarchy =
     [ "Karm::Image::Jpeg::Decoder", "structKarm_1_1Image_1_1Jpeg_1_1Decoder.html", null ],
     [ "Karm::Image::Png::Decoder", "structKarm_1_1Image_1_1Png_1_1Decoder.html", null ],
     [ "Karm::Image::Tga::Decoder", "structKarm_1_1Image_1_1Tga_1_1Decoder.html", null ],
+    [ "Karm::Serde::Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", null ],
     [ "Karm::Sys::Dir", "structKarm_1_1Sys_1_1Dir.html", null ],
     [ "Karm::Sys::DirEntry", "structKarm_1_1Sys_1_1DirEntry.html", null ],
     [ "Karm::App::Dispatch", "structKarm_1_1App_1_1Dispatch.html", [
@@ -651,6 +652,7 @@ var hierarchy =
         [ "Karm::Pdf::Canvas", "structKarm_1_1Pdf_1_1Canvas.html", null ]
       ] ],
       [ "Karm::Kira::Scaffold", "structKarm_1_1Kira_1_1Scaffold.html", null ],
+      [ "Karm::Serde::Serializer::Scope", "structKarm_1_1Serde_1_1Serializer_1_1Scope.html", null ],
       [ "Karm::Sys::Fd", "structKarm_1_1Sys_1_1Fd.html", [
         [ "Karm::Posix::Fd", "structKarm_1_1Posix_1_1Fd.html", null ],
         [ "Karm::Sys::NullFd", "structKarm_1_1Sys_1_1NullFd.html", null ]
@@ -705,6 +707,7 @@ var hierarchy =
     [ "Karm::Opt< Karm::Mime::Url >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Karm::Mime::Uti >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Karm::Ranges< Karm::Range< Rune > > >", "structKarm_1_1Opt.html", null ],
+    [ "Karm::Opt< Karm::Symbol >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Rc< Karm::Gfx::Prose::Span > >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Rc< Karm::Gfx::Surface > >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< Rc< Karm::Http::Body > >", "structKarm_1_1Opt.html", null ],
@@ -822,6 +825,7 @@ var hierarchy =
     [ "Karm::Image::Saver", "structKarm_1_1Image_1_1Saver.html", null ],
     [ "Karm::Image::Jpeg::Decoder::ScanComponent", "structKarm_1_1Image_1_1Jpeg_1_1Decoder_1_1ScanComponent.html", null ],
     [ "Karm::Gfx::CpuCanvas::Scope", "structKarm_1_1Gfx_1_1CpuCanvas_1_1Scope.html", null ],
+    [ "Karm::Serde::Deserializer::Scope", "structKarm_1_1Serde_1_1Deserializer_1_1Scope.html", null ],
     [ "Karm::Io::Seek", "structKarm_1_1Io_1_1Seek.html", null ],
     [ "Karm::Io::Seeker", "structKarm_1_1Io_1_1Seeker.html", [
       [ "Karm::Io::BufReader", "structKarm_1_1Io_1_1BufReader.html", null ],
@@ -832,6 +836,20 @@ var hierarchy =
     ] ],
     [ "Karm::Sys::Sema", "structKarm_1_1Sys_1_1Sema.html", null ],
     [ "Karm::Gfx::SepiaFilter", "structKarm_1_1Gfx_1_1SepiaFilter.html", null ],
+    [ "Karm::Serde::Serde< T >", "structKarm_1_1Serde_1_1Serde.html", null ],
+    [ "Karm::Serde::Serde< Array< T, N > >", "structKarm_1_1Serde_1_1Serde_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< bool >", "structKarm_1_1Serde_1_1Serde_3_01bool_01_4.html", null ],
+    [ "Karm::Serde::Serde< Map< String, T > >", "structKarm_1_1Serde_1_1Serde_3_01Map_3_01String_00_01T_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< None >", "structKarm_1_1Serde_1_1Serde_3_01None_01_4.html", null ],
+    [ "Karm::Serde::Serde< Opt< T > >", "structKarm_1_1Serde_1_1Serde_3_01Opt_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Res< V, E > >", "structKarm_1_1Serde_1_1Serde_3_01Res_3_01V_00_01E_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< String >", "structKarm_1_1Serde_1_1Serde_3_01String_01_4.html", null ],
+    [ "Karm::Serde::Serde< T >", "structKarm_1_1Serde_1_1Serde_3_01T_01_4.html", null ],
+    [ "Karm::Serde::Serde< Tuple< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Union< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Vec< T > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Vec< u8 > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01u8_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serializer", "structKarm_1_1Serde_1_1Serializer.html", null ],
     [ "Karm::Http::Server", "structKarm_1_1Http_1_1Server.html", null ],
     [ "Karm::Http::Service", "structKarm_1_1Http_1_1Service.html", null ],
     [ "Karm::Sys::Service", "structKarm_1_1Sys_1_1Service.html", [
@@ -901,6 +919,7 @@ var hierarchy =
     [ "Karm::Tuple< Ts >", "structKarm_1_1Tuple.html", null ],
     [ "Karm::Tuple< Karm::Box< Karm::Gfx::Filter > >", "structKarm_1_1Tuple.html", null ],
     [ "Karm::Tuple<>", "structKarm_1_1Tuple_3_4.html", null ],
+    [ "Karm::Serde::Type", "structKarm_1_1Serde_1_1Type.html", null ],
     [ "Karm::App::TypeEvent", "structKarm_1_1App_1_1TypeEvent.html", null ],
     [ "Karm::Math::UBig", "structKarm_1_1Math_1_1UBig.html", null ],
     [ "Karm::Math::UnaryExpr", "structKarm_1_1Math_1_1UnaryExpr.html", null ],

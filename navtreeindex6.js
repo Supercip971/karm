@@ -176,11 +176,8 @@ var NAVTREEINDEX6 =
 "karm-core_2regex_2mod_8cpp.html#aeb80b5b3b27409e056039a96aef0bcfbac3bc8d25d44abb84f8d226c46566b639":[3,0,0,1,2,9,1,13,6],
 "karm-core_2regex_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,2,9,1,14],
 "karm-core_2serde_2mod_8cpp.html":[3,0,0,1,2,10,1],
-"karm-core_2serde_2mod_8cpp.html#a20f5d60f160c3896f011cc171b80ec77":[3,0,0,1,2,10,1,4],
-"karm-core_2serde_2mod_8cpp.html#a84a094c1f5b7461d8ad9cde1d0a31e0f":[3,0,0,1,2,10,1,3],
-"karm-core_2serde_2mod_8cpp.html#a9e2c48140e46d4ed4b8b67291b8a2c14":[3,0,0,1,2,10,1,2],
-"karm-core_2serde_2mod_8cpp.html#ae63f72a0f167d41288b44cba60386ac2":[3,0,0,1,2,10,1,1],
-"karm-core_2serde_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,2,10,1,5],
+"karm-core_2serde_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,2,10,1,0],
+"karm-core_2serde_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,2,10,1,1],
 "karm-debug_2mod_8cpp.html":[3,0,0,1,4,0],
 "karm-debug_2mod_8cpp.html#a178d28efa1cd89b31d6efc27ffa8258b":[3,0,0,1,4,0,4],
 "karm-debug_2mod_8cpp.html#a2d861fe9e742fbdc6285c792488dabb6":[3,0,0,1,4,0,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX6 =
 "karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a17990994647dd10e7563553a52882702":[3,0,0,1,10,3,0,5,64],
 "karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a1f05d05a490c8e8511a0f7f474f5f246":[3,0,0,1,10,3,0,5,14],
 "karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a1fe9e37c497c8ed7c0349d0c465c2f99":[3,0,0,1,10,3,0,5,18],
-"karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a25bffcf254eaf2105a347e9aa9f9635b":[3,0,0,1,10,3,0,5,63]
+"karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a25bffcf254eaf2105a347e9aa9f9635b":[3,0,0,1,10,3,0,5,63],
+"karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a262033002053a976ae3caf28d2af31fe":[3,0,0,1,10,3,0,5,54],
+"karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a2b3ad0768f1e6a188e15bd84629bd439":[3,0,0,1,10,3,0,5,24],
+"karm-image_2jpeg_2base_8cpp.html#af7022f5c263dd1247b0212ffec582808a2c2c332e3c09156154bbdfe642f98aab":[3,0,0,1,10,3,0,5,28]
 };

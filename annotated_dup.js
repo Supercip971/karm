@@ -441,6 +441,22 @@ var annotated_dup =
         [ "Viewbox", "structKarm_1_1Scene_1_1Viewbox.html", "structKarm_1_1Scene_1_1Viewbox" ]
       ] ],
       [ "Serde", "namespaceKarm_1_1Serde.html", [
+        [ "Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", "structKarm_1_1Serde_1_1Deserializer" ],
+        [ "Serde", "structKarm_1_1Serde_1_1Serde.html", null ],
+        [ "Serde< Array< T, N > >", "structKarm_1_1Serde_1_1Serde_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
+        [ "Serde< bool >", "structKarm_1_1Serde_1_1Serde_3_01bool_01_4.html", null ],
+        [ "Serde< Map< String, T > >", "structKarm_1_1Serde_1_1Serde_3_01Map_3_01String_00_01T_01_4_01_4.html", null ],
+        [ "Serde< None >", "structKarm_1_1Serde_1_1Serde_3_01None_01_4.html", null ],
+        [ "Serde< Opt< T > >", "structKarm_1_1Serde_1_1Serde_3_01Opt_3_01T_01_4_01_4.html", null ],
+        [ "Serde< Res< V, E > >", "structKarm_1_1Serde_1_1Serde_3_01Res_3_01V_00_01E_01_4_01_4.html", null ],
+        [ "Serde< String >", "structKarm_1_1Serde_1_1Serde_3_01String_01_4.html", null ],
+        [ "Serde< T >", "structKarm_1_1Serde_1_1Serde_3_01T_01_4.html", null ],
+        [ "Serde< Tuple< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
+        [ "Serde< Union< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
+        [ "Serde< Vec< T > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01T_01_4_01_4.html", null ],
+        [ "Serde< Vec< u8 > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01u8_01_4_01_4.html", null ],
+        [ "Serializer", "structKarm_1_1Serde_1_1Serializer.html", "structKarm_1_1Serde_1_1Serializer" ],
+        [ "Type", "structKarm_1_1Serde_1_1Type.html", "structKarm_1_1Serde_1_1Type" ],
         [ "Value", "structKarm_1_1Serde_1_1Value.html", "structKarm_1_1Serde_1_1Value" ]
       ] ],
       [ "Sys", "namespaceKarm_1_1Sys.html", [

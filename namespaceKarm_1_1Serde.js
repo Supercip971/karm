@@ -10,9 +10,35 @@ var namespaceKarm_1_1Serde =
       [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#a95d7a8eedfb4a8d367e5a1452df150e2", null ],
       [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#a8226b6fc831b5e89562f48e8a743aa18", null ]
     ] ],
+    [ "Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", "structKarm_1_1Serde_1_1Deserializer" ],
+    [ "Serde", "structKarm_1_1Serde_1_1Serde.html", null ],
+    [ "Serde< Array< T, N > >", "structKarm_1_1Serde_1_1Serde_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
+    [ "Serde< bool >", "structKarm_1_1Serde_1_1Serde_3_01bool_01_4.html", null ],
+    [ "Serde< Map< String, T > >", "structKarm_1_1Serde_1_1Serde_3_01Map_3_01String_00_01T_01_4_01_4.html", null ],
+    [ "Serde< None >", "structKarm_1_1Serde_1_1Serde_3_01None_01_4.html", null ],
+    [ "Serde< Opt< T > >", "structKarm_1_1Serde_1_1Serde_3_01Opt_3_01T_01_4_01_4.html", null ],
+    [ "Serde< Res< V, E > >", "structKarm_1_1Serde_1_1Serde_3_01Res_3_01V_00_01E_01_4_01_4.html", null ],
+    [ "Serde< String >", "structKarm_1_1Serde_1_1Serde_3_01String_01_4.html", null ],
+    [ "Serde< T >", "structKarm_1_1Serde_1_1Serde_3_01T_01_4.html", null ],
+    [ "Serde< Tuple< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Serde< Union< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Serde< Vec< T > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01T_01_4_01_4.html", null ],
+    [ "Serde< Vec< u8 > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01u8_01_4_01_4.html", null ],
+    [ "Serializer", "structKarm_1_1Serde_1_1Serializer.html", "structKarm_1_1Serde_1_1Serializer" ],
+    [ "Type", "structKarm_1_1Serde_1_1Type.html", "structKarm_1_1Serde_1_1Type" ],
     [ "Value", "structKarm_1_1Serde_1_1Value.html", "structKarm_1_1Serde_1_1Value" ],
     [ "Array", "namespaceKarm_1_1Serde.html#ae63f72a0f167d41288b44cba60386ac2", null ],
     [ "Integer", "namespaceKarm_1_1Serde.html#a9e2c48140e46d4ed4b8b67291b8a2c14", null ],
     [ "Number", "namespaceKarm_1_1Serde.html#a84a094c1f5b7461d8ad9cde1d0a31e0f", null ],
-    [ "Object", "namespaceKarm_1_1Serde.html#a20f5d60f160c3896f011cc171b80ec77", null ]
+    [ "Object", "namespaceKarm_1_1Serde.html#a20f5d60f160c3896f011cc171b80ec77", null ],
+    [ "SizeHint", "namespaceKarm_1_1Serde.html#a1a1b70b654ef349fd8186570ea7ca34e", [
+      [ "N8", "namespaceKarm_1_1Serde.html#a1a1b70b654ef349fd8186570ea7ca34ea7364f2afc5ceeebe184b9c484b69fa95", null ],
+      [ "N16", "namespaceKarm_1_1Serde.html#a1a1b70b654ef349fd8186570ea7ca34ea4fa31c7791286530bc73b862a2edb62b", null ],
+      [ "N32", "namespaceKarm_1_1Serde.html#a1a1b70b654ef349fd8186570ea7ca34ead71d06768593fa82be8fd84d1f8a33c3", null ],
+      [ "N64", "namespaceKarm_1_1Serde.html#a1a1b70b654ef349fd8186570ea7ca34ea7ac2840a241d00a82aa085fa66622bd1", null ],
+      [ "AUTO", "namespaceKarm_1_1Serde.html#a1a1b70b654ef349fd8186570ea7ca34eae1f2d5134ed2543d38a0de9751cf75d9", null ]
+    ] ],
+    [ "deserialize", "namespaceKarm_1_1Serde.html#a114ad999395f96dd1b01780ffb185254", null ],
+    [ "serialize", "namespaceKarm_1_1Serde.html#a5259b2b47f2751948ca7553ddbc53fb8", null ],
+    [ "sizeHintFor", "namespaceKarm_1_1Serde.html#ad6f782e049e3e40cf59a3c027aab6f80", null ]
 ];

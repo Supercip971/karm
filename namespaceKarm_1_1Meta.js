@@ -66,7 +66,7 @@ var namespaceKarm_1_1Meta =
     [ "idOf", "namespaceKarm_1_1Meta.html#a46e92b3d924529578fc2e7d79f73973c", null ],
     [ "indexCast", "namespaceKarm_1_1Meta.html#af386475a307f4ed57f8639343175446d", null ],
     [ "indexOf", "namespaceKarm_1_1Meta.html#ac4c0c58e93cd5c1bac64c62211a91ef8", null ],
-    [ "size", "namespaceKarm_1_1Meta.html#a3397edebd0b659155f5d16b4c96dc13d", null ],
-    [ "visit", "namespaceKarm_1_1Meta.html#a4e4725831a5b0071dfcfdb4bd7acc755", null ],
+    [ "len", "namespaceKarm_1_1Meta.html#ac47ee7e63d162750e3c7a596258e15c0", null ],
+    [ "visit", "namespaceKarm_1_1Meta.html#abc37b7440d68fb5f750c2ba3a0c861b7", null ],
     [ "zeroableSizeOf", "namespaceKarm_1_1Meta.html#ae5eb7f8d37aef4e708dca4d728aa4c77", null ]
 ];

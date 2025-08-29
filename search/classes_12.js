@@ -31,5 +31,6 @@ var searchData=
   ['tuple_28',['Tuple',['../structKarm_1_1Tuple.html',1,'Karm']]],
   ['tuple_3c_20karm_3a_3abox_3c_20karm_3a_3agfx_3a_3afilter_20_3e_20_3e_29',['Tuple&lt; Karm::Box&lt; Karm::Gfx::Filter &gt; &gt;',['../structKarm_1_1Tuple.html',1,'Karm']]],
   ['tuple_3c_3e_30',['Tuple&lt;&gt;',['../structKarm_1_1Tuple_3_4.html',1,'Karm']]],
-  ['typeevent_31',['TypeEvent',['../structKarm_1_1App_1_1TypeEvent.html',1,'Karm::App']]]
+  ['type_31',['Type',['../structKarm_1_1Serde_1_1Type.html',1,'Karm::Serde']]],
+  ['typeevent_32',['TypeEvent',['../structKarm_1_1App_1_1TypeEvent.html',1,'Karm::App']]]
 ];
