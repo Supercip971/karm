@@ -91,7 +91,7 @@ var annotated_dup =
           [ "Version", "structKarm_1_1Font_1_1Ttf_1_1Version.html", "structKarm_1_1Font_1_1Ttf_1_1Version" ]
         ] ],
         [ "Database", "structKarm_1_1Font_1_1Database.html", "structKarm_1_1Font_1_1Database" ],
-        [ "FontQuery", "structKarm_1_1Font_1_1FontQuery.html", "structKarm_1_1Font_1_1FontQuery" ],
+        [ "Query", "structKarm_1_1Font_1_1Query.html", "structKarm_1_1Font_1_1Query" ],
         [ "Record", "structKarm_1_1Font_1_1Record.html", "structKarm_1_1Font_1_1Record" ]
       ] ],
       [ "Fs", "namespaceKarm_1_1Fs.html", [

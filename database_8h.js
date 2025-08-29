@@ -1,6 +1,6 @@
 var database_8h =
 [
-    [ "Karm::Font::FontQuery", "structKarm_1_1Font_1_1FontQuery.html", "structKarm_1_1Font_1_1FontQuery" ],
+    [ "Karm::Font::Query", "structKarm_1_1Font_1_1Query.html", "structKarm_1_1Font_1_1Query" ],
     [ "Karm::Font::Record", "structKarm_1_1Font_1_1Record.html", "structKarm_1_1Font_1_1Record" ],
     [ "Karm::Font::Database", "structKarm_1_1Font_1_1Database.html", "structKarm_1_1Font_1_1Database" ],
     [ "commonFamily", "database_8h.html#ae532a00839887ce7bfafc4faf5b2010f", null ],

@@ -8,7 +8,7 @@ var searchData=
   ['wal_2ecpp_5',['wal.cpp',['../wal_8cpp.html',1,'']]],
   ['warning_6',['WARNING',['../namespaceKarm_1_1Kira.html#aa7d4919c45b313a4d69df1e93a2b0464a059e9861e0400dfbe05c98a841f3f96b',1,'Karm::Kira']]],
   ['weak_7',['Weak',['../namespaceKarm.html#ac5f58155de9223053ee4561561115d8a',1,'Karm']]],
-  ['weight_8',['weight',['../structKarm_1_1Gfx_1_1FontAttrs.html#addaf868d158ea0538a74ba47aa6576db',1,'Karm::Gfx::FontAttrs::weight()'],['../structKarm_1_1Font_1_1FontQuery.html#adcd54b3aa9348f96e030447ea5667cdd',1,'Karm::Font::FontQuery::weight()']]],
+  ['weight_8',['weight',['../structKarm_1_1Gfx_1_1FontAttrs.html#addaf868d158ea0538a74ba47aa6576db',1,'Karm::Gfx::FontAttrs::weight()'],['../structKarm_1_1Font_1_1Query.html#a643498da552b6bacdffa44c66c01a175',1,'Karm::Font::Query::weight()']]],
   ['weightclass_9',['weightClass',['../structKarm_1_1Font_1_1Ttf_1_1Os2.html#a825ccdae21064f95990fa37d7d6e9254',1,'Karm::Font::Ttf::Os2']]],
   ['weightclass_10',['WeightClass',['../structKarm_1_1Font_1_1Ttf_1_1Os2.html#a5c79609dcf2eca5139cf531183c82f46',1,'Karm::Font::Ttf::Os2']]],
   ['wh_11',['wh',['../unionKarm_1_1Math_1_1Rect.html#ad1e837a6fa2cfdd5af051a9fa7a14458',1,'Karm::Math::Rect']]],

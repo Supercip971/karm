@@ -26,7 +26,7 @@ var NAVTREEINDEX54 =
 "test-bidi_8cpp.html#a88b756f71ea3bfc24438fd8178db4737":[3,0,0,1,2,4,0,0,1],
 "test-bidi_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,2,4,0,0,2],
 "test-book_8cpp.html":[3,0,0,1,5,1,0],
-"test-book_8cpp.html#a8a79f12b8534a2ab9493c7728c174326":[3,0,0,1,5,1,0,0],
+"test-book_8cpp.html#a2e6ef52d83835bc3e3cabdbbff442135":[3,0,0,1,5,1,0,0],
 "test-box_8cpp.html":[3,0,0,1,2,2,1,1],
 "test-box_8cpp.html#ab6ef030c2d20b7ac8ba25811d759c076":[3,0,0,1,2,2,1,1,0],
 "test-box_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,2,2,1,1,1],

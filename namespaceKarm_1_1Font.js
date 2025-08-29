@@ -1,11 +1,11 @@
 var namespaceKarm_1_1Font =
 [
     [ "Tests", "namespaceKarm_1_1Font_1_1Tests.html", [
-      [ "test$", "namespaceKarm_1_1Font_1_1Tests.html#a8a79f12b8534a2ab9493c7728c174326", null ]
+      [ "test$", "namespaceKarm_1_1Font_1_1Tests.html#a2e6ef52d83835bc3e3cabdbbff442135", null ]
     ] ],
     [ "Ttf", "namespaceKarm_1_1Font_1_1Ttf.html", "namespaceKarm_1_1Font_1_1Ttf" ],
     [ "Database", "structKarm_1_1Font_1_1Database.html", "structKarm_1_1Font_1_1Database" ],
-    [ "FontQuery", "structKarm_1_1Font_1_1FontQuery.html", "structKarm_1_1Font_1_1FontQuery" ],
+    [ "Query", "structKarm_1_1Font_1_1Query.html", "structKarm_1_1Font_1_1Query" ],
     [ "Record", "structKarm_1_1Font_1_1Record.html", "structKarm_1_1Font_1_1Record" ],
     [ "commonFamily", "namespaceKarm_1_1Font.html#ae532a00839887ce7bfafc4faf5b2010f", null ],
     [ "globalBook", "namespaceKarm_1_1Font.html#a4794a5da266da71f1383e85d40674c1b", null ],

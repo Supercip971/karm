@@ -38,7 +38,7 @@ var NAVTREEINDEX11 =
 "namespaceKarm_1_1Font.html#aa4c899c16042125dcc0614c1acdf2e29":[0,0,0,7,10],
 "namespaceKarm_1_1Font.html#ae532a00839887ce7bfafc4faf5b2010f":[0,0,0,7,5],
 "namespaceKarm_1_1Font_1_1Tests.html":[0,0,0,7,0],
-"namespaceKarm_1_1Font_1_1Tests.html#a8a79f12b8534a2ab9493c7728c174326":[0,0,0,7,0,0],
+"namespaceKarm_1_1Font_1_1Tests.html#a2e6ef52d83835bc3e3cabdbbff442135":[0,0,0,7,0,0],
 "namespaceKarm_1_1Font_1_1Ttf.html":[0,0,0,7,1],
 "namespaceKarm_1_1Font_1_1Ttf.html#a8aff7083e7ad767f8dd513de43aa9ae4":[0,0,0,7,1,32],
 "namespaceKarm_1_1Font_1_1Ttf.html#a8aff7083e7ad767f8dd513de43aa9ae4a22a4271ab64c04169460ec09cbfbd179":[0,0,0,7,1,32,5],
