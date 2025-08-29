@@ -18,5 +18,6 @@ var endian_8cpp =
     [ "u64le", "endian_8cpp.html#a0df86006da3224fca2be68789d28447b", null ],
     [ "u8be", "endian_8cpp.html#a3adb2f087811138ae6d3f8edaf53cc61", null ],
     [ "u8le", "endian_8cpp.html#a87e8f36874f15cccd078e4ae24852d75", null ],
-    [ "Core", "endian_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "endian_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "endian_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

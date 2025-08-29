@@ -14,5 +14,6 @@ var checked_8cpp =
     [ "willSubOverflow", "checked_8cpp.html#a20c0a5e6a8eeab158968f6f5b0a9cccd", null ],
     [ "willSubUnderAndOverflow", "checked_8cpp.html#afabdaf3121c0292769c6923570a95cc8", null ],
     [ "willSubUnderflow", "checked_8cpp.html#ab3900b43fdc46f7874b7217cd0477b5a", null ],
-    [ "Core", "checked_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "checked_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "checked_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

@@ -31,5 +31,6 @@ var karm_core_2regex_2mod_8cpp =
       [ "VNICODE", "karm-core_2regex_2mod_8cpp.html#aeb80b5b3b27409e056039a96aef0bcfba47aa1720508b214ec057ee45eb499be1", null ],
       [ "SINGLE_LINE", "karm-core_2regex_2mod_8cpp.html#aeb80b5b3b27409e056039a96aef0bcfbac3bc8d25d44abb84f8d226c46566b639", null ]
     ] ],
-    [ "Core", "karm-core_2regex_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "karm-core_2regex_2mod_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "karm-core_2regex_2mod_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

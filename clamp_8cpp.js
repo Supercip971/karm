@@ -8,5 +8,6 @@ var clamp_8cpp =
     [ "min", "clamp_8cpp.html#af8c8a38a785715e22355c6394478ded8", null ],
     [ "min", "clamp_8cpp.html#a64cc83b66dc4c66ea927dc88dd46ff2c", null ],
     [ "roundTo", "clamp_8cpp.html#a0b8ad22e428dd14f476c3cfbbdf44c30", null ],
-    [ "Core", "clamp_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ]
+    [ "Core", "clamp_8cpp.html#af60e35d72364ff777a965d456af4dea3", null ],
+    [ "module", "clamp_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

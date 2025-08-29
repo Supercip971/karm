@@ -31,5 +31,6 @@ var style_8cpp =
     [ "Core", "style_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "DARK_COLORS", "style_8cpp.html#a176dae948b31390e096169b401072e34", null ],
     [ "LIGHT_COLORS", "style_8cpp.html#a7c148fc8ba590cb167946768f29e643d", null ],
+    [ "module", "style_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Tty", "style_8cpp.html#ace7fc12e7922529692bfe1fbb81ae9a6", null ]
 ];
