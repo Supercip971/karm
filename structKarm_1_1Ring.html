@@ -127,10 +127,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a76bee1674f77c6ca3487cbdd8b2f694e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a193a721b51f1cd4b66d184c0b3a679e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#a193a721b51f1cd4b66d184c0b3a679e9">clear</a> ()</td></tr>
 <tr class="separator:a193a721b51f1cd4b66d184c0b3a679e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab15573d268e07899f52d0fbe83ae182d"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#ab15573d268e07899f52d0fbe83ae182d">peek</a> (<a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a> index)</td></tr>
-<tr class="separator:ab15573d268e07899f52d0fbe83ae182d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4261ffb32c74a7d2eff01ee703af5e13"><td class="memItemLeft" align="right" valign="top">T const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#a4261ffb32c74a7d2eff01ee703af5e13">peek</a> (<a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a> index) const</td></tr>
-<tr class="separator:a4261ffb32c74a7d2eff01ee703af5e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70bdf476b5aee4b57877fc5ff2b1561f"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#a70bdf476b5aee4b57877fc5ff2b1561f">peekFront</a> (<a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a> index)</td></tr>
+<tr class="separator:a70bdf476b5aee4b57877fc5ff2b1561f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84a230ad372a23e960f5a143cee8192"><td class="memItemLeft" align="right" valign="top">T const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#af84a230ad372a23e960f5a143cee8192">peekFront</a> (<a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a> index) const</td></tr>
+<tr class="separator:af84a230ad372a23e960f5a143cee8192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609c18b6b52cc8f3e0953f577af144a9"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#a609c18b6b52cc8f3e0953f577af144a9">peekBack</a> (<a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a> index)</td></tr>
+<tr class="separator:a609c18b6b52cc8f3e0953f577af144a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21848cc322a3ad42f089b1dfffa0c016"><td class="memItemLeft" align="right" valign="top">T const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#a21848cc322a3ad42f089b1dfffa0c016">peekBack</a> (<a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a> index) const</td></tr>
+<tr class="separator:a21848cc322a3ad42f089b1dfffa0c016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a498d04a0f386e9a9f8cb85cda05eabb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#a498d04a0f386e9a9f8cb85cda05eabb9">trunc</a> (<a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a> newLen)</td></tr>
 <tr class="separator:a498d04a0f386e9a9f8cb85cda05eabb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff8d24bd9fe6ccc4e18357175998ef87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Ring.html#aff8d24bd9fe6ccc4e18357175998ef87">head</a> () const</td></tr>
@@ -478,8 +482,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ab15573d268e07899f52d0fbe83ae182d" name="ab15573d268e07899f52d0fbe83ae182d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab15573d268e07899f52d0fbe83ae182d">&#9670;&#160;</a></span>peek() <span class="overload">[1/2]</span></h2>
+<a id="a609c18b6b52cc8f3e0953f577af144a9" name="a609c18b6b52cc8f3e0953f577af144a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609c18b6b52cc8f3e0953f577af144a9">&#9670;&#160;</a></span>peekBack() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,7 +494,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T &amp; <a class="el" href="structKarm_1_1Ring.html">Karm::Ring</a>&lt; T &gt;::peek </td>
+          <td class="memname">T &amp; <a class="el" href="structKarm_1_1Ring.html">Karm::Ring</a>&lt; T &gt;::peekBack </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a>&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -506,8 +510,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a4261ffb32c74a7d2eff01ee703af5e13" name="a4261ffb32c74a7d2eff01ee703af5e13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4261ffb32c74a7d2eff01ee703af5e13">&#9670;&#160;</a></span>peek() <span class="overload">[2/2]</span></h2>
+<a id="a21848cc322a3ad42f089b1dfffa0c016" name="a21848cc322a3ad42f089b1dfffa0c016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21848cc322a3ad42f089b1dfffa0c016">&#9670;&#160;</a></span>peekBack() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,7 +522,63 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T const  &amp; <a class="el" href="structKarm_1_1Ring.html">Karm::Ring</a>&lt; T &gt;::peek </td>
+          <td class="memname">T const  &amp; <a class="el" href="structKarm_1_1Ring.html">Karm::Ring</a>&lt; T &gt;::peekBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70bdf476b5aee4b57877fc5ff2b1561f" name="a70bdf476b5aee4b57877fc5ff2b1561f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70bdf476b5aee4b57877fc5ff2b1561f">&#9670;&#160;</a></span>peekFront() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T &amp; <a class="el" href="structKarm_1_1Ring.html">Karm::Ring</a>&lt; T &gt;::peekFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af84a230ad372a23e960f5a143cee8192" name="af84a230ad372a23e960f5a143cee8192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af84a230ad372a23e960f5a143cee8192">&#9670;&#160;</a></span>peekFront() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T const  &amp; <a class="el" href="structKarm_1_1Ring.html">Karm::Ring</a>&lt; T &gt;::peekFront </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceKarm.html#a7826e564b525f4f5a2a0e63f961c2dbd">usize</a>&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>

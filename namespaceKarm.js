@@ -2,6 +2,7 @@ var namespaceKarm =
 [
     [ "Aio", "namespaceKarm_1_1Aio.html", "namespaceKarm_1_1Aio" ],
     [ "App", "namespaceKarm_1_1App.html", "namespaceKarm_1_1App" ],
+    [ "Archive", "namespaceKarm_1_1Archive.html", "namespaceKarm_1_1Archive" ],
     [ "Async", "namespaceKarm_1_1Async.html", "namespaceKarm_1_1Async" ],
     [ "Base", "namespaceKarm_1_1Base.html", "namespaceKarm_1_1Base" ],
     [ "Cli", "namespaceKarm_1_1Cli.html", "namespaceKarm_1_1Cli" ],
@@ -105,6 +106,7 @@ var namespaceKarm =
     [ "MonotonicClock", "structKarm_1_1MonotonicClock.html", null ],
     [ "Month", "structKarm_1_1Month.html", "structKarm_1_1Month" ],
     [ "Move", "structKarm_1_1Move.html", null ],
+    [ "MutBits", "structKarm_1_1MutBits.html", "structKarm_1_1MutBits" ],
     [ "MutCursor", "structKarm_1_1MutCursor.html", "structKarm_1_1MutCursor" ],
     [ "MutSlice", "structKarm_1_1MutSlice.html", "structKarm_1_1MutSlice" ],
     [ "Niche", "structKarm_1_1Niche.html", null ],

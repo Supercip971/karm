@@ -46,10 +46,11 @@ var searchData=
   ['mouselistener_43',['MouseListener',['../structKarm_1_1Ui_1_1MouseListener.html',1,'Karm::Ui']]],
   ['move_44',['Move',['../structKarm_1_1Move.html',1,'Karm']]],
   ['multiplextransport_45',['MultiplexTransport',['../structKarm_1_1Http_1_1MultiplexTransport.html',1,'Karm::Http']]],
-  ['mutblob_46',['MutBlob',['../structKarm_1_1Kv_1_1MutBlob.html',1,'Karm::Kv']]],
-  ['mutcursor_47',['MutCursor',['../structKarm_1_1MutCursor.html',1,'Karm']]],
-  ['mutcursor_3c_20karm_3a_3agfx_3a_3aprose_20_3e_48',['MutCursor&lt; Karm::Gfx::Prose &gt;',['../structKarm_1_1MutCursor.html',1,'Karm']]],
-  ['mutex_49',['Mutex',['../structKarm_1_1Sys_1_1Mutex.html',1,'Karm::Sys']]],
-  ['mutmmap_50',['MutMmap',['../structKarm_1_1Sys_1_1MutMmap.html',1,'Karm::Sys']]],
-  ['mutslice_51',['MutSlice',['../structKarm_1_1MutSlice.html',1,'Karm']]]
+  ['mutbits_46',['MutBits',['../structKarm_1_1MutBits.html',1,'Karm']]],
+  ['mutblob_47',['MutBlob',['../structKarm_1_1Kv_1_1MutBlob.html',1,'Karm::Kv']]],
+  ['mutcursor_48',['MutCursor',['../structKarm_1_1MutCursor.html',1,'Karm']]],
+  ['mutcursor_3c_20karm_3a_3agfx_3a_3aprose_20_3e_49',['MutCursor&lt; Karm::Gfx::Prose &gt;',['../structKarm_1_1MutCursor.html',1,'Karm']]],
+  ['mutex_50',['Mutex',['../structKarm_1_1Sys_1_1Mutex.html',1,'Karm::Sys']]],
+  ['mutmmap_51',['MutMmap',['../structKarm_1_1Sys_1_1MutMmap.html',1,'Karm::Sys']]],
+  ['mutslice_52',['MutSlice',['../structKarm_1_1MutSlice.html',1,'Karm']]]
 ];

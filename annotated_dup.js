@@ -22,6 +22,10 @@ var annotated_dup =
         [ "RequestMinimizeEvent", "structKarm_1_1App_1_1RequestMinimizeEvent.html", null ],
         [ "TypeEvent", "structKarm_1_1App_1_1TypeEvent.html", "structKarm_1_1App_1_1TypeEvent" ]
       ] ],
+      [ "Archive", "namespaceKarm_1_1Archive.html", [
+        [ "Huff", "structKarm_1_1Archive_1_1Huff.html", "structKarm_1_1Archive_1_1Huff" ],
+        [ "Window", "structKarm_1_1Archive_1_1Window.html", "structKarm_1_1Archive_1_1Window" ]
+      ] ],
       [ "Async", "namespaceKarm_1_1Async.html", [
         [ "Awaiter", "structKarm_1_1Async_1_1Awaiter.html", "structKarm_1_1Async_1_1Awaiter" ],
         [ "Cancellation", "structKarm_1_1Async_1_1Cancellation.html", "structKarm_1_1Async_1_1Cancellation" ],
@@ -657,6 +661,7 @@ var annotated_dup =
       [ "MonotonicClock", "structKarm_1_1MonotonicClock.html", null ],
       [ "Month", "structKarm_1_1Month.html", "structKarm_1_1Month" ],
       [ "Move", "structKarm_1_1Move.html", null ],
+      [ "MutBits", "structKarm_1_1MutBits.html", "structKarm_1_1MutBits" ],
       [ "MutCursor", "structKarm_1_1MutCursor.html", "structKarm_1_1MutCursor" ],
       [ "MutSlice", "structKarm_1_1MutSlice.html", "structKarm_1_1MutSlice" ],
       [ "Niche", "structKarm_1_1Niche.html", null ],

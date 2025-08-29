@@ -11,6 +11,6 @@ var structKarm_1_1Io_1_1Emit =
     [ "operator()", "structKarm_1_1Io_1_1Emit.html#aecf424374168ae531cbd6e72b6658b25", null ],
     [ "operator()", "structKarm_1_1Io_1_1Emit.html#a623e07ee87568a6f2ba24e41da0687a2", null ],
     [ "operator()", "structKarm_1_1Io_1_1Emit.html#a4b99287e5378726d99f044fca98f2ef3", null ],
-    [ "write", "structKarm_1_1Io_1_1Emit.html#a620a71d2328d29e2e72dc4dfe852e00f", null ],
+    [ "write", "structKarm_1_1Io_1_1Emit.html#aba4b61f706af5e6e335d0f8b66d0d982", null ],
     [ "writeRune", "structKarm_1_1Io_1_1Emit.html#a7f26678ffb09389ad8875634f06d426e", null ]
 ];

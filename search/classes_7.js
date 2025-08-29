@@ -11,5 +11,5 @@ var searchData=
   ['hsvsquare_8',['HsvSquare',['../structKarm_1_1Kira_1_1HsvSquare.html',1,'Karm::Kira']]],
   ['httptransport_9',['HttpTransport',['../structKarm_1_1Http_1_1HttpTransport.html',1,'Karm::Http']]],
   ['huevaluechroma_10',['HueValueChroma',['../structKarm_1_1Gfx_1_1HueValueChroma.html',1,'Karm::Gfx']]],
-  ['huff_11',['Huff',['../structKarm_1_1Image_1_1Jpeg_1_1Huff.html',1,'Karm::Image::Jpeg']]]
+  ['huff_11',['Huff',['../structKarm_1_1Archive_1_1Huff.html',1,'Karm::Archive::Huff'],['../structKarm_1_1Image_1_1Jpeg_1_1Huff.html',1,'Karm::Image::Jpeg::Huff']]]
 ];
