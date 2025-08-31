@@ -14,7 +14,7 @@ var searchData=
   ['unique_11',['UNIQUE',['../structKarm_1_1Font_1_1Ttf_1_1Name.html#a25cf0d819a233e5e96ba9399abf62d58a53e1190787b88e25130c89c4a9d915e4',1,'Karm::Font::Ttf::Name']]],
   ['unknown_12',['UNKNOWN',['../structKarm_1_1Ml_1_1BpeVocab_1_1TokenInfos.html#a2086adb0179f7f6181702ba65d416e3da696b031073e74bf2cb98e5ef201d4aa3',1,'Karm::Ml::BpeVocab::TokenInfos::UNKNOWN()'],['../namespaceKarm_1_1Http.html#a5845f99333d8889a8c0de8901840f671a696b031073e74bf2cb98e5ef201d4aa3',1,'Karm::Http::UNKNOWN()']]],
   ['unused_13',['UNUSED',['../structKarm_1_1Ml_1_1BpeVocab_1_1TokenInfos.html#a2086adb0179f7f6181702ba65d416e3da3bc180bd00be2c60a3a5a68e0dd49503',1,'Karm::Ml::BpeVocab::TokenInfos']]],
-  ['up_14',['UP',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a8ee6c95c8f16d7c5cf02470cb719b907',1,'Karm::Tty::Cmd']]],
+  ['up_14',['UP',['../structKarm_1_1Tty_1_1Cmd.html#abbb98825a0ae9609f03910a43aead3e5a8ee6c95c8f16d7c5cf02470cb719b907',1,'Karm::Tty::Cmd::UP()'],['../namespaceKarm_1_1Image_1_1Png.html#af2a868aafe622078a15d268663739bc6afbaedde498cdead4f2780217646e9ba1',1,'Karm::Image::Png::UP()']]],
   ['update_15',['UPDATE',['../namespaceKarm_1_1Net_1_1Dns.html#a47f8b09c32e5921ee31751a3046bd3faa8c72d5cccafcbf4d359476e361aa06ba',1,'Karm::Net::Dns']]],
   ['upper_16',['UPPER',['../namespaceKarm_1_1Io.html#ab3289aef9c6dbeb8105ef83dc36c9672a9e43f5291e6fcb2ad99c8e3f91acd179',1,'Karm::Io::UPPER()'],['../namespaceKarm_1_1Sys.html#a4bc4dd239ab723c5768e73b651e5c8d4a9e43f5291e6fcb2ad99c8e3f91acd179',1,'Karm::Sys::UPPER()']]],
   ['upper_5ffirst_17',['UPPER_FIRST',['../namespaceKarm_1_1Io.html#ab3289aef9c6dbeb8105ef83dc36c9672a01d25b9cd7130cde878ddebcd05205b6',1,'Karm::Io']]],

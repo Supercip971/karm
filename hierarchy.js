@@ -79,10 +79,6 @@ var hierarchy =
       [ "Karm::Font::Ttf::Post", "structKarm_1_1Font_1_1Ttf_1_1Post.html", null ],
       [ "Karm::Font::Ttf::ScriptList", "structKarm_1_1Font_1_1Ttf_1_1ScriptList.html", null ],
       [ "Karm::Font::Ttf::ScriptTable", "structKarm_1_1Font_1_1Ttf_1_1ScriptTable.html", null ],
-      [ "Karm::Image::Png::Idat", "structKarm_1_1Image_1_1Png_1_1Idat.html", null ],
-      [ "Karm::Image::Png::Iend", "structKarm_1_1Image_1_1Png_1_1Iend.html", null ],
-      [ "Karm::Image::Png::Ihdr", "structKarm_1_1Image_1_1Png_1_1Ihdr.html", null ],
-      [ "Karm::Image::Png::Plte", "structKarm_1_1Image_1_1Png_1_1Plte.html", null ],
       [ "Karm::Image::Qoi::Decoder", "structKarm_1_1Image_1_1Qoi_1_1Decoder.html", null ]
     ] ],
     [ "Karm::Be< T >", "structKarm_1_1Be.html", null ],

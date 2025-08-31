@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['whence_0',['Whence',['../namespaceKarm_1_1Io.html#a22d6cdaab0f64553050fcefa7a55a172',1,'Karm::Io']]]
+  ['valuetype_0',['ValueType',['../namespaceKarm_1_1Ml_1_1Gguf.html#a5bbf19e28eca480c0956db66ad3bfe3a',1,'Karm::Ml::Gguf']]]
 ];

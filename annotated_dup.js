@@ -202,11 +202,7 @@ var annotated_dup =
           [ "Huff", "structKarm_1_1Image_1_1Jpeg_1_1Huff.html", "structKarm_1_1Image_1_1Jpeg_1_1Huff" ]
         ] ],
         [ "Png", "namespaceKarm_1_1Image_1_1Png.html", [
-          [ "Decoder", "structKarm_1_1Image_1_1Png_1_1Decoder.html", "structKarm_1_1Image_1_1Png_1_1Decoder" ],
-          [ "Idat", "structKarm_1_1Image_1_1Png_1_1Idat.html", null ],
-          [ "Iend", "structKarm_1_1Image_1_1Png_1_1Iend.html", null ],
-          [ "Ihdr", "structKarm_1_1Image_1_1Png_1_1Ihdr.html", "structKarm_1_1Image_1_1Png_1_1Ihdr" ],
-          [ "Plte", "structKarm_1_1Image_1_1Png_1_1Plte.html", null ]
+          [ "Decoder", "structKarm_1_1Image_1_1Png_1_1Decoder.html", "structKarm_1_1Image_1_1Png_1_1Decoder" ]
         ] ],
         [ "Qoi", "namespaceKarm_1_1Image_1_1Qoi.html", [
           [ "Decoder", "structKarm_1_1Image_1_1Qoi_1_1Decoder.html", "structKarm_1_1Image_1_1Qoi_1_1Decoder" ]

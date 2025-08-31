@@ -7,6 +7,6 @@ var structKarm_1_1Image_1_1Bmp_1_1Decoder =
     ] ],
     [ "decode", "structKarm_1_1Image_1_1Bmp_1_1Decoder.html#a422b506fc0203119ed0ba160ce2619fb", null ],
     [ "height", "structKarm_1_1Image_1_1Bmp_1_1Decoder.html#a7c938b5cde2210115faa05e4f7835093", null ],
-    [ "repr", "structKarm_1_1Image_1_1Bmp_1_1Decoder.html#a1194e07377eb6d41704ac5075c07e715", null ],
+    [ "repr", "structKarm_1_1Image_1_1Bmp_1_1Decoder.html#a81dbef8eb83e0f31793975cd480a2239", null ],
     [ "width", "structKarm_1_1Image_1_1Bmp_1_1Decoder.html#aabea2d428a31eb5d47f1f51e1219ca63", null ]
 ];
