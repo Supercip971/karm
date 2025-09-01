@@ -122,6 +122,7 @@ var hierarchy =
     [ "Karm::Ui::CloseDialogEvent", "structKarm_1_1Ui_1_1CloseDialogEvent.html", null ],
     [ "Karm::Ui::ClosePopoverEvent", "structKarm_1_1Ui_1_1ClosePopoverEvent.html", null ],
     [ "Karm::Tty::Cmd", "structKarm_1_1Tty_1_1Cmd.html", null ],
+    [ "Karm::Md::Code", "structKarm_1_1Md_1_1Code.html", null ],
     [ "Karm::Gfx::Color", "structKarm_1_1Gfx_1_1Color.html", null ],
     [ "Karm::Image::Jpeg::Decoder::Component", "structKarm_1_1Image_1_1Jpeg_1_1Decoder_1_1Component.html", null ],
     [ "Karm::Sys::CondVar", "structKarm_1_1Sys_1_1CondVar.html", null ],
@@ -372,6 +373,7 @@ var hierarchy =
     [ "Karm::Distinct< u64, struct _PortTag >", "structKarm_1_1Distinct.html", [
       [ "Karm::Sys::Port", "structKarm_1_1Sys_1_1Port.html", null ]
     ] ],
+    [ "Karm::Md::Document", "structKarm_1_1Md_1_1Document.html", null ],
     [ "Karm::Ui::DragEvent", "structKarm_1_1Ui_1_1DragEvent.html", null ],
     [ "Karm::Test::Driver", "structKarm_1_1Test_1_1Driver.html", null ],
     [ "Karm::Duration", "structKarm_1_1Duration.html", null ],
@@ -510,6 +512,8 @@ var hierarchy =
     [ "Karm::Ml::Gguf::Header", "structKarm_1_1Ml_1_1Gguf_1_1Header.html", null ],
     [ "Karm::Net::Dns::Header", "structKarm_1_1Net_1_1Dns_1_1Header.html", null ],
     [ "Karm::Sys::Header", "structKarm_1_1Sys_1_1Header.html", null ],
+    [ "Karm::Md::Heading", "structKarm_1_1Md_1_1Heading.html", null ],
+    [ "Karm::Md::Hr", "structKarm_1_1Md_1_1Hr.html", null ],
     [ "Karm::Gfx::Hsl", "structKarm_1_1Gfx_1_1Hsl.html", null ],
     [ "Karm::Gfx::Hsv", "structKarm_1_1Gfx_1_1Hsv.html", null ],
     [ "Karm::Gfx::HueValueChroma", "structKarm_1_1Gfx_1_1HueValueChroma.html", null ],
@@ -929,6 +933,7 @@ var hierarchy =
       [ "Karm::Gfx::Filter", "structKarm_1_1Gfx_1_1Filter.html", null ],
       [ "Karm::Gfx::Fmt", "structKarm_1_1Gfx_1_1Fmt.html", null ],
       [ "Karm::Math::Expr", "structKarm_1_1Math_1_1Expr.html", null ],
+      [ "Karm::Md::Node", "structKarm_1_1Md_1_1Node.html", null ],
       [ "Karm::Pdf::Value", "structKarm_1_1Pdf_1_1Value.html", null ]
     ] ],
     [ "Karm::Union< Ip4, Ip6 >", "structKarm_1_1Union.html", [

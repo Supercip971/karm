@@ -1,7 +1,7 @@
 var searchData=
 [
   ['badge_2ecpp_0',['badge.cpp',['../badge_8cpp.html',1,'']]],
-  ['base_2ecpp_1',['base.cpp',['../karm-image_2tga_2base_8cpp.html',1,'(Global Namespace)'],['../karm-image_2qoi_2base_8cpp.html',1,'(Global Namespace)'],['../karm-image_2jpeg_2base_8cpp.html',1,'(Global Namespace)'],['../karm-core_2icu_2base_8cpp.html',1,'(Global Namespace)'],['../karm-core_2async_2base_8cpp.html',1,'(Global Namespace)'],['../karm-core_2base_2base_8cpp.html',1,'(Global Namespace)']]],
+  ['base_2ecpp_1',['base.cpp',['../karm-image_2tga_2base_8cpp.html',1,'(Global Namespace)'],['../karm-image_2qoi_2base_8cpp.html',1,'(Global Namespace)'],['../karm-image_2jpeg_2base_8cpp.html',1,'(Global Namespace)'],['../karm-core_2icu_2base_8cpp.html',1,'(Global Namespace)'],['../karm-core_2base_2base_8cpp.html',1,'(Global Namespace)'],['../karm-core_2async_2base_8cpp.html',1,'(Global Namespace)'],['../karm-md_2base_8cpp.html',1,'(Global Namespace)']]],
   ['base_2eh_2',['base.h',['../base_8h.html',1,'']]],
   ['bidi_2ecpp_3',['bidi.cpp',['../bidi_8cpp.html',1,'']]],
   ['bigint_2ecpp_4',['bigint.cpp',['../bigint_8cpp.html',1,'']]],

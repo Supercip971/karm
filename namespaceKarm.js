@@ -22,6 +22,7 @@ var namespaceKarm =
     [ "Kv", "namespaceKarm_1_1Kv.html", "namespaceKarm_1_1Kv" ],
     [ "Logger", "namespaceKarm_1_1Logger.html", null ],
     [ "Math", "namespaceKarm_1_1Math.html", "namespaceKarm_1_1Math" ],
+    [ "Md", "namespaceKarm_1_1Md.html", "namespaceKarm_1_1Md" ],
     [ "Meta", "namespaceKarm_1_1Meta.html", "namespaceKarm_1_1Meta" ],
     [ "Mime", "namespaceKarm_1_1Mime.html", "namespaceKarm_1_1Mime" ],
     [ "Ml", "namespaceKarm_1_1Ml.html", "namespaceKarm_1_1Ml" ],
