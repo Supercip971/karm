@@ -1,6 +1,5 @@
 var dir_ce01f1d74e95ef6fb12cbe059cde8a52 =
 [
-    [ "cli", "dir_0b7b9d76d9ee15fe918ebb20da09782d.html", "dir_0b7b9d76d9ee15fe918ebb20da09782d" ],
     [ "file-printer-impl.cpp", "file-printer-impl_8cpp.html", "file-printer-impl_8cpp" ],
     [ "file-printer.cpp", "file-printer_8cpp.html", "file-printer_8cpp" ],
     [ "image-printer.cpp", "image-printer_8cpp.html", "image-printer_8cpp" ],

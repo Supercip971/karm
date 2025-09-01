@@ -4,7 +4,6 @@ var dir_b2950a729f812980ba41198a60b421b7 =
     [ "tests", "dir_9301604cdfa6aea12e9e3362d5acae3f.html", "dir_9301604cdfa6aea12e9e3362d5acae3f" ],
     [ "ttf", "dir_6012e6c92dfd65e8001f97df26823daf.html", "dir_6012e6c92dfd65e8001f97df26823daf" ],
     [ "database.cpp", "database_8cpp.html", "database_8cpp" ],
-    [ "database.h", "database_8h.html", "database_8h" ],
     [ "loader.cpp", "karm-font_2loader_8cpp.html", "karm-font_2loader_8cpp" ],
-    [ "loader.h", "loader_8h.html", "loader_8h" ]
+    [ "mod.cpp", "karm-font_2mod_8cpp.html", "karm-font_2mod_8cpp" ]
 ];

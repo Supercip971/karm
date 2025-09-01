@@ -1,14 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"namespaceKarm_1_1Icu.html#a374f62108410f9c0065ef638d0b1fb63afc37fbde490e37c1258738a18b9aa4c7":[0,0,0,14,1,14],
-"namespaceKarm_1_1Icu.html#a687a29914e1f0957f9ebc886a1952d99":[0,0,0,14,2],
-"namespaceKarm_1_1Icu.html#a88b756f71ea3bfc24438fd8178db4737":[0,0,0,14,3],
-"namespaceKarm_1_1Image.html":[0,0,0,15],
-"namespaceKarm_1_1Image.html#a31b1c0a4db7dae4c6c0568a63655b008":[0,0,0,15,10],
-"namespaceKarm_1_1Image.html#a406c783b1e20228ce80539813b945cfb":[0,0,0,15,12],
-"namespaceKarm_1_1Image.html#a51042aed95ea33c6975b61c7e965a1bd":[0,0,0,15,13],
-"namespaceKarm_1_1Image.html#a7bd9864874ddde387dc8d0314e09bf34":[0,0,0,15,11],
-"namespaceKarm_1_1Image.html#aa604b429c8fb6921ccfad52c1c5ba38e":[0,0,0,15,8],
 "namespaceKarm_1_1Image.html#ae009dbcf3c60e19d2a2eb2a4ae98791c":[0,0,0,15,9],
 "namespaceKarm_1_1Image_1_1Bmp.html":[0,0,0,15,0],
 "namespaceKarm_1_1Image_1_1Bmp.html#a14cfb0eb56095d680a48b6c05aadf884":[0,0,0,15,0,1],
@@ -249,5 +240,14 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Io_1_1Tests.html#a5cfb16d5261334fca1c8be424c2f07dc":[0,0,0,16,0,11],
 "namespaceKarm_1_1Io_1_1Tests.html#a5f640bb7f31fcdb6d048c2caa6676c07":[0,0,0,16,0,37],
 "namespaceKarm_1_1Io_1_1Tests.html#a6285439b87244e48d0f914d1dd7a33f4":[0,0,0,16,0,4],
-"namespaceKarm_1_1Io_1_1Tests.html#a6af4616cbe668fbc901385acebd5c68e":[0,0,0,16,0,14]
+"namespaceKarm_1_1Io_1_1Tests.html#a6af4616cbe668fbc901385acebd5c68e":[0,0,0,16,0,14],
+"namespaceKarm_1_1Io_1_1Tests.html#a6ba757df793d376d23f8da659ce1a7be":[0,0,0,16,0,0],
+"namespaceKarm_1_1Io_1_1Tests.html#a6ba757df793d376d23f8da659ce1a7bea3d75eec709b70a350e143492192a1736":[0,0,0,16,0,0,0],
+"namespaceKarm_1_1Io_1_1Tests.html#a6ba757df793d376d23f8da659ce1a7beaf5aedf92178e1396cd4181962c8a9979":[0,0,0,16,0,0,1],
+"namespaceKarm_1_1Io_1_1Tests.html#a7721a821864fe0f0e4a88b8c4cf95a5f":[0,0,0,16,0,7],
+"namespaceKarm_1_1Io_1_1Tests.html#a77939c1843d5ad8b5ac46bfd233c1572":[0,0,0,16,0,12],
+"namespaceKarm_1_1Io_1_1Tests.html#a878456d49b220c79174e6bafe0d56bb1":[0,0,0,16,0,29],
+"namespaceKarm_1_1Io_1_1Tests.html#a9874c166d770fc156de8218c552e326f":[0,0,0,16,0,30],
+"namespaceKarm_1_1Io_1_1Tests.html#a9eae71a276ca97253f17856c4456a32a":[0,0,0,16,0,44],
+"namespaceKarm_1_1Io_1_1Tests.html#aa89fbcc13dda3af8b9993787789cdd0f":[0,0,0,16,0,18]
 };
