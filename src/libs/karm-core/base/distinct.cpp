@@ -4,6 +4,7 @@ module;
 
 export module Karm.Core:base.distinct;
 
+import :base.hash;
 import :base.base;
 
 namespace Karm {
@@ -132,6 +133,10 @@ struct Distinct {
     always_inline constexpr Distinct<T, Tag>& operator>>=(Distinct<T, Tag> other) {
         _value >>= other._value;
         return *this;
+    }
+
+    always_inline constexpr u64 hash() const {
+        return Karm::hash(_value);
     }
 };
 

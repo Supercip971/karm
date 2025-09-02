@@ -13,6 +13,14 @@ test$("set-put") {
     return Ok();
 }
 
+
+test$("set-put") {
+    Set<Union<Distinct<Str, struct A>, int>> set{};
+    set.put(420);
+
+    return Ok();
+}
+
 test$("set-remove") {
     Set<int> set{};
     set.put(420);

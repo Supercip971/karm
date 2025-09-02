@@ -580,11 +580,10 @@ Tuple(T0, T1, T2, T3, T4, T5, T6, T7) -> Tuple<T0, T1, T2, T3, T4, T5, T6, T7>;
 
 export template <typename... Ts>
 constexpr u64 hash(Tuple<Ts...> const& v) {
-    auto res = hash(sizeof...(Ts));
-    v.apply([&](auto const& v) {
-        res = hash(res, v);
+    return v.apply([&](auto const&... v) {
+        return hash(hash(sizeof...(Ts)), v...);
     });
-    return res;
 }
+
 
 } // namespace Karm
