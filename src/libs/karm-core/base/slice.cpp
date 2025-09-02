@@ -62,9 +62,9 @@ constexpr u64 hash(T const& v)
         { t.hash() } -> Meta::Same<u64>;
     })
 {
-    u64 res = hash();
+    u64 res = Karm::hash();
     for (usize i = 0; i < v.len(); i++)
-        res = hash(res, v.buf()[i]);
+        res = Karm::hash(res, v.buf()[i]);
     return res;
 }
 
