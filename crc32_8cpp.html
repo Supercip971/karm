@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Karm: src/libs/karm-crypto/sha2.h File Reference</title>
+<title>Karm: src/libs/karm-crypto/crc32.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('sha2_8h.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('crc32_8cpp.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -97,15 +97,20 @@ $(document).ready(function(){initNavTree('sha2_8h.html',''); initResizable(); })
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">sha2.h File Reference</div></div>
+  <div class="headertitle"><div class="title">crc32.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="sha2_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
+<div class="textblock"><code>#include &lt;<a class="el" href="karm-core_2macros_8h_source.html">karm-core/macros.h</a>&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Crypto_1_1Crc32.html">Karm::Crypto::Crc32</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
@@ -115,18 +120,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a431bbffc5eeb1a43daebd7c5c07454e0"><td class="memItemLeft" align="right" valign="top">Array&lt; u8, SHA224_BYTES &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Crypto.html#a431bbffc5eeb1a43daebd7c5c07454e0">Karm::Crypto::sha224</a> (Bytes bytes)</td></tr>
-<tr class="separator:a431bbffc5eeb1a43daebd7c5c07454e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fd70cab51b691c2dffaced68dbd2c93"><td class="memItemLeft" align="right" valign="top">Array&lt; u8, SHA256_BYTES &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Crypto.html#a5fd70cab51b691c2dffaced68dbd2c93">Karm::Crypto::sha256</a> (Bytes bytes)</td></tr>
-<tr class="separator:a5fd70cab51b691c2dffaced68dbd2c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17e6d5cdf9d1ff813f39627213569605"><td class="memItemLeft" align="right" valign="top">Array&lt; u8, SHA384_BYTES &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Crypto.html#a17e6d5cdf9d1ff813f39627213569605">Karm::Crypto::sha384</a> (Bytes bytes)</td></tr>
-<tr class="separator:a17e6d5cdf9d1ff813f39627213569605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026da456c2f36b9a887c8be8e24237fd"><td class="memItemLeft" align="right" valign="top">Array&lt; u8, SHA512_BYTES &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Crypto.html#a026da456c2f36b9a887c8be8e24237fd">Karm::Crypto::sha512</a> (Bytes bytes)</td></tr>
-<tr class="separator:a026da456c2f36b9a887c8be8e24237fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b737c703026ba99243e8446e52f8d4"><td class="memItemLeft" align="right" valign="top">export Crc32::Digest&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Crypto.html#a61b737c703026ba99243e8446e52f8d4">Karm::Crypto::crc32</a> (Bytes bytes, u32 crc=0xFFFFFFFF)</td></tr>
+<tr class="separator:a61b737c703026ba99243e8446e52f8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sha2_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crc32_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5afedc2072e22ebbd3d6d7f82ad29520"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crc32_8cpp.html#a5afedc2072e22ebbd3d6d7f82ad29520">Crypto</a></td></tr>
+<tr class="separator:a5afedc2072e22ebbd3d6d7f82ad29520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crc32_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
 <tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -144,12 +147,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5afedc2072e22ebbd3d6d7f82ad29520" name="a5afedc2072e22ebbd3d6d7f82ad29520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5afedc2072e22ebbd3d6d7f82ad29520">&#9670;&#160;</a></span>Crypto</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="impls_2impl-posix_2xdg_2prefs_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Crypto</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_799f3ab960e51e7b817c99a858c44ced.html">karm-crypto</a></li><li class="navelem"><a class="el" href="sha2_8h.html">sha2.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_799f3ab960e51e7b817c99a858c44ced.html">karm-crypto</a></li><li class="navelem"><a class="el" href="crc32_8cpp.html">crc32.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

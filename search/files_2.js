@@ -27,7 +27,7 @@ var searchData=
   ['context_2ecpp_24',['context.cpp',['../karm-core_2async_2context_8cpp.html',1,'(Global Namespace)'],['../karm-sys_2context_8cpp.html',1,'(Global Namespace)']]],
   ['context_2eh_25',['context.h',['../context_8h.html',1,'']]],
   ['cow_2ecpp_26',['cow.cpp',['../cow_8cpp.html',1,'']]],
-  ['crc32_2eh_27',['crc32.h',['../crc32_8h.html',1,'']]],
+  ['crc32_2ecpp_27',['crc32.cpp',['../crc32_8cpp.html',1,'']]],
   ['cstr_2ecpp_28',['cstr.cpp',['../cstr_8cpp.html',1,'']]],
   ['ctype_2ecpp_29',['ctype.cpp',['../ctype_8cpp.html',1,'']]],
   ['cursor_2ecpp_30',['cursor.cpp',['../karm-core_2base_2cursor_8cpp.html',1,'(Global Namespace)'],['../karm-tty_2cursor_8cpp.html',1,'(Global Namespace)']]],
