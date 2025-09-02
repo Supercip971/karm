@@ -30,6 +30,10 @@ export constexpr u64 hash(Meta::Float auto const& v) {
     return fnv64(reinterpret_cast<u8 const*>(&v), sizeof(v));
 }
 
+export template <typename T> u64 hash(T* ptr) {
+    return hash((usize)ptr);
+}
+
 export template <typename T>
 constexpr u64 hash(T const& t)
     requires requires(T const t) {
@@ -50,6 +54,12 @@ export constexpr u64 hash() {
 export template <typename T>
 constexpr u64 hash(u64 a, T const& v) {
     return a ^ (hash(v) + 0x9e3779b97f4a7c15);
+}
+
+export template<typename... Ts>
+constexpr u64 hash(u64 a, Ts const&... vs) {
+    ([&](auto const& v){ a = hash(a, v);}(vs), ...);
+    return a;
 }
 
 } // namespace Karm
