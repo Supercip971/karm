@@ -1,3 +1,7 @@
+module;
+
+#include <stdio.h>
+
 export module Karm.Core:base.set;
 
 import :meta.cvrp;
@@ -20,7 +24,7 @@ struct Set {
         State state = State::FREE;
         Manual<T> value;
 
-        bool clear() {
+        bool kill() {
             if (state != State::USED)
                 return false;
             state = State::DEAD;
@@ -48,7 +52,7 @@ struct Set {
         }
 
         template <typename... Args>
-        bool put(Args&&... args) {
+        bool _put(Args&&... args) {
             if (state == State::USED) {
                 unwrap() = T(std::forward<Args>(args)...);
                 return false;
@@ -57,6 +61,14 @@ struct Set {
             value.ctor(std::forward<Args>(args)...);
             state = State::USED;
             return true;
+        }
+
+        void put(T const& t) {
+            _put(t);
+        }
+
+        bool putAndCheckIfWasUnused(T const& t) {
+            return _put(t);
         }
     };
 
@@ -72,7 +84,7 @@ struct Set {
     Set(Set const& other) {
         _cap = other._cap;
         _len = other._len;
-        _slots = new Slot[_cap];
+        _slots = _cap == 0 ? nullptr : new Slot[_cap];
         for (usize i = 0; i < _cap; i++) {
             if (other._slots[i].state == State::USED) {
                 _slots[i].put(other._slots[i].unwrap());
@@ -149,33 +161,32 @@ struct Set {
             rehash(max(_len, _cap * 2, 16uz));
     }
 
-    template <typename Self, Meta::Equatable<T> U>
-    auto lookup(this Self& self, U const& u) -> Meta::CopyConst<Self, Slot>* {
-        if (not self._slots)
+    template <Meta::Equatable<T> U>
+    Slot* lookup(U const& u) const {
+        if (not _slots)
             return nullptr;
 
-        usize start = hash(u) % self._cap;
+        usize start = hash(u) % _cap;
         usize i = start;
-        Meta::CopyConst<Self, Slot>* deadSlot = nullptr;
-        while (self._slots[i].state != State::FREE) {
-            auto& s = self._slots[i];
+        Slot* deadSlot = nullptr;
+        while (_slots[i].state != State::FREE) {
+            auto& s = _slots[i];
 
-            if (s.state == State::USED and
-                s.unwrap() == u)
+            if (s.state == State::USED and s.unwrap() == u)
                 return &s;
 
             if (s.state == State::DEAD and not deadSlot)
                 deadSlot = &s;
 
-            i = (i + 1) % self._cap;
+            i = (i + 1) % _cap; // is this optimized?
             if (i == start)
-                return nullptr;
+                break;
         }
 
         if (deadSlot)
             return deadSlot;
 
-        return &self._slots[i];
+        return _slots[i].state == FREE? &_slots[i] : nullptr;
     }
 
     void put(T const& t) {
@@ -184,28 +195,35 @@ struct Set {
             ensureForInsert();
             slot = lookup(t);
         }
-        if (slot->put(t)) {
+        if (slot->putAndCheckIfWasUnused(t)) {
             _len++;
         }
     }
 
-    bool has(T const& t) const {
-        if (auto it = lookup(t); it and it->state == State::USED)
+    template <Meta::Equatable<T> U>
+    bool has(U const& u) const {
+        if (auto it = lookup(u); it and it->state == State::USED)
             return true;
         return false;
     }
 
-    void del(T const& t) {
-        if (auto it = lookup(t); it and it->state == State::USED) {
-            if (it->clear())
+    template <Meta::Equatable<T> U>
+    bool del(U const& u) {
+        bool deleted = false;
+        if (auto it = lookup(u); it and it->state == State::USED) {
+            if (it->kill()) {
+                deleted = true;
+                // Why not leave here?
                 _len--;
+            }
         }
+        return deleted;
     }
 
     void clear() {
         for (usize i = 0; i < _cap; i++) {
             if (_slots[i].state == State::USED)
-                _slots[i].clear();
+                _slots[i].kill();
         }
         _len = 0;
     }

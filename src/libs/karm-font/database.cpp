@@ -164,7 +164,7 @@ export struct Database {
     Vec<Record> _records;
 
     // FIXME: these value depend on the correct loading of the bundle
-    Map<Symbol, Symbol> _genericFamily = {
+    Map<Symbol, Symbol> _genericFamily = Map<Symbol, Symbol>::fromList({
         {"serif"_sym, "Noto Serif"_sym},
         {"sans-serif"_sym, "Noto Sans"_sym},
         {"monospace"_sym, "Fira Code"_sym},
@@ -174,7 +174,7 @@ export struct Database {
         {"emoji"_sym, "Noto Emoji"_sym},
         {"math"_sym, "Noto Sans Math"_sym},
         {"fangsong"_sym, "Noto"_sym},
-    };
+    });
 
     void add(Record record) {
         _records.pushBack(record);

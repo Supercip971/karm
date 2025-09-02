@@ -51,6 +51,10 @@ struct Ref {
     bool operator==(Ref const& other) const {
         return _ptr == other._ptr;
     }
+
+    u64 hash() const {
+        return Karm::hash(_ptr);
+    }
 };
 
 template <typename T>
