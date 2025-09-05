@@ -47,7 +47,7 @@ var searchData=
   ['quarticout_44',['quarticOut',['../structKarm_1_1Math_1_1Easing.html#ae422c4bdcc0fa5adbe85a17fd9d775c1',1,'Karm::Math::Easing']]],
   ['query_45',['Query',['../structKarm_1_1Font_1_1Query.html',1,'Karm::Font']]],
   ['query_46',['QUERY',['../namespaceKarm_1_1Net_1_1Dns.html#a47f8b09c32e5921ee31751a3046bd3faafb7f9126c3a27d76b4748d3b608c7f87',1,'Karm::Net::Dns']]],
-  ['query_47',['query',['../structKarm_1_1Mime_1_1Url.html#a2dfb904cdeb56dacec27027a183b0561',1,'Karm::Mime::Url']]],
+  ['query_47',['query',['../structKarm_1_1Ref_1_1Url.html#a48500c95cb4de5d23359ddf0709b8529',1,'Karm::Ref::Url']]],
   ['queryclosest_48',['queryClosest',['../structKarm_1_1Font_1_1Database.html#a7c80be8fb2fabe8e5967d081bef61340',1,'Karm::Font::Database']]],
   ['queryexact_49',['queryExact',['../structKarm_1_1Font_1_1Database.html#ac513829f39d4ba45534a2f305266747a',1,'Karm::Font::Database']]],
   ['queryfamily_50',['queryFamily',['../structKarm_1_1Font_1_1Database.html#ac0300464b3bb57d860b25d1aaebaecbc',1,'Karm::Font::Database']]],

@@ -7,7 +7,7 @@ var searchData=
   ['paperseries_4',['PaperSeries',['../structKarm_1_1Print_1_1PaperSeries.html',1,'Karm::Print']]],
   ['paperstock_5',['PaperStock',['../structKarm_1_1Print_1_1PaperStock.html',1,'Karm::Print']]],
   ['parser_6',['Parser',['../structKarm_1_1Font_1_1Ttf_1_1Parser.html',1,'Karm::Font::Ttf']]],
-  ['path_7',['Path',['../structKarm_1_1Math_1_1Path.html',1,'Karm::Math::Path'],['../structKarm_1_1Mime_1_1Path.html',1,'Karm::Mime::Path']]],
+  ['path_7',['Path',['../structKarm_1_1Math_1_1Path.html',1,'Karm::Math::Path'],['../structKarm_1_1Ref_1_1Path.html',1,'Karm::Ref::Path']]],
   ['pdfpage_8',['PdfPage',['../structKarm_1_1Print_1_1PdfPage.html',1,'Karm::Print']]],
   ['pdfprinter_9',['PdfPrinter',['../structKarm_1_1Print_1_1PdfPrinter.html',1,'Karm::Print']]],
   ['picture_10',['Picture',['../structKarm_1_1Image_1_1Picture.html',1,'Karm::Image']]],

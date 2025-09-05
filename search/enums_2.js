@@ -8,7 +8,7 @@ var searchData=
   ['codeclass_5',['CodeClass',['../namespaceKarm_1_1Http.html#a5845f99333d8889a8c0de8901840f671',1,'Karm::Http']]],
   ['color_6',['Color',['../namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5',1,'Karm::Tty']]],
   ['colortype_7',['ColorType',['../namespaceKarm_1_1Image_1_1Png.html#ae9227e933d4c816d25b6f394172a3974',1,'Karm::Image::Png']]],
-  ['common_8',['Common',['../structKarm_1_1Mime_1_1Uti.html#af6c5d2bc0d5a41ec582b34273efb82b8',1,'Karm::Mime::Uti']]],
+  ['common_8',['Common',['../structKarm_1_1Ref_1_1Uti.html#a64946c6fa1932d2310c7d92abe2ed7c4',1,'Karm::Ref::Uti']]],
   ['compression_9',['Compression',['../structKarm_1_1Image_1_1Bmp_1_1Decoder.html#a33651946b695d3dc7dc6194a187ca1e8',1,'Karm::Image::Bmp::Decoder']]],
   ['compressionmethod_10',['CompressionMethod',['../namespaceKarm_1_1Image_1_1Png.html#aa018232534117deca3661cdba9834c16',1,'Karm::Image::Png']]],
   ['contenttype_11',['ContentType',['../namespaceTls.html#af4f9673df47c05b9d214c7b1849d92c8',1,'Tls']]]

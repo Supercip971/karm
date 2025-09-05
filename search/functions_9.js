@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['join_0',['join',['../structKarm_1_1Mime_1_1Path.html#a00447d4ca348f76f2e791fb2f9daa96c',1,'Karm::Mime::Path::join(Path const &amp;other) const'],['../structKarm_1_1Mime_1_1Path.html#a5d1bc69c9ba75315a26c7f995c735c73',1,'Karm::Mime::Path::join(Str other) const'],['../structKarm_1_1Mime_1_1Url.html#a134cdb83bef023564a20523dd34dad6e',1,'Karm::Mime::Url::join(Path const &amp;other) const'],['../structKarm_1_1Mime_1_1Url.html#a4fd3790267c48fc42f231b42351e375d',1,'Karm::Mime::Url::join(Str other) const']]]
+  ['join_0',['join',['../structKarm_1_1Ref_1_1Path.html#a8c46553af1b3f181b426afd382adb97f',1,'Karm::Ref::Path::join(Path const &amp;other) const'],['../structKarm_1_1Ref_1_1Path.html#ad4c835d34138dc824ddba1f44b26a977',1,'Karm::Ref::Path::join(Str other) const'],['../structKarm_1_1Ref_1_1Url.html#abbb0265348c803eed76b8460f0e3be62',1,'Karm::Ref::Url::join(Path const &amp;other) const'],['../structKarm_1_1Ref_1_1Url.html#a66210d1cdc824ef6ad92abad2d7c5bb6',1,'Karm::Ref::Url::join(Str other) const']]]
 ];

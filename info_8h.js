@@ -9,5 +9,6 @@ var info_8h =
     [ "sysinfo", "info_8h.html#a6717b7a627dc4a34af1163825e51243b", null ],
     [ "userinfo", "info_8h.html#a7e0fd139780651b811b16669b8ac50f7", null ],
     [ "usersinfo", "info_8h.html#acb32fd2ad609d14b9dc8fd7d817b27e7", null ],
-    [ "Core", "info_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
+    [ "Core", "info_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Ref", "info_8h.html#add789519f7f2dc7d37718eab411af552", null ]
 ];

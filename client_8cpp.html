@@ -106,7 +106,6 @@ $(document).ready(function(){initNavTree('client_8cpp.html',''); initResizable()
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="karm-core_2macros_8h_source.html">karm-core/macros.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="logger_8h_source.html">karm-logger/logger.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="url_8h_source.html">karm-mime/url.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -124,12 +123,12 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:af767e6af72b067c138d8926b7765ed90"><td class="memItemLeft" align="right" valign="top">export Rc&lt; Client &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#af767e6af72b067c138d8926b7765ed90">Karm::Http::defaultClient</a> ()</td></tr>
 <tr class="separator:af767e6af72b067c138d8926b7765ed90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f4ed49bc8f027cb58395e16e748270f"><td class="memItemLeft" align="right" valign="top">export Async::Task&lt; Rc&lt; Response &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#a3f4ed49bc8f027cb58395e16e748270f">Karm::Http::getAsync</a> (Mime::Url url)</td></tr>
-<tr class="separator:a3f4ed49bc8f027cb58395e16e748270f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46a45d5d6a7b317e61d0da5de374758e"><td class="memItemLeft" align="right" valign="top">export Async::Task&lt; Rc&lt; Response &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#a46a45d5d6a7b317e61d0da5de374758e">Karm::Http::headAsync</a> (Mime::Url url)</td></tr>
-<tr class="separator:a46a45d5d6a7b317e61d0da5de374758e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dd3deb736329c0f010b11d48bc3a30e"><td class="memItemLeft" align="right" valign="top">export Async::Task&lt; Rc&lt; Response &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#a3dd3deb736329c0f010b11d48bc3a30e">Karm::Http::postAsync</a> (Mime::Url url, Rc&lt; Body &gt; body)</td></tr>
-<tr class="separator:a3dd3deb736329c0f010b11d48bc3a30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf01fdd4c09fbb6c236f0cc90466925"><td class="memItemLeft" align="right" valign="top">export Async::Task&lt; Rc&lt; Response &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#a3cf01fdd4c09fbb6c236f0cc90466925">Karm::Http::getAsync</a> (Ref::Url url)</td></tr>
+<tr class="separator:a3cf01fdd4c09fbb6c236f0cc90466925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628177294a7f6956c11d3b9e32ebf34c"><td class="memItemLeft" align="right" valign="top">export Async::Task&lt; Rc&lt; Response &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#a628177294a7f6956c11d3b9e32ebf34c">Karm::Http::headAsync</a> (Ref::Url url)</td></tr>
+<tr class="separator:a628177294a7f6956c11d3b9e32ebf34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64dfe6c8bea58e1a6b8b88ce7b33dd0"><td class="memItemLeft" align="right" valign="top">export Async::Task&lt; Rc&lt; Response &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#aa64dfe6c8bea58e1a6b8b88ce7b33dd0">Karm::Http::postAsync</a> (Ref::Url url, Rc&lt; Body &gt; body)</td></tr>
+<tr class="separator:aa64dfe6c8bea58e1a6b8b88ce7b33dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30c31811dcc7e5293a19cfe7374309d9"><td class="memItemLeft" align="right" valign="top">export Async::Task&lt; Rc&lt; Response &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Http.html#a30c31811dcc7e5293a19cfe7374309d9">Karm::Http::doAsync</a> (Rc&lt; Request &gt; request)</td></tr>
 <tr class="separator:a30c31811dcc7e5293a19cfe7374309d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -143,6 +142,8 @@ Variables</h2></td></tr>
 <tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9c22628d1cefdb9b7dc5262029cb360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="client_8cpp.html#ae9c22628d1cefdb9b7dc5262029cb360">Debug</a></td></tr>
 <tr class="separator:ae9c22628d1cefdb9b7dc5262029cb360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add789519f7f2dc7d37718eab411af552"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="client_8cpp.html#add789519f7f2dc7d37718eab411af552">Ref</a></td></tr>
+<tr class="separator:add789519f7f2dc7d37718eab411af552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="abedc7e19652ef6fd2984ea9cb3d62db5" name="abedc7e19652ef6fd2984ea9cb3d62db5"></a>
@@ -195,6 +196,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add789519f7f2dc7d37718eab411af552" name="add789519f7f2dc7d37718eab411af552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add789519f7f2dc7d37718eab411af552">&#9670;&#160;</a></span>Ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Ref</td>
         </tr>
       </table>
 </div><div class="memdoc">

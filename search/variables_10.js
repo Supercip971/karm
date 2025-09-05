@@ -12,5 +12,5 @@ var searchData=
   ['quant_5fy50_9',['QUANT_Y50',['../namespaceKarm_1_1Image_1_1Jpeg.html#a327262272856e7fc8919178f8788aef4',1,'Karm::Image::Jpeg']]],
   ['quant_5fy75_10',['QUANT_Y75',['../namespaceKarm_1_1Image_1_1Jpeg.html#aa57b77be925ef960efbc325ccc159ee4',1,'Karm::Image::Jpeg']]],
   ['quantid_11',['quantId',['../structKarm_1_1Image_1_1Jpeg_1_1Decoder_1_1Component.html#af04b066b77444e7a7676d187ccfb7efd',1,'Karm::Image::Jpeg::Decoder::Component']]],
-  ['query_12',['query',['../structKarm_1_1Mime_1_1Url.html#a2dfb904cdeb56dacec27027a183b0561',1,'Karm::Mime::Url']]]
+  ['query_12',['query',['../structKarm_1_1Ref_1_1Url.html#a48500c95cb4de5d23359ddf0709b8529',1,'Karm::Ref::Url']]]
 ];

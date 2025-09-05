@@ -8,10 +8,10 @@ var searchData=
   ['union_3c_20ip4_2c_20ip6_20_3e_5',['Union&lt; Ip4, Ip6 &gt;',['../structKarm_1_1Union.html',1,'Karm']]],
   ['updatehsv_6',['UpdateHsv',['../structKarm_1_1Kira_1_1UpdateHsv.html',1,'Karm::Kira']]],
   ['updatepage_7',['UpdatePage',['../structKarm_1_1Kira_1_1UpdatePage.html',1,'Karm::Kira']]],
-  ['url_8',['Url',['../structKarm_1_1Mime_1_1Url.html',1,'Karm::Mime']]],
+  ['url_8',['Url',['../structKarm_1_1Ref_1_1Url.html',1,'Karm::Ref']]],
   ['userinfo_9',['UserInfo',['../structKarm_1_1Sys_1_1UserInfo.html',1,'Karm::Sys']]],
   ['utf16_10',['Utf16',['../structKarm_1_1Utf16.html',1,'Karm']]],
   ['utf32_11',['Utf32',['../structKarm_1_1Utf32.html',1,'Karm']]],
   ['utf8_12',['Utf8',['../structKarm_1_1Utf8.html',1,'Karm']]],
-  ['uti_13',['Uti',['../structKarm_1_1Mime_1_1Uti.html',1,'Karm::Mime']]]
+  ['uti_13',['Uti',['../structKarm_1_1Ref_1_1Uti.html',1,'Karm::Ref']]]
 ];

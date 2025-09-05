@@ -17,7 +17,7 @@ var dir_a74713df2ded80450a347318abff1d42 =
     [ "insets.h", "insets_8h.html", "insets_8h" ],
     [ "mat.h", "mat_8h.html", "mat_8h" ],
     [ "path.cpp", "karm-math_2path_8cpp.html", "karm-math_2path_8cpp" ],
-    [ "path.h", "karm-math_2path_8h.html", "karm-math_2path_8h" ],
+    [ "path.h", "path_8h.html", "path_8h" ],
     [ "poly.h", "poly_8h.html", "poly_8h" ],
     [ "quad.h", "quad_8h.html", "quad_8h" ],
     [ "radii.h", "radii_8h.html", "radii_8h" ],

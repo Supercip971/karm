@@ -102,7 +102,7 @@ var namespaceKarm_1_1Sys =
     [ "println", "namespaceKarm_1_1Sys.html#acf39dc4a94d9f61a03549c3d56d2c6b8", null ],
     [ "rpcSend", "namespaceKarm_1_1Sys.html#a398b9fccccbc82d29a8dbfab5f96d86d", null ],
     [ "run", "namespaceKarm_1_1Sys.html#aa36fa5a23d3794fc6211a3ca141ac5c7", null ],
-    [ "stat", "namespaceKarm_1_1Sys.html#a52a8597670bf29ed09d25ca0dc9516d3", null ],
+    [ "stat", "namespaceKarm_1_1Sys.html#acf367a0985993f3bf8079e8106f89ef0", null ],
     [ "sysinfo", "namespaceKarm_1_1Sys.html#a6717b7a627dc4a34af1163825e51243b", null ],
     [ "time", "namespaceKarm_1_1Sys.html#a0601be2f49b73187ee1d3afef0bc3078", null ],
     [ "uptime", "namespaceKarm_1_1Sys.html#ab9631fa77008203a51d0c7f0fa4ae9cd", null ],

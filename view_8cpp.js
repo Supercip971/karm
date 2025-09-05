@@ -22,7 +22,7 @@ var view_8cpp =
     [ "icon", "view_8cpp.html#af314ae474f053de74dc0a23adc87bb97", null ],
     [ "icon", "view_8cpp.html#a6ea49219bd99a15dbcf5d34590750d20", null ],
     [ "image", "view_8cpp.html#a6d7d86bd58d6b3eed69ec77868d47104", null ],
-    [ "image", "view_8cpp.html#a1b20d65ae50855005273ec7e9bc39892", null ],
+    [ "image", "view_8cpp.html#a0315323c2b42b40d219445284de5dfe2", null ],
     [ "italicFontface", "view_8cpp.html#ac0755966c59899686422dae174a41b32", null ],
     [ "mediumFontface", "view_8cpp.html#a19dbeb8004fb715a8c072b6ade47b529", null ],
     [ "regularFontface", "view_8cpp.html#adac14339288b2bfd7705ae0bde999a5a", null ],
@@ -35,6 +35,7 @@ var view_8cpp =
     [ "Font", "view_8cpp.html#a4a38174846fad5054549e99b3664d91b", null ],
     [ "Image", "view_8cpp.html#a1bad3c590a133e3484b11be311494dae", null ],
     [ "module", "view_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
+    [ "Ref", "view_8cpp.html#add789519f7f2dc7d37718eab411af552", null ],
     [ "Scene", "view_8cpp.html#a347f7c7ef7bd899fa94f6f503c00ab77", null ],
     [ "Ui", "view_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c", null ]
 ];

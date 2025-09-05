@@ -51,7 +51,7 @@ var gguf_8cpp =
       [ "FLOAT64", "gguf_8cpp.html#a5bbf19e28eca480c0956db66ad3bfe3aa139882c654db8a57f7c3092de1dd0b02", null ],
       [ "_LEN", "gguf_8cpp.html#a5bbf19e28eca480c0956db66ad3bfe3aae29d1d2ceca88985d2cf3bd5ba380301", null ]
     ] ],
-    [ "loadGguf", "gguf_8cpp.html#afc6330b7a3fa90ad3d7259010463f758", null ],
+    [ "loadGguf", "gguf_8cpp.html#a4ee6a150e654fc84bac194f59d990e09", null ],
     [ "Core", "gguf_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Ml", "gguf_8cpp.html#adb0848e691bae384ab4801f6c290106f", null ],
     [ "module", "gguf_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]

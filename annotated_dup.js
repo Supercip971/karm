@@ -250,8 +250,8 @@ var annotated_dup =
         [ "Formatter< Karm::Http::Version >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Http_1_1Version_01_4" ],
         [ "Formatter< Karm::Math::Fixed< T, F > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Fixed_3_01T_00_01F_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Fixed_3_01T_00_01F_01_4_01_4" ],
         [ "Formatter< Karm::Math::Frac< T > >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Frac_3_01T_01_4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Math_1_1Frac_3_01T_01_4_01_4" ],
-        [ "Formatter< Karm::Mime::Path >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Path_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Path_01_4" ],
-        [ "Formatter< Karm::Mime::Url >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Url_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Mime_1_1Url_01_4" ],
+        [ "Formatter< Karm::Ref::Path >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Ref_1_1Path_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Ref_1_1Path_01_4" ],
+        [ "Formatter< Karm::Ref::Url >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Ref_1_1Url_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Ref_1_1Url_01_4" ],
         [ "Formatter< Karm::Sys::Ip >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip_01_4" ],
         [ "Formatter< Karm::Sys::Ip4 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip4_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip4_01_4" ],
         [ "Formatter< Karm::Sys::Ip6 >", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4.html", "structKarm_1_1Io_1_1Formatter_3_01Karm_1_1Sys_1_1Ip6_01_4" ],
@@ -364,14 +364,6 @@ var annotated_dup =
         [ "NoCopy", "structKarm_1_1Meta_1_1NoCopy.html", "structKarm_1_1Meta_1_1NoCopy" ],
         [ "Pinned", "structKarm_1_1Meta_1_1Pinned.html", "structKarm_1_1Meta_1_1Pinned" ]
       ] ],
-      [ "Mime", "namespaceKarm_1_1Mime.html", [
-        [ "Mime", "structKarm_1_1Mime_1_1Mime.html", "structKarm_1_1Mime_1_1Mime" ],
-        [ "MimePattern", "structKarm_1_1Mime_1_1MimePattern.html", "structKarm_1_1Mime_1_1MimePattern" ],
-        [ "Path", "structKarm_1_1Mime_1_1Path.html", "structKarm_1_1Mime_1_1Path" ],
-        [ "Suffix2Mime", "structKarm_1_1Mime_1_1Suffix2Mime.html", "structKarm_1_1Mime_1_1Suffix2Mime" ],
-        [ "Url", "structKarm_1_1Mime_1_1Url.html", "structKarm_1_1Mime_1_1Url" ],
-        [ "Uti", "structKarm_1_1Mime_1_1Uti.html", "structKarm_1_1Mime_1_1Uti" ]
-      ] ],
       [ "Ml", "namespaceKarm_1_1Ml.html", [
         [ "Gguf", "namespaceKarm_1_1Ml_1_1Gguf.html", [
           [ "Header", "structKarm_1_1Ml_1_1Gguf_1_1Header.html", "structKarm_1_1Ml_1_1Gguf_1_1Header" ],
@@ -418,6 +410,14 @@ var annotated_dup =
         [ "Settings", "structKarm_1_1Print_1_1Settings.html", "structKarm_1_1Print_1_1Settings" ],
         [ "TrueTypeFontAdapter", "structKarm_1_1Print_1_1TrueTypeFontAdapter.html", "structKarm_1_1Print_1_1TrueTypeFontAdapter" ],
         [ "TtfGlyphInfoAdapter", "structKarm_1_1Print_1_1TtfGlyphInfoAdapter.html", "structKarm_1_1Print_1_1TtfGlyphInfoAdapter" ]
+      ] ],
+      [ "Ref", "namespaceKarm_1_1Ref.html", [
+        [ "Mime", "structKarm_1_1Ref_1_1Mime.html", "structKarm_1_1Ref_1_1Mime" ],
+        [ "MimePattern", "structKarm_1_1Ref_1_1MimePattern.html", "structKarm_1_1Ref_1_1MimePattern" ],
+        [ "Path", "structKarm_1_1Ref_1_1Path.html", "structKarm_1_1Ref_1_1Path" ],
+        [ "Suffix2Mime", "structKarm_1_1Ref_1_1Suffix2Mime.html", "structKarm_1_1Ref_1_1Suffix2Mime" ],
+        [ "Url", "structKarm_1_1Ref_1_1Url.html", "structKarm_1_1Ref_1_1Url" ],
+        [ "Uti", "structKarm_1_1Ref_1_1Uti.html", "structKarm_1_1Ref_1_1Uti" ]
       ] ],
       [ "Regex", "namespaceKarm_1_1Regex.html", [
         [ "AssertionMatcher", "structKarm_1_1Regex_1_1AssertionMatcher.html", "structKarm_1_1Regex_1_1AssertionMatcher" ],

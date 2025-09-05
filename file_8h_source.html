@@ -102,124 +102,123 @@ $(document).ready(function(){initNavTree('file_8h_source.html',''); initResizabl
 <a href="file_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="file_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5">    3</a></span><span class="keyword">import</span> <a class="code hl_namespace" href="namespaceKarm.html">Karm</a>.Core;</div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="mime_8h.html">karm-mime/mime.h</a>&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="async_8h.html">async.h</a>&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="libs_2karm-sys_2fd_8h.html">fd.h</a>&quot;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceKarm_1_1Sys.html">Karm::Sys</a> {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>FileReader;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>FileWriter;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">struct </span>_File :</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    Io::Seeker,</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    Io::Flusher,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Meta::NoCopy {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Rc&lt;Fd&gt; _fd;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Mime::Url _url;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    _File(Rc&lt;Fd&gt; fd, Mime::Url url)</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        : _fd(fd), _url(url) {}</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    Res&lt;usize&gt; seek(Io::Seek seek)<span class="keyword"> override </span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">return</span> _fd-&gt;seek(seek);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    Res&lt;&gt; flush()<span class="keyword"> override </span>{</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">return</span> _fd-&gt;flush();</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">auto</span> flushAsync(<span class="keyword">auto</span>&amp; sched = <a class="code hl_function" href="namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475">globalSched</a>()) {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> sched.flushAsync(_fd);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    Res&lt;Stat&gt; stat() {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">return</span> _fd-&gt;stat();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    Rc&lt;Fd&gt; fd() {</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">return</span> _fd;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html">   47</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structKarm_1_1Sys_1_1FileReader.html">FileReader</a> :</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">virtual</span> _File,</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_struct" href="structKarm_1_1Io_1_1Reader.html">Io::Reader</a> {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">using </span>_File::_File;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html#a3314929681c38088971378872c172a55">   53</a></span>    <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileReader.html#a3314929681c38088971378872c172a55">read</a>(<a class="code hl_struct" href="structKarm_1_1MutSlice.html">MutBytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>)<span class="keyword"> override </span>{</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">return</span> _fd-&gt;read(<a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    [[clang::coro_wrapper]]</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html#a791bfb1d959560d9c0b1bb8f8bd6668b">   58</a></span>    <a class="code hl_typedef" href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Async::Task&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileReader.html#a791bfb1d959560d9c0b1bb8f8bd6668b">readAsync</a>(<a class="code hl_struct" href="structKarm_1_1MutSlice.html">MutBytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>, <a class="code hl_struct" href="structKarm_1_1Sys_1_1Sched.html">Sched</a>&amp; sched = <a class="code hl_function" href="namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475">globalSched</a>()) {</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">return</span> sched.readAsync(_fd, <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html#abb1ffed831b667c64a3d5f07ab41527e">   62</a></span>    <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;Mime::Mime&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileReader.html#abb1ffed831b667c64a3d5f07ab41527e">sniff</a>(<span class="keywordtype">bool</span> ignoreUrl = <span class="keyword">false</span>) {</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">if</span> (not ignoreUrl) {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordflow">if</span> (<span class="keyword">auto</span> mime = <a class="code hl_function" href="namespaceKarm_1_1Mime.html#a5aefae3a226723ab2c4fd30f0ea3e3c7">Mime::sniffSuffix</a>(_url.path.suffix()))</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                <span class="keywordflow">return</span> <a class="code hl_struct" href="structKarm_1_1Ok.html">Ok</a>(mime.take());</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        }</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keyword">auto</span> old = try$(<a class="code hl_function" href="namespaceKarm_1_1Io.html#a42747038ba60f8686190cfb46d818353">Io::tell</a>(*<span class="keyword">this</span>));</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_struct" href="structKarm_1_1Defer.html">Defer</a> _ = [&amp;] {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            <a class="code hl_function" href="structKarm_1_1Io_1_1Seeker.html#a50b1f6d1bdaee71dd1ca566ae0befb50">seek</a>(<a class="code hl_function" href="structKarm_1_1Io_1_1Seek.html#a5fb9fd9ae2c5d24cae9aac584b1cdd27">Io::Seek::fromBegin</a>(old)).unwrap();</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        };</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        try$(<a class="code hl_function" href="structKarm_1_1Io_1_1Seeker.html#a50b1f6d1bdaee71dd1ca566ae0befb50">seek</a>(<a class="code hl_function" href="structKarm_1_1Io_1_1Seek.html#a5fb9fd9ae2c5d24cae9aac584b1cdd27">Io::Seek::fromBegin</a>(0)));</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <span class="keyword">auto</span> mime = try$(<a class="code hl_function" href="namespaceKarm_1_1Mime.html#a929b9dd46083591ccb26c4a62dbc0b05">Mime::sniffReader</a>(*<span class="keyword">this</span>));</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordflow">return</span> <a class="code hl_struct" href="structKarm_1_1Ok.html">Ok</a>(mime);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    }</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileWriter.html">   78</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structKarm_1_1Sys_1_1FileWriter.html">FileWriter</a> :</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">virtual</span> _File,</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <a class="code hl_struct" href="structKarm_1_1Io_1_1Writer.html">Io::Writer</a> {</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keyword">using </span>_File::_File;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileWriter.html#a4412a598757fbfcd3834067b387ca2a1">   84</a></span>    <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileWriter.html#a4412a598757fbfcd3834067b387ca2a1">write</a>(<a class="code hl_class" href="structKarm_1_1Slice.html">Bytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>)<span class="keyword"> override </span>{</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordflow">return</span> _fd-&gt;write(<a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    [[clang::coro_wrapper]]</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileWriter.html#a95b519bcbbfa6b74aec2e6e714c00966">   89</a></span>    <a class="code hl_typedef" href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Async::Task&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileWriter.html#a95b519bcbbfa6b74aec2e6e714c00966">writeAsync</a>(<a class="code hl_class" href="structKarm_1_1Slice.html">Bytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>, <a class="code hl_struct" href="structKarm_1_1Sys_1_1Sched.html">Sched</a>&amp; sched = <a class="code hl_function" href="namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475">globalSched</a>()) {</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keywordflow">return</span> sched.writeAsync(_fd, <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    }</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>};</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1File.html">   94</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structKarm_1_1Sys_1_1File.html">File</a> :</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <a class="code hl_struct" href="structKarm_1_1Sys_1_1FileReader.html">FileReader</a>,</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <a class="code hl_struct" href="structKarm_1_1Sys_1_1FileWriter.html">FileWriter</a> {</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keyword">using </span>FileReader::FileReader;</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keyword">using </span>FileWriter::FileWriter;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;FileWriter&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#a33c3d4dc0d4b824c5eb63acdb099b3c7">create</a>(<a class="code hl_struct" href="structKarm_1_1Mime_1_1Url.html">Mime::Url</a> url);</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;FileReader&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#ab04ded978828e8a90960073c170ac346">open</a>(<a class="code hl_struct" href="structKarm_1_1Mime_1_1Url.html">Mime::Url</a> url);</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;File&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#abd4b83cb4c840c8e101e0266fd3c42e7">openOrCreate</a>(<a class="code hl_struct" href="structKarm_1_1Mime_1_1Url.html">Mime::Url</a> url);</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>};</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keyword">static</span> <span class="keyword">inline</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;String&gt;</a> readAllUtf8(<a class="code hl_struct" href="structKarm_1_1Mime_1_1Url.html">Mime::Url</a> <span class="keyword">const</span>&amp; url) {</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keyword">auto</span> file = try$(<a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#ab04ded978828e8a90960073c170ac346">Sys::File::open</a>(url));</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceKarm_1_1Io.html#a19610c0ba443c127a4db1967c56fd000">Io::readAllUtf8</a>(file);</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>}</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>} <span class="comment">// namespace Karm::Sys</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="file_8h.html#add789519f7f2dc7d37718eab411af552">    4</a></span><span class="keyword">import</span> <a class="code hl_namespace" href="namespaceKarm.html">Karm</a>.<a class="code hl_namespace" href="namespaceKarm_1_1Ref.html">Ref</a>;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="async_8h.html">async.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="libs_2karm-sys_2fd_8h.html">fd.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceKarm_1_1Sys.html">Karm::Sys</a> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span>FileReader;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span>FileWriter;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">struct </span>_File :</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    Io::Seeker,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    Io::Flusher,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    Meta::NoCopy {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Rc&lt;Fd&gt; _fd;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Ref::Url _url;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    _File(Rc&lt;Fd&gt; fd, Ref::Url url)</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        : _fd(fd), _url(url) {}</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Res&lt;usize&gt; seek(Io::Seek seek)<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">return</span> _fd-&gt;seek(seek);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    Res&lt;&gt; flush()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> _fd-&gt;flush();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">auto</span> flushAsync(<span class="keyword">auto</span>&amp; sched = <a class="code hl_function" href="namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475">globalSched</a>()) {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">return</span> sched.flushAsync(_fd);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    Res&lt;Stat&gt; stat() {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> _fd-&gt;stat();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    Rc&lt;Fd&gt; fd() {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> _fd;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html">   46</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structKarm_1_1Sys_1_1FileReader.html">FileReader</a> :</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> _File,</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_struct" href="structKarm_1_1Io_1_1Reader.html">Io::Reader</a> {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">using </span>_File::_File;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html#a3314929681c38088971378872c172a55">   52</a></span>    <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileReader.html#a3314929681c38088971378872c172a55">read</a>(<a class="code hl_struct" href="structKarm_1_1MutSlice.html">MutBytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>)<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> _fd-&gt;read(<a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    [[clang::coro_wrapper]]</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html#a791bfb1d959560d9c0b1bb8f8bd6668b">   57</a></span>    <a class="code hl_typedef" href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Async::Task&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileReader.html#a791bfb1d959560d9c0b1bb8f8bd6668b">readAsync</a>(<a class="code hl_struct" href="structKarm_1_1MutSlice.html">MutBytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>, <a class="code hl_struct" href="structKarm_1_1Sys_1_1Sched.html">Sched</a>&amp; sched = <a class="code hl_function" href="namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475">globalSched</a>()) {</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">return</span> sched.readAsync(_fd, <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileReader.html#a5af2fe3ca7d60e53655d43ad9af1aed4">   61</a></span>    <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;Ref::Mime&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileReader.html#a5af2fe3ca7d60e53655d43ad9af1aed4">sniff</a>(<span class="keywordtype">bool</span> ignoreUrl = <span class="keyword">false</span>) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">if</span> (not ignoreUrl) {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <span class="keywordflow">if</span> (<span class="keyword">auto</span> mime = <a class="code hl_function" href="namespaceKarm_1_1Ref.html#ab1824889267251806b7910b7cccc5b3f">Ref::sniffSuffix</a>(_url.path.suffix()))</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                <span class="keywordflow">return</span> <a class="code hl_struct" href="structKarm_1_1Ok.html">Ok</a>(mime.take());</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keyword">auto</span> old = try$(<a class="code hl_function" href="namespaceKarm_1_1Io.html#a42747038ba60f8686190cfb46d818353">Io::tell</a>(*<span class="keyword">this</span>));</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_struct" href="structKarm_1_1Defer.html">Defer</a> _ = [&amp;] {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <a class="code hl_function" href="structKarm_1_1Io_1_1Seeker.html#a50b1f6d1bdaee71dd1ca566ae0befb50">seek</a>(<a class="code hl_function" href="structKarm_1_1Io_1_1Seek.html#a5fb9fd9ae2c5d24cae9aac584b1cdd27">Io::Seek::fromBegin</a>(old)).unwrap();</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        };</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        try$(<a class="code hl_function" href="structKarm_1_1Io_1_1Seeker.html#a50b1f6d1bdaee71dd1ca566ae0befb50">seek</a>(<a class="code hl_function" href="structKarm_1_1Io_1_1Seek.html#a5fb9fd9ae2c5d24cae9aac584b1cdd27">Io::Seek::fromBegin</a>(0)));</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keyword">auto</span> mime = try$(<a class="code hl_function" href="namespaceKarm_1_1Ref.html#a6bd1e5c52230ed7b67372b2da6813567">Ref::sniffReader</a>(*<span class="keyword">this</span>));</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <span class="keywordflow">return</span> <a class="code hl_struct" href="structKarm_1_1Ok.html">Ok</a>(mime);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileWriter.html">   77</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structKarm_1_1Sys_1_1FileWriter.html">FileWriter</a> :</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> _File,</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_struct" href="structKarm_1_1Io_1_1Writer.html">Io::Writer</a> {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">using </span>_File::_File;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileWriter.html#a4412a598757fbfcd3834067b387ca2a1">   83</a></span>    <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileWriter.html#a4412a598757fbfcd3834067b387ca2a1">write</a>(<a class="code hl_class" href="structKarm_1_1Slice.html">Bytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>)<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">return</span> _fd-&gt;write(<a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    [[clang::coro_wrapper]]</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1FileWriter.html#a95b519bcbbfa6b74aec2e6e714c00966">   88</a></span>    <a class="code hl_typedef" href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Async::Task&lt;usize&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1FileWriter.html#a95b519bcbbfa6b74aec2e6e714c00966">writeAsync</a>(<a class="code hl_class" href="structKarm_1_1Slice.html">Bytes</a> <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>, <a class="code hl_struct" href="structKarm_1_1Sys_1_1Sched.html">Sched</a>&amp; sched = <a class="code hl_function" href="namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475">globalSched</a>()) {</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordflow">return</span> sched.writeAsync(_fd, <a class="code hl_function" href="namespaceKarm.html#a3bdf6315e5ed232fc27f650ba669cc70">bytes</a>);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    }</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>};</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="structKarm_1_1Sys_1_1File.html">   93</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structKarm_1_1Sys_1_1File.html">File</a> :</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <a class="code hl_struct" href="structKarm_1_1Sys_1_1FileReader.html">FileReader</a>,</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <a class="code hl_struct" href="structKarm_1_1Sys_1_1FileWriter.html">FileWriter</a> {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keyword">using </span>FileReader::FileReader;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keyword">using </span>FileWriter::FileWriter;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;FileWriter&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#a0efefab851f6bb18bd7409677d9a41b3">create</a>(<a class="code hl_struct" href="structKarm_1_1Ref_1_1Url.html">Ref::Url</a> url);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;FileReader&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#a5e76d85b3b5526e7b08a1bb28cfddd34">open</a>(<a class="code hl_struct" href="structKarm_1_1Ref_1_1Url.html">Ref::Url</a> url);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keyword">static</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;File&gt;</a> <a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#afd235654bd439edfd979b64386bd9b30">openOrCreate</a>(<a class="code hl_struct" href="structKarm_1_1Ref_1_1Url.html">Ref::Url</a> url);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>};</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="keyword">static</span> <span class="keyword">inline</span> <a class="code hl_struct" href="structKarm_1_1Res.html">Res&lt;String&gt;</a> readAllUtf8(<a class="code hl_struct" href="structKarm_1_1Ref_1_1Url.html">Ref::Url</a> <span class="keyword">const</span>&amp; url) {</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keyword">auto</span> file = try$(<a class="code hl_function" href="structKarm_1_1Sys_1_1File.html#a5e76d85b3b5526e7b08a1bb28cfddd34">Sys::File::open</a>(url));</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceKarm_1_1Io.html#a19610c0ba443c127a4db1967c56fd000">Io::readAllUtf8</a>(file);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>}</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>} <span class="comment">// namespace Karm::Sys</span></div>
 <div class="ttc" id="aasync_8h_html"><div class="ttname"><a href="async_8h.html">async.h</a></div></div>
 <div class="ttc" id="alibs_2karm-sys_2fd_8h_html"><div class="ttname"><a href="libs_2karm-sys_2fd_8h.html">fd.h</a></div></div>
-<div class="ttc" id="amime_8h_html"><div class="ttname"><a href="mime_8h.html">mime.h</a></div></div>
 <div class="ttc" id="anamespaceKarm_1_1Async_html_a0bb115608504b3a0b41fac822338c63c"><div class="ttname"><a href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Karm::Async::Task</a></div><div class="ttdeci">_Task&lt; Res&lt; V, E &gt; &gt; Task</div><div class="ttdef"><b>Definition:</b> task.cpp:124</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Io_html_a19610c0ba443c127a4db1967c56fd000"><div class="ttname"><a href="namespaceKarm_1_1Io.html#a19610c0ba443c127a4db1967c56fd000">Karm::Io::readAllUtf8</a></div><div class="ttdeci">export Res&lt; String &gt; readAllUtf8(Readable auto &amp;reader)</div><div class="ttdef"><b>Definition:</b> funcs.cpp:26</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Io_html_a42747038ba60f8686190cfb46d818353"><div class="ttname"><a href="namespaceKarm_1_1Io.html#a42747038ba60f8686190cfb46d818353">Karm::Io::tell</a></div><div class="ttdeci">export Res&lt; usize &gt; tell(Seekable auto &amp;seeker)</div><div class="ttdef"><b>Definition:</b> funcs.cpp:52</div></div>
-<div class="ttc" id="anamespaceKarm_1_1Mime_html_a5aefae3a226723ab2c4fd30f0ea3e3c7"><div class="ttname"><a href="namespaceKarm_1_1Mime.html#a5aefae3a226723ab2c4fd30f0ea3e3c7">Karm::Mime::sniffSuffix</a></div><div class="ttdeci">Opt&lt; Mime &gt; sniffSuffix(Str suffix)</div><div class="ttdoc">Try to sniff the mime type from a file extension.</div><div class="ttdef"><b>Definition:</b> mime.cpp:54</div></div>
-<div class="ttc" id="anamespaceKarm_1_1Mime_html_a929b9dd46083591ccb26c4a62dbc0b05"><div class="ttname"><a href="namespaceKarm_1_1Mime.html#a929b9dd46083591ccb26c4a62dbc0b05">Karm::Mime::sniffReader</a></div><div class="ttdeci">Res&lt; Mime &gt; sniffReader(Io::Reader &amp;reader)</div><div class="ttdef"><b>Definition:</b> mime.cpp:178</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Ref_html"><div class="ttname"><a href="namespaceKarm_1_1Ref.html">Karm::Ref</a></div><div class="ttdef"><b>Definition:</b> mime.cpp:5</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Ref_html_a6bd1e5c52230ed7b67372b2da6813567"><div class="ttname"><a href="namespaceKarm_1_1Ref.html#a6bd1e5c52230ed7b67372b2da6813567">Karm::Ref::sniffReader</a></div><div class="ttdeci">export Res&lt; Mime &gt; sniffReader(Io::Reader &amp;reader)</div><div class="ttdef"><b>Definition:</b> sniff.cpp:180</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Ref_html_ab1824889267251806b7910b7cccc5b3f"><div class="ttname"><a href="namespaceKarm_1_1Ref.html#ab1824889267251806b7910b7cccc5b3f">Karm::Ref::sniffSuffix</a></div><div class="ttdeci">export Opt&lt; Mime &gt; sniffSuffix(Str suffix)</div><div class="ttdef"><b>Definition:</b> sniff.cpp:56</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Sys_html"><div class="ttname"><a href="namespaceKarm_1_1Sys.html">Karm::Sys</a></div><div class="ttdef"><b>Definition:</b> sandbox.cpp:4</div></div>
 <div class="ttc" id="anamespaceKarm_1_1Sys_html_aa9e72a06ca875accb02711e0ae279475"><div class="ttname"><a href="namespaceKarm_1_1Sys.html#aa9e72a06ca875accb02711e0ae279475">Karm::Sys::globalSched</a></div><div class="ttdeci">Sched &amp; globalSched()</div><div class="ttdef"><b>Definition:</b> async.cpp:7</div></div>
 <div class="ttc" id="anamespaceKarm_html"><div class="ttname"><a href="namespaceKarm.html">Karm</a></div><div class="ttdef"><b>Definition:</b> lock.cpp:3</div></div>
@@ -229,22 +228,22 @@ $(document).ready(function(){initNavTree('file_8h_source.html',''); initResizabl
 <div class="ttc" id="astructKarm_1_1Io_1_1Seek_html_a5fb9fd9ae2c5d24cae9aac584b1cdd27"><div class="ttname"><a href="structKarm_1_1Io_1_1Seek.html#a5fb9fd9ae2c5d24cae9aac584b1cdd27">Karm::Io::Seek::fromBegin</a></div><div class="ttdeci">static constexpr Seek fromBegin(isize offset)</div><div class="ttdef"><b>Definition:</b> types.cpp:17</div></div>
 <div class="ttc" id="astructKarm_1_1Io_1_1Seeker_html_a50b1f6d1bdaee71dd1ca566ae0befb50"><div class="ttname"><a href="structKarm_1_1Io_1_1Seeker.html#a50b1f6d1bdaee71dd1ca566ae0befb50">Karm::Io::Seeker::seek</a></div><div class="ttdeci">virtual Res&lt; usize &gt; seek(Seek seek)=0</div></div>
 <div class="ttc" id="astructKarm_1_1Io_1_1Writer_html"><div class="ttname"><a href="structKarm_1_1Io_1_1Writer.html">Karm::Io::Writer</a></div><div class="ttdef"><b>Definition:</b> traits.cpp:40</div></div>
-<div class="ttc" id="astructKarm_1_1Mime_1_1Url_html"><div class="ttname"><a href="structKarm_1_1Mime_1_1Url.html">Karm::Mime::Url</a></div><div class="ttdef"><b>Definition:</b> url.h:10</div></div>
 <div class="ttc" id="astructKarm_1_1MutSlice_html"><div class="ttname"><a href="structKarm_1_1MutSlice.html">Karm::MutSlice</a></div><div class="ttdef"><b>Definition:</b> slice.cpp:129</div></div>
 <div class="ttc" id="astructKarm_1_1Ok_html"><div class="ttname"><a href="structKarm_1_1Ok.html">Karm::Ok</a></div><div class="ttdef"><b>Definition:</b> res.cpp:15</div></div>
+<div class="ttc" id="astructKarm_1_1Ref_1_1Url_html"><div class="ttname"><a href="structKarm_1_1Ref_1_1Url.html">Karm::Ref::Url</a></div><div class="ttdef"><b>Definition:</b> url.cpp:23</div></div>
 <div class="ttc" id="astructKarm_1_1Res_html"><div class="ttname"><a href="structKarm_1_1Res.html">Karm::Res</a></div><div class="ttdef"><b>Definition:</b> res.cpp:39</div></div>
 <div class="ttc" id="astructKarm_1_1Slice_html"><div class="ttname"><a href="structKarm_1_1Slice.html">Karm::Slice&lt; u8 &gt;</a></div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html">Karm::Sys::FileReader</a></div><div class="ttdef"><b>Definition:</b> file.h:49</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html_a3314929681c38088971378872c172a55"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html#a3314929681c38088971378872c172a55">Karm::Sys::FileReader::read</a></div><div class="ttdeci">Res&lt; usize &gt; read(MutBytes bytes) override</div><div class="ttdef"><b>Definition:</b> file.h:53</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html_a791bfb1d959560d9c0b1bb8f8bd6668b"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html#a791bfb1d959560d9c0b1bb8f8bd6668b">Karm::Sys::FileReader::readAsync</a></div><div class="ttdeci">Async::Task&lt; usize &gt; readAsync(MutBytes bytes, Sched &amp;sched=globalSched())</div><div class="ttdef"><b>Definition:</b> file.h:58</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html_abb1ffed831b667c64a3d5f07ab41527e"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html#abb1ffed831b667c64a3d5f07ab41527e">Karm::Sys::FileReader::sniff</a></div><div class="ttdeci">Res&lt; Mime::Mime &gt; sniff(bool ignoreUrl=false)</div><div class="ttdef"><b>Definition:</b> file.h:62</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1FileWriter_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileWriter.html">Karm::Sys::FileWriter</a></div><div class="ttdef"><b>Definition:</b> file.h:80</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1FileWriter_html_a4412a598757fbfcd3834067b387ca2a1"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileWriter.html#a4412a598757fbfcd3834067b387ca2a1">Karm::Sys::FileWriter::write</a></div><div class="ttdeci">Res&lt; usize &gt; write(Bytes bytes) override</div><div class="ttdef"><b>Definition:</b> file.h:84</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1FileWriter_html_a95b519bcbbfa6b74aec2e6e714c00966"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileWriter.html#a95b519bcbbfa6b74aec2e6e714c00966">Karm::Sys::FileWriter::writeAsync</a></div><div class="ttdeci">Async::Task&lt; usize &gt; writeAsync(Bytes bytes, Sched &amp;sched=globalSched())</div><div class="ttdef"><b>Definition:</b> file.h:89</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1File_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html">Karm::Sys::File</a></div><div class="ttdef"><b>Definition:</b> file.h:96</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1File_html_a33c3d4dc0d4b824c5eb63acdb099b3c7"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html#a33c3d4dc0d4b824c5eb63acdb099b3c7">Karm::Sys::File::create</a></div><div class="ttdeci">static Res&lt; FileWriter &gt; create(Mime::Url url)</div><div class="ttdef"><b>Definition:</b> file.cpp:8</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1File_html_ab04ded978828e8a90960073c170ac346"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html#ab04ded978828e8a90960073c170ac346">Karm::Sys::File::open</a></div><div class="ttdeci">static Res&lt; FileReader &gt; open(Mime::Url url)</div><div class="ttdef"><b>Definition:</b> file.cpp:14</div></div>
-<div class="ttc" id="astructKarm_1_1Sys_1_1File_html_abd4b83cb4c840c8e101e0266fd3c42e7"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html#abd4b83cb4c840c8e101e0266fd3c42e7">Karm::Sys::File::openOrCreate</a></div><div class="ttdeci">static Res&lt; File &gt; openOrCreate(Mime::Url url)</div><div class="ttdef"><b>Definition:</b> file.cpp:21</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html">Karm::Sys::FileReader</a></div><div class="ttdef"><b>Definition:</b> file.h:48</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html_a3314929681c38088971378872c172a55"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html#a3314929681c38088971378872c172a55">Karm::Sys::FileReader::read</a></div><div class="ttdeci">Res&lt; usize &gt; read(MutBytes bytes) override</div><div class="ttdef"><b>Definition:</b> file.h:52</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html_a5af2fe3ca7d60e53655d43ad9af1aed4"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html#a5af2fe3ca7d60e53655d43ad9af1aed4">Karm::Sys::FileReader::sniff</a></div><div class="ttdeci">Res&lt; Ref::Mime &gt; sniff(bool ignoreUrl=false)</div><div class="ttdef"><b>Definition:</b> file.h:61</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1FileReader_html_a791bfb1d959560d9c0b1bb8f8bd6668b"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileReader.html#a791bfb1d959560d9c0b1bb8f8bd6668b">Karm::Sys::FileReader::readAsync</a></div><div class="ttdeci">Async::Task&lt; usize &gt; readAsync(MutBytes bytes, Sched &amp;sched=globalSched())</div><div class="ttdef"><b>Definition:</b> file.h:57</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1FileWriter_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileWriter.html">Karm::Sys::FileWriter</a></div><div class="ttdef"><b>Definition:</b> file.h:79</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1FileWriter_html_a4412a598757fbfcd3834067b387ca2a1"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileWriter.html#a4412a598757fbfcd3834067b387ca2a1">Karm::Sys::FileWriter::write</a></div><div class="ttdeci">Res&lt; usize &gt; write(Bytes bytes) override</div><div class="ttdef"><b>Definition:</b> file.h:83</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1FileWriter_html_a95b519bcbbfa6b74aec2e6e714c00966"><div class="ttname"><a href="structKarm_1_1Sys_1_1FileWriter.html#a95b519bcbbfa6b74aec2e6e714c00966">Karm::Sys::FileWriter::writeAsync</a></div><div class="ttdeci">Async::Task&lt; usize &gt; writeAsync(Bytes bytes, Sched &amp;sched=globalSched())</div><div class="ttdef"><b>Definition:</b> file.h:88</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1File_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html">Karm::Sys::File</a></div><div class="ttdef"><b>Definition:</b> file.h:95</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1File_html_a0efefab851f6bb18bd7409677d9a41b3"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html#a0efefab851f6bb18bd7409677d9a41b3">Karm::Sys::File::create</a></div><div class="ttdeci">static Res&lt; FileWriter &gt; create(Ref::Url url)</div><div class="ttdef"><b>Definition:</b> file.cpp:8</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1File_html_a5e76d85b3b5526e7b08a1bb28cfddd34"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html#a5e76d85b3b5526e7b08a1bb28cfddd34">Karm::Sys::File::open</a></div><div class="ttdeci">static Res&lt; FileReader &gt; open(Ref::Url url)</div><div class="ttdef"><b>Definition:</b> file.cpp:14</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1File_html_afd235654bd439edfd979b64386bd9b30"><div class="ttname"><a href="structKarm_1_1Sys_1_1File.html#afd235654bd439edfd979b64386bd9b30">Karm::Sys::File::openOrCreate</a></div><div class="ttdeci">static Res&lt; File &gt; openOrCreate(Ref::Url url)</div><div class="ttdef"><b>Definition:</b> file.cpp:21</div></div>
 <div class="ttc" id="astructKarm_1_1Sys_1_1Sched_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1Sched.html">Karm::Sys::Sched</a></div><div class="ttdef"><b>Definition:</b> async.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

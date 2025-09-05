@@ -67,7 +67,7 @@ var searchData=
   ['strutcell_64',['StrutCell',['../structKarm_1_1Gfx_1_1Prose_1_1StrutCell.html',1,'Karm::Gfx::Prose']]],
   ['style_65',['Style',['../structKarm_1_1Tty_1_1Style.html',1,'Karm::Tty']]],
   ['styled_66',['Styled',['../structKarm_1_1Tty_1_1Styled.html',1,'Karm::Tty']]],
-  ['suffix2mime_67',['Suffix2Mime',['../structKarm_1_1Mime_1_1Suffix2Mime.html',1,'Karm::Mime']]],
+  ['suffix2mime_67',['Suffix2Mime',['../structKarm_1_1Ref_1_1Suffix2Mime.html',1,'Karm::Ref']]],
   ['surface_68',['Surface',['../structKarm_1_1Gfx_1_1Surface.html',1,'Karm::Gfx']]],
   ['symbol_69',['Symbol',['../structKarm_1_1Symbol.html',1,'Karm']]],
   ['sysinfo_70',['SysInfo',['../structKarm_1_1Sys_1_1SysInfo.html',1,'Karm::Sys']]],

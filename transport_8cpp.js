@@ -19,5 +19,6 @@ var transport_8cpp =
     [ "pipeTransport", "transport_8cpp.html#a76579a1b687f7dd65ca9a98c4a386987", null ],
     [ "Core", "transport_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Http", "transport_8cpp.html#ae4e6389ba964884ff5221427019b2efc", null ],
-    [ "module", "transport_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
+    [ "module", "transport_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
+    [ "Ref", "transport_8cpp.html#add789519f7f2dc7d37718eab411af552", null ]
 ];
