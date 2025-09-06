@@ -9,6 +9,7 @@ var namespaceKarm_1_1Ref =
       [ "test$", "namespaceKarm_1_1Ref_1_1Tests.html#a236dbd7e7fc1587e75befc7b72b6a27e", null ],
       [ "test$", "namespaceKarm_1_1Ref_1_1Tests.html#ab2c8fe06a48cf15fd91d9cd8d7209b98", null ]
     ] ],
+    [ "Blob", "structKarm_1_1Ref_1_1Blob.html", "structKarm_1_1Ref_1_1Blob" ],
     [ "Mime", "structKarm_1_1Ref_1_1Mime.html", "structKarm_1_1Ref_1_1Mime" ],
     [ "MimePattern", "structKarm_1_1Ref_1_1MimePattern.html", "structKarm_1_1Ref_1_1MimePattern" ],
     [ "Path", "structKarm_1_1Ref_1_1Path.html", "structKarm_1_1Ref_1_1Path" ],

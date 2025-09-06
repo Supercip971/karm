@@ -7,6 +7,7 @@ var namespaceKarm_1_1Sys =
       [ "testAsync$", "namespaceKarm_1_1Sys_1_1Tests.html#af7d4be09a6f1b8b774b37b5c8e962e09", null ]
     ] ],
     [ "ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", "structKarm_1_1Sys_1_1ArgsHook" ],
+    [ "BlobFd", "structKarm_1_1Sys_1_1BlobFd.html", "structKarm_1_1Sys_1_1BlobFd" ],
     [ "Bundle", "structKarm_1_1Sys_1_1Bundle.html", "structKarm_1_1Sys_1_1Bundle" ],
     [ "CondVar", "structKarm_1_1Sys_1_1CondVar.html", "structKarm_1_1Sys_1_1CondVar" ],
     [ "Connection", "structKarm_1_1Sys_1_1Connection.html", "structKarm_1_1Sys_1_1Connection" ],

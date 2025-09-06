@@ -18,6 +18,7 @@ var structKarm_1_1Res =
     [ "operator bool", "structKarm_1_1Res.html#a6f95320a25fc3ee04434fbefb244e248", null ],
     [ "operator<=>", "structKarm_1_1Res.html#a85fae415c3d61a135c42051b0a61bc12", null ],
     [ "operator==", "structKarm_1_1Res.html#a59fe9b0344f5b8e88acc2761453e1ffc", null ],
+    [ "operator==", "structKarm_1_1Res.html#a6f07f69d27c7f22e97ff9fdfe3c8efb3", null ],
     [ "take", "structKarm_1_1Res.html#a893f08f39e752aa855ee2b4fb25cdd38", null ],
     [ "unwrap", "structKarm_1_1Res.html#a06380a4e1fcb8f14e0ac0dc5998b288b", null ],
     [ "unwrap", "structKarm_1_1Res.html#a884492f90e370ec82a8c71b2444a338c", null ],

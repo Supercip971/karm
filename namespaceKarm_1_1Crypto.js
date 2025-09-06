@@ -10,6 +10,7 @@ var namespaceKarm_1_1Crypto =
     ] ],
     [ "Crc32", "structKarm_1_1Crypto_1_1Crc32.html", "structKarm_1_1Crypto_1_1Crc32" ],
     [ "adler32", "namespaceKarm_1_1Crypto.html#abe34fc518d19969ee448d6b8a1109bc3", null ],
+    [ "base64Decode", "namespaceKarm_1_1Crypto.html#a071ccef6229d90253c4a377b119bee0a", null ],
     [ "crc32", "namespaceKarm_1_1Crypto.html#a61b737c703026ba99243e8446e52f8d4", null ],
     [ "hexEncode", "namespaceKarm_1_1Crypto.html#abcc00ba79241c2c73a76335f955f96a4", null ],
     [ "hexEncode", "namespaceKarm_1_1Crypto.html#a00bbb393f6797dbc9a14194dabac5bbf", null ],

@@ -97,6 +97,7 @@ var hierarchy =
     [ "Karm::Bits", "structKarm_1_1Bits.html", null ],
     [ "Karm::Image::Jpeg::BitWriter", "structKarm_1_1Image_1_1Jpeg_1_1BitWriter.html", null ],
     [ "Karm::Kv::Blob", "structKarm_1_1Kv_1_1Blob.html", null ],
+    [ "Karm::Ref::Blob", "structKarm_1_1Ref_1_1Blob.html", null ],
     [ "Karm::Gfx::Prose::Block", "structKarm_1_1Gfx_1_1Prose_1_1Block.html", null ],
     [ "Karm::Gfx::BlurFilter", "structKarm_1_1Gfx_1_1BlurFilter.html", null ],
     [ "Karm::Gfx::Borders", "structKarm_1_1Gfx_1_1Borders.html", null ],
@@ -658,6 +659,7 @@ var hierarchy =
       [ "Karm::Serde::Serializer::Scope", "structKarm_1_1Serde_1_1Serializer_1_1Scope.html", null ],
       [ "Karm::Sys::Fd", "structKarm_1_1Sys_1_1Fd.html", [
         [ "Karm::Posix::Fd", "structKarm_1_1Posix_1_1Fd.html", null ],
+        [ "Karm::Sys::BlobFd", "structKarm_1_1Sys_1_1BlobFd.html", null ],
         [ "Karm::Sys::NullFd", "structKarm_1_1Sys_1_1NullFd.html", null ]
       ] ],
       [ "Karm::Sys::Mmap", "structKarm_1_1Sys_1_1Mmap.html", null ],
@@ -821,6 +823,7 @@ var hierarchy =
     [ "Karm::App::RequestMaximizeEvent", "structKarm_1_1App_1_1RequestMaximizeEvent.html", null ],
     [ "Karm::App::RequestMinimizeEvent", "structKarm_1_1App_1_1RequestMinimizeEvent.html", null ],
     [ "Karm::Res< V, E >", "structKarm_1_1Res.html", null ],
+    [ "Karm::Res< Rc< Karm::Ref::Blob > >", "structKarm_1_1Res.html", null ],
     [ "Karm::Http::Response", "structKarm_1_1Http_1_1Response.html", null ],
     [ "Karm::Gfx::Rgba8888", "structKarm_1_1Gfx_1_1Rgba8888.html", null ],
     [ "Karm::Ring< T >", "structKarm_1_1Ring.html", null ],

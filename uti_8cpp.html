@@ -172,8 +172,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        <span class="keywordflow">if</span> (mime.is(Mime{MIME}))      \</div>
-<div class="line">            <span class="keywordflow">return</span> Ok(Uti::NAME);</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (mime.is(Mime{MIME}))      \</div>
+<div class="line">        <span class="keywordflow">return</span> Ok(Uti::NAME);</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -208,8 +208,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">case</span> Common::NAME:      \</div>
-<div class="line">        _buf = STR <span class="stringliteral">&quot;&quot;</span>s;     \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">case</span> Common::NAME:                \</div>
+<div class="line">        _buf = Symbol::from(STR <span class="stringliteral">&quot;&quot;</span>s); \</div>
 <div class="line">        <span class="keywordflow">break</span>;</div>
 </div><!-- fragment -->
 </div>

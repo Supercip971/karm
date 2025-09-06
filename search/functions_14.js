@@ -32,12 +32,12 @@ var searchData=
   ['upgrade_29',['upgrade',['../structKarm_1_1Gc_1_1Ptr.html#a2c204d42efd2610992fd1f6fcc69508e',1,'Karm::Gc::Ptr']]],
   ['upper_30',['upper',['../namespaceKarm_1_1Re.html#aa2496c75a4aff46035520e11e8643083',1,'Karm::Re']]],
   ['uptime_31',['uptime',['../namespaceKarm_1_1Sys.html#ab9631fa77008203a51d0c7f0fa4ae9cd',1,'Karm::Sys']]],
-  ['url_32',['url',['../structKarm_1_1Sys_1_1Bundle.html#a4a9e8c737bb2b6e126b3be8a0c937315',1,'Karm::Sys::Bundle']]],
+  ['url_32',['url',['../structKarm_1_1Sys_1_1Bundle.html#a4d6f80c8255b86334e38b2f7a1b3c69f',1,'Karm::Sys::Bundle']]],
   ['usage_33',['usage',['../structKarm_1_1Cli_1_1ValueParser_3_01bool_01_4.html#adbdfa033680417d4282a7351c02a7567',1,'Karm::Cli::ValueParser&lt; bool &gt;::usage()'],['../structKarm_1_1Set.html#a966d5bf72bef0d243797e8ec3e784b26',1,'Karm::Set::usage()'],['../structKarm_1_1Cli_1_1Command.html#acb46e4a3d319648ddcbed3d3646168ca',1,'Karm::Cli::Command::usage()'],['../structKarm_1_1Cli_1_1ValueParser_3_01Opt_3_01T_01_4_01_4.html#a26b742c9135533b7b3b4ac66edab7f82',1,'Karm::Cli::ValueParser&lt; Opt&lt; T &gt; &gt;::usage()'],['../structKarm_1_1Cli_1_1ValueParser_3_01Vec_3_01T_01_4_01_4.html#a6d9440b38d8c0650d9f5b4c9d3069efa',1,'Karm::Cli::ValueParser&lt; Vec&lt; T &gt; &gt;::usage()'],['../structKarm_1_1Cli_1_1ValueParser_3_01Str_01_4.html#adf62d2db51d817f885d2f0f599b2812c',1,'Karm::Cli::ValueParser&lt; Str &gt;::usage()'],['../structKarm_1_1Cli_1_1ValueParser_3_01isize_01_4.html#aea479d7b42897ee510028749c1db930c',1,'Karm::Cli::ValueParser&lt; isize &gt;::usage()']]],
   ['use_34',['use',['../structKarm_1_1Sys_1_1Endpoint.html#a0407880d630ae95fac69113567a507b6',1,'Karm::Sys::Endpoint::use()'],['../structKarm_1_1Sys_1_1Context.html#a29303a191b76666130165fd44b2fb758',1,'Karm::Sys::Context::use()']]],
   ['useargs_35',['useArgs',['../namespaceKarm_1_1Sys.html#a22e4c1da50944ee30ba6c3fd30f066ad',1,'Karm::Sys']]],
   ['used_36',['used',['../structKarm_1_1MutBits.html#aed54bf9ec28570b16fe744e407dc8528',1,'Karm::MutBits']]],
   ['userinfo_37',['userinfo',['../namespaceKarm_1_1Sys.html#a7e0fd139780651b811b16669b8ac50f7',1,'Karm::Sys']]],
   ['usersinfo_38',['usersinfo',['../namespaceKarm_1_1Sys.html#acb32fd2ad609d14b9dc8fd7d817b27e7',1,'Karm::Sys']]],
-  ['uti_39',['Uti',['../structKarm_1_1Ref_1_1Uti.html#a03f0061d3a68920ce26ad5f09a670e6f',1,'Karm::Ref::Uti::Uti(Common c)'],['../structKarm_1_1Ref_1_1Uti.html#a88873d38cbccdd4eee637c366c3f1af1',1,'Karm::Ref::Uti::Uti(String str)']]]
+  ['uti_39',['Uti',['../structKarm_1_1Ref_1_1Uti.html#a03f0061d3a68920ce26ad5f09a670e6f',1,'Karm::Ref::Uti::Uti(Common c)'],['../structKarm_1_1Ref_1_1Uti.html#ae8dc62fdde14dcdba74177a7bfacb1cd',1,'Karm::Ref::Uti::Uti(Str str)']]]
 ];

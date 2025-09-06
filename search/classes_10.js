@@ -26,10 +26,11 @@ var searchData=
   ['requestmaximizeevent_23',['RequestMaximizeEvent',['../structKarm_1_1App_1_1RequestMaximizeEvent.html',1,'Karm::App']]],
   ['requestminimizeevent_24',['RequestMinimizeEvent',['../structKarm_1_1App_1_1RequestMinimizeEvent.html',1,'Karm::App']]],
   ['res_25',['Res',['../structKarm_1_1Res.html',1,'Karm']]],
-  ['resizable_26',['Resizable',['../structKarm_1_1Kira_1_1Resizable.html',1,'Karm::Kira']]],
-  ['response_27',['Response',['../structKarm_1_1Http_1_1Response.html',1,'Karm::Http']]],
-  ['rgba8888_28',['Rgba8888',['../structKarm_1_1Gfx_1_1Rgba8888.html',1,'Karm::Gfx']]],
-  ['ring_29',['Ring',['../structKarm_1_1Ring.html',1,'Karm']]],
-  ['runoptions_30',['RunOptions',['../structKarm_1_1Test_1_1RunOptions.html',1,'Karm::Test']]],
-  ['rwlock_31',['RwLock',['../structKarm_1_1RwLock.html',1,'Karm']]]
+  ['res_3c_20rc_3c_20karm_3a_3aref_3a_3ablob_20_3e_20_3e_26',['Res&lt; Rc&lt; Karm::Ref::Blob &gt; &gt;',['../structKarm_1_1Res.html',1,'Karm']]],
+  ['resizable_27',['Resizable',['../structKarm_1_1Kira_1_1Resizable.html',1,'Karm::Kira']]],
+  ['response_28',['Response',['../structKarm_1_1Http_1_1Response.html',1,'Karm::Http']]],
+  ['rgba8888_29',['Rgba8888',['../structKarm_1_1Gfx_1_1Rgba8888.html',1,'Karm::Gfx']]],
+  ['ring_30',['Ring',['../structKarm_1_1Ring.html',1,'Karm']]],
+  ['runoptions_31',['RunOptions',['../structKarm_1_1Test_1_1RunOptions.html',1,'Karm::Test']]],
+  ['rwlock_32',['RwLock',['../structKarm_1_1RwLock.html',1,'Karm']]]
 ];
