@@ -13,11 +13,11 @@ namespace Karm::Http {
 
 static constexpr bool DEBUG_CLIENT = false;
 
-export struct Client : Transport {
+export struct Client : ClientTransport {
     String userAgent = "Karm-Http/" stringify$(__ck_version_value) ""s;
-    Rc<Transport> _transport;
+    Rc<ClientTransport> _transport;
 
-    Client(Rc<Transport> transport)
+    Client(Rc<ClientTransport> transport)
         : _transport(std::move(transport)) {}
 
     Async::Task<Rc<Response>> doAsync(Rc<Request> request) override {

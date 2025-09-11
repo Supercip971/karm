@@ -2,6 +2,9 @@ module;
 
 #include <karm-mime/url.h>
 
+#include "karm-io/funcs.h"
+#include "karm-io/impls.h"
+
 export module Karm.Http:request;
 
 import :body;
@@ -53,6 +56,22 @@ export struct Request {
         try$(req.header.parse(s));
 
         return Ok(req);
+    }
+
+    static Res<Request> read(Io::Reader& r) {
+        Io::BufferWriter bw;
+        while (true) {
+            auto [read, reachedDelim] = try$(Io::readLine(r, bw, "\r\n"_bytes));
+
+            if (not reachedDelim)
+                return Error::invalidInput("input stream ended with incomplete http header");
+
+            if (read == 0)
+                break;
+        }
+
+        Io::SScan scan{bw.bytes().cast<char>()};
+        return parse(scan);
     }
 
     Res<> unparse(Io::TextWriter& w) {

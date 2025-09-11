@@ -18,10 +18,16 @@ import :response;
 
 namespace Karm::Http {
 
-export struct Transport {
-    virtual ~Transport() = default;
+export struct ClientTransport {
+    virtual ~ClientTransport() = default;
 
     virtual Async::Task<Rc<Response>> doAsync(Rc<Request> request) = 0;
+};
+
+export struct ServerTransport {
+    virtual ~ServerTransport() = default;
+
+    virtual Async::Task<Rc<Request>> fetchAsync() = 0;
 };
 
 // MARK: Http Transport --------------------------------------------------------
@@ -66,7 +72,7 @@ struct ChunkedBody : Body {
         : _buf(resumes), _conn(std::move(conn)) {}
 };
 
-struct HttpTransport : Transport {
+struct HttpTransport : ClientTransport {
     Async::Task<> _sendRequestAsync(Request& request, Sys::TcpConnection& conn) {
         Io::StringWriter req;
         request.version = Version{1, 1};
@@ -111,7 +117,45 @@ struct HttpTransport : Transport {
     }
 };
 
-export Rc<Transport> httpTransport() {
+export Rc<ClientTransport> httpTransport() {
+    return makeRc<HttpTransport>();
+}
+
+struct HttpServerTransport : ServerTransport {
+
+    Async::Task<Rc<Request>> _recvRequestAsync(Sys::TcpConnection& conn) {
+        Array<u8, BUF_SIZE> buf = {};
+        Io::BufReader reader = sub(buf, 0, co_trya$(conn.readAsync(buf)));
+        auto response = co_try$(Request::read(reader));
+
+        if (auto contentLength = response.header.contentLength()) {
+            response.body = makeRc<ContentBody>(reader.bytes(), std::move(conn), contentLength.unwrap());
+        } else if (auto transferEncoding = response.header.tryGet("Transfer-Encoding"s)) {
+            logWarn("Transfer-Encoding: {} not supported", transferEncoding);
+        } else {
+            // NOTE: When there is no content length, and no transfer encoding,
+            //       we read until the server closes the socket.
+            response.body = makeRc<ContentBody>(reader.bytes(), std::move(conn), Limits<usize>::MAX);
+        }
+
+        co_return Ok(makeRc<Response>(std::move(response)));
+    }
+
+    Async::Task<Rc<Response>> doAsync(Rc<Request> request) override {
+        auto& url = request->url;
+        if (url.scheme != "http")
+            co_return Error::unsupported("unsupported scheme");
+
+        auto ips = co_trya$(Sys::lookupAsync(url.host));
+        auto port = url.port.unwrapOr(80);
+        Sys::SocketAddr addr{first(ips), (u16)port};
+        auto conn = co_try$(Sys::TcpConnection::connect(addr));
+        co_trya$(_sendRequestAsync(*request, conn));
+        co_return co_trya$(_recvResponseAsync(conn));
+    }
+};
+
+export Rc<ClientTransport> httpTransport() {
     return makeRc<HttpTransport>();
 }
 
@@ -146,7 +190,7 @@ struct PipeBody : Body {
     }
 };
 
-struct PipeTransport : Transport {
+struct PipeTransport : ClientTransport {
     Async::Task<> _sendRequest(Request& request) {
         request.version = Version{1, 1};
         co_try$(request.unparse(Sys::out()));
@@ -182,7 +226,7 @@ struct PipeTransport : Transport {
     }
 };
 
-export Rc<Transport> pipeTransport() {
+export Rc<ClientTransport> pipeTransport() {
     return makeRc<PipeTransport>();
 }
 
@@ -193,7 +237,7 @@ export enum struct LocalTransportPolicy {
     ALLOW_ALL, // Allow all local ressources access, this include file:, bundle:, and fd:.
 };
 
-struct LocalTransport : Transport {
+struct LocalTransport : ClientTransport {
     LocalTransportPolicy _policy;
     Vec<String> _allowed;
 
@@ -254,20 +298,20 @@ struct LocalTransport : Transport {
     }
 };
 
-export Rc<Transport> localTransport(LocalTransportPolicy policy) {
+export Rc<ClientTransport> localTransport(LocalTransportPolicy policy) {
     return makeRc<LocalTransport>(policy);
 }
 
-export Rc<Transport> localTransport(Vec<String> allowed) {
+export Rc<ClientTransport> localTransport(Vec<String> allowed) {
     return makeRc<LocalTransport>(std::move(allowed));
 }
 
 // MARK: Fallback --------------------------------------------------------------
 
-struct MultiplexTransport : Transport {
-    Vec<Rc<Transport>> _transports;
+struct MultiplexTransport : ClientTransport {
+    Vec<Rc<ClientTransport>> _transports;
 
-    MultiplexTransport(Vec<Rc<Transport>> transports)
+    MultiplexTransport(Vec<Rc<ClientTransport>> transports)
         : _transports(std::move(transports)) {}
 
     Async::Task<Rc<Response>> doAsync(Rc<Request> request) override {
@@ -284,7 +328,7 @@ struct MultiplexTransport : Transport {
     }
 };
 
-export Rc<Transport> multiplexTransport(Vec<Rc<Transport>> transports) {
+export Rc<ClientTransport> multiplexTransport(Vec<Rc<ClientTransport>> transports) {
     return makeRc<MultiplexTransport>(std::move(transports));
 }
 
