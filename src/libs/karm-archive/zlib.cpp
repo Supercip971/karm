@@ -58,4 +58,8 @@ export Res<Vec<u8>> zlibDecompress(Bytes bytes) {
     return Ok(w.take());
 }
 
+export Res<> zlibCompress(Io::Reader& reader, Io::Writer& out){
+
+    }
+
 } // namespace Karm::Archive

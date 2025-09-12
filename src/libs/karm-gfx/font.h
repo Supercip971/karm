@@ -4,6 +4,7 @@
 #include <karm-math/rect.h>
 
 import Karm.Core;
+import Karm.Ref;
 
 namespace Karm::Gfx {
 
@@ -338,6 +339,10 @@ struct Fontface {
     virtual FontMetrics metrics() = 0;
 
     virtual FontAttrs attrs() const = 0;
+
+    virtual Res<Bytes> table(Str) const {
+        return Error::invalidData("not a truetype font");
+    }
 
     virtual Glyph glyph(Rune rune) = 0;
 

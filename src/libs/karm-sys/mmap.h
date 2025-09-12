@@ -174,6 +174,12 @@ struct MutMmap :
     void leak() {
         _owned = false;
     }
+
+    operator Mmap() {
+        Mmap mmap{_paddr, _buf, _size, _owned};
+        leak();
+        return mmap;
+    }
 };
 
 struct _Mmap {
