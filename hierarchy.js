@@ -164,7 +164,9 @@ var hierarchy =
     [ "Karm::Image::Jpeg::Decoder", "structKarm_1_1Image_1_1Jpeg_1_1Decoder.html", null ],
     [ "Karm::Image::Png::Decoder", "structKarm_1_1Image_1_1Png_1_1Decoder.html", null ],
     [ "Karm::Image::Tga::Decoder", "structKarm_1_1Image_1_1Tga_1_1Decoder.html", null ],
-    [ "Karm::Serde::Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", null ],
+    [ "Karm::Serde::Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", [
+      [ "Karm::Serde::PackDeserializer", "structKarm_1_1Serde_1_1PackDeserializer.html", null ]
+    ] ],
     [ "Karm::Sys::Dir", "structKarm_1_1Sys_1_1Dir.html", null ],
     [ "Karm::Sys::DirEntry", "structKarm_1_1Sys_1_1DirEntry.html", null ],
     [ "Karm::App::Dispatch", "structKarm_1_1App_1_1Dispatch.html", [
@@ -846,6 +848,7 @@ var hierarchy =
     [ "Karm::Serde::Serde< T >", "structKarm_1_1Serde_1_1Serde.html", null ],
     [ "Karm::Serde::Serde< Array< T, N > >", "structKarm_1_1Serde_1_1Serde_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< bool >", "structKarm_1_1Serde_1_1Serde_3_01bool_01_4.html", null ],
+    [ "Karm::Serde::Serde< Error >", "structKarm_1_1Serde_1_1Serde_3_01Error_01_4.html", null ],
     [ "Karm::Serde::Serde< Map< String, T > >", "structKarm_1_1Serde_1_1Serde_3_01Map_3_01String_00_01T_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< None >", "structKarm_1_1Serde_1_1Serde_3_01None_01_4.html", null ],
     [ "Karm::Serde::Serde< Opt< T > >", "structKarm_1_1Serde_1_1Serde_3_01Opt_3_01T_01_4_01_4.html", null ],
@@ -856,11 +859,14 @@ var hierarchy =
     [ "Karm::Serde::Serde< Union< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Vec< T > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01T_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Vec< u8 > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01u8_01_4_01_4.html", null ],
-    [ "Karm::Serde::Serializer", "structKarm_1_1Serde_1_1Serializer.html", null ],
+    [ "Karm::Serde::Serializer", "structKarm_1_1Serde_1_1Serializer.html", [
+      [ "Karm::Serde::PackSerializer", "structKarm_1_1Serde_1_1PackSerializer.html", null ]
+    ] ],
     [ "Karm::Http::Server", "structKarm_1_1Http_1_1Server.html", null ],
     [ "Karm::Http::Service", "structKarm_1_1Http_1_1Service.html", null ],
     [ "Karm::Sys::Service", "structKarm_1_1Sys_1_1Service.html", [
-      [ "Karm::Sys::ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", null ]
+      [ "Karm::Sys::ArgsHook", "structKarm_1_1Sys_1_1ArgsHook.html", null ],
+      [ "Karm::Sys::ChannelHook", "structKarm_1_1Sys_1_1ChannelHook.html", null ]
     ] ],
     [ "Karm::Set< T >", "structKarm_1_1Set.html", null ],
     [ "Karm::Print::Settings", "structKarm_1_1Print_1_1Settings.html", null ],

@@ -9,7 +9,7 @@ var dir_be3883856b4814f666ad44e2e59562d4 =
     [ "fmt.cpp", "fmt_8cpp.html", "fmt_8cpp" ],
     [ "funcs.cpp", "karm-core_2io_2funcs_8cpp.html", "karm-core_2io_2funcs_8cpp" ],
     [ "impls.cpp", "impls_8cpp.html", "impls_8cpp" ],
-    [ "mod.cpp", "karm-core_2io_2mod_8cpp.html", "karm-core_2io_2mod_8cpp" ],
+    [ "pack.cpp", "io_2pack_8cpp.html", "io_2pack_8cpp" ],
     [ "sscan.cpp", "sscan_8cpp.html", "sscan_8cpp" ],
     [ "text.cpp", "karm-core_2io_2text_8cpp.html", "karm-core_2io_2text_8cpp" ],
     [ "traits.cpp", "io_2traits_8cpp.html", "io_2traits_8cpp" ],

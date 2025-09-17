@@ -102,7 +102,7 @@ var searchData=
   ['roundi_99',['roundi',['../namespaceKarm_1_1Math.html#aee4023675eef17aec4939733824528da',1,'Karm::Math']]],
   ['roundto_100',['roundTo',['../namespaceKarm.html#a0b8ad22e428dd14f476c3cfbbdf44c30',1,'Karm']]],
   ['rowcontent_101',['rowContent',['../namespaceKarm_1_1Kira.html#a29812503865b112564eca6fb1abc43df',1,'Karm::Kira::rowContent(Ui::Child child)'],['../namespaceKarm_1_1Kira.html#af97990cb67473768bbf613538d51d9de',1,'Karm::Kira::rowContent(Opt&lt; Ui::Child &gt; leading, String title, Opt&lt; String &gt; subtitle, Opt&lt; Ui::Child &gt; trailing)']]],
-  ['rpcsend_102',['rpcSend',['../namespaceKarm_1_1Sys.html#a398b9fccccbc82d29a8dbfab5f96d86d',1,'Karm::Sys']]],
+  ['rpcsend_102',['rpcSend',['../namespaceKarm_1_1Sys.html#acc7900efd9ecb8544fcfae5281e98d66',1,'Karm::Sys']]],
   ['run_103',['run',['../structKarm_1_1Icu_1_1Bidi.html#a648b97c28826e69711769296a2f103a8',1,'Karm::Icu::Bidi::run()'],['../namespaceKarm_1_1Async.html#a13f1166a03e80be2aeaaf9670fdb5425',1,'Karm::Async::run(S s, auto wait)'],['../namespaceKarm_1_1Async.html#a9c5ed5b879071713ee630efbbab99d8b',1,'Karm::Async::run(S s)'],['../namespaceKarm_1_1Sys.html#aa36fa5a23d3794fc6211a3ca141ac5c7',1,'Karm::Sys::run()']]],
   ['runallasync_104',['runAllAsync',['../structKarm_1_1Test_1_1Driver.html#ad5a87e802ba266a661ccd7f8027a3446',1,'Karm::Test::Driver']]],
   ['runasync_105',['runAsync',['../namespaceKarm_1_1Ui.html#a2a4f014b406f3bad76097ad1cc62213c',1,'Karm::Ui::runAsync()'],['../structKarm_1_1Test_1_1Test.html#af3a3158db26a37d72c1d9450d5a87b9e',1,'Karm::Test::Test::runAsync()'],['../structKarm_1_1Ui_1_1Host.html#add6884cab1488975f57a0728bc72f394',1,'Karm::Ui::Host::runAsync()']]],

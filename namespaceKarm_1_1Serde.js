@@ -8,12 +8,16 @@ var namespaceKarm_1_1Serde =
       [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#ac36e090d039dd781e24305b1ca53b641", null ],
       [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#a9f203dc6f26b8bead9d8381df070f18e", null ],
       [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#a95d7a8eedfb4a8d367e5a1452df150e2", null ],
-      [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#a8226b6fc831b5e89562f48e8a743aa18", null ]
+      [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#a8226b6fc831b5e89562f48e8a743aa18", null ],
+      [ "test$", "namespaceKarm_1_1Serde_1_1Tests.html#a1edbbf5815f1f47c8f7eae75d8ea9932", null ]
     ] ],
     [ "Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", "structKarm_1_1Serde_1_1Deserializer" ],
+    [ "PackDeserializer", "structKarm_1_1Serde_1_1PackDeserializer.html", "structKarm_1_1Serde_1_1PackDeserializer" ],
+    [ "PackSerializer", "structKarm_1_1Serde_1_1PackSerializer.html", "structKarm_1_1Serde_1_1PackSerializer" ],
     [ "Serde", "structKarm_1_1Serde_1_1Serde.html", null ],
     [ "Serde< Array< T, N > >", "structKarm_1_1Serde_1_1Serde_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
     [ "Serde< bool >", "structKarm_1_1Serde_1_1Serde_3_01bool_01_4.html", null ],
+    [ "Serde< Error >", "structKarm_1_1Serde_1_1Serde_3_01Error_01_4.html", null ],
     [ "Serde< Map< String, T > >", "structKarm_1_1Serde_1_1Serde_3_01Map_3_01String_00_01T_01_4_01_4.html", null ],
     [ "Serde< None >", "structKarm_1_1Serde_1_1Serde_3_01None_01_4.html", null ],
     [ "Serde< Opt< T > >", "structKarm_1_1Serde_1_1Serde_3_01Opt_3_01T_01_4_01_4.html", null ],

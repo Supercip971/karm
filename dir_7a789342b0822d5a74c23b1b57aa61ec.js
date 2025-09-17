@@ -8,7 +8,7 @@ var dir_7a789342b0822d5a74c23b1b57aa61ec =
     [ "id.cpp", "id_8cpp.html", "id_8cpp" ],
     [ "mod.cpp", "karm-core_2meta_2mod_8cpp.html", "karm-core_2meta_2mod_8cpp" ],
     [ "nocopy.cpp", "nocopy_8cpp.html", "nocopy_8cpp" ],
-    [ "pack.cpp", "pack_8cpp.html", "pack_8cpp" ],
+    [ "pack.cpp", "meta_2pack_8cpp.html", "meta_2pack_8cpp" ],
     [ "signess.cpp", "signess_8cpp.html", "signess_8cpp" ],
     [ "traits.cpp", "meta_2traits_8cpp.html", "meta_2traits_8cpp" ],
     [ "visit.cpp", "visit_8cpp.html", "visit_8cpp" ]

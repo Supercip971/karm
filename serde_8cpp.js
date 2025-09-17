@@ -8,6 +8,7 @@ var serde_8cpp =
     [ "Karm::Serde::Serde< bool >", "structKarm_1_1Serde_1_1Serde_3_01bool_01_4.html", null ],
     [ "Karm::Serde::Serde< None >", "structKarm_1_1Serde_1_1Serde_3_01None_01_4.html", null ],
     [ "Karm::Serde::Serde< Opt< T > >", "structKarm_1_1Serde_1_1Serde_3_01Opt_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Error >", "structKarm_1_1Serde_1_1Serde_3_01Error_01_4.html", null ],
     [ "Karm::Serde::Serde< Res< V, E > >", "structKarm_1_1Serde_1_1Serde_3_01Res_3_01V_00_01E_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Union< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< T >", "structKarm_1_1Serde_1_1Serde_3_01T_01_4.html", null ],

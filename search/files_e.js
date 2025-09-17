@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['pack_2ecpp_0',['pack.cpp',['../pack_8cpp.html',1,'']]],
+  ['pack_2ecpp_0',['pack.cpp',['../io_2pack_8cpp.html',1,'(Global Namespace)'],['../meta_2pack_8cpp.html',1,'(Global Namespace)'],['../serde_2pack_8cpp.html',1,'(Global Namespace)']]],
   ['page_2ecpp_1',['page.cpp',['../page_8cpp.html',1,'']]],
   ['panic_2ecpp_2',['panic.cpp',['../panic_8cpp.html',1,'']]],
   ['paper_2ecpp_3',['paper.cpp',['../paper_8cpp.html',1,'']]],
   ['parser_2ecpp_4',['parser.cpp',['../parser_8cpp.html',1,'']]],
   ['parser_2eh_5',['parser.h',['../parser_8h.html',1,'']]],
-  ['path_2ecpp_6',['path.cpp',['../karm-math_2path_8cpp.html',1,'(Global Namespace)'],['../karm-ref_2path_8cpp.html',1,'(Global Namespace)']]],
+  ['path_2ecpp_6',['path.cpp',['../karm-ref_2path_8cpp.html',1,'(Global Namespace)'],['../karm-math_2path_8cpp.html',1,'(Global Namespace)']]],
   ['path_2eh_7',['path.h',['../path_8h.html',1,'']]],
   ['pdf_2dfonts_2ecpp_8',['pdf-fonts.cpp',['../pdf-fonts_8cpp.html',1,'']]],
   ['pdf_2dprinter_2ecpp_9',['pdf-printer.cpp',['../pdf-printer_8cpp.html',1,'']]],

@@ -3,6 +3,8 @@ var structKarm_1_1Io_1_1BEmit =
     [ "BEmit", "structKarm_1_1Io_1_1BEmit.html#a6b43c5f6f4f2bf4b7a2c63fdc78bd96c", null ],
     [ "writeBytes", "structKarm_1_1Io_1_1BEmit.html#aacd2c88edaa431a7041cbea61e7172e2", null ],
     [ "writeCStr", "structKarm_1_1Io_1_1BEmit.html#a84f8939f838d43cbcf09314a80252bbe", null ],
+    [ "writeF32", "structKarm_1_1Io_1_1BEmit.html#ad1b490ec95d87e783c7c232a5bca3028", null ],
+    [ "writeF64", "structKarm_1_1Io_1_1BEmit.html#a4fe55865efa96c7f5cedc7215045a3c2", null ],
     [ "writeFrom", "structKarm_1_1Io_1_1BEmit.html#a76999c1f5e52db97dc0fe697626d89ce", null ],
     [ "writeI16be", "structKarm_1_1Io_1_1BEmit.html#a7815090d7e15ae3e379153d999711b95", null ],
     [ "writeI16le", "structKarm_1_1Io_1_1BEmit.html#adc98c4d6d8e03985320439c57dfa68c2", null ],

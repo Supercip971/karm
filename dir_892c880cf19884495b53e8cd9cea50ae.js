@@ -13,6 +13,7 @@ var dir_892c880cf19884495b53e8cd9cea50ae =
     [ "defs.h", "defs_8h.html", "defs_8h" ],
     [ "dir.cpp", "dir_8cpp.html", null ],
     [ "dir.h", "dir_8h.html", "dir_8h" ],
+    [ "endpoint.cpp", "endpoint_8cpp.html", "endpoint_8cpp" ],
     [ "endpoint.h", "endpoint_8h.html", "endpoint_8h" ],
     [ "entry.h", "libs_2karm-sys_2entry_8h.html", null ],
     [ "fd.cpp", "libs_2karm-sys_2fd_8cpp.html", null ],
