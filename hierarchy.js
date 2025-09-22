@@ -167,6 +167,7 @@ var hierarchy =
     [ "Karm::Serde::Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", [
       [ "Karm::Serde::PackDeserializer", "structKarm_1_1Serde_1_1PackDeserializer.html", null ]
     ] ],
+    [ "Karm::Av::Device", "structKarm_1_1Av_1_1Device.html", null ],
     [ "Karm::Sys::Dir", "structKarm_1_1Sys_1_1Dir.html", null ],
     [ "Karm::Sys::DirEntry", "structKarm_1_1Sys_1_1DirEntry.html", null ],
     [ "Karm::App::Dispatch", "structKarm_1_1App_1_1Dispatch.html", [
@@ -449,6 +450,7 @@ var hierarchy =
     [ "Karm::Gfx::FontMetrics", "structKarm_1_1Gfx_1_1FontMetrics.html", null ],
     [ "Karm::Base::Foo", "structKarm_1_1Base_1_1Foo.html", null ],
     [ "Karm::Gc::Tests::Foo", "structKarm_1_1Gc_1_1Tests_1_1Foo.html", null ],
+    [ "Karm::Av::Format", "structKarm_1_1Av_1_1Format.html", null ],
     [ "Karm::Format", "structKarm_1_1Format.html", null ],
     [ "Karm::Io::Formatter< T >", "structKarm_1_1Io_1_1Formatter.html", null ],
     [ "Karm::Io::Formatter< Aligned< T > >", "structKarm_1_1Io_1_1Formatter_3_01Aligned_3_01T_01_4_01_4.html", null ],
@@ -637,6 +639,7 @@ var hierarchy =
     [ "Karm::MutCursor< Karm::Gfx::Prose >", "structKarm_1_1MutCursor.html", null ],
     [ "Karm::Sys::Mutex", "structKarm_1_1Sys_1_1Mutex.html", null ],
     [ "Karm::MutSlice< T >", "structKarm_1_1MutSlice.html", null ],
+    [ "Karm::MutSlice< f32 >", "structKarm_1_1MutSlice.html", null ],
     [ "Karm::Niche< T >", "structKarm_1_1Niche.html", null ],
     [ "Karm::Niche< Array< T, N > >", "structKarm_1_1Niche_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
     [ "Karm::Niche< bool >", "structKarm_1_1Niche_3_01bool_01_4.html", null ],
@@ -723,6 +726,7 @@ var hierarchy =
     [ "Karm::Opt< u64 >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Opt< usize >", "structKarm_1_1Opt.html", null ],
     [ "Karm::Cli::Option< T >", "structKarm_1_1Cli_1_1Option.html", null ],
+    [ "Karm::Av::Options", "structKarm_1_1Av_1_1Options.html", null ],
     [ "Karm::Gfx::Outline", "structKarm_1_1Gfx_1_1Outline.html", null ],
     [ "Karm::Gfx::OverlayFilter", "structKarm_1_1Gfx_1_1OverlayFilter.html", null ],
     [ "Karm::Net::Dns::Packet", "structKarm_1_1Net_1_1Dns_1_1Packet.html", null ],
@@ -830,6 +834,9 @@ var hierarchy =
     [ "Karm::Gfx::Rgba8888", "structKarm_1_1Gfx_1_1Rgba8888.html", null ],
     [ "Karm::Ring< T >", "structKarm_1_1Ring.html", null ],
     [ "Karm::Test::RunOptions", "structKarm_1_1Test_1_1RunOptions.html", null ],
+    [ "Karm::Av::Sample", "structKarm_1_1Av_1_1Sample.html", null ],
+    [ "Karm::Av::Samples", "structKarm_1_1Av_1_1Samples.html", null ],
+    [ "Karm::Av::SamplesIter", "structKarm_1_1Av_1_1SamplesIter.html", null ],
     [ "Karm::Gfx::SaturationFilter", "structKarm_1_1Gfx_1_1SaturationFilter.html", null ],
     [ "Karm::Image::Saver", "structKarm_1_1Image_1_1Saver.html", null ],
     [ "Karm::Image::Jpeg::Decoder::ScanComponent", "structKarm_1_1Image_1_1Jpeg_1_1Decoder_1_1ScanComponent.html", null ],
@@ -889,6 +896,9 @@ var hierarchy =
     [ "Karm::Kira::Scaffold::State", "structKarm_1_1Kira_1_1Scaffold_1_1State.html", null ],
     [ "Karm::Kira::State", "structKarm_1_1Kira_1_1State.html", null ],
     [ "Karm::Kv::Store", "structKarm_1_1Kv_1_1Store.html", null ],
+    [ "Karm::Av::Stream", "structKarm_1_1Av_1_1Stream.html", [
+      [ "Sin", "structSin.html", null ]
+    ] ],
     [ "Karm::Pdf::Stream", "structKarm_1_1Pdf_1_1Stream.html", null ],
     [ "Karm::Io::StringFormatter< E >", "structKarm_1_1Io_1_1StringFormatter.html", null ],
     [ "Karm::Io::StringFormatter< Utf8 >", "structKarm_1_1Io_1_1StringFormatter.html", [

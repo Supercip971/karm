@@ -43,7 +43,7 @@ var searchData=
   ['fontweight_40',['FontWeight',['../structKarm_1_1Gfx_1_1FontWeight.html',1,'Karm::Gfx']]],
   ['foo_41',['Foo',['../structKarm_1_1Base_1_1Foo.html',1,'Karm::Base::Foo'],['../structKarm_1_1Gc_1_1Tests_1_1Foo.html',1,'Karm::Gc::Tests::Foo']]],
   ['foregroundfilter_42',['ForegroundFilter',['../structKarm_1_1Ui_1_1ForegroundFilter.html',1,'Karm::Ui']]],
-  ['format_43',['Format',['../structKarm_1_1Format.html',1,'Karm']]],
+  ['format_43',['Format',['../structKarm_1_1Av_1_1Format.html',1,'Karm::Av::Format'],['../structKarm_1_1Format.html',1,'Karm::Format']]],
   ['formatter_44',['Formatter',['../structKarm_1_1Io_1_1Formatter.html',1,'Karm::Io']]],
   ['formatter_3c_20aligned_3c_20t_20_3e_20_3e_45',['Formatter&lt; Aligned&lt; T &gt; &gt;',['../structKarm_1_1Io_1_1Formatter_3_01Aligned_3_01T_01_4_01_4.html',1,'Karm::Io']]],
   ['formatter_3c_20be_3c_20t_20_3e_20_3e_46',['Formatter&lt; Be&lt; T &gt; &gt;',['../structKarm_1_1Io_1_1Formatter_3_01Be_3_01T_01_4_01_4.html',1,'Karm::Io']]],

@@ -4,6 +4,7 @@ var namespaceKarm =
     [ "App", "namespaceKarm_1_1App.html", "namespaceKarm_1_1App" ],
     [ "Archive", "namespaceKarm_1_1Archive.html", "namespaceKarm_1_1Archive" ],
     [ "Async", "namespaceKarm_1_1Async.html", "namespaceKarm_1_1Async" ],
+    [ "Av", "namespaceKarm_1_1Av.html", "namespaceKarm_1_1Av" ],
     [ "Base", "namespaceKarm_1_1Base.html", "namespaceKarm_1_1Base" ],
     [ "Cli", "namespaceKarm_1_1Cli.html", "namespaceKarm_1_1Cli" ],
     [ "Crypto", "namespaceKarm_1_1Crypto.html", "namespaceKarm_1_1Crypto" ],

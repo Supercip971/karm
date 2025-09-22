@@ -52,5 +52,6 @@ var searchData=
   ['mutcursor_3c_20karm_3a_3agfx_3a_3aprose_20_3e_49',['MutCursor&lt; Karm::Gfx::Prose &gt;',['../structKarm_1_1MutCursor.html',1,'Karm']]],
   ['mutex_50',['Mutex',['../structKarm_1_1Sys_1_1Mutex.html',1,'Karm::Sys']]],
   ['mutmmap_51',['MutMmap',['../structKarm_1_1Sys_1_1MutMmap.html',1,'Karm::Sys']]],
-  ['mutslice_52',['MutSlice',['../structKarm_1_1MutSlice.html',1,'Karm']]]
+  ['mutslice_52',['MutSlice',['../structKarm_1_1MutSlice.html',1,'Karm']]],
+  ['mutslice_3c_20f32_20_3e_53',['MutSlice&lt; f32 &gt;',['../structKarm_1_1MutSlice.html',1,'Karm']]]
 ];

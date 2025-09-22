@@ -23,8 +23,9 @@ var searchData=
   ['opt_3c_20usize_20_3e_20',['Opt&lt; usize &gt;',['../structKarm_1_1Opt.html',1,'Karm']]],
   ['option_21',['Option',['../structKarm_1_1Cli_1_1Option.html',1,'Karm::Cli']]],
   ['optionimpl_22',['OptionImpl',['../structKarm_1_1Cli_1_1OptionImpl.html',1,'Karm::Cli']]],
-  ['os2_23',['Os2',['../structKarm_1_1Font_1_1Ttf_1_1Os2.html',1,'Karm::Font::Ttf']]],
-  ['out_24',['Out',['../structKarm_1_1Sys_1_1Out.html',1,'Karm::Sys']]],
-  ['outline_25',['Outline',['../structKarm_1_1Gfx_1_1Outline.html',1,'Karm::Gfx']]],
-  ['overlayfilter_26',['OverlayFilter',['../structKarm_1_1Gfx_1_1OverlayFilter.html',1,'Karm::Gfx']]]
+  ['options_23',['Options',['../structKarm_1_1Av_1_1Options.html',1,'Karm::Av']]],
+  ['os2_24',['Os2',['../structKarm_1_1Font_1_1Ttf_1_1Os2.html',1,'Karm::Font::Ttf']]],
+  ['out_25',['Out',['../structKarm_1_1Sys_1_1Out.html',1,'Karm::Sys']]],
+  ['outline_26',['Outline',['../structKarm_1_1Gfx_1_1Outline.html',1,'Karm::Gfx']]],
+  ['overlayfilter_27',['OverlayFilter',['../structKarm_1_1Gfx_1_1OverlayFilter.html',1,'Karm::Gfx']]]
 ];
