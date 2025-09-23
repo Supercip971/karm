@@ -1,10 +1,17 @@
 var namespaceKarm_1_1Av =
 [
+    [ "Riff", "namespaceKarm_1_1Av_1_1Riff.html", "namespaceKarm_1_1Av_1_1Riff" ],
+    [ "Wav", "namespaceKarm_1_1Av_1_1Wav.html", "namespaceKarm_1_1Av_1_1Wav" ],
+    [ "Audio", "structKarm_1_1Av_1_1Audio.html", "structKarm_1_1Av_1_1Audio" ],
     [ "Device", "structKarm_1_1Av_1_1Device.html", "structKarm_1_1Av_1_1Device" ],
     [ "Format", "structKarm_1_1Av_1_1Format.html", "structKarm_1_1Av_1_1Format" ],
+    [ "Frame", "structKarm_1_1Av_1_1Frame.html", "structKarm_1_1Av_1_1Frame" ],
+    [ "Frames", "structKarm_1_1Av_1_1Frames.html", "structKarm_1_1Av_1_1Frames" ],
+    [ "FramesIter", "structKarm_1_1Av_1_1FramesIter.html", "structKarm_1_1Av_1_1FramesIter" ],
     [ "Options", "structKarm_1_1Av_1_1Options.html", "structKarm_1_1Av_1_1Options" ],
-    [ "Sample", "structKarm_1_1Av_1_1Sample.html", "structKarm_1_1Av_1_1Sample" ],
-    [ "Samples", "structKarm_1_1Av_1_1Samples.html", "structKarm_1_1Av_1_1Samples" ],
-    [ "SamplesIter", "structKarm_1_1Av_1_1SamplesIter.html", "structKarm_1_1Av_1_1SamplesIter" ],
-    [ "Stream", "structKarm_1_1Av_1_1Stream.html", "structKarm_1_1Av_1_1Stream" ]
+    [ "Player", "structKarm_1_1Av_1_1Player.html", "structKarm_1_1Av_1_1Player" ],
+    [ "Stream", "structKarm_1_1Av_1_1Stream.html", "structKarm_1_1Av_1_1Stream" ],
+    [ "load", "namespaceKarm_1_1Av.html#a88c176ed3a6768104b99d90b3e9a3eb0", null ],
+    [ "load", "namespaceKarm_1_1Av.html#a192c527ba8da6753b34ed7a51ccc9897", null ],
+    [ "resamples", "namespaceKarm_1_1Av.html#a079e4f0021c1b60402d12f21d9d05bb2", null ]
 ];

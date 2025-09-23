@@ -5,7 +5,7 @@ var searchData=
   ['datetime_2',['DateTime',['../structKarm_1_1DateTime.html',1,'Karm']]],
   ['day_3',['Day',['../structKarm_1_1Day.html',1,'Karm']]],
   ['dayofweek_4',['DayOfWeek',['../structKarm_1_1DayOfWeek.html',1,'Karm']]],
-  ['decoder_5',['Decoder',['../structKarm_1_1Image_1_1Bmp_1_1Decoder.html',1,'Karm::Image::Bmp::Decoder'],['../structKarm_1_1Image_1_1Gif_1_1Decoder.html',1,'Karm::Image::Gif::Decoder'],['../structKarm_1_1Image_1_1Jpeg_1_1Decoder.html',1,'Karm::Image::Jpeg::Decoder'],['../structKarm_1_1Image_1_1Png_1_1Decoder.html',1,'Karm::Image::Png::Decoder'],['../structKarm_1_1Image_1_1Qoi_1_1Decoder.html',1,'Karm::Image::Qoi::Decoder'],['../structKarm_1_1Image_1_1Tga_1_1Decoder.html',1,'Karm::Image::Tga::Decoder']]],
+  ['decoder_5',['Decoder',['../structKarm_1_1Av_1_1Wav_1_1Decoder.html',1,'Karm::Av::Wav::Decoder'],['../structKarm_1_1Image_1_1Bmp_1_1Decoder.html',1,'Karm::Image::Bmp::Decoder'],['../structKarm_1_1Image_1_1Gif_1_1Decoder.html',1,'Karm::Image::Gif::Decoder'],['../structKarm_1_1Image_1_1Jpeg_1_1Decoder.html',1,'Karm::Image::Jpeg::Decoder'],['../structKarm_1_1Image_1_1Png_1_1Decoder.html',1,'Karm::Image::Png::Decoder'],['../structKarm_1_1Image_1_1Qoi_1_1Decoder.html',1,'Karm::Image::Qoi::Decoder'],['../structKarm_1_1Image_1_1Tga_1_1Decoder.html',1,'Karm::Image::Tga::Decoder']]],
   ['defer_6',['Defer',['../structKarm_1_1Defer.html',1,'Karm']]],
   ['deserializer_7',['Deserializer',['../structKarm_1_1Serde_1_1Deserializer.html',1,'Karm::Serde']]],
   ['device_8',['Device',['../structKarm_1_1Av_1_1Device.html',1,'Karm::Av']]],

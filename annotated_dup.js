@@ -40,12 +40,22 @@ var annotated_dup =
         [ "State", "structKarm_1_1Async_1_1State.html", "structKarm_1_1Async_1_1State" ]
       ] ],
       [ "Av", "namespaceKarm_1_1Av.html", [
+        [ "Riff", "namespaceKarm_1_1Av_1_1Riff.html", [
+          [ "Chunk", "structKarm_1_1Av_1_1Riff_1_1Chunk.html", "structKarm_1_1Av_1_1Riff_1_1Chunk" ],
+          [ "ChunkHeader", "structKarm_1_1Av_1_1Riff_1_1ChunkHeader.html", "structKarm_1_1Av_1_1Riff_1_1ChunkHeader" ]
+        ] ],
+        [ "Wav", "namespaceKarm_1_1Av_1_1Wav.html", [
+          [ "Decoder", "structKarm_1_1Av_1_1Wav_1_1Decoder.html", "structKarm_1_1Av_1_1Wav_1_1Decoder" ],
+          [ "PcmFormat", "structKarm_1_1Av_1_1Wav_1_1PcmFormat.html", "structKarm_1_1Av_1_1Wav_1_1PcmFormat" ]
+        ] ],
+        [ "Audio", "structKarm_1_1Av_1_1Audio.html", "structKarm_1_1Av_1_1Audio" ],
         [ "Device", "structKarm_1_1Av_1_1Device.html", "structKarm_1_1Av_1_1Device" ],
         [ "Format", "structKarm_1_1Av_1_1Format.html", "structKarm_1_1Av_1_1Format" ],
+        [ "Frame", "structKarm_1_1Av_1_1Frame.html", "structKarm_1_1Av_1_1Frame" ],
+        [ "Frames", "structKarm_1_1Av_1_1Frames.html", "structKarm_1_1Av_1_1Frames" ],
+        [ "FramesIter", "structKarm_1_1Av_1_1FramesIter.html", "structKarm_1_1Av_1_1FramesIter" ],
         [ "Options", "structKarm_1_1Av_1_1Options.html", "structKarm_1_1Av_1_1Options" ],
-        [ "Sample", "structKarm_1_1Av_1_1Sample.html", "structKarm_1_1Av_1_1Sample" ],
-        [ "Samples", "structKarm_1_1Av_1_1Samples.html", "structKarm_1_1Av_1_1Samples" ],
-        [ "SamplesIter", "structKarm_1_1Av_1_1SamplesIter.html", "structKarm_1_1Av_1_1SamplesIter" ],
+        [ "Player", "structKarm_1_1Av_1_1Player.html", "structKarm_1_1Av_1_1Player" ],
         [ "Stream", "structKarm_1_1Av_1_1Stream.html", "structKarm_1_1Av_1_1Stream" ]
       ] ],
       [ "Base", "namespaceKarm_1_1Base.html", [

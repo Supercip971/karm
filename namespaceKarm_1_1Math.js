@@ -148,6 +148,7 @@ var namespaceKarm_1_1Math =
     [ "isNan", "namespaceKarm_1_1Math.html#a4ee2bab54aa6c4ba800ceacfd82e8d7f", null ],
     [ "isNegInf", "namespaceKarm_1_1Math.html#ab7e0bffe81458557f33a836b85a87477", null ],
     [ "lerp", "namespaceKarm_1_1Math.html#a776975f014a6b6b7ca4b1295e6e41402", null ],
+    [ "log", "namespaceKarm_1_1Math.html#a92dd56b379b02da92c7e57152c809dbd", null ],
     [ "log2", "namespaceKarm_1_1Math.html#af3b0471f878d46b0ab89f3c4d8a79127", null ],
     [ "operator*", "namespaceKarm_1_1Math.html#ae194d2b29daa4417bb2c7a164633f130", null ],
     [ "operator*", "namespaceKarm_1_1Math.html#a6dcb44f74c7047f88189680b24e4a22a", null ],

@@ -23,6 +23,7 @@ var karm_core_2math_2funcs_8cpp =
     [ "isNan", "karm-core_2math_2funcs_8cpp.html#a4ee2bab54aa6c4ba800ceacfd82e8d7f", null ],
     [ "isNegInf", "karm-core_2math_2funcs_8cpp.html#ab7e0bffe81458557f33a836b85a87477", null ],
     [ "lerp", "karm-core_2math_2funcs_8cpp.html#a776975f014a6b6b7ca4b1295e6e41402", null ],
+    [ "log", "karm-core_2math_2funcs_8cpp.html#a92dd56b379b02da92c7e57152c809dbd", null ],
     [ "log2", "karm-core_2math_2funcs_8cpp.html#af3b0471f878d46b0ab89f3c4d8a79127", null ],
     [ "pow", "karm-core_2math_2funcs_8cpp.html#a8078902bb75cd35da4485914c6366621", null ],
     [ "pow2", "karm-core_2math_2funcs_8cpp.html#a5535918d20acd7a1e5a2c411f503f52f", null ],
