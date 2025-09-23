@@ -10,8 +10,8 @@ var structKarm_1_1Atomic =
     [ "fetchInc", "structKarm_1_1Atomic.html#adff506e22fb6c4d3d5784eecee050894", null ],
     [ "fetchSub", "structKarm_1_1Atomic.html#ac1a3030282e5b78de8ca58a2e2db5d1a", null ],
     [ "inc", "structKarm_1_1Atomic.html#ac98b1e4482cf5aad9593d0d1c1e49313", null ],
-    [ "load", "structKarm_1_1Atomic.html#abcb74b27b5c99b99bdbbc9e50d2e621d", null ],
-    [ "lockFree", "structKarm_1_1Atomic.html#ad5381d00ddb91659d9c7bb69d9b4263c", null ],
+    [ "load", "structKarm_1_1Atomic.html#afabb9f2ddcf8b12875ba1da3b35bcd45", null ],
+    [ "lockFree", "structKarm_1_1Atomic.html#ac47c1706784ba0dcba012f087f804b38", null ],
     [ "store", "structKarm_1_1Atomic.html#a5d8e4412fb3774ad0588f4453424f098", null ],
     [ "xchg", "structKarm_1_1Atomic.html#afdd9b3686faa0091318b7d6ca0507d45", null ]
 ];
