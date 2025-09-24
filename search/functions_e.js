@@ -71,7 +71,7 @@ var searchData=
   ['origin_68',['origin',['../structKarm_1_1Gfx_1_1Canvas.html#a10e12fdb421866e0daa2bbe26a25d636',1,'Karm::Gfx::Canvas']]],
   ['out_69',['Out',['../structKarm_1_1Sys_1_1Out.html#ac19bae765c52d64fa18f1903a1085cda',1,'Karm::Sys::Out']]],
   ['out_70',['out',['../namespaceKarm_1_1Sys.html#aa3408b581879ff72c131f60cce6eef2a',1,'Karm::Sys']]],
-  ['outgoingsum_71',['outgoingSum',['../structKarm_1_1Gfx_1_1StackBlur.html#ad010c0b04af2e11f8b0c10c0ff75074a',1,'Karm::Gfx::StackBlur']]],
+  ['outgoingsumcurrent_71',['outgoingSumCurrent',['../structKarm_1_1Gfx_1_1StackBlur.html#a63722da45195d6709c9d1d687799421c',1,'Karm::Gfx::StackBlur']]],
   ['outline_72',['outline',['../structKarm_1_1Ui_1_1ButtonStyle.html#a2a0589211d5e369aeda571d54f8b5708',1,'Karm::Ui::ButtonStyle']]],
   ['outside_73',['outside',['../structKarm_1_1Ui_1_1SlideIn.html#a372cd3356610f740820d7c917a5f2ae4',1,'Karm::Ui::SlideIn']]],
   ['overlaps_74',['overlaps',['../structKarm_1_1Range.html#acd10a48cc17ce4efa745971a5849f45f',1,'Karm::Range']]],

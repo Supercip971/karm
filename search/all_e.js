@@ -134,7 +134,7 @@ var searchData=
   ['otlayout_2eh_131',['otlayout.h',['../otlayout_8h.html',1,'']]],
   ['out_132',['Out',['../structKarm_1_1Sys_1_1Out.html',1,'Karm::Sys::Out'],['../structKarm_1_1Sys_1_1Out.html#ac19bae765c52d64fa18f1903a1085cda',1,'Karm::Sys::Out::Out()']]],
   ['out_133',['out',['../structKarm_1_1Sys_1_1Pipe.html#af2f7facabe244f3893c3bdb21b590961',1,'Karm::Sys::Pipe::out()'],['../namespaceKarm_1_1Sys.html#aa3408b581879ff72c131f60cce6eef2a',1,'Karm::Sys::out()']]],
-  ['outgoingsum_134',['outgoingSum',['../structKarm_1_1Gfx_1_1StackBlur.html#ad010c0b04af2e11f8b0c10c0ff75074a',1,'Karm::Gfx::StackBlur']]],
+  ['outgoingsumcurrent_134',['outgoingSumCurrent',['../structKarm_1_1Gfx_1_1StackBlur.html#a63722da45195d6709c9d1d687799421c',1,'Karm::Gfx::StackBlur']]],
   ['outline_135',['Outline',['../structKarm_1_1Gfx_1_1Outline.html',1,'Karm::Gfx']]],
   ['outline_136',['outline',['../structKarm_1_1Ui_1_1ButtonStyle.html#a2a0589211d5e369aeda571d54f8b5708',1,'Karm::Ui::ButtonStyle']]],
   ['outline_2ecpp_137',['outline.cpp',['../outline_8cpp.html',1,'']]],

@@ -71,7 +71,7 @@ var searchData=
   ['in_68',['in',['../structKarm_1_1Sys_1_1Pipe.html#ac4e6a5f9b520a4baef0532e61a1a128a',1,'Karm::Sys::Pipe']]],
   ['in_69',['In',['../structKarm_1_1Sys_1_1In.html',1,'Karm::Sys']]],
   ['inc_70',['inc',['../structKarm_1_1Atomic.html#ac98b1e4482cf5aad9593d0d1c1e49313',1,'Karm::Atomic']]],
-  ['incomingsum_71',['incomingSum',['../structKarm_1_1Gfx_1_1StackBlur.html#aa6f34a455ddaf452ccd0c9e76eaf6e97',1,'Karm::Gfx::StackBlur']]],
+  ['incomingsumwith_71',['incomingSumWith',['../structKarm_1_1Gfx_1_1StackBlur.html#ad08ad453b9b30e8934339853576b5f3c',1,'Karm::Gfx::StackBlur']]],
   ['indent_72',['indent',['../structKarm_1_1Io_1_1Emit.html#ae38a7830fe6b6607a4175659da844eb4',1,'Karm::Io::Emit']]],
   ['indented_73',['indented',['../structKarm_1_1Io_1_1Emit.html#a2e08945b923edb42b67c4b865799ba41',1,'Karm::Io::Emit']]],
   ['indentnewline_74',['indentNewline',['../structKarm_1_1Io_1_1Emit.html#abe5e8b73efe1c1c8d94cb32410e6938c',1,'Karm::Io::Emit']]],

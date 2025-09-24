@@ -39,7 +39,7 @@ var searchData=
   ['den_36',['den',['../structKarm_1_1Math_1_1BigFrac.html#a765c0c8009db1879823ca143e5d715dc',1,'Karm::Math::BigFrac::den()'],['../structKarm_1_1Math_1_1BigFrac.html#a87ce66ef2c811bac95aa8e8edb806d4a',1,'Karm::Math::BigFrac::den() const']]],
   ['denominator_37',['denominator',['../structKarm_1_1Gfx_1_1StackBlur.html#a17fa144bf79d843f8f7a2b00aeb0bba6',1,'Karm::Gfx::StackBlur']]],
   ['dequantize_38',['dequantize',['../namespaceKarm_1_1Image_1_1Jpeg.html#ab7d051605b3eb06545b5543a44d6a3b2',1,'Karm::Image::Jpeg']]],
-  ['dequeue_39',['dequeue',['../structKarm_1_1Gfx_1_1StackBlur.html#aa70b51c104b5e2e86bcefebd9c11381a',1,'Karm::Gfx::StackBlur::dequeue()'],['../structKarm_1_1Async_1_1Queue.html#a5f26bb43caac8bd0df0cf94313ee7b21',1,'Karm::Async::Queue::dequeue()']]],
+  ['dequeue_39',['dequeue',['../structKarm_1_1Gfx_1_1StackBlur.html#a3663dcf13c5df2bf10de358c9e3a53de',1,'Karm::Gfx::StackBlur::dequeue()'],['../structKarm_1_1Async_1_1Queue.html#a5f26bb43caac8bd0df0cf94313ee7b21',1,'Karm::Async::Queue::dequeue()']]],
   ['dequeueasync_40',['dequeueAsync',['../structKarm_1_1Async_1_1Queue.html#a82f5b0479339d61ec264a95770c258cd',1,'Karm::Async::Queue']]],
   ['derivative_41',['derivative',['../unionKarm_1_1Math_1_1Curve.html#a8cba1a1376c49e64a12d45a731b60459',1,'Karm::Math::Curve']]],
   ['derivative2_42',['derivative2',['../unionKarm_1_1Math_1_1Curve.html#aa29eac70c8dd91f2d11ab0948c078a8f',1,'Karm::Math::Curve']]],

@@ -72,7 +72,7 @@ var searchData=
   ['denominator_69',['denominator',['../structKarm_1_1Gfx_1_1StackBlur.html#a17fa144bf79d843f8f7a2b00aeb0bba6',1,'Karm::Gfx::StackBlur']]],
   ['density_70',['density',['../structKarm_1_1Print_1_1FilePrinterProps.html#a9a6ad4ee0547a538e74beccaa74bd137',1,'Karm::Print::FilePrinterProps']]],
   ['dequantize_71',['dequantize',['../namespaceKarm_1_1Image_1_1Jpeg.html#ab7d051605b3eb06545b5543a44d6a3b2',1,'Karm::Image::Jpeg']]],
-  ['dequeue_72',['dequeue',['../structKarm_1_1Async_1_1Queue.html#a5f26bb43caac8bd0df0cf94313ee7b21',1,'Karm::Async::Queue::dequeue()'],['../structKarm_1_1Gfx_1_1StackBlur.html#aa70b51c104b5e2e86bcefebd9c11381a',1,'Karm::Gfx::StackBlur::dequeue()']]],
+  ['dequeue_72',['dequeue',['../structKarm_1_1Async_1_1Queue.html#a5f26bb43caac8bd0df0cf94313ee7b21',1,'Karm::Async::Queue::dequeue()'],['../structKarm_1_1Gfx_1_1StackBlur.html#a3663dcf13c5df2bf10de358c9e3a53de',1,'Karm::Gfx::StackBlur::dequeue()']]],
   ['dequeueasync_73',['dequeueAsync',['../structKarm_1_1Async_1_1Queue.html#a82f5b0479339d61ec264a95770c258cd',1,'Karm::Async::Queue']]],
   ['derivative_74',['derivative',['../unionKarm_1_1Math_1_1Curve.html#a8cba1a1376c49e64a12d45a731b60459',1,'Karm::Math::Curve']]],
   ['derivative2_75',['derivative2',['../unionKarm_1_1Math_1_1Curve.html#aa29eac70c8dd91f2d11ab0948c078a8f',1,'Karm::Math::Curve']]],
