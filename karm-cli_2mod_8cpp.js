@@ -25,5 +25,6 @@ var karm_cli_2mod_8cpp =
     [ "Cli", "karm-cli_2mod_8cpp.html#a4eec3224550cd5aa08b94d95d9d7d683", null ],
     [ "Core", "karm-cli_2mod_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Debug", "karm-cli_2mod_8cpp.html#ae9c22628d1cefdb9b7dc5262029cb360", null ],
-    [ "module", "karm-cli_2mod_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
+    [ "module", "karm-cli_2mod_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
+    [ "Sys", "karm-cli_2mod_8cpp.html#a3974c0216d383a8ee20f65600aacb6c5", null ]
 ];

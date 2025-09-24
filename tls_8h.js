@@ -8,5 +8,6 @@ var tls_8h =
       [ "HANDSHAKE", "tls_8h.html#af4f9673df47c05b9d214c7b1849d92c8a84fcef12cce95eb15cffe4338ecf5d29", null ],
       [ "APPLICATION_DATA", "tls_8h.html#af4f9673df47c05b9d214c7b1849d92c8a704d52e4b4b32ea4145af26445eef741", null ]
     ] ],
-    [ "Core", "tls_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
+    [ "Core", "tls_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Sys", "tls_8h.html#a61c46eccbbffd42c6834297a60fa3f48", null ]
 ];

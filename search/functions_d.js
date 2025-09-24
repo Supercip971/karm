@@ -59,7 +59,7 @@ var searchData=
   ['norn_56',['nOrN',['../namespaceKarm_1_1Re.html#a953ed0ca226b5fc0c66c65b715667d45',1,'Karm::Re']]],
   ['nothing_57',['nothing',['../namespaceKarm_1_1Re.html#a4cdfdbd39c874ba76a1f680a242b0f80',1,'Karm::Re']]],
   ['notimplemented_58',['notImplemented',['../namespaceKarm.html#a9bc49e3e17c961580da2f966c20fb972',1,'Karm']]],
-  ['now_59',['now',['../namespaceKarm_1_1Sys.html#ada5fe343d58f6e862d7819543725e4a3',1,'Karm::Sys']]],
+  ['now_59',['now',['../namespaceKarm_1_1Sys.html#af75fe44ff89f8e119b1876b30c70b509',1,'Karm::Sys']]],
   ['num_60',['num',['../structKarm_1_1Math_1_1BigFrac.html#abe3961cf6c714fcb3334c24eb7a19a2b',1,'Karm::Math::BigFrac::num() const'],['../structKarm_1_1Math_1_1BigFrac.html#ab5c63df15cfe1b9d3012d5731967e5db',1,'Karm::Math::BigFrac::num()']]],
   ['number_61',['number',['../namespaceKarm_1_1Kira.html#a6606189c4cdbc41c1e86c4a3f98e5e36',1,'Karm::Kira']]],
   ['numberofhmetrics_62',['numberOfHMetrics',['../structKarm_1_1Font_1_1Ttf_1_1Hhea.html#a958e7fcb664df99bf6aa249936c78250',1,'Karm::Font::Ttf::Hhea']]],

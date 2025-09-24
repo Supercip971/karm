@@ -97,15 +97,26 @@ $(document).ready(function(){initNavTree('info_8cpp.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">info.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="info_8h_source.html">info.h</a>&quot;</code><br />
-<code>#include &quot;_embed.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="proc_8h_source.html">proc.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="karm-core_2macros_8h_source.html">karm-core/macros.h</a>&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1SysInfo.html">Karm::Sys::SysInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1MemInfo.html">Karm::Sys::MemInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1CpuInfo.html">Karm::Sys::CpuInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1UserInfo.html">Karm::Sys::UserInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
@@ -115,17 +126,85 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6717b7a627dc4a34af1163825e51243b"><td class="memItemLeft" align="right" valign="top">Res&lt; SysInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a6717b7a627dc4a34af1163825e51243b">Karm::Sys::sysinfo</a> ()</td></tr>
-<tr class="separator:a6717b7a627dc4a34af1163825e51243b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbda8094e1ed36737ccfeb97c43f10e7"><td class="memItemLeft" align="right" valign="top">Res&lt; MemInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#afbda8094e1ed36737ccfeb97c43f10e7">Karm::Sys::meminfo</a> ()</td></tr>
-<tr class="separator:afbda8094e1ed36737ccfeb97c43f10e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b2df967631bca55b5d7535b2e6c5605"><td class="memItemLeft" align="right" valign="top">Res&lt; Vec&lt; CpuInfo &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a3b2df967631bca55b5d7535b2e6c5605">Karm::Sys::cpusinfo</a> ()</td></tr>
-<tr class="separator:a3b2df967631bca55b5d7535b2e6c5605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e0fd139780651b811b16669b8ac50f7"><td class="memItemLeft" align="right" valign="top">Res&lt; UserInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a7e0fd139780651b811b16669b8ac50f7">Karm::Sys::userinfo</a> ()</td></tr>
-<tr class="separator:a7e0fd139780651b811b16669b8ac50f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb32fd2ad609d14b9dc8fd7d817b27e7"><td class="memItemLeft" align="right" valign="top">Res&lt; Vec&lt; UserInfo &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#acb32fd2ad609d14b9dc8fd7d817b27e7">Karm::Sys::usersinfo</a> ()</td></tr>
-<tr class="separator:acb32fd2ad609d14b9dc8fd7d817b27e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8104c582567d766480f50ead043ea6e6"><td class="memItemLeft" align="right" valign="top">export Res&lt; SysInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a8104c582567d766480f50ead043ea6e6">Karm::Sys::sysinfo</a> ()</td></tr>
+<tr class="separator:a8104c582567d766480f50ead043ea6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c12d24d184ca1ec6f9d3bab872ba6e"><td class="memItemLeft" align="right" valign="top">export Res&lt; MemInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#ac7c12d24d184ca1ec6f9d3bab872ba6e">Karm::Sys::meminfo</a> ()</td></tr>
+<tr class="separator:ac7c12d24d184ca1ec6f9d3bab872ba6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10df7fcfa078fb37092e2212216702aa"><td class="memItemLeft" align="right" valign="top">export Res&lt; Vec&lt; CpuInfo &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a10df7fcfa078fb37092e2212216702aa">Karm::Sys::cpusinfo</a> ()</td></tr>
+<tr class="separator:a10df7fcfa078fb37092e2212216702aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a855b28cd38f0fcb83870a5652654a053"><td class="memItemLeft" align="right" valign="top">export Res&lt; UserInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a855b28cd38f0fcb83870a5652654a053">Karm::Sys::userinfo</a> ()</td></tr>
+<tr class="separator:a855b28cd38f0fcb83870a5652654a053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf2e958eb04448f37458b2b3c95d3580"><td class="memItemLeft" align="right" valign="top">export Res&lt; Vec&lt; UserInfo &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#aaf2e958eb04448f37458b2b3c95d3580">Karm::Sys::usersinfo</a> ()</td></tr>
+<tr class="separator:aaf2e958eb04448f37458b2b3c95d3580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="info_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e40a157e6f7acd446452aee695a49df"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="pkg_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="info_8cpp.html#a7e40a157e6f7acd446452aee695a49df">Sys</a></td></tr>
+<tr class="separator:a7e40a157e6f7acd446452aee695a49df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="info_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
+<tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add789519f7f2dc7d37718eab411af552"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="info_8cpp.html#add789519f7f2dc7d37718eab411af552">Ref</a></td></tr>
+<tr class="separator:add789519f7f2dc7d37718eab411af552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="abedc7e19652ef6fd2984ea9cb3d62db5" name="abedc7e19652ef6fd2984ea9cb3d62db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedc7e19652ef6fd2984ea9cb3d62db5">&#9670;&#160;</a></span>Core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add789519f7f2dc7d37718eab411af552" name="add789519f7f2dc7d37718eab411af552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add789519f7f2dc7d37718eab411af552">&#9670;&#160;</a></span>Ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Ref</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e40a157e6f7acd446452aee695a49df" name="a7e40a157e6f7acd446452aee695a49df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e40a157e6f7acd446452aee695a49df">&#9670;&#160;</a></span>Sys</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="pkg_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Sys</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

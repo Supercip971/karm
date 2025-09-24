@@ -1,5 +1,10 @@
 var proc_8cpp =
 [
-    [ "ensureUnrestricted", "proc_8cpp.html#a27b71eb5fe8b21094d286adeeb99df94", null ],
-    [ "enterSandbox", "proc_8cpp.html#a5aeaff7bf42993d6542c63f08bdc669c", null ]
+    [ "ensureUnrestricted", "proc_8cpp.html#a708faef575891bf024f8c685f9f330c7", null ],
+    [ "enterSandbox", "proc_8cpp.html#ac8cabe052ae9144d0fe33c1b65411de3", null ],
+    [ "pwd", "proc_8cpp.html#aa106b255d5d159745b5c5f5f13461d07", null ],
+    [ "sleep", "proc_8cpp.html#a0eb3627afa5e6055826f6858cb65aed7", null ],
+    [ "sleepUntil", "proc_8cpp.html#a8459a2aaebb840804fab0e899b6a53de", null ],
+    [ "module", "proc_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
+    [ "Sys", "proc_8cpp.html#a7e40a157e6f7acd446452aee695a49df", null ]
 ];

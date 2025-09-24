@@ -13,5 +13,5 @@ var dir_be3883856b4814f666ad44e2e59562d4 =
     [ "sscan.cpp", "sscan_8cpp.html", "sscan_8cpp" ],
     [ "text.cpp", "karm-core_2io_2text_8cpp.html", "karm-core_2io_2text_8cpp" ],
     [ "traits.cpp", "io_2traits_8cpp.html", "io_2traits_8cpp" ],
-    [ "types.cpp", "types_8cpp.html", "types_8cpp" ]
+    [ "types.cpp", "karm-core_2io_2types_8cpp.html", "karm-core_2io_2types_8cpp" ]
 ];

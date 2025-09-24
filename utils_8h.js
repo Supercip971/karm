@@ -15,5 +15,6 @@ var utils_8h =
     [ "toSockAddr", "utils_8h.html#ab57edc6e5c10102fb6de7d3e04e70e5a", null ],
     [ "toTimespec", "utils_8h.html#ad400c7c2f483debfd66b238a6ec501ae", null ],
     [ "toTimespec", "utils_8h.html#ab1dcc91b071d297f63adfc4314617b15", null ],
-    [ "Core", "utils_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ]
+    [ "Core", "utils_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Sys", "utils_8h.html#a3974c0216d383a8ee20f65600aacb6c5", null ]
 ];

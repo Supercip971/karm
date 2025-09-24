@@ -97,15 +97,21 @@ $(document).ready(function(){initNavTree('stat_8cpp.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">stat.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="stat_8h_source.html">stat.h</a>&quot;</code><br />
-<code>#include &quot;_embed.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="proc_8h_source.html">proc.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="karm-core_2macros_8h_source.html">karm-core/macros.h</a>&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1Stat.html">Karm::Sys::Stat</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm.html">Karm</a></td></tr>
@@ -113,11 +119,91 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm_1_1Sys"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html">Karm::Sys</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ac6f925bec39595b5427e8f145bd1a4cd"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cd">Karm::Sys::Type</a> { <a class="el" href="namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cda9fc5887c030f7a3e19821ebec457e719">Karm::Sys::FILE</a>
+, <a class="el" href="namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cdac1561b120842fabe1310417083827590">Karm::Sys::DIR</a>
+, <a class="el" href="namespaceKarm_1_1Sys.html#ac6f925bec39595b5427e8f145bd1a4cda03570470bad94692ce93e32700d2e1cb">Karm::Sys::OTHER</a>
+ }</td></tr>
+<tr class="separator:ac6f925bec39595b5427e8f145bd1a4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acf367a0985993f3bf8079e8106f89ef0"><td class="memItemLeft" align="right" valign="top">Res&lt; Stat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#acf367a0985993f3bf8079e8106f89ef0">Karm::Sys::stat</a> (Ref::Url const &amp;url)</td></tr>
-<tr class="separator:acf367a0985993f3bf8079e8106f89ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff16d5a40d0be83ccbe1c8bbacdb1d2"><td class="memItemLeft" align="right" valign="top">export Res&lt; Stat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#aaff16d5a40d0be83ccbe1c8bbacdb1d2">Karm::Sys::stat</a> (Ref::Url const &amp;url)</td></tr>
+<tr class="separator:aaff16d5a40d0be83ccbe1c8bbacdb1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b8d5b287bfe3467c732b230eb8dbbe5"><td class="memItemLeft" align="right" valign="top">export Res&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a0b8d5b287bfe3467c732b230eb8dbbe5">Karm::Sys::isFile</a> (Ref::Url const &amp;url)</td></tr>
+<tr class="separator:a0b8d5b287bfe3467c732b230eb8dbbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7d996c4be468083d63525898f0f5c8"><td class="memItemLeft" align="right" valign="top">export Res&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#abb7d996c4be468083d63525898f0f5c8">Karm::Sys::isDir</a> (Ref::Url const &amp;url)</td></tr>
+<tr class="separator:abb7d996c4be468083d63525898f0f5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stat_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e40a157e6f7acd446452aee695a49df"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="pkg_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stat_8cpp.html#a7e40a157e6f7acd446452aee695a49df">Sys</a></td></tr>
+<tr class="separator:a7e40a157e6f7acd446452aee695a49df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stat_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
+<tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add789519f7f2dc7d37718eab411af552"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stat_8cpp.html#add789519f7f2dc7d37718eab411af552">Ref</a></td></tr>
+<tr class="separator:add789519f7f2dc7d37718eab411af552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="abedc7e19652ef6fd2984ea9cb3d62db5" name="abedc7e19652ef6fd2984ea9cb3d62db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedc7e19652ef6fd2984ea9cb3d62db5">&#9670;&#160;</a></span>Core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add789519f7f2dc7d37718eab411af552" name="add789519f7f2dc7d37718eab411af552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add789519f7f2dc7d37718eab411af552">&#9670;&#160;</a></span>Ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Ref</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e40a157e6f7acd446452aee695a49df" name="a7e40a157e6f7acd446452aee695a49df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e40a157e6f7acd446452aee695a49df">&#9670;&#160;</a></span>Sys</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="pkg_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Sys</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

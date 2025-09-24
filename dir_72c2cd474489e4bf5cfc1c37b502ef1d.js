@@ -29,5 +29,5 @@ var dir_72c2cd474489e4bf5cfc1c37b502ef1d =
     [ "shadow.h", "shadow_8h.html", "shadow_8h" ],
     [ "stroke.cpp", "stroke_8cpp.html", "stroke_8cpp" ],
     [ "stroke.h", "stroke_8h.html", "stroke_8h" ],
-    [ "types.h", "karm-gfx_2types_8h.html", "karm-gfx_2types_8h" ]
+    [ "types.h", "types_8h.html", "types_8h" ]
 ];

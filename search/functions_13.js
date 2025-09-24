@@ -26,7 +26,7 @@ var searchData=
   ['textencoder_23',['TextEncoder',['../structKarm_1_1Io_1_1TextEncoder.html#ab906e60fcc8e7b68b84c2e033d58935c',1,'Karm::Io::TextEncoder']]],
   ['textmodel_24',['TextModel',['../structKarm_1_1Ui_1_1TextModel.html#a5a765383d5e99776003cc9c05464315d',1,'Karm::Ui::TextModel']]],
   ['tib_25',['tib',['../namespaceKarm.html#a373ea6f22ee10e4e5be3d7b1b026c4a7',1,'Karm']]],
-  ['time_26',['time',['../namespaceKarm_1_1Sys.html#a0601be2f49b73187ee1d3afef0bc3078',1,'Karm::Sys']]],
+  ['time_26',['time',['../namespaceKarm_1_1Sys.html#aebad470b9d072717a11a6e6b5cc5812c',1,'Karm::Sys']]],
   ['titlebar_27',['titlebar',['../namespaceKarm_1_1Kira.html#a6980e61f49f481e1cb9a8471172a4285',1,'Karm::Kira::titlebar(Gfx::Icon icon, String title, TitlebarStyle style=TitlebarStyle::DEFAULT)'],['../namespaceKarm_1_1Kira.html#a964df7002bb906436a72879b5ef03feb',1,'Karm::Kira::titlebar(Gfx::Icon icon, String title, Ui::Child middle, TitlebarStyle style=TitlebarStyle::DEFAULT)']]],
   ['titlebarcontrols_28',['titlebarControls',['../namespaceKarm_1_1Kira.html#a93bb041080ad2eb33e0fd504d5eff673',1,'Karm::Kira']]],
   ['titlebartitle_29',['titlebarTitle',['../namespaceKarm_1_1Kira.html#ad53791ea4521dbfba4bc47c17a2101a6',1,'Karm::Kira']]],

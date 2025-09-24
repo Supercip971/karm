@@ -107,24 +107,34 @@ $(document).ready(function(){initNavTree('libs_2karm-sys_2entry_8h_source.html',
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define __KARM_SYS_ENTRY_INCLUDED</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="chan_8h.html">chan.h</a>&quot;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="context_8h.html">context.h</a>&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#if defined(__ck_sys_linux__) || defined(__ck_sys_darwin__)</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#    define EMBED_POSIX_MAIN_IMPL</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#    include &lt;<a class="code" href="impls_2impl-posix_2entry_8h.html">impl-posix/entry.h</a>&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#elif defined(__ck_sys_skift__)</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// Nothing to do, skift uses entryPoint by default</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#elif defined(__ck_sys_efi__)</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#    include &lt;impl-efi/entry.h&gt;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#elif defined(__ck_sys_wasm__)</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#    include &lt;impl-wasm/entry.h&gt;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#    error &quot;Unknown system&quot;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="achan_8h_html"><div class="ttname"><a href="chan_8h.html">chan.h</a></div></div>
-<div class="ttc" id="acontext_8h_html"><div class="ttname"><a href="context_8h.html">context.h</a></div></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="libs_2karm-sys_2entry_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5">    9</a></span><span class="keyword">import</span> <a class="code hl_namespace" href="namespaceKarm.html">Karm</a>.Core;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="libs_2karm-sys_2entry_8h.html#add789519f7f2dc7d37718eab411af552">   10</a></span><span class="keyword">import</span> <a class="code hl_namespace" href="namespaceKarm.html">Karm</a>.<a class="code hl_namespace" href="namespaceKarm_1_1Ref.html">Ref</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="libs_2karm-sys_2entry_8h.html#a3974c0216d383a8ee20f65600aacb6c5">   11</a></span><span class="keyword">import</span> <a class="code hl_namespace" href="namespaceKarm.html">Karm</a>.<a class="code hl_namespace" href="namespaceKarm_1_1Sys.html">Sys</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;<a class="code" href="karm-core_2macros_8h.html">karm-core/macros.h</a>&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="libs_2karm-sys_2entry_8h.html#aec8e8f97e990376e9208b8f3f5abc463">   15</a></span>[[gnu::used]] <a class="code hl_typedef" href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Karm::Async::Task&lt;&gt;</a> <a class="code hl_function" href="karm-av_2main_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e">entryPointAsync</a>(<a class="code hl_struct" href="structKarm_1_1Sys_1_1Context.html">Karm::Sys::Context</a>&amp;);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#if defined(__ck_sys_linux__) || defined(__ck_sys_darwin__)</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#    define EMBED_POSIX_MAIN_IMPL</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#    include &lt;<a class="code" href="impls_2impl-posix_2entry_8h.html">impl-posix/entry.h</a>&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#elif defined(__ck_sys_skift__)</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">// Nothing to do, skift uses entryPoint by default</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#elif defined(__ck_sys_efi__)</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#    include &lt;impl-efi/entry.h&gt;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#elif defined(__ck_sys_wasm__)</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#    include &lt;impl-wasm/entry.h&gt;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#    error &quot;Unknown system&quot;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aimpls_2impl-posix_2entry_8h_html"><div class="ttname"><a href="impls_2impl-posix_2entry_8h.html">entry.h</a></div></div>
+<div class="ttc" id="akarm-av_2main_2main_8cpp_html_a71e331d9fca12051621c608fdc699f3e"><div class="ttname"><a href="karm-av_2main_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e">entryPointAsync</a></div><div class="ttdeci">Async::Task entryPointAsync(Sys::Context &amp;)</div><div class="ttdef"><b>Definition:</b> main.cpp:28</div></div>
+<div class="ttc" id="akarm-core_2macros_8h_html"><div class="ttname"><a href="karm-core_2macros_8h.html">macros.h</a></div></div>
+<div class="ttc" id="anamespaceKarm_1_1Async_html_a0bb115608504b3a0b41fac822338c63c"><div class="ttname"><a href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Karm::Async::Task</a></div><div class="ttdeci">_Task&lt; Res&lt; V, E &gt; &gt; Task</div><div class="ttdef"><b>Definition:</b> task.cpp:124</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Ref_html"><div class="ttname"><a href="namespaceKarm_1_1Ref.html">Karm::Ref</a></div><div class="ttdef"><b>Definition:</b> mime.cpp:5</div></div>
+<div class="ttc" id="anamespaceKarm_1_1Sys_html"><div class="ttname"><a href="namespaceKarm_1_1Sys.html">Karm::Sys</a></div><div class="ttdef"><b>Definition:</b> sandbox.cpp:3</div></div>
+<div class="ttc" id="anamespaceKarm_html"><div class="ttname"><a href="namespaceKarm.html">Karm</a></div><div class="ttdef"><b>Definition:</b> lock.cpp:3</div></div>
+<div class="ttc" id="astructKarm_1_1Sys_1_1Context_html"><div class="ttname"><a href="structKarm_1_1Sys_1_1Context.html">Karm::Sys::Context</a></div><div class="ttdef"><b>Definition:</b> context.cpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

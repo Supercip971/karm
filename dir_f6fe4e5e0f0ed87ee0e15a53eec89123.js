@@ -50,7 +50,7 @@ var dir_f6fe4e5e0f0ed87ee0e15a53eec89123 =
     [ "std.cpp", "std_8cpp.html", "std_8cpp" ],
     [ "string.cpp", "string_8cpp.html", "string_8cpp" ],
     [ "symbol.cpp", "symbol_8cpp.html", "symbol_8cpp" ],
-    [ "time.cpp", "time_8cpp.html", "time_8cpp" ],
+    [ "time.cpp", "karm-core_2base_2time_8cpp.html", "karm-core_2base_2time_8cpp" ],
     [ "try.cpp", "try_8cpp.html", "try_8cpp" ],
     [ "tuple.cpp", "tuple_8cpp.html", "tuple_8cpp" ],
     [ "union.cpp", "union_8cpp.html", "union_8cpp" ],
