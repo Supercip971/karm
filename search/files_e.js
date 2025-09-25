@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['pack_2ecpp_0',['pack.cpp',['../serde_2pack_8cpp.html',1,'(Global Namespace)'],['../io_2pack_8cpp.html',1,'(Global Namespace)'],['../meta_2pack_8cpp.html',1,'(Global Namespace)']]],
+  ['pack_2ecpp_0',['pack.cpp',['../io_2pack_8cpp.html',1,'(Global Namespace)'],['../meta_2pack_8cpp.html',1,'(Global Namespace)'],['../serde_2pack_8cpp.html',1,'(Global Namespace)']]],
   ['page_2ecpp_1',['page.cpp',['../page_8cpp.html',1,'']]],
   ['panic_2ecpp_2',['panic.cpp',['../panic_8cpp.html',1,'']]],
   ['paper_2ecpp_3',['paper.cpp',['../paper_8cpp.html',1,'']]],

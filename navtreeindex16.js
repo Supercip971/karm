@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"namespaceKarm_1_1Regex.html#aeb80b5b3b27409e056039a96aef0bcfba61441d6c841da240b514b8147c6570d3":[0,0,0,32,14,2],
+"namespaceKarm_1_1Regex.html#aeb80b5b3b27409e056039a96aef0bcfba6952a4fad7a08ec6baf4da1d589a2753":[0,0,0,32,14,4],
+"namespaceKarm_1_1Regex.html#aeb80b5b3b27409e056039a96aef0bcfba6eecfba72d12922ee1dead07a0ef3334":[0,0,0,32,14,0],
 "namespaceKarm_1_1Regex.html#aeb80b5b3b27409e056039a96aef0bcfba8e729acc1d7af6eb333dd399b48a132c":[0,0,0,32,14,1],
 "namespaceKarm_1_1Regex.html#aeb80b5b3b27409e056039a96aef0bcfbac3bc8d25d44abb84f8d226c46566b639":[0,0,0,32,14,6],
 "namespaceKarm_1_1Regex_1_1Tests.html":[0,0,0,32,0],
@@ -106,8 +109,8 @@ var NAVTREEINDEX16 =
 "namespaceKarm_1_1Tty.html#a26627dda493888f9ac4d66094df48847":[0,0,0,38,6],
 "namespaceKarm_1_1Tty.html#a28cdd43d9a7c3abd5c1b04b3351455a3":[0,0,0,38,7],
 "namespaceKarm_1_1Tty.html#a3fe883f34c3890e2715db4c845adf45d":[0,0,0,38,5],
-"namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5":[0,0,0,38,3,0],
 "namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5":[0,0,0,38,3],
+"namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5":[0,0,0,38,3,0],
 "namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5a06b99276b20164e190ce0953c0014374":[0,0,0,38,3,11],
 "namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5a12cb65f572b2ce9e97ae1cd71f9a1532":[0,0,0,38,3,16],
 "namespaceKarm_1_1Tty.html#a4f786745082298c1da840bc65f4b8ad5a32483395fe42b743a0589aa0e56d47e1":[0,0,0,38,3,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "namespaceKarm_1_1Ui.html#a741ff8037249a408cecbc772a93cda77":[0,0,0,39,133],
 "namespaceKarm_1_1Ui.html#a7491b33a081e645f05f31d5b470edac9":[0,0,0,39,247],
 "namespaceKarm_1_1Ui.html#a77ef14597b150e75a2bf0660a0357c32":[0,0,0,39,121],
-"namespaceKarm_1_1Ui.html#a78833d1fc35381f7cc7ad18182a547e6":[0,0,0,39,261],
-"namespaceKarm_1_1Ui.html#a7a3d4437812d75620cc77bc5641e3639":[0,0,0,39,252],
-"namespaceKarm_1_1Ui.html#a7a9065e9c1a1a6906a1b5e9e462151c2":[0,0,0,39,236],
-"namespaceKarm_1_1Ui.html#a7c0870c7ffd6d2c397569e32b4fcf2fb":[0,0,0,39,256]
+"namespaceKarm_1_1Ui.html#a78833d1fc35381f7cc7ad18182a547e6":[0,0,0,39,261]
 };

@@ -49,6 +49,7 @@ var annotated_dup =
           [ "PcmFormat", "structKarm_1_1Av_1_1Wav_1_1PcmFormat.html", "structKarm_1_1Av_1_1Wav_1_1PcmFormat" ]
         ] ],
         [ "Audio", "structKarm_1_1Av_1_1Audio.html", "structKarm_1_1Av_1_1Audio" ],
+        [ "Camera", "structKarm_1_1Av_1_1Camera.html", "structKarm_1_1Av_1_1Camera" ],
         [ "Device", "structKarm_1_1Av_1_1Device.html", "structKarm_1_1Av_1_1Device" ],
         [ "Format", "structKarm_1_1Av_1_1Format.html", "structKarm_1_1Av_1_1Format" ],
         [ "Frame", "structKarm_1_1Av_1_1Frame.html", "structKarm_1_1Av_1_1Frame" ],
@@ -56,7 +57,9 @@ var annotated_dup =
         [ "FramesIter", "structKarm_1_1Av_1_1FramesIter.html", "structKarm_1_1Av_1_1FramesIter" ],
         [ "Options", "structKarm_1_1Av_1_1Options.html", "structKarm_1_1Av_1_1Options" ],
         [ "Player", "structKarm_1_1Av_1_1Player.html", "structKarm_1_1Av_1_1Player" ],
-        [ "Stream", "structKarm_1_1Av_1_1Stream.html", "structKarm_1_1Av_1_1Stream" ]
+        [ "Stream", "structKarm_1_1Av_1_1Stream.html", "structKarm_1_1Av_1_1Stream" ],
+        [ "VideoFrame", "structKarm_1_1Av_1_1VideoFrame.html", "structKarm_1_1Av_1_1VideoFrame" ],
+        [ "VideoStream", "structKarm_1_1Av_1_1VideoStream.html", "structKarm_1_1Av_1_1VideoStream" ]
       ] ],
       [ "Base", "namespaceKarm_1_1Base.html", [
         [ "Foo", "structKarm_1_1Base_1_1Foo.html", "structKarm_1_1Base_1_1Foo" ]

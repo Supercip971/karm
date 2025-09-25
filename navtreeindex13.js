@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808abd79cd51a0b25b9e72a3b158cc5aaf56":[0,0,0,16,2,6,48],
+"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ac18547f6a5a7d38cd57864ee3452e6a7":[0,0,0,16,2,6,2],
+"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ac6109655c6aa7d13ba47fa21c3f34bad":[0,0,0,16,2,6,25],
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ac8e4664da858826d81bb416122551da8":[0,0,0,16,2,6,39],
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ac99959a15d0f9429f3d3db7fd39d0271":[0,0,0,16,2,6,12],
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ad1b72066bef0f47fc912b6e331981929":[0,0,0,16,2,6,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "namespaceKarm_1_1Kira.html#a503508310f3bc333ad07544fc4c1a6ae":[0,0,0,19,59],
 "namespaceKarm_1_1Kira.html#a51578c705cf643ed11c6a2090cb50201":[0,0,0,19,69],
 "namespaceKarm_1_1Kira.html#a5435f17f2283d8a55ef5b5dcfcdde872":[0,0,0,19,67],
-"namespaceKarm_1_1Kira.html#a54c06e493ac7450d0970b1a841188bc6":[0,0,0,19,92],
-"namespaceKarm_1_1Kira.html#a57a4dc451360127f8da49c60725ed287":[0,0,0,19,21],
-"namespaceKarm_1_1Kira.html#a5c25e68234bb801871257c9442b7f697":[0,0,0,19,41],
-"namespaceKarm_1_1Kira.html#a604925887fa7e57980bc2ef12117fc62":[0,0,0,19,26]
+"namespaceKarm_1_1Kira.html#a54c06e493ac7450d0970b1a841188bc6":[0,0,0,19,92]
 };
