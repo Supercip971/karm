@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"rast_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,10,1,2,3],
 "rast_8h_source.html":[3,0,0,1,10,1,2],
 "ray_8h.html":[3,0,0,1,16,22],
 "ray_8h.html#a0a25c3c446e37b9f890ca96f5166ae77":[3,0,0,1,16,22,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "simd_8cpp.html#a02722cca56cd41a9cbcf3abb11daf1ba":[3,0,0,1,4,2,44,3],
 "simd_8cpp.html#a02b209cddf01c6ac30e31e19a5dba008":[3,0,0,1,4,2,44,23],
 "simd_8cpp.html#a05c96d482d97c78e7b006d491391f6e9":[3,0,0,1,4,2,44,8],
-"simd_8cpp.html#a09b56e053bf33d0613cf402d45c8025e":[3,0,0,1,4,2,44,36],
-"simd_8cpp.html#a0ffb489dfc82037b1054db54f1f99be5":[3,0,0,1,4,2,44,28]
+"simd_8cpp.html#a09b56e053bf33d0613cf402d45c8025e":[3,0,0,1,4,2,44,36]
 };

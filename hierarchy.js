@@ -118,6 +118,8 @@ var hierarchy =
     [ "Karm::Sys::Bundle", "structKarm_1_1Sys_1_1Bundle.html", null ],
     [ "Karm::Ui::ButtonStyle", "structKarm_1_1Ui_1_1ButtonStyle.html", null ],
     [ "Karm::Av::Camera", "structKarm_1_1Av_1_1Camera.html", null ],
+    [ "Karm::Av::CameraFormat", "structKarm_1_1Av_1_1CameraFormat.html", null ],
+    [ "Karm::Av::CameraInfo", "structKarm_1_1Av_1_1CameraInfo.html", null ],
     [ "Karm::Gfx::Cap", "structKarm_1_1Gfx_1_1Cap.html", null ],
     [ "Karm::Io::Cased< T >", "structKarm_1_1Io_1_1Cased.html", null ],
     [ "Karm::Gc::Cell", "structKarm_1_1Gc_1_1Cell.html", null ],

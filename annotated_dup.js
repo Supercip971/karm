@@ -50,6 +50,8 @@ var annotated_dup =
         ] ],
         [ "Audio", "structKarm_1_1Av_1_1Audio.html", "structKarm_1_1Av_1_1Audio" ],
         [ "Camera", "structKarm_1_1Av_1_1Camera.html", "structKarm_1_1Av_1_1Camera" ],
+        [ "CameraFormat", "structKarm_1_1Av_1_1CameraFormat.html", "structKarm_1_1Av_1_1CameraFormat" ],
+        [ "CameraInfo", "structKarm_1_1Av_1_1CameraInfo.html", "structKarm_1_1Av_1_1CameraInfo" ],
         [ "Device", "structKarm_1_1Av_1_1Device.html", "structKarm_1_1Av_1_1Device" ],
         [ "Format", "structKarm_1_1Av_1_1Format.html", "structKarm_1_1Av_1_1Format" ],
         [ "Frame", "structKarm_1_1Av_1_1Frame.html", "structKarm_1_1Av_1_1Frame" ],

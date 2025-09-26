@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"karm-math_2path_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,16,16,0],
 "karm-md_2base_8cpp.html":[3,0,0,1,17,0],
 "karm-md_2base_8cpp.html#a26111cd7b5b5fb6ed225f8ecf8b5501f":[3,0,0,1,17,0,7],
 "karm-md_2base_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,17,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "layout_8cpp.html#a69844f688f511614c16399938b444643":[3,0,0,1,27,12,76],
 "layout_8cpp.html#a6a49edb341c27638fd3289068b4424c5":[3,0,0,1,27,12,24],
 "layout_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c":[3,0,0,1,27,12,87],
-"layout_8cpp.html#a741ff8037249a408cecbc772a93cda77":[3,0,0,1,27,12,34],
-"layout_8cpp.html#a77ef14597b150e75a2bf0660a0357c32":[3,0,0,1,27,12,29]
+"layout_8cpp.html#a741ff8037249a408cecbc772a93cda77":[3,0,0,1,27,12,34]
 };

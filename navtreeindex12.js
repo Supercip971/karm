@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"namespaceKarm_1_1Font_1_1Tests.html":[0,0,0,9,0],
 "namespaceKarm_1_1Font_1_1Tests.html#a2e6ef52d83835bc3e3cabdbbff442135":[0,0,0,9,0,0],
 "namespaceKarm_1_1Font_1_1Ttf.html":[0,0,0,9,1],
 "namespaceKarm_1_1Font_1_1Ttf.html#a8aff7083e7ad767f8dd513de43aa9ae4":[0,0,0,9,1,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808aa3281cfaac60ea9ba997e87ec1b115d4":[0,0,0,16,2,6,59],
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808aa56d00216d4d968790220991d50760b6":[0,0,0,16,2,6,32],
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808aab6df14546fb235c7cddd15a4dd9dbe1":[0,0,0,16,2,6,22],
-"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808aafc6aad1707b5911188352d9f5c5c1aa":[0,0,0,16,2,6,31],
-"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808ab22b13422e590d9475ecfacd6b14f03f":[0,0,0,16,2,6,53]
+"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808aafc6aad1707b5911188352d9f5c5c1aa":[0,0,0,16,2,6,31]
 };
