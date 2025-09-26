@@ -178,6 +178,7 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Image.html#a7bd9864874ddde387dc8d0314e09bf34":[0,0,0,16,11],
 "namespaceKarm_1_1Image.html#a826733cb8479da80b0b57c1e795a8144":[0,0,0,16,10],
 "namespaceKarm_1_1Image.html#a8b536e9bdec793f44d38c56007c4584a":[0,0,0,16,8],
+"namespaceKarm_1_1Image.html#a9f200a2cc7b79f5ff1e5ab7961dd34bc":[0,0,0,16,14],
 "namespaceKarm_1_1Image.html#aba7011964091fa0d02edbe5cc75cd06f":[0,0,0,16,13],
 "namespaceKarm_1_1Image.html#ae6bc10618dd91f246bb8e5a25d97c110":[0,0,0,16,9],
 "namespaceKarm_1_1Image_1_1Bmp.html":[0,0,0,16,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a6fdd142d9d2ce1fa93efa2ee9d572db1":[0,0,0,16,2,6,55],
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a71e2dd90a8e3a297e538eafe876dc410":[0,0,0,16,2,6,5],
 "namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a768082d03180ec86a549fbf03e10a60e":[0,0,0,16,2,6,41],
-"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a79d94300cc01a6bd1596b6cc420496f1":[0,0,0,16,2,6,37],
-"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a7e031f499ab2ef86c4e0642fdcd9aa82":[0,0,0,16,2,6,58]
+"namespaceKarm_1_1Image_1_1Jpeg.html#af7022f5c263dd1247b0212ffec582808a79d94300cc01a6bd1596b6cc420496f1":[0,0,0,16,2,6,37]
 };

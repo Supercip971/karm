@@ -13,5 +13,6 @@ var namespaceKarm_1_1Image =
     [ "loadOrFallback", "namespaceKarm_1_1Image.html#a826733cb8479da80b0b57c1e795a8144", null ],
     [ "save", "namespaceKarm_1_1Image.html#a7bd9864874ddde387dc8d0314e09bf34", null ],
     [ "save", "namespaceKarm_1_1Image.html#a406c783b1e20228ce80539813b945cfb", null ],
-    [ "save", "namespaceKarm_1_1Image.html#aba7011964091fa0d02edbe5cc75cd06f", null ]
+    [ "save", "namespaceKarm_1_1Image.html#aba7011964091fa0d02edbe5cc75cd06f", null ],
+    [ "save", "namespaceKarm_1_1Image.html#a9f200a2cc7b79f5ff1e5ab7961dd34bc", null ]
 ];
