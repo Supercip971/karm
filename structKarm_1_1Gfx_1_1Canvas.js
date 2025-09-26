@@ -45,7 +45,7 @@ var structKarm_1_1Gfx_1_1Canvas =
     [ "pop", "structKarm_1_1Gfx_1_1Canvas.html#a74d73d050b3ed1bbbf4965c6043522f8", null ],
     [ "push", "structKarm_1_1Gfx_1_1Canvas.html#ac71dcf1a1e5c835af3fd8fbdb83ab056", null ],
     [ "quadTo", "structKarm_1_1Gfx_1_1Canvas.html#af78ad9eb4019216587e48803dd9ede69", null ],
-    [ "rect", "structKarm_1_1Gfx_1_1Canvas.html#a9b438a5298964b12da8ce199e1c83cc5", null ],
+    [ "rect", "structKarm_1_1Gfx_1_1Canvas.html#af0ff83ace044901cb721b3ccdad17c0a", null ],
     [ "rotate", "structKarm_1_1Gfx_1_1Canvas.html#a9d73a5e2e6d72b6e90d3e4e0c0ae56c3", null ],
     [ "scale", "structKarm_1_1Gfx_1_1Canvas.html#ac314eb1d0bb82301d599f211f97085a0", null ],
     [ "skew", "structKarm_1_1Gfx_1_1Canvas.html#af0262d2122ef4d487e24562a443b4dab", null ],

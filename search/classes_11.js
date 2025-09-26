@@ -59,7 +59,7 @@ var searchData=
   ['stackblur_56',['StackBlur',['../structKarm_1_1Gfx_1_1StackBlur.html',1,'Karm::Gfx']]],
   ['stacklayout_57',['StackLayout',['../structKarm_1_1Ui_1_1StackLayout.html',1,'Karm::Ui']]],
   ['stat_58',['Stat',['../structKarm_1_1Sys_1_1Stat.html',1,'Karm::Sys']]],
-  ['state_59',['State',['../structKarm_1_1Async_1_1State.html',1,'Karm::Async::State&lt; T &gt;'],['../structKarm_1_1Kira_1_1Scaffold_1_1State.html',1,'Karm::Kira::Scaffold::State'],['../structKarm_1_1Kira_1_1State.html',1,'Karm::Kira::State']]],
+  ['state_59',['State',['../structKarm_1_1Async_1_1State.html',1,'Karm::Async::State&lt; T &gt;'],['../structKarm_1_1Gfx_1_1SvgCanvas_1_1State.html',1,'Karm::Gfx::SvgCanvas::State'],['../structKarm_1_1Kira_1_1Scaffold_1_1State.html',1,'Karm::Kira::Scaffold::State'],['../structKarm_1_1Kira_1_1State.html',1,'Karm::Kira::State']]],
   ['store_60',['Store',['../structKarm_1_1Kv_1_1Store.html',1,'Karm::Kv']]],
   ['stream_61',['Stream',['../structKarm_1_1Av_1_1Stream.html',1,'Karm::Av::Stream'],['../structKarm_1_1Pdf_1_1Stream.html',1,'Karm::Pdf::Stream']]],
   ['stringformatter_62',['StringFormatter',['../structKarm_1_1Io_1_1StringFormatter.html',1,'Karm::Io']]],
@@ -71,7 +71,8 @@ var searchData=
   ['styled_68',['Styled',['../structKarm_1_1Tty_1_1Styled.html',1,'Karm::Tty']]],
   ['suffix2mime_69',['Suffix2Mime',['../structKarm_1_1Ref_1_1Suffix2Mime.html',1,'Karm::Ref']]],
   ['surface_70',['Surface',['../structKarm_1_1Gfx_1_1Surface.html',1,'Karm::Gfx']]],
-  ['symbol_71',['Symbol',['../structKarm_1_1Symbol.html',1,'Karm']]],
-  ['sysinfo_72',['SysInfo',['../structKarm_1_1Sys_1_1SysInfo.html',1,'Karm::Sys']]],
-  ['systemclock_73',['SystemClock',['../structKarm_1_1SystemClock.html',1,'Karm']]]
+  ['svgcanvas_71',['SvgCanvas',['../structKarm_1_1Gfx_1_1SvgCanvas.html',1,'Karm::Gfx']]],
+  ['symbol_72',['Symbol',['../structKarm_1_1Symbol.html',1,'Karm']]],
+  ['sysinfo_73',['SysInfo',['../structKarm_1_1Sys_1_1SysInfo.html',1,'Karm::Sys']]],
+  ['systemclock_74',['SystemClock',['../structKarm_1_1SystemClock.html',1,'Karm']]]
 ];

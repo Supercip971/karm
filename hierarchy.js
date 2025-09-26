@@ -669,6 +669,7 @@ var hierarchy =
       [ "Karm::Async::Awaiter< S >", "structKarm_1_1Async_1_1Awaiter.html", null ],
       [ "Karm::Gfx::Canvas", "structKarm_1_1Gfx_1_1Canvas.html", [
         [ "Karm::Gfx::CpuCanvas", "structKarm_1_1Gfx_1_1CpuCanvas.html", null ],
+        [ "Karm::Gfx::SvgCanvas", "structKarm_1_1Gfx_1_1SvgCanvas.html", null ],
         [ "Karm::Pdf::Canvas", "structKarm_1_1Pdf_1_1Canvas.html", null ]
       ] ],
       [ "Karm::Kira::Scaffold", "structKarm_1_1Kira_1_1Scaffold.html", null ],
@@ -902,6 +903,7 @@ var hierarchy =
     [ "Karm::Gfx::StackBlur", "structKarm_1_1Gfx_1_1StackBlur.html", null ],
     [ "Karm::Sys::Stat", "structKarm_1_1Sys_1_1Stat.html", null ],
     [ "Karm::Async::State< T >", "structKarm_1_1Async_1_1State.html", null ],
+    [ "Karm::Gfx::SvgCanvas::State", "structKarm_1_1Gfx_1_1SvgCanvas_1_1State.html", null ],
     [ "Karm::Kira::Scaffold::State", "structKarm_1_1Kira_1_1Scaffold_1_1State.html", null ],
     [ "Karm::Kira::State", "structKarm_1_1Kira_1_1State.html", null ],
     [ "Karm::Kv::Store", "structKarm_1_1Kv_1_1Store.html", null ],

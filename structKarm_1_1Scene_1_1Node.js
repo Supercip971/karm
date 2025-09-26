@@ -6,5 +6,6 @@ var structKarm_1_1Scene_1_1Node =
     [ "prepare", "structKarm_1_1Scene_1_1Node.html#aa6b220e5708da73f6a1b5eaa2d5bd799", null ],
     [ "repr", "structKarm_1_1Scene_1_1Node.html#a29b033179d0dc04118e86b93ab990c4a", null ],
     [ "snapshot", "structKarm_1_1Scene_1_1Node.html#a113fdfeff827edc058046638c6b469b1", null ],
+    [ "toSvg", "structKarm_1_1Scene_1_1Node.html#a0a7ebd2afec4961e0a2dd2c949610910", null ],
     [ "zIndex", "structKarm_1_1Scene_1_1Node.html#a867ff51048fef0e22fa7ef4a5665b613", null ]
 ];

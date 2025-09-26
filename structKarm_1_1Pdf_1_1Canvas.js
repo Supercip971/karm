@@ -29,7 +29,6 @@ var structKarm_1_1Pdf_1_1Canvas =
     [ "pop", "structKarm_1_1Pdf_1_1Canvas.html#a3af7cbd8dc87479ad59cedf2d9ce1b93", null ],
     [ "push", "structKarm_1_1Pdf_1_1Canvas.html#ad06fce457a7229c496347c8952fa5d7b", null ],
     [ "quadTo", "structKarm_1_1Pdf_1_1Canvas.html#ac03e49a27a87e1e984826379d986df58", null ],
-    [ "rect", "structKarm_1_1Pdf_1_1Canvas.html#a58b291523102d51b9b706d8109427133", null ],
     [ "stroke", "structKarm_1_1Pdf_1_1Canvas.html#a1dd3da3749b574a740189b8d51afc5c5", null ],
     [ "stroke", "structKarm_1_1Pdf_1_1Canvas.html#aae64f1d28883e257c1bed2d84b48ed41", null ],
     [ "strokeStyle", "structKarm_1_1Pdf_1_1Canvas.html#a10774767aa3ffe1e2d653497c7b18b11", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"karm-core_2math_2funcs_8cpp.html#a72f9fd643266b97ce423f8d2b8cfe48c":[3,0,0,1,4,7,2,11],
 "karm-core_2math_2funcs_8cpp.html#a776975f014a6b6b7ca4b1295e6e41402":[3,0,0,1,4,7,2,19],
 "karm-core_2math_2funcs_8cpp.html#a8078902bb75cd35da4485914c6366621":[3,0,0,1,4,7,2,22],
 "karm-core_2math_2funcs_8cpp.html#a8c73d98c4d8515e291ee41d058a014af":[3,0,0,1,4,7,2,10],
@@ -101,9 +102,16 @@ var NAVTREEINDEX7 =
 "karm-gfx_2benchs_2main_8cpp.html#a3974c0216d383a8ee20f65600aacb6c5":[3,0,0,1,10,0,0,2],
 "karm-gfx_2benchs_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e":[3,0,0,1,10,0,0,0],
 "karm-gfx_2benchs_2main_8cpp.html#aa02d9c607b738acf0def3f0d2fa9cc58":[3,0,0,1,10,0,0,1],
-"karm-gfx_2canvas_8cpp.html":[3,0,0,1,10,8],
+"karm-gfx_2canvas_8cpp.html":[3,0,0,1,10,9],
 "karm-gfx_2cpu_2canvas_8cpp.html":[3,0,0,1,10,1,0],
 "karm-gfx_2cpu_2canvas_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,10,1,0,0],
+"karm-gfx_2mod_8cpp.html":[3,0,0,1,10,23],
+"karm-gfx_2mod_8cpp.html#af83841fb03aad2d756d79eeb2ac6e98f":[3,0,0,1,10,23,0],
+"karm-gfx_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,10,23,1],
+"karm-gfx_2svg_2canvas_8cpp.html":[3,0,0,1,10,3,0],
+"karm-gfx_2svg_2canvas_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,10,3,0,4],
+"karm-gfx_2svg_2canvas_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,10,3,0,2],
+"karm-gfx_2svg_2canvas_8cpp.html#af83841fb03aad2d756d79eeb2ac6e98f":[3,0,0,1,10,3,0,3],
 "karm-http_2mod_8cpp.html":[3,0,0,1,11,6],
 "karm-http_2mod_8cpp.html#ae4e6389ba964884ff5221427019b2efc":[3,0,0,1,11,6,0],
 "karm-http_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,11,6,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX7 =
 "karm-kira_2mod_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c":[3,0,0,1,13,12,1],
 "karm-kira_2mod_8cpp.html#af8fc3c87dce3748025ecd79b23759d65":[3,0,0,1,13,12,2],
 "karm-kira_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,13,12,0],
-"karm-kv_2cli_2main_8cpp.html":[3,0,0,1,14,0,0],
-"karm-kv_2cli_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e":[3,0,0,1,14,0,0,0],
-"karm-kv_2cli_2main_8cpp.html#ac1defc5a556e72114a7f49c314ac65d6":[3,0,0,1,14,0,0,1],
-"karm-kv_2cli_2main_8cpp.html#add789519f7f2dc7d37718eab411af552":[3,0,0,1,14,0,0,2],
-"karm-kv_2mod_8cpp.html":[3,0,0,1,14,2],
-"karm-kv_2mod_8cpp.html#abbb211054fa650016a30295acfbbda70":[3,0,0,1,14,2,1],
-"karm-kv_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,14,2,0],
-"karm-math_2expr_8cpp.html":[3,0,0,1,16,10],
-"karm-math_2path_8cpp.html":[3,0,0,1,16,16]
+"karm-kv_2cli_2main_8cpp.html":[3,0,0,1,14,0,0]
 };

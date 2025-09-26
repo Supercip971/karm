@@ -110,9 +110,10 @@ Inheritance diagram for Karm::Gfx::Canvas:</div>
  <div class="center">
   <img src="structKarm_1_1Gfx_1_1Canvas.png" usemap="#Karm::Gfx::Canvas_map" alt=""/>
   <map id="Karm::Gfx::Canvas_map" name="Karm::Gfx::Canvas_map">
-<area href="structKarm_1_1Meta_1_1NoCopy.html" title="A type that can&#39;t be copied." alt="Karm::Meta::NoCopy" shape="rect" coords="74,0,212,24"/>
+<area href="structKarm_1_1Meta_1_1NoCopy.html" title="A type that can&#39;t be copied." alt="Karm::Meta::NoCopy" shape="rect" coords="148,0,286,24"/>
 <area href="structKarm_1_1Gfx_1_1CpuCanvas.html" alt="Karm::Gfx::CpuCanvas" shape="rect" coords="0,112,138,136"/>
-<area href="structKarm_1_1Pdf_1_1Canvas.html" alt="Karm::Pdf::Canvas" shape="rect" coords="148,112,286,136"/>
+<area href="structKarm_1_1Gfx_1_1SvgCanvas.html" alt="Karm::Gfx::SvgCanvas" shape="rect" coords="148,112,286,136"/>
+<area href="structKarm_1_1Pdf_1_1Canvas.html" alt="Karm::Pdf::Canvas" shape="rect" coords="296,112,434,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -170,8 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a860f716ed26c4946a5833dd92c3117a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6f1a22ffa4c3cb21cf5d3b74bc77a5b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#ab6f1a22ffa4c3cb21cf5d3b74bc77a5b">curve</a> (<a class="el" href="namespaceKarm_1_1Math.html#aad435b559d9e17640f956da75f5e219f">Math::Curvef</a> curve)=0</td></tr>
 <tr class="separator:ab6f1a22ffa4c3cb21cf5d3b74bc77a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b438a5298964b12da8ce199e1c83cc5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a9b438a5298964b12da8ce199e1c83cc5">rect</a> (<a class="el" href="namespaceKarm_1_1Math.html#a388d1f2947455eb1d5dde3f305ecae37">Math::Rectf</a> rect, <a class="el" href="namespaceKarm_1_1Math.html#ad8d68b509fd0e086503d2a6c2e93ba80">Math::Radiif</a> radii=0)=0</td></tr>
-<tr class="separator:a9b438a5298964b12da8ce199e1c83cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ff83ace044901cb721b3ccdad17c0a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#af0ff83ace044901cb721b3ccdad17c0a">rect</a> (<a class="el" href="namespaceKarm_1_1Math.html#a388d1f2947455eb1d5dde3f305ecae37">Math::Rectf</a> rect, <a class="el" href="namespaceKarm_1_1Math.html#ad8d68b509fd0e086503d2a6c2e93ba80">Math::Radiif</a> radii=0)</td></tr>
+<tr class="separator:af0ff83ace044901cb721b3ccdad17c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322c13ecc5b15739b7b2821f78e423be"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a322c13ecc5b15739b7b2821f78e423be">ellipse</a> (<a class="el" href="namespaceKarm_1_1Math.html#a3d6eb5a7fa6a2c1c63f1ed2772380446">Math::Ellipsef</a> ellipse)=0</td></tr>
 <tr class="separator:a322c13ecc5b15739b7b2821f78e423be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad77bd9701669c595b6fcf4d9fc2fb615"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#ad77bd9701669c595b6fcf4d9fc2fb615">arc</a> (<a class="el" href="namespaceKarm_1_1Math.html#af114c7e5f927db9ce62968838ec11e30">Math::Arcf</a> arc)=0</td></tr>
@@ -216,13 +217,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade9cca78a6fefd237486314cf91a15e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37e66f8dcec18dda76c67bd1f11f27a5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a37e66f8dcec18dda76c67bd1f11f27a5">clear</a> (<a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color=BLACK)=0</td></tr>
 <tr class="separator:a37e66f8dcec18dda76c67bd1f11f27a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fc540c4b973eb2b279b428e87d5920a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a0fc540c4b973eb2b279b428e87d5920a">clear</a> (<a class="el" href="namespaceKarm_1_1Math.html#abf00418779b75396e0a087af865d8061">Math::Recti</a> <a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a9b438a5298964b12da8ce199e1c83cc5">rect</a>, <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color=BLACK)=0</td></tr>
+<tr class="memitem:a0fc540c4b973eb2b279b428e87d5920a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a0fc540c4b973eb2b279b428e87d5920a">clear</a> (<a class="el" href="namespaceKarm_1_1Math.html#abf00418779b75396e0a087af865d8061">Math::Recti</a> <a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#af0ff83ace044901cb721b3ccdad17c0a">rect</a>, <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color=BLACK)=0</td></tr>
 <tr class="separator:a0fc540c4b973eb2b279b428e87d5920a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b551da998822c151267b27cdb08249"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#ac8b551da998822c151267b27cdb08249">plot</a> (<a class="el" href="namespaceKarm_1_1Math.html#a9214697d40c310240c92b531586cbdf0">Math::Vec2i</a> point, <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)=0</td></tr>
 <tr class="separator:ac8b551da998822c151267b27cdb08249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adba19b8ecbfb0b7573561dffd7d90360"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#adba19b8ecbfb0b7573561dffd7d90360">plot</a> (<a class="el" href="namespaceKarm_1_1Math.html#afa4a0a39c133b50e98259eefaa1d05b3">Math::Edgei</a> edge, <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)=0</td></tr>
 <tr class="separator:adba19b8ecbfb0b7573561dffd7d90360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac03ab25d312be898b745e570d6cd9d4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#ac03ab25d312be898b745e570d6cd9d4e">plot</a> (<a class="el" href="namespaceKarm_1_1Math.html#abf00418779b75396e0a087af865d8061">Math::Recti</a> <a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a9b438a5298964b12da8ce199e1c83cc5">rect</a>, <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)=0</td></tr>
+<tr class="memitem:ac03ab25d312be898b745e570d6cd9d4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#ac03ab25d312be898b745e570d6cd9d4e">plot</a> (<a class="el" href="namespaceKarm_1_1Math.html#abf00418779b75396e0a087af865d8061">Math::Recti</a> <a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#af0ff83ace044901cb721b3ccdad17c0a">rect</a>, <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)=0</td></tr>
 <tr class="separator:ac03ab25d312be898b745e570d6cd9d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14167062971c3ee56b0aa97e860888f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Canvas.html#a14167062971c3ee56b0aa97e860888f2">blit</a> (<a class="el" href="namespaceKarm_1_1Math.html#abf00418779b75396e0a087af865d8061">Math::Recti</a> src, <a class="el" href="namespaceKarm_1_1Math.html#abf00418779b75396e0a087af865d8061">Math::Recti</a> dest, <a class="el" href="namespaceKarm_1_1Gfx.html#a3746a89e6f5c74cf11a399b75569b27b">Pixels</a> pixels)=0</td></tr>
 <tr class="separator:a14167062971c3ee56b0aa97e860888f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -350,7 +351,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#af13d06a085e7b6f08d3fba3fde27f631">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a09783f8cd6a127109e720f5cceeaee2e">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#af13d06a085e7b6f08d3fba3fde27f631">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#aa5ad99675828a8614c9cf27770af0bca">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a09783f8cd6a127109e720f5cceeaee2e">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -468,7 +469,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a4bbd8c37c442c0507b7615cbd066e2f9">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a12385adeb017e04719fe6be241534c4e">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a4bbd8c37c442c0507b7615cbd066e2f9">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a7f91cab0fade9cdc65f7d7da75ce653f">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a12385adeb017e04719fe6be241534c4e">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -518,7 +519,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aee4d78fbc141a58f5e41de8a37de95f1">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a65597647f00140891cda308e496f8ab3">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a6e30f9a9052008498bb536f0821c50f7">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aee4d78fbc141a58f5e41de8a37de95f1">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a65597647f00140891cda308e496f8ab3">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -545,7 +546,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#af185779972e604faa11e66676cc02404">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a9df364bc7c4d50127e611bc9eafca8cd">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#af185779972e604faa11e66676cc02404">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#ac967eac49c14206a083c5d4972fa8def">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a9df364bc7c4d50127e611bc9eafca8cd">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -582,6 +583,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a0052cfebcf90861814a6d069b6fbd1f1">Karm::Gfx::SvgCanvas</a>.</p>
 
 </div>
 </div>
@@ -625,7 +628,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a07eeeb595005a6e8a770e7d64831c950">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#add6515dbb93a5392645b76b437207e87">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a07eeeb595005a6e8a770e7d64831c950">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#add6515dbb93a5392645b76b437207e87">Karm::Pdf::Canvas</a>, and <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#ac15e2e5113a5bc3d017fcb21742effd9">Karm::Gfx::SvgCanvas</a>.</p>
 
 </div>
 </div>
@@ -663,6 +666,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a07a2618cc0dee688528164a9376fae19">Karm::Gfx::SvgCanvas</a>.</p>
+
 </div>
 </div>
 <a id="a37e66f8dcec18dda76c67bd1f11f27a5" name="a37e66f8dcec18dda76c67bd1f11f27a5"></a>
@@ -689,7 +694,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a0af32927f1b4428311389e7f63f4b4a5">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#af771642cffec7ff002b9e8dc3a2dbc3c">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a3bf8cee452be05ec2b91d01fb891aabf">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a0af32927f1b4428311389e7f63f4b4a5">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#af771642cffec7ff002b9e8dc3a2dbc3c">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -727,7 +732,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a82e8bbc51433a8fea392b7705eba36c6">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ab9b5e0430d00eebc263818e9ae83bce6">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a320987ec5c3a277d1f4dd3a9c2055003">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a82e8bbc51433a8fea392b7705eba36c6">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ab9b5e0430d00eebc263818e9ae83bce6">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -755,7 +760,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aea5cfbc0d41cfe6e669d2a2bfea17cb0">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a85de65f920b1ffe832197ea088f3b8b6">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aea5cfbc0d41cfe6e669d2a2bfea17cb0">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#aa0b01bd66d28d01d2b84c0e69366a799">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a85de65f920b1ffe832197ea088f3b8b6">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -836,7 +841,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#abdb3df1b401107d7bcee653593991e7d">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ad721b98812934c73f1df7a4a590310f4">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#abdb3df1b401107d7bcee653593991e7d">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a24c80d58002d9f5ece12976f5ec636a8">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ad721b98812934c73f1df7a4a590310f4">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -886,7 +891,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a42a4fafa5db27fea39e84e646594d605">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a637ca1988fcae76f58d2afe2d08c797f">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#af6e84d47aa8d8fcebe69e2580aad7979">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a42a4fafa5db27fea39e84e646594d605">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a637ca1988fcae76f58d2afe2d08c797f">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -914,7 +919,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a77a62fdc38852e83b76c38922b4a6fa0">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4e2d6afe005a71ccb23859fe49c2a106">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a77a62fdc38852e83b76c38922b4a6fa0">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a60f55ed94ed829bb26238d8b48cb0678">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4e2d6afe005a71ccb23859fe49c2a106">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -942,7 +947,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ade8f711561bb6641bca2207c2acc6797">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4e83d3d5c1a19fbdfe04367c80eafb2a">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a316eb3cb27626c685467a84ffbaf494a">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ade8f711561bb6641bca2207c2acc6797">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4e83d3d5c1a19fbdfe04367c80eafb2a">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -980,7 +985,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4cf53168e5ce60ccb69902066b5e525d">Karm::Pdf::Canvas</a>.</p>
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a1e6b6343764d22a2b2a8e50afbab4fbf">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4cf53168e5ce60ccb69902066b5e525d">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1013,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a7ea396826aba44dc5f5ad6b17ddb93c7">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1d846fb965b2b900fc999f84a260e922">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a7ea396826aba44dc5f5ad6b17ddb93c7">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a1cc2b2a2945cb31dd7b4a6bd09902271">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1d846fb965b2b900fc999f84a260e922">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1052,7 +1057,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a78db9d5f3c3f8e6710022d3d6d79b117">Karm::Gfx::CpuCanvas</a>.</p>
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#afc647695072cd5a36338d343ed37a900">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a78db9d5f3c3f8e6710022d3d6d79b117">Karm::Gfx::CpuCanvas</a>.</p>
 
 </div>
 </div>
@@ -1218,7 +1223,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1505662172698a2608666ec32fa2e0a0">Karm::Pdf::Canvas</a>.</p>
+<p>Reimplemented in <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1505662172698a2608666ec32fa2e0a0">Karm::Pdf::Canvas</a>, and <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a163c12376e6742dbadff006d92c9afe2">Karm::Gfx::SvgCanvas</a>.</p>
 
 </div>
 </div>
@@ -1246,7 +1251,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a0de70d7330ed989fe3f1a1d123e0c4b0">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a91db1069522dc87b0acb513f228b1e18">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a0de70d7330ed989fe3f1a1d123e0c4b0">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a97ca3016dafe31718ecdf9a3d6dd379f">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a91db1069522dc87b0acb513f228b1e18">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1284,7 +1289,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a45c4b1d9d9ca4576b3b7432fd582b5e1">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a9403cab675449cd4009eb48f742b5611">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a9bb2bbec9e230be167590cb9c6712ac3">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a45c4b1d9d9ca4576b3b7432fd582b5e1">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a9403cab675449cd4009eb48f742b5611">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1312,7 +1317,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ac1fdd4f67f0405f0083bae3d8cd80e36">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a8716a05771a9770249947167d42f3e24">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a2eb855e25a2a02081b034635793b6ff7">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ac1fdd4f67f0405f0083bae3d8cd80e36">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a8716a05771a9770249947167d42f3e24">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1350,7 +1355,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ae7c314c8c9a2f581cbb93c69c3e9313a">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ad4a99c7afd5040899daaf5fda1bbc40e">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a258e9263ad6b360196df9be254f75703">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ae7c314c8c9a2f581cbb93c69c3e9313a">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ad4a99c7afd5040899daaf5fda1bbc40e">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1393,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ad8cc2eecdb2f2339f8bca942af6c70c1">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a64283af937d47069d26c8a9495cc1aee">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a824650a341c179904f862d37149a6d7a">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ad8cc2eecdb2f2339f8bca942af6c70c1">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a64283af937d47069d26c8a9495cc1aee">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1421,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ac4407ee9d6d124b44a582bc83d7a61fd">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a6fcd4f7aaa546f5aca3c366a78ad42d3">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#afbc239887a4d2d1139279a71fe5bc8fd">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ac4407ee9d6d124b44a582bc83d7a61fd">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a6fcd4f7aaa546f5aca3c366a78ad42d3">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1470,6 +1475,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#ac2b07c12efcd2880f297816ca25a46ca">Karm::Gfx::SvgCanvas</a>.</p>
+
 </div>
 </div>
 <a id="abce3fcc92bee333b35d5a708e2a66eaa" name="abce3fcc92bee333b35d5a708e2a66eaa"></a>
@@ -1496,7 +1503,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ad4ef479dfba58740ebe0931d95a804e4">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#acb9f8669fff5a94ff227fb50380a7a96">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a45a07605cbeee12e20e5e7476cc95344">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ad4ef479dfba58740ebe0931d95a804e4">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#acb9f8669fff5a94ff227fb50380a7a96">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1534,7 +1541,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a1a3c00e56ad3620f20a7d5848795b059">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4ed0cf552c5144202ef682822f0a63bd">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a8abcbd8c5b59c8d9b395a480f2cbf463">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a1a3c00e56ad3620f20a7d5848795b059">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a4ed0cf552c5144202ef682822f0a63bd">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1572,7 +1579,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aaa773c3695bdde6b3cf594154e050e53">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#aa1e5acc4ef3a45174b4576387bbfc090">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a0d2acb899760d5749eec4b62c965792f">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aaa773c3695bdde6b3cf594154e050e53">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#aa1e5acc4ef3a45174b4576387bbfc090">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1610,7 +1617,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a66d12cb61fb1a2b4372f29617bd96745">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#afff3f337f7e98d6df1cc4849e931a25c">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a4e4310c0f69afb0098df369d0b35b340">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a66d12cb61fb1a2b4372f29617bd96745">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#afff3f337f7e98d6df1cc4849e931a25c">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1637,7 +1644,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aaf5092e0e5f4afa36e6b82bfb665c8c6">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a3af7cbd8dc87479ad59cedf2d9ce1b93">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aaf5092e0e5f4afa36e6b82bfb665c8c6">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a52009b8c38a9a90bd0c9c8e18c8b8f6f">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a3af7cbd8dc87479ad59cedf2d9ce1b93">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1664,7 +1671,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a67abc0826d2b4f0682050e2d987efc25">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ad06fce457a7229c496347c8952fa5d7b">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a67abc0826d2b4f0682050e2d987efc25">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#af00803b0feec448970655f880449afc6">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ad06fce457a7229c496347c8952fa5d7b">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1708,12 +1715,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ad1994bb2dae30ca1ca77b2d4709a0ce7">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ac03e49a27a87e1e984826379d986df58">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#ada4b913e04a2dffec9e32d92606136b3">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#ad1994bb2dae30ca1ca77b2d4709a0ce7">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#ac03e49a27a87e1e984826379d986df58">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
-<a id="a9b438a5298964b12da8ce199e1c83cc5" name="a9b438a5298964b12da8ce199e1c83cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b438a5298964b12da8ce199e1c83cc5">&#9670;&#160;</a></span>rect()</h2>
+<a id="af0ff83ace044901cb721b3ccdad17c0a" name="af0ff83ace044901cb721b3ccdad17c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ff83ace044901cb721b3ccdad17c0a">&#9670;&#160;</a></span>rect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1722,7 +1729,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Karm::Gfx::Canvas::rect </td>
+          <td class="memname">void Karm::Gfx::Canvas::rect </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceKarm_1_1Math.html#a388d1f2947455eb1d5dde3f305ecae37">Math::Rectf</a>&#160;</td>
           <td class="paramname"><em>rect</em>, </td>
@@ -1741,12 +1748,12 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aeba818dad5bac28266defcf3ef393b83">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a58b291523102d51b9b706d8109427133">Karm::Pdf::Canvas</a>.</p>
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#aeba818dad5bac28266defcf3ef393b83">Karm::Gfx::CpuCanvas</a>.</p>
 
 </div>
 </div>
@@ -1774,6 +1781,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a760ebcaabb41e05d3a13fe09e9feb360">Karm::Gfx::SvgCanvas</a>.</p>
+
 </div>
 </div>
 <a id="ac314eb1d0bb82301d599f211f97085a0" name="ac314eb1d0bb82301d599f211f97085a0"></a>
@@ -1799,6 +1808,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#ad7ffa157384e4d0ca96d564eb7b0de89">Karm::Gfx::SvgCanvas</a>.</p>
 
 </div>
 </div>
@@ -1826,6 +1837,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a0800bb022105f41827ab3b30e1e425a2">Karm::Gfx::SvgCanvas</a>.</p>
+
 </div>
 </div>
 <a id="a14e83dd5540e63c8929a7059c168f034" name="a14e83dd5540e63c8929a7059c168f034"></a>
@@ -1851,7 +1864,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a9f00359a9238cb5562fd2f6b0187526f">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1dd3da3749b574a740189b8d51afc5c5">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a9f00359a9238cb5562fd2f6b0187526f">Karm::Gfx::CpuCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#aa8d2c40338071a09012610cbe27e9560">Karm::Gfx::SvgCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1dd3da3749b574a740189b8d51afc5c5">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -1995,7 +2008,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#aae64f1d28883e257c1bed2d84b48ed41">Karm::Pdf::Canvas</a>.</p>
+<p>Reimplemented in <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#aae64f1d28883e257c1bed2d84b48ed41">Karm::Pdf::Canvas</a>, and <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#aa78ed392456af3cad6d2d161ce764598">Karm::Gfx::SvgCanvas</a>.</p>
 
 </div>
 </div>
@@ -2023,7 +2036,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a10774767aa3ffe1e2d653497c7b18b11">Karm::Pdf::Canvas</a>, and <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a5e143d9167599d6f3fe5ebc4326f75b5">Karm::Gfx::CpuCanvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a10774767aa3ffe1e2d653497c7b18b11">Karm::Pdf::Canvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a5e143d9167599d6f3fe5ebc4326f75b5">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a562ca3915207499e4a0f3d10027af420">Karm::Gfx::SvgCanvas</a>.</p>
 
 </div>
 </div>
@@ -2051,7 +2064,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a8efeaccd05721492c88cee3fb0f4ef12">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#afe0c0d8603ef2421b65ebb57bac71791">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#acf5c14b9586e3820fbb79dffbe200077">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a8efeaccd05721492c88cee3fb0f4ef12">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#afe0c0d8603ef2421b65ebb57bac71791">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>
@@ -2078,6 +2091,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#adc63e2e4474dd497a0b3e9e426ee19ea">Karm::Gfx::SvgCanvas</a>.</p>
 
 </div>
 </div>
@@ -2115,7 +2130,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a6f11b017d3ae78e1b47ce315e426bf43">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1b8ccd1c00752e16b59c33bda69a665c">Karm::Pdf::Canvas</a>.</p>
+<p>Implemented in <a class="el" href="structKarm_1_1Gfx_1_1SvgCanvas.html#a4317d656ee921328c90667cfd2b25ea2">Karm::Gfx::SvgCanvas</a>, <a class="el" href="structKarm_1_1Gfx_1_1CpuCanvas.html#a6f11b017d3ae78e1b47ce315e426bf43">Karm::Gfx::CpuCanvas</a>, and <a class="el" href="structKarm_1_1Pdf_1_1Canvas.html#a1b8ccd1c00752e16b59c33bda69a665c">Karm::Pdf::Canvas</a>.</p>
 
 </div>
 </div>

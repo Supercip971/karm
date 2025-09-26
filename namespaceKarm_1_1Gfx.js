@@ -48,6 +48,7 @@ var namespaceKarm_1_1Gfx =
     [ "StackBlur", "structKarm_1_1Gfx_1_1StackBlur.html", "structKarm_1_1Gfx_1_1StackBlur" ],
     [ "Stroke", "structKarm_1_1Gfx_1_1Stroke.html", "structKarm_1_1Gfx_1_1Stroke" ],
     [ "Surface", "structKarm_1_1Gfx_1_1Surface.html", "structKarm_1_1Gfx_1_1Surface" ],
+    [ "SvgCanvas", "structKarm_1_1Gfx_1_1SvgCanvas.html", "structKarm_1_1Gfx_1_1SvgCanvas" ],
     [ "TintFilter", "structKarm_1_1Gfx_1_1TintFilter.html", "structKarm_1_1Gfx_1_1TintFilter" ],
     [ "Unfiltered", "structKarm_1_1Gfx_1_1Unfiltered.html", "structKarm_1_1Gfx_1_1Unfiltered" ],
     [ "VgaFontface", "structKarm_1_1Gfx_1_1VgaFontface.html", "structKarm_1_1Gfx_1_1VgaFontface" ],

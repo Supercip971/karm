@@ -1,5 +1,14 @@
 var NAVTREEINDEX19 =
 {
+"rand_8h_source.html":[3,0,0,1,16,21],
+"range_8cpp.html":[3,0,0,1,4,2,36],
+"range_8cpp.html#a9ae9bdb97bbfe66ab16b75deb2bff8ad":[3,0,0,1,4,2,36,2],
+"range_8cpp.html#a9f36cdb341d09a0e723b53f9aa63b105":[3,0,0,1,4,2,36,1],
+"range_8cpp.html#acf73cd806f7ba77cf1d3296bd48b4549":[3,0,0,1,4,2,36,3],
+"range_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,4,2,36,4],
+"ranges_8cpp.html":[3,0,0,1,4,2,37],
+"ranges_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,4,2,37,1],
+"rast_8h.html":[3,0,0,1,10,1,2],
 "rast_8h.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,10,1,2,3],
 "rast_8h_source.html":[3,0,0,1,10,1,2],
 "ray_8h.html":[3,0,0,1,16,22],
@@ -213,9 +222,9 @@ var NAVTREEINDEX19 =
 "sha2_8cpp.html#ae39176f6abb65ad731184a8e9c015715":[3,0,0,1,5,6,2],
 "sha2_8cpp.html#aea724b93c8c1439e125d07daaa12999e":[3,0,0,1,5,6,6],
 "sha2_8cpp.html#affe24de4b25c429db16d4c0a6eaa7b70":[3,0,0,1,5,6,1],
-"shadow_8h.html":[3,0,0,1,10,26],
-"shadow_8h.html#a0dbeba231c2ec1d70fb9dc642e4c2bbb":[3,0,0,1,10,26,1],
-"shadow_8h_source.html":[3,0,0,1,10,26],
+"shadow_8h.html":[3,0,0,1,10,28],
+"shadow_8h.html#a0dbeba231c2ec1d70fb9dc642e4c2bbb":[3,0,0,1,10,28,1],
+"shadow_8h_source.html":[3,0,0,1,10,28],
 "shape_8cpp.html":[3,0,0,1,23,8],
 "shape_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,23,8,2],
 "shape_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,23,8,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX19 =
 "side-panel_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5":[3,0,0,1,13,24,3],
 "side-panel_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c":[3,0,0,1,13,24,4],
 "sieve_8cpp.html":[3,0,0,1,4,2,43],
-"sieve_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,4,2,43,2],
-"signess_8cpp.html":[3,0,0,1,4,8,9],
-"signess_8cpp.html#a45e54dbbc8786a598b06d9c9e6ecd7e5":[3,0,0,1,4,8,9,1],
-"signess_8cpp.html#ab1fc949729d72671951dbbf30e6fa0e5":[3,0,0,1,4,8,9,0],
-"signess_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,4,8,9,2],
-"simd_8cpp.html":[3,0,0,1,4,2,44],
-"simd_8cpp.html#a02722cca56cd41a9cbcf3abb11daf1ba":[3,0,0,1,4,2,44,3],
-"simd_8cpp.html#a02b209cddf01c6ac30e31e19a5dba008":[3,0,0,1,4,2,44,23],
-"simd_8cpp.html#a05c96d482d97c78e7b006d491391f6e9":[3,0,0,1,4,2,44,8],
-"simd_8cpp.html#a09b56e053bf33d0613cf402d45c8025e":[3,0,0,1,4,2,44,36]
+"sieve_8cpp.html#af60e35d72364ff777a965d456af4dea3":[3,0,0,1,4,2,43,2]
 };
