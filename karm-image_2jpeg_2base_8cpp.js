@@ -74,7 +74,6 @@ var karm_image_2jpeg_2base_8cpp =
     ] ],
     [ "bitLength", "karm-image_2jpeg_2base_8cpp.html#a7093f6e4c28095aa0bf6bdd60cae7300", null ],
     [ "dequantize", "karm-image_2jpeg_2base_8cpp.html#ab7d051605b3eb06545b5543a44d6a3b2", null ],
-    [ "mcuFetch", "karm-image_2jpeg_2base_8cpp.html#a867886bbbb97a5167bc1fc235b771b61", null ],
     [ "mcuHeight", "karm-image_2jpeg_2base_8cpp.html#a1d6fa3fcf6e3d7588388bd2976f91a92", null ],
     [ "mcuWidth", "karm-image_2jpeg_2base_8cpp.html#aa665f36103e4e31cdab5dcacbc5d163d", null ],
     [ "quantize", "karm-image_2jpeg_2base_8cpp.html#aca0809dc4035820dcdbeac3a4a451324", null ],

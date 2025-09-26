@@ -78,7 +78,6 @@ var namespaceKarm_1_1Image_1_1Jpeg =
     [ "encode", "namespaceKarm_1_1Image_1_1Jpeg.html#a5c3f8cc9d98eca865cbef1049a41e642", null ],
     [ "fdtc", "namespaceKarm_1_1Image_1_1Jpeg.html#a51bda20a2cdf0c14bf8ec1f650ec62f1", null ],
     [ "idct", "namespaceKarm_1_1Image_1_1Jpeg.html#a84f206b86c06de92bbba5f6df69477bc", null ],
-    [ "mcuFetch", "namespaceKarm_1_1Image_1_1Jpeg.html#a867886bbbb97a5167bc1fc235b771b61", null ],
     [ "mcuHeight", "namespaceKarm_1_1Image_1_1Jpeg.html#a1d6fa3fcf6e3d7588388bd2976f91a92", null ],
     [ "mcuWidth", "namespaceKarm_1_1Image_1_1Jpeg.html#aa665f36103e4e31cdab5dcacbc5d163d", null ],
     [ "quantize", "namespaceKarm_1_1Image_1_1Jpeg.html#aca0809dc4035820dcdbeac3a4a451324", null ],

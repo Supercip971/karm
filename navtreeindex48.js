@@ -1,6 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"structKarm_1_1Serde_1_1PackDeserializer.html":[0,0,0,34,2],
 "structKarm_1_1Serde_1_1PackDeserializer.html":[2,0,0,30,1],
 "structKarm_1_1Serde_1_1PackDeserializer.html#a27373a3c97c6075441e21c1dd2e39dd0":[0,0,0,34,2,0],
 "structKarm_1_1Serde_1_1PackDeserializer.html#a27373a3c97c6075441e21c1dd2e39dd0":[2,0,0,30,1,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX48 =
 "structKarm_1_1Set.html#a298ae8a9d2666fa0a59fe0807098f132":[0,0,0,131,9],
 "structKarm_1_1Set.html#a298ae8a9d2666fa0a59fe0807098f132":[2,0,0,126,9],
 "structKarm_1_1Set.html#a514226e1bea24ccc08bbfc026d914c25":[0,0,0,131,4],
-"structKarm_1_1Set.html#a514226e1bea24ccc08bbfc026d914c25":[2,0,0,126,4]
+"structKarm_1_1Set.html#a514226e1bea24ccc08bbfc026d914c25":[2,0,0,126,4],
+"structKarm_1_1Set.html#a593916ddc8a26da1d21b400cc13ee2d4":[0,0,0,131,6]
 };

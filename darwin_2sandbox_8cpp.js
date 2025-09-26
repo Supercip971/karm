@@ -1,4 +1,5 @@
 var darwin_2sandbox_8cpp =
 [
-    [ "Sys", "darwin_2sandbox_8cpp.html#a3974c0216d383a8ee20f65600aacb6c5", null ]
+    [ "Core", "darwin_2sandbox_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Sys", "darwin_2sandbox_8cpp.html#abb980e57bc06506358d18fe6c64fe46d", null ]
 ];
