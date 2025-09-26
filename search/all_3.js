@@ -6,9 +6,9 @@ var searchData=
   ['dark_5fcolors_3',['DARK_COLORS',['../namespaceKarm_1_1Tty.html#a176dae948b31390e096169b401072e34',1,'Karm::Tty']]],
   ['darkmode_4',['darkMode',['../namespaceKarm_1_1Ui.html#a1c48579e659fefe3594323ce15a0af2e',1,'Karm::Ui']]],
   ['dashed_5',['DASHED',['../namespaceKarm_1_1Gfx.html#a65f2c46530a861de605f2103cb12a3a5a8e3a10cd3a9f7ba14e8229c287ad3c2c',1,'Karm::Gfx']]],
-  ['data_6',['data',['../structKarm_1_1Ref_1_1Blob.html#a52ef020fd26f66cdb3e37b8d5b7681d6',1,'Karm::Ref::Blob']]],
-  ['data_7',['DATA',['../structKarm_1_1Gfx_1_1VgaFontface.html#aa7e9e42b948b705096e99c4bfd364c2f',1,'Karm::Gfx::VgaFontface::DATA()'],['../namespaceKarm_1_1Av_1_1Wav.html#a7808ee2a38b621b98e9b9a29d2aa7c2c',1,'Karm::Av::Wav::DATA()']]],
-  ['data_8',['data',['../structKarm_1_1Av_1_1Riff_1_1Chunk.html#a056f0e9486eebf4a76414329ce59b12c',1,'Karm::Av::Riff::Chunk::data()'],['../structKarm_1_1Niche_3_01bool_01_4_1_1Content.html#ae8ae20e0e98ec83971dc8334ff88c190',1,'Karm::Niche&lt; bool &gt;::Content::data()'],['../structKarm_1_1Niche_3_01T_01_4_1_1Content.html#a8421d6a9485bf9464c95c6f627b4ff07',1,'Karm::Niche&lt; T &gt;::Content::data()'],['../structKarm_1_1Net_1_1Dns_1_1Answer.html#a870929cdf099dc00c45c9b906e762e3c',1,'Karm::Net::Dns::Answer::data()'],['../structKarm_1_1Pdf_1_1Stream.html#af3dd7b238cd9e5efc7707cfc7f335661',1,'Karm::Pdf::Stream::data()'],['../structKarm_1_1Print_1_1PdfPage.html#a96a0ba7ba8a21beb60a7e5a10de142fa',1,'Karm::Print::PdfPage::data()']]],
+  ['data_6',['data',['../structKarm_1_1Print_1_1PdfPage.html#a96a0ba7ba8a21beb60a7e5a10de142fa',1,'Karm::Print::PdfPage::data()'],['../structKarm_1_1Ref_1_1Blob.html#a52ef020fd26f66cdb3e37b8d5b7681d6',1,'Karm::Ref::Blob::data()']]],
+  ['data_7',['DATA',['../namespaceKarm_1_1Av_1_1Wav.html#a7808ee2a38b621b98e9b9a29d2aa7c2c',1,'Karm::Av::Wav::DATA()'],['../structKarm_1_1Gfx_1_1VgaFontface.html#aa7e9e42b948b705096e99c4bfd364c2f',1,'Karm::Gfx::VgaFontface::DATA()']]],
+  ['data_8',['data',['../structKarm_1_1Av_1_1Riff_1_1Chunk.html#a056f0e9486eebf4a76414329ce59b12c',1,'Karm::Av::Riff::Chunk::data()'],['../structKarm_1_1Niche_3_01bool_01_4_1_1Content.html#ae8ae20e0e98ec83971dc8334ff88c190',1,'Karm::Niche&lt; bool &gt;::Content::data()'],['../structKarm_1_1Niche_3_01T_01_4_1_1Content.html#a8421d6a9485bf9464c95c6f627b4ff07',1,'Karm::Niche&lt; T &gt;::Content::data()'],['../structKarm_1_1Net_1_1Dns_1_1Answer.html#a870929cdf099dc00c45c9b906e762e3c',1,'Karm::Net::Dns::Answer::data()'],['../structKarm_1_1Pdf_1_1Stream.html#af3dd7b238cd9e5efc7707cfc7f335661',1,'Karm::Pdf::Stream::data()']]],
   ['database_9',['Database',['../structKarm_1_1Font_1_1Database.html',1,'Karm::Font']]],
   ['database_2ecpp_10',['database.cpp',['../database_8cpp.html',1,'']]],
   ['date_11',['date',['../namespaceKarm_1_1Sys.html#a465df94b482eb1e86a4ed9d4e3b5d7b9',1,'Karm::Sys::date()'],['../structKarm_1_1DateTime.html#a512603ebf802930eeea5f36f24df7fce',1,'Karm::DateTime::date()']]],
@@ -181,9 +181,10 @@ var searchData=
   ['dtor_178',['dtor',['../structKarm_1_1Manual.html#aef685a4fd921770d62e5792d13045ab5',1,'Karm::Manual']]],
   ['dummy_5fclipboard_179',['DUMMY_CLIPBOARD',['../structKarm_1_1Ui_1_1TextModel.html#ae5e0e1806f2e0e00f843302ef1fca1b4',1,'Karm::Ui::TextModel']]],
   ['dup_180',['dup',['../structKarm_1_1Sys_1_1NullFd.html#ab0bf4e8dfaed40f5a9c8d8eaa36a9c7b',1,'Karm::Sys::NullFd::dup()'],['../structKarm_1_1Posix_1_1Fd.html#afc828363ad43696441419efffb603b75',1,'Karm::Posix::Fd::dup()'],['../structKarm_1_1Sys_1_1Fd.html#a8d9708fd64521d3713e208eb80f1f0b2',1,'Karm::Sys::Fd::dup()'],['../structKarm_1_1Sys_1_1BlobFd.html#aad33c42ae56684446f2fbcc344a16a13',1,'Karm::Sys::BlobFd::dup()']]],
-  ['duration_181',['Duration',['../structKarm_1_1Duration.html#afaa87ddac0725e1c093339643800a97a',1,'Karm::Duration']]],
-  ['duration_182',['duration',['../structKarm_1_1Av_1_1Audio.html#ab7efdbff30f74744d3b7bbdccc10a046',1,'Karm::Av::Audio::duration()'],['../structKarm_1_1Av_1_1Player.html#ab10fcfccbf64e5a35384b2af22d0d6ae',1,'Karm::Av::Player::duration()']]],
-  ['duration_183',['Duration',['../structKarm_1_1Duration.html#ade26209125e6d65271d0cc9a5e75c817',1,'Karm::Duration::Duration()'],['../structKarm_1_1Duration.html',1,'Karm::Duration']]],
-  ['dx_184',['dx',['../unionKarm_1_1Math_1_1Curve.html#a073b957ca39c80fd76a7336b9f7fe2ea',1,'Karm::Math::Curve::dx()'],['../unionKarm_1_1Math_1_1Quad.html#a247b5701a59882a61669abb49bf6a502',1,'Karm::Math::Quad::dx()']]],
-  ['dy_185',['dy',['../unionKarm_1_1Math_1_1Curve.html#a687ec58c12933a2d11c3eb4817814ab0',1,'Karm::Math::Curve::dy()'],['../unionKarm_1_1Math_1_1Quad.html#a92618c8f707ca6df417cf33173a0aba5',1,'Karm::Math::Quad::dy()']]]
+  ['duration_181',['duration',['../structKarm_1_1Av_1_1Player.html#ab10fcfccbf64e5a35384b2af22d0d6ae',1,'Karm::Av::Player']]],
+  ['duration_182',['Duration',['../structKarm_1_1Duration.html#ade26209125e6d65271d0cc9a5e75c817',1,'Karm::Duration::Duration()'],['../structKarm_1_1Duration.html#afaa87ddac0725e1c093339643800a97a',1,'Karm::Duration::Duration(_TimeVal value)']]],
+  ['duration_183',['duration',['../structKarm_1_1Av_1_1Audio.html#ab7efdbff30f74744d3b7bbdccc10a046',1,'Karm::Av::Audio']]],
+  ['duration_184',['Duration',['../structKarm_1_1Duration.html',1,'Karm']]],
+  ['dx_185',['dx',['../unionKarm_1_1Math_1_1Curve.html#a073b957ca39c80fd76a7336b9f7fe2ea',1,'Karm::Math::Curve::dx()'],['../unionKarm_1_1Math_1_1Quad.html#a247b5701a59882a61669abb49bf6a502',1,'Karm::Math::Quad::dx()']]],
+  ['dy_186',['dy',['../unionKarm_1_1Math_1_1Curve.html#a687ec58c12933a2d11c3eb4817814ab0',1,'Karm::Math::Curve::dy()'],['../unionKarm_1_1Math_1_1Quad.html#a92618c8f707ca6df417cf33173a0aba5',1,'Karm::Math::Quad::dy()']]]
 ];
