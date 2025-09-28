@@ -109,6 +109,7 @@ var namespaceKarm_1_1Sys =
     [ "pwd", "namespaceKarm_1_1Sys.html#aa106b255d5d159745b5c5f5f13461d07", null ],
     [ "readAllUtf8", "namespaceKarm_1_1Sys.html#ab66a05fd48d78aa72a3f88c2a71daa1a", null ],
     [ "rootContext", "namespaceKarm_1_1Sys.html#a57e5091ee06680ac529b449eef004bf5", null ],
+    [ "rpcRecvAsync", "namespaceKarm_1_1Sys.html#a63385b2c72beaab5250d4e2e2392c16b", null ],
     [ "rpcSend", "namespaceKarm_1_1Sys.html#a6bff7bee5612c2a638f91815b51a464b", null ],
     [ "run", "namespaceKarm_1_1Sys.html#a09c6f7cd033db1a1c4b84e592e98eb87", null ],
     [ "sleep", "namespaceKarm_1_1Sys.html#a0eb3627afa5e6055826f6858cb65aed7", null ],

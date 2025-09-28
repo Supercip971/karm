@@ -295,6 +295,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a6bff7bee5612c2a638f91815b51a464b"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
 <tr class="memitem:a6bff7bee5612c2a638f91815b51a464b"><td class="memTemplItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Res.html">Res</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a6bff7bee5612c2a638f91815b51a464b">rpcSend</a> (<a class="el" href="structKarm_1_1Sys_1_1IpcConnection.html">IpcConnection</a> &amp;con, <a class="el" href="structKarm_1_1Sys_1_1Port.html">Port</a> to, <a class="el" href="namespaceKarm.html#ac2d07b968846234b353011cd588b2d36">u64</a> seq, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a6bff7bee5612c2a638f91815b51a464b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63385b2c72beaab5250d4e2e2392c16b"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Async::Task</a>&lt; <a class="el" href="structKarm_1_1Sys_1_1Message.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#a63385b2c72beaab5250d4e2e2392c16b">rpcRecvAsync</a> (<a class="el" href="structKarm_1_1Sys_1_1IpcConnection.html">IpcConnection</a> &amp;con)</td></tr>
+<tr class="separator:a63385b2c72beaab5250d4e2e2392c16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe743fdd47eb211640d833f83c0943d4"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Sys_1_1Endpoint.html">Endpoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#afe743fdd47eb211640d833f83c0943d4">globalEndpoint</a> ()</td></tr>
 <tr class="separator:afe743fdd47eb211640d833f83c0943d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab66a05fd48d78aa72a3f88c2a71daa1a"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Res.html">Res</a>&lt; <a class="el" href="namespaceKarm.html#ae6adab057126d950320de3262006925b">String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Sys.html#ab66a05fd48d78aa72a3f88c2a71daa1a">readAllUtf8</a> (<a class="el" href="structKarm_1_1Ref_1_1Url.html">Ref::Url</a> const &amp;url)</td></tr>
@@ -965,6 +967,24 @@ template&lt;typename T &gt; </div>
           <td class="memname">export <a class="el" href="structKarm_1_1Sys_1_1Context.html">Context</a> &amp; Karm::Sys::rootContext </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63385b2c72beaab5250d4e2e2392c16b" name="a63385b2c72beaab5250d4e2e2392c16b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63385b2c72beaab5250d4e2e2392c16b">&#9670;&#160;</a></span>rpcRecvAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="namespaceKarm_1_1Async.html#a0bb115608504b3a0b41fac822338c63c">Async::Task</a>&lt; <a class="el" href="structKarm_1_1Sys_1_1Message.html">Message</a> &gt; Karm::Sys::rpcRecvAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Sys_1_1IpcConnection.html">IpcConnection</a> &amp;&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
