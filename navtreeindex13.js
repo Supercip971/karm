@@ -226,7 +226,6 @@ var NAVTREEINDEX13 =
 "namespaceKarm_1_1Kira.html#a0825e1cedbe4454948d84ff8fe7a6915":[0,0,0,19,103],
 "namespaceKarm_1_1Kira.html#a08a0c20919a343a439ff33014f006852":[0,0,0,19,50],
 "namespaceKarm_1_1Kira.html#a10509f24d898b4c46cd3ce461dccbb0e":[0,0,0,19,96],
-"namespaceKarm_1_1Kira.html#a15f0a345fe578c0abe445be231907649":[0,0,0,19,107],
 "namespaceKarm_1_1Kira.html#a17ae21271e4fb92c9563252c82f39fe7":[0,0,0,19,66],
 "namespaceKarm_1_1Kira.html#a1b827da8c7509f1db388dd7899b00ad7":[0,0,0,19,52],
 "namespaceKarm_1_1Kira.html#a22cda00e84572579fc1f55d83bf9e9a6":[0,0,0,19,44],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "namespaceKarm_1_1Kira.html#a43d3e6c943128cab8eac7d966bb39256a1fabf63de5c96c78e2a40805bcdeb73b":[0,0,0,19,19,2],
 "namespaceKarm_1_1Kira.html#a43d3e6c943128cab8eac7d966bb39256a6705777b712ee811e76fb07162081d63":[0,0,0,19,19,0],
 "namespaceKarm_1_1Kira.html#a43d3e6c943128cab8eac7d966bb39256ab078ffd28db767c502ac367053f6e0ac":[0,0,0,19,19,1],
-"namespaceKarm_1_1Kira.html#a43d3e6c943128cab8eac7d966bb39256ab1a326c06d88bf042f73d70f50197905":[0,0,0,19,19,3]
+"namespaceKarm_1_1Kira.html#a43d3e6c943128cab8eac7d966bb39256ab1a326c06d88bf042f73d70f50197905":[0,0,0,19,19,3],
+"namespaceKarm_1_1Kira.html#a45cba1ec607353e21095356ae77669f0":[0,0,0,19,23]
 };

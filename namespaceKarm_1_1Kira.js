@@ -125,7 +125,7 @@ var namespaceKarm_1_1Kira =
     [ "sidePanelContent", "namespaceKarm_1_1Kira.html#a6795837ad065c7002381e0e569855ef3", null ],
     [ "sidePanelTitle", "namespaceKarm_1_1Kira.html#aba2374debef64f0783c2ab6dfc402bd0", null ],
     [ "sidePanelTitle", "namespaceKarm_1_1Kira.html#a8cbf3ebf5168d00286952ba650cfbf66", null ],
-    [ "slider", "namespaceKarm_1_1Kira.html#a15f0a345fe578c0abe445be231907649", null ],
+    [ "slider", "namespaceKarm_1_1Kira.html#a72cb6cf2bb09146957ca3531c4fd0f09", null ],
     [ "slider", "namespaceKarm_1_1Kira.html#ae174998cede7e230a77620b458bc3a00", null ],
     [ "slider", "namespaceKarm_1_1Kira.html#aefd9d78ca0ec35fb944f71f8679d9329", null ],
     [ "sliderRow", "namespaceKarm_1_1Kira.html#a7c1537c2bd286c9d7792291ccd5b91af", null ],

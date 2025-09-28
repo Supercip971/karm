@@ -1,7 +1,7 @@
 var slider_8cpp =
 [
     [ "Karm::Kira::Slider", "structKarm_1_1Kira_1_1Slider.html", "structKarm_1_1Kira_1_1Slider" ],
-    [ "slider", "slider_8cpp.html#a15f0a345fe578c0abe445be231907649", null ],
+    [ "slider", "slider_8cpp.html#a72cb6cf2bb09146957ca3531c4fd0f09", null ],
     [ "slider", "slider_8cpp.html#ae174998cede7e230a77620b458bc3a00", null ],
     [ "slider", "slider_8cpp.html#aefd9d78ca0ec35fb944f71f8679d9329", null ],
     [ "App", "slider_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
