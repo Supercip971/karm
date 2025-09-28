@@ -2,6 +2,7 @@ var karm_sys_2types_8cpp =
 [
     [ "Karm::Sys::MmapProps", "structKarm_1_1Sys_1_1MmapProps.html", "structKarm_1_1Sys_1_1MmapProps" ],
     [ "Karm::Sys::MmapResult", "structKarm_1_1Sys_1_1MmapResult.html", "structKarm_1_1Sys_1_1MmapResult" ],
+    [ "Karm::Serde::Serde< Karm::Sys::Handle >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1Sys_1_1Handle_01_4.html", null ],
     [ "Handle", "karm-sys_2types_8cpp.html#ac70aea4ef2ec04bff824146a87754826", null ],
     [ "MmapOption", "karm-sys_2types_8cpp.html#a4bc4dd239ab723c5768e73b651e5c8d4", [
       [ "READ", "karm-sys_2types_8cpp.html#a4bc4dd239ab723c5768e73b651e5c8d4a3466fab4975481651940ed328aa990e4", null ],

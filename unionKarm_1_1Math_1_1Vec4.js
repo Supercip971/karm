@@ -36,6 +36,7 @@ var unionKarm_1_1Math_1_1Vec4 =
     [ "operator[]", "unionKarm_1_1Math_1_1Vec4.html#a8cbf15232b40626051d3615065a5374d", null ],
     [ "repr", "unionKarm_1_1Math_1_1Vec4.html#a6e869f92802261ee2507ac268c4c641e", null ],
     [ "round", "unionKarm_1_1Math_1_1Vec4.html#a7d006af2b241a0bf313cd3345bd36a10", null ],
+    [ "serialize", "unionKarm_1_1Math_1_1Vec4.html#a5ab2499cb5552ebce39084dc1af8413d", null ],
     [ "unit", "unionKarm_1_1Math_1_1Vec4.html#a113cd9f368083376d685179a24cd16b0", null ],
     [ "a", "unionKarm_1_1Math_1_1Vec4.html#a39c24c8f5338ea31a29eee0c3ac5c5ef", null ],
     [ "b", "unionKarm_1_1Math_1_1Vec4.html#add956440b4042ade791fe4fbbf044560", null ],

@@ -5,7 +5,6 @@ var structKarm_1_1Posix_1_1Fd =
     [ "accept", "structKarm_1_1Posix_1_1Fd.html#a32ca84be34d20d3a97738d8535e55178", null ],
     [ "dup", "structKarm_1_1Posix_1_1Fd.html#afc828363ad43696441419efffb603b75", null ],
     [ "flush", "structKarm_1_1Posix_1_1Fd.html#a42c7a18a36d19c2acd6d92923b3024c5", null ],
-    [ "handle", "structKarm_1_1Posix_1_1Fd.html#a4bc5769efb88322a1d22f433a4ba6fd8", null ],
     [ "pack", "structKarm_1_1Posix_1_1Fd.html#a2e054983c07b433497e9830db230adb9", null ],
     [ "read", "structKarm_1_1Posix_1_1Fd.html#ab939717e0c4fc5094b8195aef50c616b", null ],
     [ "recv", "structKarm_1_1Posix_1_1Fd.html#a6215d4b9b00774f5388a21432941cf1f", null ],

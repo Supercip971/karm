@@ -42,6 +42,7 @@ var unionKarm_1_1Math_1_1Vec2 =
     [ "repr", "unionKarm_1_1Math_1_1Vec2.html#a047d7ae2a0df8396b4b387bc5010d700", null ],
     [ "rotate", "unionKarm_1_1Math_1_1Vec2.html#a3fd79b69fc592d6b9291170d92fcd70c", null ],
     [ "round", "unionKarm_1_1Math_1_1Vec2.html#afd294259fd37bb0e66d1425e6fd76c21", null ],
+    [ "serialize", "unionKarm_1_1Math_1_1Vec2.html#ac37bf0313fa1ed5bf4c5fb22083bb215", null ],
     [ "unit", "unionKarm_1_1Math_1_1Vec2.html#ae7e57a65fba224cca97c334d3a41058e", null ],
     [ "height", "unionKarm_1_1Math_1_1Vec2.html#a3063f26bcc4f73c8e0401b01a057c675", null ],
     [ "width", "unionKarm_1_1Math_1_1Vec2.html#ab7d6153cee479aeece54c712b35580e5", null ],

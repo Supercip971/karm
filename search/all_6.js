@@ -29,7 +29,7 @@ var searchData=
   ['gfx_26',['Gfx',['../karm-scene_2node_8cpp.html#a7c0089b00689a79148a84c5b7fe95679',1,'Gfx():&#160;node.cpp'],['../karm-gfx_2svg_2canvas_8cpp.html#af83841fb03aad2d756d79eeb2ac6e98f',1,'Gfx():&#160;canvas.cpp'],['../karm-gfx_2mod_8cpp.html#af83841fb03aad2d756d79eeb2ac6e98f',1,'Gfx():&#160;mod.cpp']]],
   ['gguf_2ecpp_27',['gguf.cpp',['../gguf_8cpp.html',1,'']]],
   ['gib_28',['gib',['../namespaceKarm.html#ab40e5573c90900da27e714d74ccd0a13',1,'Karm']]],
-  ['give_29',['give',['../structKarm_1_1Sys_1_1MessageWriter.html#a5d6971dc4e17ad0b78d25ef85a747772',1,'Karm::Sys::MessageWriter']]],
+  ['give_29',['give',['../structKarm_1_1Sys_1_1MessageSerializer.html#ad05083bf8a9d1e59c5f7d87fc2b4f6b3',1,'Karm::Sys::MessageSerializer']]],
   ['glob_30',['glob',['../structKarm_1_1Test_1_1RunOptions.html#a7eb04a1fb5489b27e64b3f3862a38859',1,'Karm::Test::RunOptions']]],
   ['glob_2ecpp_31',['glob.cpp',['../glob_8cpp.html',1,'']]],
   ['global_32',['GLOBAL',['../namespaceKarm_1_1Regex.html#aeb80b5b3b27409e056039a96aef0bcfba6eecfba72d12922ee1dead07a0ef3334',1,'Karm::Regex']]],
@@ -90,10 +90,11 @@ var searchData=
   ['groupnode_3c_20flowlayout_20_3e_87',['GroupNode&lt; FlowLayout &gt;',['../structKarm_1_1Ui_1_1GroupNode.html',1,'Karm::Ui']]],
   ['groupnode_3c_20gridlayout_20_3e_88',['GroupNode&lt; GridLayout &gt;',['../structKarm_1_1Ui_1_1GroupNode.html',1,'Karm::Ui']]],
   ['groupnode_3c_20stacklayout_20_3e_89',['GroupNode&lt; StackLayout &gt;',['../structKarm_1_1Ui_1_1GroupNode.html',1,'Karm::Ui']]],
-  ['grow_90',['grow',['../namespaceKarm_1_1Ui.html#a03139cd03b26f2de2c51ee6f817fdbf2',1,'Karm::Ui::grow()'],['../structKarm_1_1Math_1_1Radii.html#a9726f2713c4d7709b99d36423c88cb7c',1,'Karm::Math::Radii::grow()'],['../namespaceKarm_1_1Ui.html#afbac994b33c98748b8ce45c80b407213',1,'Karm::Ui::grow(isize grow, Opt&lt; Child &gt; child)'],['../namespaceKarm_1_1Ui.html#aea86d01337e069d917afe34ec125dd51',1,'Karm::Ui::grow()'],['../namespaceKarm_1_1Ui.html#aa5c4ffa2a9d9e3bb77792d2d3bc99d4f',1,'Karm::Ui::grow(Opt&lt; Child &gt; child)']]],
-  ['grow_91',['Grow',['../structKarm_1_1Ui_1_1Grow.html#a1ad544db6e02b2c3ec3eb5bcfbdc88f4',1,'Karm::Ui::Grow::Grow(isize grow, Child child)'],['../structKarm_1_1Ui_1_1Grow.html#a8b41abcc03a03667c2ca2546a414a149',1,'Karm::Ui::Grow::Grow(Child child)']]],
-  ['grow_92',['GROW',['../structKarm_1_1Ui_1_1GridUnit.html#a47d5a12625cc400f5c5e38c86b9e547e',1,'Karm::Ui::GridUnit']]],
-  ['grow_93',['grow',['../structKarm_1_1Ui_1_1GridUnit.html#a78803d9f248f579aa729038e1063fd93',1,'Karm::Ui::GridUnit::grow()'],['../structKarm_1_1Ui_1_1Grow.html#a49d75c301b8786cb15f163179b5dbb98',1,'Karm::Ui::Grow::grow()'],['../unionKarm_1_1Math_1_1Rect.html#aefe3ef017f09b3bb9e34ca670c3e4992',1,'Karm::Math::Rect::grow()']]],
-  ['grow_94',['Grow',['../structKarm_1_1Ui_1_1Grow.html',1,'Karm::Ui']]],
-  ['gsub_95',['Gsub',['../structKarm_1_1Font_1_1Ttf_1_1Gsub.html',1,'Karm::Font::Ttf']]]
+  ['grow_90',['grow',['../namespaceKarm_1_1Ui.html#a03139cd03b26f2de2c51ee6f817fdbf2',1,'Karm::Ui']]],
+  ['grow_91',['Grow',['../structKarm_1_1Ui_1_1Grow.html#a8b41abcc03a03667c2ca2546a414a149',1,'Karm::Ui::Grow']]],
+  ['grow_92',['grow',['../namespaceKarm_1_1Ui.html#afbac994b33c98748b8ce45c80b407213',1,'Karm::Ui::grow(isize grow, Opt&lt; Child &gt; child)'],['../namespaceKarm_1_1Ui.html#aea86d01337e069d917afe34ec125dd51',1,'Karm::Ui::grow()'],['../namespaceKarm_1_1Ui.html#aa5c4ffa2a9d9e3bb77792d2d3bc99d4f',1,'Karm::Ui::grow(Opt&lt; Child &gt; child)']]],
+  ['grow_93',['GROW',['../structKarm_1_1Ui_1_1GridUnit.html#a47d5a12625cc400f5c5e38c86b9e547e',1,'Karm::Ui::GridUnit']]],
+  ['grow_94',['grow',['../structKarm_1_1Ui_1_1GridUnit.html#a78803d9f248f579aa729038e1063fd93',1,'Karm::Ui::GridUnit::grow()'],['../structKarm_1_1Ui_1_1Grow.html#a49d75c301b8786cb15f163179b5dbb98',1,'Karm::Ui::Grow::grow()'],['../unionKarm_1_1Math_1_1Rect.html#aefe3ef017f09b3bb9e34ca670c3e4992',1,'Karm::Math::Rect::grow()'],['../structKarm_1_1Math_1_1Radii.html#a9726f2713c4d7709b99d36423c88cb7c',1,'Karm::Math::Radii::grow()']]],
+  ['grow_95',['Grow',['../structKarm_1_1Ui_1_1Grow.html#a1ad544db6e02b2c3ec3eb5bcfbdc88f4',1,'Karm::Ui::Grow::Grow()'],['../structKarm_1_1Ui_1_1Grow.html',1,'Karm::Ui::Grow']]],
+  ['gsub_96',['Gsub',['../structKarm_1_1Font_1_1Ttf_1_1Gsub.html',1,'Karm::Font::Ttf']]]
 ];

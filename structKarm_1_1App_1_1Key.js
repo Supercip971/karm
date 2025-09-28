@@ -1,7 +1,8 @@
 var structKarm_1_1App_1_1Key =
 [
     [ "Code", "structKarm_1_1App_1_1Key.html#a3b65869d4958158b7bc3349c453e5018", [
-      [ "KEY", "structKarm_1_1App_1_1Key.html#a3b65869d4958158b7bc3349c453e5018a36d7912e95e31d6c8dc8d0921d2af21e", null ]
+      [ "KEY", "structKarm_1_1App_1_1Key.html#a3b65869d4958158b7bc3349c453e5018a36d7912e95e31d6c8dc8d0921d2af21e", null ],
+      [ "_LEN", "structKarm_1_1App_1_1Key.html#a3b65869d4958158b7bc3349c453e5018ae29d1d2ceca88985d2cf3bd5ba380301", null ]
     ] ],
     [ "Key", "structKarm_1_1App_1_1Key.html#abaeaaadf5ba72efcb6214cd300377899", null ],
     [ "code", "structKarm_1_1App_1_1Key.html#ab21c62ff7a4074867b2f59c03254f28e", null ],

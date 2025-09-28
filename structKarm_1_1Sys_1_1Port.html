@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('structKarm_1_1Sys_1_1Port.html',''); i
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structKarm_1_1Sys_1_1Port-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Karm::Sys::Port Struct Reference</div></div>
@@ -117,10 +118,17 @@ Inheritance diagram for Karm::Sys::Port:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9369be301ada74109a1243a09de19394"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1Port.html#a9369be301ada74109a1243a09de19394">repr</a> (<a class="el" href="structKarm_1_1Io_1_1Emit.html">Io::Emit</a> &amp;e) const</td></tr>
 <tr class="separator:a9369be301ada74109a1243a09de19394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd17c7de4895de7ac2c0639df085f1bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Res.html">Res</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1Port.html#acd17c7de4895de7ac2c0639df085f1bd">serialize</a> (<a class="el" href="structKarm_1_1Serde_1_1Serializer.html">Serde::Serializer</a> &amp;ser) const</td></tr>
+<tr class="separator:acd17c7de4895de7ac2c0639df085f1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac861fbe0edcf4f22e9d8d48e6c54feae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1Port.html#ac861fbe0edcf4f22e9d8d48e6c54feae">Distinct</a> ()=default</td></tr>
 <tr class="separator:ac861fbe0edcf4f22e9d8d48e6c54feae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa0912eb2e0e1b280e96c6b98bb520a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-core_2macros_8h.html#ac620672df61cb1f3f6bf8901869b6be2">always_inline</a> constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1Port.html#a9aa0912eb2e0e1b280e96c6b98bb520a">Distinct</a> (T <a class="el" href="structKarm_1_1Distinct.html#a21e492a2f2e0945d6c829850522dbe78">value</a>)</td></tr>
 <tr class="separator:a9aa0912eb2e0e1b280e96c6b98bb520a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a38fedd8016761d4e4c358f69dd168b83"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structKarm_1_1Res.html">Res</a>&lt; <a class="el" href="structKarm_1_1Sys_1_1Port.html">Port</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Sys_1_1Port.html#a38fedd8016761d4e4c358f69dd168b83">deserialize</a> (<a class="el" href="structKarm_1_1Serde_1_1Deserializer.html">Serde::Deserializer</a> &amp;de)</td></tr>
+<tr class="separator:a38fedd8016761d4e4c358f69dd168b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -132,6 +140,32 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a1a698712478c5caf01d8653295f5a29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a38fedd8016761d4e4c358f69dd168b83" name="a38fedd8016761d4e4c358f69dd168b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38fedd8016761d4e4c358f69dd168b83">&#9670;&#160;</a></span>deserialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structKarm_1_1Res.html">Res</a>&lt; <a class="el" href="structKarm_1_1Sys_1_1Port.html">Port</a> &gt; Karm::Sys::Port::deserialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Serde_1_1Deserializer.html">Serde::Deserializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>de</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac861fbe0edcf4f22e9d8d48e6c54feae" name="ac861fbe0edcf4f22e9d8d48e6c54feae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac861fbe0edcf4f22e9d8d48e6c54feae">&#9670;&#160;</a></span>Distinct() <span class="overload">[1/2]</span></h2>
 
@@ -197,6 +231,32 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structKarm_1_1Io_1_1Emit.html">Io::Emit</a> &amp;&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd17c7de4895de7ac2c0639df085f1bd" name="acd17c7de4895de7ac2c0639df085f1bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd17c7de4895de7ac2c0639df085f1bd">&#9670;&#160;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structKarm_1_1Res.html">Res</a> Karm::Sys::Port::serialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Serde_1_1Serializer.html">Serde::Serializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>ser</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

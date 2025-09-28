@@ -86,9 +86,7 @@ var hierarchy =
     [ "Karm::Be< T >", "structKarm_1_1Be.html", null ],
     [ "Karm::Be< u16 >", "structKarm_1_1Be.html", null ],
     [ "Karm::Be< u32 >", "structKarm_1_1Be.html", null ],
-    [ "Karm::Io::BEmit", "structKarm_1_1Io_1_1BEmit.html", [
-      [ "Karm::Sys::MessageWriter", "structKarm_1_1Sys_1_1MessageWriter.html", null ]
-    ] ],
+    [ "Karm::Io::BEmit", "structKarm_1_1Io_1_1BEmit.html", null ],
     [ "Karm::Io::BField< T, Offset >", "structKarm_1_1Io_1_1BField.html", null ],
     [ "Karm::Gfx::Bgra8888", "structKarm_1_1Gfx_1_1Bgra8888.html", null ],
     [ "Karm::Icu::Bidi", "structKarm_1_1Icu_1_1Bidi.html", null ],
@@ -109,9 +107,7 @@ var hierarchy =
     [ "Karm::Io::BPattern", "structKarm_1_1Io_1_1BPattern.html", null ],
     [ "Karm::Ml::BpeVocab", "structKarm_1_1Ml_1_1BpeVocab.html", null ],
     [ "Karm::Gfx::BrightnessFilter", "structKarm_1_1Gfx_1_1BrightnessFilter.html", null ],
-    [ "Karm::Io::BScan", "structKarm_1_1Io_1_1BScan.html", [
-      [ "Karm::Sys::MessageReader", "structKarm_1_1Sys_1_1MessageReader.html", null ]
-    ] ],
+    [ "Karm::Io::BScan", "structKarm_1_1Io_1_1BScan.html", null ],
     [ "Karm::Buf< T >", "structKarm_1_1Buf.html", null ],
     [ "Karm::Buf< u8 >", "structKarm_1_1Buf.html", null ],
     [ "Karm::Gfx::Gradient::Builder", "structKarm_1_1Gfx_1_1Gradient_1_1Builder.html", null ],
@@ -173,7 +169,9 @@ var hierarchy =
     [ "Karm::Image::Png::Decoder", "structKarm_1_1Image_1_1Png_1_1Decoder.html", null ],
     [ "Karm::Image::Tga::Decoder", "structKarm_1_1Image_1_1Tga_1_1Decoder.html", null ],
     [ "Karm::Serde::Deserializer", "structKarm_1_1Serde_1_1Deserializer.html", [
-      [ "Karm::Serde::PackDeserializer", "structKarm_1_1Serde_1_1PackDeserializer.html", null ]
+      [ "Karm::Serde::PackDeserializer", "structKarm_1_1Serde_1_1PackDeserializer.html", [
+        [ "Karm::Sys::MessageDeserializer", "structKarm_1_1Sys_1_1MessageDeserializer.html", null ]
+      ] ]
     ] ],
     [ "Karm::Av::Device", "structKarm_1_1Av_1_1Device.html", null ],
     [ "Karm::Sys::Dir", "structKarm_1_1Sys_1_1Dir.html", null ],
@@ -619,16 +617,6 @@ var hierarchy =
     [ "Karm::Gfx::FontFamily::Member", "structKarm_1_1Gfx_1_1FontFamily_1_1Member.html", null ],
     [ "Karm::Sys::MemInfo", "structKarm_1_1Sys_1_1MemInfo.html", null ],
     [ "Karm::Sys::Message", "structKarm_1_1Sys_1_1Message.html", null ],
-    [ "Karm::Sys::MessagePacker< T >", "structKarm_1_1Sys_1_1MessagePacker.html", null ],
-    [ "Karm::Sys::MessagePacker< Error >", "structKarm_1_1Sys_1_1MessagePacker_3_01Error_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< None >", "structKarm_1_1Sys_1_1MessagePacker_3_01None_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< Opt< T > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Opt_3_01T_01_4_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< Pair< Car, Cdr > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Pair_3_01Car_00_01Cdr_01_4_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< Res< T, E > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Res_3_01T_00_01E_01_4_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< T >", "structKarm_1_1Sys_1_1MessagePacker_3_01T_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< Tuple< Ts... > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< Union< Ts... > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
-    [ "Karm::Sys::MessagePacker< Vec< T > >", "structKarm_1_1Sys_1_1MessagePacker_3_01Vec_3_01T_01_4_01_4.html", null ],
     [ "Karm::Font::Ttf::Glyf::Metrics", "structKarm_1_1Font_1_1Ttf_1_1Glyf_1_1Metrics.html", null ],
     [ "Karm::Font::Ttf::Hmtx::Metrics", "structKarm_1_1Font_1_1Ttf_1_1Hmtx_1_1Metrics.html", null ],
     [ "Karm::Font::Ttf::Metrics", "structKarm_1_1Font_1_1Ttf_1_1Metrics.html", null ],
@@ -865,7 +853,14 @@ var hierarchy =
     [ "Karm::Serde::Serde< T >", "structKarm_1_1Serde_1_1Serde.html", null ],
     [ "Karm::Serde::Serde< Array< T, N > >", "structKarm_1_1Serde_1_1Serde_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< bool >", "structKarm_1_1Serde_1_1Serde_3_01bool_01_4.html", null ],
+    [ "Karm::Serde::Serde< Distinct< T, Tag > >", "structKarm_1_1Serde_1_1Serde_3_01Distinct_3_01T_00_01Tag_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Error >", "structKarm_1_1Serde_1_1Serde_3_01Error_01_4.html", null ],
+    [ "Karm::Serde::Serde< Flags< E, U > >", "structKarm_1_1Serde_1_1Serde_3_01Flags_3_01E_00_01U_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Karm::App::Key >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1App_1_1Key_01_4.html", null ],
+    [ "Karm::Serde::Serde< Karm::App::KeyMod >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1App_1_1KeyMod_01_4.html", null ],
+    [ "Karm::Serde::Serde< Karm::App::MouseButton >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1App_1_1MouseButton_01_4.html", null ],
+    [ "Karm::Serde::Serde< Karm::Rc< Karm::Sys::Fd > >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1Rc_3_01Karm_1_1Sys_1_1Fd_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Karm::Sys::Handle >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1Sys_1_1Handle_01_4.html", null ],
     [ "Karm::Serde::Serde< Map< String, T > >", "structKarm_1_1Serde_1_1Serde_3_01Map_3_01String_00_01T_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< None >", "structKarm_1_1Serde_1_1Serde_3_01None_01_4.html", null ],
     [ "Karm::Serde::Serde< Opt< T > >", "structKarm_1_1Serde_1_1Serde_3_01Opt_3_01T_01_4_01_4.html", null ],
@@ -877,7 +872,9 @@ var hierarchy =
     [ "Karm::Serde::Serde< Vec< T > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01T_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Vec< u8 > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01u8_01_4_01_4.html", null ],
     [ "Karm::Serde::Serializer", "structKarm_1_1Serde_1_1Serializer.html", [
-      [ "Karm::Serde::PackSerializer", "structKarm_1_1Serde_1_1PackSerializer.html", null ]
+      [ "Karm::Serde::PackSerializer", "structKarm_1_1Serde_1_1PackSerializer.html", [
+        [ "Karm::Sys::MessageSerializer", "structKarm_1_1Sys_1_1MessageSerializer.html", null ]
+      ] ]
     ] ],
     [ "Karm::Http::Server", "structKarm_1_1Http_1_1Server.html", null ],
     [ "Karm::Http::Service", "structKarm_1_1Http_1_1Service.html", null ],

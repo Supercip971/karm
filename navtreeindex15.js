@@ -1,13 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"namespaceKarm_1_1Meta.html#a40a4e6b4a8d914669d0e153719089579":[0,0,0,24,48],
-"namespaceKarm_1_1Meta.html#a45e54dbbc8786a598b06d9c9e6ecd7e5":[0,0,0,24,51],
-"namespaceKarm_1_1Meta.html#a46e92b3d924529578fc2e7d79f73973c":[0,0,0,24,63],
-"namespaceKarm_1_1Meta.html#a5a0c1653a63eb04de3178708f9043877":[0,0,0,24,46],
-"namespaceKarm_1_1Meta.html#a5f1e119cc07df3835800e667747ff8cf":[0,0,0,24,59],
-"namespaceKarm_1_1Meta.html#a8b38d45f3e8c1b16f6b6e149a420f4ac":[0,0,0,24,47],
-"namespaceKarm_1_1Meta.html#a9eb492a615e387dcb6ec41585ec0163f":[0,0,0,24,52],
-"namespaceKarm_1_1Meta.html#aafb84ff3729a9bff4713ea0d85e13873":[0,0,0,24,56],
 "namespaceKarm_1_1Meta.html#ab1fc949729d72671951dbbf30e6fa0e5":[0,0,0,24,50],
 "namespaceKarm_1_1Meta.html#ab664a0c5ad4a62af27b8e8db9b61fa71":[0,0,0,24,54],
 "namespaceKarm_1_1Meta.html#abc37b7440d68fb5f750c2ba3a0c861b7":[0,0,0,24,67],
@@ -249,5 +241,13 @@ var NAVTREEINDEX15 =
 "namespaceKarm_1_1Ref_1_1Tests.html#a8951571680709d0dffb532773a713176":[0,0,0,31,0,3],
 "namespaceKarm_1_1Ref_1_1Tests.html#ab2c8fe06a48cf15fd91d9cd8d7209b98":[0,0,0,31,0,6],
 "namespaceKarm_1_1Ref_1_1Tests.html#aea11230444333bfa47b11da3acd86966":[0,0,0,31,0,2],
-"namespaceKarm_1_1Regex.html":[0,0,0,32]
+"namespaceKarm_1_1Regex.html":[0,0,0,32],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898":[0,0,0,32,12],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898a1648b7ed82691a46fd01b6843d2fd258":[0,0,0,32,12,2],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898a3f9fb41adc7fc630862308604e717b6b":[0,0,0,32,12,1],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898a45cd6622dc11600dddf2f129cba2edff":[0,0,0,32,12,0],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898aa70f58d67f1cc1822f7735e17b2006a4":[0,0,0,32,12,3],
+"namespaceKarm_1_1Regex.html#a5d572325166b7e0ae5551367f61e7898ae29d1d2ceca88985d2cf3bd5ba380301":[0,0,0,32,12,4],
+"namespaceKarm_1_1Regex.html#ac4c76e58617dbb89dd86d2a7e8f9f2a9":[0,0,0,32,13],
+"namespaceKarm_1_1Regex.html#ac4c76e58617dbb89dd86d2a7e8f9f2a9aced3a9ab7def7a8f535743ee9802c34e":[0,0,0,32,13,0]
 };

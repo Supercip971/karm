@@ -6,6 +6,9 @@ var inputs_8cpp =
     [ "Karm::App::MouseEvent", "structKarm_1_1App_1_1MouseEvent.html", "structKarm_1_1App_1_1MouseEvent" ],
     [ "Karm::App::MouseLeaveEvent", "structKarm_1_1App_1_1MouseLeaveEvent.html", null ],
     [ "Karm::App::MouseEnterEvent", "structKarm_1_1App_1_1MouseEnterEvent.html", null ],
+    [ "Karm::Serde::Serde< Karm::App::Key >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1App_1_1Key_01_4.html", null ],
+    [ "Karm::Serde::Serde< Karm::App::KeyMod >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1App_1_1KeyMod_01_4.html", null ],
+    [ "Karm::Serde::Serde< Karm::App::MouseButton >", "structKarm_1_1Serde_1_1Serde_3_01Karm_1_1App_1_1MouseButton_01_4.html", null ],
     [ "KEY", "inputs_8cpp.html#acc17c5bacfc45a19ad1136fcd974a0cf", null ],
     [ "KEY", "inputs_8cpp.html#acc17c5bacfc45a19ad1136fcd974a0cf", null ],
     [ "KeyMod", "inputs_8cpp.html#ad07c9914f5689fc3c0360845e694c5d1", [

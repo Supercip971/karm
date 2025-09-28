@@ -12,6 +12,8 @@ var serde_8cpp =
     [ "Karm::Serde::Serde< Res< V, E > >", "structKarm_1_1Serde_1_1Serde_3_01Res_3_01V_00_01E_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Union< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Union_3_01Ts_8_8_8_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< T >", "structKarm_1_1Serde_1_1Serde_3_01T_01_4.html", null ],
+    [ "Karm::Serde::Serde< Distinct< T, Tag > >", "structKarm_1_1Serde_1_1Serde_3_01Distinct_3_01T_00_01Tag_01_4_01_4.html", "structKarm_1_1Serde_1_1Serde_3_01Distinct_3_01T_00_01Tag_01_4_01_4" ],
+    [ "Karm::Serde::Serde< Flags< E, U > >", "structKarm_1_1Serde_1_1Serde_3_01Flags_3_01E_00_01U_01_4_01_4.html", "structKarm_1_1Serde_1_1Serde_3_01Flags_3_01E_00_01U_01_4_01_4" ],
     [ "Karm::Serde::Serde< String >", "structKarm_1_1Serde_1_1Serde_3_01String_01_4.html", null ],
     [ "Karm::Serde::Serde< Vec< u8 > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01u8_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Array< T, N > >", "structKarm_1_1Serde_1_1Serde_3_01Array_3_01T_00_01N_01_4_01_4.html", null ],
