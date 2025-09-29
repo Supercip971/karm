@@ -3,6 +3,7 @@ var structKarm_1_1Serde_1_1Type =
     [ "Kind", "structKarm_1_1Serde_1_1Type.html#a698e78d8e5325ed8a371eedee1546e0b", [
       [ "NIL", "structKarm_1_1Serde_1_1Type.html#a698e78d8e5325ed8a371eedee1546e0babc0b1e8b63f3f00318eee5aeabc14255", null ],
       [ "SOME", "structKarm_1_1Serde_1_1Type.html#a698e78d8e5325ed8a371eedee1546e0ba7c3e1ce969660271ac92e0a5796f5006", null ],
+      [ "UNIT", "structKarm_1_1Serde_1_1Type.html#a698e78d8e5325ed8a371eedee1546e0baec8fc2c42b9c76effd648a14b311411f", null ],
       [ "UNION", "structKarm_1_1Serde_1_1Type.html#a698e78d8e5325ed8a371eedee1546e0baea931da33de8ba05c3635a51c2b25d75", null ],
       [ "UNION_ITEM", "structKarm_1_1Serde_1_1Type.html#a698e78d8e5325ed8a371eedee1546e0ba4e01881bb27136b85da6a94329ab0822", null ],
       [ "ENUM", "structKarm_1_1Serde_1_1Type.html#a698e78d8e5325ed8a371eedee1546e0ba85a1979d26d0ef93dcc13a72fee80705", null ],

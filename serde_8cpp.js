@@ -20,6 +20,8 @@ var serde_8cpp =
     [ "Karm::Serde::Serde< Vec< T > >", "structKarm_1_1Serde_1_1Serde_3_01Vec_3_01T_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Map< String, T > >", "structKarm_1_1Serde_1_1Serde_3_01Map_3_01String_00_01T_01_4_01_4.html", null ],
     [ "Karm::Serde::Serde< Tuple< Ts... > >", "structKarm_1_1Serde_1_1Serde_3_01Tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Rc< T > >", "structKarm_1_1Serde_1_1Serde_3_01Rc_3_01T_01_4_01_4.html", null ],
+    [ "Karm::Serde::Serde< Box< T > >", "structKarm_1_1Serde_1_1Serde_3_01Box_3_01T_01_4_01_4.html", null ],
     [ "SizeHint", "serde_8cpp.html#a1a1b70b654ef349fd8186570ea7ca34e", [
       [ "N8", "serde_8cpp.html#a1a1b70b654ef349fd8186570ea7ca34ea7364f2afc5ceeebe184b9c484b69fa95", null ],
       [ "N16", "serde_8cpp.html#a1a1b70b654ef349fd8186570ea7ca34ea4fa31c7791286530bc73b862a2edb62b", null ],
