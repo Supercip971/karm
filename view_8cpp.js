@@ -21,7 +21,7 @@ var view_8cpp =
     [ "foregroundFilter", "view_8cpp.html#abcd1706d23255f25d51f8cb4ea87923f", null ],
     [ "icon", "view_8cpp.html#af314ae474f053de74dc0a23adc87bb97", null ],
     [ "icon", "view_8cpp.html#a6ea49219bd99a15dbcf5d34590750d20", null ],
-    [ "image", "view_8cpp.html#a6d7d86bd58d6b3eed69ec77868d47104", null ],
+    [ "image", "view_8cpp.html#a78ccb565567da5b3b375d786836c4d5f", null ],
     [ "image", "view_8cpp.html#a0315323c2b42b40d219445284de5dfe2", null ],
     [ "italicFontface", "view_8cpp.html#ac0755966c59899686422dae174a41b32", null ],
     [ "mediumFontface", "view_8cpp.html#a19dbeb8004fb715a8c072b6ade47b529", null ],

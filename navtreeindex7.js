@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"karm-core_2math_2funcs_8cpp.html#a6011eeb8678da8ae3612e6d1be20208a":[3,0,0,1,4,7,2,13],
 "karm-core_2math_2funcs_8cpp.html#a713625c1a586df921d2e3cc79e8a990b":[3,0,0,1,4,7,2,0],
 "karm-core_2math_2funcs_8cpp.html#a713625c1a586df921d2e3cc79e8a990ba8a0b98c98e6b7cdd9f0b18c45c7feee9":[3,0,0,1,4,7,2,0,0],
 "karm-core_2math_2funcs_8cpp.html#a713625c1a586df921d2e3cc79e8a990babc639a3e2d8ecbfa97cd691276c7ba5b":[3,0,0,1,4,7,2,0,1],
@@ -116,13 +117,13 @@ var NAVTREEINDEX7 =
 "karm-http_2mod_8cpp.html#ae4e6389ba964884ff5221427019b2efc":[3,0,0,1,11,6,0],
 "karm-http_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,11,6,1],
 "karm-image_2base_2loader_8cpp.html":[3,0,0,1,12,0,0],
+"karm-image_2base_2loader_8cpp.html#a072cfe6a7ae8ca3d6b7816cec8b73cac":[3,0,0,1,12,0,0,1],
 "karm-image_2base_2loader_8cpp.html#a37503819ab26c63c3b3cb63014b131fb":[3,0,0,1,12,0,0,3],
 "karm-image_2base_2loader_8cpp.html#a3974c0216d383a8ee20f65600aacb6c5":[3,0,0,1,12,0,0,6],
-"karm-image_2base_2loader_8cpp.html#a826733cb8479da80b0b57c1e795a8144":[3,0,0,1,12,0,0,2],
-"karm-image_2base_2loader_8cpp.html#a8b536e9bdec793f44d38c56007c4584a":[3,0,0,1,12,0,0,0],
+"karm-image_2base_2loader_8cpp.html#a561faa1420d25a774154654c6f15c257":[3,0,0,1,12,0,0,0],
 "karm-image_2base_2loader_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6":[3,0,0,1,12,0,0,4],
+"karm-image_2base_2loader_8cpp.html#a9bf53a9158fdfaac1c3557ed12fc242e":[3,0,0,1,12,0,0,2],
 "karm-image_2base_2loader_8cpp.html#add789519f7f2dc7d37718eab411af552":[3,0,0,1,12,0,0,5],
-"karm-image_2base_2loader_8cpp.html#ae6bc10618dd91f246bb8e5a25d97c110":[3,0,0,1,12,0,0,1],
 "karm-image_2jpeg_2base_8cpp.html":[3,0,0,1,12,3,0],
 "karm-image_2jpeg_2base_8cpp.html#a1d6fa3fcf6e3d7588388bd2976f91a92":[3,0,0,1,12,3,0,8],
 "karm-image_2jpeg_2base_8cpp.html#a2a10acbacf70c756d04d48308c9cc9a2":[3,0,0,1,12,3,0,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "karm-kira_2mod_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c":[3,0,0,1,13,12,1],
 "karm-kira_2mod_8cpp.html#af8fc3c87dce3748025ecd79b23759d65":[3,0,0,1,13,12,2],
 "karm-kira_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d":[3,0,0,1,13,12,0],
-"karm-kv_2cli_2main_8cpp.html":[3,0,0,1,14,0,0],
-"karm-kv_2cli_2main_8cpp.html#a71e331d9fca12051621c608fdc699f3e":[3,0,0,1,14,0,0,0]
+"karm-kv_2cli_2main_8cpp.html":[3,0,0,1,14,0,0]
 };

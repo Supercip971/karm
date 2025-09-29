@@ -236,7 +236,6 @@ var annotated_dup =
           [ "Decoder", "structKarm_1_1Image_1_1Tga_1_1Decoder.html", "structKarm_1_1Image_1_1Tga_1_1Decoder" ],
           [ "Header", "structKarm_1_1Image_1_1Tga_1_1Header.html", "structKarm_1_1Image_1_1Tga_1_1Header" ]
         ] ],
-        [ "Picture", "structKarm_1_1Image_1_1Picture.html", "structKarm_1_1Image_1_1Picture" ],
         [ "Saver", "structKarm_1_1Image_1_1Saver.html", "structKarm_1_1Image_1_1Saver" ]
       ] ],
       [ "Io", "namespaceKarm_1_1Io.html", [

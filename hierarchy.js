@@ -740,7 +740,6 @@ var hierarchy =
     [ "Karm::Ref::Path", "structKarm_1_1Ref_1_1Path.html", null ],
     [ "Karm::Av::Wav::PcmFormat", "structKarm_1_1Av_1_1Wav_1_1PcmFormat.html", null ],
     [ "Karm::Print::PdfPage", "structKarm_1_1Print_1_1PdfPage.html", null ],
-    [ "Karm::Image::Picture", "structKarm_1_1Image_1_1Picture.html", null ],
     [ "Karm::Meta::Pinned", "structKarm_1_1Meta_1_1Pinned.html", [
       [ "Karm::LlItem< Karm::Async::State::Listener >", "structKarm_1_1LlItem.html", null ],
       [ "Karm::LlItem< Karm::List::Item >", "structKarm_1_1LlItem.html", null ],
