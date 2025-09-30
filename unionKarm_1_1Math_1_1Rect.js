@@ -42,6 +42,7 @@ var unionKarm_1_1Math_1_1Rect =
     [ "operator[]", "unionKarm_1_1Math_1_1Rect.html#aea56efe6626612b8ef3b01f970c7d5fc", null ],
     [ "repr", "unionKarm_1_1Math_1_1Rect.html#a46fedea682fe75537da2f6afcbfa18f4", null ],
     [ "round", "unionKarm_1_1Math_1_1Rect.html#a66145e3ccd26c1ccefba754bf4c19d67", null ],
+    [ "serialize", "unionKarm_1_1Math_1_1Rect.html#a6dd74b15bf890118bc4b234c8951d997", null ],
     [ "shrink", "unionKarm_1_1Math_1_1Rect.html#a62fee21deb5fc459ef4c67228b7cc51d", null ],
     [ "size", "unionKarm_1_1Math_1_1Rect.html#a3f52fa732619f885a1685a112ae3ec30", null ],
     [ "start", "unionKarm_1_1Math_1_1Rect.html#a88ba129b2d922f71e0da76f509fbc20a", null ],
