@@ -76,19 +76,18 @@ var searchData=
   ['test_2dvec_2ecpp_73',['test-vec.cpp',['../test-vec_8cpp.html',1,'']]],
   ['test_2dzlib_2ecpp_74',['test-zlib.cpp',['../test-zlib_8cpp.html',1,'']]],
   ['test_2eh_75',['test.h',['../test_8h.html',1,'']]],
-  ['text_2ecpp_76',['text.cpp',['../karm-ui_2text_8cpp.html',1,'(Global Namespace)'],['../karm-scene_2text_8cpp.html',1,'(Global Namespace)'],['../karm-core_2io_2text_8cpp.html',1,'(Global Namespace)']]],
+  ['text_2ecpp_76',['text.cpp',['../karm-core_2io_2text_8cpp.html',1,'(Global Namespace)'],['../karm-scene_2text_8cpp.html',1,'(Global Namespace)'],['../karm-ui_2text_8cpp.html',1,'(Global Namespace)']]],
   ['time_2ecpp_77',['time.cpp',['../karm-sys_2time_8cpp.html',1,'(Global Namespace)'],['../karm-core_2base_2time_8cpp.html',1,'(Global Namespace)']]],
   ['titlebar_2ecpp_78',['titlebar.cpp',['../titlebar_8cpp.html',1,'']]],
   ['tls_2eh_79',['tls.h',['../tls_8h.html',1,'']]],
   ['toggle_2ecpp_80',['toggle.cpp',['../toggle_8cpp.html',1,'']]],
   ['toolbar_2ecpp_81',['toolbar.cpp',['../toolbar_8cpp.html',1,'']]],
-  ['traits_2ecpp_82',['traits.cpp',['../aio_2traits_8cpp.html',1,'(Global Namespace)'],['../io_2traits_8cpp.html',1,'(Global Namespace)'],['../meta_2traits_8cpp.html',1,'(Global Namespace)']]],
+  ['traits_2ecpp_82',['traits.cpp',['../meta_2traits_8cpp.html',1,'(Global Namespace)'],['../io_2traits_8cpp.html',1,'(Global Namespace)'],['../aio_2traits_8cpp.html',1,'(Global Namespace)']]],
   ['trans_2eh_83',['trans.h',['../trans_8h.html',1,'']]],
   ['transform_2ecpp_84',['transform.cpp',['../transform_8cpp.html',1,'']]],
   ['transport_2ecpp_85',['transport.cpp',['../transport_8cpp.html',1,'']]],
   ['tri_2eh_86',['tri.h',['../tri_8h.html',1,'']]],
   ['try_2ecpp_87',['try.cpp',['../try_8cpp.html',1,'']]],
   ['tuple_2ecpp_88',['tuple.cpp',['../tuple_8cpp.html',1,'']]],
-  ['types_2ecpp_89',['types.cpp',['../karm-core_2io_2types_8cpp.html',1,'(Global Namespace)'],['../karm-sys_2types_8cpp.html',1,'(Global Namespace)']]],
-  ['types_2eh_90',['types.h',['../types_8h.html',1,'']]]
+  ['types_2ecpp_89',['types.cpp',['../karm-core_2io_2types_8cpp.html',1,'(Global Namespace)'],['../karm-sys_2types_8cpp.html',1,'(Global Namespace)']]]
 ];

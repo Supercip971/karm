@@ -10,7 +10,6 @@ var dir_a74713df2ded80450a347318abff1d42 =
     [ "easing.h", "easing_8h.html", "easing_8h" ],
     [ "edge.h", "edge_8h.html", "edge_8h" ],
     [ "ellipse.h", "ellipse_8h.html", "ellipse_8h" ],
-    [ "expr.cpp", "karm-math_2expr_8cpp.html", null ],
     [ "expr.h", "expr_8h.html", "expr_8h" ],
     [ "fixed.h", "fixed_8h.html", "fixed_8h" ],
     [ "flow.h", "flow_8h.html", "flow_8h" ],

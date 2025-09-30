@@ -99,14 +99,19 @@ $(document).ready(function(){initNavTree('stroke_8cpp.html',''); initResizable()
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">stroke.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="stroke_8h_source.html">stroke.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="path_8h_source.html">karm-math/path.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="poly_8h_source.html">karm-math/poly.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Karm::Gfx::Stroke</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Cap.html">Karm::Gfx::Cap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -117,13 +122,69 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceKarm_1_1Gfx"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html">Karm::Gfx</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ab7417258048b0992fff9c65f5867c991"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991">Karm::Gfx::StrokeAlign</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991adcf988bd5f1739e169778dc130ffb8d8">Karm::Gfx::CENTER_ALIGN</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991ac76ec43bab354fd44e25c648648ad6d9">Karm::Gfx::INSIDE_ALIGN</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#ab7417258048b0992fff9c65f5867c991a8d7f446d95a80c25cf69eced85a571be">Karm::Gfx::OUTSIDE_ALIGN</a>
+ }</td></tr>
+<tr class="separator:ab7417258048b0992fff9c65f5867c991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d5f1e6776ae49b29d3fd7fced4ba2a6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a8d5f1e6776ae49b29d3fd7fced4ba2a6">Karm::Gfx::StrokeCap</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#a8d5f1e6776ae49b29d3fd7fced4ba2a6a87a38267525ed6e520ac05639ac3d682">Karm::Gfx::BUTT_CAP</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a8d5f1e6776ae49b29d3fd7fced4ba2a6a6fc987f5b3fb6bbe6daf3542cc420c62">Karm::Gfx::SQUARE_CAP</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a8d5f1e6776ae49b29d3fd7fced4ba2a6a33a42fccb901597325a8da2524a25bb1">Karm::Gfx::ROUND_CAP</a>
+ }</td></tr>
+<tr class="separator:a8d5f1e6776ae49b29d3fd7fced4ba2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5827d24ebac75e2f39962ef53e2f0442"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442">Karm::Gfx::StrokeJoin</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442a6f4e498e669decaf97c7bfb5accd38db">Karm::Gfx::BEVEL_JOIN</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442afba79aa6e32522f3933c83c5d7d39aac">Karm::Gfx::MITER_JOIN</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442aab87748bcf6dc2ed2eac70abb9d90bba">Karm::Gfx::ROUND_JOIN</a>
+ }</td></tr>
+<tr class="separator:a5827d24ebac75e2f39962ef53e2f0442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7ba5f23b69bd01a7c9f570dea45cc35c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a7ba5f23b69bd01a7c9f570dea45cc35c">Karm::Gfx::createStroke</a> (Math::Polyf &amp;poly, Math::Path const &amp;path, Stroke stroke)</td></tr>
-<tr class="separator:a7ba5f23b69bd01a7c9f570dea45cc35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab963778dfeb2b245fa6c13f25d9c9a42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ab963778dfeb2b245fa6c13f25d9c9a42">Karm::Gfx::createSolid</a> (Math::Polyf &amp;poly, Math::Path const &amp;path)</td></tr>
-<tr class="separator:ab963778dfeb2b245fa6c13f25d9c9a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c9201ee75bd996fd17fbda0ccaa8abf"><td class="memItemLeft" align="right" valign="top">export Stroke&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a4c9201ee75bd996fd17fbda0ccaa8abf">Karm::Gfx::stroke</a> (auto... args)</td></tr>
+<tr class="separator:a4c9201ee75bd996fd17fbda0ccaa8abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a402345518625ddfd901f8d976dfa3"><td class="memItemLeft" align="right" valign="top">export void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ab5a402345518625ddfd901f8d976dfa3">Karm::Gfx::createStroke</a> (Math::Polyf &amp;poly, Math::Path const &amp;path, Stroke stroke)</td></tr>
+<tr class="separator:ab5a402345518625ddfd901f8d976dfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad0f302e9543abf22103b08f68503f3"><td class="memItemLeft" align="right" valign="top">export void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a1ad0f302e9543abf22103b08f68503f3">Karm::Gfx::createSolid</a> (Math::Polyf &amp;poly, Math::Path const &amp;path)</td></tr>
+<tr class="separator:a1ad0f302e9543abf22103b08f68503f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stroke_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83841fb03aad2d756d79eeb2ac6e98f"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2epoll_2async_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stroke_8cpp.html#af83841fb03aad2d756d79eeb2ac6e98f">Gfx</a></td></tr>
+<tr class="separator:af83841fb03aad2d756d79eeb2ac6e98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="af83841fb03aad2d756d79eeb2ac6e98f" name="af83841fb03aad2d756d79eeb2ac6e98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af83841fb03aad2d756d79eeb2ac6e98f">&#9670;&#160;</a></span>Gfx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="impls_2impl-posix_2epoll_2async_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Gfx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

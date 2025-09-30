@@ -104,11 +104,20 @@ $(document).ready(function(){initNavTree('color_8cpp.html',''); initResizable();
   <div class="headertitle"><div class="title">color.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="color_8h_source.html">color.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="karm-core_2macros_8h_source.html">karm-core/macros.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="vec_8h_source.html">karm-math/vec.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Karm::Gfx::Color</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1HueValueChroma.html">Karm::Gfx::HueValueChroma</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Karm::Gfx::Hsv</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Karm::Gfx::Hsl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1YCbCr.html">Karm::Gfx::YCbCr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -120,17 +129,25 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a11b2b9b477b7c0df121abe78e38880fb"><td class="memItemLeft" align="right" valign="top">Hsv&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a11b2b9b477b7c0df121abe78e38880fb">Karm::Gfx::rgbToHsv</a> (Color color)</td></tr>
-<tr class="separator:a11b2b9b477b7c0df121abe78e38880fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d83483be32e39c8c4e2fbf53c81e5f"><td class="memItemLeft" align="right" valign="top">Hsl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a67d83483be32e39c8c4e2fbf53c81e5f">Karm::Gfx::rgbToHsl</a> (Color color)</td></tr>
-<tr class="separator:a67d83483be32e39c8c4e2fbf53c81e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae53da8353449ca40a5bad1378f605a67"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ae53da8353449ca40a5bad1378f605a67">Karm::Gfx::hsvToRgb</a> (Hsv hsv)</td></tr>
-<tr class="separator:ae53da8353449ca40a5bad1378f605a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06650150b3b76b75f3165529e35199f"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#aa06650150b3b76b75f3165529e35199f">Karm::Gfx::hslToRgb</a> (Hsl hsl)</td></tr>
-<tr class="separator:aa06650150b3b76b75f3165529e35199f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad01e2c47c0e412327422575b8c3a8010"><td class="memItemLeft" align="right" valign="top">export Hsv&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ad01e2c47c0e412327422575b8c3a8010">Karm::Gfx::rgbToHsv</a> (Color color)</td></tr>
+<tr class="separator:ad01e2c47c0e412327422575b8c3a8010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bb4c8e5471dc9eae515f392da4f565"><td class="memItemLeft" align="right" valign="top">export Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a89bb4c8e5471dc9eae515f392da4f565">Karm::Gfx::hsvToRgb</a> (Hsv hsv)</td></tr>
+<tr class="separator:a89bb4c8e5471dc9eae515f392da4f565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e80e4a66b10517b8780ca203016206e"><td class="memItemLeft" align="right" valign="top">export Hsl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a5e80e4a66b10517b8780ca203016206e">Karm::Gfx::rgbToHsl</a> (Color color)</td></tr>
+<tr class="separator:a5e80e4a66b10517b8780ca203016206e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196d6d35ff1fc8478370c8a2ee650320"><td class="memItemLeft" align="right" valign="top">export Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a196d6d35ff1fc8478370c8a2ee650320">Karm::Gfx::hslToRgb</a> (Hsl hsl)</td></tr>
+<tr class="separator:a196d6d35ff1fc8478370c8a2ee650320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26fc3125302c3d8fa5235eb8bc7b379"><td class="memItemLeft" align="right" valign="top">export YCbCr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ae26fc3125302c3d8fa5235eb8bc7b379">Karm::Gfx::rgbToYCbCr</a> (Color color)</td></tr>
+<tr class="separator:ae26fc3125302c3d8fa5235eb8bc7b379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a46539af20e403c932fc217aa538be7"><td class="memItemLeft" align="right" valign="top">export Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a8a46539af20e403c932fc217aa538be7">Karm::Gfx::yCbCrToRgb</a> (YCbCr yCbCr)</td></tr>
+<tr class="separator:a8a46539af20e403c932fc217aa538be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="color_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83841fb03aad2d756d79eeb2ac6e98f"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2epoll_2async_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="color_8cpp.html#af83841fb03aad2d756d79eeb2ac6e98f">Gfx</a></td></tr>
+<tr class="separator:af83841fb03aad2d756d79eeb2ac6e98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="color_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
 <tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -143,6 +160,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af83841fb03aad2d756d79eeb2ac6e98f" name="af83841fb03aad2d756d79eeb2ac6e98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af83841fb03aad2d756d79eeb2ac6e98f">&#9670;&#160;</a></span>Gfx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="impls_2impl-posix_2epoll_2async_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Gfx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -16,8 +16,6 @@ var structKarm_1_1Gfx_1_1Prose =
     [ "layout", "structKarm_1_1Gfx_1_1Prose.html#ae7c63d612d872bdab172659a76cda054", null ],
     [ "lbcAt", "structKarm_1_1Gfx_1_1Prose.html#a9993e0893e8ec3bca72eeeb905d71b0c", null ],
     [ "overrideSpanStackWith", "structKarm_1_1Gfx_1_1Prose.html#a7b5a95ab56c1e18693587cff9edf747f", null ],
-    [ "paintCaret", "structKarm_1_1Gfx_1_1Prose.html#a0b09448895320f177696293f63c92195", null ],
-    [ "paintSelection", "structKarm_1_1Gfx_1_1Prose.html#a98f25740e175fc2ab391207fb532171f", null ],
     [ "popSpan", "structKarm_1_1Gfx_1_1Prose.html#adc9582d707383f28204ab54e933cf2da", null ],
     [ "pushSpan", "structKarm_1_1Gfx_1_1Prose.html#a9f7e96b098507348f10df1229a12f105", null ],
     [ "queryPosition", "structKarm_1_1Gfx_1_1Prose.html#a5400310298be2940535c24477f497fa6", null ],

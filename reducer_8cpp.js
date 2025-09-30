@@ -10,6 +10,7 @@ var reducer_8cpp =
     [ "state", "reducer_8cpp.html#a893df23917c29e244dc35e7980da977a", null ],
     [ "App", "reducer_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
     [ "Core", "reducer_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Gfx", "reducer_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "module", "reducer_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "reducer_8cpp.html#a6b10d166640a82762e7ff7e7eea7c78c", null ]
 ];

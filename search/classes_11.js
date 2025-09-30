@@ -65,7 +65,7 @@ var searchData=
   ['socketaddr_62',['SocketAddr',['../structKarm_1_1Sys_1_1SocketAddr.html',1,'Karm::Sys']]],
   ['span_63',['Span',['../structKarm_1_1Gfx_1_1Prose_1_1Span.html',1,'Karm::Gfx::Prose']]],
   ['stack_64',['Stack',['../structKarm_1_1Scene_1_1Stack.html',1,'Karm::Scene']]],
-  ['stackblur_65',['StackBlur',['../structKarm_1_1Gfx_1_1StackBlur.html',1,'Karm::Gfx']]],
+  ['stackblur_65',['StackBlur',['../structKarm_1_1Gfx_1_1BlurFilter_1_1StackBlur.html',1,'Karm::Gfx::BlurFilter']]],
   ['stacklayout_66',['StackLayout',['../structKarm_1_1Ui_1_1StackLayout.html',1,'Karm::Ui']]],
   ['stat_67',['Stat',['../structKarm_1_1Sys_1_1Stat.html',1,'Karm::Sys']]],
   ['state_68',['State',['../structKarm_1_1Async_1_1State.html',1,'Karm::Async::State&lt; T &gt;'],['../structKarm_1_1Gfx_1_1SvgCanvas_1_1State.html',1,'Karm::Gfx::SvgCanvas::State'],['../structKarm_1_1Kira_1_1Scaffold_1_1State.html',1,'Karm::Kira::Scaffold::State'],['../structKarm_1_1Kira_1_1State.html',1,'Karm::Kira::State']]],

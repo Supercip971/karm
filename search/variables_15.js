@@ -7,11 +7,12 @@ var searchData=
   ['vcenter_4',['VCENTER',['../structKarm_1_1Math_1_1Align.html#a7877be378d1ae97631e020a018a033d5',1,'Karm::Math::Align']]],
   ['vclamp_5',['VCLAMP',['../structKarm_1_1Math_1_1Align.html#a914e5bff60899e2c029df8e13961ff3f',1,'Karm::Math::Align']]],
   ['vendor_6',['vendor',['../structKarm_1_1Sys_1_1CpuInfo.html#a3217f3eec7bdd6a3aa9acd4a4fc78909',1,'Karm::Sys::CpuInfo']]],
-  ['version_7',['version',['../structKarm_1_1Http_1_1Request.html#a6e9db5af6619be2d471a0f706b83e45c',1,'Karm::Http::Request::version()'],['../structKarm_1_1Http_1_1Response.html#a923467396b42b47fd415de9360488ffe',1,'Karm::Http::Response::version()'],['../structKarm_1_1Ml_1_1Gguf_1_1Header.html#a176ab34e27220e921749949ec80c7421',1,'Karm::Ml::Gguf::Header::version()']]],
+  ['version_7',['version',['../structKarm_1_1Http_1_1Request.html#a6e9db5af6619be2d471a0f706b83e45c',1,'Karm::Http::Request::version()'],['../structKarm_1_1Ml_1_1Gguf_1_1Header.html#a176ab34e27220e921749949ec80c7421',1,'Karm::Ml::Gguf::Header::version()'],['../structKarm_1_1Http_1_1Response.html#a923467396b42b47fd415de9360488ffe',1,'Karm::Http::Response::version()']]],
   ['vfactor_8',['vFactor',['../structKarm_1_1Image_1_1Jpeg_1_1Decoder_1_1Component.html#ab12f676200977082e3619d4e8e4c0530',1,'Karm::Image::Jpeg::Decoder::Component']]],
   ['vfill_9',['VFILL',['../structKarm_1_1Math_1_1Align.html#aec3a3dd7a795c421304b618b3c567ff4',1,'Karm::Math::Align']]],
   ['virtualtotal_10',['virtualTotal',['../structKarm_1_1Sys_1_1MemInfo.html#a77aadad19a6534b5c9550d8d8c69319e',1,'Karm::Sys::MemInfo']]],
   ['virtualused_11',['virtualUsed',['../structKarm_1_1Sys_1_1MemInfo.html#a323f6befa33d7d7cee8811982d57762f',1,'Karm::Sys::MemInfo']]],
   ['visited_12',['visited',['../structKarm_1_1Sieve_1_1Item.html#ad277099715d4247f7f71730d770ed4a6',1,'Karm::Sieve::Item']]],
-  ['vstretch_13',['VSTRETCH',['../structKarm_1_1Math_1_1Align.html#aab779512058f005e7f8afdd09a258a1d',1,'Karm::Math::Align']]]
+  ['vrgb_13',['VRGB',['../namespaceKarm_1_1Gfx.html#a6e6c88b7cd07beed24de62930e81edc8',1,'Karm::Gfx']]],
+  ['vstretch_14',['VSTRETCH',['../structKarm_1_1Math_1_1Align.html#aab779512058f005e7f8afdd09a258a1d',1,'Karm::Math::Align']]]
 ];

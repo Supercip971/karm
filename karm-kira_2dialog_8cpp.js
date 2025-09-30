@@ -11,6 +11,7 @@ var karm_kira_2dialog_8cpp =
     [ "dialogTitle", "karm-kira_2dialog_8cpp.html#abcabf61eb880de361e548aa338bb080a", null ],
     [ "dialogTitleBar", "karm-kira_2dialog_8cpp.html#aacdadde2871ea211d4c739d36a9594fc", null ],
     [ "App", "karm-kira_2dialog_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
+    [ "Gfx", "karm-kira_2dialog_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Kira", "karm-kira_2dialog_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c", null ],
     [ "Mdi", "karm-kira_2dialog_8cpp.html#a83454f23b85047627e4256d3d754eedf", null ],
     [ "module", "karm-kira_2dialog_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],

@@ -183,7 +183,6 @@ var annotated_dup =
         [ "Rgba8888", "structKarm_1_1Gfx_1_1Rgba8888.html", null ],
         [ "SaturationFilter", "structKarm_1_1Gfx_1_1SaturationFilter.html", "structKarm_1_1Gfx_1_1SaturationFilter" ],
         [ "SepiaFilter", "structKarm_1_1Gfx_1_1SepiaFilter.html", "structKarm_1_1Gfx_1_1SepiaFilter" ],
-        [ "StackBlur", "structKarm_1_1Gfx_1_1StackBlur.html", "structKarm_1_1Gfx_1_1StackBlur" ],
         [ "Stroke", "structKarm_1_1Gfx_1_1Stroke.html", "structKarm_1_1Gfx_1_1Stroke" ],
         [ "Surface", "structKarm_1_1Gfx_1_1Surface.html", "structKarm_1_1Gfx_1_1Surface" ],
         [ "SvgCanvas", "structKarm_1_1Gfx_1_1SvgCanvas.html", "structKarm_1_1Gfx_1_1SvgCanvas" ],

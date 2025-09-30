@@ -898,7 +898,7 @@ var hierarchy =
     [ "Karm::Set< T >::Slot", "structKarm_1_1Set_1_1Slot.html", null ],
     [ "Karm::Sys::SocketAddr", "structKarm_1_1Sys_1_1SocketAddr.html", null ],
     [ "Karm::Gfx::Prose::Span", "structKarm_1_1Gfx_1_1Prose_1_1Span.html", null ],
-    [ "Karm::Gfx::StackBlur", "structKarm_1_1Gfx_1_1StackBlur.html", null ],
+    [ "Karm::Gfx::BlurFilter::StackBlur", "structKarm_1_1Gfx_1_1BlurFilter_1_1StackBlur.html", null ],
     [ "Karm::Sys::Stat", "structKarm_1_1Sys_1_1Stat.html", null ],
     [ "Karm::Async::State< T >", "structKarm_1_1Async_1_1State.html", null ],
     [ "Karm::Gfx::SvgCanvas::State", "structKarm_1_1Gfx_1_1SvgCanvas_1_1State.html", null ],

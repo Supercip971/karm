@@ -6,8 +6,8 @@ var side_nav_8cpp =
     [ "sidenavTitle", "side-nav_8cpp.html#abd567dedc2455a941092dc216c2b1101", null ],
     [ "sidenavTree", "side-nav_8cpp.html#a0825e1cedbe4454948d84ff8fe7a6915", null ],
     [ "Core", "side-nav_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Gfx", "side-nav_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Kira", "side-nav_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c", null ],
     [ "Mdi", "side-nav_8cpp.html#a83454f23b85047627e4256d3d754eedf", null ],
-    [ "module", "side-nav_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "side-nav_8cpp.html#a917118c8afda280449cdf1aebad1a7f8", null ]
 ];

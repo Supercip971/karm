@@ -33,6 +33,7 @@ var view_8cpp =
     [ "text", "view_8cpp.html#a259f8f838ae4e2491a8a7d30393332f5", null ],
     [ "Core", "view_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Font", "view_8cpp.html#a4a38174846fad5054549e99b3664d91b", null ],
+    [ "Gfx", "view_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Image", "view_8cpp.html#a1bad3c590a133e3484b11be311494dae", null ],
     [ "module", "view_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ref", "view_8cpp.html#add789519f7f2dc7d37718eab411af552", null ],

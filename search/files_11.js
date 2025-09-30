@@ -12,7 +12,7 @@ var searchData=
   ['server_2ecpp_9',['server.cpp',['../server_8cpp.html',1,'']]],
   ['set_2ecpp_10',['set.cpp',['../set_8cpp.html',1,'']]],
   ['sha2_2ecpp_11',['sha2.cpp',['../sha2_8cpp.html',1,'']]],
-  ['shadow_2eh_12',['shadow.h',['../shadow_8h.html',1,'']]],
+  ['shadow_2ecpp_12',['shadow.cpp',['../shadow_8cpp.html',1,'']]],
   ['shape_2ecpp_13',['shape.cpp',['../shape_8cpp.html',1,'']]],
   ['side_2dnav_2ecpp_14',['side-nav.cpp',['../side-nav_8cpp.html',1,'']]],
   ['side_2dpanel_2ecpp_15',['side-panel.cpp',['../side-panel_8cpp.html',1,'']]],
@@ -32,8 +32,7 @@ var searchData=
   ['store_2ecpp_29',['store.cpp',['../store_8cpp.html',1,'']]],
   ['string_2ecpp_30',['string.cpp',['../string_8cpp.html',1,'']]],
   ['stroke_2ecpp_31',['stroke.cpp',['../stroke_8cpp.html',1,'']]],
-  ['stroke_2eh_32',['stroke.h',['../stroke_8h.html',1,'']]],
-  ['style_2ecpp_33',['style.cpp',['../style_8cpp.html',1,'']]],
-  ['symbol_2ecpp_34',['symbol.cpp',['../symbol_8cpp.html',1,'']]],
-  ['sys_2ecpp_35',['sys.cpp',['../sys_8cpp.html',1,'']]]
+  ['style_2ecpp_32',['style.cpp',['../style_8cpp.html',1,'']]],
+  ['symbol_2ecpp_33',['symbol.cpp',['../symbol_8cpp.html',1,'']]],
+  ['sys_2ecpp_34',['sys.cpp',['../sys_8cpp.html',1,'']]]
 ];

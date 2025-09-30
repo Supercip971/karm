@@ -10,6 +10,8 @@ var badge_8cpp =
     [ "badge", "badge_8cpp.html#a604925887fa7e57980bc2ef12117fc62", null ],
     [ "badge", "badge_8cpp.html#a8d5bfd9fbe5d0cb9002e2ea51caf9ead", null ],
     [ "versionBadge", "badge_8cpp.html#a2690d239df3270de8dc6c0cae7e9870a", null ],
+    [ "Core", "badge_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Gfx", "badge_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Kira", "badge_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c", null ],
     [ "module", "badge_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "badge_8cpp.html#a917118c8afda280449cdf1aebad1a7f8", null ]

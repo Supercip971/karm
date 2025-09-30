@@ -19,6 +19,7 @@ var color_input_8cpp =
     [ "pickColor", "color-input_8cpp.html#a67c093bae2836630f10ded40c452c94f", null ],
     [ "reduce", "color-input_8cpp.html#a68360c2e2589451e646403a9783c5497", null ],
     [ "App", "color-input_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
+    [ "Gfx", "color-input_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Kira", "color-input_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c", null ],
     [ "module", "color-input_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "color-input_8cpp.html#a917118c8afda280449cdf1aebad1a7f8", null ]

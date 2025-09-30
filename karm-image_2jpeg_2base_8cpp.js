@@ -78,6 +78,7 @@ var karm_image_2jpeg_2base_8cpp =
     [ "mcuWidth", "karm-image_2jpeg_2base_8cpp.html#aa665f36103e4e31cdab5dcacbc5d163d", null ],
     [ "quantize", "karm-image_2jpeg_2base_8cpp.html#aca0809dc4035820dcdbeac3a4a451324", null ],
     [ "Core", "karm-image_2jpeg_2base_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
+    [ "Gfx", "karm-image_2jpeg_2base_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Image", "karm-image_2jpeg_2base_8cpp.html#a37503819ab26c63c3b3cb63014b131fb", null ],
     [ "module", "karm-image_2jpeg_2base_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "ZIGZAG", "karm-image_2jpeg_2base_8cpp.html#a2a10acbacf70c756d04d48308c9cc9a2", null ]

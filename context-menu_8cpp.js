@@ -9,6 +9,7 @@ var context_menu_8cpp =
     [ "contextMenuIcon", "context-menu_8cpp.html#af9b6f463db822ba0c55a77c7af9f36f7", null ],
     [ "contextMenuItem", "context-menu_8cpp.html#aaf5981f649bb0d5efb69ba73067a6c6a", null ],
     [ "App", "context-menu_8cpp.html#ab217fce9727b55e386bc7eab0ed28441", null ],
+    [ "Gfx", "context-menu_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Kira", "context-menu_8cpp.html#ae3a77a54ec8becc4a6fdc9a94a28333c", null ],
     [ "module", "context-menu_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Ui", "context-menu_8cpp.html#a917118c8afda280449cdf1aebad1a7f8", null ]

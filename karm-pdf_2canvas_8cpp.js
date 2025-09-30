@@ -5,6 +5,7 @@ var karm_pdf_2canvas_8cpp =
     [ "Karm::Pdf::Canvas", "structKarm_1_1Pdf_1_1Canvas.html", "structKarm_1_1Pdf_1_1Canvas" ],
     [ "Core", "karm-pdf_2canvas_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Debug", "karm-pdf_2canvas_8cpp.html#ae9c22628d1cefdb9b7dc5262029cb360", null ],
+    [ "Gfx", "karm-pdf_2canvas_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "module", "karm-pdf_2canvas_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ],
     [ "Pdf", "karm-pdf_2canvas_8cpp.html#afdf7704aaf7c74d468d03af339982fb2", null ]
 ];

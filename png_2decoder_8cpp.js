@@ -33,6 +33,7 @@ var png_2decoder_8cpp =
     [ "Archive", "png_2decoder_8cpp.html#a7a16d3a0c44778f9350fd8d4acf88fc1", null ],
     [ "Core", "png_2decoder_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5", null ],
     [ "Debug", "png_2decoder_8cpp.html#ae9c22628d1cefdb9b7dc5262029cb360", null ],
+    [ "Gfx", "png_2decoder_8cpp.html#a7c0089b00689a79148a84c5b7fe95679", null ],
     [ "Image", "png_2decoder_8cpp.html#a37503819ab26c63c3b3cb63014b131fb", null ],
     [ "module", "png_2decoder_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6", null ]
 ];

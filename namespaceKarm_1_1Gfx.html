@@ -102,7 +102,8 @@ $(document).ready(function(){initNavTree('namespaceKarm_1_1Gfx.html',''); initRe
 <a href="#concepts">Concepts</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Karm::Gfx Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -196,8 +197,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1SepiaFilter.html">SepiaFilter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1StackBlur.html">StackBlur</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Stroke</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Surface.html">Surface</a></td></tr>
@@ -246,6 +245,10 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a65f2c46530a861de605f2103cb12a3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73160514b37fa34caf7e34f1d3da6b29"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29">FillRule</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29af215f3b40377be8fd6199db406216e35">NONZERO</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29a8812e6916764c080e8061a9f1ca382de">EVENODD</a>
+ }</td></tr>
+<tr class="separator:a73160514b37fa34caf7e34f1d3da6b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1535430f415c827187717e6cae14c482"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482">FontStyle</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a1e23852820b9154316c7c06e2b7ba051">NORMAL</a>
 , <a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a08e76c6cf31341b61b0bc6c662773828">OBLIQUE</a>
 , <a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a25093123b8943308104129e1d762f3b7">ITALIC</a>
@@ -294,37 +297,62 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespaceKarm_1_1Gfx.html#a5827d24ebac75e2f39962ef53e2f0442aab87748bcf6dc2ed2eac70abb9d90bba">ROUND_JOIN</a>
  }</td></tr>
 <tr class="separator:a5827d24ebac75e2f39962ef53e2f0442"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73160514b37fa34caf7e34f1d3da6b29"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29">FillRule</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29af215f3b40377be8fd6199db406216e35">NONZERO</a>
-, <a class="el" href="namespaceKarm_1_1Gfx.html#a73160514b37fa34caf7e34f1d3da6b29a8812e6916764c080e8061a9f1ca382de">EVENODD</a>
- }</td></tr>
-<tr class="separator:a73160514b37fa34caf7e34f1d3da6b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aafc8f40c1bce01981f2923ef6b2807bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#aafc8f40c1bce01981f2923ef6b2807bb">blitUnsafe</a> (<a class="el" href="namespaceKarm_1_1Gfx.html#a06a73bd0d78227ce4f4dc8f840c55c70">MutPixels</a> dst, <a class="el" href="namespaceKarm_1_1Gfx.html#a3746a89e6f5c74cf11a399b75569b27b">Pixels</a> src)</td></tr>
-<tr class="separator:aafc8f40c1bce01981f2923ef6b2807bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11b2b9b477b7c0df121abe78e38880fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Hsv</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a11b2b9b477b7c0df121abe78e38880fb">rgbToHsv</a> (<a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)</td></tr>
-<tr class="separator:a11b2b9b477b7c0df121abe78e38880fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d83483be32e39c8c4e2fbf53c81e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Hsl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a67d83483be32e39c8c4e2fbf53c81e5f">rgbToHsl</a> (<a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)</td></tr>
-<tr class="separator:a67d83483be32e39c8c4e2fbf53c81e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae53da8353449ca40a5bad1378f605a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ae53da8353449ca40a5bad1378f605a67">hsvToRgb</a> (<a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Hsv</a> hsv)</td></tr>
-<tr class="separator:ae53da8353449ca40a5bad1378f605a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06650150b3b76b75f3165529e35199f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#aa06650150b3b76b75f3165529e35199f">hslToRgb</a> (<a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Hsl</a> hsl)</td></tr>
-<tr class="separator:aa06650150b3b76b75f3165529e35199f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28536cc55216863a6f3d6931be9071ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a28536cc55216863a6f3d6931be9071ec">randomColor</a> (<a class="el" href="structKarm_1_1Math_1_1Rand.html">Math::Rand</a> &amp;rand)</td></tr>
-<tr class="separator:a28536cc55216863a6f3d6931be9071ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf0730e28261ab45461a517b0039ae9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#adf0730e28261ab45461a517b0039ae9d">randomColor</a> ()</td></tr>
-<tr class="separator:adf0730e28261ab45461a517b0039ae9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f6284a870b57f9785d19f4038a1ef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Gfx::Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a66f6284a870b57f9785d19f4038a1ef9">rainbowColor</a> ()</td></tr>
-<tr class="separator:a66f6284a870b57f9785d19f4038a1ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a4a2ac51ffbc5b947331d35bc5d058"><td class="memItemLeft" align="right" valign="top">export void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a88a4a2ac51ffbc5b947331d35bc5d058">blitUnsafe</a> (<a class="el" href="namespaceKarm_1_1Gfx.html#a06a73bd0d78227ce4f4dc8f840c55c70">MutPixels</a> dst, <a class="el" href="namespaceKarm_1_1Gfx.html#a3746a89e6f5c74cf11a399b75569b27b">Pixels</a> src)</td></tr>
+<tr class="separator:a88a4a2ac51ffbc5b947331d35bc5d058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad01e2c47c0e412327422575b8c3a8010"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Hsv</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ad01e2c47c0e412327422575b8c3a8010">rgbToHsv</a> (<a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)</td></tr>
+<tr class="separator:ad01e2c47c0e412327422575b8c3a8010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bb4c8e5471dc9eae515f392da4f565"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a89bb4c8e5471dc9eae515f392da4f565">hsvToRgb</a> (<a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Hsv</a> hsv)</td></tr>
+<tr class="separator:a89bb4c8e5471dc9eae515f392da4f565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e80e4a66b10517b8780ca203016206e"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Hsl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a5e80e4a66b10517b8780ca203016206e">rgbToHsl</a> (<a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)</td></tr>
+<tr class="separator:a5e80e4a66b10517b8780ca203016206e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196d6d35ff1fc8478370c8a2ee650320"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a196d6d35ff1fc8478370c8a2ee650320">hslToRgb</a> (<a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Hsl</a> hsl)</td></tr>
+<tr class="separator:a196d6d35ff1fc8478370c8a2ee650320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26fc3125302c3d8fa5235eb8bc7b379"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1YCbCr.html">YCbCr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ae26fc3125302c3d8fa5235eb8bc7b379">rgbToYCbCr</a> (<a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> color)</td></tr>
+<tr class="separator:ae26fc3125302c3d8fa5235eb8bc7b379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a46539af20e403c932fc217aa538be7"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a8a46539af20e403c932fc217aa538be7">yCbCrToRgb</a> (<a class="el" href="structKarm_1_1Gfx_1_1YCbCr.html">YCbCr</a> yCbCr)</td></tr>
+<tr class="separator:a8a46539af20e403c932fc217aa538be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38fd2737a2ee267ddb89a1b7922859ff"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a38fd2737a2ee267ddb89a1b7922859ff">randomColor</a> (<a class="el" href="structKarm_1_1Math_1_1Rand.html">Math::Rand</a> &amp;rand)</td></tr>
+<tr class="separator:a38fd2737a2ee267ddb89a1b7922859ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9ff97c171ce3d9b762ddbac1b2af855"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#af9ff97c171ce3d9b762ddbac1b2af855">randomColor</a> ()</td></tr>
+<tr class="separator:af9ff97c171ce3d9b762ddbac1b2af855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a220798a6bf7e2f3d72693777dc8c0"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#aa2a220798a6bf7e2f3d72693777dc8c0">rainbowColor</a> ()</td></tr>
+<tr class="separator:aa2a220798a6bf7e2f3d72693777dc8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dbeba231c2ec1d70fb9dc642e4c2bbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1BoxShadow.html">Gfx::BoxShadow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a0dbeba231c2ec1d70fb9dc642e4c2bbb">boxShadow</a> (auto... args)</td></tr>
 <tr class="separator:a0dbeba231c2ec1d70fb9dc642e4c2bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba5f23b69bd01a7c9f570dea45cc35c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a7ba5f23b69bd01a7c9f570dea45cc35c">createStroke</a> (<a class="el" href="namespaceKarm_1_1Math.html#a426444acde4f3001dcce67b098806958">Math::Polyf</a> &amp;poly, <a class="el" href="structKarm_1_1Math_1_1Path.html">Math::Path</a> const &amp;path, <a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Stroke</a> <a class="el" href="namespaceKarm_1_1Gfx.html#ababe72af9f8a216ddab432f3d56c13c0">stroke</a>)</td></tr>
-<tr class="separator:a7ba5f23b69bd01a7c9f570dea45cc35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab963778dfeb2b245fa6c13f25d9c9a42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ab963778dfeb2b245fa6c13f25d9c9a42">createSolid</a> (<a class="el" href="namespaceKarm_1_1Math.html#a426444acde4f3001dcce67b098806958">Math::Polyf</a> &amp;poly, <a class="el" href="structKarm_1_1Math_1_1Path.html">Math::Path</a> const &amp;path)</td></tr>
-<tr class="separator:ab963778dfeb2b245fa6c13f25d9c9a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ababe72af9f8a216ddab432f3d56c13c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Stroke</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ababe72af9f8a216ddab432f3d56c13c0">stroke</a> (auto... args)</td></tr>
-<tr class="separator:ababe72af9f8a216ddab432f3d56c13c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c9201ee75bd996fd17fbda0ccaa8abf"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Stroke</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a4c9201ee75bd996fd17fbda0ccaa8abf">stroke</a> (auto... args)</td></tr>
+<tr class="separator:a4c9201ee75bd996fd17fbda0ccaa8abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a402345518625ddfd901f8d976dfa3"><td class="memItemLeft" align="right" valign="top">export void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#ab5a402345518625ddfd901f8d976dfa3">createStroke</a> (<a class="el" href="namespaceKarm_1_1Math.html#a426444acde4f3001dcce67b098806958">Math::Polyf</a> &amp;poly, <a class="el" href="structKarm_1_1Math_1_1Path.html">Math::Path</a> const &amp;path, <a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Stroke</a> <a class="el" href="namespaceKarm_1_1Gfx.html#a4c9201ee75bd996fd17fbda0ccaa8abf">stroke</a>)</td></tr>
+<tr class="separator:ab5a402345518625ddfd901f8d976dfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad0f302e9543abf22103b08f68503f3"><td class="memItemLeft" align="right" valign="top">export void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a1ad0f302e9543abf22103b08f68503f3">createSolid</a> (<a class="el" href="namespaceKarm_1_1Math.html#a426444acde4f3001dcce67b098806958">Math::Polyf</a> &amp;poly, <a class="el" href="structKarm_1_1Math_1_1Path.html">Math::Path</a> const &amp;path)</td></tr>
+<tr class="separator:a1ad0f302e9543abf22103b08f68503f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9280035b42411d9ab60e7462f53222aa"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Rgba8888.html">Rgba8888</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a9280035b42411d9ab60e7462f53222aa">RGBA8888</a></td></tr>
+<tr class="separator:a9280035b42411d9ab60e7462f53222aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9568b99d7c843969fd938cdc68f9bac"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Bgra8888.html">Bgra8888</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#af9568b99d7c843969fd938cdc68f9bac">BGRA8888</a></td></tr>
+<tr class="separator:af9568b99d7c843969fd938cdc68f9bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61082ca7776dbe907c4928d597f6d6f7"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1Greyscale8.html">Greyscale8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a61082ca7776dbe907c4928d597f6d6f7">GREYSCALE8</a></td></tr>
+<tr class="separator:a61082ca7776dbe907c4928d597f6d6f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ed15df3daa74dc74a3fe616fc20894"><td class="memItemLeft" align="right" valign="top">export constexpr <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a66ed15df3daa74dc74a3fe616fc20894">ALPHA</a> = {0, 0, 0, 0}</td></tr>
+<tr class="separator:a66ed15df3daa74dc74a3fe616fc20894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab0d52416b581ac86d77ae59bf92fba"><td class="memItemLeft" align="right" valign="top">export constexpr <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a6ab0d52416b581ac86d77ae59bf92fba">BLACK</a> = {0, 0, 0, 255}</td></tr>
+<tr class="separator:a6ab0d52416b581ac86d77ae59bf92fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066054dc73f6c0b6bc267e5e868237c7"><td class="memItemLeft" align="right" valign="top">export constexpr <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a066054dc73f6c0b6bc267e5e868237c7">WHITE</a> = {255, 255, 255, 255}</td></tr>
+<tr class="separator:a066054dc73f6c0b6bc267e5e868237c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b1be7089f1dc4e5ad2b69d9413116c"><td class="memItemLeft" align="right" valign="top">export constexpr <a class="el" href="structKarm_1_1Array.html">Array</a>&lt; <a class="el" href="namespaceKarm_1_1Gfx.html#adf0a684a57f60d932be18e5459a9ab53">ColorRamp</a>, 22 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#af9b1be7089f1dc4e5ad2b69d9413116c">RAMPS</a></td></tr>
+<tr class="separator:af9b1be7089f1dc4e5ad2b69d9413116c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1860a3da3b9ba4fde47ce3fbf282d551"><td class="memItemLeft" align="right" valign="top">export constexpr <a class="el" href="structKarm_1_1Array.html">Array</a>&lt; <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>, 22 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a1860a3da3b9ba4fde47ce3fbf282d551">COLORS</a></td></tr>
+<tr class="separator:a1860a3da3b9ba4fde47ce3fbf282d551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef034dfd771cb7ec994ba30f7a0bb9bb"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1LcdLayout.html">LcdLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#aef034dfd771cb7ec994ba30f7a0bb9bb">RGB</a> = {{+0.33, 0.0}, {0.0, 0.0}, {-0.33, 0.0}}</td></tr>
+<tr class="separator:aef034dfd771cb7ec994ba30f7a0bb9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1efb35487cd8cd0987019a55221ceaba"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1LcdLayout.html">LcdLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a1efb35487cd8cd0987019a55221ceaba">BGR</a> = {{-0.33, 0.0}, {0.0, 0.0}, {+0.33, 0.0}}</td></tr>
+<tr class="separator:a1efb35487cd8cd0987019a55221ceaba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6c88b7cd07beed24de62930e81edc8"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="structKarm_1_1Gfx_1_1LcdLayout.html">LcdLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a6e6c88b7cd07beed24de62930e81edc8">VRGB</a> = {{0.0, +0.33}, {0.0, 0.0}, {0.0, -0.33}}</td></tr>
+<tr class="separator:a6e6c88b7cd07beed24de62930e81edc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="adf0a684a57f60d932be18e5459a9ab53" name="adf0a684a57f60d932be18e5459a9ab53"></a>
@@ -602,14 +630,14 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aafc8f40c1bce01981f2923ef6b2807bb" name="aafc8f40c1bce01981f2923ef6b2807bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafc8f40c1bce01981f2923ef6b2807bb">&#9670;&#160;</a></span>blitUnsafe()</h2>
+<a id="a88a4a2ac51ffbc5b947331d35bc5d058" name="a88a4a2ac51ffbc5b947331d35bc5d058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a4a2ac51ffbc5b947331d35bc5d058">&#9670;&#160;</a></span>blitUnsafe()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Karm::Gfx::blitUnsafe </td>
+          <td class="memname">export void Karm::Gfx::blitUnsafe </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceKarm_1_1Gfx.html#a06a73bd0d78227ce4f4dc8f840c55c70">MutPixels</a>&#160;</td>
           <td class="paramname"><em>dst</em>, </td>
@@ -648,14 +676,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab963778dfeb2b245fa6c13f25d9c9a42" name="ab963778dfeb2b245fa6c13f25d9c9a42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab963778dfeb2b245fa6c13f25d9c9a42">&#9670;&#160;</a></span>createSolid()</h2>
+<a id="a1ad0f302e9543abf22103b08f68503f3" name="a1ad0f302e9543abf22103b08f68503f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad0f302e9543abf22103b08f68503f3">&#9670;&#160;</a></span>createSolid()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Karm::Gfx::createSolid </td>
+          <td class="memname">export void Karm::Gfx::createSolid </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceKarm_1_1Math.html#a426444acde4f3001dcce67b098806958">Math::Polyf</a> &amp;&#160;</td>
           <td class="paramname"><em>poly</em>, </td>
@@ -676,14 +704,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ba5f23b69bd01a7c9f570dea45cc35c" name="a7ba5f23b69bd01a7c9f570dea45cc35c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba5f23b69bd01a7c9f570dea45cc35c">&#9670;&#160;</a></span>createStroke()</h2>
+<a id="ab5a402345518625ddfd901f8d976dfa3" name="ab5a402345518625ddfd901f8d976dfa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a402345518625ddfd901f8d976dfa3">&#9670;&#160;</a></span>createStroke()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Karm::Gfx::createStroke </td>
+          <td class="memname">export void Karm::Gfx::createStroke </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceKarm_1_1Math.html#a426444acde4f3001dcce67b098806958">Math::Polyf</a> &amp;&#160;</td>
           <td class="paramname"><em>poly</em>, </td>
@@ -710,14 +738,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa06650150b3b76b75f3165529e35199f" name="aa06650150b3b76b75f3165529e35199f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa06650150b3b76b75f3165529e35199f">&#9670;&#160;</a></span>hslToRgb()</h2>
+<a id="a196d6d35ff1fc8478370c8a2ee650320" name="a196d6d35ff1fc8478370c8a2ee650320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196d6d35ff1fc8478370c8a2ee650320">&#9670;&#160;</a></span>hslToRgb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::hslToRgb </td>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::hslToRgb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Hsl</a>&#160;</td>
           <td class="paramname"><em>hsl</em></td><td>)</td>
@@ -728,14 +756,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae53da8353449ca40a5bad1378f605a67" name="ae53da8353449ca40a5bad1378f605a67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae53da8353449ca40a5bad1378f605a67">&#9670;&#160;</a></span>hsvToRgb()</h2>
+<a id="a89bb4c8e5471dc9eae515f392da4f565" name="a89bb4c8e5471dc9eae515f392da4f565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89bb4c8e5471dc9eae515f392da4f565">&#9670;&#160;</a></span>hsvToRgb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::hsvToRgb </td>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::hsvToRgb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Hsv</a>&#160;</td>
           <td class="paramname"><em>hsv</em></td><td>)</td>
@@ -746,14 +774,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a66f6284a870b57f9785d19f4038a1ef9" name="a66f6284a870b57f9785d19f4038a1ef9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f6284a870b57f9785d19f4038a1ef9">&#9670;&#160;</a></span>rainbowColor()</h2>
+<a id="aa2a220798a6bf7e2f3d72693777dc8c0" name="aa2a220798a6bf7e2f3d72693777dc8c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a220798a6bf7e2f3d72693777dc8c0">&#9670;&#160;</a></span>rainbowColor()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Gfx::Color</a> Karm::Gfx::rainbowColor </td>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::rainbowColor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -763,14 +791,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adf0730e28261ab45461a517b0039ae9d" name="adf0730e28261ab45461a517b0039ae9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf0730e28261ab45461a517b0039ae9d">&#9670;&#160;</a></span>randomColor() <span class="overload">[1/2]</span></h2>
+<a id="af9ff97c171ce3d9b762ddbac1b2af855" name="af9ff97c171ce3d9b762ddbac1b2af855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9ff97c171ce3d9b762ddbac1b2af855">&#9670;&#160;</a></span>randomColor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::randomColor </td>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::randomColor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -780,14 +808,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a28536cc55216863a6f3d6931be9071ec" name="a28536cc55216863a6f3d6931be9071ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28536cc55216863a6f3d6931be9071ec">&#9670;&#160;</a></span>randomColor() <span class="overload">[2/2]</span></h2>
+<a id="a38fd2737a2ee267ddb89a1b7922859ff" name="a38fd2737a2ee267ddb89a1b7922859ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38fd2737a2ee267ddb89a1b7922859ff">&#9670;&#160;</a></span>randomColor() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::randomColor </td>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::randomColor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structKarm_1_1Math_1_1Rand.html">Math::Rand</a> &amp;&#160;</td>
           <td class="paramname"><em>rand</em></td><td>)</td>
@@ -798,14 +826,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a67d83483be32e39c8c4e2fbf53c81e5f" name="a67d83483be32e39c8c4e2fbf53c81e5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67d83483be32e39c8c4e2fbf53c81e5f">&#9670;&#160;</a></span>rgbToHsl()</h2>
+<a id="a5e80e4a66b10517b8780ca203016206e" name="a5e80e4a66b10517b8780ca203016206e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e80e4a66b10517b8780ca203016206e">&#9670;&#160;</a></span>rgbToHsl()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Hsl</a> Karm::Gfx::rgbToHsl </td>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Hsl.html">Hsl</a> Karm::Gfx::rgbToHsl </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td>
           <td class="paramname"><em>color</em></td><td>)</td>
@@ -816,14 +844,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a11b2b9b477b7c0df121abe78e38880fb" name="a11b2b9b477b7c0df121abe78e38880fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11b2b9b477b7c0df121abe78e38880fb">&#9670;&#160;</a></span>rgbToHsv()</h2>
+<a id="ad01e2c47c0e412327422575b8c3a8010" name="ad01e2c47c0e412327422575b8c3a8010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad01e2c47c0e412327422575b8c3a8010">&#9670;&#160;</a></span>rgbToHsv()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Hsv</a> Karm::Gfx::rgbToHsv </td>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Hsv.html">Hsv</a> Karm::Gfx::rgbToHsv </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td>
           <td class="paramname"><em>color</em></td><td>)</td>
@@ -834,8 +862,63 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ababe72af9f8a216ddab432f3d56c13c0" name="ababe72af9f8a216ddab432f3d56c13c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ababe72af9f8a216ddab432f3d56c13c0">&#9670;&#160;</a></span>stroke()</h2>
+<a id="ae26fc3125302c3d8fa5235eb8bc7b379" name="ae26fc3125302c3d8fa5235eb8bc7b379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae26fc3125302c3d8fa5235eb8bc7b379">&#9670;&#160;</a></span>rgbToYCbCr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1YCbCr.html">YCbCr</a> Karm::Gfx::rgbToYCbCr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c9201ee75bd996fd17fbda0ccaa8abf" name="a4c9201ee75bd996fd17fbda0ccaa8abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c9201ee75bd996fd17fbda0ccaa8abf">&#9670;&#160;</a></span>stroke()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Stroke</a> Karm::Gfx::stroke </td>
+          <td>(</td>
+          <td class="paramtype">auto...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a46539af20e403c932fc217aa538be7" name="a8a46539af20e403c932fc217aa538be7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a46539af20e403c932fc217aa538be7">&#9670;&#160;</a></span>yCbCrToRgb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::yCbCrToRgb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKarm_1_1Gfx_1_1YCbCr.html">YCbCr</a>&#160;</td>
+          <td class="paramname"><em>yCbCr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a66ed15df3daa74dc74a3fe616fc20894" name="a66ed15df3daa74dc74a3fe616fc20894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ed15df3daa74dc74a3fe616fc20894">&#9670;&#160;</a></span>ALPHA</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -844,16 +927,200 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structKarm_1_1Gfx_1_1Stroke.html">Stroke</a> Karm::Gfx::stroke </td>
-          <td>(</td>
-          <td class="paramtype">auto...&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
+          <td class="memname">export constexpr <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::ALPHA = {0, 0, 0, 0}</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1efb35487cd8cd0987019a55221ceaba" name="a1efb35487cd8cd0987019a55221ceaba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1efb35487cd8cd0987019a55221ceaba">&#9670;&#160;</a></span>BGR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1LcdLayout.html">LcdLayout</a> Karm::Gfx::BGR = {{-0.33, 0.0}, {0.0, 0.0}, {+0.33, 0.0}}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9568b99d7c843969fd938cdc68f9bac" name="af9568b99d7c843969fd938cdc68f9bac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9568b99d7c843969fd938cdc68f9bac">&#9670;&#160;</a></span>BGRA8888</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Bgra8888.html">Bgra8888</a> Karm::Gfx::BGRA8888</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ab0d52416b581ac86d77ae59bf92fba" name="a6ab0d52416b581ac86d77ae59bf92fba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab0d52416b581ac86d77ae59bf92fba">&#9670;&#160;</a></span>BLACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export constexpr <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::BLACK = {0, 0, 0, 255}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1860a3da3b9ba4fde47ce3fbf282d551" name="a1860a3da3b9ba4fde47ce3fbf282d551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1860a3da3b9ba4fde47ce3fbf282d551">&#9670;&#160;</a></span>COLORS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export constexpr <a class="el" href="structKarm_1_1Array.html">Array</a>&lt;<a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a>, 22&gt; Karm::Gfx::COLORS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    SLATE, GRAY, ZINC, NEUTRAL,</div>
+<div class="line">    STONE, RED, ORANGE, AMBER,</div>
+<div class="line">    YELLOW, LIME, GREEN, EMERALD,</div>
+<div class="line">    TEAL, CYAN, SKY, BLUE,</div>
+<div class="line">    INDIGO, VIOLET, PURPLE, FUCHSIA,</div>
+<div class="line">    PINK, ROSE</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a61082ca7776dbe907c4928d597f6d6f7" name="a61082ca7776dbe907c4928d597f6d6f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61082ca7776dbe907c4928d597f6d6f7">&#9670;&#160;</a></span>GREYSCALE8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Greyscale8.html">Greyscale8</a> Karm::Gfx::GREYSCALE8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9b1be7089f1dc4e5ad2b69d9413116c" name="af9b1be7089f1dc4e5ad2b69d9413116c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b1be7089f1dc4e5ad2b69d9413116c">&#9670;&#160;</a></span>RAMPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export constexpr <a class="el" href="structKarm_1_1Array.html">Array</a>&lt;<a class="el" href="namespaceKarm_1_1Gfx.html#adf0a684a57f60d932be18e5459a9ab53">ColorRamp</a>, 22&gt; Karm::Gfx::RAMPS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    SLATE_RAMP, GRAY_RAMP, ZINC_RAMP, NEUTRAL_RAMP,</div>
+<div class="line">    STONE_RAMP, RED_RAMP, ORANGE_RAMP, AMBER_RAMP,</div>
+<div class="line">    YELLOW_RAMP, LIME_RAMP, GREEN_RAMP, EMERALD_RAMP,</div>
+<div class="line">    TEAL_RAMP, CYAN_RAMP, SKY_RAMP, BLUE_RAMP,</div>
+<div class="line">    INDIGO_RAMP, VIOLET_RAMP, PURPLE_RAMP, FUCHSIA_RAMP,</div>
+<div class="line">    PINK_RAMP, ROSE_RAMP</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aef034dfd771cb7ec994ba30f7a0bb9bb" name="aef034dfd771cb7ec994ba30f7a0bb9bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef034dfd771cb7ec994ba30f7a0bb9bb">&#9670;&#160;</a></span>RGB</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1LcdLayout.html">LcdLayout</a> Karm::Gfx::RGB = {{+0.33, 0.0}, {0.0, 0.0}, {-0.33, 0.0}}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9280035b42411d9ab60e7462f53222aa" name="a9280035b42411d9ab60e7462f53222aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9280035b42411d9ab60e7462f53222aa">&#9670;&#160;</a></span>RGBA8888</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1Rgba8888.html">Rgba8888</a> Karm::Gfx::RGBA8888</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e6c88b7cd07beed24de62930e81edc8" name="a6e6c88b7cd07beed24de62930e81edc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e6c88b7cd07beed24de62930e81edc8">&#9670;&#160;</a></span>VRGB</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="structKarm_1_1Gfx_1_1LcdLayout.html">LcdLayout</a> Karm::Gfx::VRGB = {{0.0, +0.33}, {0.0, 0.0}, {0.0, -0.33}}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a066054dc73f6c0b6bc267e5e868237c7" name="a066054dc73f6c0b6bc267e5e868237c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066054dc73f6c0b6bc267e5e868237c7">&#9670;&#160;</a></span>WHITE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">export constexpr <a class="el" href="structKarm_1_1Gfx_1_1Color.html">Color</a> Karm::Gfx::WHITE = {255, 255, 255, 255}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

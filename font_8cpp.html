@@ -98,17 +98,38 @@ $(document).ready(function(){initNavTree('font_8cpp.html',''); initResizable(); 
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">font.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="canvas_8h_source.html">karm-gfx/canvas.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="font_8h_source.html">font.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="vga_8inc.html">defs/vga.inc</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="logger_8h_source.html">karm-logger/logger.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="rect_8h_source.html">karm-math/rect.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1VgaFontface.html">Karm::Gfx::VgaFontface</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Glyph.html">Karm::Gfx::Glyph</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontWeight.html">Karm::Gfx::FontWeight</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontStretch.html">Karm::Gfx::FontStretch</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontAttrs.html">Karm::Gfx::FontAttrs</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontMetrics.html">Karm::Gfx::FontMetrics</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontMeasure.html">Karm::Gfx::FontMeasure</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Fontface.html">Karm::Gfx::Fontface</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontAdjust.html">Karm::Gfx::FontAdjust</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontFamily.html">Karm::Gfx::FontFamily</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1FontFamily_1_1Member.html">Karm::Gfx::FontFamily::Member</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKarm_1_1Gfx_1_1Font.html">Karm::Gfx::Font</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -117,7 +138,90 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceKarm_1_1Gfx"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html">Karm::Gfx</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a1535430f415c827187717e6cae14c482"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482">Karm::Gfx::FontStyle</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a1e23852820b9154316c7c06e2b7ba051">Karm::Gfx::NORMAL</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a08e76c6cf31341b61b0bc6c662773828">Karm::Gfx::OBLIQUE</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a25093123b8943308104129e1d762f3b7">Karm::Gfx::ITALIC</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a1535430f415c827187717e6cae14c482a94935cef4046d086a88dc70dae2086ca">Karm::Gfx::NO_MATCH</a>
+, <b>Karm::Gfx::_LEN</b>
+ }</td></tr>
+<tr class="separator:a1535430f415c827187717e6cae14c482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b45eafe0109eed17448005467f7f6da"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a9b45eafe0109eed17448005467f7f6da">Karm::Gfx::Monospace</a> { <a class="el" href="namespaceKarm_1_1Gfx.html#a9b45eafe0109eed17448005467f7f6daac2f3f489a00553e7a01d369c103c7251">Karm::Gfx::NO</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a9b45eafe0109eed17448005467f7f6daa7469a286259799e5b37e5db9296f00b3">Karm::Gfx::YES</a>
+, <b>Karm::Gfx::_LEN</b>
+ }</td></tr>
+<tr class="separator:a9b45eafe0109eed17448005467f7f6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c0f6cfe7909d4ebec0d59ea8f7bfcc"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcc">Karm::Gfx::GenericFamily</a> { <br />
+&#160;&#160;<a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca4f5de0ac9e414db58c967bde1b1360cf">Karm::Gfx::SERIF</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca9195e6994ae866b9b4cd76760190ffb5">Karm::Gfx::SANS_SERIF</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca15915ae6bbcd77c253328799a737a63e">Karm::Gfx::MONOSPACE</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccac02370ee7d395c075c293be914d5859d">Karm::Gfx::CURSIVE</a>
+, <br />
+&#160;&#160;<a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccaa53561bf0d3ab67102f9e8cb635d8c95">Karm::Gfx::FANTASY</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccafa177138f94a7ea01f549b1aa7893d03">Karm::Gfx::SYSTEM</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca3d5a8e602b2db6ec81688075668247f5">Karm::Gfx::EMOJI</a>
+, <a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfcca65571aa0536447fb1cf47a2b5a98954b">Karm::Gfx::MATH</a>
+, <br />
+&#160;&#160;<a class="el" href="namespaceKarm_1_1Gfx.html#a22c0f6cfe7909d4ebec0d59ea8f7bfccac89a7f3fd2fbf4fbebd93cca95515d3d">Karm::Gfx::FANGSONG</a>
+, <b>Karm::Gfx::_LEN</b>
+<br />
+ }</td></tr>
+<tr class="separator:a22c0f6cfe7909d4ebec0d59ea8f7bfcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="font_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a></td></tr>
+<tr class="separator:a96e5f0eca87c2426370e0897ac7b8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83841fb03aad2d756d79eeb2ac6e98f"><td class="memItemLeft" align="right" valign="top">export <a class="el" href="impls_2impl-posix_2epoll_2async_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="font_8cpp.html#af83841fb03aad2d756d79eeb2ac6e98f">Gfx</a></td></tr>
+<tr class="separator:af83841fb03aad2d756d79eeb2ac6e98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="font_8cpp.html#abedc7e19652ef6fd2984ea9cb3d62db5">Core</a></td></tr>
+<tr class="separator:abedc7e19652ef6fd2984ea9cb3d62db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="abedc7e19652ef6fd2984ea9cb3d62db5" name="abedc7e19652ef6fd2984ea9cb3d62db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedc7e19652ef6fd2984ea9cb3d62db5">&#9670;&#160;</a></span>Core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="karm-app_2mod_8cpp.html#aff55674fa41a3a4ef62434c039b6c32d">import</a> Karm Core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af83841fb03aad2d756d79eeb2ac6e98f" name="af83841fb03aad2d756d79eeb2ac6e98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af83841fb03aad2d756d79eeb2ac6e98f">&#9670;&#160;</a></span>Gfx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">export <a class="el" href="impls_2impl-posix_2epoll_2async_8cpp.html#a96e5f0eca87c2426370e0897ac7b8ca6">module</a> Karm Gfx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e5f0eca87c2426370e0897ac7b8ca6" name="a96e5f0eca87c2426370e0897ac7b8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f0eca87c2426370e0897ac7b8ca6">&#9670;&#160;</a></span>module</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">module</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
