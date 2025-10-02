@@ -79,6 +79,7 @@ var namespaceKarm_1_1Sys =
     [ "err", "namespaceKarm_1_1Sys.html#a91b3778f6ff1e38b66846415562a4fae", null ],
     [ "err", "namespaceKarm_1_1Sys.html#a7467f898600e351c85ea2a1949b1c8fa", null ],
     [ "errln", "namespaceKarm_1_1Sys.html#ad21118d5541352cd1740a3657feed41a", null ],
+    [ "exit", "namespaceKarm_1_1Sys.html#a54dd5b3fe336f7d521d4fc6e8cb4ba07", null ],
     [ "globalEndpoint", "namespaceKarm_1_1Sys.html#afe743fdd47eb211640d833f83c0943d4", null ],
     [ "globalSched", "namespaceKarm_1_1Sys.html#ab6032c85c347fba164e6d08b655b4ad8", null ],
     [ "in", "namespaceKarm_1_1Sys.html#a3bb020edba4a1d0bc18245af5117e12a", null ],
